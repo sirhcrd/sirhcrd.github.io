@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Viewer</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px 50px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .file-picker-container {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        
+        .file-picker-label {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .file-picker-label:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        #fileInput {
+            display: none;
+        }
+        
+        .file-name {
+            margin-top: 15px;
+            color: white;
+            font-size: 0.95em;
+        }
+        
+        .placeholder {
+            text-align: center;
+            padding: 80px 20px;
+            color: #95a5a6;
+        }
+        
+        .placeholder-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        
+        .placeholder h2 {
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 0.5em;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 1.7em;
+            margin-top: 1.8em;
+            margin-bottom: 0.8em;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+        
+        h3 {
+            color: #2980b9;
+            font-size: 1.3em;
+            margin-top: 1.5em;
+            margin-bottom: 0.6em;
+        }
+        
+        h4 {
+            color: #16a085;
+            font-size: 1.1em;
+            margin-top: 1.2em;
+            margin-bottom: 0.5em;
+        }
+        
+        p {
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+        
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+        
+        em {
+            font-style: italic;
+            color: #555;
+        }
+        
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 1em;
+        }
+        
+        li {
+            margin-bottom: 0.4em;
+        }
+        
+        code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #e74c3c;
+        }
+        
+        pre {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 1em 0;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        
+        pre code {
+            background: transparent;
+            padding: 0;
+            color: #ecf0f1;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5em 0;
+            font-size: 0.9em;
+        }
+        
+        th {
+            background: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        tr:hover {
+            background: #e8f4f8;
+        }
+        
+        blockquote {
+            border-left: 4px solid #3498db;
+            padding-left: 20px;
+            margin: 1.5em 0;
+            color: #555;
+            font-style: italic;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #ecf0f1;
+            margin: 2em 0;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 1em 0;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+            .file-picker-container {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="file-picker-container">
+            <label for="fileInput" class="file-picker-label">
+                📁 Choose Markdown File (.md)
+            </label>
+            <input type="file" id="fileInput" accept=".md,.markdown" />
+            <div class="file-name" id="fileName">No file selected</div>
+        </div>
+        
+        <div id="content">
+            <div class="placeholder">
+                <div class="placeholder-icon">📄</div>
+                <h2>No file selected</h2>
+                <p>Click the button above to choose a Markdown (.md) file to view</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Configure marked for GitHub Flavored Markdown
+        marked.setOptions({
+            breaks: true,
+            gfm: true,
+            headerIds: true,
+            mangle: false
+        });
+
+        // File input handler
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            
+            if (file) {
+                document.getElementById('fileName').textContent = `📄 ${file.name}`;
+                
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    const markdown = event.target.result;
+                    const html = marked.parse(markdown);
+                    document.getElementById('content').innerHTML = html;
+                };
+                reader.onerror = function() {
+                    document.getElementById('content').innerHTML = 
+                        '<div class="placeholder"><div class="placeholder-icon">⚠️</div><h2>Error reading file</h2><p>Unable to read the selected file. Please try another.</p></div>';
+                };
+                reader.readAsText(file);
+            }
+        });
+    </script>
+</body>
+</html>

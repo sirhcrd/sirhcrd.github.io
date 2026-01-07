@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Log Viewer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+            color: white;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 1.2em;
+        }
+        .content {
+            padding: 40px;
+            background: #f8f9fa;
+        }
+        .log-selector {
+            text-align: center;
+            margin-bottom: 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(102, 126, 234, 0.1);
+        }
+        .log-selector h2 {
+            color: #667eea;
+            margin-bottom: 30px;
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+        .browse-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .browse-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        .browse-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        .selected-file {
+            margin-top: 15px;
+            padding: 15px;
+            background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%);
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            color: #5e35b1;
+            font-weight: 500;
+        }
+        .viewer-area {
+            display: none;
+            border: 1px solid #dde7f0;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.1);
+        }
+        .viewer-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 25px;
+            border-radius: 8px 8px 0 0;
+        }
+        .viewer-header h3 {
+            margin: 0;
+            font-size: 1.3em;
+            font-weight: 500;
+        }
+        .viewer-content {
+            padding: 25px;
+            max-height: 70vh;
+            overflow-y: auto;
+            background: #fafbfc;
+        }
+        .json-display {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            overflow-x: auto;
+        }
+        .json-display pre {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .json-key {
+            color: #881391;
+            font-weight: 600;
+        }
+        .json-string {
+            color: #1a1aa6;
+        }
+        .json-number {
+            color: #0000ff;
+        }
+        .json-boolean {
+            color: #0000ff;
+        }
+        .json-null {
+            color: #808080;
+        }
+        .viewer-content::-webkit-scrollbar {
+            width: 8px;
+        }
+        .viewer-content::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+        .viewer-content::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+        }
+        .viewer-content::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, #5568d3 0%, #664d91 100%);
+        }
+        .back-button {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+        .back-button:hover {
+            background: #5a6268;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 JSON Log Viewer</h1>
+            <p>Pretty-print and visualize your JSON log files</p>
+        </div>
+        <div class="content">
+            <div class="log-selector">
+                <h2>📁 Select a JSON File to View</h2>
+                <div class="browse-section">
+                    <input type="file" id="fileInput" accept=".json" style="display: none;" onchange="loadSelectedFile(event)">
+                    <button onclick="document.getElementById('fileInput').click()" class="browse-button">
+                        🗂️ Browse for JSON File
+                    </button>
+                    <div id="selectedFile" class="selected-file"></div>
+                </div>
+            </div>
+            <div id="viewer-area" class="viewer-area">
+                <div class="viewer-header">
+                    <h3 id="viewer-title">JSON Viewer</h3>
+                </div>
+                <div id="viewer-content" class="viewer-content">
+                    <!-- JSON content will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function loadSelectedFile(event) {
+            const file = event.target.files[0];
+            if (file) {
+                document.getElementById('selectedFile').innerHTML = `<strong>✅ Selected:</strong> ${file.name}`;
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        const jsonData = JSON.parse(e.target.result);
+                        // Show viewer area
+                        const viewerArea = document.getElementById('viewer-area');
+                        viewerArea.style.display = 'block';
+                        // Update title
+                        document.getElementById('viewer-title').textContent = `📄 ${file.name}`;
+                        // Display the JSON content
+                        displayJsonContent(jsonData);
+                        // Scroll to viewer
+                        viewerArea.scrollIntoView({ behavior: 'smooth' });
+                    } catch (error) {
+                        document.getElementById('selectedFile').innerHTML = 
+                            `<strong>❌ Error:</strong> Invalid JSON - ${error.message}`;
+                        console.error('Error parsing JSON:', error);
+                    }
+                };
+                reader.readAsText(file);
+            }
+        }
+
+        function syntaxHighlight(json) {
+            if (typeof json !== 'string') {
+                json = JSON.stringify(json, null, 2);
+            }
+            json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+                let cls = 'json-number';
+                if (/^"/.test(match)) {
+                    if (/:$/.test(match)) {
+                        cls = 'json-key';
+                    } else {
+                        cls = 'json-string';
+                    }
+                } else if (/true|false/.test(match)) {
+                    cls = 'json-boolean';
+                } else if (/null/.test(match)) {
+                    cls = 'json-null';
+                }
+                return '<span class="' + cls + '">' + match + '</span>';
+            });
+        }
+
+        function displayJsonContent(jsonData) {
+            const backButton = `<button class="back-button" onclick="resetViewer()">← Load Another File</button>`;
+            const highlightedJson = syntaxHighlight(jsonData);
+            const content = `
+                ${backButton}
+                <div class="json-display">
+                    <pre>${highlightedJson}</pre>
+                </div>
+            `;
+            document.getElementById('viewer-content').innerHTML = content;
+        }
+
+        function resetViewer() {
+            document.getElementById('viewer-area').style.display = 'none';
+            document.getElementById('selectedFile').innerHTML = '';
+            document.getElementById('fileInput').value = '';
+            document.querySelector('.log-selector').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        console.log('JSON Log Viewer initialized - please browse for a JSON file to view');
+    </script>
+</body>
+</html>

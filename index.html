@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Web Tools - Client-Side File Viewers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px;
+        }
+        
+        .tool-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        
+        .tool-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        .tool-card p {
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .tool-card .features {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+        
+        .tool-card .features li {
+            padding: 8px 0;
+            color: #666;
+        }
+        
+        .tool-card .features li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .privacy-notice {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 20px;
+            margin: 40px;
+            border-radius: 4px;
+        }
+        
+        .privacy-notice h3 {
+            color: #2e7d32;
+            margin-bottom: 10px;
+        }
+        
+        .privacy-notice p {
+            color: #424242;
+            line-height: 1.7;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛠️ Free Web Tools</h1>
+            <p>Client-side file viewers that respect your privacy</p>
+        </header>
+        
+        <div class="privacy-notice">
+            <h3>🔒 100% Private & Secure</h3>
+            <p>
+                All tools run entirely in your browser. Your files never leave your computer. 
+                No uploads, no servers, no tracking. Just pure client-side processing using 
+                the browser's File API.
+            </p>
+        </div>
+        
+        <div class="tools-grid">
+            <div class="tool-card">
+                <h2>📝 Markdown Viewer</h2>
+                <p>
+                    View your Markdown files with beautiful formatting, syntax highlighting, 
+                    and a clean reading experience.
+                </p>
+                <ul class="features">
+                    <li>Instant markdown rendering</li>
+                    <li>GitHub-style formatting</li>
+                    <li>Code syntax highlighting</li>
+                    <li>Table support</li>
+                    <li>Responsive design</li>
+                </ul>
+                <a href="markdown-viewer.html" class="btn">Open Markdown Viewer</a>
+            </div>
+            
+            <div class="tool-card">
+                <h2>📊 JSON Log Viewer</h2>
+                <p>
+                    Parse and visualize JSON log files with filtering, search, and 
+                    structured display for easy debugging.
+                </p>
+                <ul class="features">
+                    <li>Pretty-print JSON formatting</li>
+                    <li>Search and filter logs</li>
+                    <li>Syntax highlighting</li>
+                    <li>Expandable/collapsible nodes</li>
+                    <li>Copy formatted output</li>
+                </ul>
+                <a href="json-log-viewer.html" class="btn">Open JSON Log Viewer</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>
+                Made with ❤️ for the community | 
+                <a href="https://github.com/sirhcrd/sirhcrd.github.io" target="_blank">View on GitHub</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
