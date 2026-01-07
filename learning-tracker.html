@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Learning Progress Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+        
+        header p {
+            opacity: 0.95;
+            font-size: 1.1em;
+        }
+        
+        .progress-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e9ecef;
+        }
+        
+        .progress-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .progress-card h3 {
+            color: #667eea;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .progress-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .progress-card .label {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+        
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .phase {
+            margin-bottom: 40px;
+        }
+        
+        .phase-header {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .phase-header h2 {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        
+        .phase-header .meta {
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        .month-section {
+            margin-bottom: 25px;
+        }
+        
+        .month-section h3 {
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        .week-item {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            margin-bottom: 8px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+        
+        .week-item:hover {
+            background: #e9ecef;
+        }
+        
+        .week-item.completed {
+            background: #e8f5e9;
+        }
+        
+        .week-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        
+        .week-item label {
+            flex: 1;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .week-item.completed label {
+            color: #2e7d32;
+            text-decoration: line-through;
+        }
+        
+        .actions {
+            padding: 30px;
+            background: #f8f9fa;
+            text-align: center;
+            border-top: 2px solid #e9ecef;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            box-shadow: 0 4px 15px rgba(108, 117, 125, 0.4);
+        }
+        
+        .btn-secondary:hover {
+            box-shadow: 0 6px 20px rgba(108, 117, 125, 0.6);
+        }
+        
+        .current-week {
+            background: #fff3cd !important;
+            border-left: 4px solid #ffc107;
+            padding-left: 16px;
+        }
+        
+        .current-week label::before {
+            content: "⭐ ";
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 2026 Learning Journey</h1>
+            <p>Data Engineering → AI/ML → Azure → Enterprise Architecture</p>
+        </header>
+        
+        <div class="progress-summary">
+            <div class="progress-card">
+                <h3>Overall Progress</h3>
+                <div class="number" id="overall-percent">0%</div>
+                <div class="label"><span id="completed-weeks">0</span> of 52 weeks</div>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" id="overall-bar" style="width: 0%"></div>
+                </div>
+            </div>
+            <div class="progress-card">
+                <h3>Current Phase</h3>
+                <div class="number" id="current-phase">Phase 1</div>
+                <div class="label" id="phase-desc">Data Engineering</div>
+            </div>
+            <div class="progress-card">
+                <h3>Week Number</h3>
+                <div class="number" id="current-week-num">2</div>
+                <div class="label">of 52 weeks</div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- Phase 1 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <h2>Phase 1: Data Engineering Foundations</h2>
+                    <div class="meta">Weeks 1-16 | Target: April 26, 2026 | Book: Fundamentals of Data Engineering</div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>January: Ingestion & Lifecycle</h3>
+                    <div class="week-item current-week" data-week="1">
+                        <input type="checkbox" id="week1">
+                        <label for="week1">Week 1 (Jan 5-9): What Data Engineering Really Is</label>
+                    </div>
+                    <div class="week-item" data-week="2">
+                        <input type="checkbox" id="week2">
+                        <label for="week2">Week 2 (Jan 12-16): Ingestion Patterns</label>
+                    </div>
+                    <div class="week-item" data-week="3">
+                        <input type="checkbox" id="week3">
+                        <label for="week3">Week 3 (Jan 19-23): Storage & State</label>
+                    </div>
+                    <div class="week-item" data-week="4">
+                        <input type="checkbox" id="week4">
+                        <label for="week4">Week 4 (Jan 26-30): Transformation Patterns</label>
+                    </div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>February: Storage & Transformations</h3>
+                    <div class="week-item" data-week="5">
+                        <input type="checkbox" id="week5">
+                        <label for="week5">Week 5 (Feb 2-6): Data Quality & Observability</label>
+                    </div>
+                    <div class="week-item" data-week="6">
+                        <input type="checkbox" id="week6">
+                        <label for="week6">Week 6 (Feb 9-13): Serving & Metrics</label>
+                    </div>
+                    <div class="week-item" data-week="7">
+                        <input type="checkbox" id="week7">
+                        <label for="week7">Week 7 (Feb 16-20): Ownership & Data Products</label>
+                    </div>
+                    <div class="week-item" data-week="8">
+                        <input type="checkbox" id="week8">
+                        <label for="week8">Week 8 (Feb 23-27): Review & Retrospective</label>
+                    </div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>March: Quality, Observability, Ownership</h3>
+                    <div class="week-item" data-week="9">
+                        <input type="checkbox" id="week9">
+                        <label for="week9">Week 9 (Mar 2-6): Orchestration</label>
+                    </div>
+                    <div class="week-item" data-week="10">
+                        <input type="checkbox" id="week10">
+                        <label for="week10">Week 10 (Mar 9-13): Security & Privacy</label>
+                    </div>
+                    <div class="week-item" data-week="11">
+                        <input type="checkbox" id="week11">
+                        <label for="week11">Week 11 (Mar 16-20): DataOps & Automation</label>
+                    </div>
+                    <div class="week-item" data-week="12">
+                        <input type="checkbox" id="week12">
+                        <label for="week12">Week 12 (Mar 23-27): Data Architecture Patterns</label>
+                    </div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>April: End-to-End Pipeline Patterns</h3>
+                    <div class="week-item" data-week="13">
+                        <input type="checkbox" id="week13">
+                        <label for="week13">Week 13 (Mar 30-Apr 3): Team Structures & Collaboration</label>
+                    </div>
+                    <div class="week-item" data-week="14">
+                        <input type="checkbox" id="week14">
+                        <label for="week14">Week 14 (Apr 6-10): Career Paths & Growth</label>
+                    </div>
+                    <div class="week-item" data-week="15">
+                        <input type="checkbox" id="week15">
+                        <label for="week15">Week 15 (Apr 13-17): Integration Across Concepts</label>
+                    </div>
+                    <div class="week-item" data-week="16">
+                        <input type="checkbox" id="week16">
+                        <label for="week16">Week 16 (Apr 20-24): Phase 1 Review & Synthesis</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phase 2 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <h2>Phase 2: AI/ML System Integration</h2>
+                    <div class="meta">Weeks 17-28 | Target: July 26, 2026 | Books: AI Engineering + Designing ML Systems</div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>May: AI Systems & Data Requirements</h3>
+                    <div class="week-item" data-week="17">
+                        <input type="checkbox" id="week17">
+                        <label for="week17">Week 17 (Apr 27-May 1): What is AI Engineering?</label>
+                    </div>
+                    <div class="week-item" data-week="18">
+                        <input type="checkbox" id="week18">
+                        <label for="week18">Week 18 (May 4-8): Data Requirements for AI Systems</label>
+                    </div>
+                    <div class="week-item" data-week="19">
+                        <input type="checkbox" id="week19">
+                        <label for="week19">Week 19 (May 11-15): Feature Engineering & Feature Stores</label>
+                    </div>
+                    <div class="week-item" data-week="20">
+                        <input type="checkbox" id="week20">
+                        <label for="week20">Week 20 (May 18-22): Real-time vs Batch Predictions</label>
+                    </div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>June: Feature Pipelines & Real-time ML</h3>
+                    <div class="week-item" data-week="21">
+                        <input type="checkbox" id="week21">
+                        <label for="week21">Week 21 (May 25-29): Model Serving Patterns</label>
+                    </div>
+                    <div class="week-item" data-week="22">
+                        <input type="checkbox" id="week22">
+                        <label for="week22">Week 22 (Jun 1-5): Monitoring ML Systems</label>
+                    </div>
+                    <div class="week-item" data-week="23">
+                        <input type="checkbox" id="week23">
+                        <label for="week23">Week 23 (Jun 8-12): Data Pipelines for ML</label>
+                    </div>
+                    <div class="week-item" data-week="24">
+                        <input type="checkbox" id="week24">
+                        <label for="week24">Week 24 (Jun 15-19): Integration with Data Platforms</label>
+                    </div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>July: AI Systems Integration</h3>
+                    <div class="week-item" data-week="25">
+                        <input type="checkbox" id="week25">
+                        <label for="week25">Week 25 (Jun 22-26): Model Drift & Versioning</label>
+                    </div>
+                    <div class="week-item" data-week="26">
+                        <input type="checkbox" id="week26">
+                        <label for="week26">Week 26 (Jun 29-Jul 3): ML Governance</label>
+                    </div>
+                    <div class="week-item" data-week="27">
+                        <input type="checkbox" id="week27">
+                        <label for="week27">Week 27 (Jul 6-10): Advanced Integration Patterns</label>
+                    </div>
+                    <div class="week-item" data-week="28">
+                        <input type="checkbox" id="week28">
+                        <label for="week28">Week 28 (Jul 13-17): Phase 2 Review & Synthesis</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phase 3 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <h2>Phase 3: Azure Architect + Cloud Systems</h2>
+                    <div class="meta">Weeks 29-40 | Target: October 25, 2026 | Focus: Microsoft Learn + Certification</div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>August: Azure Data Platform</h3>
+                    <div class="week-item" data-week="29">
+                        <input type="checkbox" id="week29">
+                        <label for="week29">Week 29 (Jul 20-24): Azure Data Factory</label>
+                    </div>
+                    <div class="week-item" data-week="30">
+                        <input type="checkbox" id="week30">
+                        <label for="week30">Week 30 (Jul 27-31): Azure Databricks</label>
+                    </div>
+                    <div class="week-item" data-week="31">
+                        <input type="checkbox" id="week31">
+                        <label for="week31">Week 31 (Aug 3-7): Azure Synapse & Delta Lake</label>
+                    </div>
+                    <div class="week-item" data-week="32">
+                        <input type="checkbox" id="week32">
+                        <label for="week32">Week 32 (Aug 10-14): Data Lake Storage Gen2</label>
+                    </div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>September: Compute, Resilience, Security</h3>
+                    <div class="week-item" data-week="33">
+                        <input type="checkbox" id="week33">
+                        <label for="week33">Week 33 (Aug 17-21): Azure Compute Architecture</label>
+                    </div>
+                    <div class="week-item" data-week="34">
+                        <input type="checkbox" id="week34">
+                        <label for="week34">Week 34 (Aug 24-28): Containers & Serverless</label>
+                    </div>
+                    <div class="week-item" data-week="35">
+                        <input type="checkbox" id="week35">
+                        <label for="week35">Week 35 (Aug 31-Sep 4): AKS & Azure Functions</label>
+                    </div>
+                    <div class="week-item" data-week="36">
+                        <input type="checkbox" id="week36">
+                        <label for="week36">Week 36 (Sep 7-11): Resilience Patterns</label>
+                    </div>
+                    <div class="week-item" data-week="37">
+                        <input type="checkbox" id="week37">
+                        <label for="week37">Week 37 (Sep 14-18): High Availability & DR</label>
+                    </div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>October: Operations & Certification</h3>
+                    <div class="week-item" data-week="38">
+                        <input type="checkbox" id="week38">
+                        <label for="week38">Week 38 (Sep 21-25): Azure Security (AD, Key Vault)</label>
+                    </div>
+                    <div class="week-item" data-week="39">
+                        <input type="checkbox" id="week39">
+                        <label for="week39">Week 39 (Sep 28-Oct 2): Monitoring & Operations</label>
+                    </div>
+                    <div class="week-item" data-week="40">
+                        <input type="checkbox" id="week40">
+                        <label for="week40">Week 40 (Oct 5-9): Certification Prep & Practice Exams</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Phase 4 -->
+            <div class="phase">
+                <div class="phase-header">
+                    <h2>Phase 4: Enterprise Architecture / Synthesis</h2>
+                    <div class="meta">Weeks 41-52 | Target: December 31, 2026 | Focus: Enterprise Integration + Synthesis</div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>November: System Integration Patterns</h3>
+                    <div class="week-item" data-week="41">
+                        <input type="checkbox" id="week41">
+                        <label for="week41">Week 41 (Oct 12-16): Bounded Contexts</label>
+                    </div>
+                    <div class="week-item" data-week="42">
+                        <input type="checkbox" id="week42">
+                        <label for="week42">Week 42 (Oct 19-23): Service vs Data Contracts</label>
+                    </div>
+                    <div class="week-item" data-week="43">
+                        <input type="checkbox" id="week43">
+                        <label for="week43">Week 43 (Oct 26-30): Event-Driven Architecture</label>
+                    </div>
+                    <div class="week-item" data-week="44">
+                        <input type="checkbox" id="week44">
+                        <label for="week44">Week 44 (Nov 2-6): Integration Patterns (Sync vs Async)</label>
+                    </div>
+                    <div class="week-item" data-week="45">
+                        <input type="checkbox" id="week45">
+                        <label for="week45">Week 45 (Nov 9-13): Organizational Alignment</label>
+                    </div>
+                </div>
+                
+                <div class="month-section">
+                    <h3>December: Synthesis & Documentation</h3>
+                    <div class="week-item" data-week="46">
+                        <input type="checkbox" id="week46">
+                        <label for="week46">Week 46 (Nov 16-20): Enterprise Data Strategy</label>
+                    </div>
+                    <div class="week-item" data-week="47">
+                        <input type="checkbox" id="week47">
+                        <label for="week47">Week 47 (Nov 23-27): Architecture Decision Records</label>
+                    </div>
+                    <div class="week-item" data-week="48">
+                        <input type="checkbox" id="week48">
+                        <label for="week48">Week 48 (Nov 30-Dec 4): System Design Case Study 1</label>
+                    </div>
+                    <div class="week-item" data-week="49">
+                        <input type="checkbox" id="week49">
+                        <label for="week49">Week 49 (Dec 7-11): System Design Case Study 2</label>
+                    </div>
+                    <div class="week-item" data-week="50">
+                        <input type="checkbox" id="week50">
+                        <label for="week50">Week 50 (Dec 14-18): Teaching Back / Documentation</label>
+                    </div>
+                    <div class="week-item" data-week="51">
+                        <input type="checkbox" id="week51">
+                        <label for="week51">Week 51 (Dec 21-25): 2026 Synthesis</label>
+                    </div>
+                    <div class="week-item" data-week="52">
+                        <input type="checkbox" id="week52">
+                        <label for="week52">Week 52 (Dec 28-31): 2027 Planning</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="actions">
+            <button class="btn" onclick="exportProgress()">📥 Export Progress</button>
+            <button class="btn btn-secondary" onclick="resetProgress()">🔄 Reset All</button>
+        </div>
+    </div>
+
+    <script>
+        // Load saved progress from localStorage
+        function loadProgress() {
+            const saved = localStorage.getItem('learningProgress2026');
+            if (saved) {
+                const progress = JSON.parse(saved);
+                Object.keys(progress).forEach(weekId => {
+                    const checkbox = document.getElementById(weekId);
+                    if (checkbox) {
+                        checkbox.checked = progress[weekId];
+                        updateWeekStyle(checkbox);
+                    }
+                });
+            }
+            updateStats();
+        }
+
+        // Save progress to localStorage
+        function saveProgress() {
+            const progress = {};
+            for (let i = 1; i <= 52; i++) {
+                const checkbox = document.getElementById(`week${i}`);
+                if (checkbox) {
+                    progress[`week${i}`] = checkbox.checked;
+                }
+            }
+            localStorage.setItem('learningProgress2026', JSON.stringify(progress));
+            updateStats();
+        }
+
+        // Update week item styling
+        function updateWeekStyle(checkbox) {
+            const weekItem = checkbox.closest('.week-item');
+            if (checkbox.checked) {
+                weekItem.classList.add('completed');
+            } else {
+                weekItem.classList.remove('completed');
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            let completed = 0;
+            for (let i = 1; i <= 52; i++) {
+                const checkbox = document.getElementById(`week${i}`);
+                if (checkbox && checkbox.checked) completed++;
+            }
+            
+            const percent = Math.round((completed / 52) * 100);
+            document.getElementById('overall-percent').textContent = percent + '%';
+            document.getElementById('completed-weeks').textContent = completed;
+            document.getElementById('overall-bar').style.width = percent + '%';
+            
+            // Update current phase based on weeks completed
+            let phase = 'Phase 1';
+            let phaseDesc = 'Data Engineering';
+            if (completed >= 28) {
+                phase = 'Phase 4';
+                phaseDesc = 'Enterprise Architecture';
+            } else if (completed >= 16) {
+                phase = 'Phase 3';
+                phaseDesc = 'Azure Architect';
+            } else if (completed >= 16) {
+                phase = 'Phase 2';
+                phaseDesc = 'AI/ML Systems';
+            }
+            
+            document.getElementById('current-phase').textContent = phase;
+            document.getElementById('phase-desc').textContent = phaseDesc;
+        }
+
+        // Export progress as JSON
+        function exportProgress() {
+            const progress = localStorage.getItem('learningProgress2026');
+            if (!progress) {
+                alert('No progress to export yet!');
+                return;
+            }
+            
+            const data = JSON.parse(progress);
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'learning-progress-2026.json';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // Reset all progress
+        function resetProgress() {
+            if (confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
+                localStorage.removeItem('learningProgress2026');
+                location.reload();
+            }
+        }
+
+        // Set up event listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            // Load saved progress
+            loadProgress();
+            
+            // Add change listeners to all checkboxes
+            for (let i = 1; i <= 52; i++) {
+                const checkbox = document.getElementById(`week${i}`);
+                if (checkbox) {
+                    checkbox.addEventListener('change', () => {
+                        updateWeekStyle(checkbox);
+                        saveProgress();
+                    });
+                }
+            }
+            
+            // Calculate current week based on today's date
+            const startDate = new Date('2026-01-05');
+            const today = new Date();
+            const diffTime = Math.abs(today - startDate);
+            const diffWeeks = Math.ceil(diffTime / (1000 * 60 * 60 * 24 * 7));
+            const currentWeek = Math.min(Math.max(diffWeeks, 1), 52);
+            
+            document.getElementById('current-week-num').textContent = currentWeek;
+        });
+    </script>
+</body>
+</html>
