@@ -264,55 +264,6 @@
             mangle: false
         });
 
-        function setContent(html) {
-            document.getElementById('content').innerHTML = html;
-        }
-
-        function setError(message) {
-            setContent(
-                `<div class="placeholder"><div class="placeholder-icon">⚠️</div><h2>Unable to load markdown</h2><p>${message}</p></div>`
-            );
-        }
-
-        function setFileNameLabel(text) {
-            document.getElementById('fileName').textContent = text;
-        }
-
-        async function loadMarkdownFromUrl(src) {
-            try {
-                setFileNameLabel(`🔗 ${src}`);
-                const response = await fetch(src, { cache: 'no-cache' });
-                if (!response.ok) {
-                    setError(`HTTP ${response.status} while fetching: ${src}`);
-                    return;
-                }
-                const markdown = await response.text();
-                const html = marked.parse(markdown);
-                setContent(html);
-            } catch (err) {
-                setError('Network error while fetching the markdown file.');
-            }
-        }
-
-        // Support sharing a hosted markdown file via: markdown-viewer.html?src=path/to/file.md
-        (function initFromQueryString() {
-            const params = new URLSearchParams(window.location.search);
-            const src = params.get('src');
-            if (!src) return;
-
-            // Keep it same-origin/relative. If someone pastes a full URL, ignore it.
-            if (/^https?:\/\//i.test(src)) {
-                setError('Please provide a relative path (e.g. trips/my-file.md), not a full URL.');
-                return;
-            }
-
-            // Hide local file picker when loading a hosted file.
-            const picker = document.querySelector('.file-picker-container');
-            if (picker) picker.style.display = 'none';
-
-            loadMarkdownFromUrl(src);
-        })();
-
         // File input handler
         document.getElementById('fileInput').addEventListener('change', function(e) {
             const file = e.target.files[0];
@@ -324,12 +275,11 @@
                 reader.onload = function(event) {
                     const markdown = event.target.result;
                     const html = marked.parse(markdown);
-                    setContent(html);
+                    document.getElementById('content').innerHTML = html;
                 };
                 reader.onerror = function() {
-                    setContent(
-                        '<div class="placeholder"><div class="placeholder-icon">⚠️</div><h2>Error reading file</h2><p>Unable to read the selected file. Please try another.</p></div>'
-                    );
+                    document.getElementById('content').innerHTML = 
+                        '<div class="placeholder"><div class="placeholder-icon">⚠️</div><h2>Error reading file</h2><p>Unable to read the selected file. Please try another.</p></div>';
                 };
                 reader.readAsText(file);
             }
