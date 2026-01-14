@@ -194,7 +194,7 @@
                     <li>Hotel/ticket reminders</li>
                     <li>Easy to share link</li>
                 </ul>
-                <a href="europe_family_trip_2026.html" class="btn">Open Itinerary</a>
+                <a id="itinerary-link" href="europe_family_trip_2026.html" class="btn">Open Itinerary</a>
             </div>
             
             <div class="tool-card">
@@ -237,5 +237,15 @@
             </p>
         </footer>
     </div>
+
+    <script>
+        // Cache-bust key pages so GitHub Pages/CDN/browser caching doesn't show stale content.
+        (function () {
+            const itineraryLink = document.getElementById('itinerary-link');
+            if (itineraryLink) {
+                itineraryLink.href = `europe_family_trip_2026.html?v=${Date.now()}`;
+            }
+        })();
+    </script>
 </body>
 </html>
