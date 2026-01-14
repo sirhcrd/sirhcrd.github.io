@@ -14,8 +14,8 @@ Mar 22-23: ✈️ Boston → Amsterdam (overnight flight)
 Mar 23-25: 🏛️ Amsterdam (3 nights) - Anne Frank, canals, city tour
 Mar 26:    🚂 Amsterdam → Eindhoven
 Mar 26-28: 🏙️ Eindhoven (2 nights) - Philips Museum + relaxed pace
-Mar 28:    🚂 Eindhoven → Brussels → Bruges (lunch + quick sightseeing in Brussels)
-Mar 28-30: 🏰 Bruges (2 nights) - canals, Markt, boat ride, chocolate stop
+Mar 28:    🚂 Eindhoven → Ghent (half day) → Bruges (store luggage, explore canals & coffee culture)
+Mar 28-30: 🏰 Bruges (2 nights) - old town, boat ride, food wandering, beer cafés
 Mar 30:    🚂 Bruges → Luxembourg
 Mar 30-Apr 1: 🌿 Luxembourg (2 nights) - Old Town + Casemates
 Apr 1:     🚂 Luxembourg → Paris
@@ -99,7 +99,7 @@ Don’t buy trains yet—just lock the plan.
 
 **Key routes:**
 - Amsterdam → Eindhoven
-- Eindhoven → Brussels → Bruges
+- Eindhoven → Ghent → Bruges (same day)
 - Bruges → Luxembourg
 - Luxembourg → Paris
 
@@ -149,8 +149,9 @@ Having these set up ahead of time makes travel days easier (and sometimes cheape
 **Netherlands (Amsterdam, Eindhoven)**
 - **NS app** (Nederlandse Spoorwegen) — tickets + live platforms
 
-**Belgium (Brussels, Bruges)**
+**Belgium (Ghent, Bruges)**
 - **SNCB/NMBS app** — tickets + schedules
+- Note: Ghent St. Pieters station has luggage storage
 
 **Luxembourg**
 - **CFL mobile app** — schedules + tickets (note: many Luxembourg trains are free within Luxembourg, but you’ll still want the app for planning)
@@ -255,39 +256,91 @@ Notes:
 ---
 
 ## Day 5 — Eindhoven (Fri, Mar 27)
-**Philips + Local Exploring (Full Day)**
-- Philips Museum (core emotional stop)
-- Strijp-S
-- Van Abbemuseum **or** DAF Museum (great for kids)
+**Relaxed Day**
+- Philips Museum
+- Explore city center at leisure
+- Pack for Belgium tomorrow
 
 Notes:
-- Keep dinner plans flexible (coworkers/friends)
+- Buffer day / easy pace
 
 ---
 
-## Day 6 — Eindhoven → Brussels → Bruges (Sat, Mar 28)
-**Transfer + Light Sightseeing**
-- Morning train to Brussels
-- 2–3 hours in Brussels (sightseeing + lunch)
-- Afternoon train to Bruges
-- Evening canals + medieval streets
+## Day 6 — Eindhoven → Ghent → Bruges (Sat, Mar 28)
+**Travel Day + Ghent Exploration**
+
+**Morning:**
+- Depart Eindhoven → Ghent (~2.5–3 hrs)
+- Store luggage at Ghent St. Pieters station
+
+**Midday–Afternoon in Ghent (4–6 hours):**
+- Graslei & Korenlei (canals)
+- Lunch + coffee hopping (see recommendations below)
+- Sit by the water if weather is nice
+- Optional: Het Druppelkot (quirky jenever bar — 100+ flavors, very local vibe)
+
+**Evening:**
+- Train to Bruges (~30 min)
+- Check in to hotel
+- Dinner + evening stroll
+
+**Ghent Recommendations (from local friend):**
+- **Lunch:** Nomad, De Republiek, Kaffee Kamiel
+- **Coffee:** Coffeebar Adriaan, Kottee Kaffee
+
+Notes:
+- Ghent is "the hipper brother of Bruges" — more lived-in, less touristy
+- Luggage storage at train station eliminates hotel check-in hassle
+- Keep this day flexible — it's a travel + exploration day
 
 ---
 
 ## Day 7 — Bruges (Sun, Mar 29)
-**Full Bruges Day**
-- Markt + Belfry area
-- Beguinage
-- Boat ride (canals)
-- Chocolate stop
+**Full Day Bruges**
+
+**Activities:**
+- Old town stroll
+- Belfort tower (great views, but lots of stairs)
+- Canal boat ride (relaxing, kid-friendly)
+- Dali Museum or Sint-Janshospitaal (old hospital & pharmacy with art)
+- Food wandering (see recommendations below)
+
+**Bruges Recommendations (from local friend):**
+
+**Skip:**
+- ❌ Chocolate Museum (tourist trap, very boring)
+
+**Must-Try Food & Drink:**
+- **Waffles:** Otto Waffle Atelier, Chez Albert, Go.fre
+- **Chocolate:** The Chocolate Line (Dominique Persoone), Pralinette, Spegelaere
+- **Beer Cafés:** Café De Garre, 't Poatersgat
+- **Brewery Tours:** Bouwerij de Halve Maan, Bourgogne des Flandre
+- **Lunch:** Nomad, De Republiek, Kaffee Kamiel
+- **Wine Bar:** L'Aperovino
+- **Terrace:** Lios
+
+Notes:
+- Belgians are "food people" — spend the day strolling + hopping from café to café
+- Beer culture is part of the experience (early evening is kid-appropriate)
+- Focus on atmosphere over must-see checklist
 
 ---
 
-## Day 8 — Bruges → Luxembourg (Mon, Mar 30)
-**Scenic Travel Day**
-- Train to Luxembourg (~4–4.5 hrs total)
-- Check in and relax
-- Evening stroll in the Old Town (UNESCO area)
+## Day 8 — Bruges (Mon, Mar 30)
+**Easy Morning + Travel to Luxembourg**
+
+**Morning:**
+- Leisurely breakfast
+- Last stroll through old town or morning canal walk
+
+**Afternoon:**
+- Train to Luxembourg
+- Check in
+- Evening at leisure
+
+Notes:
+- Keep morning relaxed after full day yesterday
+- No timed activities
 
 ---
 
