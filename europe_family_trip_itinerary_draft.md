@@ -1,7 +1,7 @@
 # Europe Family Trip — Draft Itinerary
 
 **Netherlands · Belgium · France**  
-**Dates:** March 23 – April 6, 2026  
+**Dates:** March 23 – April 8, 2026  
 **Travelers:** 3 (2 adults, 1 child)
 
 ---
@@ -11,7 +11,7 @@
 **Trip Flow:**
 ```
 Mar 22-23: ✈️ Boston → Amsterdam (overnight flight)
-Mar 23-25: 🏛️ Amsterdam (3 nights) - Anne Frank, canals, city tour
+Mar 23-26: 🏛️ Amsterdam (3 nights) - Anne Frank, canals, city tour
 Mar 26:    🚂 Amsterdam → Eindhoven
 Mar 26-28: 🏙️ Eindhoven (2 nights) - Philips Museum + relaxed pace
 Mar 28:    🚂 Eindhoven → Ghent (half day) → Bruges (store luggage, explore canals & coffee culture)
@@ -19,14 +19,14 @@ Mar 28-30: 🏰 Bruges (2 nights) - old town, boat ride, food wandering, beer ca
 Mar 30:    🚂 Bruges → Luxembourg
 Mar 30-Apr 1: 🌿 Luxembourg (2 nights) - Old Town + Casemates
 Apr 1:     🚂 Luxembourg → Paris
-Apr 1-6:   🗼 Paris (5 nights) - Louvre, Eiffel Tower, Versailles + flexible days
-Apr 6:     ✈️ Departure
+Apr 1-8:   🗼 Paris (7 nights) - Louvre, Eiffel Tower, Versailles + flexible days
+Apr 8:     ✈️ Departure
 ```
 
 **Countries:** Netherlands → Belgium → Luxembourg → France  
-**Total:** 15 days / 14 nights, 5 locations  
+**Total:** 17 days / 16 nights, 5 locations  
 
-**🎯 Paris Time:** 5 nights (4 full days + arrival day) — ideal for major attractions + a relaxed pace
+**🎯 Paris Time:** 7 nights (6 full days + arrival day) — ideal for major attractions + a relaxed pace
 
 **🎫 Pre-Book Required:**
 - ✅ Flight to Amsterdam (confirmed - AXDECK)
@@ -136,9 +136,27 @@ Don’t buy trains yet—just lock the plan.
 ### ✅ What I recommend you do this week
 
 - Decide hotel neighborhoods + max nightly budget per city
-- Start watching return flight prices (Paris → Boston)
+- Start watching return flight prices (Paris → Boston) for **Apr 8**
 - Make a “must-see” vs “nice-to-have” list for attractions
 - Add calendar reminders for the 3 critical timed-ticket items
+
+---
+
+## 🧩 Extra 2 Days (Apr 6–7) — Where to Put Them?
+
+We now have **2 extra days** before flying home on **Wed, Apr 8**.
+
+**Recommended default (lowest friction): keep both extra days in Paris**
+- No extra travel days, no hotel changes midstream
+- Gives weather/energy buffer and makes timed tickets easier
+- Supports kid-friendly pacing (parks, playgrounds, cafés)
+
+**If you’d rather move 1–2 days earlier, best options are:**
+- **Amsterdam:** add time for Jordaan, Vondelpark, NEMO (kid-friendly), or a Zaanse Schans half-day
+- **Bruges/Ghent:** slower pace + food wandering; could add a day trip (e.g., day in Ghent or the coast)
+- **Luxembourg:** only if you want a very relaxed breather (it’s smaller and “done” faster)
+
+For now, I’ve placed both extra days in Paris in the day-by-day plan below. We can re-allocate once hotels are picked.
 
 ---
 
@@ -405,6 +423,31 @@ Optional:
 ---
 
 ## Day 15 — Paris (Mon, Apr 6)
+**Flexible Paris Day (Choose 1 main plan + 1 light add-on)**
+
+Choose 1 main plan:
+- Day trip (easy): Versailles (if you want to swap it off Day 13)
+- Big museum day: Musée d'Orsay or a second Louvre wing focus
+- Neighborhood day: Le Marais + Place des Vosges + cafés
+
+Light add-on (late afternoon / evening):
+- Tuileries / Luxembourg Gardens playground time
+- Seine sunset walk + crêpes
+
+---
+
+## Day 16 — Paris (Tue, Apr 7)
+**Paris Buffer Day (Low-Stakes / Weather-Proof)**
+- Revisit favorite neighborhood
+- Souvenir/shopping block (with planned breaks)
+- Optional: short Seine cruise if not done yet
+
+Notes:
+- Keep this day un-ticketed if possible — it’s the “save the trip” buffer
+
+---
+
+## Day 17 — Paris (Wed, Apr 8)
 **Departure Day**
 - Check out
 - Transfer to airport

@@ -144,9 +144,10 @@
       async function loadMarkdown() {
         const contentEl = document.getElementById('content');
         const mdPath = 'europe_family_trip_itinerary_draft.md';
+        const mdUrl = `${mdPath}?v=${Date.now()}`;
 
         try {
-          const response = await fetch(mdPath, { cache: 'no-store' });
+          const response = await fetch(mdUrl, { cache: 'no-store' });
           if (!response.ok) throw new Error(`Failed to fetch ${mdPath} (HTTP ${response.status})`);
           const markdown = await response.text();
           contentEl.innerHTML = marked.parse(markdown);
