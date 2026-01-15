@@ -1,7 +1,7 @@
 # Europe Family Trip — Draft Itinerary
 
-**Netherlands · Belgium · France**  
-**Dates:** March 23 – April 8, 2026  
+**Netherlands · Belgium · Luxembourg · France**  
+**Dates (on-the-ground):** March 23 – April 8, 2026 (depart BOS late Mar 22)  
 **Travelers:** 3 (2 adults, 1 child)
 
 ---
@@ -29,17 +29,14 @@ Apr 8:     ✈️ Departure
 **🎯 Paris Time:** 5 nights (4 full days + arrival day) — still enough for the major highlights with a good pace
 
 **🎫 Pre-Book Required:**
-- ✅ Flight to Amsterdam (confirmed - AXDECK)
-- ⏳ Anne Frank House (Amsterdam)
-- ⏳ Louvre Museum (Paris)
+- ⏳ Anne Frank House (Amsterdam) -- Alert to buy tickets February 10th
+- ⏳ Louvre Museum (Paris) -- Alert to buy tickets February 2
 - ⏳ Palace of Versailles
-- ⏳ Eiffel Tower (optional)
+- ⏳ Eiffel Tower -- Alert to buy tickets February 2 - Purchas Stairs to second floor and lift to Summit
 
 **🏨 Hotels to Book:** All locations TBD
 
 **💼 To Do Before Trip:**
-- Select airplane seats (3 travelers)
-- Add TrueBlue numbers for Daniela & Ethan
 - Research/book hotels for all stops
 - Book museum/attraction tickets
 - Download train/transport apps + set up payment (see below)
@@ -221,135 +218,219 @@ Having these set up ahead of time makes travel days easier (and sometimes cheape
 
 ---
 
+## 🇳🇱 Amsterdam — LOCKED PLAN (Mar 23–26)
+
+**What’s DEFINITELY IN**
+- ✅ Anne Frank House (timed)
+- ✅ Canal experience (walk + optional cruise)
+- ✅ Walking-based sightseeing (family pace)
+- ✅ Jordaan + Canal Belt (UNESCO)
+- ✅ Museum Quarter / “I AMSTERDAM” area (exteriors, strolling)
+
+**What’s DEFINITELY OUT**
+- ❌ Rijksmuseum interior (exterior only)
+- ❌ Heineken Experience
+- ❌ Overbooking museums
+- ❌ Rigid schedules
+
 ## Day 1 — Amsterdam (Mon, Mar 23)
-**Arrival Day**
-- Arrive in Amsterdam (AMS)
-- Check in to centrally located hotel (TBD)
-- Evening at leisure
+**Arrival Day (Intentionally Light)**
+
+**Anchor:** none (by design)
+
+**If energy allows (choose 1–2):**
+- Short canal walk near the hotel
+- Early, casual dinner
+
+**Rest / exit option:** hotel + sleep
 
 Notes:
-- Easy walking only
-- Keep day flexible after flight
+- Goal: stay awake until ~8–9 pm local, then reset
 
 ---
 
 ## Day 2 — Amsterdam (Tue, Mar 24)
-**City Exploration**
-- Anne Frank House area
-- Walking tour of city center
-  - Canals
-  - Dam Square
-  - Royal Palace (exterior)
-  - Beguinage
-  - Floating Flower Market
-- Canal cruise
+**Historic Amsterdam + Anne Frank**
+
+**Anchor (1):** Anne Frank House (timed entry)
+- Plan nothing heavy before this
+- Leave space afterward
+
+**Flexible sightseeing (pick 2):**
+- Jordaan neighborhood walk (real Amsterdam feel)
+- Canal Belt (UNESCO): Herengracht / Keizersgracht
+- Begijnhof (optional “bonus” stop only if you feel like revisiting)
+
+**Rest / exit option (1):** Canal cruise (~1 hour)
+- Perfect post–Anne Frank decompression
 
 Notes:
-- Anne Frank tickets require advance booking
+- This day is “full” without being exhausting
 
 ---
 
 ## Day 3 — Amsterdam (Wed, Mar 25)
-**Departure Prep / Free Time**
-- Morning at leisure
-- Pack and prepare for next day’s move
+**Open-Air Amsterdam (No Tickets Needed)**
+
+**Anchor (soft):** Museum Quarter / “I AMSTERDAM” area
+- Rijksmuseum exterior (photos + stroll, no pressure)
+
+**Flexible options (pick 2):**
+- Vondelpark (kid run-around + coffee nearby)
+- Nine Streets (De Negen Straatjes): shops, cafés, canals
+- Floating Flower Market (10–15 minutes is enough)
+
+**Rest / exit option:** café stop + early return + pack calmly
+
+**Optional (weather / mood dependent — not booked):**
+- If weather is great: bike rental 1–2 hours (parks only)
+- If weather is poor: Royal Palace interior (easy, central)
 
 ---
 
+**Amsterdam 1-2-1 Summary**
+
+| Day | Anchor | Flexible | Rest |
+| --- | ------ | -------- | ---- |
+| Mar 23 | None | Canal walk | Hotel |
+| Mar 24 | Anne Frank House | Jordaan, Canal Belt | Canal cruise |
+| Mar 25 | Museum Quarter walk | Vondelpark, Nine Streets | Café / early night |
+
 ## Day 4 — Amsterdam → Eindhoven (Thu, Mar 26)
-**Travel Day**
-- Depart Amsterdam
-- Arrive in Eindhoven
-- Evening at leisure
+**Travel Day + Social Time**
+
+**Anchor (soft):** dinner with coworkers/friends
+
+**Before dinner (optional, pick 1):** short city-center walk
+- Markt
+- Stratumseind (lively, even early evening)
+- 18 Septemberplein
+
+**Rest / exit option:** early night (or dessert/drink instead of a long evening)
 
 Notes:
-- Short stay / transition city
+- Eindhoven is about people + Philips, not a checklist
 
 ---
 
 ## Day 5 — Eindhoven (Fri, Mar 27)
-**Relaxed Day**
-- Philips Museum
-- Explore city center at leisure
-- Pack for Belgium tomorrow
+**Philips + City Center**
+
+**Anchor (1):** Philips Museum (late morning or early afternoon)
+- Plan ~1.5–2 hours max
+
+**Flexible Eindhoven (pick 2):**
+- City center loop (Demer + Kleine Berg for shops/cafés)
+- Strijp-S (former Philips industrial area, modern reuse)
+- Stadswandelpark (weather-dependent green break)
+
+**Optional social add-on:** lunch/coffee/drink with coworkers (lower pressure than a second dinner)
+
+**Rest / exit option:** pack + early dinner + quiet night
 
 Notes:
-- Buffer day / easy pace
+- Intentionally skipping extra museums/day trips to preserve energy for Belgium
 
 ---
 
+**Eindhoven 1-2-1 Summary**
+
+| Day | Anchor | Flexible | Rest |
+| --- | ------ | -------- | ---- |
+| Mar 26 | Dinner w/ coworkers | City walk | Early night |
+| Mar 27 | Philips Museum | Strijp-S, city center | Pack / relax |
+
+## 🇧🇪 Ghent + Bruges — LOCKED PLAN (Mar 28–31)
+
+**Philosophy (local advice):**
+- Ghent = hipper, lived-in, local
+- Bruges = beautiful, historic, food-focused
+- Do wander + eat + sit; don’t museum-hop
+
 ## Day 6 — Eindhoven → Ghent → Bruges (Sat, Mar 28)
-**Travel Day + Ghent Exploration**
+**Travel Day + Ghent Taste**
 
 **Morning:**
-- Depart Eindhoven → Ghent (~2.5–3 hrs)
-- Store luggage at Ghent St. Pieters station
+- Eindhoven → Ghent St. Pieters
+- Store luggage at the station
 
-**Midday–Afternoon in Ghent (4–6 hours):**
-- Graslei & Korenlei (canals)
-- Lunch + coffee hopping (see recommendations below)
-- Sit by the water if weather is nice
-- Optional: Het Druppelkot (quirky jenever bar — 100+ flavors, very local vibe)
+**Ghent (4–6 hours, no rush)**
+
+**Anchor (1):** Graslei & Korenlei
+- Sit by the water, take your time
+
+**Flexible (pick 2):**
+- Old town stroll (bridges + narrow streets)
+- Lunch + coffee hopping:
+  - Lunch: Nomad, De Republiek, Kaffee Kamiel
+  - Coffee: Coffeebar Adriaan, Kottee Kaffee
+- Waterfront downtime (snack + people-watch)
+
+**Optional (adult-only):** Het Druppelkot (one drink max)
 
 **Evening:**
 - Train to Bruges (~30 min)
-- Check in to hotel
-- Dinner + evening stroll
-
-**Ghent Recommendations (from local friend):**
-- **Lunch:** Nomad, De Republiek, Kaffee Kamiel
-- **Coffee:** Coffeebar Adriaan, Kottee Kaffee
+- Check in + light dinner + evening stroll
 
 Notes:
-- Ghent is "the hipper brother of Bruges" — more lived-in, less touristy
-- Luggage storage at train station eliminates hotel check-in hassle
-- Keep this day flexible — it's a travel + exploration day
+- Ghent is a taste, not a checklist
 
 ---
 
 ## Day 7 — Bruges (Sun, Mar 29)
-**Full Day Bruges**
+**Bruges — Full Day (Food + Atmosphere First)**
 
-**Activities:**
-- Old town stroll
-- Belfort tower (great views, but lots of stairs)
+**Anchor (1):** Old Town wandering
+- Market Square + medieval streets + canals
+
+**Flexible (pick 2):**
 - Canal boat ride (relaxing, kid-friendly)
-- Dali Museum or Sint-Janshospitaal (old hospital & pharmacy with art)
-- Food wandering (see recommendations below)
+- Sint-Janshospitaal (old hospital + pharmacy + art, not overwhelming)
+- Belfort Tower (optional — many stairs)
 
-**Bruges Recommendations (from local friend):**
+**Food & drink (local friend):**
+- Waffles: Otto Waffle Atelier, Chez Albert, Go.fre
+- Chocolate (skip museums): The Chocolate Line, Pralinette, Spegelaere
+- Beer cafés: Café De Garre, 't Poatersgat
+- Brewery: De Halve Maan, Bourgogne des Flandres
+- Wine bar: L'Aperovino
+- Terrace: Lios (weather dependent)
 
-**Skip:**
-- ❌ Chocolate Museum (tourist trap, very boring)
+**Skip:** ❌ Chocolate Museum
 
-**Must-Try Food & Drink:**
-- **Waffles:** Otto Waffle Atelier, Chez Albert, Go.fre
-- **Chocolate:** The Chocolate Line (Dominique Persoone), Pralinette, Spegelaere
-- **Beer Cafés:** Café De Garre, 't Poatersgat
-- **Brewery Tours:** Bouwerij de Halve Maan, Bourgogne des Flandre
-- **Lunch:** Nomad, De Republiek, Kaffee Kamiel
-- **Wine Bar:** L'Aperovino
-- **Terrace:** Lios
+**Rest / exit option:** café hopping only + early night
 
 Notes:
-- Belgians are "food people" — spend the day strolling + hopping from café to café
-- Beer culture is part of the experience (early evening is kid-appropriate)
-- Focus on atmosphere over must-see checklist
+- Focus on atmosphere over a must-see checklist
 
 ---
 
 ## Day 8 — Bruges (Mon, Mar 30)
 **Extra Bruges Day (Slow Pace / Weather Buffer)**
 
-Options (pick 1–2, keep it light):
-- Minnewater Park + Beguinage (easy, pretty, kid-friendly)
-- Windmills + canal-side walk
-- Chocolate/waffle wandering + souvenir time
-- Optional: brewery tour (early) or a cozy café crawl
+**Soft anchor:** Minnewater Park + Beguinage (calm, beautiful, easy walking)
+
+**Optional add-ons (pick 1–2):**
+- Windmills walk
+- Return to your favorite chocolate/waffle spots
+- Coffee + souvenir shopping
+- Brewery tour (earlier in the day)
+
+**Ghent revisit option:** if Ghent stole your heart, do an easy half-day return trip
 
 Notes:
 - This is your “no pressure” Bruges day
 - Keep it flexible and outdoors-first if the weather is good
+
+---
+
+**Ghent + Bruges 1-2-1 Summary**
+
+| Day | Anchor | Flexible | Rest |
+| --- | ------ | -------- | ---- |
+| Mar 28 | Graslei & Korenlei (Ghent) | Lunch/coffee, old town | Evening stroll |
+| Mar 29 | Bruges Old Town | Boat ride, Sint-Janshospitaal | Cafés |
+| Mar 30 | Minnewater / Beguinage | Windmills, chocolate | Free time |
 
 ---
 
