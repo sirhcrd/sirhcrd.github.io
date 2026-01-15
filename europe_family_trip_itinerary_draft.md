@@ -137,41 +137,19 @@ Don’t buy trains yet—just lock the plan.
 - Make a “must-see” vs “nice-to-have” list for attractions
 - Add calendar reminders for the 3 critical timed-ticket items
 
----
-
-## 🧩 Update: Rebalanced City Time
-
-We’ve reallocated time from Paris into **Bruges** and **Luxembourg**:
-
-- Paris: **5 nights** (down from 7)
-- Bruges: **3 nights** (up from 2)
-- Luxembourg: **3 nights** (up from 2)
-
-This keeps the overall trip length the same while adding a slower pace + more variety outside Paris.
 
 ---
 
-## 📱 Train Tickets (Apps to Install)
+## 🚆 Train Apps (Best Fares)
 
-Having these set up ahead of time makes travel days easier (and sometimes cheaper), especially for longer legs and any tickets with seat reservations.
+For best pricing, **book with the local operator app/site** when possible; use an aggregator only for convenience/comparison.
 
-**Netherlands (Amsterdam, Eindhoven)**
-- **NS app** (Nederlandse Spoorwegen) — tickets + live platforms
-
-**Belgium (Ghent, Bruges)**
-- **SNCB/NMBS app** — tickets + schedules
-- Note: Ghent St. Pieters station has luggage storage
-
-**Luxembourg**
-- **CFL mobile app** — schedules + tickets (note: many Luxembourg trains are free within Luxembourg, but you’ll still want the app for planning)
-
-**France (Paris)**
-- **SNCF Connect** — TGV/Intercités tickets + seat reservations when needed
-
-**Payment setup (do this once)**
-- Add your credit card to **Apple Pay** (or Google Pay)
-- Make sure your bank card is enabled for **international travel / tap-to-pay**
-- Optional: set up **Wise** or **Revolut** for a backup card + better FX rates
+- **NS** — Netherlands (Amsterdam, Eindhoven)
+- **NS International** — Netherlands ↔ Belgium / Luxembourg / France (cross-border legs starting in NL)
+- **SNCB/NMBS** — Belgium (Ghent, Bruges)
+- **CFL** — Luxembourg (planning + any paid cross-border tickets)
+- **SNCF Connect** — France (Paris; TGV/Intercités + seat reservations)
+- **Trainline (optional)** — NL/BE/LU/FR/UK (handy for cross-border comparison; double-check operator price/fees)
 
 ---
 
@@ -531,17 +509,6 @@ Notes:
 - Check out
 - Transfer to airport
 - Depart France
-
----
-
-## Status Summary
-- **Hotels:** TBD (research in progress)
-- **Transportation:** Mostly day-of or flexible
-- **Tickets needing advance booking:**
-  - Anne Frank House
-  - Louvre Museum
-  - Versailles
-  - Eiffel Tower (optional)
 
 ---
 
