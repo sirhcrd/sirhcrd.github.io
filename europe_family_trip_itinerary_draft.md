@@ -15,18 +15,18 @@ Mar 23-26: 🏛️ Amsterdam (3 nights) - Anne Frank, canals, city tour
 Mar 26:    🚂 Amsterdam → Eindhoven
 Mar 26-28: 🏙️ Eindhoven (2 nights) - Philips Museum + relaxed pace
 Mar 28:    🚂 Eindhoven → Ghent (half day) → Bruges (store luggage, explore canals & coffee culture)
-Mar 28-30: 🏰 Bruges (2 nights) - old town, boat ride, food wandering, beer cafés
-Mar 30:    🚂 Bruges → Luxembourg
-Mar 30-Apr 1: 🌿 Luxembourg (2 nights) - Old Town + Casemates
-Apr 1:     🚂 Luxembourg → Paris
-Apr 1-8:   🗼 Paris (7 nights) - Louvre, Eiffel Tower, Versailles + flexible days
+Mar 28-31: 🏰 Bruges (3 nights) - old town, boat ride, food wandering, beer cafés
+Mar 31:    🚂 Bruges → Luxembourg
+Mar 31-Apr 3: 🌿 Luxembourg (3 nights) - Old Town + Casemates + relaxed pace
+Apr 3:     🚂 Luxembourg → Paris
+Apr 3-8:   🗼 Paris (5 nights) - Louvre, Eiffel Tower, Versailles + flexible days
 Apr 8:     ✈️ Departure
 ```
 
 **Countries:** Netherlands → Belgium → Luxembourg → France  
 **Total:** 17 days / 16 nights, 5 locations  
 
-**🎯 Paris Time:** 7 nights (6 full days + arrival day) — ideal for major attractions + a relaxed pace
+**🎯 Paris Time:** 5 nights (4 full days + arrival day) — still enough for the major highlights with a good pace
 
 **🎫 Pre-Book Required:**
 - ✅ Flight to Amsterdam (confirmed - AXDECK)
@@ -63,8 +63,8 @@ Apr 8:     ✈️ Departure
 1. Paris
 2. Amsterdam
 3. Bruges
-4. Eindhoven
-5. Luxembourg
+4. Luxembourg
+5. Eindhoven
 
 **Aim for:**
 - Walkable neighborhoods (reduce transit friction with a child)
@@ -136,27 +136,21 @@ Don’t buy trains yet—just lock the plan.
 ### ✅ What I recommend you do this week
 
 - Decide hotel neighborhoods + max nightly budget per city
-- Start watching return flight prices (Paris → Boston) for **Apr 8**
+- Return flight logistics: seats + baggage + connection timing (CDG → LHR → BOS)
 - Make a “must-see” vs “nice-to-have” list for attractions
 - Add calendar reminders for the 3 critical timed-ticket items
 
 ---
 
-## 🧩 Extra 2 Days (Apr 6–7) — Where to Put Them?
+## 🧩 Update: Rebalanced City Time
 
-We now have **2 extra days** before flying home on **Wed, Apr 8**.
+We’ve reallocated time from Paris into **Bruges** and **Luxembourg**:
 
-**Recommended default (lowest friction): keep both extra days in Paris**
-- No extra travel days, no hotel changes midstream
-- Gives weather/energy buffer and makes timed tickets easier
-- Supports kid-friendly pacing (parks, playgrounds, cafés)
+- Paris: **5 nights** (down from 7)
+- Bruges: **3 nights** (up from 2)
+- Luxembourg: **3 nights** (up from 2)
 
-**If you’d rather move 1–2 days earlier, best options are:**
-- **Amsterdam:** add time for Jordaan, Vondelpark, NEMO (kid-friendly), or a Zaanse Schans half-day
-- **Bruges/Ghent:** slower pace + food wandering; could add a day trip (e.g., day in Ghent or the coast)
-- **Luxembourg:** only if you want a very relaxed breather (it’s smaller and “done” faster)
-
-For now, I’ve placed both extra days in Paris in the day-by-day plan below. We can re-allocate once hotels are picked.
+This keeps the overall trip length the same while adding a slower pace + more variety outside Paris.
 
 ---
 
@@ -345,56 +339,70 @@ Notes:
 ---
 
 ## Day 8 — Bruges (Mon, Mar 30)
-**Easy Morning + Travel to Luxembourg**
+**Extra Bruges Day (Slow Pace / Weather Buffer)**
 
-**Morning:**
-- Leisurely breakfast
-- Last stroll through old town or morning canal walk
-
-**Afternoon:**
-- Train to Luxembourg
-- Check in
-- Evening at leisure
+Options (pick 1–2, keep it light):
+- Minnewater Park + Beguinage (easy, pretty, kid-friendly)
+- Windmills + canal-side walk
+- Chocolate/waffle wandering + souvenir time
+- Optional: brewery tour (early) or a cozy café crawl
 
 Notes:
-- Keep morning relaxed after full day yesterday
-- No timed activities
+- This is your “no pressure” Bruges day
+- Keep it flexible and outdoors-first if the weather is good
 
 ---
 
-## Day 9 — Luxembourg (Tue, Mar 31)
+## Day 9 — Bruges → Luxembourg (Tue, Mar 31)
+**Travel Day**
+- Morning train to Luxembourg
+- Check in
+- Easy afternoon: Old Town stroll + viewpoints
+
+Notes:
+- No timed activities
+- Keep the first Luxembourg day short and simple
+
+---
+
+## Day 10 — Luxembourg (Wed, Apr 1)
 **Luxembourg Highlights**
 - Casemates tunnels (kid-friendly)
 - Pétrusse Valley walk
 - Old Town viewpoints
 
+Notes:
+- Good day for your “top 2–3” Luxembourg sights
+
 ---
 
-## Day 10 — Luxembourg → Paris (Wed, Apr 1)
+## Day 11 — Luxembourg (Thu, Apr 2)
+**Extra Luxembourg Day (Choose 1)**
+- Vianden Castle day trip (classic, very family-friendly)
+- Müllerthal Trail (easy scenic walk + nature break)
+- Slow city day: cafés, parks, viewpoints, shopping
+
+Notes:
+- This is your “breather” day before the final big-city stretch
+
+---
+
+## Day 12 — Luxembourg → Paris (Fri, Apr 3)
 **Travel Day**
 - Direct train ~2h15
 - Check in to centrally located hotel (TBD)
 - Evening at leisure
 
----
-
-## Day 11 — Paris (Thu, Apr 2)
-**Historic Paris**
-- Walking tour:
-  - Latin Quarter
-  - Marais
-  - Île de la Cité
-  - Notre Dame (exterior)
-- Louvre Museum (skip-the-line)
+Notes:
+- Keep this night low-key (travel + reset)
 
 ---
 
-## Day 12 — Paris (Fri, Apr 3)
-**Iconic Paris**
+## Day 13 — Paris (Sat, Apr 4)
+**Iconic Paris (Outdoors + Views)**
 - Champs-Élysées district
 - Place de la Concorde
 - Tuileries Gardens
-- Grand & Petit Palais (exterior)
 - Pont Alexandre III
 - Eiffel Tower area (tickets TBD)
 
@@ -403,7 +411,28 @@ Optional:
 
 ---
 
-## Day 13 — Paris / Versailles (Sat, Apr 4)
+## Day 14 — Paris (Sun, Apr 5)
+**Neighborhood Day (Low Stakes, High Fun)**
+- Montmartre + Sacré-Cœur
+- Crêpes / pastries + relaxed wandering
+- Optional: playground/park time to keep pace kid-friendly
+
+---
+
+## Day 15 — Paris (Mon, Apr 6)
+**Historic Paris + Louvre**
+- Walking loop (choose what’s closest to your hotel):
+  - Île de la Cité + Notre Dame (exterior)
+  - Latin Quarter
+  - Le Marais
+- Louvre Museum (skip-the-line)
+
+Notes:
+- Louvre is closed Tuesdays, so Monday is a good fit
+
+---
+
+## Day 16 — Paris / Versailles (Tue, Apr 7)
 **Versailles Excursion**
 - Train to Versailles
 - Palace of Versailles
@@ -411,39 +440,8 @@ Optional:
 - Gardens
 - Return to Paris
 
----
-
-## Day 14 — Paris (Sun, Apr 5)
-**Flexible Paris Day (Choose 1–2)**
-- Montmartre + Sacré-Cœur
-- Musée d'Orsay
-- Luxembourg Gardens + Panthéon
-- Shopping / free time / weather backup
-
----
-
-## Day 15 — Paris (Mon, Apr 6)
-**Flexible Paris Day (Choose 1 main plan + 1 light add-on)**
-
-Choose 1 main plan:
-- Day trip (easy): Versailles (if you want to swap it off Day 13)
-- Big museum day: Musée d'Orsay or a second Louvre wing focus
-- Neighborhood day: Le Marais + Place des Vosges + cafés
-
-Light add-on (late afternoon / evening):
-- Tuileries / Luxembourg Gardens playground time
-- Seine sunset walk + crêpes
-
----
-
-## Day 16 — Paris (Tue, Apr 7)
-**Paris Buffer Day (Low-Stakes / Weather-Proof)**
-- Revisit favorite neighborhood
-- Souvenir/shopping block (with planned breaks)
-- Optional: short Seine cruise if not done yet
-
 Notes:
-- Keep this day un-ticketed if possible — it’s the “save the trip” buffer
+- Versailles is closed Mondays, so Tuesday is a good fit
 
 ---
 
@@ -466,14 +464,34 @@ Notes:
 
 ---
 
-## ✈️ Return Flight Options & Cost Comparison
+## ✈️ Return Flight (Confirmed)
 
-With this itinerary structure, **departing from Paris (CDG/ORY) is the right call**:
-- Best nonstop availability to Boston
-- Least stressful departure morning (no backtracking)
-- Strong pricing competition due to flight volume
+**British Airways — Confirmed (Apr 8, 2026)**
 
-There’s typically **no practical benefit** to departing from Luxembourg or Brussels once you account for extra train time, connections, and the “travel day” it creates.
+**Leg 1:** BA0305 — British Airways (Euro Traveller)
+- Wed, Apr 8, 2026 — **14:05** depart **Charles de Gaulle (Paris) — Terminal 2C**
+- Wed, Apr 8, 2026 — **14:30** arrive **Heathrow (London) — Terminal 5**
+
+**Leg 2:** BA0203 — British Airways (World Traveller)
+- Wed, Apr 8, 2026 — **17:35** depart **Heathrow (London) — Terminal 5**
+- Wed, Apr 8, 2026 — **20:05** arrive **Logan International (Boston) — Terminal E**
+
+**Passengers:**
+- MRS DANIELA GARAVITOCARRASCAL
+- MR CHRISTOPHER WHEELER
+- MSTR ETHAN WHEELER
+
+**Ticket numbers:**
+- 125-2226927938 (MR CHRISTOPHER WHEELER)
+- 125-2226927939 (MSTR ETHAN WHEELER)
+- 125-2226927940 (MRS DANIELA GARAVITOCARRASCAL)
+
+**Payment:** EUR 1405.04 (Apple Pay) — issued **Jan 15, 2026**
+
+**To-do / reminders:**
+- Select seats (if not already assigned)
+- Confirm baggage allowance per cabin + any child-specific notes
+- Plan connection: arrive CDG early; at LHR you stay within Terminal 5 for both flights
 
 ---
 
