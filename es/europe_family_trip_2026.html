@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Europe Family Trip 2026</title>
+  <title>Viaje Familiar a Europa 2026 (Español)</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -118,16 +118,16 @@
 <body>
   <div class="container">
     <header>
-      <h1>🧳 Europe Family Trip — 2026</h1>
-      <p>Draft itinerary (family-friendly pace)</p>
+      <h1>🧳 Viaje Familiar a Europa — 2026</h1>
+      <p>Itinerario en español (Colombia)</p>
       <div class="header-actions">
-        <a href="/">Back to home</a>
-        <a id="md-link" href="europe_family_trip_itinerary_draft.md">View Markdown</a>
+        <a href="/">Volver al inicio</a>
+        <a id="md-link" href="europe_family_trip_itinerary_draft.md">Ver Markdown</a>
       </div>
     </header>
 
     <div class="content">
-      <div id="content">Loading…</div>
+      <div id="content">Cargando…</div>
     </div>
     <script>
       marked.setOptions({ breaks: true, gfm: true, headerIds: true, mangle: false });
@@ -150,14 +150,14 @@
         try {
           if (mdLinkEl) mdLinkEl.href = mdUrl;
           const response = await fetch(mdUrl, { cache: 'no-store' });
-          if (!response.ok) throw new Error(`Failed to fetch ${mdPath} (HTTP ${response.status})`);
+          if (!response.ok) throw new Error(`No se pudo cargar ${mdPath} (HTTP ${response.status})`);
           const markdown = await response.text();
           contentEl.innerHTML = marked.parse(markdown);
         } catch (error) {
           contentEl.innerHTML = `
-            <h2>Couldn’t load the itinerary</h2>
-            <p>This page renders <a href="${mdPath}">${mdPath}</a> directly. If you’re opening this file via <code>file://</code>, browsers may block <code>fetch</code>.</p>
-            <p>Fix: run a local web server (or view on GitHub Pages), then reload.</p>
+            <h2>No se pudo cargar el itinerario</h2>
+            <p>Esta página renderiza <a href="${mdPath}">${mdPath}</a> directamente. Si abres este archivo con <code>file://</code>, el navegador puede bloquear <code>fetch</code>.</p>
+            <p>Solución: ejecuta un servidor local (o mira esto en GitHub Pages) y recarga.</p>
             <pre>${escapeHtml(String(error))}</pre>
           `;
         }

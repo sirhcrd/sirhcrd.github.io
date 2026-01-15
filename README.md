@@ -30,8 +30,10 @@ View your Markdown files with beautiful formatting and syntax highlighting.
 
 The itinerary page is a small “Markdown-to-HTML” renderer:
 
-- Page: `europe_family_trip_2026.html`
-- Source content: `europe_family_trip_itinerary_draft.md`
+- English page: `en/europe_family_trip_2026.html`
+- English source content: `en/europe_family_trip_itinerary_draft.md`
+- Spanish page: `es/europe_family_trip_2026.html`
+- Spanish source content: `es/europe_family_trip_itinerary_draft.md`
 
 On load, the HTML page fetches the Markdown file and renders it in-browser using the `marked` library.
 
@@ -42,7 +44,9 @@ Browsers often block `fetch()` when opening the HTML via `file://`.
 Run a quick local server from the repo folder:
 
 - `python3 -m http.server 8000`
-- Visit `http://localhost:8000/europe_family_trip_2026.html`
+- Visit:
+	- `http://localhost:8000/en/europe_family_trip_2026.html`
+	- `http://localhost:8000/es/europe_family_trip_2026.html`
 
 ### “Always show latest” caching behavior
 
@@ -50,7 +54,8 @@ GitHub Pages/CDNs/browsers can cache HTML/MD aggressively.
 
 To avoid stale renders, the itinerary page fetches the Markdown with a cache-busting query string:
 
-- `europe_family_trip_itinerary_draft.md?v=<timestamp>`
+- `en/europe_family_trip_itinerary_draft.md?v=<timestamp>`
+- `es/europe_family_trip_itinerary_draft.md?v=<timestamp>`
 
 The homepage button also appends `?v=<timestamp>` when linking to the itinerary page.
 

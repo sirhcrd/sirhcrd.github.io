@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Europe Family Trip 2026 (English)</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 44px 38px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.3em;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    header p {
+      font-size: 1.1em;
+      opacity: 0.95;
+    }
+    .header-actions {
+      margin-top: 18px;
+    }
+    .header-actions a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border: 1px solid rgba(255,255,255,0.35);
+      padding: 10px 14px;
+      border-radius: 999px;
+      transition: all 0.2s ease;
+    }
+    .header-actions a:hover { background: rgba(255,255,255,0.15); }
+
+    .content {
+      padding: 40px 44px;
+    }
+
+    h2 {
+      color: #34495e;
+      font-size: 1.7em;
+      margin-top: 1.8em;
+      margin-bottom: 0.8em;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #ecf0f1;
+    }
+    h3 {
+      color: #2980b9;
+      font-size: 1.3em;
+      margin-top: 1.5em;
+      margin-bottom: 0.6em;
+    }
+    h4 {
+      color: #16a085;
+      font-size: 1.1em;
+      margin-top: 1.2em;
+      margin-bottom: 0.5em;
+    }
+    p { margin-bottom: 1em; text-align: justify; }
+    strong { color: #2c3e50; font-weight: 600; }
+    em { font-style: italic; color: #555; }
+    ul, ol { margin-left: 25px; margin-bottom: 1em; }
+    li { margin-bottom: 0.4em; }
+    code {
+      background: #f8f9fa;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+      color: #e74c3c;
+    }
+    pre {
+      background: #eef2ff;
+      color: #1f2937;
+      padding: 18px 18px;
+      border-radius: 10px;
+      overflow-x: auto;
+      margin: 1em 0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.95em;
+      line-height: 1.5;
+      border: 1px solid #e0e7ff;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+    }
+    pre code { background: transparent; padding: 0; color: inherit; }
+    hr { border: none; border-top: 2px solid #ecf0f1; margin: 2em 0; }
+    a { color: #3498db; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media print {
+      body { background: white; padding: 0; }
+      .container { box-shadow: none; }
+      header { display: none; }
+      .content { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧳 Europe Family Trip — 2026</h1>
+      <p>English itinerary</p>
+      <div class="header-actions">
+        <a href="/">Back to home</a>
+        <a id="md-link" href="europe_family_trip_itinerary_draft.md">View Markdown</a>
+      </div>
+    </header>
+
+    <div class="content">
+      <div id="content">Loading…</div>
+    </div>
+    <script>
+      marked.setOptions({ breaks: true, gfm: true, headerIds: true, mangle: false });
+
+      function escapeHtml(unsafe) {
+        return unsafe
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/\"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+      }
+
+      async function loadMarkdown() {
+        const contentEl = document.getElementById('content');
+        const mdLinkEl = document.getElementById('md-link');
+        const mdPath = 'europe_family_trip_itinerary_draft.md';
+        const mdUrl = `${mdPath}?v=${Date.now()}`;
+
+        try {
+          if (mdLinkEl) mdLinkEl.href = mdUrl;
+          const response = await fetch(mdUrl, { cache: 'no-store' });
+          if (!response.ok) throw new Error(`Failed to fetch ${mdPath} (HTTP ${response.status})`);
+          const markdown = await response.text();
+          contentEl.innerHTML = marked.parse(markdown);
+        } catch (error) {
+          contentEl.innerHTML = `
+            <h2>Couldn’t load the itinerary</h2>
+            <p>This page renders <a href="${mdPath}">${mdPath}</a> directly. If you’re opening this file via <code>file://</code>, browsers may block <code>fetch</code>.</p>
+            <p>Fix: run a local web server (or view on GitHub Pages), then reload.</p>
+            <pre>${escapeHtml(String(error))}</pre>
+          `;
+        }
+      }
+
+      loadMarkdown();
+    </script>
+  </div>
+</body>
+</html>
