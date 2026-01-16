@@ -8,10 +8,9 @@
 
 ## 📋 Quick Overview
 
-<div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;">
-   <div style="flex:1 1 520px; min-width:280px;">
-      <strong>Trip Flow:</strong>
-      <pre style="margin-top:8px; white-space:pre; overflow:auto; padding:12px; background:#f6f8fa; border:1px solid #d0d7de; border-radius:12px;"><code>Mar 22-23: ✈️ Boston → Amsterdam (overnight flight)
+**Trip Flow:**
+```
+Mar 22-23: ✈️ Boston → Amsterdam (overnight flight)
 Mar 23-26: 🏛️ Amsterdam (3 nights) - Anne Frank, canals, city tour
 Mar 26:    🚂 Amsterdam → Eindhoven
 Mar 26-28: 🏙️ Eindhoven (2 nights) - Philips Museum + relaxed pace
@@ -21,15 +20,11 @@ Mar 31:    🚂 Bruges → Luxembourg
 Mar 31-Apr 3: 🌿 Luxembourg (3 nights) - Old Town + Casemates + relaxed pace
 Apr 3:     🚂 Luxembourg → Paris
 Apr 3-8:   🗼 Paris (5 nights) - Louvre, Eiffel Tower, Versailles + flexible days
-Apr 8:     ✈️ Departure</code></pre>
-   </div>
-   <iframe
-      src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F"
-      style="position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:10px;"
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-      allowfullscreen></iframe>
-</div>
+Apr 8:     ✈️ Departure
+```
+
+**Route Map:**
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F" width="100%" height="320" style="border:0; border-radius:10px; max-width:640px;" loading="lazy" allowfullscreen></iframe>
 
 
 **Countries:** Netherlands → Belgium → Luxembourg → France  
