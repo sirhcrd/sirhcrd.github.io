@@ -8,9 +8,10 @@
 
 ## 📋 Quick Overview
 
-**Trip Flow:**
-```
-Mar 22-23: ✈️ Boston → Amsterdam (overnight flight)
+<div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;">
+   <div style="flex:1 1 520px; min-width:280px;">
+      <strong>Trip Flow:</strong>
+      <pre style="margin-top:8px; white-space:pre; overflow:auto; padding:12px; background:#f6f8fa; border:1px solid #d0d7de; border-radius:12px;"><code>Mar 22-23: ✈️ Boston → Amsterdam (overnight flight)
 Mar 23-26: 🏛️ Amsterdam (3 nights) - Anne Frank, canals, city tour
 Mar 26:    🚂 Amsterdam → Eindhoven
 Mar 26-28: 🏙️ Eindhoven (2 nights) - Philips Museum + relaxed pace
@@ -20,8 +21,30 @@ Mar 31:    🚂 Bruges → Luxembourg
 Mar 31-Apr 3: 🌿 Luxembourg (3 nights) - Old Town + Casemates + relaxed pace
 Apr 3:     🚂 Luxembourg → Paris
 Apr 3-8:   🗼 Paris (5 nights) - Louvre, Eiffel Tower, Versailles + flexible days
-Apr 8:     ✈️ Departure
-```
+Apr 8:     ✈️ Departure</code></pre>
+   </div>
+
+   <div style="flex:0 1 360px; min-width:260px;">
+      <div style="border:1px solid #d0d7de; border-radius:12px; padding:12px; background:#ffffff;">
+         <div style="font-weight:600; margin-bottom:8px;">Route Map</div>
+         <details>
+            <summary style="cursor:pointer;">
+               <img src="../images/europeTripRouteMap.png" alt="Europe trip route map" style="width:100%; height:auto; display:block; border-radius:10px;" />
+               <div style="margin-top:8px; font-size:0.9em; color:#57606a;">Click to expand the interactive map.</div>
+            </summary>
+            <div style="margin-top:12px; position:relative; width:100%; height:min(70vh, 720px);">
+               <iframe
+                  src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F"
+                  style="position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:10px;"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen
+               ></iframe>
+            </div>
+         </details>
+      </div>
+   </div>
+</div>
 
 **Countries:** Netherlands → Belgium → Luxembourg → France  
 **Total:** 17 days / 16 nights, 5 locations  

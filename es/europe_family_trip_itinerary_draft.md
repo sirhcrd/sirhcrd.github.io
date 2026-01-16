@@ -8,9 +8,10 @@
 
 ## 📋 Resumen Rápido
 
-**Flujo del viaje:**
-```
-22-23 Mar: ✈️ Boston → Ámsterdam (vuelo nocturno)
+<div style="display:flex; gap:16px; align-items:flex-start; flex-wrap:wrap;">
+   <div style="flex:1 1 520px; min-width:280px;">
+      <strong>Flujo del viaje:</strong>
+      <pre style="margin-top:8px; white-space:pre; overflow:auto; padding:12px; background:#f6f8fa; border:1px solid #d0d7de; border-radius:12px;"><code>22-23 Mar: ✈️ Boston → Ámsterdam (vuelo nocturno)
 23-26 Mar: 🏛️ Ámsterdam (3 noches) - Anne Frank, canales, caminatas
 26 Mar:    🚂 Ámsterdam → Eindhoven
 26-28 Mar: 🏙️ Eindhoven (2 noches) - Museo Philips + ritmo tranquilo
@@ -20,8 +21,30 @@
 31 Mar-3 Abr: 🌿 Luxemburgo (3 noches) - casco antiguo + casamatas + descanso
 3 Abr:     🚂 Luxemburgo → París
 3-8 Abr:   🗼 París (5 noches) - Louvre, Torre Eiffel, Versalles + días flexibles
-8 Abr:     ✈️ Regreso
-```
+8 Abr:     ✈️ Regreso</code></pre>
+   </div>
+
+   <div style="flex:0 1 360px; min-width:260px;">
+      <div style="border:1px solid #d0d7de; border-radius:12px; padding:12px; background:#ffffff;">
+         <div style="font-weight:600; margin-bottom:8px;">Mapa de la ruta</div>
+         <details>
+            <summary style="cursor:pointer;">
+               <img src="../images/europeTripRouteMap.png" alt="Mapa de la ruta del viaje" style="width:100%; height:auto; display:block; border-radius:10px;" />
+               <div style="margin-top:8px; font-size:0.9em; color:#57606a;">Haz clic para desplegar el mapa interactivo.</div>
+            </summary>
+            <div style="margin-top:12px; position:relative; width:100%; height:min(70vh, 720px);">
+               <iframe
+                  src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F"
+                  style="position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:10px;"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen
+               ></iframe>
+            </div>
+         </details>
+      </div>
+   </div>
+</div>
 
 **Ruta:** Países Bajos → Bélgica → Luxemburgo → Francia  
 **Total:** 17 días / 16 noches, 5 ciudades  
