@@ -50,20 +50,66 @@ Apr 8:     ✈️ Departure</code></pre>
 **Countries:** Netherlands → Belgium → Luxembourg → France  
 **Total:** 17 days / 16 nights, 5 locations  
 
-**🎫 Pre-Book Required:**
-- ⏳ Anne Frank House (Amsterdam) -- Alert to buy tickets February 10th
-- ⏳ Louvre Museum (Paris) -- Alert to buy tickets February 2
-- ⏳ Palace of Versailles
-- ⏳ Eiffel Tower -- Alert to buy tickets February 2 - Purchas Stairs to second floor and lift to Summit
+**🎫 Ticket Purchases (set alerts)**
 
-**🏨 Hotels to Book:** All locations TBD
+Use this rule of thumb: **for your top “timed entry” sights, buy as soon as your preferred date/time opens**. The dates below are good “start checking” alerts — if tickets aren’t open yet, just check again daily until they are.
+
+Planned visit days (based on the current draft):
+
+| Ticket | Planned visit day | Start checking | Notes |
+| --- | --- | --- | --- |
+| Anne Frank House | Tue, Mar 24 | Feb 10 | Highest urgency; pick a time that works for the kid’s energy level. |
+| Eiffel Tower (stairs to 2nd + summit) | Sat, Apr 4 | Feb 2 | If summit slots are scarce, lock any good time and plan the rest around it. |
+| Louvre Museum | Mon, Apr 6 | Feb 2 | Louvre is closed Tuesdays; Monday is a good fit. |
+| Palace of Versailles | Tue, Apr 7 | Feb 10 | Versailles is closed Mondays; Tuesday is a good fit. |
+
+If a visit day changes, set a new reminder about **6–10 weeks before** (earlier for Anne Frank) and buy once time slots appear.
 
 **💼 To Do Before Trip:**
 - Research/book hotels for all stops
-- Book museum/attraction tickets
-- Download train/transport apps + set up payment (see below)
-- Check passport expiration dates
+- Set up payment on train apps
 - Review travel insurance options
+
+---
+
+## 🚌 Train vs FlixBus (what to use here)
+
+- **Train is usually best for this itinerary**: faster, smoother ride for a kid, and stations are typically more central.
+- **FlixBus is often cheaper**, but it’s usually longer and more sensitive to traffic (plus boarding can be more chaotic).
+- Use **FlixBus only if** the schedule is dramatically better/cheaper *or* if rail prices spike late.
+- If you do FlixBus: pick a **direct** trip when possible and avoid very tight same-day connections.
+
+## 🗺️ Itinerary (concise, city-to-city)
+
+### 🇳🇱 Amsterdam (Mon, Mar 23 → Thu, Mar 26)
+- Arrive + easy reset day (Mar 23)
+- Anne Frank House (timed) + Jordaan / canal walks (Mar 24)
+- Museum Quarter area + low-stress city wandering (Mar 25)
+- Depart by train to Eindhoven (Mar 26)
+
+### 🇳🇱 Eindhoven (Thu, Mar 26 → Sat, Mar 28)
+- Philips Museum + relaxed pace
+- Easy neighborhoods: Strijp‑S / city center strolling
+- Depart to Ghent (half-day) → Bruges (Mar 28)
+
+### 🇧🇪 Bruges (Sat, Mar 28 → Tue, Mar 31)
+- Old town + canals + Market Square
+- Boat ride + chocolate/waffles + slow wandering
+- Depart to Luxembourg (Mar 31)
+
+### 🇱🇺 Luxembourg (Tue, Mar 31 → Fri, Apr 3)
+- Old Town + Casemates + Grund river area
+- One “breather” day for Vianden Castle or an easy nature walk
+- Depart to Paris (Apr 3)
+
+### 🇫🇷 Paris (Fri, Apr 3 → Wed, Apr 8)
+- Outdoor icons day (Eiffel area + classic viewpoints)
+- Montmartre day (great pacing for a family)
+- Louvre (Mon, Apr 6) + Versailles (Tue, Apr 7)
+- Departure (Apr 8)
+
+<details>
+<summary><strong>Full details (planning + day-by-day)</strong></summary>
 
 ---
 
@@ -90,25 +136,12 @@ Apr 8:     ✈️ Departure</code></pre>
 - Elevator (important with luggage)
 - Family room or easy twin setup
 
-**Decision needed before booking:**
-- Max nightly budget range per city
-- Bed setup preference (one room vs two rooms)
-- “Must-haves” (elevator, A/C, laundry, breakfast, etc.)
-
 #### 2) Timed attractions that sell out
 
 You don’t need every ticket now—just the critical ones.
 
 **🔴 Book early (target: 2–3 months out):**
-- Anne Frank House (Amsterdam)
-- Louvre Museum (Paris)
-- Palace of Versailles
-
-**🟡 Optional / flexible:**
-- Eiffel Tower (nice, but skippable if sold out)
-- Musée d’Orsay (often easier to get later)
-
-Note: Once hotels are locked, pick the timed-ticket days to match your neighborhood base and keep the “arrival day / travel day = no tickets” rule.
+- See above for days alerts are set on
 
 ### 🟡 Phase 2 — Transportation Planning (plan now, buy later)
 
@@ -125,40 +158,11 @@ Don’t buy trains yet—just lock the plan.
 **When to buy:**
 - 8–12 weeks before travel is usually the sweet spot for price + seat choice on longer legs
 
-#### 4) Decide: seat reservations vs flexibility
-
-- **Reserve** the long legs that require reservations (and anything you want a guaranteed seat/time for)
-- **Stay flexible** on short hops (especially within the Netherlands)
-
 ### 🟢 Phase 3 — Comfort, Pace & Backup Planning
 
-#### 5) Build “light days” (kid-friendly pacing)
+#### 4) Payments & logistics (low-stress wins)
 
-- Arrival days = no timed tickets
-- Travel days = no museums
-- Every 2–3 “heavy” days → 1 park/free/low-stakes day
-
-#### 6) Payments & logistics (low-stress wins)
-
-- Wise/Revolut (optional backup)
-- Notify banks of travel (if your bank still needs it)
-- Apple/Google Pay confirmed and working
-- Passport expiration double-check
-
-### 🧩 Phase 4 — Optional but fun (1–2 months out)
-
-- Canal cruise (Amsterdam or Paris)
-- Seine cruise
-- Chocolate workshop (Bruges)
-- Guided walking tours
-
-### ✅ What I recommend you do this week
-
-- Decide hotel neighborhoods + max nightly budget per city
-- Return flight logistics: seats + baggage + connection timing (CDG → LHR → BOS)
-- Make a “must-see” vs “nice-to-have” list for attractions
-- Add calendar reminders for the 3 critical timed-ticket items
-
+- Wise (optional backup)
 
 ---
 
@@ -227,20 +231,8 @@ For best pricing, **book with the local operator app/site** when possible; use a
 - ✅ Jordaan + Canal Belt (UNESCO)
 - ✅ Museum Quarter / “I AMSTERDAM” area (exteriors, strolling)
 
-**What’s DEFINITELY OUT**
-- ❌ Rijksmuseum interior (exterior only)
-- ❌ Heineken Experience
-- ❌ Overbooking museums
-- ❌ Rigid schedules
-
 ## Day 1 — Amsterdam (Mon, Mar 23)
 **Arrival Day (Intentionally Light)**
-
-**Anchor:** none (by design)
-
-**If energy allows (choose 1–2):**
-- Short canal walk near the hotel
-- Early, casual dinner
 
 **Rest / exit option:** hotel + sleep
 
@@ -564,5 +556,7 @@ Notes:
 - Plan connection: arrive CDG early; at LHR you stay within Terminal 5 for both flights
 
 ---
+
+</details>
 
 *This document is a planning draft. Details will move to bookings once locked in.*

@@ -50,11 +50,20 @@
 **Ruta:** Países Bajos → Bélgica → Luxemburgo → Francia  
 **Total:** 17 días / 16 noches, 5 ciudades  
 
-**🎫 Reservas que sí o sí se compran con anticipación:**
-- ⏳ Casa de Ana Frank (Ámsterdam) — recordatorio: comprar el 10 de febrero
-- ⏳ Museo del Louvre (París) — recordatorio: comprar el 2 de febrero
-- ⏳ Palacio de Versalles
-- ⏳ Torre Eiffel — recordatorio: comprar el 2 de febrero (escaleras hasta 2º piso + ascensor a la cima)
+**🎫 Entradas (poner recordatorios)**
+
+Regla práctica: para las atracciones con **entrada con horario**, compra **apenas se habilite tu fecha/hora ideal**. Las fechas de abajo sirven como recordatorio para **empezar a revisar** — si aún no está abierta la venta, revisa de nuevo a diario.
+
+Días sugeridos (según el borrador actual):
+
+| Entrada | Día de visita | Empezar a revisar | Nota |
+| --- | --- | --- | --- |
+| Casa de Ana Frank | Mar, 24 Mar | 10 de febrero | Muy alta prioridad; elige una hora que funcione con la energía del niño. |
+| Torre Eiffel (escaleras a 2º + cima) | Sáb, 4 Abr | 2 de febrero | Si la cima está difícil, asegura cualquier horario “bueno” y arma el día alrededor. |
+| Louvre | Lun, 6 Abr | 2 de febrero | El Louvre cierra los martes; lunes encaja bien. |
+| Palacio de Versalles | Mar, 7 Abr | 10 de febrero | Versalles cierra los lunes; martes encaja bien. |
+
+Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes** (más temprano para Ana Frank) y compra cuando aparezcan horarios.
 
 **🏨 Hoteles por reservar:** todos pendientes
 
@@ -63,6 +72,47 @@
 - Comprar entradas de museos/atracciones (donde aplique)
 - Revisar vencimiento de pasaportes
 - Revisar seguro de viaje
+
+---
+
+## 🚌 Tren vs FlixBus (qué conviene aquí)
+
+- **Tren suele ser lo mejor para esta ruta**: más rápido, más cómodo con niño y estaciones más céntricas.
+- **FlixBus suele ser más barato**, pero casi siempre es más lento y depende del tráfico.
+- Usa **FlixBus solo si** el precio es mucho mejor *o* si comprando tarde el tren se pone muy caro.
+- Si usas FlixBus: prioriza **directos** y evita conexiones el mismo día muy ajustadas.
+
+## 🗺️ Itinerario (conciso, de ciudad en ciudad)
+
+### 🇳🇱 Ámsterdam (Lun, 23 Mar → Jue, 26 Mar)
+- Llegada + día tranquilo para “reset” (23 Mar)
+- Casa de Ana Frank (con horario) + Jordaan / caminatas por canales (24 Mar)
+- Zona Museum Quarter + paseo sin afán (25 Mar)
+- Tren a Eindhoven (26 Mar)
+
+### 🇳🇱 Eindhoven (Jue, 26 Mar → Sáb, 28 Mar)
+- Museo Philips + ritmo relajado
+- Strijp‑S / centro para caminar
+- Traslado: Eindhoven → Gante (medio día) → Brujas (28 Mar)
+
+### 🇧🇪 Brujas (Sáb, 28 Mar → Mar, 31 Mar)
+- Casco histórico + canales + Markt
+- Paseo en bote + chocolate/waffles + caminar sin afán
+- Tren a Luxemburgo (31 Mar)
+
+### 🇱🇺 Luxemburgo (Mar, 31 Mar → Vie, 3 Abr)
+- Casco antiguo + casamatas + Grund
+- Un día “respiro” para Vianden o una caminata fácil
+- Tren a París (3 Abr)
+
+### 🇫🇷 París (Vie, 3 Abr → Mié, 8 Abr)
+- Día de íconos al aire libre (zona Torre Eiffel + vistas)
+- Día de Montmartre (muy buen ritmo en familia)
+- Louvre (Lun, 6 Abr) + Versalles (Mar, 7 Abr)
+- Regreso (8 Abr)
+
+<details>
+<summary><strong>Detalles completos (planificación + día a día)</strong></summary>
 
 ---
 
@@ -546,5 +596,7 @@ Nota:
 - Conexión: en LHR ambos vuelos salen de Terminal 5
 
 ---
+
+</details>
 
 *Este documento es un borrador de planificación. Se irá ajustando a medida que queden reservas confirmadas.*
