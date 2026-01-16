@@ -23,27 +23,12 @@
 3-8 Abr:   🗼 París (5 noches) - Louvre, Torre Eiffel, Versalles + días flexibles
 8 Abr:     ✈️ Regreso</code></pre>
    </div>
-
-   <div style="flex:0 1 360px; min-width:260px;">
-      <div style="border:1px solid #d0d7de; border-radius:12px; padding:12px; background:#ffffff;">
-         <div style="font-weight:600; margin-bottom:8px;">Mapa de la ruta</div>
-         <details>
-            <summary style="cursor:pointer;">
-               <img src="../images/europeTripRouteMap.png" alt="Mapa de la ruta del viaje" style="width:100%; height:auto; display:block; border-radius:10px;" />
-               <div style="margin-top:8px; font-size:0.9em; color:#57606a;">Haz clic para desplegar el mapa interactivo.</div>
-            </summary>
-            <div style="margin-top:12px; position:relative; width:100%; height:min(70vh, 720px);">
-               <iframe
-                  src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F"
-                  style="position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:10px;"
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  allowfullscreen
-               ></iframe>
-            </div>
-         </details>
-      </div>
-   </div>
+   <iframe
+      src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F"
+      style="position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:10px;"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen></iframe>
 </div>
 
 
@@ -74,13 +59,6 @@ Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes**
 - Revisar seguro de viaje
 
 ---
-
-## 🚌 Tren vs FlixBus (qué conviene aquí)
-
-- **Tren suele ser lo mejor para esta ruta**: más rápido, más cómodo con niño y estaciones más céntricas.
-- **FlixBus suele ser más barato**, pero casi siempre es más lento y depende del tráfico.
-- Usa **FlixBus solo si** el precio es mucho mejor *o* si comprando tarde el tren se pone muy caro.
-- Si usas FlixBus: prioriza **directos** y evita conexiones el mismo día muy ajustadas.
 
 ## 🗺️ Itinerario (conciso, de ciudad en ciudad)
 

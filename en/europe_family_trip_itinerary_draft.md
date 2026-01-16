@@ -23,27 +23,12 @@ Apr 3:     🚂 Luxembourg → Paris
 Apr 3-8:   🗼 Paris (5 nights) - Louvre, Eiffel Tower, Versailles + flexible days
 Apr 8:     ✈️ Departure</code></pre>
    </div>
-
-   <div style="flex:0 1 360px; min-width:260px;">
-      <div style="border:1px solid #d0d7de; border-radius:12px; padding:12px; background:#ffffff;">
-         <div style="font-weight:600; margin-bottom:8px;">Route Map</div>
-         <details>
-            <summary style="cursor:pointer;">
-               <img src="../images/europeTripRouteMap.png" alt="Europe trip route map" style="width:100%; height:auto; display:block; border-radius:10px;" />
-               <div style="margin-top:8px; font-size:0.9em; color:#57606a;">Click to expand the interactive map.</div>
-            </summary>
-            <div style="margin-top:12px; position:relative; width:100%; height:min(70vh, 720px);">
-               <iframe
-                  src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F"
-                  style="position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:10px;"
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  allowfullscreen
-               ></iframe>
-            </div>
-         </details>
-      </div>
-   </div>
+   <iframe
+      src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F"
+      style="position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:10px;"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen></iframe>
 </div>
 
 
@@ -71,13 +56,6 @@ If a visit day changes, set a new reminder about **6–10 weeks before** (earlie
 - Review travel insurance options
 
 ---
-
-## 🚌 Train vs FlixBus (what to use here)
-
-- **Train is usually best for this itinerary**: faster, smoother ride for a kid, and stations are typically more central.
-- **FlixBus is often cheaper**, but it’s usually longer and more sensitive to traffic (plus boarding can be more chaotic).
-- Use **FlixBus only if** the schedule is dramatically better/cheaper *or* if rail prices spike late.
-- If you do FlixBus: pick a **direct** trip when possible and avoid very tight same-day connections.
 
 ## 🗺️ Itinerary (concise, city-to-city)
 
