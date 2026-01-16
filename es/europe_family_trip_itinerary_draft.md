@@ -46,10 +46,9 @@
    </div>
 </div>
 
+
 **Ruta:** Países Bajos → Bélgica → Luxemburgo → Francia  
 **Total:** 17 días / 16 noches, 5 ciudades  
-
-**🎯 Tiempo en París:** 5 noches (4 días completos + día de llegada) — suficiente para lo esencial sin correr
 
 **🎫 Reservas que sí o sí se compran con anticipación:**
 - ⏳ Casa de Ana Frank (Ámsterdam) — recordatorio: comprar el 10 de febrero

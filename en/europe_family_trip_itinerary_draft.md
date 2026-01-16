@@ -46,10 +46,9 @@ Apr 8:     ✈️ Departure</code></pre>
    </div>
 </div>
 
+
 **Countries:** Netherlands → Belgium → Luxembourg → France  
 **Total:** 17 days / 16 nights, 5 locations  
-
-**🎯 Paris Time:** 5 nights (4 full days + arrival day) — still enough for the major highlights with a good pace
 
 **🎫 Pre-Book Required:**
 - ⏳ Anne Frank House (Amsterdam) -- Alert to buy tickets February 10th
