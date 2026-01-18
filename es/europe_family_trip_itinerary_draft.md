@@ -64,6 +64,7 @@ Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes**
 - Tren a Eindhoven (26 Mar)
 
 ### 🇳🇱 Eindhoven (Jue, 26 Mar → Sáb, 28 Mar)
+- 🏨 **Holiday Inn Eindhoven** — Veldmaarschalk Montgomerylaan 1 — Check-in 3 PM / Check-out 12 PM
 - Museo Philips + ritmo relajado
 - Strijp‑S / centro para caminar
 - Traslado: Eindhoven → Gante (medio día) → Brujas (28 Mar)
@@ -79,6 +80,7 @@ Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes**
 - Tren a París (3 Abr)
 
 ### 🇫🇷 París (Vie, 3 Abr → Mié, 8 Abr)
+- 🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
 - Día de íconos al aire libre (zona Torre Eiffel + vistas)
 - Día de Montmartre (muy buen ritmo en familia)
 - Louvre (Lun, 6 Abr) + Versalles (Mar, 7 Abr)
@@ -186,6 +188,65 @@ Para mejor precio, **compra con el operador local** cuando se pueda; usa agregad
 - **CFL** — Luxemburgo (planificación + tickets internacionales si aplica)
 - **SNCF Connect** — Francia (París; TGV/Intercités + reservas)
 - **Trainline (opcional)** — NL/BE/LU/FR/UK (útil para comparar; revisa precio/fees vs operador)
+
+---
+
+## 🏨 Hoteles
+
+### �🇱 Eindhoven — CONFIRMADO
+
+**Holiday Inn Eindhoven**  
+**Confirmación:** 48830604
+
+| | |
+|---|---|
+| **Fechas** | Jue, 26 Mar – Sáb, 28 Mar 2026 (2 noches) |
+| **Check-in** | 3:00 PM |
+| **Check-out** | 12:00 PM |
+| **Habitación** | 1 King Suite Sofá Cama |
+| **Tarifa** | Oferta exclusiva app miembros con desayuno |
+| **Huéspedes** | 1 habitación, 2 adultos, 1 niño (principal: Christopher Wheeler) |
+| **Dirección** | Veldmaarschalk Montgomerylaan 1, Eindhoven 5612 BA, Países Bajos |
+| **Teléfono** | +31 40 235 8235 |
+| **Email** | info@hieindhoven.com |
+
+**Costo:**
+- 2 noches: €342.80
+- Cargos adicionales: €21.00
+- **Total:** €363.80
+- Puntos IHG estimados: 5,325
+
+**Cancelación:** Depósito perdido si se cancela después de las 2:08 PM (hora local del hotel) del 18 Ene 2026, o no-show. Depósito por toda la estadía se cobra al reservar.
+
+---
+
+### �🇫🇷 París — CONFIRMADO
+
+**voco Paris Montparnasse by IHG**  
+**Confirmación:** 27782134
+
+| | |
+|---|---|
+| **Fechas** | Vie, 3 Abr – Mié, 8 Abr 2026 (5 noches) |
+| **Check-in** | 3:00 PM |
+| **Check-out** | 12:00 PM |
+| **Habitación** | 1 King Premium + Sofá cama individual |
+| **Huéspedes** | 2 (principal: Christopher Wheeler) |
+| **Dirección** | 79/81 Avenue Du Maine, París 75014, Francia |
+
+**Costo:**
+- Habitación + impuestos: $1,839.09
+- Promoción viaje: −$50.00
+- **Total:** $1,789.09
+- Puntos redimidos: 110,161 pts (1.5× Points Boost)
+- Cobrado a tarjeta: $136.67 (Visa terminación 1929)
+
+**Cancelación:** Gratis hasta Jue, 2 Abr 2026 (12:00 AM hora local del hotel)
+
+**Notas:**
+- Presentar tarjeta de crédito personal al check-in para incidentales
+- La habitación está reservada; el nombre puede no aparecer en el hotel hasta 48 hrs antes del check-in
+- Para solicitudes especiales (cama extra, late checkout), contactar directamente al hotel
 
 ---
 
