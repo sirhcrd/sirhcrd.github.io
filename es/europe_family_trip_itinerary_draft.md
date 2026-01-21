@@ -268,7 +268,7 @@ Para mejor precio, **compra con el operador local** cuando se pueda; usa agregad
    - Tarifa: Blue Basic
    - Maletas: 1 incluida
 
-2. **Daniela Wheeler**
+2. **Daniela Garavito Carrascal**
    - TrueBlue #: (por agregar)
    - Ticket #: 2792100922316
    - Tarifa: Blue Basic

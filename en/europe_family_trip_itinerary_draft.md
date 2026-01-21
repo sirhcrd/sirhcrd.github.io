@@ -231,7 +231,7 @@ For best pricing, **book with the local operator app/site** when possible; use a
    - Fare: Blue Basic
    - Checked bags: 1 included
 
-2. **Daniela Wheeler**
+2. **Daniela Garavito Carrascal**
    - TrueBlue #: (to be added)
    - Ticket #: 2792100922316
    - Fare: Blue Basic
