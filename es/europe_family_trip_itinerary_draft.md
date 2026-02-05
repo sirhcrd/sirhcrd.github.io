@@ -111,7 +111,7 @@ Para mejor precio, **compra con el operador local** cuando se pueda; usa agregad
 
 ## 🏨 Hoteles
 
-### �🇱 Eindhoven — CONFIRMADO
+### Eindhoven — CONFIRMADO
 
 **Holiday Inn Eindhoven**  
 **Confirmación:** 48830604
@@ -138,7 +138,7 @@ Para mejor precio, **compra con el operador local** cuando se pueda; usa agregad
 
 ---
 
-### �🇫🇷 París — CONFIRMADO
+### París — CONFIRMADO
 
 **voco Paris Montparnasse by IHG**  
 **Confirmación:** 27782134
