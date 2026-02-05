@@ -65,7 +65,7 @@ Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes**
 - Vie: Museo Philips + ritmo relajado
 - Barrios fáciles: Strijp‑S / centro para caminar
 - Sáb: Traslado: Eindhoven → Gante (medio día) → Brujas (28 Mar)
-- 🏨 **Holiday Inn Eindhoven** — Veldmaarschalk Montgomerylaan 1 — Check-in 3 PM / Check-out 12 PM
+🏨 **Holiday Inn Eindhoven** — Veldmaarschalk Montgomerylaan 1 — Check-in 3 PM / Check-out 12 PM
 
 ### 🇧🇪 Brujas (Sáb, 28 Mar → Mar, 31 Mar)
 - Sáb: Casco histórico + canales + Markt
@@ -85,97 +85,14 @@ Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes**
 - Lun: París icónico + Torre Eiffel
 - Mar: Versalles
 - Mié: Regreso (8 Abr)
-- 🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
+🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
 
 <details>
 <summary><strong>Detalles completos (planificación + día a día)</strong></summary>
 
 ---
 
-## 🧭 Qué decidir después (en orden)
 
-### 🟢 Fase 1 — Cerrar lo “imperdible”
-
-#### 1) Hoteles (lo más importante ahora)
-
-**¿Por qué ya?**
-- Marzo–abril es temporada media (hay buena disponibilidad ahora)
-- Los precios suelen subir al acercarse primavera
-- La ubicación importa más que el lujo (especialmente con un niño)
-
-**Orden recomendado para reservar (mayor impacto primero):**
-1. París
-2. Ámsterdam
-3. Brujas
-4. Luxemburgo
-5. Eindhoven
-
-**Qué buscar:**
-- Barrios caminables (menos fricción de transporte)
-- Ascensor (importante con maletas)
-- Habitación familiar o configuración fácil de camas
-
-**Decisiones necesarias antes de reservar:**
-- Presupuesto máximo por noche por ciudad
-- Preferencia: una habitación vs dos
-- “Imprescindibles” (ascensor, A/C, lavandería, desayuno, etc.)
-
-#### 2) Entradas con horario que se agotan
-
-No hay que comprar todo ya—solo lo crítico.
-
-**🔴 Comprar temprano (ideal: 2–3 meses antes):**
-- Casa de Ana Frank (Ámsterdam)
-- Louvre (París)
-- Versalles
-
-**🟡 Opcional / flexible:**
-- Torre Eiffel (chévere, pero se puede omitir si se agota)
-- Musée d’Orsay (a veces es más fácil conseguir después)
-
-Nota: cuando los hoteles estén listos, escogemos los días de entradas con horario siguiendo la regla: **día de llegada / día de traslado = sin entradas con horario**.
-
-### 🟡 Fase 2 — Trenes (planear ahora, comprar después)
-
-#### 3) Estrategia de tren
-
-No compres trenes todavía—solo dejamos la ruta clara.
-
-**Rutas clave:**
-- Ámsterdam → Eindhoven
-- Eindhoven → Gante → Brujas (mismo día)
-- Brujas → Luxemburgo
-- Luxemburgo → París
-
-**Cuándo comprar:**
-- 8–12 semanas antes suele ser el punto óptimo para buen precio + asientos en trayectos largos
-
-#### 4) Reservas vs flexibilidad
-
-- **Reserva** los trayectos largos y lo que necesite asiento/horario fijo
-- **Mantén flexible** lo corto (especialmente dentro de Países Bajos)
-
-### 🟢 Fase 3 — Ritmo familiar
-
-#### 5) Regla de energía (niño-friendly)
-
-- Días de llegada = sin entradas con horario
-- Días de traslado = sin museos
-- Cada 2–3 días “pesados” → 1 día liviano/parques/cafés
-
-#### 6) Logística de pagos (rápido)
-
-- Wise/Revolut (opcional como respaldo)
-- Aviso al banco (si tu banco aún lo pide)
-- Apple Pay / Google Pay listo
-- Pasaportes al día
-
-### ✅ Recomendación de esta semana
-
-- Definir barrios + presupuesto máximo por ciudad
-- Logística del vuelo de regreso: asientos + equipaje + conexión (CDG → LHR → BOS)
-- Lista “imperdible” vs “si se puede” por ciudad
-- Poner recordatorios para las 3 entradas críticas
 
 ---
 
@@ -293,23 +210,17 @@ Para mejor precio, **compra con el operador local** cuando se pueda; usa agregad
 
 ---
 
-## 🇳🇱 Ámsterdam — PLAN CERRADO (23–26 Mar)
+## 🇳🇱 Ámsterdam — (23–26 Mar)
 
-**Lo que SÍ va (definitivo)**
+**Lista de Pendientes**
 - ✅ Casa de Ana Frank (con horario)
 - ✅ Experiencia de canales (caminata + crucero opcional)
 - ✅ Turismo caminando (ritmo familiar)
 - ✅ Jordaan + Cinturón de Canales (UNESCO)
 - ✅ Barrio de Museos / zona “I AMSTERDAM” (por fuera, sin presión)
 
-**Lo que NO va (definitivo)**
-- ❌ Rijksmuseum por dentro (solo exterior)
-- ❌ Heineken Experience
-- ❌ Maratón de museos
-- ❌ Itinerario rígido
-
 ## Día 1 — Ámsterdam (Lun, 23 Mar)
-**Llegada (intencionalmente liviano)**
+**Llegada**
 
 **Ancla:** ninguna (a propósito)
 

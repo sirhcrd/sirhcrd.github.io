@@ -51,7 +51,7 @@ Planned visit days (based on the current draft):
 - Fri: Philips Museum + relaxed pace
 - Easy neighborhoods: Strijp‑S / city center strolling
 - Sat: Depart to Ghent (half-day) → Bruges (Mar 28)
-- 🏨 **Holiday Inn Eindhoven** — Veldmaarschalk Montgomerylaan 1 — Check-in 3 PM / Check-out 12 PM
+🏨 **Holiday Inn Eindhoven** — Veldmaarschalk Montgomerylaan 1 — Check-in 3 PM / Check-out 12 PM
 
 ### 🇧🇪 Bruges (Sat, Mar 28 → Tue, Mar 31)
 - Sat: Old town + canals + Market Square
@@ -71,7 +71,7 @@ Planned visit days (based on the current draft):
 - Mon: Iconic Paris + Eiffel Tower (timed)
 - Tue: Versailles excursion
 - Wed: Departure (Apr 8)
-- 🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
+🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
 
 <details>
 <summary><strong>Full details (planning + day-by-day)</strong></summary>
@@ -93,7 +93,7 @@ For best pricing, **book with the local operator app/site** when possible; use a
 
 ## 🏨 Hotels
 
-### �🇱 Eindhoven — CONFIRMED
+### Eindhoven — CONFIRMED
 
 **Holiday Inn Eindhoven**  
 **Confirmation:** 48830604
@@ -120,7 +120,7 @@ For best pricing, **book with the local operator app/site** when possible; use a
 
 ---
 
-### �🇫🇷 Paris — CONFIRMED
+### Paris — CONFIRMED
 
 **voco Paris Montparnasse by IHG**  
 **Confirmation:** 27782134
@@ -193,9 +193,9 @@ For best pricing, **book with the local operator app/site** when possible; use a
 
 ---
 
-## 🇳🇱 Amsterdam — LOCKED PLAN (Mar 23–26)
+## 🇳🇱 Amsterdam — (Mar 23–26)
 
-**What’s DEFINITELY IN**
+**Todo List**
 - ✅ Anne Frank House (timed)
 - ✅ Canal experience (walk + optional cruise)
 - ✅ Walking-based sightseeing (family pace)
@@ -203,7 +203,7 @@ For best pricing, **book with the local operator app/site** when possible; use a
 - ✅ Museum Quarter / “I AMSTERDAM” area (exteriors, strolling)
 
 ## Day 1 — Amsterdam (Mon, Mar 23)
-**Arrival Day (Intentionally Light)**
+**Arrival Day**
 
 **Rest / exit option:** hotel + sleep
 
