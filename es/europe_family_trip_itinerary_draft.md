@@ -40,7 +40,7 @@ Días sugeridos (según el borrador actual):
 | --- | --- | --- | --- |
 | Casa de Ana Frank | Mar, 24 Mar | 10 de febrero | Muy alta prioridad; elige una hora que funcione con la energía del niño. |
 | Torre Eiffel (escaleras a 2º + cima) | Sáb, 4 Abr | 2 de febrero | Si la cima está difícil, asegura cualquier horario “bueno” y arma el día alrededor. |
-| Louvre | Lun, 6 Abr | 2 de febrero | El Louvre cierra los martes; lunes encaja bien. |
+| Museo del Louvre | Vie, 3 Abr (Noche) | 2 de febrero | Entrada gratis después de 6 PM (Primer viernes). Reservar cupo. |
 | Palacio de Versalles | Mar, 7 Abr | 10 de febrero | Versalles cierra los lunes; martes encaja bien. |
 
 Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes** (más temprano para Ana Frank) y compra cuando aparezcan horarios.
@@ -83,7 +83,7 @@ Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes**
 - 🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
 - Día de íconos al aire libre (zona Torre Eiffel + vistas)
 - Día de Montmartre (muy buen ritmo en familia)
-- Louvre (Lun, 6 Abr) + Versalles (Mar, 7 Abr)
+- Louvre (Vie, 3 Abr noche) + Versalles (Mar, 7 Abr)
 - Regreso (8 Abr)
 
 <details>
@@ -539,10 +539,10 @@ Nota:
 **Traslado**
 - Tren directo ~2h15
 - Check-in en hotel céntrico (pendiente)
-- Noche tranquila
+- **Museo del Louvre** (Después de 6 PM) — Entrada gratuita (Primer viernes del mes)
 
 Nota:
-- Noche de “reset” después de viajar
+- Llegar después de las 6 PM para entrada gratis. Abierto hasta 9:45 PM.
 
 ---
 
@@ -568,15 +568,14 @@ Opcional:
 ---
 
 ## Día 15 — París (Lun, 6 Abr)
-**París histórico + Louvre**
+**París histórico**
 - Ruta a pie (elige lo más cerca del hotel):
   - Île de la Cité + Notre Dame (exterior)
   - Barrio Latino
   - Le Marais
-- Museo del Louvre (entrada con horario)
 
 Nota:
-- El Louvre cierra los martes, así que lunes encaja bien
+- (Louvre movido al viernes en la noche)
 
 ---
 

@@ -40,7 +40,7 @@ Planned visit days (based on the current draft):
 | --- | --- | --- | --- |
 | Anne Frank House | Tue, Mar 24 | Feb 10 | Highest urgency; pick a time that works for the kid’s energy level. |
 | Eiffel Tower (stairs to 2nd + summit) | Sat, Apr 4 | Feb 2 | If summit slots are scarce, lock any good time and plan the rest around it. |
-| Louvre Museum | Mon, Apr 6 | Feb 2 | Louvre is closed Tuesdays; Monday is a good fit. |
+| Louvre Museum | Fri, Apr 3 (Evening) | Feb 2 | Free entry after 6 PM (First Friday). Book slot if req. |
 | Palace of Versailles | Tue, Apr 7 | Feb 10 | Versailles is closed Mondays; Tuesday is a good fit. |
 
 If a visit day changes, set a new reminder about **6–10 weeks before** (earlier for Anne Frank) and buy once time slots appear.
@@ -80,7 +80,7 @@ If a visit day changes, set a new reminder about **6–10 weeks before** (earlie
 - 🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
 - Outdoor icons day (Eiffel area + classic viewpoints)
 - Montmartre day (great pacing for a family)
-- Louvre (Mon, Apr 6) + Versailles (Tue, Apr 7)
+- Louvre (Fri, Apr 3 evening) + Versailles (Tue, Apr 7)
 - Departure (Apr 8)
 
 <details>
@@ -498,10 +498,10 @@ Notes:
 **Travel Day**
 - Direct train ~2h15
 - Check in to centrally located hotel (TBD)
-- Evening at leisure
+- **Louvre Museum** (After 6 PM) — Free admission (First Friday of month)
 
 Notes:
-- Keep this night low-key (travel + reset)
+- Arrive after 6 PM for free entry. Open until 9:45 PM.
 
 ---
 
@@ -527,15 +527,14 @@ Optional:
 ---
 
 ## Day 15 — Paris (Mon, Apr 6)
-**Historic Paris + Louvre**
+**Historic Paris**
 - Walking loop (choose what’s closest to your hotel):
   - Île de la Cité + Notre Dame (exterior)
   - Latin Quarter
   - Le Marais
-- Louvre Museum (skip-the-line)
 
 Notes:
-- Louvre is closed Tuesdays, so Monday is a good fit
+- (Louvre moved to Friday evening)
 
 ---
 
