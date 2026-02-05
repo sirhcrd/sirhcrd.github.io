@@ -11,133 +11,70 @@
 **Trip Flow:**
 ```
 Mar 22-23: ✈️ Boston → Amsterdam (overnight flight)
-Mar 23-26: 🏛️ Amsterdam (3 nights) - Anne Frank, canals, city tour
-Mar 26:    🚂 Amsterdam → Eindhoven
-Mar 26-28: 🏙️ Eindhoven (2 nights) - Philips Museum + relaxed pace
-Mar 28:    🚂 Eindhoven → Ghent (half day) → Bruges (store luggage, explore canals & coffee culture)
-Mar 28-31: 🏰 Bruges (3 nights) - old town, boat ride, food wandering, beer cafés
-Mar 31:    🚂 Bruges → Luxembourg
-Mar 31-Apr 3: 🌿 Luxembourg (3 nights) - Old Town + Casemates + relaxed pace
-Apr 3:     🚂 Luxembourg → Paris
-Apr 3-8:   🗼 Paris (5 nights) - Louvre, Eiffel Tower, Versailles + flexible days
+Mar 23-26: 🏛️ Amsterdam (3 nights)
+Mar 26:    🚂 Amsterdam → Eindhoven (~1h 20m)
+Mar 26-28: 🏙️ Eindhoven (2 nights)
+Mar 28:    🚂 Eindhoven → Ghent (~3h 15m) → Bruges (~30m)
+Mar 28-31: 🏰 Bruges (3 nights)
+Mar 31:    🚂 Bruges → Luxembourg (~4h 30m)
+Mar 31-Apr 3: 🌿 Luxembourg (3 nights)
+Apr 3:     🚂 Luxembourg → Paris (~2h 15m)
+Apr 3-8:   🗼 Paris (5 nights)
 Apr 8:     ✈️ Departure
 ```
 
 **Route Map:**
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F" width="100%" height="320" style="border:0; border-radius:10px; max-width:640px;" loading="lazy" allowfullscreen></iframe>
 
-
-**Countries:** Netherlands → Belgium → Luxembourg → France  
-**Total:** 17 days / 16 nights, 5 locations  
-
 **🎫 Ticket Purchases (set alerts)**
-
-Use this rule of thumb: **for your top “timed entry” sights, buy as soon as your preferred date/time opens**. The dates below are good “start checking” alerts — if tickets aren’t open yet, just check again daily until they are.
 
 Planned visit days (based on the current draft):
 
 | Ticket | Planned visit day | Start checking | Notes |
 | --- | --- | --- | --- |
 | Anne Frank House | Tue, Mar 24 | Feb 10 | Highest urgency; pick a time that works for the kid’s energy level. |
-| Eiffel Tower (stairs to 2nd + summit) | Sat, Apr 4 | Feb 2 | If summit slots are scarce, lock any good time and plan the rest around it. |
+| Eiffel Tower (stairs to 2nd + summit) | Mon, Apr 6 | Mar 23 | 14 days prior. If summit sold out, grab 2nd floor. |
 | Louvre Museum | Fri, Apr 3 (Evening) | Feb 2 | Free entry after 6 PM (First Friday). Book slot if req. |
 | Palace of Versailles | Tue, Apr 7 | Feb 10 | Versailles is closed Mondays; Tuesday is a good fit. |
-
-If a visit day changes, set a new reminder about **6–10 weeks before** (earlier for Anne Frank) and buy once time slots appear.
-
-**💼 To Do Before Trip:**
-- Research/book hotels for all stops
-- Set up payment on train apps
-- Review travel insurance options
 
 ---
 
 ## 🗺️ Itinerary (concise, city-to-city)
 
 ### 🇳🇱 Amsterdam (Mon, Mar 23 → Thu, Mar 26)
-- Arrive + easy reset day (Mar 23)
-- Anne Frank House (timed) + Jordaan / canal walks (Mar 24)
-- Museum Quarter area + low-stress city wandering (Mar 25)
-- Depart by train to Eindhoven (Mar 26)
+- Mon: Arrive + easy reset day (Mar 23)
+- Tue: Anne Frank House (timed) + Jordaan / canal walks (Mar 24)
+- Wed: Museum Quarter area + low-stress city wandering (Mar 25)
+- Thu: Depart by train to Eindhoven (Mar 26)
 
 ### 🇳🇱 Eindhoven (Thu, Mar 26 → Sat, Mar 28)
-- 🏨 **Holiday Inn Eindhoven** — Veldmaarschalk Montgomerylaan 1 — Check-in 3 PM / Check-out 12 PM
-- Philips Museum + relaxed pace
+- Fri: Philips Museum + relaxed pace
 - Easy neighborhoods: Strijp‑S / city center strolling
-- Depart to Ghent (half-day) → Bruges (Mar 28)
+- Sat: Depart to Ghent (half-day) → Bruges (Mar 28)
+- 🏨 **Holiday Inn Eindhoven** — Veldmaarschalk Montgomerylaan 1 — Check-in 3 PM / Check-out 12 PM
 
 ### 🇧🇪 Bruges (Sat, Mar 28 → Tue, Mar 31)
-- Old town + canals + Market Square
-- Boat ride + chocolate/waffles + slow wandering
-- Depart to Luxembourg (Mar 31)
+- Sat: Old town + canals + Market Square
+- Sun: Boat ride + chocolate/waffles + slow wandering
+- Mon: Extra calm day (Minnewater Park) or optional Ghent revisit
+- Tue: Depart to Luxembourg (Mar 31)
 
 ### 🇱🇺 Luxembourg (Tue, Mar 31 → Fri, Apr 3)
-- Old Town + Casemates + Grund river area
-- One “breather” day for Vianden Castle or an easy nature walk
-- Depart to Paris (Apr 3)
+- Tue: Old Town + Casemates + Grund river area
+- Wed: Historic highlights
+- Thu: One “breather” day for Vianden Castle or an easy nature walk
+- Fri: Depart to Paris (Apr 3)
 
 ### 🇫🇷 Paris (Fri, Apr 3 → Wed, Apr 8)
+- Sat: Historic Paris (Notre Dame / Latin Quarter)
+- Sun: Montmartre day (great pacing for a family)
+- Mon: Iconic Paris + Eiffel Tower (timed)
+- Tue: Versailles excursion
+- Wed: Departure (Apr 8)
 - 🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
-- Outdoor icons day (Eiffel area + classic viewpoints)
-- Montmartre day (great pacing for a family)
-- Louvre (Fri, Apr 3 evening) + Versailles (Tue, Apr 7)
-- Departure (Apr 8)
 
 <details>
 <summary><strong>Full details (planning + day-by-day)</strong></summary>
-
----
-
-## 🧭 What to Think About Next (In the Right Order)
-
-### 🟢 Phase 1 — Lock the “Can’t-Miss” Items (High Priority)
-
-#### 1) Hotels (most important right now)
-
-**Why now?**
-- March–April is shoulder season (good availability now)
-- Prices generally rise as spring ramps up
-- Location matters more than luxury for a family trip
-
-**Order to book (highest impact first):**
-1. Paris
-2. Amsterdam
-3. Bruges
-4. Luxembourg
-5. Eindhoven
-
-**Aim for:**
-- Walkable neighborhoods (reduce transit friction with a child)
-- Elevator (important with luggage)
-- Family room or easy twin setup
-
-#### 2) Timed attractions that sell out
-
-You don’t need every ticket now—just the critical ones.
-
-**🔴 Book early (target: 2–3 months out):**
-- See above for days alerts are set on
-
-### 🟡 Phase 2 — Transportation Planning (plan now, buy later)
-
-#### 3) Train strategy
-
-Don’t buy trains yet—just lock the plan.
-
-**Key routes:**
-- Amsterdam → Eindhoven
-- Eindhoven → Ghent → Bruges (same day)
-- Bruges → Luxembourg
-- Luxembourg → Paris
-
-**When to buy:**
-- 8–12 weeks before travel is usually the sweet spot for price + seat choice on longer legs
-
-### 🟢 Phase 3 — Comfort, Pace & Backup Planning
-
-#### 4) Payments & logistics (low-stress wins)
-
-- Wise (optional backup)
 
 ---
 
@@ -506,15 +443,14 @@ Notes:
 ---
 
 ## Day 13 — Paris (Sat, Apr 4)
-**Iconic Paris (Outdoors + Views)**
-- Champs-Élysées district
-- Place de la Concorde
-- Tuileries Gardens
-- Pont Alexandre III
-- Eiffel Tower area (tickets TBD)
+**Historic Paris**
+- Walking loop (choose what’s closest to your hotel):
+  - Île de la Cité + Notre Dame (exterior)
+  - Latin Quarter
+  - Le Marais
 
-Optional:
-- Seine river cruise
+Notes:
+- Good Saturday activity (bustling but manageable)
 
 ---
 
@@ -527,11 +463,14 @@ Optional:
 ---
 
 ## Day 15 — Paris (Mon, Apr 6)
-**Historic Paris**
-- Walking loop (choose what’s closest to your hotel):
-  - Île de la Cité + Notre Dame (exterior)
-  - Latin Quarter
-  - Le Marais
+**Iconic Paris + Eiffel Tower**
+- Champs-Élysées district
+- Place de la Concorde
+- Tuileries Gardens
+- **Eiffel Tower** (Timed entry)
+
+Optional:
+- Seine river cruise (if not done earlier)
 
 Notes:
 - (Louvre moved to Friday evening)

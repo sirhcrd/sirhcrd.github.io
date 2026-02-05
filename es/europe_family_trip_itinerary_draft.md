@@ -11,15 +11,15 @@
 **Flujo del viaje:**
 ```
 22-23 Mar: ✈️ Boston → Ámsterdam (vuelo nocturno)
-23-26 Mar: 🏛️ Ámsterdam (3 noches) - Anne Frank, canales, caminatas
-26 Mar:    🚂 Ámsterdam → Eindhoven
-26-28 Mar: 🏙️ Eindhoven (2 noches) - Museo Philips + ritmo tranquilo
-28 Mar:    🚂 Eindhoven → Gante (medio día) → Brujas (guardar maletas, canales + café)
-28-31 Mar: 🏰 Brujas (3 noches) - casco histórico, paseo en bote, comida, cervezas
-31 Mar:    🚂 Brujas → Luxemburgo
-31 Mar-3 Abr: 🌿 Luxemburgo (3 noches) - casco antiguo + casamatas + descanso
-3 Abr:     🚂 Luxemburgo → París
-3-8 Abr:   🗼 París (5 noches) - Louvre, Torre Eiffel, Versalles + días flexibles
+23-26 Mar: 🏛️ Ámsterdam (3 noches)
+26 Mar:    🚂 Ámsterdam → Eindhoven (~1h 20m)
+26-28 Mar: 🏙️ Eindhoven (2 noches)
+28 Mar:    🚂 Eindhoven → Gante (~3h 15m) → Brujas (~30m)
+28-31 Mar: 🏰 Brujas (3 noches)
+31 Mar:    🚂 Brujas → Luxemburgo (~4h 30m)
+31 Mar-3 Abr: 🌿 Luxemburgo (3 noches)
+3 Abr:     🚂 Luxemburgo → París (~2h 15m)
+3-8 Abr:   🗼 París (5 noches)
 8 Abr:     ✈️ Regreso
 ```
 
@@ -27,8 +27,6 @@
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1LaQqsnkM37DLnW0N--GqrvojMyJlzfE&ehbc=2E312F" width="100%" height="320" style="border:0; border-radius:10px; max-width:640px;" loading="lazy" allowfullscreen></iframe>
 
 
-**Ruta:** Países Bajos → Bélgica → Luxemburgo → Francia  
-**Total:** 17 días / 16 noches, 5 ciudades  
 
 **🎫 Entradas (poner recordatorios)**
 
@@ -39,7 +37,7 @@ Días sugeridos (según el borrador actual):
 | Entrada | Día de visita | Empezar a revisar | Nota |
 | --- | --- | --- | --- |
 | Casa de Ana Frank | Mar, 24 Mar | 10 de febrero | Muy alta prioridad; elige una hora que funcione con la energía del niño. |
-| Torre Eiffel (escaleras a 2º + cima) | Sáb, 4 Abr | 2 de febrero | Si la cima está difícil, asegura cualquier horario “bueno” y arma el día alrededor. |
+| Torre Eiffel (escaleras a 2º + cima) | Lun, 6 Abr | 23 de marzo | 14 días antes. Si se agota la cima, asegura 2º piso. |
 | Museo del Louvre | Vie, 3 Abr (Noche) | 2 de febrero | Entrada gratis después de 6 PM (Primer viernes). Reservar cupo. |
 | Palacio de Versalles | Mar, 7 Abr | 10 de febrero | Versalles cierra los lunes; martes encaja bien. |
 
@@ -58,33 +56,36 @@ Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes**
 ## 🗺️ Itinerario (conciso, de ciudad en ciudad)
 
 ### 🇳🇱 Ámsterdam (Lun, 23 Mar → Jue, 26 Mar)
-- Llegada + día tranquilo para “reset” (23 Mar)
-- Casa de Ana Frank (con horario) + Jordaan / caminatas por canales (24 Mar)
-- Zona Museum Quarter + paseo sin afán (25 Mar)
-- Tren a Eindhoven (26 Mar)
+- Lun: Llegada + día tranquilo para “reset” (23 Mar)
+- Mar: Casa de Ana Frank (con horario) + Jordaan / caminatas por canales (24 Mar)
+- Mié: Zona Museum Quarter + paseo sin afán (25 Mar)
+- Jue: Tren a Eindhoven (26 Mar)
 
 ### 🇳🇱 Eindhoven (Jue, 26 Mar → Sáb, 28 Mar)
+- Vie: Museo Philips + ritmo relajado
+- Barrios fáciles: Strijp‑S / centro para caminar
+- Sáb: Traslado: Eindhoven → Gante (medio día) → Brujas (28 Mar)
 - 🏨 **Holiday Inn Eindhoven** — Veldmaarschalk Montgomerylaan 1 — Check-in 3 PM / Check-out 12 PM
-- Museo Philips + ritmo relajado
-- Strijp‑S / centro para caminar
-- Traslado: Eindhoven → Gante (medio día) → Brujas (28 Mar)
 
 ### 🇧🇪 Brujas (Sáb, 28 Mar → Mar, 31 Mar)
-- Casco histórico + canales + Markt
-- Paseo en bote + chocolate/waffles + caminar sin afán
-- Tren a Luxemburgo (31 Mar)
+- Sáb: Casco histórico + canales + Markt
+- Dom: Paseo en bote + chocolate/waffles + caminar sin afán
+- Lun: Día extra suave (Minnewater) o regreso opcional a Gante
+- Mar: Tren a Luxemburgo (31 Mar)
 
 ### 🇱🇺 Luxemburgo (Mar, 31 Mar → Vie, 3 Abr)
-- Casco antiguo + casamatas + Grund
-- Un día “respiro” para Vianden o una caminata fácil
-- Tren a París (3 Abr)
+- Mar: Casco antiguo + casamatas + Grund
+- Mié: Lo esencial de Luxemburgo
+- Jue: Un día “respiro” para Vianden o una caminata fácil
+- Vie: Tren a París (3 Abr)
 
 ### 🇫🇷 París (Vie, 3 Abr → Mié, 8 Abr)
+- Sáb: París histórico (Barrio Latino / Notre Dame)
+- Dom: Día de Montmartre (muy buen ritmo en familia)
+- Lun: París icónico + Torre Eiffel
+- Mar: Versalles
+- Mié: Regreso (8 Abr)
 - 🏨 **voco Paris Montparnasse** — 79/81 Avenue Du Maine — Check-in 3 PM / Check-out 12 PM
-- Día de íconos al aire libre (zona Torre Eiffel + vistas)
-- Día de Montmartre (muy buen ritmo en familia)
-- Louvre (Vie, 3 Abr noche) + Versalles (Mar, 7 Abr)
-- Regreso (8 Abr)
 
 <details>
 <summary><strong>Detalles completos (planificación + día a día)</strong></summary>
@@ -547,15 +548,14 @@ Nota:
 ---
 
 ## Día 13 — París (Sáb, 4 Abr)
-**París icónico (exteriores + vistas)**
-- Zona Champs-Élysées
-- Place de la Concorde
-- Jardines de las Tullerías
-- Puente Alexandre III
-- Zona Torre Eiffel (tickets pendientes)
+**París histórico**
+- Ruta a pie (elige lo más cerca del hotel):
+  - Île de la Cité + Notre Dame (exterior)
+  - Barrio Latino
+  - Le Marais
 
-Opcional:
-- Crucero por el Sena
+Nota:
+- Buen plan para sábado (animado pero manejable)
 
 ---
 
@@ -568,11 +568,14 @@ Opcional:
 ---
 
 ## Día 15 — París (Lun, 6 Abr)
-**París histórico**
-- Ruta a pie (elige lo más cerca del hotel):
-  - Île de la Cité + Notre Dame (exterior)
-  - Barrio Latino
-  - Le Marais
+**París icónico + Torre Eiffel**
+- Zona Champs-Élysées
+- Place de la Concorde
+- Jardines de las Tullerías
+- **Torre Eiffel** (Entrada con horario)
+
+Opcional:
+- Crucero por el Sena (si no se hizo antes)
 
 Nota:
 - (Louvre movido al viernes en la noche)
