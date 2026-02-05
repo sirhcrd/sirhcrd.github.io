@@ -371,7 +371,7 @@ Nota:
 | 25 Mar | Barrio de Museos | Vondelpark, 9 Calles | Café / noche temprana |
 
 ## Día 4 — Ámsterdam → Eindhoven (Jue, 26 Mar)
-**Traslado + plan social**
+**Traslado + plan social** (Tiempo de viaje: ~1h 20m)
 
 **Ancla (suave):** cena con amigos/compañeros
 
@@ -422,7 +422,7 @@ Nota:
 - La idea es caminar + comer + sentarse; no “maratón de museos”
 
 ## Día 6 — Eindhoven → Gante → Brujas (Sáb, 28 Mar)
-**Traslado + “probar” Gante**
+**Traslado + “probar” Gante** (Tiempo de viaje a Gante: ~3h 15m con transbordos)
 
 **Mañana:**
 - Eindhoven → Gante St. Pieters
@@ -502,7 +502,7 @@ Nota:
 ---
 
 ## Día 9 — Brujas → Luxemburgo (Mar, 31 Mar)
-**Traslado**
+**Traslado** (Tiempo de viaje: ~4h 30m – 5h; viaje largo)
 - Tren a Luxemburgo en la mañana
 - Check-in
 - Tarde suave: caminar casco antiguo + miradores
@@ -536,7 +536,7 @@ Nota:
 ---
 
 ## Día 12 — Luxemburgo → París (Vie, 3 Abr)
-**Traslado**
+**Traslado** (Tiempo de viaje: ~2h 15m; TGV directo)
 - Tren directo ~2h15
 - Check-in en hotel céntrico (pendiente)
 - **Museo del Louvre** (Después de 6 PM) — Entrada gratuita (Primer viernes del mes)

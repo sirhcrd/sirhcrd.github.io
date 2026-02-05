@@ -323,7 +323,7 @@ Notes:
 | Mar 25 | Museum Quarter walk | Vondelpark, Nine Streets | Café / early night |
 
 ## Day 4 — Amsterdam → Eindhoven (Thu, Mar 26)
-**Travel Day + Social Time**
+**Travel Day + Social Time** (Travel time: ~1h 20m)
 
 **Anchor (soft):** dinner with coworkers/friends
 
@@ -374,7 +374,7 @@ Notes:
 - Do wander + eat + sit; don’t museum-hop
 
 ## Day 6 — Eindhoven → Ghent → Bruges (Sat, Mar 28)
-**Travel Day + Ghent Taste**
+**Travel Day + Ghent Taste** (Travel time to Ghent: ~3h 15m with transfers)
 
 **Morning:**
 - Eindhoven → Ghent St. Pieters
@@ -461,7 +461,7 @@ Notes:
 ---
 
 ## Day 9 — Bruges → Luxembourg (Tue, Mar 31)
-**Travel Day**
+**Travel Day** (Travel time: ~4h 30m – 5h; long journey)
 - Morning train to Luxembourg
 - Check in
 - Easy afternoon: Old Town stroll + viewpoints
@@ -495,7 +495,7 @@ Notes:
 ---
 
 ## Day 12 — Luxembourg → Paris (Fri, Apr 3)
-**Travel Day**
+**Travel Day** (Travel time: ~2h 15m; Direct TGV)
 - Direct train ~2h15
 - Check in to centrally located hotel (TBD)
 - **Louvre Museum** (After 6 PM) — Free admission (First Friday of month)
