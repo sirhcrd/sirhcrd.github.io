@@ -36,7 +36,7 @@ Días sugeridos (según el borrador actual):
 
 | Entrada | Día de visita | Empezar a revisar | Nota |
 | --- | --- | --- | --- |
-| Casa de Ana Frank | Mar, 24 Mar | 10 de febrero | Muy alta prioridad; elige una hora que funcione con la energía del niño. |
+| Casa de Ana Frank | Mar, 24 Mar @ 9:15 AM | ✅ COMPRADO | ¡Entradas confirmadas! |
 | Torre Eiffel (escaleras a 2º + cima) | Lun, 6 Abr | 23 de marzo | 14 días antes. Si se agota la cima, asegura 2º piso. |
 | Museo del Louvre | Vie, 3 Abr (Noche) | 2 de febrero | Entrada gratis después de 6 PM (Primer viernes). Reservar cupo. |
 | Palacio de Versalles | Mar, 7 Abr | 10 de febrero | Versalles cierra los lunes; martes encaja bien. |
@@ -57,7 +57,7 @@ Si cambias el día de visita, pon un nuevo recordatorio **6–10 semanas antes**
 
 ### 🇳🇱 Ámsterdam (Lun, 23 Mar → Jue, 26 Mar)
 - Lun: Llegada + día tranquilo para “reset” (23 Mar)
-- Mar: Casa de Ana Frank (con horario) + Jordaan / caminatas por canales (24 Mar)
+- Mar: Casa de Ana Frank (9:15 AM) + Jordaan / caminatas por canales (24 Mar)
 - Mié: Zona Museum Quarter + paseo sin afán (25 Mar)
 - Jue: Tren a Eindhoven (26 Mar)
 

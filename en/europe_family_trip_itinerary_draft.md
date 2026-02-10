@@ -32,7 +32,7 @@ Planned visit days (based on the current draft):
 
 | Ticket | Planned visit day | Start checking | Notes |
 | --- | --- | --- | --- |
-| Anne Frank House | Tue, Mar 24 | Feb 10 | Highest urgency; pick a time that works for the kid’s energy level. |
+| Anne Frank House | Tue, Mar 24 @ 9:15 AM | ✅ PURCHASED | Tickets confirmed! |
 | Eiffel Tower (stairs to 2nd + summit) | Mon, Apr 6 | Mar 23 | 14 days prior. If summit sold out, grab 2nd floor. |
 | Louvre Museum | Fri, Apr 3 (Evening) | Feb 2 | Free entry after 6 PM (First Friday). Book slot if req. |
 | Palace of Versailles | Tue, Apr 7 | Feb 10 | Versailles is closed Mondays; Tuesday is a good fit. |
@@ -43,7 +43,7 @@ Planned visit days (based on the current draft):
 
 ### 🇳🇱 Amsterdam (Mon, Mar 23 → Thu, Mar 26)
 - Mon: Arrive + easy reset day (Mar 23)
-- Tue: Anne Frank House (timed) + Jordaan / canal walks (Mar 24)
+- Tue: Anne Frank House (9:15 AM) + Jordaan / canal walks (Mar 24)
 - Wed: Museum Quarter area + low-stress city wandering (Mar 25)
 - Thu: Depart by train to Eindhoven (Mar 26)
 
