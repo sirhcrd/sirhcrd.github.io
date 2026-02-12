@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Database Schema Encyclopedia</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0f1117;--surface:#1a1d27;--surface2:#222639;--surface3:#2a2f45;
+  --border:#2e3348;--text:#e4e7f1;--text2:#9199b4;--text3:#636b87;
+  --accent:#6c7cf5;--accent2:#4fc3f7;--accent3:#66bb6a;--accent4:#ffa726;
+  --accent5:#ef5350;--glow:rgba(108,124,245,.15);
+}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+.container{max-width:1400px;margin:0 auto;padding:2rem}
+
+/* Header */
+.hero{text-align:center;padding:3rem 2rem;margin-bottom:2rem;background:linear-gradient(135deg,rgba(108,124,245,.08),rgba(79,195,247,.06));border:1px solid var(--border);border-radius:20px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 50%,rgba(108,124,245,.06),transparent 50%),radial-gradient(circle at 70% 50%,rgba(79,195,247,.04),transparent 50%);animation:drift 20s ease infinite}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-2%,1%)}}
+.hero h1{font-size:2.8rem;font-weight:800;background:linear-gradient(135deg,#6c7cf5,#4fc3f7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:.5rem;position:relative}
+.hero p{color:var(--text2);font-size:1.1rem;position:relative}
+
+/* Navigation Tabs */
+.nav-tabs{display:flex;gap:.5rem;margin-bottom:2rem;flex-wrap:wrap;justify-content:center}
+.nav-tab{padding:.7rem 1.4rem;border:1px solid var(--border);border-radius:12px;background:var(--surface);color:var(--text2);cursor:pointer;font-size:.9rem;font-weight:500;transition:all .3s;font-family:inherit}
+.nav-tab:hover{border-color:var(--accent);color:var(--text)}
+.nav-tab.active{background:linear-gradient(135deg,rgba(108,124,245,.2),rgba(79,195,247,.1));border-color:var(--accent);color:#fff;box-shadow:0 0 20px var(--glow)}
+
+/* Panels */
+.panel{display:none;animation:fadeIn .4s ease}
+.panel.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* Section Headers */
+.section-header{display:flex;align-items:center;gap:1rem;margin:2rem 0 1rem;padding:1rem 1.5rem;background:var(--surface);border-left:4px solid var(--accent);border-radius:0 12px 12px 0}
+.section-header h2{font-size:1.3rem;font-weight:700}
+.badge{padding:.25rem .7rem;border-radius:20px;font-size:.75rem;font-weight:600}
+.badge-sf{background:rgba(79,195,247,.15);color:var(--accent2)}
+.badge-erp{background:rgba(255,167,38,.15);color:var(--accent4)}
+.badge-ref{background:rgba(102,187,106,.15);color:var(--accent3)}
+.badge-imax{background:rgba(239,83,80,.15);color:var(--accent5)}
+
+/* Table Cards */
+.table-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;transition:all .3s}
+.table-card:hover{border-color:var(--accent);box-shadow:0 4px 30px var(--glow)}
+.table-card h3{font-size:1.1rem;font-weight:700;margin-bottom:.3rem;display:flex;align-items:center;gap:.7rem}
+.table-card h3 code{font-family:'JetBrains Mono',monospace;color:var(--accent2);font-size:1rem;font-weight:500}
+.table-desc{color:var(--text2);font-size:.9rem;margin-bottom:1rem}
+
+/* Column Tables */
+.col-table{width:100%;border-collapse:separate;border-spacing:0;font-size:.85rem}
+.col-table thead th{background:var(--surface2);color:var(--text2);padding:.6rem 1rem;text-align:left;font-weight:600;text-transform:uppercase;font-size:.75rem;letter-spacing:.5px}
+.col-table thead th:first-child{border-radius:8px 0 0 0}
+.col-table thead th:last-child{border-radius:0 8px 0 0}
+.col-table tbody td{padding:.5rem 1rem;border-bottom:1px solid var(--border)}
+.col-table tbody tr:hover{background:rgba(108,124,245,.05)}
+.col-table .col-name{font-family:'JetBrains Mono',monospace;color:var(--accent);font-weight:500;font-size:.82rem}
+.col-table .col-key{color:var(--accent4)}
+.col-table .col-fk{color:var(--accent3)}
+
+/* Join Diagram Cards */
+.join-card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem}
+.join-card h3{font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--accent2)}
+.join-row{display:flex;align-items:center;gap:.5rem;padding:.6rem .8rem;margin-bottom:.4rem;background:var(--surface2);border-radius:10px;flex-wrap:wrap;font-size:.85rem}
+.join-tbl{font-family:'JetBrains Mono',monospace;color:var(--accent);font-weight:500;padding:.2rem .5rem;background:rgba(108,124,245,.1);border-radius:6px;font-size:.8rem}
+.join-col{font-family:'JetBrains Mono',monospace;color:var(--accent4);font-size:.8rem}
+.join-arrow{color:var(--accent3);font-weight:700;font-size:1.1rem}
+.join-type{color:var(--text3);font-size:.75rem;margin-left:auto;text-transform:uppercase;font-weight:600;letter-spacing:.5px}
+
+/* Alias Legend */
+.alias-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;margin-bottom:2rem}
+.alias-item{display:flex;align-items:center;gap:.8rem;padding:.8rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}
+.alias-code{font-family:'JetBrains Mono',monospace;color:var(--accent);font-weight:600;font-size:.9rem;min-width:50px;padding:.3rem .6rem;background:rgba(108,124,245,.1);border-radius:6px;text-align:center}
+.alias-name{font-size:.85rem;color:var(--text2)}
+
+/* Quick Ref Boxes */
+.quickref{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem;margin:1rem 0}
+.qr-box{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.2rem;position:relative;overflow:hidden}
+.qr-box::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:14px 14px 0 0}
+.qr-box.qr-sf::before{background:linear-gradient(90deg,var(--accent2),var(--accent))}
+.qr-box.qr-erp::before{background:linear-gradient(90deg,var(--accent4),var(--accent5))}
+.qr-box.qr-imax::before{background:linear-gradient(90deg,var(--accent5),var(--accent4))}
+.qr-box h4{font-size:.95rem;font-weight:700;margin-bottom:.6rem}
+.qr-box ul{list-style:none;padding:0}
+.qr-box li{font-size:.83rem;color:var(--text2);padding:.25rem 0;display:flex;gap:.5rem}
+.qr-box li::before{content:'→';color:var(--accent)}
+
+/* Search */
+.search-bar{display:flex;align-items:center;gap:.8rem;margin-bottom:2rem;padding:.8rem 1.2rem;background:var(--surface);border:1px solid var(--border);border-radius:14px;transition:border-color .3s}
+.search-bar:focus-within{border-color:var(--accent)}
+.search-bar input{flex:1;background:none;border:none;outline:none;color:var(--text);font-size:1rem;font-family:inherit}
+.search-bar input::placeholder{color:var(--text3)}
+.search-icon{color:var(--text3);font-size:1.2rem}
+
+/* Tooltips */
+.tip{display:inline-block;width:16px;height:16px;line-height:16px;text-align:center;border-radius:50%;background:var(--surface3);color:var(--text3);font-size:10px;cursor:help;position:relative;vertical-align:middle;margin-left:4px}
+.tip:hover::after{content:attr(data-tip);position:absolute;bottom:120%;left:50%;transform:translateX(-50%);background:var(--surface3);color:var(--text);padding:.4rem .7rem;border-radius:8px;font-size:.75rem;white-space:nowrap;z-index:10;border:1px solid var(--border);box-shadow:0 4px 20px rgba(0,0,0,.4)}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="hero">
+  <h1>📖 Database Schema Encyclopedia</h1>
+  <p>Quick-reference for all tables, IDs, columns, and how they join together</p>
+</div>
+
+<div class="search-bar">
+  <span class="search-icon">🔍</span>
+  <input type="text" id="search" placeholder="Search tables, columns, or aliases..." oninput="filterAll(this.value)">
+</div>
+
+<div class="nav-tabs">
+  <button class="nav-tab active" onclick="showPanel('overview')">🗺️ Overview</button>
+  <button class="nav-tab" onclick="showPanel('backlog')">📋 Backlog Report</button>
+  <button class="nav-tab" onclick="showPanel('timecard')">⏱️ Timecard Report</button>
+  <button class="nav-tab" onclick="showPanel('parts')">🔧 Parts List</button>
+  <button class="nav-tab" onclick="showPanel('bench')">🔬 Bench Tracker</button>
+  <button class="nav-tab" onclick="showPanel('imax')">📊 iMax Analysis</button>
+</div>
+
+<!-- ===================== OVERVIEW ===================== -->
+<div class="panel active" id="overview">
+
+<div class="section-header"><h2>Database Ecosystem at a Glance</h2></div>
+
+<div class="quickref">
+  <div class="qr-box qr-sf">
+    <h4>Salesforce PSA (prod_l1.sfdcpsa)</h4>
+    <ul>
+      <li><b>pse__milestone__c</b> — Deliverables/milestones</li>
+      <li><b>psa_deliverable_related_info__c</b> — DRI (materials linked to deliverables)</li>
+      <li><b>pse__assignment__c</b> — Assignments (who does the work)</li>
+      <li><b>pse__proj__c</b> — Projects</li>
+      <li><b>pse__timecard_header__c</b> — Timecard headers</li>
+      <li><b>pse__task_time__c</b> — Task time entries (hours)</li>
+      <li><b>pse__project_task__c</b> — Project tasks</li>
+    </ul>
+  </div>
+  <div class="qr-box qr-sf">
+    <h4>Salesforce CCRM (prod_l1.sfdcccrm)</h4>
+    <ul>
+      <li><b>contact</b> — Resource/person names</li>
+      <li><b>user</b> — Manager/user lookup</li>
+    </ul>
+  </div>
+  <div class="qr-box qr-erp">
+    <h4>SAP ERP (mp1)</h4>
+    <ul>
+      <li><b>mp1.mbew</b> — Material valuation (cost/price)</li>
+      <li><b>mp1_material</b> — Material master (descriptions)</li>
+    </ul>
+  </div>
+  <div class="qr-box qr-imax">
+    <h4>iMax / ServiceMax</h4>
+    <ul>
+      <li><b>imax_case</b> — Service cases</li>
+      <li><b>imax_case_line</b> — Case line items</li>
+      <li><b>imax_service_order_c</b> — Service orders</li>
+      <li><b>imax_service_order_line__c</b> — Service order lines</li>
+      <li><b>imax_bench_status_tracker__c</b> — Bench repair tracking</li>
+      <li><b>imax_account</b> — Customer accounts</li>
+      <li><b>imax_installed_product_c</b> — Installed products</li>
+    </ul>
+  </div>
+  <div class="qr-box qr-sf">
+    <h4>Denormalized / x360</h4>
+    <ul>
+      <li><b>prod_l2.x360.project_timecard</b> — Pre-joined timecard data</li>
+    </ul>
+  </div>
+  <div class="qr-box qr-erp">
+    <h4>Reference (qa_wb.nam_data_science)</h4>
+    <ul>
+      <li><b>zone_mapping</b> — State → DI Zone / IGT Zone</li>
+      <li><b>backlog_details</b> — Published backlog fact table</li>
+      <li><b>psa_timecard_task_details</b> — Published timecard table</li>
+      <li><b>parts_list</b> — Published parts dimension</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section-header"><h2>Common Alias Legend</h2></div>
+<div class="alias-grid">
+  <div class="alias-item"><span class="alias-code">mile</span><span class="alias-name">pse__milestone__c (deliverables)</span></div>
+  <div class="alias-item"><span class="alias-code">dri</span><span class="alias-name">psa_deliverable_related_info__c</span></div>
+  <div class="alias-item"><span class="alias-code">ass</span><span class="alias-name">pse__assignment__c (assignments)</span></div>
+  <div class="alias-item"><span class="alias-code">proj</span><span class="alias-name">pse__proj__c (projects)</span></div>
+  <div class="alias-item"><span class="alias-code">rc</span><span class="alias-name">contact (resource/person names)</span></div>
+  <div class="alias-item"><span class="alias-code">u</span><span class="alias-name">user (manager lookup)</span></div>
+  <div class="alias-item"><span class="alias-code">tc</span><span class="alias-name">pse__timecard_header__c</span></div>
+  <div class="alias-item"><span class="alias-code">tt</span><span class="alias-name">pse__task_time__c (task time)</span></div>
+  <div class="alias-item"><span class="alias-code">pt</span><span class="alias-name">pse__project_task__c (project tasks)</span></div>
+  <div class="alias-item"><span class="alias-code">xt</span><span class="alias-name">prod_l2.x360.project_timecard</span></div>
+  <div class="alias-item"><span class="alias-code">a</span><span class="alias-name">pse__assignment__c (alt alias)</span></div>
+  <div class="alias-item"><span class="alias-code">mat</span><span class="alias-name">mp1_material (material master)</span></div>
+  <div class="alias-item"><span class="alias-code">mbew</span><span class="alias-name">mp1.mbew (material valuation)</span></div>
+  <div class="alias-item"><span class="alias-code">zm</span><span class="alias-name">zone_mapping (state→zone)</span></div>
+  <div class="alias-item"><span class="alias-code">ic</span><span class="alias-name">imax_case (service cases)</span></div>
+  <div class="alias-item"><span class="alias-code">ibstc</span><span class="alias-name">imax_bench_status_tracker__c</span></div>
+  <div class="alias-item"><span class="alias-code">ia</span><span class="alias-name">imax_account (customers)</span></div>
+  <div class="alias-item"><span class="alias-code">iipc</span><span class="alias-name">imax_installed_product_c</span></div>
+</div>
+
+<div class="section-header"><h2>Universal ID Patterns</h2></div>
+<div class="table-card">
+  <h3>🔑 How Salesforce IDs Work</h3>
+  <p class="table-desc">Salesforce objects use an <code>Id</code> column as the primary key. Foreign keys reference these IDs with a <code>__c</code> suffix. The naming pattern is: <code>[ParentObject]__c</code> → points to the parent's <code>Id</code>.</p>
+  <table class="col-table">
+    <thead><tr><th>Pattern</th><th>Example</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td class="col-name">Id</td><td>Every Salesforce table</td><td>Primary key (18-char unique ID)</td></tr>
+      <tr><td class="col-name">pse__Milestone__c</td><td>On DRI table</td><td>FK → pse__milestone__c.Id</td></tr>
+      <tr><td class="col-name">pse__Assignment__c</td><td>On milestone/timecard</td><td>FK → pse__assignment__c.Id</td></tr>
+      <tr><td class="col-name">pse__Project__c</td><td>On assignment/milestone</td><td>FK → pse__proj__c.Id</td></tr>
+      <tr><td class="col-name">pse__Resource__c</td><td>On assignment/timecard</td><td>FK → contact.Id (resource)</td></tr>
+      <tr><td class="col-name">Name</td><td>Every Salesforce table</td><td>Human-readable record name/number</td></tr>
+      <tr><td class="col-name">ESMX_Case__c</td><td>On bench tracker</td><td>FK → imax_case.Id (iMax case)</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<!-- ===================== BACKLOG ===================== -->
+<div class="panel" id="backlog">
+<div class="section-header"><h2>Backlog Report — Join Map</h2><span class="badge badge-sf">Salesforce PSA</span><span class="badge badge-erp">SAP ERP</span><span class="badge badge-ref">Reference</span></div>
+
+<div class="join-card">
+  <h3>How the 7 Tables Connect (backlog.ipynb)</h3>
+  <div class="join-row"><span class="join-tbl">mile</span><span class="join-col">.Id</span><span class="join-arrow">←</span><span class="join-tbl">dri</span><span class="join-col">.pse__Milestone__c</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">dri</span><span class="join-col">.PSA_Assignment__c</span><span class="join-arrow">→</span><span class="join-tbl">ass</span><span class="join-col">.Id</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">ass</span><span class="join-col">.pse__Project__c</span><span class="join-arrow">→</span><span class="join-tbl">proj</span><span class="join-col">.Id</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">ass</span><span class="join-col">.pse__Resource__c</span><span class="join-arrow">→</span><span class="join-tbl">rc</span><span class="join-col">.Id</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">dri</span><span class="join-col">.PSA_Material_Number__c (formatted 18-char)</span><span class="join-arrow">→</span><span class="join-tbl">mat</span><span class="join-col">.materialnumber</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">mat</span><span class="join-col">.materialnumber + plant</span><span class="join-arrow">→</span><span class="join-tbl">mbew</span><span class="join-col">.MATNR + BWKEY</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">COALESCE(proj.state, mile.state)</span><span class="join-arrow">→</span><span class="join-tbl">zm</span><span class="join-col">.state</span><span class="join-type">LEFT JOIN</span></div>
+</div>
+
+<div class="table-card">
+  <h3><code>pse__milestone__c</code> <span class="badge badge-sf">PSA</span></h3>
+  <p class="table-desc">Deliverable milestones — each row is one deliverable for a customer. The central table for backlog.</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Alias</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td class="col-name col-key">Id</td><td>mile.Id</td><td>PK — joined FROM dri</td></tr>
+    <tr><td class="col-name">Group_Title__c</td><td>mile</td><td>"Deliverable Name" — unique deliverable ID</td></tr>
+    <tr><td class="col-name">pse__Status__c</td><td>mile</td><td>Status (Open, Completed, Canceled)</td></tr>
+    <tr><td class="col-name">CPM_Deliverable_Chapter__c</td><td>mile</td><td>Chapter/grouping</td></tr>
+    <tr><td class="col-name">PSA_ASR_Created_Date__c</td><td>mile</td><td>ASR creation date</td></tr>
+    <tr><td class="col-name">PSA_Deliverable_Expiration_Date__c</td><td>mile</td><td>Expiration date (extended +18mo for govt)</td></tr>
+    <tr><td class="col-name">PSA_Country__c</td><td>mile</td><td>Country filter (= 'United States')</td></tr>
+    <tr><td class="col-name">PSA_State_Province__c</td><td>mile</td><td>State (fallback if project state missing)</td></tr>
+  </tbody></table>
+</div>
+
+<div class="table-card">
+  <h3><code>psa_deliverable_related_info__c</code> (DRI) <span class="badge badge-sf">PSA</span></h3>
+  <p class="table-desc">Links materials to deliverables. The bridge between milestones and assignments.</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td class="col-name col-fk">pse__Milestone__c</td><td>FK → mile.Id</td></tr>
+    <tr><td class="col-name col-fk">PSA_Assignment__c</td><td>FK → ass.Id</td></tr>
+    <tr><td class="col-name">PSA_Material_Number__c</td><td>SAP material number (zero-padded for ERP join)</td></tr>
+    <tr><td class="col-name">PSA_Target_Date__c</td><td>Target completion date</td></tr>
+  </tbody></table>
+</div>
+
+<div class="table-card">
+  <h3><code>pse__assignment__c</code> <span class="badge badge-sf">PSA</span></h3>
+  <p class="table-desc">Who is doing the work — links resources, projects, and accounts.</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td class="col-name col-key">Id</td><td>PK — joined FROM dri.PSA_Assignment__c</td></tr>
+    <tr><td class="col-name col-fk">pse__Project__c</td><td>FK → proj.Id</td></tr>
+    <tr><td class="col-name col-fk">pse__Resource__c</td><td>FK → contact.Id (resource name)</td></tr>
+    <tr><td class="col-name">Name</td><td>Assignment name</td></tr>
+    <tr><td class="col-name">Account_Name__c</td><td>Customer account (also used for Government flag)</td></tr>
+    <tr><td class="col-name">Manager_Name__c</td><td>Manager name</td></tr>
+    <tr><td class="col-name">Site_Address__c</td><td>Customer site address</td></tr>
+    <tr><td class="col-name">PSA_Cost_Center__c</td><td>Cost center</td></tr>
+    <tr><td class="col-name">pse__Start_Date__c</td><td>Assignment start date</td></tr>
+    <tr><td class="col-name">pse__End_Date__c</td><td>Assignment end date</td></tr>
+  </tbody></table>
+</div>
+
+<div class="table-card">
+  <h3><code>mp1_material</code> + <code>mp1.mbew</code> <span class="badge badge-erp">SAP ERP</span></h3>
+  <p class="table-desc">Material master (descriptions) + material valuation (cost/pricing). Joined via formatted material number.</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Table</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td class="col-name col-key">materialnumber</td><td>mp1_material</td><td>PK — joined FROM dri (zero-padded)</td></tr>
+    <tr><td class="col-name">materialdescription</td><td>mp1_material</td><td>Material description text</td></tr>
+    <tr><td class="col-name">plant</td><td>mp1_material</td><td>Plant code (US90, CA90)</td></tr>
+    <tr><td class="col-name">profitcenter</td><td>mp1_material</td><td>Profit center</td></tr>
+    <tr><td class="col-name col-key">MATNR + BWKEY</td><td>mp1.mbew</td><td>Composite key (material + valuation area)</td></tr>
+    <tr><td class="col-name">VPRSV</td><td>mp1.mbew</td><td>Price control indicator (S=Standard, V=Moving avg)</td></tr>
+    <tr><td class="col-name">STPRS</td><td>mp1.mbew</td><td>Standard price (used when VPRSV='S')</td></tr>
+    <tr><td class="col-name">VERPR</td><td>mp1.mbew</td><td>Moving average price (used when VPRSV='V')</td></tr>
+  </tbody></table>
+</div>
+
+<div class="table-card">
+  <h3><code>zone_mapping</code> <span class="badge badge-ref">Reference</span></h3>
+  <p class="table-desc">State-to-zone lookup for clinical zone assignment. Lives in qa_wb.nam_data_science.</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td class="col-name">abbv</td><td>State abbreviation (AK, AL, etc.)</td></tr>
+    <tr><td class="col-name col-key">state</td><td>Full state name — joined FROM COALESCE(proj, mile)</td></tr>
+    <tr><td class="col-name">di_zone</td><td>DI regional zone (West, Southeast, etc.)</td></tr>
+    <tr><td class="col-name">igt_zone</td><td>IGT clinical zone (IGT West, IGT East, IGT Central)</td></tr>
+  </tbody></table>
+</div>
+</div>
+
+<!-- ===================== TIMECARD ===================== -->
+<div class="panel" id="timecard">
+<div class="section-header"><h2>Timecard Report — Join Map</h2><span class="badge badge-sf">PSA + CCRM</span></div>
+
+<div class="join-card">
+  <h3>Regular Work: 6-Table Join Chain</h3>
+  <div class="join-row"><span class="join-tbl">xt</span><span class="join-col">.Timecard_Name</span><span class="join-arrow">→</span><span class="join-tbl">tc</span><span class="join-col">.Name</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">tc</span><span class="join-col">.Id</span><span class="join-arrow">←</span><span class="join-tbl">tt</span><span class="join-col">.pse__Timecard__c</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">tt</span><span class="join-col">.pse__Project_Task__c</span><span class="join-arrow">→</span><span class="join-tbl">pt</span><span class="join-col">.Id</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">xt</span><span class="join-col">.Resource_Name</span><span class="join-arrow">→</span><span class="join-tbl">rc</span><span class="join-col">.Name</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">xt</span><span class="join-col">(project-level)</span><span class="join-arrow">→</span><span class="join-tbl">a</span><span class="join-col">(assignment)</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">a</span><span class="join-col">.pse__Manager__c</span><span class="join-arrow">→</span><span class="join-tbl">u</span><span class="join-col">.Id</span><span class="join-type">LEFT JOIN</span></div>
+</div>
+
+<div class="join-card">
+  <h3>Time Off: Simplified Join (no task_time)</h3>
+  <div class="join-row"><span class="join-tbl">xt</span><span class="join-col">.Timecard_Name</span><span class="join-arrow">→</span><span class="join-tbl">tc</span><span class="join-col">.Name</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">xt</span><span class="join-col">.Resource_Name</span><span class="join-arrow">→</span><span class="join-tbl">rc</span><span class="join-col">.Name</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row" style="background:rgba(255,167,38,.08)"><span style="color:var(--accent4);font-size:.8rem">⚠️ Manager is NULL for time-off → resolved via window function lookup from most recent Regular Work timecard</span></div>
+</div>
+
+<div class="table-card">
+  <h3><code>prod_l2.x360.project_timecard</code> (xt) <span class="badge badge-sf">x360</span></h3>
+  <p class="table-desc">Denormalized timecard view — the starting point. Contains pre-joined timecard + project data.</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td class="col-name col-key">Timecard_Name</td><td>Stable timecard ID → joins to tc.Name</td></tr>
+    <tr><td class="col-name">Resource_Name</td><td>Employee name → joins to rc.Name</td></tr>
+    <tr><td class="col-name">Project_Name</td><td>Project name</td></tr>
+    <tr><td class="col-name">Timecard_Start_Date</td><td>Week start (Monday)</td></tr>
+    <tr><td class="col-name">Timecard_End_Date</td><td>Week end — PRIMARY week key for all calculations</td></tr>
+  </tbody></table>
+</div>
+
+<div class="table-card">
+  <h3><code>pse__task_time__c</code> (tt) <span class="badge badge-sf">PSA</span></h3>
+  <p class="table-desc">Individual task-level time entries. One row per task worked on per week. Only used for Regular Work.</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td class="col-name col-fk">pse__Timecard__c</td><td>FK → tc.Id (timecard header)</td></tr>
+    <tr><td class="col-name col-fk">pse__Project_Task__c</td><td>FK → pt.Id (project task)</td></tr>
+    <tr><td class="col-name col-key">Name</td><td>"Task_Time_Number" — stable dedup key</td></tr>
+    <tr><td class="col-name">pse__Monday_Hours__c ... pse__Sunday_Hours__c</td><td>Daily hours breakdown</td></tr>
+  </tbody></table>
+</div>
+</div>
+
+<!-- ===================== PARTS ===================== -->
+<div class="panel" id="parts">
+<div class="section-header"><h2>Parts List — Join Map</h2><span class="badge badge-sf">PSA</span><span class="badge badge-erp">SAP ERP</span></div>
+<div class="join-card">
+  <h3>4-Table Join Chain</h3>
+  <div class="join-row"><span class="join-tbl">mile</span><span class="join-col">.Id</span><span class="join-arrow">←</span><span class="join-tbl">dri</span><span class="join-col">.pse__Milestone__c</span><span class="join-type">JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">dri</span><span class="join-col">.PSA_Assignment__c</span><span class="join-arrow">→</span><span class="join-tbl">ass</span><span class="join-col">.Id</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">dri</span><span class="join-col">.PSA_Material_Number__c (zero-padded)</span><span class="join-arrow">→</span><span class="join-tbl">mat</span><span class="join-col">.materialnumber</span><span class="join-type">LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">mat</span><span class="join-col">.materialnumber + plant</span><span class="join-arrow">→</span><span class="join-tbl">mbew</span><span class="join-col">.MATNR + BWKEY</span><span class="join-type">LEFT JOIN</span></div>
+</div>
+<div class="table-card">
+  <h3>Key Derived Columns</h3>
+  <p class="table-desc">These columns are calculated from material description keywords:</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Logic</th></tr></thead><tbody>
+    <tr><td class="col-name">VAS</td><td>TRUE if description contains ADDITIONAL, ADDL, ADD, TRAVEL, TRVL</td></tr>
+    <tr><td class="col-name">Off_On</td><td>"Offsite" or "Onsite" — derived from Part Name keywords</td></tr>
+    <tr><td class="col-name">Hours</td><td>Regex-parsed from description (e.g., "8h", "16hrs", "24 hours")</td></tr>
+    <tr><td class="col-name">Cost</td><td>STPRS (if VPRSV='S') or VERPR (if VPRSV='V') from mbew</td></tr>
+    <tr><td class="col-name">Formatted_Part_#</td><td>LPAD(PSA_Material_Number__c, 18, '0') for SAP join</td></tr>
+  </tbody></table>
+</div>
+</div>
+
+<!-- ===================== BENCH ===================== -->
+<div class="panel" id="bench">
+<div class="section-header"><h2>Bench Status Tracker — Join Map</h2><span class="badge badge-imax">iMax</span></div>
+<div class="join-card">
+  <h3>3-Table Join Chain</h3>
+  <div class="join-row"><span class="join-tbl">ic</span>(imax_case)<span class="join-col">.Id</span><span class="join-arrow">←</span><span class="join-tbl">ibstc</span>(bench_tracker)<span class="join-col">.ESMX_Case__c</span><span class="join-type">INNER / LEFT JOIN</span></div>
+  <div class="join-row"><span class="join-tbl">ic</span><span class="join-col">.Account_Number__c</span><span class="join-arrow">→</span><span class="join-tbl">ia</span>(imax_account)<span class="join-col">.AccountNumber</span><span class="join-type">INNER JOIN</span></div>
+  <div class="join-row" style="opacity:.5"><span class="join-tbl">ic</span><span class="join-col">.ESMX_Reference_Installed_Product__c</span><span class="join-arrow">→</span><span class="join-tbl">iipc</span><span class="join-col">.Id</span><span class="join-type">(optional)</span></div>
+</div>
+<div class="table-card">
+  <h3><code>imax_bench_status_tracker__c</code> (ibstc) <span class="badge badge-imax">iMax</span></h3>
+  <p class="table-desc">Tracks bench repair lifecycle: equipment received → awaiting PO → parts ready → repair complete.</p>
+  <table class="col-table"><thead><tr><th>Column</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td class="col-name col-fk">ESMX_Case__c</td><td>FK → imax_case.Id</td></tr>
+    <tr><td class="col-name">Name</td><td>Bench Status Tracker Number</td></tr>
+    <tr><td class="col-name">ESMX_Bench_Repair_Status__c</td><td>Current status (Repair Complete, Parts Ordering, etc.)</td></tr>
+    <tr><td class="col-name">ESMX_Equipment_Received_Status_Time__c</td><td>When equipment was received</td></tr>
+    <tr><td class="col-name">ESMX_Awaiting_PO_Status_Time__c</td><td>When PO was requested</td></tr>
+    <tr><td class="col-name">All_Parts_Ready_for_Repair_Status_Time__c</td><td>When all parts arrived</td></tr>
+    <tr><td class="col-name">Repair_Complete_Equip_Ship_Status_Time__c</td><td>When repair finished / shipped</td></tr>
+  </tbody></table>
+</div>
+</div>
+
+<!-- ===================== iMAX ANALYSIS ===================== -->
+<div class="panel" id="imax">
+<div class="section-header"><h2>iMax Column Analysis — Key Dimensions</h2><span class="badge badge-imax">iMax / ServiceMax</span></div>
+<div class="table-card">
+  <h3>Modality Columns (where to find "what product")</h3>
+  <table class="col-table"><thead><tr><th>Table</th><th>Column</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td>imax_case</td><td class="col-name">Product_Modality__c</td><td>Product modality on the case</td></tr>
+    <tr><td>imax_case</td><td class="col-name">SVMXC__Product_Family__c</td><td>Product family (alternate modality)</td></tr>
+    <tr><td>imax_service_order_line__c</td><td class="col-name">ESMX_Modality__c</td><td>Modality on service order line</td></tr>
+    <tr><td>imax_installed_product_c</td><td class="col-name">CPL_Product_Modality__c</td><td>Modality on installed product</td></tr>
+  </tbody></table>
+</div>
+<div class="table-card">
+  <h3>Service Order Type Columns</h3>
+  <table class="col-table"><thead><tr><th>Table</th><th>Column</th><th>Purpose</th></tr></thead><tbody>
+    <tr><td>imax_service_order_c</td><td class="col-name">SVMXC__Order_Type__c</td><td>Service order type</td></tr>
+    <tr><td>imax_case</td><td class="col-name">SVMXC__Service_Order_Type__c</td><td>Service order type on case</td></tr>
+  </tbody></table>
+</div>
+<div class="table-card">
+  <h3>Potential Join Columns (ID/Key columns found)</h3>
+  <p class="table-desc">These columns across the 4 iMax tables end in "Id", "key", or "number" and are likely join candidates.</p>
+  <table class="col-table"><thead><tr><th>Table</th><th>Column Pattern</th><th>Likely Join</th></tr></thead><tbody>
+    <tr><td>imax_case</td><td class="col-name">Id, CaseNumber, Account_Number__c</td><td>PK, human-readable case #, FK → account</td></tr>
+    <tr><td>imax_case</td><td class="col-name">ESMX_Reference_Installed_Product__c</td><td>FK → imax_installed_product_c.Id</td></tr>
+    <tr><td>imax_case_line</td><td class="col-name">Id, (case reference)</td><td>PK, FK → imax_case.Id</td></tr>
+    <tr><td>imax_service_order_c</td><td class="col-name">Id, (case reference)</td><td>PK, FK → imax_case.Id</td></tr>
+    <tr><td>imax_service_order_line__c</td><td class="col-name">Id, (service order ref)</td><td>PK, FK → imax_service_order_c.Id</td></tr>
+  </tbody></table>
+</div>
+</div>
+
+</div><!-- /container -->
+
+<script>
+function showPanel(id){
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.target.classList.add('active');
+}
+function filterAll(q){
+  q=q.toLowerCase();
+  document.querySelectorAll('.table-card, .join-card, .alias-item, .qr-box').forEach(el=>{
+    el.style.display=el.textContent.toLowerCase().includes(q)?'':'none';
+  });
+  if(q.length>0){
+    document.querySelectorAll('.panel').forEach(p=>p.classList.add('active'));
+    document.querySelectorAll('.nav-tab').forEach(t=>t.classList.add('active'));
+  }else{
+    document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+    document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+    document.getElementById('overview').classList.add('active');
+    document.querySelector('.nav-tab').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
