@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,134,134,100.0,0,0.0
+2,spras,134,134,100.0,0,0.0
+3,kappl,134,134,100.0,0,0.0
+4,kobog,134,134,100.0,0,0.0
+5,vtext,134,134,100.0,0,0.0
+6,src_commit_time,134,134,100.0,0,0.0

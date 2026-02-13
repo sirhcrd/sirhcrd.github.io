@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,267,267,100.0,0,0.0
+2,USEXTYP,267,267,100.0,0,0.0
+3,USEXNAM,267,267,100.0,0,0.0
+4,OBJTYPE,267,267,100.0,0,0.0
+5,FBNAM,267,267,100.0,0,0.0
+6,ORD,267,267,100.0,0,0.0
+7,src_commit_time,267,267,100.0,0,0.0

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,27,27,100.0,0,0.0
+2,VLAUFK,27,27,100.0,0,0.0
+3,VLAUFZ,27,27,100.0,0,0.0
+4,VLAUEZ,27,27,100.0,0,0.0
+5,src_commit_time,27,27,100.0,0,0.0

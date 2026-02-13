@@ -1,7 +1,7 @@
 ---
 table: svmxc_site_share
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 2902160
 column_count: 10
 ---

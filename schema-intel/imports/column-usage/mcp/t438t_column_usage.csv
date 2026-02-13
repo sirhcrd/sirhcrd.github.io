@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,240,240,100.0,0,0.0
+2,SPRAS,240,240,100.0,0,0.0
+3,DISMM,240,240,100.0,0,0.0
+4,DIBEZ,240,240,100.0,0,0.0
+5,src_commit_time,240,240,100.0,0,0.0

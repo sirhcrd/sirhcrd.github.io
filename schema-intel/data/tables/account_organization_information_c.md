@@ -1,7 +1,7 @@
 ---
 table: account_organization_information_c
 source: sfdcccrm
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 1085230
 column_count: 25
 ---

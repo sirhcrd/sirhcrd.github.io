@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,535,535,100.0,0,0.0
+2,spras,535,535,100.0,0,0.0
+3,bukrs,535,535,100.0,0,0.0
+4,rstgr,535,535,100.0,0,0.0
+5,txt20,535,535,100.0,0,0.0
+6,txt40,535,535,100.0,0,0.0
+7,src_commit_time,535,535,100.0,0,0.0

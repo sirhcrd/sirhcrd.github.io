@@ -1,7 +1,7 @@
 ---
 table: queue_master_c
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 848306
 column_count: 36
 ---

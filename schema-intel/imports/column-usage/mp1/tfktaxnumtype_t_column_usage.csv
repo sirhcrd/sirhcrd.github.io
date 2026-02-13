@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,CLIENT,6976,6976,100.0,0,0.0
+2,SPRAS,6976,6976,100.0,0,0.0
+3,TAXTYPE,6976,6976,100.0,0,0.0
+4,TEXT,6976,6976,100.0,0,0.0
+5,src_commit_time,6976,6976,100.0,0,0.0

@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,63,63,100.0,0,0.0
+2,bklas,63,63,100.0,0,0.0
+3,kkref,63,63,100.0,0,0.0
+4,src_commit_time,63,63,100.0,0,0.0

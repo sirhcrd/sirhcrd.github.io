@@ -1,7 +1,7 @@
 ---
 table: cpm_sales_org_settings_mdt
 source: sfdcpsa
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 18
 column_count: 13
 ---

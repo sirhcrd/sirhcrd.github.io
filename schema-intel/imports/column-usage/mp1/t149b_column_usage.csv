@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,1128,1128,100.0,0,0.0
+2,BWKEY,1128,1128,100.0,0,0.0
+3,BWTTY,1128,1128,100.0,0,0.0
+4,BWTAR,1128,1128,100.0,0,0.0
+5,src_commit_time,1128,1128,100.0,0,0.0

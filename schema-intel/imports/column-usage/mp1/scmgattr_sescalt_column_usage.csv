@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,88,88,100.0,0,0.0
+2,langu,88,88,100.0,0,0.0
+3,escal_reason,88,88,100.0,0,0.0
+4,description,88,88,100.0,0,0.0
+5,src_commit_time,88,88,100.0,0,0.0

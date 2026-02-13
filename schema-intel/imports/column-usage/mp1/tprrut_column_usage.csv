@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,55,55,100.0,0,0.0
+2,SPRAS,55,55,100.0,0,0.0
+3,AUTYP,55,55,100.0,0,0.0
+4,PRZST,55,55,100.0,0,0.0
+5,TEXT,55,55,100.0,0,0.0
+6,src_commit_time,55,55,100.0,0,0.0

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,client,55,55,100.0,0,0.0
+2,dstrule,55,55,100.0,0,0.0
+3,dstdiff,55,55,100.0,0,0.0
+4,flagactive,55,55,100.0,0,0.0
+5,src_commit_time,55,55,100.0,0,0.0

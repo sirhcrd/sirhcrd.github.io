@@ -425,7 +425,7 @@
     // Load data
     async function loadData() {
       try {
-        const response = await fetch('build/data.json');
+        const response = await fetch('data.json');
         DATA = await response.json();
         renderStats();
         renderTables();

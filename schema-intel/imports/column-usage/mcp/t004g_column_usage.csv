@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,393,393,100.0,0,0.0
+2,SPRAS,393,393,100.0,0,0.0
+3,BUKRS,393,393,100.0,0,0.0
+4,FSTAG,393,393,100.0,0,0.0
+5,FSTTX,393,393,100.0,0,0.0
+6,src_commit_time,393,393,100.0,0,0.0

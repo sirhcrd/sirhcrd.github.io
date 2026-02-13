@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,CLIENT,25,25,100.0,0,0.0
+2,DSTRULE,25,25,100.0,0,0.0
+3,YEARACT,25,25,100.0,0,0.0
+4,DATEFROM,25,25,100.0,0,0.0
+5,TIMEFROM,25,25,100.0,0,0.0
+6,DATETO,25,25,100.0,0,0.0
+7,TIMETO,25,25,100.0,0,0.0
+8,src_commit_time,25,25,100.0,0,0.0

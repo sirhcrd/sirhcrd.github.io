@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,segtyp,4901,4901,100.0,0,0.0
+2,langua,4901,4901,100.0,0,0.0
+3,descrp,4901,4901,100.0,0,0.0
+4,src_commit_time,4901,4901,100.0,0,0.0

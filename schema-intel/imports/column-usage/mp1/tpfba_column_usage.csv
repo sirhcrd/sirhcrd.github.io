@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,BANAME,6,6,100.0,0,0.0
+2,SYSNAME,6,6,100.0,0,0.0
+3,TYPE,6,6,100.0,0,0.0
+4,INSTANCES,6,6,100.0,0,0.0
+5,STATUS,6,6,100.0,0,0.0
+6,TXT,6,6,100.0,0,0.0
+7,MONIVARI,6,6,100.0,0,0.0
+8,src_commit_time,6,6,100.0,0,0.0

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,client,164,164,100.0,0,0.0
+2,language,164,164,100.0,0,0.0
+3,dstrule,164,164,100.0,0,0.0
+4,descript,164,164,100.0,0,0.0
+5,src_commit_time,164,164,100.0,0,0.0

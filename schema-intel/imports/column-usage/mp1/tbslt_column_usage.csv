@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,2748,2748,100.0,0,0.0
+2,spras,2748,2748,100.0,0,0.0
+3,bschl,2748,2748,100.0,0,0.0
+4,umskz,2748,2748,100.0,0,0.0
+5,ltext,2748,2748,100.0,0,0.0
+6,src_commit_time,2748,2748,100.0,0,0.0

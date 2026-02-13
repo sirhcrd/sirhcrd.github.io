@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,AKTYP,18,18,100.0,0,0.0
+2,COUNTID,18,18,100.0,0,0.0
+3,HEADLINE,18,18,100.0,0,0.0
+4,FLAG_SM,18,18,100.0,0,0.0
+5,FLAG_IO,18,18,100.0,0,0.0
+6,src_commit_time,18,18,100.0,0,0.0

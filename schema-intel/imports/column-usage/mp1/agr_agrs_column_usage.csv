@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,71668,71668,100.0,0,0.0
+2,AGR_NAME,71668,71668,100.0,0,0.0
+3,CHILD_AGR,71668,71668,100.0,0,0.0
+4,ATTRIBUTES,71668,71668,100.0,0,0.0
+5,src_commit_time,71668,71668,100.0,0,0.0

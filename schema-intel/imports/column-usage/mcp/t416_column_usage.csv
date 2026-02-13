@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,25,25,100.0,0,0.0
+2,stlan,25,25,100.0,0,0.0
+3,pmpfe,25,25,100.0,0,0.0
+4,pmpko,25,25,100.0,0,0.0
+5,pmpka,25,25,100.0,0,0.0
+6,pmprv,25,25,100.0,0,0.0
+7,pmpvs,25,25,100.0,0,0.0
+8,pmpin,25,25,100.0,0,0.0
+9,pmper,25,25,100.0,0,0.0
+10,src_commit_time,25,25,100.0,0,0.0

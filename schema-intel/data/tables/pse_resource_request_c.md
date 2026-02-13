@@ -1,7 +1,7 @@
 ---
 table: pse_resource_request_c
 source: sfdcpsa
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 188846
 column_count: 156
 ---

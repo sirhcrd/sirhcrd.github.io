@@ -1,7 +1,7 @@
 ---
 table: apttus_proposal_proposal_line_item_c
 source: sfdcapttus
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 19988339
 column_count: 401
 ---

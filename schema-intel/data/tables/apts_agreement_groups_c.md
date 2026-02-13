@@ -1,7 +1,7 @@
 ---
 table: apts_agreement_groups_c
 source: sfdcapttus
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 30960
 column_count: 93
 ---

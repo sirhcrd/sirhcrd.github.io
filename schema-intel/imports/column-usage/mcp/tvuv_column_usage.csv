@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,189,189,100.0,0,0.0
+2,fehgr,189,189,100.0,0,0.0
+3,fehob,189,189,100.0,0,0.0
+4,src_commit_time,189,189,100.0,0,0.0

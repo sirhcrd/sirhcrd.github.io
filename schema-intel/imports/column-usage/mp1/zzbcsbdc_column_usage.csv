@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,66,66,100.0,0,0.0
+2,BRKDWNCAT,66,66,100.0,0,0.0
+3,BSI,66,66,100.0,0,0.0
+4,SUC,66,66,100.0,0,0.0
+5,BPA,66,66,100.0,0,0.0
+6,BFA,66,66,100.0,0,0.0
+7,BCD,66,66,100.0,0,0.0
+8,src_commit_time,66,66,100.0,0,0.0

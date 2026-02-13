@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,1803,1803,100.0,0,0.0
+2,SPRSL,1803,1803,100.0,0,0.0
+3,USERGROUP,1803,1803,100.0,0,0.0
+4,TEXT,1803,1803,100.0,0,0.0
+5,src_commit_time,1803,1803,100.0,0,0.0

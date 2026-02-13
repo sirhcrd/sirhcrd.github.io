@@ -1,7 +1,7 @@
 ---
 table: opportunity_ecosystem_c
 source: sfdcccrm
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 749570
 column_count: 38
 ---

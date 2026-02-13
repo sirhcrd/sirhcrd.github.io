@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,592,592,100.0,0,0.0
+2,WAERS,592,592,100.0,0,0.0
+3,ISOCD,592,592,100.0,0,0.0
+4,ALTWR,592,592,100.0,0,0.0
+5,GDATU,592,592,100.0,0,0.0
+6,XPRIMARY,592,592,100.0,0,0.0
+7,src_commit_time,592,592,100.0,0,0.0

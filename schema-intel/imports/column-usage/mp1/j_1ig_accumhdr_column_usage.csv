@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,2200,2200,100.0,0,0.0
+2,thld_cat,2200,2200,100.0,0,0.0
+3,seller_pan,2200,2200,100.0,0,0.0
+4,buyer_idtype,2200,2200,100.0,0,0.0
+5,buyer_id,2200,2200,100.0,0,0.0
+6,kunnr,2200,2200,100.0,0,0.0
+7,valid_from,2200,2200,100.0,0,0.0
+8,accum_amt,2200,2200,100.0,0,0.0
+9,tcs_amt,2200,2200,100.0,0,0.0
+10,accum_date,2200,2200,100.0,0,0.0
+11,src_commit_time,2200,2200,100.0,0,0.0

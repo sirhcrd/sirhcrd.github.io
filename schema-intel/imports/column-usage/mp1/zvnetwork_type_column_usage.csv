@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,623,623,100.0,0,0.0
+2,vkorg,623,623,100.0,0,0.0
+3,seq_ind,623,623,100.0,0,0.0
+4,ktokd,623,623,100.0,0,0.0
+5,fse_sched,623,623,100.0,0,0.0
+6,shiptotype,623,623,100.0,0,0.0
+7,src_commit_time,623,623,100.0,0,0.0

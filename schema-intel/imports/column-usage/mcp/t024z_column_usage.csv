@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,17,17,100.0,0,0.0
+2,EKORG,17,17,100.0,0,0.0
+3,EKORZ,17,17,100.0,0,0.0
+4,EKABR,17,17,100.0,0,0.0
+5,EKKON,17,17,100.0,0,0.0
+6,EKINF,17,17,100.0,0,0.0
+7,EKINM,17,17,100.0,0,0.0
+8,EKLIF,17,17,100.0,0,0.0
+9,src_commit_time,17,17,100.0,0,0.0

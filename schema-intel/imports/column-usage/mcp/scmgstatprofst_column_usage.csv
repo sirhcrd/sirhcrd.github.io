@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,CLIENT,198,198,100.0,0,0.0
+2,LANGU,198,198,100.0,0,0.0
+3,PROFILE_ID,198,198,100.0,0,0.0
+4,STAT_ORDERNO,198,198,100.0,0,0.0
+5,STAT_ORDNO_DESCR,198,198,100.0,0,0.0
+6,src_commit_time,198,198,100.0,0,0.0

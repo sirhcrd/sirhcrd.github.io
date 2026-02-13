@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,228,228,100.0,0,0.0
+2,spras,228,228,100.0,0,0.0
+3,bewtp,228,228,100.0,0,0.0
+4,bewtk,228,228,100.0,0,0.0
+5,bewtl,228,228,100.0,0,0.0
+6,src_commit_time,228,228,100.0,0,0.0

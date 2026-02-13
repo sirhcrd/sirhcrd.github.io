@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,10590,10590,100.0,0,0.0
+2,PRODH,10590,10590,100.0,0,0.0
+3,STUFE,10590,10590,100.0,0,0.0
+4,src_commit_time,10590,10590,100.0,0,0.0

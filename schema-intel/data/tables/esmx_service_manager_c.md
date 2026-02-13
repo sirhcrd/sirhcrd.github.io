@@ -1,7 +1,7 @@
 ---
 table: esmx_service_manager_c
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 90874
 column_count: 34
 ---

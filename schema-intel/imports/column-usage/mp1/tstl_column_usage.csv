@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,183,183,100.0,0,0.0
+2,TALND,183,183,100.0,0,0.0
+3,LFDNR,183,183,100.0,0,0.0
+4,TATYP,183,183,100.0,0,0.0
+5,STPRZ,183,183,100.0,0,0.0
+6,src_commit_time,183,183,100.0,0,0.0

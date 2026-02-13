@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,DOC_CLS,660,660,100.0,0,0.0
+2,DOC_OBJ,660,660,100.0,0,0.0
+3,MENU,660,660,100.0,0,0.0
+4,INACTIVE,660,660,100.0,0,0.0
+5,SEQUENCE_N,660,660,100.0,0,0.0
+6,src_commit_time,660,660,100.0,0,0.0

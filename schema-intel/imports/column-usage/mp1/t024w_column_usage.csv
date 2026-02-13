@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,319,319,100.0,0,0.0
+2,WERKS,319,319,100.0,0,0.0
+3,EKORG,319,319,100.0,0,0.0
+4,src_commit_time,319,319,100.0,0,0.0

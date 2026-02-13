@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,753,753,100.0,0,0.0
+2,SPRAS,753,753,100.0,0,0.0
+3,AUSSL,753,753,100.0,0,0.0
+4,AUSLT,753,753,100.0,0,0.0
+5,src_commit_time,753,753,100.0,0,0.0

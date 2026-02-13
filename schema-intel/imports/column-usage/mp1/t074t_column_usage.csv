@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,896,896,100.0,0,0.0
+2,SPRAS,896,896,100.0,0,0.0
+3,KOART,896,896,100.0,0,0.0
+4,SHBKZ,896,896,100.0,0,0.0
+5,KTEXT,896,896,100.0,0,0.0
+6,LTEXT,896,896,100.0,0,0.0
+7,src_commit_time,896,896,100.0,0,0.0

@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,973,973,100.0,0,0.0
+2,SPRAS,973,973,100.0,0,0.0
+3,FRGGR,973,973,100.0,0,0.0
+4,FRGSX,973,973,100.0,0,0.0
+5,FRGXT,973,973,100.0,0,0.0
+6,src_commit_time,973,973,100.0,0,0.0

@@ -1,0 +1,35 @@
+---
+table: kotg501
+source: mp1
+pulled_date: 2026-02-13
+row_count: 2610
+column_count: 7
+---
+
+# kotg501
+
+*Description needed — add context about what this table represents.*
+
+## Summary
+
+| Quality | Count | Percentage |
+|---------|-------|------------|
+| Trusted (≥50%) | 7 | 100% |
+| Neutral (5-50%) | 0 | 0% |
+| Dead (<5%) | 0 | 0% |
+
+## Columns
+
+| Column | Usage % | Quality | Description |
+|--------|---------|---------|-------------|
+| `mandt` | 100.0% | trusted | |
+| `kappl` | 100.0% | trusted | |
+| `kschl` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `datbi` | 100.0% | trusted | |
+| `datab` | 100.0% | trusted | |
+| `src_commit_time` | 100.0% | trusted | |
+
+## Notes
+
+*Add join information, gotchas, and usage patterns here.*

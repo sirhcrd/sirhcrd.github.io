@@ -1,7 +1,7 @@
 ---
 table: account_assignment_c
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 85269457
 column_count: 56
 ---

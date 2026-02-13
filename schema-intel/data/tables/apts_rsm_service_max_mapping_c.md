@@ -1,7 +1,7 @@
 ---
 table: apts_rsm_service_max_mapping_c
 source: sfdcapttus
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 209
 column_count: 23
 ---

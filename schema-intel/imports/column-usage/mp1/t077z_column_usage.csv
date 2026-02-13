@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,6378,6378,100.0,0,0.0
+2,SPRAS,6378,6378,100.0,0,0.0
+3,KTOPL,6378,6378,100.0,0,0.0
+4,KTOKS,6378,6378,100.0,0,0.0
+5,TXT30,6378,6378,100.0,0,0.0
+6,src_commit_time,6378,6378,100.0,0,0.0

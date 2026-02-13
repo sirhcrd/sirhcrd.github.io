@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,CLIENT,1710,1710,100.0,0,0.0
+2,TAXTYPE,1710,1710,100.0,0,0.0
+3,CHECKFCT,1710,1710,100.0,0,0.0
+4,STCDT,1710,1710,100.0,0,0.0
+5,src_commit_time,1710,1710,100.0,0,0.0

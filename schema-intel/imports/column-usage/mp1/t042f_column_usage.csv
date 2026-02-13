@@ -1,0 +1,4 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,68,68,100.0,0,0.0
+2,UZAWE,68,68,100.0,0,0.0
+3,src_commit_time,68,68,100.0,0,0.0

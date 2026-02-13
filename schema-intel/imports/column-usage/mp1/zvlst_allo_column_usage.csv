@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,2174,2174,100.0,0,0.0
+2,vkorg,2174,2174,100.0,0,0.0
+3,logsertyp,2174,2174,100.0,0,0.0
+4,src_commit_time,2174,2174,100.0,0,0.0

@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,419,419,100.0,0,0.0
+2,katalogart,419,419,100.0,0,0.0
+3,codegruppe,419,419,100.0,0,0.0
+4,ersteller,419,419,100.0,0,0.0
+5,e_datum,419,419,100.0,0,0.0
+6,aenderer,419,419,100.0,0,0.0
+7,a_datum,419,419,100.0,0,0.0
+8,verwendung,419,419,100.0,0,0.0
+9,inaktiv,419,419,100.0,0,0.0
+10,status,419,419,100.0,0,0.0
+11,src_commit_time,419,419,100.0,0,0.0

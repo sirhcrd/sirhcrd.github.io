@@ -1,7 +1,7 @@
 ---
 table: esmx_risk_sharing_model_c
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 109177
 column_count: 43
 ---

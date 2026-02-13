@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,6676,6676,100.0,0,0.0
+2,MFRPN,6676,6676,100.0,0,0.0
+3,BSART,6676,6676,100.0,0,0.0
+4,MGANR,6676,6676,100.0,0,0.0
+5,src_commit_time,6676,6676,100.0,0,0.0

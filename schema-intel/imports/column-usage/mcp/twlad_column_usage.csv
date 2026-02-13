@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,167,167,100.0,0,0.0
+2,WERKS,167,167,100.0,0,0.0
+3,LGORT,167,167,100.0,0,0.0
+4,LFDNR,167,167,100.0,0,0.0
+5,ADRNR,167,167,100.0,0,0.0
+6,src_commit_time,167,167,100.0,0,0.0

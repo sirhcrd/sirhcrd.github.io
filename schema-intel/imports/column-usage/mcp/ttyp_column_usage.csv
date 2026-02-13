@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,AWTYP,129,129,100.0,0,0.0
+2,STRUC,129,129,100.0,0,0.0
+3,FUNCTION,129,129,100.0,0,0.0
+4,REMOTE,129,129,100.0,0,0.0
+5,src_commit_time,129,129,100.0,0,0.0

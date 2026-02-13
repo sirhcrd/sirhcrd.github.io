@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,sprsl,2204315,2204315,100.0,0,0.0
+2,arbgb,2204315,2204315,100.0,0,0.0
+3,msgnr,2204315,2204315,100.0,0,0.0
+4,text,2204315,2204315,100.0,0,0.0
+5,src_commit_time,2204315,2204315,100.0,0,0.0

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,70,70,100.0,0,0.0
+2,bukrs,70,70,100.0,0,0.0
+3,pstyp,70,70,100.0,0,0.0
+4,wepos,70,70,100.0,0,0.0
+5,src_commit_time,70,70,100.0,0,0.0

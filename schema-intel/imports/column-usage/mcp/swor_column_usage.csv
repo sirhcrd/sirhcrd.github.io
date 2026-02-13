@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,6308,6308,100.0,0,0.0
+2,clint,6308,6308,100.0,0,0.0
+3,spras,6308,6308,100.0,0,0.0
+4,klpos,6308,6308,100.0,0,0.0
+5,kschl,6308,6308,100.0,0,0.0
+6,kschg,6308,6308,100.0,0,0.0
+7,src_commit_time,6308,6308,100.0,0,0.0

@@ -1,7 +1,7 @@
 ---
 table: case_activity_c
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 51962568
 column_count: 53
 ---

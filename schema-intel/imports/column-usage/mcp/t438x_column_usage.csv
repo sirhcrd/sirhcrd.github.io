@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,392,392,100.0,0,0.0
+2,SPRAS,392,392,100.0,0,0.0
+3,WERKS,392,392,100.0,0,0.0
+4,DISGR,392,392,100.0,0,0.0
+5,TEXT40,392,392,100.0,0,0.0
+6,src_commit_time,392,392,100.0,0,0.0

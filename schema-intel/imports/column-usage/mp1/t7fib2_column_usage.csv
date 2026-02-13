@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,436,436,100.0,0,0.0
+2,PAYTP,436,436,100.0,0,0.0
+3,ENDDA,436,436,100.0,0,0.0
+4,BEGDA,436,436,100.0,0,0.0
+5,src_commit_time,436,436,100.0,0,0.0

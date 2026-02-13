@@ -1,7 +1,7 @@
 ---
 table: apts_normhourrate_c
 source: sfdcapttus
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 578
 column_count: 21
 ---

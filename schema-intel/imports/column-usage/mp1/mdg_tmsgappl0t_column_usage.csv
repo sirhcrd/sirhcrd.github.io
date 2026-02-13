@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,LANGU,2,2,100.0,0,0.0
+2,APPL,2,2,100.0,0,0.0
+3,TEXT,2,2,100.0,0,0.0
+4,src_commit_time,2,2,100.0,0,0.0

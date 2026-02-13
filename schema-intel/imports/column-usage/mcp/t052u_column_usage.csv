@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,762,762,100.0,0,0.0
+2,spras,762,762,100.0,0,0.0
+3,zterm,762,762,100.0,0,0.0
+4,ztagg,762,762,100.0,0,0.0
+5,text1,762,762,100.0,0,0.0
+6,src_commit_time,762,762,100.0,0,0.0

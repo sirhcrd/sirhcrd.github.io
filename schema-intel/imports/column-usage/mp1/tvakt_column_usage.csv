@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,3400,3400,100.0,0,0.0
+2,SPRAS,3400,3400,100.0,0,0.0
+3,AUART,3400,3400,100.0,0,0.0
+4,BEZEI,3400,3400,100.0,0,0.0
+5,TXT_BUTTON,3400,3400,100.0,0,0.0
+6,src_commit_time,3400,3400,100.0,0,0.0

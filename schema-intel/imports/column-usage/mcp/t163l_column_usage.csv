@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,20,20,100.0,0,0.0
+2,bstae,20,20,100.0,0,0.0
+3,aagen,20,20,100.0,0,0.0
+4,podrel,20,20,100.0,0,0.0
+5,qtydh,20,20,100.0,0,0.0
+6,idt_track_ind,20,20,100.0,0,0.0
+7,compl_compl_ind,20,20,100.0,0,0.0
+8,asn_inbound_auto,20,20,100.0,0,0.0
+9,src_commit_time,20,20,100.0,0,0.0

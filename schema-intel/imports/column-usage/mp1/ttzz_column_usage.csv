@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,CLIENT,408,408,100.0,0,0.0
+2,TZONE,408,408,100.0,0,0.0
+3,ZONERULE,408,408,100.0,0,0.0
+4,DSTRULE,408,408,100.0,0,0.0
+5,FLAGACTIVE,408,408,100.0,0,0.0
+6,src_commit_time,408,408,100.0,0,0.0

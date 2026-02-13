@@ -1,7 +1,7 @@
 ---
 table: apts_option_inclusion_c
 source: sfdcapttus
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 10785632
 column_count: 30
 ---

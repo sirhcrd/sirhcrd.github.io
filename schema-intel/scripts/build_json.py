@@ -20,6 +20,7 @@ ID_PREFIXES_FILE = PROJECT_ROOT / "data" / "id-prefixes.md"
 GLOSSARY_FILE = PROJECT_ROOT / "data" / "glossary.md"
 BUILD_DIR = PROJECT_ROOT / "build"
 OUTPUT_PATH = BUILD_DIR / "data.json"
+ROOT_OUTPUT_PATH = PROJECT_ROOT / "data.json"  # For GitHub Pages (build/ is gitignored)
 
 # Regex patterns
 FRONTMATTER_PATTERN = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
@@ -278,7 +279,12 @@ def main():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
     
+    # Also copy to project root for GitHub Pages (build/ is gitignored)
+    import shutil
+    shutil.copy2(OUTPUT_PATH, ROOT_OUTPUT_PATH)
+    
     print(f"Generated {OUTPUT_PATH}")
+    print(f"  Copied to {ROOT_OUTPUT_PATH} (for GitHub Pages)")
     print(f"  Tables: {len(tables)}")
     print(f"  Columns: {data['stats']['column_count']}")
     print(f"  Manual Joins: {len(joins)}")

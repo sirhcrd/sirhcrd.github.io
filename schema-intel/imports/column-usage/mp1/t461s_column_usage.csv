@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,121,121,100.0,0,0.0
+2,STRA1,121,121,100.0,0,0.0
+3,BEDVP,121,121,100.0,0,0.0
+4,BEDKU,121,121,100.0,0,0.0
+5,src_commit_time,121,121,100.0,0,0.0

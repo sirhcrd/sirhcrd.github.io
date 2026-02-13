@@ -72,7 +72,7 @@ def main():
         print("="*50)
         print("\nOutputs:")
         print(f"  SQLite: build/schema.db")
-        print(f"  JSON:   build/data.json")
+        print(f"  JSON:   data.json (+ build/data.json)")
         print(f"\nView UI: python3 -m http.server 8080")
     else:
         print("✗ BUILD FAILED")

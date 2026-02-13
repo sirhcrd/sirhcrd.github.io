@@ -1,7 +1,7 @@
 ---
 table: esmx_ip_staging_c
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 97348152
 column_count: 35
 ---

@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,133,133,100.0,0,0.0
+2,ABGRU,133,133,100.0,0,0.0
+3,DRAGR,133,133,100.0,0,0.0
+4,EP_OFF,133,133,100.0,0,0.0
+5,FK_ERL,133,133,100.0,0,0.0
+6,KOWRR,133,133,100.0,0,0.0
+7,src_commit_time,133,133,100.0,0,0.0

@@ -1,0 +1,14 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,21709,21709,100.0,0,0.0
+2,agr_name,21709,21709,100.0,0,0.0
+3,parent_agr,21709,21709,100.0,0,0.0
+4,create_usr,21709,21709,100.0,0,0.0
+5,create_dat,21709,21709,100.0,0,0.0
+6,create_tim,21709,21709,100.0,0,0.0
+7,create_tmp,21709,21709,100.0,0,0.0
+8,change_usr,21709,21709,100.0,0,0.0
+9,change_dat,21709,21709,100.0,0,0.0
+10,change_tim,21709,21709,100.0,0,0.0
+11,change_tmp,21709,21709,100.0,0,0.0
+12,attributes,21709,21709,100.0,0,0.0
+13,src_commit_time,21709,21709,100.0,0,0.0

@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,932,932,100.0,0,0.0
+2,vstel,932,932,100.0,0,0.0
+3,route,932,932,100.0,0,0.0
+4,ladgr,932,932,100.0,0,0.0
+5,ladzt,932,932,100.0,0,0.0
+6,loadtg,932,932,100.0,0,0.0
+7,loadtn,932,932,100.0,0,0.0
+8,src_commit_time,932,932,100.0,0,0.0

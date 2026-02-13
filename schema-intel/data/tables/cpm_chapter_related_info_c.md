@@ -1,7 +1,7 @@
 ---
 table: cpm_chapter_related_info_c
 source: sfdcccrm
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 541647
 column_count: 69
 ---

@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,segnam,987,987,100.0,0,0.0
+2,seglen,987,987,100.0,0,0.0
+3,released,987,987,100.0,0,0.0
+4,segtyp,987,987,100.0,0,0.0
+5,cimflag,987,987,100.0,0,0.0
+6,closed,987,987,100.0,0,0.0
+7,presp,987,987,100.0,0,0.0
+8,pwork,987,987,100.0,0,0.0
+9,plast,987,987,100.0,0,0.0
+10,src_commit_time,987,987,100.0,0,0.0

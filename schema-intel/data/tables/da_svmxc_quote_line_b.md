@@ -1,7 +1,7 @@
 ---
 table: da_svmxc_quote_line_b
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 33680
 column_count: 116
 ---

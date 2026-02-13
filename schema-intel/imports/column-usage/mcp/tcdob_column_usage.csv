@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,object,4325,4325,100.0,0,0.0
+2,tabname,4325,4325,100.0,0,0.0
+3,multcase,4325,4325,100.0,0,0.0
+4,docudel,4325,4325,100.0,0,0.0
+5,docuins,4325,4325,100.0,0,0.0
+6,refname,4325,4325,100.0,0,0.0
+7,oldtabname,4325,4325,100.0,0,0.0
+8,archmult,4325,4325,100.0,0,0.0
+9,docud_noif,4325,4325,100.0,0,0.0
+10,docui_if,4325,4325,100.0,0,0.0
+11,src_commit_time,4325,4325,100.0,0,0.0

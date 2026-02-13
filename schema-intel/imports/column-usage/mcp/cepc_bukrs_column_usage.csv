@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,8,8,100.0,0,0.0
+2,kokrs,8,8,100.0,0,0.0
+3,prctr,8,8,100.0,0,0.0
+4,bukrs,8,8,100.0,0,0.0
+5,vname,8,8,100.0,0,0.0
+6,recid,8,8,100.0,0,0.0
+7,etype,8,8,100.0,0,0.0
+8,jv_otype,8,8,100.0,0,0.0
+9,jv_jibcl,8,8,100.0,0,0.0
+10,jv_jibsa,8,8,100.0,0,0.0
+11,src_commit_time,8,8,100.0,0,0.0

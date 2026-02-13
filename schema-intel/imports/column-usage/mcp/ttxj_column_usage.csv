@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,176,176,100.0,0,0.0
+2,KALSM,176,176,100.0,0,0.0
+3,TXJCD,176,176,100.0,0,0.0
+4,XSKFN,176,176,100.0,0,0.0
+5,XMWSN,176,176,100.0,0,0.0
+6,src_commit_time,176,176,100.0,0,0.0

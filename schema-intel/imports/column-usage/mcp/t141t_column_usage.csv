@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,43,43,100.0,0,0.0
+2,SPRAS,43,43,100.0,0,0.0
+3,MMSTA,43,43,100.0,0,0.0
+4,MTSTB,43,43,100.0,0,0.0
+5,src_commit_time,43,43,100.0,0,0.0

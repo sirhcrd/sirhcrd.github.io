@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,9821,9821,100.0,0,0.0
+2,SPRAS,9821,9821,100.0,0,0.0
+3,MATKL,9821,9821,100.0,0,0.0
+4,WGBEZ,9821,9821,100.0,0,0.0
+5,WGBEZ60,9821,9821,100.0,0,0.0
+6,src_commit_time,9821,9821,100.0,0,0.0

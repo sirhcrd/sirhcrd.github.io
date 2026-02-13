@@ -1,7 +1,7 @@
 ---
 table: svmxc_case_line_history
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 13353335
 column_count: 11
 ---

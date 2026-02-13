@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,120,120,100.0,0,0.0
+2,werks,120,120,100.0,0,0.0
+3,fhori,120,120,100.0,0,0.0
+4,erhor,120,120,100.0,0,0.0
+5,sichz,120,120,100.0,0,0.0
+6,vorgz,120,120,100.0,0,0.0
+7,freiz,120,120,100.0,0,0.0
+8,src_commit_time,120,120,100.0,0,0.0

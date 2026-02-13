@@ -1,0 +1,4 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,11,11,100.0,0,0.0
+2,KVGR5,11,11,100.0,0,0.0
+3,src_commit_time,11,11,100.0,0,0.0

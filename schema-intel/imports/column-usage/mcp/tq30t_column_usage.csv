@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,216,216,100.0,0,0.0
+2,sprache,216,216,100.0,0,0.0
+3,art,216,216,100.0,0,0.0
+4,kurztext,216,216,100.0,0,0.0
+5,ltxa1,216,216,100.0,0,0.0
+6,src_commit_time,216,216,100.0,0,0.0

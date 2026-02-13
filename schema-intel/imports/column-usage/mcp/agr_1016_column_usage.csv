@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,9340,9340,100.0,0,0.0
+2,agr_name,9340,9340,100.0,0,0.0
+3,counter,9340,9340,100.0,0,0.0
+4,profile,9340,9340,100.0,0,0.0
+5,variant,9340,9340,100.0,0,0.0
+6,generated,9340,9340,100.0,0,0.0
+7,pstate,9340,9340,100.0,0,0.0
+8,src_commit_time,9340,9340,100.0,0,0.0

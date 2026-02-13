@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,1832,1832,100.0,0,0.0
+2,SPRAS,1832,1832,100.0,0,0.0
+3,FEHGR,1832,1832,100.0,0,0.0
+4,BEZEI,1832,1832,100.0,0,0.0
+5,src_commit_time,1832,1832,100.0,0,0.0

@@ -1,7 +1,7 @@
 ---
 table: defoa_history
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 794286
 column_count: 11
 ---

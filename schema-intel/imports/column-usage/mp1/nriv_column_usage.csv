@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,client,21074,21074,100.0,0,0.0
+2,object,21074,21074,100.0,0,0.0
+3,subobject,21074,21074,100.0,0,0.0
+4,nrrangenr,21074,21074,100.0,0,0.0
+5,toyear,21074,21074,100.0,0,0.0
+6,fromnumber,21074,21074,100.0,0,0.0
+7,tonumber,21074,21074,100.0,0,0.0
+8,nrlevel,21074,21074,100.0,0,0.0
+9,externind,21074,21074,100.0,0,0.0
+10,src_commit_time,21074,21074,100.0,0,0.0

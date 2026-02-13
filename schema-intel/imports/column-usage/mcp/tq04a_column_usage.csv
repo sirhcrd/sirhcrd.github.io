@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,21,21,100.0,0,0.0
+2,sperrfkt,21,21,100.0,0,0.0
+3,bestellung,21,21,100.0,0,0.0
+4,anfrage,21,21,100.0,0,0.0
+5,bzgquelle,21,21,100.0,0,0.0
+6,wesperr,21,21,100.0,0,0.0
+7,src_commit_time,21,21,100.0,0,0.0

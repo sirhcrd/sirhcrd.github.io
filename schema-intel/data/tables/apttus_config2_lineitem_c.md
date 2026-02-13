@@ -1,7 +1,7 @@
 ---
 table: apttus_config2_lineitem_c
 source: sfdcapttus
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 26295191
 column_count: 430
 ---

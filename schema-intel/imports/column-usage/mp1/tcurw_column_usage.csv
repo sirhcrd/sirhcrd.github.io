@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,432,432,100.0,0,0.0
+2,SPRAS,432,432,100.0,0,0.0
+3,KURST,432,432,100.0,0,0.0
+4,CURVW,432,432,100.0,0,0.0
+5,src_commit_time,432,432,100.0,0,0.0

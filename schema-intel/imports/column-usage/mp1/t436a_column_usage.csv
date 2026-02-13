@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,593,593,100.0,0,0.0
+2,WERKS,593,593,100.0,0,0.0
+3,FHORI,593,593,100.0,0,0.0
+4,ERHOR,593,593,100.0,0,0.0
+5,SICHZ,593,593,100.0,0,0.0
+6,VORGZ,593,593,100.0,0,0.0
+7,FREIZ,593,593,100.0,0,0.0
+8,src_commit_time,593,593,100.0,0,0.0

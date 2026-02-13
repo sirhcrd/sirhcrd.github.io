@@ -1,7 +1,7 @@
 ---
 table: svmxc_pm_offering_c
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 990167
 column_count: 37
 ---

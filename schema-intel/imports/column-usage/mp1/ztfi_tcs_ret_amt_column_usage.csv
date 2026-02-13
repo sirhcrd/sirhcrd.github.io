@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,400,400,100.0,0,0.0
+2,thld_cat,400,400,100.0,0,0.0
+3,buyer_idtype,400,400,100.0,0,0.0
+4,buyer_id,400,400,100.0,0,0.0
+5,kunnr,400,400,100.0,0,0.0
+6,retro_amt,400,400,100.0,0,0.0
+7,created_by,400,400,100.0,0,0.0
+8,created_on,400,400,100.0,0,0.0
+9,changed_by,400,400,100.0,0,0.0
+10,changed_on,400,400,100.0,0,0.0
+11,src_commit_time,400,400,100.0,0,0.0

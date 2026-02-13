@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,744,744,100.0,0,0.0
+2,SPRAS,744,744,100.0,0,0.0
+3,KONDM,744,744,100.0,0,0.0
+4,VTEXT,744,744,100.0,0,0.0
+5,src_commit_time,744,744,100.0,0,0.0

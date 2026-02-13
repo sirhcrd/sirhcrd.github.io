@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,310,310,100.0,0,0.0
+2,spras,310,310,100.0,0,0.0
+3,druvo,310,310,100.0,0,0.0
+4,bstyp,310,310,100.0,0,0.0
+5,bsart,310,310,100.0,0,0.0
+6,drtyp,310,310,100.0,0,0.0
+7,drart,310,310,100.0,0,0.0
+8,drnum,310,310,100.0,0,0.0
+9,src_commit_time,310,310,100.0,0,0.0

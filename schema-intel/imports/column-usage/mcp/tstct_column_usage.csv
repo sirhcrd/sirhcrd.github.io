@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,sprsl,260640,260640,100.0,0,0.0
+2,tcode,260640,260640,100.0,0,0.0
+3,ttext,260640,260640,100.0,0,0.0
+4,src_commit_time,260640,260640,100.0,0,0.0

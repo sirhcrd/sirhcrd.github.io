@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,77,77,100.0,0,0.0
+2,BUKRS,77,77,100.0,0,0.0
+3,GSBER,77,77,100.0,0,0.0
+4,KOKRS,77,77,100.0,0,0.0
+5,src_commit_time,77,77,100.0,0,0.0

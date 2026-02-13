@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,61,61,100.0,0,0.0
+2,FRGGR,61,61,100.0,0,0.0
+3,FRGCO,61,61,100.0,0,0.0
+4,WERKS,61,61,100.0,0,0.0
+5,OTYPE,61,61,100.0,0,0.0
+6,OBJID,61,61,100.0,0,0.0
+7,src_commit_time,61,61,100.0,0,0.0

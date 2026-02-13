@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,9,9,100.0,0,0.0
+2,PROID,9,9,100.0,0,0.0
+3,POSID,9,9,100.0,0,0.0
+4,NEUSP,9,9,100.0,0,0.0
+5,NEUSS,9,9,100.0,0,0.0
+6,src_commit_time,9,9,100.0,0,0.0

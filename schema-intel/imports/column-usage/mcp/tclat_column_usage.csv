@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,720,720,100.0,0,0.0
+2,spras,720,720,100.0,0,0.0
+3,klart,720,720,100.0,0,0.0
+4,artxt,720,720,100.0,0,0.0
+5,src_commit_time,720,720,100.0,0,0.0

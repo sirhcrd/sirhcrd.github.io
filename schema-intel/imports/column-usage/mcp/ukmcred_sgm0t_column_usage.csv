@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,CLIENT,12,12,100.0,0,0.0
+2,LANGU,12,12,100.0,0,0.0
+3,CREDIT_SGMNT,12,12,100.0,0,0.0
+4,CREDIT_SGMNT_TXT,12,12,100.0,0,0.0
+5,src_commit_time,12,12,100.0,0,0.0

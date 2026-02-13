@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,12,12,100.0,0,0.0
+2,RFVAR,12,12,100.0,0,0.0
+3,VWERT,12,12,100.0,0,0.0
+4,VMEIN,12,12,100.0,0,0.0
+5,DETEXT,12,12,100.0,0,0.0
+6,src_commit_time,12,12,100.0,0,0.0

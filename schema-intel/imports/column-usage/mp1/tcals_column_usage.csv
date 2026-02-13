@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,ID,1,1,100.0,0,0.0
+2,DAT,1,1,100.0,0,0.0
+3,TIM,1,1,100.0,0,0.0
+4,AKZ,1,1,100.0,0,0.0
+5,CID,1,1,100.0,0,0.0
+6,DSZ,1,1,100.0,0,0.0
+7,PSZ,1,1,100.0,0,0.0
+8,src_commit_time,1,1,100.0,0,0.0

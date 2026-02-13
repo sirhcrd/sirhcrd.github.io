@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,16,16,100.0,0,0.0
+2,kappl,16,16,100.0,0,0.0
+3,kschl,16,16,100.0,0,0.0
+4,ekorg,16,16,100.0,0,0.0
+5,lifnr,16,16,100.0,0,0.0
+6,knumh,16,16,100.0,0,0.0
+7,src_commit_time,16,16,100.0,0,0.0

@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,80,80,100.0,0,0.0
+2,VTWEG,80,80,100.0,0,0.0
+3,HIDE,80,80,100.0,0,0.0
+4,src_commit_time,80,80,100.0,0,0.0

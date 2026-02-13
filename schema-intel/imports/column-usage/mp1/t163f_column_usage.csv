@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,126,126,100.0,0,0.0
+2,SPRAS,126,126,100.0,0,0.0
+3,EBTYP,126,126,100.0,0,0.0
+4,EBTXT,126,126,100.0,0,0.0
+5,EBUEB,126,126,100.0,0,0.0
+6,src_commit_time,126,126,100.0,0,0.0

@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,76,76,100.0,0,0.0
+2,KAPPL,76,76,100.0,0,0.0
+3,KSCHL,76,76,100.0,0,0.0
+4,KTOPL,76,76,100.0,0,0.0
+5,VKORG,76,76,100.0,0,0.0
+6,KTGRM,76,76,100.0,0,0.0
+7,KVSL1,76,76,100.0,0,0.0
+8,SAKN1,76,76,100.0,0,0.0
+9,SAKN2,76,76,100.0,0,0.0
+10,src_commit_time,76,76,100.0,0,0.0

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,client,918,918,100.0,0,0.0
+2,langu,918,918,100.0,0,0.0
+3,tzone,918,918,100.0,0,0.0
+4,descript,918,918,100.0,0,0.0
+5,src_commit_time,918,918,100.0,0,0.0

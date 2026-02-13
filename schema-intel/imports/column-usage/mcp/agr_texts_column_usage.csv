@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,107973,107973,100.0,0,0.0
+2,agr_name,107973,107973,100.0,0,0.0
+3,spras,107973,107973,100.0,0,0.0
+4,line,107973,107973,100.0,0,0.0
+5,text,107973,107973,100.0,0,0.0
+6,src_commit_time,107973,107973,100.0,0,0.0

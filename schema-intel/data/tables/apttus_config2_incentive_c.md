@@ -1,7 +1,7 @@
 ---
 table: apttus_config2_incentive_c
 source: sfdcapttus
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 3433
 column_count: 82
 ---

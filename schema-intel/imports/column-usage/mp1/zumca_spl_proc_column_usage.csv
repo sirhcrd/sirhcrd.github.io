@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,3488,3488,100.0,0,0.0
+2,location,3488,3488,100.0,0,0.0
+3,sobsl,3488,3488,100.0,0,0.0
+4,destination,3488,3488,100.0,0,0.0
+5,sp_action,3488,3488,100.0,0,0.0
+6,src_commit_time,3488,3488,100.0,0,0.0

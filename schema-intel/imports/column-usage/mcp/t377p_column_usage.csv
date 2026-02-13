@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,29,29,100.0,0,0.0
+2,serail,29,29,100.0,0,0.0
+3,serscha,29,29,100.0,0,0.0
+4,serex,29,29,100.0,0,0.0
+5,eqtyp,29,29,100.0,0,0.0
+6,bstvp,29,29,100.0,0,0.0
+7,iuid_compatible,29,29,100.0,0,0.0
+8,uid_used,29,29,100.0,0,0.0
+9,src_commit_time,29,29,100.0,0,0.0

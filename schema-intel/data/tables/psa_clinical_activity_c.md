@@ -1,7 +1,7 @@
 ---
 table: psa_clinical_activity_c
 source: sfdcpsa
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 26426
 column_count: 26
 ---

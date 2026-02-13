@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,segtyp,165168,165168,100.0,0,0.0
+2,pos,165168,165168,100.0,0,0.0
+3,fieldname,165168,165168,100.0,0,0.0
+4,rollname,165168,165168,100.0,0,0.0
+5,expleng,165168,165168,100.0,0,0.0
+6,isocode,165168,165168,100.0,0,0.0
+7,src_commit_time,165168,165168,100.0,0,0.0

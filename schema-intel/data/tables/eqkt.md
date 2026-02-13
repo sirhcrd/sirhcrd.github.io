@@ -1,0 +1,36 @@
+---
+table: eqkt
+source: mp1
+pulled_date: 2026-02-13
+row_count: 85908407
+column_count: 8
+---
+
+# eqkt
+
+*Description needed — add context about what this table represents.*
+
+## Summary
+
+| Quality | Count | Percentage |
+|---------|-------|------------|
+| Trusted (≥50%) | 8 | 100% |
+| Neutral (5-50%) | 0 | 0% |
+| Dead (<5%) | 0 | 0% |
+
+## Columns
+
+| Column | Usage % | Quality | Description |
+|--------|---------|---------|-------------|
+| `MANDT` | 100.0% | trusted | |
+| `EQUNR` | 100.0% | trusted | |
+| `SPRAS` | 100.0% | trusted | |
+| `EQKTX` | 100.0% | trusted | |
+| `KZLTX` | 100.0% | trusted | |
+| `TXASP` | 100.0% | trusted | |
+| `EQKTU` | 100.0% | trusted | |
+| `src_commit_time` | 100.0% | trusted | |
+
+## Notes
+
+*Add join information, gotchas, and usage patterns here.*

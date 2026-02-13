@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,IDENT,58879,58879,100.0,0,0.0
+2,DATUM,58879,58879,100.0,0,0.0
+3,FTGID,58879,58879,100.0,0,0.0
+4,GARANT,58879,58879,100.0,0,0.0
+5,src_commit_time,58879,58879,100.0,0,0.0

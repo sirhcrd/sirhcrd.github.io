@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,9,9,100.0,0,0.0
+2,znum,9,9,100.0,0,0.0
+3,sizecat,9,9,100.0,0,0.0
+4,sizegrpdesc,9,9,100.0,0,0.0
+5,maxsize,9,9,100.0,0,0.0
+6,zmaxgirth,9,9,100.0,0,0.0
+7,meabm,9,9,100.0,0,0.0
+8,src_commit_time,9,9,100.0,0,0.0

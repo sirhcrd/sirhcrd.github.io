@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,39,39,100.0,0,0.0
+2,LABOR,39,39,100.0,0,0.0
+3,CONFIGURATIONDEPRECATIONCODE,39,39,100.0,0,0.0
+4,src_commit_time,39,39,100.0,0,0.0

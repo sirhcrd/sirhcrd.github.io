@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,8914,8914,100.0,0,0.0
+2,zcheck,8914,8914,100.0,0,0.0
+3,seqno,8914,8914,100.0,0,0.0
+4,fsitem,8914,8914,100.0,0,0.0
+5,rassc,8914,8914,100.0,0,0.0
+6,farea,8914,8914,100.0,0,0.0
+7,rmvct,8914,8914,100.0,0,0.0
+8,chsign,8914,8914,100.0,0,0.0
+9,src_commit_time,8914,8914,100.0,0,0.0

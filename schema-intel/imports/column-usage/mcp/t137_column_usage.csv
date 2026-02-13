@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,18,18,100.0,0,0.0
+2,mbrsh,18,18,100.0,0,0.0
+3,brare,18,18,100.0,0,0.0
+4,bbref,18,18,100.0,0,0.0
+5,flref,18,18,100.0,0,0.0
+6,src_commit_time,18,18,100.0,0,0.0

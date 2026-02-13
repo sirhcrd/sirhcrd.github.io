@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,1107,1107,100.0,0,0.0
+2,sprsl,1107,1107,100.0,0,0.0
+3,usergroup,1107,1107,100.0,0,0.0
+4,text,1107,1107,100.0,0,0.0
+5,src_commit_time,1107,1107,100.0,0,0.0

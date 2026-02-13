@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SYYID,780,780,100.0,0,0.0
+2,UPLMT,780,780,100.0,0,0.0
+3,ENDDA,780,780,100.0,0,0.0
+4,BEGDA,780,780,100.0,0,0.0
+5,LWLMT,780,780,100.0,0,0.0
+6,RTSYY,780,780,100.0,0,0.0
+7,src_commit_time,780,780,100.0,0,0.0

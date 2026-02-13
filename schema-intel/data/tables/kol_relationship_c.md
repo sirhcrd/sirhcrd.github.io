@@ -1,7 +1,7 @@
 ---
 table: kol_relationship_c
 source: sfdcccrm
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 4391
 column_count: 31
 ---

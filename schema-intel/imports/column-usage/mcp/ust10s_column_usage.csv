@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,177865,177865,100.0,0,0.0
+2,profn,177865,177865,100.0,0,0.0
+3,aktps,177865,177865,100.0,0,0.0
+4,objct,177865,177865,100.0,0,0.0
+5,auth,177865,177865,100.0,0,0.0
+6,src_commit_time,177865,177865,100.0,0,0.0

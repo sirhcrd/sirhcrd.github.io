@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,ISTAT,7810,7810,100.0,0,0.0
+2,SPRAS,7810,7810,100.0,0,0.0
+3,TXT04,7810,7810,100.0,0,0.0
+4,TXT30,7810,7810,100.0,0,0.0
+5,src_commit_time,7810,7810,100.0,0,0.0

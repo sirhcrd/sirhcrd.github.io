@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,229,229,100.0,0,0.0
+2,kappl,229,229,100.0,0,0.0
+3,kschl,229,229,100.0,0,0.0
+4,kunnr,229,229,100.0,0,0.0
+5,vkorg,229,229,100.0,0,0.0
+6,datbi,229,229,100.0,0,0.0
+7,datab,229,229,100.0,0,0.0
+8,knumh,229,229,100.0,0,0.0
+9,src_commit_time,229,229,100.0,0,0.0

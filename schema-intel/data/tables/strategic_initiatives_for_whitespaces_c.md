@@ -1,7 +1,7 @@
 ---
 table: strategic_initiatives_for_whitespaces_c
 source: sfdcccrm
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 6335
 column_count: 79
 ---

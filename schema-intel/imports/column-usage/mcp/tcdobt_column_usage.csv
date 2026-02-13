@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,spras,6198,6198,100.0,0,0.0
+2,object,6198,6198,100.0,0,0.0
+3,obtext,6198,6198,100.0,0,0.0
+4,src_commit_time,6198,6198,100.0,0,0.0

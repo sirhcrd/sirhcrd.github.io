@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,148,148,100.0,0,0.0
+2,LIFNR,148,148,100.0,0,0.0
+3,LAND1,148,148,100.0,0,0.0
+4,STCEG,148,148,100.0,0,0.0
+5,src_commit_time,148,148,100.0,0,0.0

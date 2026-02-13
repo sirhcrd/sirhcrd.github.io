@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,51,51,100.0,0,0.0
+2,statg,51,51,100.0,0,0.0
+3,uvall,51,51,100.0,0,0.0
+4,uvvlk,51,51,100.0,0,0.0
+5,uvfak,51,51,100.0,0,0.0
+6,uvprs,51,51,100.0,0,0.0
+7,uvwak,51,51,100.0,0,0.0
+8,uvpik,51,51,100.0,0,0.0
+9,uvpak,51,51,100.0,0,0.0
+10,uvgek,51,51,100.0,0,0.0
+11,src_commit_time,51,51,100.0,0,0.0

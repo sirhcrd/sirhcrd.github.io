@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,2879,2879,100.0,0,0.0
+2,VKBUR,2879,2879,100.0,0,0.0
+3,VKGRP,2879,2879,100.0,0,0.0
+4,HIDE,2879,2879,100.0,0,0.0
+5,src_commit_time,2879,2879,100.0,0,0.0

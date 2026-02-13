@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,169,169,100.0,0,0.0
+2,disls,169,169,100.0,0,0.0
+3,spras,169,169,100.0,0,0.0
+4,loslt,169,169,100.0,0,0.0
+5,src_commit_time,169,169,100.0,0,0.0

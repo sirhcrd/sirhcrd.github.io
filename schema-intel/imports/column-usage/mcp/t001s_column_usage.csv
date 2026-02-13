@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,88,88,100.0,0,0.0
+2,BUKRS,88,88,100.0,0,0.0
+3,BUSAB,88,88,100.0,0,0.0
+4,SNAME,88,88,100.0,0,0.0
+5,USNAM,88,88,100.0,0,0.0
+6,src_commit_time,88,88,100.0,0,0.0

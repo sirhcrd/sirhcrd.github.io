@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,STATUS,726,726,100.0,0,0.0
+2,LANGUA,726,726,100.0,0,0.0
+3,DESCRP,726,726,100.0,0,0.0
+4,src_commit_time,726,726,100.0,0,0.0

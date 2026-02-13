@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,29,29,100.0,0,0.0
+2,ZAHLS,29,29,100.0,0,0.0
+3,CHAR1,29,29,100.0,0,0.0
+4,XOZSP,29,29,100.0,0,0.0
+5,XNCHG,29,29,100.0,0,0.0
+6,src_commit_time,29,29,100.0,0,0.0

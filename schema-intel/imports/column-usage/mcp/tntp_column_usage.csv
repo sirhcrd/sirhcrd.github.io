@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,37,37,100.0,0,0.0
+2,numtp,37,37,100.0,0,0.0
+3,prfza,37,37,100.0,0,0.0
+4,nkobj,37,37,100.0,0,0.0
+5,nmkrs,37,37,100.0,0,0.0
+6,nmkre,37,37,100.0,0,0.0
+7,pgean,37,37,100.0,0,0.0
+8,rzean,37,37,100.0,0,0.0
+9,anean,37,37,100.0,0,0.0
+10,lnean,37,37,100.0,0,0.0
+11,recind,37,37,100.0,0,0.0
+12,src_commit_time,37,37,100.0,0,0.0

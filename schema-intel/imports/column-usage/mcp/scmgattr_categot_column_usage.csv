@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,99,99,100.0,0,0.0
+2,LANGU,99,99,100.0,0,0.0
+3,CASE_TYPE,99,99,100.0,0,0.0
+4,CATEGORY,99,99,100.0,0,0.0
+5,DESCRIPTION,99,99,100.0,0,0.0
+6,src_commit_time,99,99,100.0,0,0.0

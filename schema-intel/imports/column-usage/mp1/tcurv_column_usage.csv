@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,71,71,100.0,0,0.0
+2,KURST,71,71,100.0,0,0.0
+3,XINVR,71,71,100.0,0,0.0
+4,BWAER,71,71,100.0,0,0.0
+5,XBWRL,71,71,100.0,0,0.0
+6,GKUZU,71,71,100.0,0,0.0
+7,BKUZU,71,71,100.0,0,0.0
+8,XFIXD,71,71,100.0,0,0.0
+9,XEURO,71,71,100.0,0,0.0
+10,src_commit_time,71,71,100.0,0,0.0

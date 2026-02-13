@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,1001,1001,100.0,0,0.0
+2,SPRAS,1001,1001,100.0,0,0.0
+3,SERWI,1001,1001,100.0,0,0.0
+4,SERTX,1001,1001,100.0,0,0.0
+5,src_commit_time,1001,1001,100.0,0,0.0

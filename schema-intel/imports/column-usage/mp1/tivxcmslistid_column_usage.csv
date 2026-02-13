@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,5,5,100.0,0,0.0
+2,LISTID,5,5,100.0,0,0.0
+3,FORMTYPE,5,5,100.0,0,0.0
+4,SFNAME,5,5,100.0,0,0.0
+5,src_commit_time,5,5,100.0,0,0.0

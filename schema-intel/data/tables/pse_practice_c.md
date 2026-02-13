@@ -1,7 +1,7 @@
 ---
 table: pse_practice_c
 source: sfdcpsa
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 164
 column_count: 114
 ---

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,1328,1328,100.0,0,0.0
+2,fsitem,1328,1328,100.0,0,0.0
+3,fprctr,1328,1328,100.0,0,0.0
+4,brkdwncat,1328,1328,100.0,0,0.0
+5,src_commit_time,1328,1328,100.0,0,0.0

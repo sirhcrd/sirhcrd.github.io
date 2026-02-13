@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,24,24,100.0,0,0.0
+2,MTVER,24,24,100.0,0,0.0
+3,STAZO,24,24,100.0,0,0.0
+4,src_commit_time,24,24,100.0,0,0.0

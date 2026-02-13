@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,1503,1503,100.0,0,0.0
+2,SPRAS,1503,1503,100.0,0,0.0
+3,DELKZ,1503,1503,100.0,0,0.0
+4,DELB0,1503,1503,100.0,0,0.0
+5,DELB1,1503,1503,100.0,0,0.0
+6,src_commit_time,1503,1503,100.0,0,0.0

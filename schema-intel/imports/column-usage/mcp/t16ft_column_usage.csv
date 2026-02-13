@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,30,30,100.0,0,0.0
+2,spras,30,30,100.0,0,0.0
+3,frggr,30,30,100.0,0,0.0
+4,frgsx,30,30,100.0,0,0.0
+5,frgxt,30,30,100.0,0,0.0
+6,src_commit_time,30,30,100.0,0,0.0

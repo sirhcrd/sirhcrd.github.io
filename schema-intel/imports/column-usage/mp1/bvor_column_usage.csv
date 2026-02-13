@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,42167,42167,100.0,0,0.0
+2,bvorg,42167,42167,100.0,0,0.0
+3,bukrs,42167,42167,100.0,0,0.0
+4,gjahr,42167,42167,100.0,0,0.0
+5,belnr,42167,42167,100.0,0,0.0
+6,xarch,42167,42167,100.0,0,0.0
+7,src_commit_time,42167,42167,100.0,0,0.0

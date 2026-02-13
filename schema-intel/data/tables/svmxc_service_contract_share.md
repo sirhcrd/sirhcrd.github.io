@@ -1,7 +1,7 @@
 ---
 table: svmxc_service_contract_share
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 15438213
 column_count: 10
 ---

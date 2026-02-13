@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,908,908,100.0,0,0.0
+2,SPRAS,908,908,100.0,0,0.0
+3,FPART,908,908,100.0,0,0.0
+4,FPTTP,908,908,100.0,0,0.0
+5,TTBEZ,908,908,100.0,0,0.0
+6,src_commit_time,908,908,100.0,0,0.0

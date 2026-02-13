@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,21,21,100.0,0,0.0
+2,EBTYP,21,21,100.0,0,0.0
+3,KZDIS,21,21,100.0,0,0.0
+4,WEREL,21,21,100.0,0,0.0
+5,WEZUO,21,21,100.0,0,0.0
+6,src_commit_time,21,21,100.0,0,0.0

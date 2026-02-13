@@ -1,0 +1,255 @@
+---
+table: plpo
+source: mp1
+pulled_date: 2026-02-13
+row_count: 590323
+column_count: 227
+---
+
+# plpo
+
+*Description needed — add context about what this table represents.*
+
+## Summary
+
+| Quality | Count | Percentage |
+|---------|-------|------------|
+| Trusted (≥50%) | 227 | 100% |
+| Neutral (5-50%) | 0 | 0% |
+| Dead (<5%) | 0 | 0% |
+
+## Columns
+
+| Column | Usage % | Quality | Description |
+|--------|---------|---------|-------------|
+| `MANDT` | 100.0% | trusted | |
+| `BMEIH` | 100.0% | trusted | |
+| `ANFKOKRS` | 100.0% | trusted | |
+| `KAPAR` | 100.0% | trusted | |
+| `INDET` | 100.0% | trusted | |
+| `LARNT` | 100.0% | trusted | |
+| `PRKST` | 100.0% | trusted | |
+| `QRASTERMNG` | 100.0% | trusted | |
+| `QRASTEREH` | 100.0% | trusted | |
+| `ANLZU` | 100.0% | trusted | |
+| `ISTRU` | 100.0% | trusted | |
+| `ISTTY` | 100.0% | trusted | |
+| `ISTNR` | 100.0% | trusted | |
+| `ISTKN` | 100.0% | trusted | |
+| `ISTPO` | 100.0% | trusted | |
+| `IUPOZ` | 100.0% | trusted | |
+| `EBORT` | 100.0% | trusted | |
+| `KALID` | 100.0% | trusted | |
+| `FRSP` | 100.0% | trusted | |
+| `VERTN` | 100.0% | trusted | |
+| `ZGR01` | 100.0% | trusted | |
+| `ZGR02` | 100.0% | trusted | |
+| `ZGR03` | 100.0% | trusted | |
+| `ZGR04` | 100.0% | trusted | |
+| `ZGR05` | 100.0% | trusted | |
+| `ZGR06` | 100.0% | trusted | |
+| `MDLID` | 100.0% | trusted | |
+| `ANFKO` | 100.0% | trusted | |
+| `USR11` | 100.0% | trusted | |
+| `USR10` | 100.0% | trusted | |
+| `USR00` | 100.0% | trusted | |
+| `EINSA` | 100.0% | trusted | |
+| `EINSE` | 100.0% | trusted | |
+| `ARBEI` | 100.0% | trusted | |
+| `ARBEH` | 100.0% | trusted | |
+| `ANZZL` | 100.0% | trusted | |
+| `PRZNT` | 100.0% | trusted | |
+| `VERTL` | 100.0% | trusted | |
+| `MLSTN` | 100.0% | trusted | |
+| `PPRIO` | 100.0% | trusted | |
+| `BUKRS` | 100.0% | trusted | |
+| `SLWID` | 100.0% | trusted | |
+| `USR01` | 100.0% | trusted | |
+| `USR09` | 100.0% | trusted | |
+| `USR02` | 100.0% | trusted | |
+| `USR03` | 100.0% | trusted | |
+| `USR04` | 100.0% | trusted | |
+| `USE04` | 100.0% | trusted | |
+| `USR05` | 100.0% | trusted | |
+| `USE05` | 100.0% | trusted | |
+| `USR06` | 100.0% | trusted | |
+| `USE06` | 100.0% | trusted | |
+| `USR07` | 100.0% | trusted | |
+| `USE07` | 100.0% | trusted | |
+| `USR08` | 100.0% | trusted | |
+| `RUZUS` | 100.0% | trusted | |
+| `BMVRG` | 100.0% | trusted | |
+| `DAUME` | 100.0% | trusted | |
+| `CKSELKZ` | 100.0% | trusted | |
+| `AUFKT` | 100.0% | trusted | |
+| `DAFKT` | 100.0% | trusted | |
+| `RWFAK` | 100.0% | trusted | |
+| `AAUFG` | 100.0% | trusted | |
+| `VERDART` | 100.0% | trusted | |
+| `UAVO_AUFL` | 100.0% | trusted | |
+| `FRDLB` | 100.0% | trusted | |
+| `QPART` | 100.0% | trusted | |
+| `PRZ01` | 100.0% | trusted | |
+| `TAKT` | 100.0% | trusted | |
+| `OPRID` | 100.0% | trusted | |
+| `NVADD` | 100.0% | trusted | |
+| `EVGEW` | 100.0% | trusted | |
+| `RFPNT` | 100.0% | trusted | |
+| `FLG_TSK_GROUP` | 100.0% | trusted | |
+| `ADPSP` | 100.0% | trusted | |
+| `TPLNR` | 100.0% | trusted | |
+| `EQUNR` | 100.0% | trusted | |
+| `MES_OPERID` | 100.0% | trusted | |
+| `MES_STEPID` | 100.0% | trusted | |
+| `MANU_PROC` | 100.0% | trusted | |
+| `SUBPLNAL` | 100.0% | trusted | |
+| `SUBPLNNR` | 100.0% | trusted | |
+| `SUBPLNTY` | 100.0% | trusted | |
+| `XEXCLTL` | 100.0% | trusted | |
+| `QKZTLSBEST` | 100.0% | trusted | |
+| `CN_WEIGHT` | 100.0% | trusted | |
+| `FLG_CAPTXT` | 100.0% | trusted | |
+| `QKZPRZEIT` | 100.0% | trusted | |
+| `KALKZ` | 100.0% | trusted | |
+| `NPRIO` | 100.0% | trusted | |
+| `PVZKN` | 100.0% | trusted | |
+| `PHFLG` | 100.0% | trusted | |
+| `PHSEQ` | 100.0% | trusted | |
+| `KNOBJ` | 100.0% | trusted | |
+| `ERFSICHT` | 100.0% | trusted | |
+| `PSPNR` | 100.0% | trusted | |
+| `QLOTYPE` | 100.0% | trusted | |
+| `QLOBJEKTID` | 100.0% | trusted | |
+| `QLKAPAR` | 100.0% | trusted | |
+| `QKZZTMG1` | 100.0% | trusted | |
+| `CAPOC` | 100.0% | trusted | |
+| `QKZPRMENG` | 100.0% | trusted | |
+| `QKZPRFREI` | 100.0% | trusted | |
+| `QRASTZEHT` | 100.0% | trusted | |
+| `QRASTZFAK` | 100.0% | trusted | |
+| `QRASTMENG` | 100.0% | trusted | |
+| `QPPKTABS` | 100.0% | trusted | |
+| `KRIT1` | 100.0% | trusted | |
+| `CLASSID` | 100.0% | trusted | |
+| `PACKNO` | 100.0% | trusted | |
+| `EBELN` | 100.0% | trusted | |
+| `EBELP` | 100.0% | trusted | |
+| `DDEHN` | 100.0% | trusted | |
+| `DAUMI` | 100.0% | trusted | |
+| `PLNTY` | 100.0% | trusted | |
+| `ZULNR` | 100.0% | trusted | |
+| `UMREN` | 100.0% | trusted | |
+| `UMREZ` | 100.0% | trusted | |
+| `BMSCH` | 100.0% | trusted | |
+| `ZMERH` | 100.0% | trusted | |
+| `ZEIER` | 100.0% | trusted | |
+| `LAR01` | 100.0% | trusted | |
+| `VGE01` | 100.0% | trusted | |
+| `VGW01` | 100.0% | trusted | |
+| `LAR02` | 100.0% | trusted | |
+| `VGE02` | 100.0% | trusted | |
+| `VGW02` | 100.0% | trusted | |
+| `LAR03` | 100.0% | trusted | |
+| `VGE03` | 100.0% | trusted | |
+| `VGW03` | 100.0% | trusted | |
+| `LAR04` | 100.0% | trusted | |
+| `VGE04` | 100.0% | trusted | |
+| `VGW04` | 100.0% | trusted | |
+| `LAR05` | 100.0% | trusted | |
+| `VGE05` | 100.0% | trusted | |
+| `VGW05` | 100.0% | trusted | |
+| `LAR06` | 100.0% | trusted | |
+| `VGE06` | 100.0% | trusted | |
+| `VGW06` | 100.0% | trusted | |
+| `ZERMA` | 100.0% | trusted | |
+| `ZGDAT` | 100.0% | trusted | |
+| `MEINH` | 100.0% | trusted | |
+| `VINTV` | 100.0% | trusted | |
+| `VPLFL` | 100.0% | trusted | |
+| `AENAM` | 100.0% | trusted | |
+| `PLNNR` | 100.0% | trusted | |
+| `PLNKN` | 100.0% | trusted | |
+| `ZAEHL` | 100.0% | trusted | |
+| `DATUV` | 100.0% | trusted | |
+| `TECHV` | 100.0% | trusted | |
+| `AENNR` | 100.0% | trusted | |
+| `LOEKZ` | 100.0% | trusted | |
+| `PARKZ` | 100.0% | trusted | |
+| `ANDAT` | 100.0% | trusted | |
+| `ANNAM` | 100.0% | trusted | |
+| `AEDAT` | 100.0% | trusted | |
+| `SUMNR` | 100.0% | trusted | |
+| `VPLAL` | 100.0% | trusted | |
+| `VORNR` | 100.0% | trusted | |
+| `STEUS` | 100.0% | trusted | |
+| `ARBID` | 100.0% | trusted | |
+| `OBJTY` | 100.0% | trusted | |
+| `WERKS` | 100.0% | trusted | |
+| `KTSCH` | 100.0% | trusted | |
+| `LTXA1` | 100.0% | trusted | |
+| `LTXA2` | 100.0% | trusted | |
+| `TXTSP` | 100.0% | trusted | |
+| `VPLTY` | 100.0% | trusted | |
+| `VPLNR` | 100.0% | trusted | |
+| `ZCODE` | 100.0% | trusted | |
+| `RSANZ` | 100.0% | trusted | |
+| `DAUNE` | 100.0% | trusted | |
+| `PDEST` | 100.0% | trusted | |
+| `ZTNOR` | 100.0% | trusted | |
+| `ZEITM` | 100.0% | trusted | |
+| `ZTMIN` | 100.0% | trusted | |
+| `ABLIPKZ` | 100.0% | trusted | |
+| `RSTRA` | 100.0% | trusted | |
+| `BZOFFB` | 100.0% | trusted | |
+| `OFFSTB` | 100.0% | trusted | |
+| `EHOFFB` | 100.0% | trusted | |
+| `BZOFFE` | 100.0% | trusted | |
+| `OFFSTE` | 100.0% | trusted | |
+| `EHOFFE` | 100.0% | trusted | |
+| `SORTL` | 100.0% | trusted | |
+| `LIFNR` | 100.0% | trusted | |
+| `PLIFZ` | 100.0% | trusted | |
+| `PREIS` | 100.0% | trusted | |
+| `PEINH` | 100.0% | trusted | |
+| `SAKTO` | 100.0% | trusted | |
+| `WAERS` | 100.0% | trusted | |
+| `INFNR` | 100.0% | trusted | |
+| `ESOKZ` | 100.0% | trusted | |
+| `EKORG` | 100.0% | trusted | |
+| `EKGRP` | 100.0% | trusted | |
+| `KZLGF` | 100.0% | trusted | |
+| `MATKL` | 100.0% | trusted | |
+| `DAUNO` | 100.0% | trusted | |
+| `ZEITN` | 100.0% | trusted | |
+| `ZWMIN` | 100.0% | trusted | |
+| `ZEIWM` | 100.0% | trusted | |
+| `FLIES` | 100.0% | trusted | |
+| `LOANZ` | 100.0% | trusted | |
+| `LOART` | 100.0% | trusted | |
+| `QUALF` | 100.0% | trusted | |
+| `ANZMA` | 100.0% | trusted | |
+| `RFGRP` | 100.0% | trusted | |
+| `RFSCH` | 100.0% | trusted | |
+| `RASCH` | 100.0% | trusted | |
+| `AUFAK` | 100.0% | trusted | |
+| `LOGRP` | 100.0% | trusted | |
+| `UEMUS` | 100.0% | trusted | |
+| `UEKAN` | 100.0% | trusted | |
+| `ZEIMU` | 100.0% | trusted | |
+| `ZWNOR` | 100.0% | trusted | |
+| `ZMINU` | 100.0% | trusted | |
+| `MINWE` | 100.0% | trusted | |
+| `SPMUS` | 100.0% | trusted | |
+| `SPLIM` | 100.0% | trusted | |
+| `ZEIMB` | 100.0% | trusted | |
+| `ZMINB` | 100.0% | trusted | |
+| `ZEILM` | 100.0% | trusted | |
+| `ZLMAX` | 100.0% | trusted | |
+| `ZEILP` | 100.0% | trusted | |
+| `ZLPRO` | 100.0% | trusted | |
+| `ZEIWN` | 100.0% | trusted | |
+| `src_commit_time` | 100.0% | trusted | |
+
+## Notes
+
+*Add join information, gotchas, and usage patterns here.*

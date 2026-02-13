@@ -1,7 +1,7 @@
 ---
 table: cpm_key_date_audit_trail_c
 source: sfdcpsa
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 4499954
 column_count: 25
 ---

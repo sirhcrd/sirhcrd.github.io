@@ -1,7 +1,7 @@
 ---
 table: svmxc_service_group_members_history
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 210329
 column_count: 11
 ---

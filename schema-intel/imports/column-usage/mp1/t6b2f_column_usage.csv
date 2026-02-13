@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,545,545,100.0,0,0.0
+2,KAPPL,545,545,100.0,0,0.0
+3,KOBOG,545,545,100.0,0,0.0
+4,ZAEHK,545,545,100.0,0,0.0
+5,KSCHL,545,545,100.0,0,0.0
+6,KOTABNR,545,545,100.0,0,0.0
+7,src_commit_time,545,545,100.0,0,0.0

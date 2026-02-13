@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,client,3177,3177,100.0,0,0.0
+2,spras,3177,3177,100.0,0,0.0
+3,taxtype,3177,3177,100.0,0,0.0
+4,text,3177,3177,100.0,0,0.0
+5,src_commit_time,3177,3177,100.0,0,0.0

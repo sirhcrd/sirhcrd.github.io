@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SPRAS,373,373,100.0,0,0.0
+2,AWTYP,373,373,100.0,0,0.0
+3,OTEXT,373,373,100.0,0,0.0
+4,src_commit_time,373,373,100.0,0,0.0

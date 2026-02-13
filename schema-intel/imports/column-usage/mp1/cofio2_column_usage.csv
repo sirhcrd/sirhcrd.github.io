@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,33,33,100.0,0,0.0
+2,objnr,33,33,100.0,0,0.0
+3,vrgng,33,33,100.0,0,0.0
+4,kokrs,33,33,100.0,0,0.0
+5,oclnt,33,33,100.0,0,0.0
+6,wrttp,33,33,100.0,0,0.0
+7,activ,33,33,100.0,0,0.0
+8,src_commit_time,33,33,100.0,0,0.0

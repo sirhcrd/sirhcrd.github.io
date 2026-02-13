@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,491,491,100.0,0,0.0
+2,land1,491,491,100.0,0,0.0
+3,zone1,491,491,100.0,0,0.0
+4,src_commit_time,491,491,100.0,0,0.0

@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,29,29,100.0,0,0.0
+2,bwkey,29,29,100.0,0,0.0
+3,bwtty,29,29,100.0,0,0.0
+4,vbwaf,29,29,100.0,0,0.0
+5,kzvbf,29,29,100.0,0,0.0
+6,vbwae,29,29,100.0,0,0.0
+7,kzvbe,29,29,100.0,0,0.0
+8,kzbaa,29,29,100.0,0,0.0
+9,vbwaa,29,29,100.0,0,0.0
+10,kzvba,29,29,100.0,0,0.0
+11,src_commit_time,29,29,100.0,0,0.0

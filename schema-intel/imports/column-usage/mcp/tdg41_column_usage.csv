@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,7,7,100.0,0,0.0
+2,profl,7,7,100.0,0,0.0
+3,idago,7,7,100.0,0,0.0
+4,idgch,7,7,100.0,0,0.0
+5,idgpa,7,7,100.0,0,0.0
+6,idgtp,7,7,100.0,0,0.0
+7,idgsm,7,7,100.0,0,0.0
+8,idcl,7,7,100.0,0,0.0
+9,idcl7,7,7,100.0,0,0.0
+10,idclrepl,7,7,100.0,0,0.0
+11,src_commit_time,7,7,100.0,0,0.0

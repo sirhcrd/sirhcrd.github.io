@@ -1,7 +1,7 @@
 ---
 table: csm_kpi_data_c
 source: sfdcpsa
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 1214
 column_count: 68
 ---

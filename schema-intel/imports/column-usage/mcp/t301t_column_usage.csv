@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,1123,1123,100.0,0,0.0
+2,SPRAS,1123,1123,100.0,0,0.0
+3,LGNUM,1123,1123,100.0,0,0.0
+4,LGTYP,1123,1123,100.0,0,0.0
+5,LTYPT,1123,1123,100.0,0,0.0
+6,src_commit_time,1123,1123,100.0,0,0.0

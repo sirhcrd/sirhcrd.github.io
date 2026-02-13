@@ -1,0 +1,257 @@
+---
+table: ztpp_sbom_stpox
+source: mcp
+pulled_date: 2026-02-13
+row_count: 14963985
+column_count: 229
+---
+
+# ztpp_sbom_stpox
+
+*Description needed — add context about what this table represents.*
+
+## Summary
+
+| Quality | Count | Percentage |
+|---------|-------|------------|
+| Trusted (≥50%) | 229 | 100% |
+| Neutral (5-50%) | 0 | 0% |
+| Dead (<5%) | 0 | 0% |
+
+## Columns
+
+| Column | Usage % | Quality | Description |
+|--------|---------|---------|-------------|
+| `MANDT` | 100.0% | trusted | |
+| `ITMMK_I` | 100.0% | trusted | |
+| `DOKAR_I` | 100.0% | trusted | |
+| `DOKNR_I` | 100.0% | trusted | |
+| `DOKVR_I` | 100.0% | trusted | |
+| `DOKTL_I` | 100.0% | trusted | |
+| `CSSTR_I` | 100.0% | trusted | |
+| `CLASS_I` | 100.0% | trusted | |
+| `KLART_I` | 100.0% | trusted | |
+| `INTRM_I` | 100.0% | trusted | |
+| `POTPR_I` | 100.0% | trusted | |
+| `EKORG_I` | 100.0% | trusted | |
+| `CLOBK_I` | 100.0% | trusted | |
+| `CLMUL_I` | 100.0% | trusted | |
+| `CVIEW_I` | 100.0% | trusted | |
+| `KNOBJ_I` | 100.0% | trusted | |
+| `LGORT_I` | 100.0% | trusted | |
+| `PRVBE_I` | 100.0% | trusted | |
+| `KZKUP_I` | 100.0% | trusted | |
+| `DATUB_I` | 100.0% | trusted | |
+| `AENRA_I` | 100.0% | trusted | |
+| `AMGLG_I` | 100.0% | trusted | |
+| `AMGKO_I` | 100.0% | trusted | |
+| `DUMPS_I` | 100.0% | trusted | |
+| `XTLTY_I` | 100.0% | trusted | |
+| `XTLNR_I` | 100.0% | trusted | |
+| `XTLAN_I` | 100.0% | trusted | |
+| `WEBAZ_I` | 100.0% | trusted | |
+| `OBJTY_I` | 100.0% | trusted | |
+| `STKKZ_I` | 100.0% | trusted | |
+| `POTX2_I` | 100.0% | trusted | |
+| `REKRS_I` | 100.0% | trusted | |
+| `CADPO_I` | 100.0% | trusted | |
+| `NLFZT_I` | 100.0% | trusted | |
+| `NLFZV_I` | 100.0% | trusted | |
+| `NLFMV_I` | 100.0% | trusted | |
+| `VERTI_I` | 100.0% | trusted | |
+| `ALPOS_I` | 100.0% | trusted | |
+| `EWAHR_I` | 100.0% | trusted | |
+| `EKGRP_I` | 100.0% | trusted | |
+| `LIFZT_I` | 100.0% | trusted | |
+| `LIFNR_I` | 100.0% | trusted | |
+| `PREIS_I` | 100.0% | trusted | |
+| `PEINH_I` | 100.0% | trusted | |
+| `WAERS_I` | 100.0% | trusted | |
+| `SAKTO_I` | 100.0% | trusted | |
+| `ROANZ_I` | 100.0% | trusted | |
+| `ROMS1_I` | 100.0% | trusted | |
+| `ROMS2_I` | 100.0% | trusted | |
+| `ROMS3_I` | 100.0% | trusted | |
+| `ROMEI_I` | 100.0% | trusted | |
+| `ROMEN_I` | 100.0% | trusted | |
+| `RFORM_I` | 100.0% | trusted | |
+| `UPSKZ_I` | 100.0% | trusted | |
+| `LTXSP_I` | 100.0% | trusted | |
+| `POTX1_I` | 100.0% | trusted | |
+| `XTLAL_I` | 100.0% | trusted | |
+| `XISDT_I` | 100.0% | trusted | |
+| `XISSR_I` | 100.0% | trusted | |
+| `XMENG_I` | 100.0% | trusted | |
+| `KZCLB_I` | 100.0% | trusted | |
+| `CLSZU_I` | 100.0% | trusted | |
+| `ITMID_I` | 100.0% | trusted | |
+| `ALEKZ_I` | 100.0% | trusted | |
+| `GUIDX_I` | 100.0% | trusted | |
+| `ITSOB_I` | 100.0% | trusted | |
+| `RFPNT_I` | 100.0% | trusted | |
+| `SOBMX_I` | 100.0% | trusted | |
+| `MATKL_I` | 100.0% | trusted | |
+| `INSTS_I` | 100.0% | trusted | |
+| `INSTP_I` | 100.0% | trusted | |
+| `KSTTY_I` | 100.0% | trusted | |
+| `KSTNR_I` | 100.0% | trusted | |
+| `KSTKN_I` | 100.0% | trusted | |
+| `KSTPZ_I` | 100.0% | trusted | |
+| `CAALT_I` | 100.0% | trusted | |
+| `STLTY_W_I` | 100.0% | trusted | |
+| `STLNR_W_I` | 100.0% | trusted | |
+| `ABLAD_I` | 100.0% | trusted | |
+| `WEMPF_I` | 100.0% | trusted | |
+| `SGT_RCAT_I` | 100.0% | trusted | |
+| `SGT_SCAT_I` | 100.0% | trusted | |
+| `ZSKIP` | 100.0% | trusted | |
+| `CUFACTOR` | 100.0% | trusted | |
+| `FUNCID_I` | 100.0% | trusted | |
+| `NFEAG_I` | 100.0% | trusted | |
+| `NFGRP_I` | 100.0% | trusted | |
+| `KZNFP_I` | 100.0% | trusted | |
+| `SUMKZ_I` | 100.0% | trusted | |
+| `XMEIN_I` | 100.0% | trusted | |
+| `XALTS_I` | 100.0% | trusted | |
+| `XVARS_I` | 100.0% | trusted | |
+| `XKBAU_I` | 100.0% | trusted | |
+| `XLOEK_I` | 100.0% | trusted | |
+| `AUSNM_I` | 100.0% | trusted | |
+| `HDNFO_I` | 100.0% | trusted | |
+| `AFFLG_I` | 100.0% | trusted | |
+| `LTFLG_I` | 100.0% | trusted | |
+| `NLFLG_I` | 100.0% | trusted | |
+| `INDEX_I` | 100.0% | trusted | |
+| `AUFST_I` | 100.0% | trusted | |
+| `DSPST_I` | 100.0% | trusted | |
+| `AUFWG_I` | 100.0% | trusted | |
+| `BAUST_I` | 100.0% | trusted | |
+| `BAUWG_I` | 100.0% | trusted | |
+| `ASTOV_I` | 100.0% | trusted | |
+| `AWGOV_I` | 100.0% | trusted | |
+| `BSTOV_I` | 100.0% | trusted | |
+| `BWGOV_I` | 100.0% | trusted | |
+| `NLINK_I` | 100.0% | trusted | |
+| `ALPST_I` | 100.0% | trusted | |
+| `ALPRF_I` | 100.0% | trusted | |
+| `ALPGR_I` | 100.0% | trusted | |
+| `REKRI_I` | 100.0% | trusted | |
+| `SANVS_I` | 100.0% | trusted | |
+| `ZZVBELN` | 100.0% | trusted | |
+| `FSTAT_I` | 100.0% | trusted | |
+| `BWTTY_I` | 100.0% | trusted | |
+| `VPRSV_I` | 100.0% | trusted | |
+| `STPRS_I` | 100.0% | trusted | |
+| `VERPR_I` | 100.0% | trusted | |
+| `PREIH_I` | 100.0% | trusted | |
+| `SBDKZ_I` | 100.0% | trusted | |
+| `XCHAR_I` | 100.0% | trusted | |
+| `KZECH_I` | 100.0% | trusted | |
+| `KZWSM_I` | 100.0% | trusted | |
+| `MMSTA_I` | 100.0% | trusted | |
+| `MMSTD_I` | 100.0% | trusted | |
+| `MSTAE_I` | 100.0% | trusted | |
+| `MSTDE_I` | 100.0% | trusted | |
+| `ZEINR_I` | 100.0% | trusted | |
+| `ZEIVR_I` | 100.0% | trusted | |
+| `ZEIAR_I` | 100.0% | trusted | |
+| `ZEIFO_I` | 100.0% | trusted | |
+| `BLATT_I` | 100.0% | trusted | |
+| `BLANZ_I` | 100.0% | trusted | |
+| `DISST_I` | 100.0% | trusted | |
+| `DISMM_I` | 100.0% | trusted | |
+| `SERNP_I` | 100.0% | trusted | |
+| `MNGLG_I` | 100.0% | trusted | |
+| `MNGKO_I` | 100.0% | trusted | |
+| `MSIGN_I` | 100.0% | trusted | |
+| `MMEIN_I` | 100.0% | trusted | |
+| `VPSTA_I` | 100.0% | trusted | |
+| `SANKO_I` | 100.0% | trusted | |
+| `VERID_I` | 100.0% | trusted | |
+| `ZZPOSNR` | 100.0% | trusted | |
+| `ZZDATUV` | 100.0% | trusted | |
+| `ZZUZEIT` | 100.0% | trusted | |
+| `ZZLINEID` | 100.0% | trusted | |
+| `ZZMATNR` | 100.0% | trusted | |
+| `ZZWERKS` | 100.0% | trusted | |
+| `ZZKWMENG` | 100.0% | trusted | |
+| `ZZVRKME` | 100.0% | trusted | |
+| `ZZCUOBJ` | 100.0% | trusted | |
+| `STUFE_I` | 100.0% | trusted | |
+| `WEGXX_I` | 100.0% | trusted | |
+| `BMTYP_I` | 100.0% | trusted | |
+| `TTIDX_I` | 100.0% | trusted | |
+| `VWEGX_I` | 100.0% | trusted | |
+| `OJTXB_I` | 100.0% | trusted | |
+| `BAUSF_I` | 100.0% | trusted | |
+| `STLAN_I` | 100.0% | trusted | |
+| `STLAL_I` | 100.0% | trusted | |
+| `ALTST_I` | 100.0% | trusted | |
+| `VARST_I` | 100.0% | trusted | |
+| `KBAUS_I` | 100.0% | trusted | |
+| `LOEKZ_I` | 100.0% | trusted | |
+| `OJTXP_I` | 100.0% | trusted | |
+| `MTART_I` | 100.0% | trusted | |
+| `WERKS_I` | 100.0% | trusted | |
+| `AUSSS_I` | 100.0% | trusted | |
+| `KAUSF_I` | 100.0% | trusted | |
+| `SOBSL_I` | 100.0% | trusted | |
+| `SOBSK_I` | 100.0% | trusted | |
+| `DATUV_I` | 100.0% | trusted | |
+| `TECHV_I` | 100.0% | trusted | |
+| `AENNR_I` | 100.0% | trusted | |
+| `ANDAT_I` | 100.0% | trusted | |
+| `ANNAM_I` | 100.0% | trusted | |
+| `AEDAT_I` | 100.0% | trusted | |
+| `AENAM_I` | 100.0% | trusted | |
+| `IDNRK_I` | 100.0% | trusted | |
+| `PSWRK_I` | 100.0% | trusted | |
+| `POSTP_I` | 100.0% | trusted | |
+| `POSNR_I` | 100.0% | trusted | |
+| `SORTF_I` | 100.0% | trusted | |
+| `MEINS_I` | 100.0% | trusted | |
+| `MENGE_I` | 100.0% | trusted | |
+| `FMENG_I` | 100.0% | trusted | |
+| `AUSCH_I` | 100.0% | trusted | |
+| `AVOAU_I` | 100.0% | trusted | |
+| `NETAU_I` | 100.0% | trusted | |
+| `SCHGT_I` | 100.0% | trusted | |
+| `BEIKZ_I` | 100.0% | trusted | |
+| `ERSKZ_I` | 100.0% | trusted | |
+| `RVREL_I` | 100.0% | trusted | |
+| `SANFE_I` | 100.0% | trusted | |
+| `SANIN_I` | 100.0% | trusted | |
+| `SANKA_I` | 100.0% | trusted | |
+| `STVKN_I` | 100.0% | trusted | |
+| `STPOZ_I` | 100.0% | trusted | |
+| `STLKN_I` | 100.0% | trusted | |
+| `KZKFG_I` | 100.0% | trusted | |
+| `KZAUS_I` | 100.0% | trusted | |
+| `AUSDT_I` | 100.0% | trusted | |
+| `NFMAT_I` | 100.0% | trusted | |
+| `RGEKZ_I` | 100.0% | trusted | |
+| `KZDKZ_I` | 100.0% | trusted | |
+| `UMREZ_I` | 100.0% | trusted | |
+| `UMREN_I` | 100.0% | trusted | |
+| `LGPRO_I` | 100.0% | trusted | |
+| `PRCTR_I` | 100.0% | trusted | |
+| `REVLV_I` | 100.0% | trusted | |
+| `KZEFF_I` | 100.0% | trusted | |
+| `MCUOB_I` | 100.0% | trusted | |
+| `STLNR_I` | 100.0% | trusted | |
+| `CUOBJ_I` | 100.0% | trusted | |
+| `NCONF_I` | 100.0% | trusted | |
+| `FBSKZ_I` | 100.0% | trusted | |
+| `STAWN_I` | 100.0% | trusted | |
+| `PREFE_I` | 100.0% | trusted | |
+| `MSCHG_I` | 100.0% | trusted | |
+| `FXPRU_I` | 100.0% | trusted | |
+| `MATMK_I` | 100.0% | trusted | |
+| `STABK_I` | 100.0% | trusted | |
+| `DOSTX_I` | 100.0% | trusted | |
+| `STLTY_I` | 100.0% | trusted | |
+| `src_commit_time` | 100.0% | trusted | |
+
+## Notes
+
+*Add join information, gotchas, and usage patterns here.*

@@ -1,7 +1,7 @@
 ---
 table: esmx_bench_status_tracker_c
 source: sfdcsmax
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 956610
 column_count: 87
 ---

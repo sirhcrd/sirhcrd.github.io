@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,1637,1637,100.0,0,0.0
+2,bukrs,1637,1637,100.0,0,0.0
+3,docno,1637,1637,100.0,0,0.0
+4,doc_year,1637,1637,100.0,0,0.0
+5,doc_type,1637,1637,100.0,0,0.0
+6,inv_type,1637,1637,100.0,0,0.0
+7,error,1637,1637,100.0,0,0.0
+8,src_commit_time,1637,1637,100.0,0,0.0

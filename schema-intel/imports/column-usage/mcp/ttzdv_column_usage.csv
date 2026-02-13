@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,client,51,51,100.0,0,0.0
+2,dstrule,51,51,100.0,0,0.0
+3,yearfrom,51,51,100.0,0,0.0
+4,monthfrom,51,51,100.0,0,0.0
+5,weekdfrom,51,51,100.0,0,0.0
+6,weekdcfrom,51,51,100.0,0,0.0
+7,timefrom,51,51,100.0,0,0.0
+8,monthto,51,51,100.0,0,0.0
+9,weekdto,51,51,100.0,0,0.0
+10,weekdcto,51,51,100.0,0,0.0
+11,timeto,51,51,100.0,0,0.0
+12,src_commit_time,51,51,100.0,0,0.0

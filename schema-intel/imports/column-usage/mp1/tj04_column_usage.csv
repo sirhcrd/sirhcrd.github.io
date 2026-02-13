@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,OBTYP,861,861,100.0,0,0.0
+2,ISTAT,861,861,100.0,0,0.0
+3,INIST,861,861,100.0,0,0.0
+4,LINEP,861,861,100.0,0,0.0
+5,STATP,861,861,100.0,0,0.0
+6,src_commit_time,861,861,100.0,0,0.0

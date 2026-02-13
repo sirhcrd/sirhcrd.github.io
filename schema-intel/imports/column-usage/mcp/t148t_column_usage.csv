@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,81,81,100.0,0,0.0
+2,SPRAS,81,81,100.0,0,0.0
+3,SOBKZ,81,81,100.0,0,0.0
+4,SOTXT,81,81,100.0,0,0.0
+5,src_commit_time,81,81,100.0,0,0.0

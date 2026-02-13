@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,3,3,100.0,0,0.0
+2,MATNR,3,3,100.0,0,0.0
+3,WERKS,3,3,100.0,0,0.0
+4,BDATU,3,3,100.0,0,0.0
+5,VDATU,3,3,100.0,0,0.0
+6,QUNUM,3,3,100.0,0,0.0
+7,ERDAT,3,3,100.0,0,0.0
+8,ERNAM,3,3,100.0,0,0.0
+9,SCMNG,3,3,100.0,0,0.0
+10,src_commit_time,3,3,100.0,0,0.0

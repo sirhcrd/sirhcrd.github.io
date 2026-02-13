@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,4588,4588,100.0,0,0.0
+2,SPRAS,4588,4588,100.0,0,0.0
+3,BWART,4588,4588,100.0,0,0.0
+4,BTEXT,4588,4588,100.0,0,0.0
+5,src_commit_time,4588,4588,100.0,0,0.0

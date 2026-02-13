@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,MANDT,76,76,100.0,0,0.0
+2,INCO1,76,76,100.0,0,0.0
+3,ORTOB,76,76,100.0,0,0.0
+4,OITITLE,76,76,100.0,0,0.0
+5,OIG_GLPOD,76,76,100.0,0,0.0
+6,src_commit_time,76,76,100.0,0,0.0

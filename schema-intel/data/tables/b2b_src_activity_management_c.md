@@ -1,7 +1,7 @@
 ---
 table: b2b_src_activity_management_c
 source: sfdcccrm
-pulled_date: 2026-02-12
+pulled_date: 2026-02-13
 row_count: 409770
 column_count: 83
 ---
