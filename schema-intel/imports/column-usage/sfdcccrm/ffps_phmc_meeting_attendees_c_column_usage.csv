@@ -1,0 +1,25 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,141808,141808,100.0,0,0.0
+2,MayEdit,141808,141808,100.0,0,0.0
+3,ADLS_LOADED_DATE,141808,141808,100.0,0,0.0
+4,ffps_phmc__Source_Record_ID__c,141808,141808,100.0,0,0.0
+5,ffps_phmc__From_Project_Contact__c,141808,141808,100.0,0,0.0
+6,ffps_phmc__From_Assignment__c,141808,141808,100.0,0,0.0
+7,ffps_phmc__Attendance__c,141808,141808,100.0,0,0.0
+8,ffps_phmc__Meeting_Checklist__c,141808,141808,100.0,0,0.0
+9,IsDeleted,141808,141808,100.0,0,0.0
+10,IsLocked,141808,141808,100.0,0,0.0
+11,LAST_UPDATED_DATE,141808,141808,100.0,0,0.0
+12,SystemModstamp,141808,141808,100.0,0,0.0
+13,LastModifiedById,141808,141808,100.0,0,0.0
+14,LastModifiedDate,141808,141808,100.0,0,0.0
+15,CreatedById,141808,141808,100.0,0,0.0
+16,CreatedDate,141808,141808,100.0,0,0.0
+17,CurrencyIsoCode,141808,141808,100.0,0,0.0
+18,Name,141808,141808,100.0,0,0.0
+19,ffps_phmc__Contact_Name__c,141579,141808,99.8,229,0.2
+20,ffps_phmc__Contact__c,141579,141808,99.8,229,0.2
+21,ffps_phmc__Role__c,139630,141808,98.5,2178,1.5
+22,LastActivityDate,0,141808,0.0,141808,100.0
+23,ConnectionSentId,0,141808,0.0,141808,100.0
+24,ConnectionReceivedId,0,141808,0.0,141808,100.0

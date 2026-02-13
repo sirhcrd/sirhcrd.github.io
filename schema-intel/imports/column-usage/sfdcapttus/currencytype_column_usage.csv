@@ -1,0 +1,14 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,73,73,100.0,0,0.0
+2,IsoCode,73,73,100.0,0,0.0
+3,ConversionRate,73,73,100.0,0,0.0
+4,DecimalPlaces,73,73,100.0,0,0.0
+5,IsActive,73,73,100.0,0,0.0
+6,IsCorporate,73,73,100.0,0,0.0
+7,CreatedDate,73,73,100.0,0,0.0
+8,CreatedById,73,73,100.0,0,0.0
+9,LastModifiedDate,73,73,100.0,0,0.0
+10,LastModifiedById,73,73,100.0,0,0.0
+11,SystemModstamp,73,73,100.0,0,0.0
+12,ADLS_LOADED_DATE,73,73,100.0,0,0.0
+13,LAST_UPDATED_DATE,73,73,100.0,0,0.0

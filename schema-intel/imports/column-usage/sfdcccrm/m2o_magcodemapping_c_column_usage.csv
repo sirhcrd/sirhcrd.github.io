@@ -1,0 +1,17 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,592,592,100.0,0,0.0
+2,IsDeleted,592,592,100.0,0,0.0
+3,Name,592,592,100.0,0,0.0
+4,CurrencyIsoCode,592,592,100.0,0,0.0
+5,SetupOwnerId,592,592,100.0,0,0.0
+6,CreatedDate,592,592,100.0,0,0.0
+7,CreatedById,592,592,100.0,0,0.0
+8,LastModifiedDate,592,592,100.0,0,0.0
+9,LastModifiedById,592,592,100.0,0,0.0
+10,SystemModstamp,592,592,100.0,0,0.0
+11,ADLS_LOADED_DATE,592,592,100.0,0,0.0
+12,LAST_UPDATED_DATE,592,592,100.0,0,0.0
+13,Product_Type__c,520,592,87.8,72,12.2
+14,Commercial_Product_Group_Name__c,426,592,72.0,166,28.0
+15,MayEdit,0,592,0.0,592,100.0
+16,IsLocked,0,592,0.0,592,100.0

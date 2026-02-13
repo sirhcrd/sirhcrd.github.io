@@ -1,0 +1,24 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,44,44,100.0,0,0.0
+2,OwnerId,44,44,100.0,0,0.0
+3,ADLS_LOADED_DATE,44,44,100.0,0,0.0
+4,SVMXC__Service_Type__c,44,44,100.0,0,0.0
+5,SVMXC__Select__c,44,44,100.0,0,0.0
+6,SVMXC__Effective_Date__c,44,44,100.0,0,0.0
+7,SVMXC__Data_Type__c,44,44,100.0,0,0.0
+8,SVMXC__Active__c,44,44,100.0,0,0.0
+9,LAST_UPDATED_DATE,44,44,100.0,0,0.0
+10,SystemModstamp,44,44,100.0,0,0.0
+11,LastModifiedById,44,44,100.0,0,0.0
+12,LastModifiedDate,44,44,100.0,0,0.0
+13,CreatedById,44,44,100.0,0,0.0
+14,CreatedDate,44,44,100.0,0,0.0
+15,Name,44,44,100.0,0,0.0
+16,IsDeleted,44,44,100.0,0,0.0
+17,LastActivityDate,3,44,6.8,41,93.2
+18,LastViewedDate,2,44,4.5,42,95.5
+19,LastReferencedDate,2,44,4.5,42,95.5
+20,ConnectionReceivedId,0,44,0.0,44,100.0
+21,ConnectionSentId,0,44,0.0,44,100.0
+22,SVMXC__Qualifying_Criteria__c,0,44,0.0,44,100.0
+23,SVMXC__Tracked_On__c,0,44,0.0,44,100.0

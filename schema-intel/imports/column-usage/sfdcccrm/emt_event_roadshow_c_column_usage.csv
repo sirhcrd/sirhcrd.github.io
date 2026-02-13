@@ -1,0 +1,25 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,298,298,100.0,0,0.0
+2,IsLocked,298,298,100.0,0,0.0
+3,ADLS_LOADED_DATE,298,298,100.0,0,0.0
+4,Priority__c,298,298,100.0,0,0.0
+5,Expected_Number_of_Attendees__c,298,298,100.0,0,0.0
+6,Event_Start_Date__c,298,298,100.0,0,0.0
+7,Event_End_Date__c,298,298,100.0,0,0.0
+8,Event_City__c,298,298,100.0,0,0.0
+9,Event__c,298,298,100.0,0,0.0
+10,IsDeleted,298,298,100.0,0,0.0
+11,LAST_UPDATED_DATE,298,298,100.0,0,0.0
+12,MayEdit,298,298,100.0,0,0.0
+13,SystemModstamp,298,298,100.0,0,0.0
+14,LastModifiedById,298,298,100.0,0,0.0
+15,LastModifiedDate,298,298,100.0,0,0.0
+16,CreatedById,298,298,100.0,0,0.0
+17,CreatedDate,298,298,100.0,0,0.0
+18,CurrencyIsoCode,298,298,100.0,0,0.0
+19,Name,298,298,100.0,0,0.0
+20,LastReferencedDate,1,298,0.3,297,99.7
+21,LastViewedDate,1,298,0.3,297,99.7
+22,LastActivityDate,0,298,0.0,298,100.0
+23,ConnectionReceivedId,0,298,0.0,298,100.0
+24,ConnectionSentId,0,298,0.0,298,100.0

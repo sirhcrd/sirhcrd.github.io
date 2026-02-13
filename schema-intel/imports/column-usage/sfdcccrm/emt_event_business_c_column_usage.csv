@@ -1,0 +1,22 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,9513,9513,100.0,0,0.0
+2,IsDeleted,9513,9513,100.0,0,0.0
+3,ADLS_LOADED_DATE,9513,9513,100.0,0,0.0
+4,Business__c,9511,9513,100.0,2,0.0
+5,Business_Unit__c,9511,9513,100.0,2,0.0
+6,Segment__c,9511,9513,100.0,2,0.0
+7,Priority__c,9511,9513,100.0,2,0.0
+8,Event__c,9513,9513,100.0,0,0.0
+9,IsLocked,9513,9513,100.0,0,0.0
+10,MayEdit,9513,9513,100.0,0,0.0
+11,SystemModstamp,9513,9513,100.0,0,0.0
+12,LastModifiedById,9513,9513,100.0,0,0.0
+13,LastModifiedDate,9513,9513,100.0,0,0.0
+14,CreatedById,9513,9513,100.0,0,0.0
+15,CreatedDate,9513,9513,100.0,0,0.0
+16,CurrencyIsoCode,9513,9513,100.0,0,0.0
+17,Name,9513,9513,100.0,0,0.0
+18,LAST_UPDATED_DATE,9513,9513,100.0,0,0.0
+19,LastActivityDate,0,9513,0.0,9513,100.0
+20,ConnectionReceivedId,0,9513,0.0,9513,100.0
+21,ConnectionSentId,0,9513,0.0,9513,100.0

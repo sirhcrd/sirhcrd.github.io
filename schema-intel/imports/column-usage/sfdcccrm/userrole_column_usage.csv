@@ -1,0 +1,20 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,7356,7356,100.0,0,0.0
+2,MayForecastManagerShare,7356,7356,100.0,0,0.0
+3,ADLS_LOADED_DATE,7356,7356,100.0,0,0.0
+4,PortalType,7356,7356,100.0,0,0.0
+5,DeveloperName,7356,7356,100.0,0,0.0
+6,SystemModstamp,7356,7356,100.0,0,0.0
+7,LastModifiedById,7356,7356,100.0,0,0.0
+8,Name,7356,7356,100.0,0,0.0
+9,LastModifiedDate,7356,7356,100.0,0,0.0
+10,ContactAccessForAccountOwner,7356,7356,100.0,0,0.0
+11,CaseAccessForAccountOwner,7356,7356,100.0,0,0.0
+12,OpportunityAccessForAccountOwner,7356,7356,100.0,0,0.0
+13,ParentRoleId,7355,7356,100.0,1,0.0
+14,LAST_UPDATED_DATE,7356,7356,100.0,0,0.0
+15,RollupDescription,7180,7356,97.6,176,2.4
+16,PortalAccountId,3112,7356,42.3,4244,57.7
+17,PortalRole,3112,7356,42.3,4244,57.7
+18,ForecastUserId,267,7356,3.6,7089,96.4
+19,PortalAccountOwnerId,0,7356,0.0,7356,100.0

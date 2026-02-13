@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,952,952,100.0,0,0.0
+2,CreatedById,952,952,100.0,0,0.0
+3,CreatedDate,952,952,100.0,0,0.0
+4,SystemModstamp,952,952,100.0,0,0.0
+5,S_CreatedDate__c,952,952,100.0,0,0.0
+6,S_Id_Indexed__c,952,952,100.0,0,0.0
+7,S_ParentId_Indexed__c,952,952,100.0,0,0.0
+8,ADLS_LOADED_DATE,952,952,100.0,0,0.0
+9,LAST_UPDATED_DATE,952,952,100.0,0,0.0

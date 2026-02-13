@@ -1,0 +1,563 @@
+table,status,rows,columns,trusted,neutral,dead,error
+opportunity,success,3774716.0,865.0,311.0,103.0,451.0,
+deal_support_request_del__c,success,2018311.0,770.0,174.0,151.0,445.0,
+event,success,20547255.0,768.0,57.0,135.0,576.0,
+account,success,1345034.0,671.0,142.0,73.0,456.0,
+opportunityfieldhistory,success,19067437.0,624.0,11.0,0.0,613.0,
+accounthistory,success,16646176.0,624.0,9.0,137.0,478.0,
+contacthistory,success,5508008.0,624.0,9.0,156.0,459.0,
+lead,success,1616140.0,440.0,132.0,69.0,239.0,
+contact,success,1988889.0,412.0,114.0,44.0,254.0,
+profile,success,243.0,397.0,355.0,37.0,5.0,
+trade_in_request__c,success,139871.0,388.0,104.0,92.0,192.0,
+user,success,69155.0,318.0,186.0,33.0,99.0,
+opportunitylineitem,success,7581380.0,261.0,77.0,66.0,118.0,
+case,success,525416.0,215.0,47.0,41.0,127.0,
+events__c,success,17047.0,213.0,98.0,37.0,78.0,
+account_plan__c,success,2963.0,212.0,61.0,37.0,114.0,
+product2,success,108093.0,210.0,93.0,21.0,96.0,
+asset,success,26868298.0,181.0,80.0,16.0,85.0,
+task,success,41833892.0,150.0,48.0,9.0,93.0,
+quotation__c,success,1561317.0,135.0,82.0,15.0,38.0,
+campaign,success,90410.0,127.0,62.0,13.0,52.0,
+sales_order_line__c,success,9433634.0,125.0,54.0,32.0,39.0,
+sales_order__c,success,3295092.0,114.0,52.0,26.0,36.0,
+contractlineitem,success,8266536.0,110.0,42.0,40.0,28.0,
+order_management_activity__c,success,272630.0,95.0,37.0,27.0,31.0,
+b2b_src_activity_management__c,success,409770.0,83.0,38.0,3.0,42.0,
+strategic_initiatives_for_whitespaces__c,success,6335.0,79.0,24.0,15.0,40.0,
+emt_event_simple__c,success,6248.0,75.0,59.0,7.0,9.0,
+cpm_chapter_related_info__c,success,541647.0,69.0,24.0,8.0,37.0,
+quotation_line__c,success,10376921.0,69.0,47.0,5.0,17.0,
+opportunity_score__c,success,9310.0,68.0,25.0,6.0,37.0,
+project_contacts__c,success,836406.0,58.0,26.0,17.0,15.0,
+kol_event__c,success,191.0,52.0,25.0,13.0,14.0,
+deal_complexity_assessment__c,success,10859.0,51.0,34.0,13.0,4.0,
+actionable_item__c,success,9141.0,51.0,30.0,5.0,16.0,
+jiffle__meeting__c,success,2266.0,50.0,30.0,3.0,17.0,
+sales_activity_capture__c,success,143463.0,49.0,15.0,1.0,33.0,
+product_hierarchy__c,success,10730.0,48.0,36.0,0.0,12.0,
+contentversion,success,2838631.0,48.0,35.0,2.0,11.0,
+src_forecast__c,success,129767.0,48.0,33.0,1.0,14.0,
+account_plan_quality__c,success,1108.0,48.0,38.0,5.0,5.0,
+cpm_professional_services_product__c,success,4946.0,44.0,20.0,16.0,8.0,
+kol_activity__c,success,2017.0,43.0,18.0,7.0,18.0,
+psa_swo__c,success,92145.0,42.0,29.0,4.0,9.0,
+jiffle__invites__c,success,10410.0,40.0,26.0,3.0,11.0,
+objective_account_plan__c,success,4402.0,39.0,20.0,6.0,13.0,
+opportunity_ecosystem__c,success,749570.0,38.0,29.0,6.0,3.0,
+kol_file__c,success,218.0,37.0,18.0,9.0,10.0,
+ffps_phmc__meeting_line__c,success,889173.0,34.0,22.0,1.0,11.0,
+event_metrics__c,success,16316.0,34.0,13.0,9.0,12.0,
+deal_board__c,success,4385.0,34.0,20.0,8.0,6.0,
+kol_group__c,success,213.0,33.0,19.0,6.0,8.0,
+department_information__c,success,1916.0,32.0,18.0,9.0,5.0,
+kol_relationship__c,success,4391.0,31.0,21.0,4.0,6.0,
+account_external_reference__c,success,1286186.0,30.0,23.0,3.0,4.0,
+forecastingitem,success,14393563.0,30.0,22.0,2.0,6.0,
+asset__c,success,4152717.0,30.0,13.0,0.0,17.0,
+jiffle__event__c,success,53.0,30.0,21.0,0.0,9.0,
+jiffle__attendee__c,success,3985.0,30.0,21.0,0.0,9.0,
+key_stakeholder__c,success,3461.0,29.0,21.0,2.0,6.0,
+cpm_product_entitlements__c,success,440.0,29.0,22.0,3.0,4.0,
+emt_event_budget__c,success,4870.0,28.0,21.0,2.0,5.0,
+site_visit_report__c,success,14376.0,27.0,19.0,5.0,3.0,
+pre_emt_event__c,success,516.0,27.0,23.0,0.0,4.0,
+clinical_documentation_lines__c,success,25891.0,26.0,12.0,10.0,4.0,
+swot_account_plan__c,success,1391.0,25.0,18.0,2.0,5.0,
+sub_territory__c,success,866.0,25.0,16.0,2.0,7.0,
+cpm_key_date_audit_trail__c,success,4564564.0,25.0,20.0,3.0,2.0,
+account_organization_information__c,success,1085230.0,25.0,22.0,0.0,3.0,
+forecastingtype,success,29.0,25.0,23.0,0.0,2.0,
+territory2,success,2086.0,24.0,17.0,5.0,2.0,
+linkleadoppty__c,success,63535.0,24.0,17.0,3.0,4.0,
+territory__c,success,471.0,24.0,15.0,2.0,7.0,
+emt_event_roadshow__c,success,298.0,24.0,19.0,0.0,5.0,
+project_order_link_junction__c,success,6931.0,24.0,16.0,2.0,6.0,
+asset_opportunity_link__c,success,1392119.0,24.0,21.0,0.0,3.0,
+ffps_phmc__meeting_attendees__c,success,141808.0,24.0,21.0,0.0,3.0,
+accountteammember,success,2634267.0,22.0,20.0,1.0,1.0,
+ffps_phmc__meeting_checklist__c,success,58564.0,22.0,15.0,3.0,4.0,
+kol_reference_site_relationship__c,success,147.0,22.0,16.0,2.0,4.0,
+affiliates__c,success,16640.0,21.0,13.0,3.0,5.0,
+activityfieldhistory,success,311621.0,21.0,17.0,0.0,4.0,
+region__c,success,4522.0,21.0,17.0,0.0,4.0,
+emt_event_metrics__c,success,43828.0,21.0,16.0,1.0,4.0,
+emt_event_business__c,success,9513.0,21.0,18.0,0.0,3.0,
+opportunitycontactrole,success,496601.0,21.0,15.0,5.0,1.0,
+pricebookentry,success,9342125.0,20.0,18.0,2.0,0.0,
+forecastingquota,success,290690.0,20.0,18.0,1.0,1.0,
+userrole,success,7356.0,19.0,15.0,2.0,2.0,
+opportunityhistory,success,21988166.0,17.0,15.0,2.0,0.0,
+pre_emt_approvers__c,success,313.0,16.0,14.0,0.0,2.0,
+m2o_magcodemapping__c,success,592.0,16.0,14.0,0.0,2.0,
+recordtype,success,460.0,15.0,13.0,2.0,0.0,
+datedconversionrate,success,3154.0,12.0,12.0,0.0,0.0,
+deal_support_request_del__history,success,10746454.0,11.0,10.0,1.0,0.0,
+opportunity_score__history,success,6311.0,11.0,9.0,0.0,2.0,
+objectterritory2association,success,9612786.0,11.0,11.0,0.0,0.0,
+leadhistory,success,5454698.0,11.0,11.0,0.0,0.0,
+picklistvalueinfo,success,1629.0,10.0,9.0,1.0,0.0,
+userterritory2association,success,3202.0,10.0,10.0,0.0,0.0,
+metadata,success,11660.0,4.0,4.0,0.0,0.0,
+asset_to_contract_line_item__c,error,,,,,,"[DELTA_READ_TABLE_WITHOUT_COLUMNS] You are trying to read a Delta table `prod_l1`.`sfdcccrm`.`asset_to_contract_line_item__c` that does not have any columns.
+
+Write some new data with the option `mergeSchema = true` to be able to read the table.
+
+JVM stacktrace:
+com.databricks.sql.transaction.tahoe.DeltaAnalysisException
+	at com.databricks.sql.transaction.tahoe.DeltaErrorsBase.readTableWithoutSchemaException(DeltaErrors.scala:1408)
+	at com.databricks.sql.transaction.tahoe.DeltaErrorsBase.readTableWithoutSchemaException$(DeltaErrors.scala:1407)
+	at com.databricks.sql.transaction.tahoe.DeltaErrors$.readTableWithoutSchemaException(DeltaErrors.scala:3643)
+	at com.databricks.sql.transaction.tahoe.files.TahoeLogFileIndex.getSnapshot(TahoeFileIndex.scala:509)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.$anonfun$getDeltaScanGenerator$3(PrepareDeltaScan.scala:100)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.$anonfun$getDeltaScanGenerator$2(PrepareDeltaScan.scala:100)
+	at scala.Option.getOrElse(Option.scala:189)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.getDeltaScanGenerator(PrepareDeltaScan.scala:92)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.getDeltaScanGenerator$(PrepareDeltaScan.scala:84)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.getDeltaScanGenerator(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge$$anonfun$1.$anonfun$applyOrElse$2(PrepareDeltaScanEdge.scala:130)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.$anonfun$gatherDeltaScans$6(PrepareDeltaScanEdge.scala:167)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:208)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.$anonfun$gatherDeltaScans$5(PrepareDeltaScanEdge.scala:167)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.gatherDeltaScans(PrepareDeltaScanEdge.scala:162)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScanParallel(PrepareDeltaScanEdge.scala:241)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScan(PrepareDeltaScanEdge.scala:77)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScan$(PrepareDeltaScanEdge.scala:75)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.prepareDeltaScan(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.apply(PrepareDeltaScan.scala:263)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.apply$(PrepareDeltaScan.scala:244)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.apply(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.apply(PrepareDeltaScan.scala:377)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$4(RuleExecutor.scala:327)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$3(RuleExecutor.scala:327)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:324)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeBatch$1(RuleExecutor.scala:307)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$9(RuleExecutor.scala:411)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$9$adapted(RuleExecutor.scala:411)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:411)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:270)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:262)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:208)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:262)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$optimizedPlan$2(QueryExecution.scala:540)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:503)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$6(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.SQLExecution$.withExecutionPhase(SQLExecution.scala:149)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$5(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:1328)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:693)
+	at com.databricks.util.LexicalThreadLocal$Handle.runWith(LexicalThreadLocal.scala:63)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:689)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:689)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan$lzycompute(QueryExecution.scala:536)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan(QueryExecution.scala:523)
+	at org.apache.spark.sql.execution.QueryExecution.assertOptimized(QueryExecution.scala:550)
+	at org.apache.spark.sql.execution.QueryExecution._executedPlan$lzycompute(QueryExecution.scala:583)
+	at org.apache.spark.sql.execution.QueryExecution._executedPlan(QueryExecution.scala:580)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan(QueryExecution.scala:654)
+	at org.apache.spark.sql.connect.execution.SparkConnectPlanExecution.processAsArrowBatches(SparkConnectPlanExecution.scala:247)
+	at org.apache.spark.sql.connect.execution.SparkConnectPlanExecution.handlePlan(SparkConnectPlanExecution.scala:127)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.handlePlan(ExecuteThreadRunner.scala:356)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1(ExecuteThreadRunner.scala:281)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1$adapted(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$2(SessionHolder.scala:392)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$1(SessionHolder.scala:392)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:97)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:84)
+	at org.apache.spark.util.Utils$.withContextClassLoader(Utils.scala:241)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:83)
+	at org.apache.spark.sql.connect.service.SessionHolder.withSession(SessionHolder.scala:391)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.executeInternal(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.org$apache$spark$sql$connect$execution$ExecuteThreadRunner$$execute(ExecuteThreadRunner.scala:125)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.$anonfun$run$2(ExecuteThreadRunner.scala:592)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.unity.UCSEphemeralState$Handle.runWith(UCSEphemeralState.scala:51)
+	at com.databricks.unity.HandleImpl.runWith(UCSHandle.scala:104)
+	at com.databricks.unity.HandleImpl.$anonfun$runWithAndClose$1(UCSHandle.scala:109)
+	at scala.util.Using$.resource(Using.scala:269)
+	at com.databricks.unity.HandleImpl.runWithAndClose(UCSHandle.scala:108)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.run(ExecuteThreadRunner.scala:592)"
+contentdocumentlink,error,,,,,,"[UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `ContentDocument`.`Id` cannot be resolved. Did you mean one of the following? [`contentdocumentlink`.`Id`, `contentdocumentlink`.`IsDeleted`, `contentdocumentlink`.`ShareType`, `contentdocumentlink`.`Visibility`, `contentdocumentlink`.`LinkedEntityId`]. SQLSTATE: 42703;
+'Aggregate [count(Id#315602) AS Id#315566L, 'count('ContentDocument.Id) AS ContentDocument.Id#315567, 'count('ContentDocument.Title) AS ContentDocument.Title#315568, count(ContentDocumentId#315605) AS ContentDocumentId#315569L, count(LinkedEntityId#315606) AS LinkedEntityId#315570L, 'count('ContentDocument.FileType) AS ContentDocument.FileType#315571, 'count('ContentDocument.CreatedBy.Name) AS ContentDocument.CreatedBy.Name#315572, 'count('ContentDocument.LastModifiedBy.Name) AS ContentDocument.LastModifiedBy.Name#315573, 'count('ContentDocument.CreatedDate) AS ContentDocument.CreatedDate#315574, 'count('ContentDocument.LastModifiedDate) AS ContentDocument.LastModifiedDate#315575, 'count('LinkedEntity.Type) AS LinkedEntity.Type#315576, 'count('ContentDocument.SystemModstamp) AS ContentDocument.SystemModstamp#315577, count(IsDeleted#315614) AS IsDeleted#315578L, count(SystemModstamp#315615) AS SystemModstamp#315579L, count(Visibility#315616) AS Visibility#315580L, count(ShareType#315617) AS ShareType#315581L, count(ADLS_LOADED_DATE#315618) AS ADLS_LOADED_DATE#315582L, count(LAST_UPDATED_DATE#315619) AS LAST_UPDATED_DATE#315583L]
++- SubqueryAlias prod_l1.sfdcccrm.contentdocumentlink
+   +- Relation prod_l1.sfdcccrm.contentdocumentlink[Id#315602,ContentDocument.Id#315603,ContentDocument.Title#315604,ContentDocumentId#315605,LinkedEntityId#315606,ContentDocument.FileType#315607,ContentDocument.CreatedBy.Name#315608,ContentDocument.LastModifiedBy.Name#315609,ContentDocument.CreatedDate#315610,ContentDocument.LastModifiedDate#315611,LinkedEntity.Type#315612,ContentDocument.SystemModstamp#315613,IsDeleted#315614,SystemModstamp#315615,Visibility#315616,ShareType#315617,ADLS_LOADED_DATE#315618,LAST_UPDATED_DATE#315619] parquet
+
+
+JVM stacktrace:
+org.apache.spark.sql.catalyst.ExtendedAnalysisException
+	at org.apache.spark.sql.errors.QueryCompilationErrors$.unresolvedAttributeError(QueryCompilationErrors.scala:454)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.org$apache$spark$sql$catalyst$analysis$CheckAnalysis$$failUnresolvedAttribute(CheckAnalysis.scala:171)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$8(CheckAnalysis.scala:356)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$8$adapted(CheckAnalysis.scala:341)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:293)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:292)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:292)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:292)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:292)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:292)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:292)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7(CheckAnalysis.scala:341)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7$adapted(CheckAnalysis.scala:341)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2(CheckAnalysis.scala:341)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2$adapted(CheckAnalysis.scala:216)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:293)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0(CheckAnalysis.scala:216)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0$(CheckAnalysis.scala:198)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis0(Analyzer.scala:383)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:186)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:174)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:174)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:383)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$2(Analyzer.scala:439)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:208)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:439)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:443)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:436)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:318)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:503)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$6(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.SQLExecution$.withExecutionPhase(SQLExecution.scala:149)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$5(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:1328)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:693)
+	at com.databricks.util.LexicalThreadLocal$Handle.runWith(LexicalThreadLocal.scala:63)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:689)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:689)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:305)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:304)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:280)
+	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$4(Dataset.scala:172)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.SparkSession.$anonfun$withActiveAndFrameProfiler$1(SparkSession.scala:1218)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.SparkSession.withActiveAndFrameProfiler(SparkSession.scala:1218)
+	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:167)
+	at org.apache.spark.sql.connect.execution.SparkConnectPlanExecution.handlePlan(SparkConnectPlanExecution.scala:106)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.handlePlan(ExecuteThreadRunner.scala:356)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1(ExecuteThreadRunner.scala:281)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1$adapted(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$2(SessionHolder.scala:392)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$1(SessionHolder.scala:392)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:97)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:84)
+	at org.apache.spark.util.Utils$.withContextClassLoader(Utils.scala:241)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:83)
+	at org.apache.spark.sql.connect.service.SessionHolder.withSession(SessionHolder.scala:391)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.executeInternal(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.org$apache$spark$sql$connect$execution$ExecuteThreadRunner$$execute(ExecuteThreadRunner.scala:125)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.$anonfun$run$2(ExecuteThreadRunner.scala:592)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.unity.UCSEphemeralState$Handle.runWith(UCSEphemeralState.scala:51)
+	at com.databricks.unity.HandleImpl.runWith(UCSHandle.scala:104)
+	at com.databricks.unity.HandleImpl.$anonfun$runWithAndClose$1(UCSHandle.scala:109)
+	at scala.util.Using$.resource(Using.scala:269)
+	at com.databricks.unity.HandleImpl.runWithAndClose(UCSHandle.scala:108)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.run(ExecuteThreadRunner.scala:592)"
+customer_service_backoffice_request__c,error,,,,,,"[UNRESOLVED_COLUMN.WITH_SUGGESTION] A column, variable, or function parameter with name `RecordType`.`Name` cannot be resolved. Did you mean one of the following? [`customer_service_backoffice_request__c`.`Name`, `customer_service_backoffice_request__c`.`Id`, `customer_service_backoffice_request__c`.`RecordType.Name`, `customer_service_backoffice_request__c`.`FSE__c`, `customer_service_backoffice_request__c`.`GPO__c`]. SQLSTATE: 42703;
+'Aggregate [count(Id#326574) AS Id#325814L, count(OwnerId#326575) AS OwnerId#325815L, count(IsDeleted#326576) AS IsDeleted#325816L, count(Name#326577) AS Name#325817L, count(CurrencyIsoCode#326578) AS CurrencyIsoCode#325818L, count(RecordTypeId#326579) AS RecordTypeId#325819L, count(CreatedDate#326580) AS CreatedDate#325820L, count(CreatedById#326581) AS CreatedById#325821L, count(LastModifiedDate#326582) AS LastModifiedDate#325822L, count(LastModifiedById#326583) AS LastModifiedById#325823L, count(SystemModstamp#326584) AS SystemModstamp#325824L, count(LastActivityDate#326585) AS LastActivityDate#325825L, count(LastViewedDate#326586) AS LastViewedDate#325826L, count(LastReferencedDate#326587) AS LastReferencedDate#325827L, count(ConnectionReceivedId#326588) AS ConnectionReceivedId#325828L, count(ConnectionSentId#326589) AS ConnectionSentId#325829L, count(AM_Booking_Credit__c#326590) AS AM_Booking_Credit__c#325830L, count(Account_Executive_Percent__c#326591) AS Account_Executive_Percent__c#325831L, count(Account_Manager_Email_1__c#326592) AS Account_Manager_Email_1__c#325832L, count(Account_Manager_Email__c#326593) AS Account_Manager_Email__c#325833L, count(Account_Manager__c#326594) AS Account_Manager__c#325834L, count(Account_Tier__c#326595) AS Account_Tier__c#325835L, count(Account_opportunity__c#326596) AS Account_opportunity__c#325836L, count(Adjusted_Value__c#326597) AS Adjusted_Value__c#325837L, ... 356 more fields]
++- SubqueryAlias prod_l1.sfdcccrm.customer_service_backoffice_request__c
+   +- Relation prod_l1.sfdcccrm.customer_service_backoffice_request__c[Id#326574,OwnerId#326575,IsDeleted#326576,Name#326577,CurrencyIsoCode#326578,RecordTypeId#326579,CreatedDate#326580,CreatedById#326581,LastModifiedDate#326582,LastModifiedById#326583,SystemModstamp#326584,LastActivityDate#326585,LastViewedDate#326586,LastReferencedDate#326587,ConnectionReceivedId#326588,ConnectionSentId#326589,AM_Booking_Credit__c#326590,Account_Executive_Percent__c#326591,Account_Manager_Email_1__c#326592,Account_Manager_Email__c#326593,Account_Manager__c#326594,Account_Tier__c#326595,Account_opportunity__c#326596,Adjusted_Value__c#326597,... 356 more fields] parquet
+
+
+JVM stacktrace:
+org.apache.spark.sql.catalyst.ExtendedAnalysisException
+	at org.apache.spark.sql.errors.QueryCompilationErrors$.unresolvedAttributeError(QueryCompilationErrors.scala:454)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.org$apache$spark$sql$catalyst$analysis$CheckAnalysis$$failUnresolvedAttribute(CheckAnalysis.scala:171)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$8(CheckAnalysis.scala:356)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$8$adapted(CheckAnalysis.scala:341)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:293)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:292)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:292)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:292)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1(TreeNode.scala:292)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$foreachUp$1$adapted(TreeNode.scala:292)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:292)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7(CheckAnalysis.scala:341)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$7$adapted(CheckAnalysis.scala:341)
+	at scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)
+	at scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2(CheckAnalysis.scala:341)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis0$2$adapted(CheckAnalysis.scala:216)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.foreachUp(TreeNode.scala:293)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0(CheckAnalysis.scala:216)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis0$(CheckAnalysis.scala:198)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis0(Analyzer.scala:383)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.$anonfun$checkAnalysis$1(CheckAnalysis.scala:186)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis(CheckAnalysis.scala:174)
+	at org.apache.spark.sql.catalyst.analysis.CheckAnalysis.checkAnalysis$(CheckAnalysis.scala:174)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.checkAnalysis(Analyzer.scala:383)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$2(Analyzer.scala:439)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:208)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.$anonfun$executeAndCheck$1(Analyzer.scala:439)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper$.markInAnalyzer(AnalysisHelper.scala:443)
+	at org.apache.spark.sql.catalyst.analysis.Analyzer.executeAndCheck(Analyzer.scala:436)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$analyzed$1(QueryExecution.scala:318)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:503)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$6(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.SQLExecution$.withExecutionPhase(SQLExecution.scala:149)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$5(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:1328)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:693)
+	at com.databricks.util.LexicalThreadLocal$Handle.runWith(LexicalThreadLocal.scala:63)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:689)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:689)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed$lzycompute(QueryExecution.scala:305)
+	at org.apache.spark.sql.execution.QueryExecution.analyzed(QueryExecution.scala:304)
+	at org.apache.spark.sql.execution.QueryExecution.assertAnalyzed(QueryExecution.scala:280)
+	at org.apache.spark.sql.Dataset$.$anonfun$ofRows$4(Dataset.scala:172)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.SparkSession.$anonfun$withActiveAndFrameProfiler$1(SparkSession.scala:1218)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.SparkSession.withActiveAndFrameProfiler(SparkSession.scala:1218)
+	at org.apache.spark.sql.Dataset$.ofRows(Dataset.scala:167)
+	at org.apache.spark.sql.connect.execution.SparkConnectPlanExecution.handlePlan(SparkConnectPlanExecution.scala:106)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.handlePlan(ExecuteThreadRunner.scala:356)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1(ExecuteThreadRunner.scala:281)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1$adapted(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$2(SessionHolder.scala:392)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$1(SessionHolder.scala:392)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:97)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:84)
+	at org.apache.spark.util.Utils$.withContextClassLoader(Utils.scala:241)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:83)
+	at org.apache.spark.sql.connect.service.SessionHolder.withSession(SessionHolder.scala:391)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.executeInternal(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.org$apache$spark$sql$connect$execution$ExecuteThreadRunner$$execute(ExecuteThreadRunner.scala:125)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.$anonfun$run$2(ExecuteThreadRunner.scala:592)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.unity.UCSEphemeralState$Handle.runWith(UCSEphemeralState.scala:51)
+	at com.databricks.unity.HandleImpl.runWith(UCSHandle.scala:104)
+	at com.databricks.unity.HandleImpl.$anonfun$runWithAndClose$1(UCSHandle.scala:109)
+	at scala.util.Using$.resource(Using.scala:269)
+	at com.databricks.unity.HandleImpl.runWithAndClose(UCSHandle.scala:108)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.run(ExecuteThreadRunner.scala:592)"
+functional_location__c,error,,,,,,"[DELTA_READ_TABLE_WITHOUT_COLUMNS] You are trying to read a Delta table `prod_l1`.`sfdcccrm`.`functional_location__c` that does not have any columns.
+
+Write some new data with the option `mergeSchema = true` to be able to read the table.
+
+JVM stacktrace:
+com.databricks.sql.transaction.tahoe.DeltaAnalysisException
+	at com.databricks.sql.transaction.tahoe.DeltaErrorsBase.readTableWithoutSchemaException(DeltaErrors.scala:1408)
+	at com.databricks.sql.transaction.tahoe.DeltaErrorsBase.readTableWithoutSchemaException$(DeltaErrors.scala:1407)
+	at com.databricks.sql.transaction.tahoe.DeltaErrors$.readTableWithoutSchemaException(DeltaErrors.scala:3643)
+	at com.databricks.sql.transaction.tahoe.files.TahoeLogFileIndex.getSnapshot(TahoeFileIndex.scala:509)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.$anonfun$getDeltaScanGenerator$3(PrepareDeltaScan.scala:100)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.$anonfun$getDeltaScanGenerator$2(PrepareDeltaScan.scala:100)
+	at scala.Option.getOrElse(Option.scala:189)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.getDeltaScanGenerator(PrepareDeltaScan.scala:92)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.getDeltaScanGenerator$(PrepareDeltaScan.scala:84)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.getDeltaScanGenerator(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge$$anonfun$1.$anonfun$applyOrElse$2(PrepareDeltaScanEdge.scala:130)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.$anonfun$gatherDeltaScans$6(PrepareDeltaScanEdge.scala:167)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:208)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.$anonfun$gatherDeltaScans$5(PrepareDeltaScanEdge.scala:167)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.gatherDeltaScans(PrepareDeltaScanEdge.scala:162)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScanParallel(PrepareDeltaScanEdge.scala:241)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScan(PrepareDeltaScanEdge.scala:77)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScan$(PrepareDeltaScanEdge.scala:75)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.prepareDeltaScan(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.apply(PrepareDeltaScan.scala:263)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.apply$(PrepareDeltaScan.scala:244)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.apply(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.apply(PrepareDeltaScan.scala:377)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$4(RuleExecutor.scala:327)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$3(RuleExecutor.scala:327)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:324)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeBatch$1(RuleExecutor.scala:307)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$9(RuleExecutor.scala:411)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$9$adapted(RuleExecutor.scala:411)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:411)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:270)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:262)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:208)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:262)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$optimizedPlan$2(QueryExecution.scala:540)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:503)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$6(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.SQLExecution$.withExecutionPhase(SQLExecution.scala:149)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$5(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:1328)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:693)
+	at com.databricks.util.LexicalThreadLocal$Handle.runWith(LexicalThreadLocal.scala:63)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:689)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:689)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan$lzycompute(QueryExecution.scala:536)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan(QueryExecution.scala:523)
+	at org.apache.spark.sql.execution.QueryExecution.assertOptimized(QueryExecution.scala:550)
+	at org.apache.spark.sql.execution.QueryExecution._executedPlan$lzycompute(QueryExecution.scala:583)
+	at org.apache.spark.sql.execution.QueryExecution._executedPlan(QueryExecution.scala:580)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan(QueryExecution.scala:654)
+	at org.apache.spark.sql.connect.execution.SparkConnectPlanExecution.processAsArrowBatches(SparkConnectPlanExecution.scala:247)
+	at org.apache.spark.sql.connect.execution.SparkConnectPlanExecution.handlePlan(SparkConnectPlanExecution.scala:127)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.handlePlan(ExecuteThreadRunner.scala:356)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1(ExecuteThreadRunner.scala:281)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1$adapted(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$2(SessionHolder.scala:392)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$1(SessionHolder.scala:392)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:97)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:84)
+	at org.apache.spark.util.Utils$.withContextClassLoader(Utils.scala:241)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:83)
+	at org.apache.spark.sql.connect.service.SessionHolder.withSession(SessionHolder.scala:391)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.executeInternal(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.org$apache$spark$sql$connect$execution$ExecuteThreadRunner$$execute(ExecuteThreadRunner.scala:125)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.$anonfun$run$2(ExecuteThreadRunner.scala:592)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.unity.UCSEphemeralState$Handle.runWith(UCSEphemeralState.scala:51)
+	at com.databricks.unity.HandleImpl.runWith(UCSHandle.scala:104)
+	at com.databricks.unity.HandleImpl.$anonfun$runWithAndClose$1(UCSHandle.scala:109)
+	at scala.util.Using$.resource(Using.scala:269)
+	at com.databricks.unity.HandleImpl.runWithAndClose(UCSHandle.scala:108)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.run(ExecuteThreadRunner.scala:592)"
+servicecontract,error,,,,,,"[DELTA_READ_TABLE_WITHOUT_COLUMNS] You are trying to read a Delta table `prod_l1`.`sfdcccrm`.`servicecontract` that does not have any columns.
+
+Write some new data with the option `mergeSchema = true` to be able to read the table.
+
+JVM stacktrace:
+com.databricks.sql.transaction.tahoe.DeltaAnalysisException
+	at com.databricks.sql.transaction.tahoe.DeltaErrorsBase.readTableWithoutSchemaException(DeltaErrors.scala:1408)
+	at com.databricks.sql.transaction.tahoe.DeltaErrorsBase.readTableWithoutSchemaException$(DeltaErrors.scala:1407)
+	at com.databricks.sql.transaction.tahoe.DeltaErrors$.readTableWithoutSchemaException(DeltaErrors.scala:3643)
+	at com.databricks.sql.transaction.tahoe.files.TahoeLogFileIndex.getSnapshot(TahoeFileIndex.scala:509)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.$anonfun$getDeltaScanGenerator$3(PrepareDeltaScan.scala:100)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.$anonfun$getDeltaScanGenerator$2(PrepareDeltaScan.scala:100)
+	at scala.Option.getOrElse(Option.scala:189)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.getDeltaScanGenerator(PrepareDeltaScan.scala:92)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.getDeltaScanGenerator$(PrepareDeltaScan.scala:84)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.getDeltaScanGenerator(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge$$anonfun$1.$anonfun$applyOrElse$2(PrepareDeltaScanEdge.scala:130)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.$anonfun$gatherDeltaScans$6(PrepareDeltaScanEdge.scala:167)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:208)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.$anonfun$gatherDeltaScans$5(PrepareDeltaScanEdge.scala:167)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.gatherDeltaScans(PrepareDeltaScanEdge.scala:162)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScanParallel(PrepareDeltaScanEdge.scala:241)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScan(PrepareDeltaScanEdge.scala:77)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanEdge.prepareDeltaScan$(PrepareDeltaScanEdge.scala:75)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.prepareDeltaScan(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.apply(PrepareDeltaScan.scala:263)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScanBase.apply$(PrepareDeltaScan.scala:244)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.apply(PrepareDeltaScan.scala:377)
+	at com.databricks.sql.transaction.tahoe.stats.PrepareDeltaScan.apply(PrepareDeltaScan.scala:377)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$4(RuleExecutor.scala:327)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$3(RuleExecutor.scala:327)
+	at scala.collection.LinearSeqOptimized.foldLeft(LinearSeqOptimized.scala:126)
+	at scala.collection.LinearSeqOptimized.foldLeft$(LinearSeqOptimized.scala:122)
+	at scala.collection.immutable.List.foldLeft(List.scala:91)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$2(RuleExecutor.scala:324)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeBatch$1(RuleExecutor.scala:307)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$9(RuleExecutor.scala:411)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$9$adapted(RuleExecutor.scala:411)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$execute$1(RuleExecutor.scala:411)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.execute(RuleExecutor.scala:270)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.$anonfun$executeAndTrack$1(RuleExecutor.scala:262)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker$.withTracker(QueryPlanningTracker.scala:208)
+	at org.apache.spark.sql.catalyst.rules.RuleExecutor.executeAndTrack(RuleExecutor.scala:262)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$optimizedPlan$2(QueryExecution.scala:540)
+	at com.databricks.spark.util.FrameProfiler$.record(FrameProfiler.scala:94)
+	at org.apache.spark.sql.catalyst.QueryPlanningTracker.measurePhase(QueryPlanningTracker.scala:503)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$6(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.SQLExecution$.withExecutionPhase(SQLExecution.scala:149)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$5(QueryExecution.scala:700)
+	at org.apache.spark.sql.execution.QueryExecution$.withInternalError(QueryExecution.scala:1328)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$2(QueryExecution.scala:693)
+	at com.databricks.util.LexicalThreadLocal$Handle.runWith(LexicalThreadLocal.scala:63)
+	at org.apache.spark.sql.execution.QueryExecution.$anonfun$executePhase$1(QueryExecution.scala:689)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.execution.QueryExecution.executePhase(QueryExecution.scala:689)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan$lzycompute(QueryExecution.scala:536)
+	at org.apache.spark.sql.execution.QueryExecution.optimizedPlan(QueryExecution.scala:523)
+	at org.apache.spark.sql.execution.QueryExecution.assertOptimized(QueryExecution.scala:550)
+	at org.apache.spark.sql.execution.QueryExecution._executedPlan$lzycompute(QueryExecution.scala:583)
+	at org.apache.spark.sql.execution.QueryExecution._executedPlan(QueryExecution.scala:580)
+	at org.apache.spark.sql.execution.QueryExecution.executedPlan(QueryExecution.scala:654)
+	at org.apache.spark.sql.connect.execution.SparkConnectPlanExecution.processAsArrowBatches(SparkConnectPlanExecution.scala:247)
+	at org.apache.spark.sql.connect.execution.SparkConnectPlanExecution.handlePlan(SparkConnectPlanExecution.scala:127)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.handlePlan(ExecuteThreadRunner.scala:356)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1(ExecuteThreadRunner.scala:281)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.$anonfun$executeInternal$1$adapted(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$2(SessionHolder.scala:392)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:1211)
+	at org.apache.spark.sql.connect.service.SessionHolder.$anonfun$withSession$1(SessionHolder.scala:392)
+	at org.apache.spark.JobArtifactSet$.withActiveJobArtifactState(JobArtifactSet.scala:97)
+	at org.apache.spark.sql.artifact.ArtifactManager.$anonfun$withResources$1(ArtifactManager.scala:84)
+	at org.apache.spark.util.Utils$.withContextClassLoader(Utils.scala:241)
+	at org.apache.spark.sql.artifact.ArtifactManager.withResources(ArtifactManager.scala:83)
+	at org.apache.spark.sql.connect.service.SessionHolder.withSession(SessionHolder.scala:391)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.executeInternal(ExecuteThreadRunner.scala:210)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner.org$apache$spark$sql$connect$execution$ExecuteThreadRunner$$execute(ExecuteThreadRunner.scala:125)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.$anonfun$run$2(ExecuteThreadRunner.scala:592)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at com.databricks.unity.UCSEphemeralState$Handle.runWith(UCSEphemeralState.scala:51)
+	at com.databricks.unity.HandleImpl.runWith(UCSHandle.scala:104)
+	at com.databricks.unity.HandleImpl.$anonfun$runWithAndClose$1(UCSHandle.scala:109)
+	at scala.util.Using$.resource(Using.scala:269)
+	at com.databricks.unity.HandleImpl.runWithAndClose(UCSHandle.scala:108)
+	at org.apache.spark.sql.connect.execution.ExecuteThreadRunner$ExecutionThread.run(ExecuteThreadRunner.scala:592)"

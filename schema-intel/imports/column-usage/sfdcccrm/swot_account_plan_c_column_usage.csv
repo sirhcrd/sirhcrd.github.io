@@ -1,0 +1,26 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,1391,1391,100.0,0,0.0
+2,CreatedById,1391,1391,100.0,0,0.0
+3,LAST_UPDATED_DATE,1391,1391,100.0,0,0.0
+4,OwnerId,1391,1391,100.0,0,0.0
+5,SystemModstamp,1391,1391,100.0,0,0.0
+6,ADLS_LOADED_DATE,1391,1391,100.0,0,0.0
+7,LastModifiedDate,1391,1391,100.0,0,0.0
+8,LastModifiedById,1391,1391,100.0,0,0.0
+9,CreatedDate,1391,1391,100.0,0,0.0
+10,CurrencyIsoCode,1391,1391,100.0,0,0.0
+11,Name,1391,1391,100.0,0,0.0
+12,IsDeleted,1391,1391,100.0,0,0.0
+13,RecordTypeId,1377,1391,99.0,14,1.0
+14,Key_Strengths_and_competitive_advantages__c,1365,1391,98.1,26,1.9
+15,Weakness__c,1352,1391,97.2,39,2.8
+16,Opportunities__c,1343,1391,96.5,48,3.5
+17,Threats__c,1331,1391,95.7,60,4.3
+18,Account_Plan__c,1259,1391,90.5,132,9.5
+19,MayEdit,183,1391,13.2,1208,86.8
+20,IsLocked,183,1391,13.2,1208,86.8
+21,Key_Strengths__c,0,1391,0.0,1391,100.0
+22,ConnectionSentId,0,1391,0.0,1391,100.0
+23,Business_Line__c,0,1391,0.0,1391,100.0
+24,LastActivityDate,0,1391,0.0,1391,100.0
+25,ConnectionReceivedId,0,1391,0.0,1391,100.0

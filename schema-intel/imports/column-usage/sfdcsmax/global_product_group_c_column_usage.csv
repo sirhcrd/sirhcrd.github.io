@@ -1,0 +1,18 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,325,325,100.0,0,0.0
+2,LastModifiedDate,325,325,100.0,0,0.0
+3,ADLS_LOADED_DATE,325,325,100.0,0,0.0
+4,Not_Sent_to_Trackwise__c,325,325,100.0,0,0.0
+5,OwnerId,325,325,100.0,0,0.0
+6,LastModifiedById,325,325,100.0,0,0.0
+7,SystemModstamp,325,325,100.0,0,0.0
+8,CreatedById,325,325,100.0,0,0.0
+9,CreatedDate,325,325,100.0,0,0.0
+10,Name,325,325,100.0,0,0.0
+11,IsDeleted,325,325,100.0,0,0.0
+12,LAST_UPDATED_DATE,325,325,100.0,0,0.0
+13,Global_Product_Group_Description__c,2,325,0.6,323,99.4
+14,LastViewedDate,1,325,0.3,324,99.7
+15,LastReferencedDate,1,325,0.3,324,99.7
+16,ConnectionReceivedId,0,325,0.0,325,100.0
+17,ConnectionSentId,0,325,0.0,325,100.0

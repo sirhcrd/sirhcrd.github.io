@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,3202,3202,100.0,0,0.0
+2,UserId,3202,3202,100.0,0,0.0
+3,Territory2Id,3202,3202,100.0,0,0.0
+4,IsActive,3202,3202,100.0,0,0.0
+5,LastModifiedDate,3202,3202,100.0,0,0.0
+6,LastModifiedById,3202,3202,100.0,0,0.0
+7,SystemModstamp,3202,3202,100.0,0,0.0
+8,ADLS_LOADED_DATE,3202,3202,100.0,0,0.0
+9,LAST_UPDATED_DATE,3202,3202,100.0,0,0.0
+10,RoleInTerritory2,2548,3202,79.6,654,20.4

@@ -1,0 +1,14 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,18,18,100.0,0,0.0
+2,DeveloperName,18,18,100.0,0,0.0
+3,MasterLabel,18,18,100.0,0,0.0
+4,Language,18,18,100.0,0,0.0
+5,Label,18,18,100.0,0,0.0
+6,QualifiedApiName,18,18,100.0,0,0.0
+7,Market__c,18,18,100.0,0,0.0
+8,Sales_org__c,18,18,100.0,0,0.0
+9,PSA_Region_Id__c,18,18,100.0,0,0.0
+10,PSA_ULS_Project_Template_ID__c,18,18,100.0,0,0.0
+11,ADLS_LOADED_DATE,18,18,100.0,0,0.0
+12,LAST_UPDATED_DATE,18,18,100.0,0,0.0
+13,NamespacePrefix,0,18,0.0,18,100.0

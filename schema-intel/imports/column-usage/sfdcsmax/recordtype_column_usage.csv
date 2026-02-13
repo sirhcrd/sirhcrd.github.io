@@ -1,0 +1,16 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,274,274,100.0,0,0.0
+2,Name,274,274,100.0,0,0.0
+3,DeveloperName,274,274,100.0,0,0.0
+4,SobjectType,274,274,100.0,0,0.0
+5,IsActive,274,274,100.0,0,0.0
+6,CreatedById,274,274,100.0,0,0.0
+7,CreatedDate,274,274,100.0,0,0.0
+8,LastModifiedById,274,274,100.0,0,0.0
+9,LastModifiedDate,274,274,100.0,0,0.0
+10,SystemModstamp,274,274,100.0,0,0.0
+11,ADLS_LOADED_DATE,274,274,100.0,0,0.0
+12,LAST_UPDATED_DATE,274,274,100.0,0,0.0
+13,Description,228,274,83.2,46,16.8
+14,NamespacePrefix,100,274,36.5,174,63.5
+15,BusinessProcessId,18,274,6.6,256,93.4

@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,1629,1629,100.0,0,0.0
+2,DurableId,1629,1629,100.0,0,0.0
+3,Value,1629,1629,100.0,0,0.0
+4,Label,1629,1629,100.0,0,0.0
+5,IsDefaultValue,1629,1629,100.0,0,0.0
+6,IsActive,1629,1629,100.0,0,0.0
+7,EntityParticleId,1629,1629,100.0,0,0.0
+8,ADLS_LOADED_DATE,1629,1629,100.0,0,0.0
+9,LAST_UPDATED_DATE,1629,1629,100.0,0,0.0
+10,ValidFor,808,1629,49.6,821,50.4

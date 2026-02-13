@@ -1,0 +1,22 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,578,578,100.0,0,0.0
+2,LAST_UPDATED_DATE,578,578,100.0,0,0.0
+3,APTS_Rate__c,578,578,100.0,0,0.0
+4,APTS_Mapping_Label__c,578,578,100.0,0,0.0
+5,APTS_Ext_ID__c,578,578,100.0,0,0.0
+6,APTS_Desc__c,578,578,100.0,0,0.0
+7,APTS_ConditionType__c,578,578,100.0,0,0.0
+8,OwnerId,578,578,100.0,0,0.0
+9,SystemModstamp,578,578,100.0,0,0.0
+10,LastModifiedById,578,578,100.0,0,0.0
+11,LastModifiedDate,578,578,100.0,0,0.0
+12,CreatedById,578,578,100.0,0,0.0
+13,CreatedDate,578,578,100.0,0,0.0
+14,CurrencyIsoCode,578,578,100.0,0,0.0
+15,Name,578,578,100.0,0,0.0
+16,IsDeleted,578,578,100.0,0,0.0
+17,ADLS_LOADED_DATE,578,578,100.0,0,0.0
+18,MayEdit,235,578,40.7,343,59.3
+19,IsLocked,235,578,40.7,343,59.3
+20,ConnectionSentId,0,578,0.0,578,100.0
+21,ConnectionReceivedId,0,578,0.0,578,100.0

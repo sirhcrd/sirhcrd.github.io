@@ -1,0 +1,25 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,160,160,100.0,0,0.0
+2,LastModifiedById,160,160,100.0,0,0.0
+3,ADLS_LOADED_DATE,160,160,100.0,0,0.0
+4,ESMX_Record_Modified__c,160,160,100.0,0,0.0
+5,OwnerId,160,160,100.0,0,0.0
+6,SystemModstamp,160,160,100.0,0,0.0
+7,LAST_UPDATED_DATE,160,160,100.0,0,0.0
+8,LastModifiedDate,160,160,100.0,0,0.0
+9,IsDeleted,160,160,100.0,0,0.0
+10,Name,160,160,100.0,0,0.0
+11,CreatedDate,160,160,100.0,0,0.0
+12,CreatedById,160,160,100.0,0,0.0
+13,ESMX_BU_Short_Description__c,157,160,98.1,3,1.9
+14,ESMX_ERO_Name__c,157,160,98.1,3,1.9
+15,ESMX_ERO_Description__c,157,160,98.1,3,1.9
+16,ESMX_Business_Unit__c,157,160,98.1,3,1.9
+17,ESMX_BU_Description__c,157,160,98.1,3,1.9
+18,ESMX_BG_Short_Description__c,156,160,97.5,4,2.5
+19,ESMX_BG_Description__c,156,160,97.5,4,2.5
+20,ESMX_Business_Group__c,93,160,58.1,67,41.9
+21,ConnectionReceivedId,0,160,0.0,160,100.0
+22,LastReferencedDate,0,160,0.0,160,100.0
+23,LastViewedDate,0,160,0.0,160,100.0
+24,ConnectionSentId,0,160,0.0,160,100.0

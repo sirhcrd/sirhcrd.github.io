@@ -1,0 +1,17 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,168,168,100.0,0,0.0
+2,OwnerId,168,168,100.0,0,0.0
+3,IsDeleted,168,168,100.0,0,0.0
+4,Name,168,168,100.0,0,0.0
+5,CurrencyIsoCode,168,168,100.0,0,0.0
+6,CreatedDate,168,168,100.0,0,0.0
+7,CreatedById,168,168,100.0,0,0.0
+8,LastModifiedDate,168,168,100.0,0,0.0
+9,LastModifiedById,168,168,100.0,0,0.0
+10,SystemModstamp,168,168,100.0,0,0.0
+11,ADLS_LOADED_DATE,168,168,100.0,0,0.0
+12,LAST_UPDATED_DATE,168,168,100.0,0,0.0
+13,MayEdit,166,168,98.8,2,1.2
+14,IsLocked,166,168,98.8,2,1.2
+15,ConnectionReceivedId,0,168,0.0,168,100.0
+16,ConnectionSentId,0,168,0.0,168,100.0

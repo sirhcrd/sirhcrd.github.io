@@ -1,0 +1,21 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,23212,23212,100.0,0,0.0
+2,LastModifiedById,23212,23212,100.0,0,0.0
+3,ADLS_LOADED_DATE,23212,23212,100.0,0,0.0
+4,Hide_to_CP__c,23212,23212,100.0,0,0.0
+5,OwnerId,23212,23212,100.0,0,0.0
+6,SystemModstamp,23212,23212,100.0,0,0.0
+7,LAST_UPDATED_DATE,23212,23212,100.0,0,0.0
+8,LastModifiedDate,23212,23212,100.0,0,0.0
+9,CreatedById,23212,23212,100.0,0,0.0
+10,CreatedDate,23212,23212,100.0,0,0.0
+11,Name,23212,23212,100.0,0,0.0
+12,IsDeleted,23212,23212,100.0,0,0.0
+13,Business_Modality__c,23166,23212,99.8,46,0.2
+14,Country__c,9449,23212,40.7,13763,59.3
+15,SAP_External_ID__c,72,23212,0.3,23140,99.7
+16,LastViewedDate,5,23212,0.0,23207,100.0
+17,ConnectionReceivedId,0,23212,0.0,23212,100.0
+18,ConnectionSentId,0,23212,0.0,23212,100.0
+19,Call_Center_Business_Hours__c,0,23212,0.0,23212,100.0
+20,LastReferencedDate,5,23212,0.0,23207,100.0

@@ -1,0 +1,27 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,562,562,100.0,0,0.0
+2,OwnerId,562,562,100.0,0,0.0
+3,LAST_UPDATED_DATE,562,562,100.0,0,0.0
+4,ADLS_LOADED_DATE,562,562,100.0,0,0.0
+5,APTS_Selling_Term_Check__c,562,562,100.0,0,0.0
+6,APTS_Ratio__c,562,562,100.0,0,0.0
+7,APTS_RSM_Type__c,562,562,100.0,0,0.0
+8,APTS_RSM_Consumption__c,562,562,100.0,0,0.0
+9,APTS_Quantity_Amount__c,562,562,100.0,0,0.0
+10,APTS_Overwrite__c,562,562,100.0,0,0.0
+11,APTS_Default_Value__c,562,562,100.0,0,0.0
+12,SystemModstamp,562,562,100.0,0,0.0
+13,LastModifiedById,562,562,100.0,0,0.0
+14,LastModifiedDate,562,562,100.0,0,0.0
+15,CreatedById,562,562,100.0,0,0.0
+16,CreatedDate,562,562,100.0,0,0.0
+17,CurrencyIsoCode,562,562,100.0,0,0.0
+18,Name,562,562,100.0,0,0.0
+19,IsDeleted,562,562,100.0,0,0.0
+20,APTS_Configuration_Id__c,541,562,96.3,21,3.7
+21,APTS_Is_Optional__c,532,562,94.7,30,5.3
+22,MayEdit,525,562,93.4,37,6.6
+23,IsLocked,525,562,93.4,37,6.6
+24,APTS_Annualized_Qty__c,102,562,18.1,460,81.9
+25,ConnectionSentId,0,562,0.0,562,100.0
+26,ConnectionReceivedId,0,562,0.0,562,100.0

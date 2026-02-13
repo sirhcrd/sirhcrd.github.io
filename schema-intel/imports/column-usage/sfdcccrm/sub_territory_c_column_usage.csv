@@ -1,0 +1,26 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,866,866,100.0,0,0.0
+2,LastModifiedById,866,866,100.0,0,0.0
+3,Sector__c,866,866,100.0,0,0.0
+4,Market__c,866,866,100.0,0,0.0
+5,ADLS_LOADED_DATE,866,866,100.0,0,0.0
+6,LAST_UPDATED_DATE,866,866,100.0,0,0.0
+7,OwnerId,866,866,100.0,0,0.0
+8,Obsolete_Sub_Territory__c,866,866,100.0,0,0.0
+9,SystemModstamp,866,866,100.0,0,0.0
+10,LastModifiedDate,866,866,100.0,0,0.0
+11,CreatedById,866,866,100.0,0,0.0
+12,CreatedDate,866,866,100.0,0,0.0
+13,CurrencyIsoCode,866,866,100.0,0,0.0
+14,Name,866,866,100.0,0,0.0
+15,IsDeleted,866,866,100.0,0,0.0
+16,Sub_Territory_External_ID__c,823,866,95.0,43,5.0
+17,Sales_District__c,210,866,24.2,656,75.8
+18,Description__c,118,866,13.6,748,86.4
+19,MayEdit,8,866,0.9,858,99.1
+20,IsLocked,8,866,0.9,858,99.1
+21,LastViewedDate,2,866,0.2,864,99.8
+22,LastReferencedDate,2,866,0.2,864,99.8
+23,ConnectionSentId,0,866,0.0,866,100.0
+24,ConnectionReceivedId,0,866,0.0,866,100.0
+25,LastActivityDate,0,866,0.0,866,100.0

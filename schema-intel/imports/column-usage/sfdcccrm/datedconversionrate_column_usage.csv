@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,3154,3154,100.0,0,0.0
+2,IsoCode,3154,3154,100.0,0,0.0
+3,StartDate,3154,3154,100.0,0,0.0
+4,NextStartDate,3154,3154,100.0,0,0.0
+5,ConversionRate,3154,3154,100.0,0,0.0
+6,CreatedDate,3154,3154,100.0,0,0.0
+7,CreatedById,3154,3154,100.0,0,0.0
+8,LastModifiedDate,3154,3154,100.0,0,0.0
+9,LastModifiedById,3154,3154,100.0,0,0.0
+10,SystemModstamp,3154,3154,100.0,0,0.0
+11,ADLS_LOADED_DATE,3154,3154,100.0,0,0.0
+12,LAST_UPDATED_DATE,3154,3154,100.0,0,0.0

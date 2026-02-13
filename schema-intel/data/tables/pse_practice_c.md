@@ -1,0 +1,142 @@
+---
+table: pse_practice_c
+source: sfdcpsa
+pulled_date: 2026-02-12
+row_count: 164
+column_count: 114
+---
+
+# pse_practice_c
+
+*Description needed — add context about what this table represents.*
+
+## Summary
+
+| Quality | Count | Percentage |
+|---------|-------|------------|
+| Trusted (≥50%) | 96 | 84% |
+| Neutral (5-50%) | 3 | 2% |
+| Dead (<5%) | 15 | 13% |
+
+## Columns
+
+| Column | Usage % | Quality | Description |
+|--------|---------|---------|-------------|
+| `Id` | 100.0% | trusted | |
+| `pse__Planned_Margin__c` | 100.0% | trusted | |
+| `pse__Historical_Utilization_Target__c` | 100.0% | trusted | |
+| `pse__Include_In_Forecasting__c` | 100.0% | trusted | |
+| `pse__Internal_Budget__c` | 100.0% | trusted | |
+| `pse__Internal_Costs__c` | 100.0% | trusted | |
+| `pse__Invoiced__c` | 100.0% | trusted | |
+| `pse__Margin__c` | 100.0% | trusted | |
+| `pse__Non_Billable_External_Hours__c` | 100.0% | trusted | |
+| `pse__Non_Billable_Internal_Hours__c` | 100.0% | trusted | |
+| `OwnerId` | 100.0% | trusted | |
+| `pse__Pass_Through_Billings__c` | 100.0% | trusted | |
+| `pse__Planned_Billings__c` | 100.0% | trusted | |
+| `pse__Planned_Bookings__c` | 100.0% | trusted | |
+| `pse__Planned_External_Costs__c` | 100.0% | trusted | |
+| `pse__Planned_Internal_Costs__c` | 100.0% | trusted | |
+| `pse__Planned_Revenue__c` | 100.0% | trusted | |
+| `pse__Hierarchy_Depth__c` | 100.0% | trusted | |
+| `pse__Planned_Utilization__c` | 100.0% | trusted | |
+| `pse__Practice_ID_Chain__c` | 100.0% | trusted | |
+| `pse__Practice_Name_Chain__c` | 100.0% | trusted | |
+| `pse__Pre_Billed__c` | 100.0% | trusted | |
+| `pse__Revenue__c` | 100.0% | trusted | |
+| `pse__Scheduled_Utilization_Target_Attainment__c` | 100.0% | trusted | |
+| `pse__Scheduled_Utilization_Target__c` | 100.0% | trusted | |
+| `pse__Total_Costs__c` | 100.0% | trusted | |
+| `pse__Utilization_Target_Attainment__c` | 100.0% | trusted | |
+| `pse__Utilization_Target__c` | 100.0% | trusted | |
+| `pse__Utilization__c` | 100.0% | trusted | |
+| `pse__Exclude_From_Utilization__c` | 100.0% | trusted | |
+| `ADLS_LOADED_DATE` | 100.0% | trusted | |
+| `LAST_UPDATED_DATE` | 100.0% | trusted | |
+| `pse__Historical_Utilization_Target_Attainment__c` | 100.0% | trusted | |
+| `pse__Other_Costs__c` | 100.0% | trusted | |
+| `pse__Excluded_Hours__c` | 100.0% | trusted | |
+| `pse__Expense_Costs__c` | 100.0% | trusted | |
+| `Name` | 100.0% | trusted | |
+| `CurrencyIsoCode` | 100.0% | trusted | |
+| `pse__Billable_External_Hours__c` | 100.0% | trusted | |
+| `pse__Billable_Internal_Hours__c` | 100.0% | trusted | |
+| `pse__Billed__c` | 100.0% | trusted | |
+| `pse__Billings__c` | 100.0% | trusted | |
+| `pse__Bookings__c` | 100.0% | trusted | |
+| `pse__Credited_Non_Billable_Internal_Hours__c` | 100.0% | trusted | |
+| `pse__Action_Update_Current_Time_Period__c` | 100.0% | trusted | |
+| `pse__Expense_Budget__c` | 100.0% | trusted | |
+| `IsDeleted` | 100.0% | trusted | |
+| `CreatedDate` | 100.0% | trusted | |
+| `SystemModstamp` | 100.0% | trusted | |
+| `LastModifiedDate` | 100.0% | trusted | |
+| `CreatedById` | 100.0% | trusted | |
+| `LastModifiedById` | 100.0% | trusted | |
+| `pse__External_Costs__c` | 100.0% | trusted | |
+| `pse__Scheduled_Utilization_Excluded_Hours__c` | 99.4% | trusted | |
+| `pse__Scheduled_Utilization_Credited_Hours__c` | 99.4% | trusted | |
+| `pse__Scheduled_Utilization_Calendar_Hours__c` | 99.4% | trusted | |
+| `pse__Scheduled_Utilization_Target_Hours__c` | 99.4% | trusted | |
+| `pse__Scheduled_Utilization__c` | 99.4% | trusted | |
+| `pse__Scheduled_Utilization_Non_Billable_Hrs__c` | 99.4% | trusted | |
+| `pse__Scheduled_Utilization_Billable_Hours__c` | 99.4% | trusted | |
+| `pse__Scheduled_Time__c` | 99.4% | trusted | |
+| `pse__Scheduled_Milestone__c` | 99.4% | trusted | |
+| `pse__Total_Utilization__c` | 99.4% | trusted | |
+| `pse__Unscheduled_Backlog__c` | 99.4% | trusted | |
+| `pse__Utilization_Target_Hours__c` | 99.4% | trusted | |
+| `pse__Hist_Sch_Utilization_Billable_Hours__c` | 99.4% | trusted | |
+| `pse__Scheduled_Utilization_Held_Hours__c` | 99.4% | trusted | |
+| `pse__Global_Practice__c` | 99.4% | trusted | |
+| `pse__Backlog_Last_Updated_By__c` | 99.4% | trusted | |
+| `pse__Inactive_Project_Backlog__c` | 99.4% | trusted | |
+| `pse__Historical_Utilization__c` | 99.4% | trusted | |
+| `pse__Hist_Sch_Utilization_Credited_Hours__c` | 99.4% | trusted | |
+| `pse__Hist_Sch_Utilization_Excluded_Hours__c` | 99.4% | trusted | |
+| `pse__Hist_Sch_Utilization_Held_Hours__c` | 99.4% | trusted | |
+| `pse__Hist_Sch_Utilization_Non_Billable_Hrs__c` | 99.4% | trusted | |
+| `pse__Historical_Utilization_Billable_Hours__c` | 99.4% | trusted | |
+| `pse__Historical_Utilization_Calendar_Hours__c` | 99.4% | trusted | |
+| `pse__Historical_Utilization_Credited_Hours__c` | 99.4% | trusted | |
+| `pse__Historical_Utilization_Excluded_Hours__c` | 99.4% | trusted | |
+| `pse__Historical_Utilization_Non_Billable_Hrs__c` | 99.4% | trusted | |
+| `pse__Historical_Utilization_Target_Hours__c` | 99.4% | trusted | |
+| `pse__Utilization_Last_Updated_By__c` | 99.4% | trusted | |
+| `pse__Current_Time_Period__c` | 99.4% | trusted | |
+| `pse__Current_Time_Period_End_Date__c` | 99.4% | trusted | |
+| `pse__Parent_Practice__c` | 99.4% | trusted | |
+| `pse__Plan_Last_Update_Date__c` | 99.4% | trusted | |
+| `pse__Plan_Last_Updated_By__c` | 99.4% | trusted | |
+| `pse__Utilization_Last_Update_Date__c` | 99.4% | trusted | |
+| `pse__Backlog_Last_Update_Date__c` | 99.4% | trusted | |
+| `pse__Actuals_Last_Updated_By__c` | 99.4% | trusted | |
+| `pse__Actuals_Last_Update_Date__c` | 99.4% | trusted | |
+| `PSA_Modality__c` | 95.1% | trusted | |
+| `MayEdit` | 95.1% | trusted | |
+| `pse__Reversed_ID_Chain__c` | 95.1% | trusted | |
+| `PSA_Practice__c` | 95.1% | trusted | |
+| `IsLocked` | 95.1% | trusted | |
+| `Practice_Code__c` | 18.3% | neutral | |
+| `pse__Practice_Head__c` | 6.7% | neutral | |
+| `External_ID__c` | 5.5% | neutral | |
+| `pse__Default_Work_Calendar__c` | 1.8% | dead | |
+| `LastActivityDate` | 0.6% | dead | |
+| `pse__Scheduled_Backlog_Calculated_Date__c` | 0.6% | dead | |
+| `pse__Utilization_Calculation_Date__c` | 0.6% | dead | |
+| `pse__Total_Time_Period_Hours__c` | 0.0% | dead | |
+| `pse__Utilization_Elapsed_Hours__c` | 0.0% | dead | |
+| `pse__Utilization_Over_Full_Time_Period__c` | 0.0% | dead | |
+| `pse__Scheduled_Backlog_End_Date__c` | 0.0% | dead | |
+| `LastViewedDate` | 0.0% | dead | |
+| `LastReferencedDate` | 0.0% | dead | |
+| `ConnectionReceivedId` | 0.0% | dead | |
+| `ConnectionSentId` | 0.0% | dead | |
+| `pse__Utilization_Period_Start_Date__c` | 0.0% | dead | |
+| `pse__Utilization_Period_End_Date__c` | 0.0% | dead | |
+| `pse__Utilization_Last_Calculation_Date__c` | 0.0% | dead | |
+
+## Notes
+
+*Add join information, gotchas, and usage patterns here.*

@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,125,125,100.0,0,0.0
+2,IsDeleted,125,125,100.0,0,0.0
+3,ParentId,125,125,100.0,0,0.0
+4,CreatedById,125,125,100.0,0,0.0
+5,CreatedDate,125,125,100.0,0,0.0
+6,Field,125,125,100.0,0,0.0
+7,DataType,125,125,100.0,0,0.0
+8,ADLS_LOADED_DATE,125,125,100.0,0,0.0
+9,LAST_UPDATED_DATE,125,125,100.0,0,0.0
+10,OldValue,37,125,29.6,88,70.4
+11,NewValue,37,125,29.6,88,70.4

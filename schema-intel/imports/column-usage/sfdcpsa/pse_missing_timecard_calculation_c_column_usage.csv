@@ -1,0 +1,26 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,869,869,100.0,0,0.0
+2,LastModifiedDate,869,869,100.0,0,0.0
+3,LAST_UPDATED_DATE,869,869,100.0,0,0.0
+4,OwnerId,869,869,100.0,0,0.0
+5,SystemModstamp,869,869,100.0,0,0.0
+6,LastModifiedById,869,869,100.0,0,0.0
+7,ADLS_LOADED_DATE,869,869,100.0,0,0.0
+8,CreatedById,869,869,100.0,0,0.0
+9,CreatedDate,869,869,100.0,0,0.0
+10,CurrencyIsoCode,869,869,100.0,0,0.0
+11,Name,869,869,100.0,0,0.0
+12,IsDeleted,869,869,100.0,0,0.0
+13,pse__Week_Start_Date__c,410,869,47.2,459,52.8
+14,pse__Week_End_Date__c,410,869,47.2,459,52.8
+15,pse__Region__c,410,869,47.2,459,52.8
+16,pse__Include_Sublevels__c,410,869,47.2,459,52.8
+17,pse__Date_Type__c,410,869,47.2,459,52.8
+18,pse__Configuration__c,410,869,47.2,459,52.8
+19,pse__Batch_Id__c,410,869,47.2,459,52.8
+20,MayEdit,220,869,25.3,649,74.7
+21,IsLocked,220,869,25.3,649,74.7
+22,pse__Group__c,0,869,0.0,869,100.0
+23,pse__Practice__c,0,869,0.0,869,100.0
+24,ConnectionSentId,0,869,0.0,869,100.0
+25,ConnectionReceivedId,0,869,0.0,869,100.0

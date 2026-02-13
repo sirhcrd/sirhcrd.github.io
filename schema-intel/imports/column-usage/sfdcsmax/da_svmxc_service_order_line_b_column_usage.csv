@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,79161,79161,100.0,0,0.0
+2,CreatedById,79161,79161,100.0,0,0.0
+3,CreatedDate,79161,79161,100.0,0,0.0
+4,SystemModstamp,79161,79161,100.0,0,0.0
+5,ESMX_Account_Indexed__c,79161,79161,100.0,0,0.0
+6,ESMX_Case_Indexed__c,79161,79161,100.0,0,0.0
+7,SVMXC_Service_Order_Indexed__c,79161,79161,100.0,0,0.0
+8,S_CreatedDate__c,79161,79161,100.0,0,0.0
+9,S_Id_Indexed__c,79161,79161,100.0,0,0.0
+10,ADLS_LOADED_DATE,79161,79161,100.0,0,0.0
+11,LAST_UPDATED_DATE,79161,79161,100.0,0,0.0

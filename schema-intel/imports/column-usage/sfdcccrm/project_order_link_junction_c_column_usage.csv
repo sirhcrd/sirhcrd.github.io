@@ -1,0 +1,25 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,6931,6931,100.0,0,0.0
+2,SystemModstamp,6931,6931,100.0,0,0.0
+3,LAST_UPDATED_DATE,6931,6931,100.0,0,0.0
+4,ADLS_LOADED_DATE,6931,6931,100.0,0,0.0
+5,Project_Order_Link_Name__c,6931,6931,100.0,0,0.0
+6,IsDeleted,6931,6931,100.0,0,0.0
+7,Project_Order_Link__c,6931,6931,100.0,0,0.0
+8,Chapter__c,6931,6931,100.0,0,0.0
+9,LastModifiedById,6931,6931,100.0,0,0.0
+10,LastModifiedDate,6931,6931,100.0,0,0.0
+11,CreatedById,6931,6931,100.0,0,0.0
+12,CreatedDate,6931,6931,100.0,0,0.0
+13,CurrencyIsoCode,6931,6931,100.0,0,0.0
+14,Name,6931,6931,100.0,0,0.0
+15,SO_Description__c,5971,6931,86.1,960,13.9
+16,Site_Visit_Report__c,3851,6931,55.6,3080,44.4
+17,Issues__c,1834,6931,26.5,5097,73.5
+18,Order_Management_Activity__c,736,6931,10.6,6195,89.4
+19,Risks__c,154,6931,2.2,6777,97.8
+20,ConnectionReceivedId,0,6931,0.0,6931,100.0
+21,ConnectionSentId,0,6931,0.0,6931,100.0
+22,Project_Change__c,1,6931,0.0,6930,100.0
+23,MayEdit,1,6931,0.0,6930,100.0
+24,IsLocked,1,6931,0.0,6930,100.0

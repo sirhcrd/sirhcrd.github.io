@@ -1,0 +1,27 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,25891,25891,100.0,0,0.0
+2,LastModifiedById,25891,25891,100.0,0,0.0
+3,LAST_UPDATED_DATE,25891,25891,100.0,0,0.0
+4,IsDeleted,25891,25891,100.0,0,0.0
+5,Order_Management_Activity__c,25891,25891,100.0,0,0.0
+6,SystemModstamp,25891,25891,100.0,0,0.0
+7,ADLS_LOADED_DATE,25891,25891,100.0,0,0.0
+8,LastModifiedDate,25891,25891,100.0,0,0.0
+9,CreatedDate,25891,25891,100.0,0,0.0
+10,CurrencyIsoCode,25891,25891,100.0,0,0.0
+11,Name,25891,25891,100.0,0,0.0
+12,CreatedById,25891,25891,100.0,0,0.0
+13,Material_Description__c,12136,25891,46.9,13755,53.1
+14,Sales_Order_Line_Item_Number__c,12136,25891,46.9,13755,53.1
+15,Quantity__c,12136,25891,46.9,13755,53.1
+16,Project__c,12136,25891,46.9,13755,53.1
+17,Material_Number__c,12136,25891,46.9,13755,53.1
+18,Is_Clinical_Product__c,12136,25891,46.9,13755,53.1
+19,Configurations__c,4894,25891,18.9,20997,81.1
+20,Clinical_Comments__c,4312,25891,16.7,21579,83.3
+21,MayEdit,1388,25891,5.4,24503,94.6
+22,IsLocked,1388,25891,5.4,24503,94.6
+23,ConnectionSentId,0,25891,0.0,25891,100.0
+24,ConnectionReceivedId,0,25891,0.0,25891,100.0
+25,Sales_Order_Chapter_Line__c,0,25891,0.0,25891,100.0
+26,LastActivityDate,0,25891,0.0,25891,100.0

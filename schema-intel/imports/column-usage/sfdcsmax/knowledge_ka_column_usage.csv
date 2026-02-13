@@ -1,0 +1,20 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,886,886,100.0,0,0.0
+2,IsDeleted,886,886,100.0,0,0.0
+3,ADLS_LOADED_DATE,886,886,100.0,0,0.0
+4,TotalViewCount,886,886,100.0,0,0.0
+5,CaseAssociationCount,886,886,100.0,0,0.0
+6,LastPublishedDate,886,886,100.0,0,0.0
+7,FirstPublishedDate,886,886,100.0,0,0.0
+8,LAST_UPDATED_DATE,886,886,100.0,0,0.0
+9,ArticleNumber,886,886,100.0,0,0.0
+10,SystemModstamp,886,886,100.0,0,0.0
+11,LastModifiedById,886,886,100.0,0,0.0
+12,LastModifiedDate,886,886,100.0,0,0.0
+13,CreatedById,886,886,100.0,0,0.0
+14,CreatedDate,886,886,100.0,0,0.0
+15,LastViewedDate,6,886,0.7,880,99.3
+16,LastReferencedDate,6,886,0.7,880,99.3
+17,ArchivedDate,0,886,0.0,886,100.0
+18,MigratedToFromArticle,0,886,0.0,886,100.0
+19,ArchivedById,0,886,0.0,886,100.0

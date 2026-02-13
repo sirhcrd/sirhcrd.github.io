@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,TableName,10973,10973,100.0,0,0.0
+2,ColumnName,10973,10973,100.0,0,0.0
+3,SourceDataSize,10973,10973,100.0,0,0.0
+4,SourceDataType,10902,10973,99.4,71,0.6

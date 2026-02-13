@@ -1,0 +1,24 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,876,876,100.0,0,0.0
+2,IsDeleted,876,876,100.0,0,0.0
+3,ADLS_LOADED_DATE,876,876,100.0,0,0.0
+4,ESMX_Product_Name__c,876,876,100.0,0,0.0
+5,ESMX_Product_Code__c,876,876,100.0,0,0.0
+6,ESMX_Location__c,876,876,100.0,0,0.0
+7,ESMX_Installed_Product__c,876,876,100.0,0,0.0
+8,ESMX_External_Id__c,876,876,100.0,0,0.0
+9,ESMX_Account__c,876,876,100.0,0,0.0
+10,ESMX_Solution__c,876,876,100.0,0,0.0
+11,LAST_UPDATED_DATE,876,876,100.0,0,0.0
+12,SystemModstamp,876,876,100.0,0,0.0
+13,LastModifiedById,876,876,100.0,0,0.0
+14,LastModifiedDate,876,876,100.0,0,0.0
+15,CreatedById,876,876,100.0,0,0.0
+16,CreatedDate,876,876,100.0,0,0.0
+17,Name,876,876,100.0,0,0.0
+18,ESMX_IP_Description__c,864,876,98.6,12,1.4
+19,ESMX_Functional_Location_Description__c,379,876,43.3,497,56.7
+20,LastReferencedDate,6,876,0.7,870,99.3
+21,LastViewedDate,6,876,0.7,870,99.3
+22,ConnectionReceivedId,0,876,0.0,876,100.0
+23,ConnectionSentId,0,876,0.0,876,100.0

@@ -1,0 +1,16 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,460,460,100.0,0,0.0
+2,Name,460,460,100.0,0,0.0
+3,DeveloperName,460,460,100.0,0,0.0
+4,SobjectType,460,460,100.0,0,0.0
+5,IsActive,460,460,100.0,0,0.0
+6,CreatedById,460,460,100.0,0,0.0
+7,CreatedDate,460,460,100.0,0,0.0
+8,LastModifiedById,460,460,100.0,0,0.0
+9,LastModifiedDate,460,460,100.0,0,0.0
+10,SystemModstamp,460,460,100.0,0,0.0
+11,ADLS_LOADED_DATE,460,460,100.0,0,0.0
+12,LAST_UPDATED_DATE,460,460,100.0,0,0.0
+13,Description,299,460,65.0,161,35.0
+14,NamespacePrefix,76,460,16.5,384,83.5
+15,BusinessProcessId,55,460,12.0,405,88.0

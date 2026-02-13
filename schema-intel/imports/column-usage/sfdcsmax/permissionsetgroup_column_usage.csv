@@ -1,0 +1,16 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,77,77,100.0,0,0.0
+2,IsDeleted,77,77,100.0,0,0.0
+3,DeveloperName,77,77,100.0,0,0.0
+4,Language,77,77,100.0,0,0.0
+5,MasterLabel,77,77,100.0,0,0.0
+6,CreatedDate,77,77,100.0,0,0.0
+7,CreatedById,77,77,100.0,0,0.0
+8,LastModifiedDate,77,77,100.0,0,0.0
+9,LastModifiedById,77,77,100.0,0,0.0
+10,SystemModstamp,77,77,100.0,0,0.0
+11,Status,77,77,100.0,0,0.0
+12,ADLS_LOADED_DATE,77,77,100.0,0,0.0
+13,LAST_UPDATED_DATE,77,77,100.0,0,0.0
+14,Description,74,77,96.1,3,3.9
+15,NamespacePrefix,2,77,2.6,75,97.4

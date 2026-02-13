@@ -1,0 +1,24 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,209,209,100.0,0,0.0
+2,LAST_UPDATED_DATE,209,209,100.0,0,0.0
+3,APTS_RSM_Type__c,209,209,100.0,0,0.0
+4,APTS_RSM_Entitlement_Product_Code__c,209,209,100.0,0,0.0
+5,APTS_Quote_Type__c,209,209,100.0,0,0.0
+6,APTS_Overwrite_NBV_Values__c,209,209,100.0,0,0.0
+7,APTS_Equipment_Product_Code__c,209,209,100.0,0,0.0
+8,APTS_Equipment_Line_Number__c,209,209,100.0,0,0.0
+9,OwnerId,209,209,100.0,0,0.0
+10,ADLS_LOADED_DATE,209,209,100.0,0,0.0
+11,SystemModstamp,209,209,100.0,0,0.0
+12,LastModifiedById,209,209,100.0,0,0.0
+13,LastModifiedDate,209,209,100.0,0,0.0
+14,CreatedById,209,209,100.0,0,0.0
+15,CreatedDate,209,209,100.0,0,0.0
+16,CurrencyIsoCode,209,209,100.0,0,0.0
+17,Name,209,209,100.0,0,0.0
+18,IsDeleted,209,209,100.0,0,0.0
+19,APTS_Product_Configuration_Id__c,201,209,96.2,8,3.8
+20,MayEdit,164,209,78.5,45,21.5
+21,IsLocked,164,209,78.5,45,21.5
+22,ConnectionReceivedId,0,209,0.0,209,100.0
+23,ConnectionSentId,0,209,0.0,209,100.0

@@ -1,0 +1,17 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,1,1,100.0,0,0.0
+2,IsDeleted,1,1,100.0,0,0.0
+3,Name,1,1,100.0,0,0.0
+4,CreatedDate,1,1,100.0,0,0.0
+5,CreatedById,1,1,100.0,0,0.0
+6,LastModifiedDate,1,1,100.0,0,0.0
+7,LastModifiedById,1,1,100.0,0,0.0
+8,SystemModstamp,1,1,100.0,0,0.0
+9,IsActive,1,1,100.0,0,0.0
+10,IsArchived,1,1,100.0,0,0.0
+11,IsStandard,1,1,100.0,0,0.0
+12,ADLS_LOADED_DATE,1,1,100.0,0,0.0
+13,LAST_UPDATED_DATE,1,1,100.0,0,0.0
+14,LastViewedDate,0,1,0.0,1,100.0
+15,LastReferencedDate,0,1,0.0,1,100.0
+16,Description,0,1,0.0,1,100.0

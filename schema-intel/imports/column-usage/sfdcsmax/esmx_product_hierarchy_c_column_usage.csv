@@ -1,0 +1,15 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,377,377,100.0,0,0.0
+2,OwnerId,377,377,100.0,0,0.0
+3,IsDeleted,377,377,100.0,0,0.0
+4,Name,377,377,100.0,0,0.0
+5,CreatedDate,377,377,100.0,0,0.0
+6,CreatedById,377,377,100.0,0,0.0
+7,LastModifiedDate,377,377,100.0,0,0.0
+8,LastModifiedById,377,377,100.0,0,0.0
+9,SystemModstamp,377,377,100.0,0,0.0
+10,ESMX_External_Id__c,377,377,100.0,0,0.0
+11,ADLS_LOADED_DATE,377,377,100.0,0,0.0
+12,LAST_UPDATED_DATE,377,377,100.0,0,0.0
+13,ConnectionReceivedId,0,377,0.0,377,100.0
+14,ConnectionSentId,0,377,0.0,377,100.0

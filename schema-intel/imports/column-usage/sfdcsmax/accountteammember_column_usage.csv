@@ -1,0 +1,19 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,706,706,100.0,0,0.0
+2,AccountId,706,706,100.0,0,0.0
+3,ADLS_LOADED_DATE,706,706,100.0,0,0.0
+4,IsDeleted,706,706,100.0,0,0.0
+5,SystemModstamp,706,706,100.0,0,0.0
+6,LastModifiedById,706,706,100.0,0,0.0
+7,LastModifiedDate,706,706,100.0,0,0.0
+8,CreatedById,706,706,100.0,0,0.0
+9,CreatedDate,706,706,100.0,0,0.0
+10,ContactAccessLevel,706,706,100.0,0,0.0
+11,CaseAccessLevel,706,706,100.0,0,0.0
+12,OpportunityAccessLevel,706,706,100.0,0,0.0
+13,AccountAccessLevel,706,706,100.0,0,0.0
+14,PhotoUrl,706,706,100.0,0,0.0
+15,TeamMemberRole,706,706,100.0,0,0.0
+16,UserId,706,706,100.0,0,0.0
+17,LAST_UPDATED_DATE,706,706,100.0,0,0.0
+18,Title,63,706,8.9,643,91.1

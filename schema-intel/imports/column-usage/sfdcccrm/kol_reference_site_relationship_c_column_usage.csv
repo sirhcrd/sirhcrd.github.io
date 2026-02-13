@@ -1,0 +1,23 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,147,147,100.0,0,0.0
+2,SystemModstamp,147,147,100.0,0,0.0
+3,LAST_UPDATED_DATE,147,147,100.0,0,0.0
+4,ADLS_LOADED_DATE,147,147,100.0,0,0.0
+5,Reference_Group__c,147,147,100.0,0,0.0
+6,Reference_Site_Status__c,147,147,100.0,0,0.0
+7,IsDeleted,147,147,100.0,0,0.0
+8,Reference_Site__c,147,147,100.0,0,0.0
+9,LastModifiedById,147,147,100.0,0,0.0
+10,LastModifiedDate,147,147,100.0,0,0.0
+11,CreatedById,147,147,100.0,0,0.0
+12,CreatedDate,147,147,100.0,0,0.0
+13,CurrencyIsoCode,147,147,100.0,0,0.0
+14,Name,147,147,100.0,0,0.0
+15,Reference_Site_Type__c,111,147,75.5,36,24.5
+16,Reference_Site_Activities__c,105,147,71.4,42,28.6
+17,Relationship_Status__c,54,147,36.7,93,63.3
+18,Reference_Site_Since__c,53,147,36.1,94,63.9
+19,MayEdit,2,147,1.4,145,98.6
+20,IsLocked,2,147,1.4,145,98.6
+21,ConnectionReceivedId,0,147,0.0,147,100.0
+22,ConnectionSentId,0,147,0.0,147,100.0

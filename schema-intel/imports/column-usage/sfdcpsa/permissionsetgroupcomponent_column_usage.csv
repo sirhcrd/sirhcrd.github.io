@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,585,585,100.0,0,0.0
+2,IsDeleted,585,585,100.0,0,0.0
+3,CreatedDate,585,585,100.0,0,0.0
+4,CreatedById,585,585,100.0,0,0.0
+5,LastModifiedDate,585,585,100.0,0,0.0
+6,LastModifiedById,585,585,100.0,0,0.0
+7,SystemModstamp,585,585,100.0,0,0.0
+8,PermissionSetGroupId,585,585,100.0,0,0.0
+9,PermissionSetId,585,585,100.0,0,0.0
+10,ADLS_LOADED_DATE,585,585,100.0,0,0.0
+11,LAST_UPDATED_DATE,585,585,100.0,0,0.0

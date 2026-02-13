@@ -1,0 +1,24 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,6127,6127,100.0,0,0.0
+2,APTS_Parent_Local_Bundle__c,6127,6127,100.0,0,0.0
+3,APTS_Local_Bundle__c,6127,6127,100.0,0,0.0
+4,APTS_Ext_ID__c,6127,6127,100.0,0,0.0
+5,APTS_Active__c,6127,6127,100.0,0,0.0
+6,ADLS_LOADED_DATE,6127,6127,100.0,0,0.0
+7,LAST_UPDATED_DATE,6127,6127,100.0,0,0.0
+8,OwnerId,6127,6127,100.0,0,0.0
+9,SystemModstamp,6127,6127,100.0,0,0.0
+10,LastModifiedById,6127,6127,100.0,0,0.0
+11,LastModifiedDate,6127,6127,100.0,0,0.0
+12,CreatedById,6127,6127,100.0,0,0.0
+13,CreatedDate,6127,6127,100.0,0,0.0
+14,CurrencyIsoCode,6127,6127,100.0,0,0.0
+15,Name,6127,6127,100.0,0,0.0
+16,IsDeleted,6127,6127,100.0,0,0.0
+17,APTS_Parent_Bundle__c,6127,6127,100.0,0,0.0
+18,MayEdit,3818,6127,62.3,2309,37.7
+19,IsLocked,3818,6127,62.3,2309,37.7
+20,ConnectionSentId,0,6127,0.0,6127,100.0
+21,ConnectionReceivedId,0,6127,0.0,6127,100.0
+22,LastViewedDate,0,6127,0.0,6127,100.0
+23,LastReferencedDate,0,6127,0.0,6127,100.0

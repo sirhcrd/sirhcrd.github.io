@@ -1,0 +1,14 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,6797,6797,100.0,0,0.0
+2,CaseId,6797,6797,100.0,0,0.0
+3,KnowledgeArticleId,6797,6797,100.0,0,0.0
+4,KnowledgeArticleVersionId,6797,6797,100.0,0,0.0
+5,CreatedById,6797,6797,100.0,0,0.0
+6,CreatedDate,6797,6797,100.0,0,0.0
+7,SystemModstamp,6797,6797,100.0,0,0.0
+8,IsDeleted,6797,6797,100.0,0,0.0
+9,ArticleLanguage,6797,6797,100.0,0,0.0
+10,ArticleVersionNumber,6797,6797,100.0,0,0.0
+11,IsSharedByEmail,6797,6797,100.0,0,0.0
+12,ADLS_LOADED_DATE,6797,6797,100.0,0,0.0
+13,LAST_UPDATED_DATE,6797,6797,100.0,0,0.0

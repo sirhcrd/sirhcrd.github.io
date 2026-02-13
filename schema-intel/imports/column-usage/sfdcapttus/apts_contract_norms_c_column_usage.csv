@@ -1,0 +1,25 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,217,217,100.0,0,0.0
+2,OwnerId,217,217,100.0,0,0.0
+3,LAST_UPDATED_DATE,217,217,100.0,0,0.0
+4,ADLS_LOADED_DATE,217,217,100.0,0,0.0
+5,MAG__c,217,217,100.0,0,0.0
+6,Contract__c,217,217,100.0,0,0.0
+7,APTS_Ship_to_Country__c,217,217,100.0,0,0.0
+8,APTS_Ext_ID__c,217,217,100.0,0,0.0
+9,APTS_ConditionType__c,217,217,100.0,0,0.0
+10,APTS_Admin_Fee__c,217,217,100.0,0,0.0
+11,SystemModstamp,217,217,100.0,0,0.0
+12,LastModifiedById,217,217,100.0,0,0.0
+13,LastModifiedDate,217,217,100.0,0,0.0
+14,CreatedById,217,217,100.0,0,0.0
+15,CreatedDate,217,217,100.0,0,0.0
+16,CurrencyIsoCode,217,217,100.0,0,0.0
+17,Name,217,217,100.0,0,0.0
+18,IsDeleted,217,217,100.0,0,0.0
+19,ConnectionReceivedId,0,217,0.0,217,100.0
+20,ConnectionSentId,0,217,0.0,217,100.0
+21,APTS_GL_Account__c,0,217,0.0,217,100.0
+22,BU__c,0,217,0.0,217,100.0
+23,MayEdit,0,217,0.0,217,100.0
+24,IsLocked,0,217,0.0,217,100.0

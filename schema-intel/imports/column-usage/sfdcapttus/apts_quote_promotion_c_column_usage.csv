@@ -1,0 +1,23 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,2632,2632,100.0,0,0.0
+2,SystemModstamp,2632,2632,100.0,0,0.0
+3,LAST_UPDATED_DATE,2632,2632,100.0,0,0.0
+4,APTS_Promo_description__c,2632,2632,100.0,0,0.0
+5,APTS_Promo_code__c,2632,2632,100.0,0,0.0
+6,APTS_Promo_Name__c,2632,2632,100.0,0,0.0
+7,OwnerId,2632,2632,100.0,0,0.0
+8,LastModifiedById,2632,2632,100.0,0,0.0
+9,LastModifiedDate,2632,2632,100.0,0,0.0
+10,CreatedById,2632,2632,100.0,0,0.0
+11,CreatedDate,2632,2632,100.0,0,0.0
+12,CurrencyIsoCode,2632,2632,100.0,0,0.0
+13,Name,2632,2632,100.0,0,0.0
+14,IsDeleted,2632,2632,100.0,0,0.0
+15,ADLS_LOADED_DATE,2632,2632,100.0,0,0.0
+16,APTS_CFD_static_labels__c,2626,2632,99.8,6,0.2
+17,APTS_Promo_name_formula__c,2537,2632,96.4,95,3.6
+18,APTS_Is_Service_Turnover__c,2369,2632,90.0,263,10.0
+19,APTS_Quote_Section_Bundle__c,2158,2632,82.0,474,18.0
+20,APTS_Quote_Section__c,0,2632,0.0,2632,100.0
+21,ConnectionReceivedId,0,2632,0.0,2632,100.0
+22,ConnectionSentId,0,2632,0.0,2632,100.0

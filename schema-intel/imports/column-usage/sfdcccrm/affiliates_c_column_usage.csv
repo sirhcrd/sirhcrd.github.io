@@ -1,0 +1,22 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,16640,16640,100.0,0,0.0
+2,ADLS_LOADED_DATE,16640,16640,100.0,0,0.0
+3,Name,16640,16640,100.0,0,0.0
+4,CurrencyIsoCode,16640,16640,100.0,0,0.0
+5,CreatedDate,16640,16640,100.0,0,0.0
+6,CreatedById,16640,16640,100.0,0,0.0
+7,LastModifiedDate,16640,16640,100.0,0,0.0
+8,LastModifiedById,16640,16640,100.0,0,0.0
+9,SystemModstamp,16640,16640,100.0,0,0.0
+10,IsDeleted,16640,16640,100.0,0,0.0
+11,Account__c,16640,16640,100.0,0,0.0
+12,Contact__c,16640,16640,100.0,0,0.0
+13,LAST_UPDATED_DATE,16640,16640,100.0,0,0.0
+14,Job_Title__c,4515,16640,27.1,12125,72.9
+15,MayEdit,3695,16640,22.2,12945,77.8
+16,IsLocked,3695,16640,22.2,12945,77.8
+17,CPQ_Unique_Key__c,18,16640,0.1,16622,99.9
+18,Affiliated_Contacts_Reports_To__c,0,16640,0.0,16640,100.0
+19,Affiliated_Contact_Department__c,0,16640,0.0,16640,100.0
+20,ConnectionReceivedId,0,16640,0.0,16640,100.0
+21,ConnectionSentId,0,16640,0.0,16640,100.0

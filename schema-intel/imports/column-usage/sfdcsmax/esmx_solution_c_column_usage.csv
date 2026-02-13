@@ -1,0 +1,19 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,423,423,100.0,0,0.0
+2,LastModifiedById,423,423,100.0,0,0.0
+3,ADLS_LOADED_DATE,423,423,100.0,0,0.0
+4,ESMX_Status__c,423,423,100.0,0,0.0
+5,ESMX_Description__c,423,423,100.0,0,0.0
+6,OwnerId,423,423,100.0,0,0.0
+7,SystemModstamp,423,423,100.0,0,0.0
+8,LAST_UPDATED_DATE,423,423,100.0,0,0.0
+9,LastModifiedDate,423,423,100.0,0,0.0
+10,CreatedById,423,423,100.0,0,0.0
+11,CreatedDate,423,423,100.0,0,0.0
+12,Name,423,423,100.0,0,0.0
+13,IsDeleted,423,423,100.0,0,0.0
+14,LastReferencedDate,14,423,3.3,409,96.7
+15,LastViewedDate,14,423,3.3,409,96.7
+16,ConnectionReceivedId,0,423,0.0,423,100.0
+17,ConnectionSentId,0,423,0.0,423,100.0
+18,ESMX_Solution__c,0,423,0.0,423,100.0

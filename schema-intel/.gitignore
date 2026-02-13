@@ -1,0 +1,9 @@
+# Build outputs (regenerated from source Markdown)
+build/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc

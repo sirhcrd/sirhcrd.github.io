@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,29524,29524,100.0,0,0.0
+2,CreatedById,29524,29524,100.0,0,0.0
+3,CreatedDate,29524,29524,100.0,0,0.0
+4,SystemModstamp,29524,29524,100.0,0,0.0
+5,ESMX_Service_Type_Indexed__c,29524,29524,100.0,0,0.0
+6,SVMXC_Case_Indexed__c,29524,29524,100.0,0,0.0
+7,SVMXC_Company_Indexed__c,29524,29524,100.0,0,0.0
+8,S_CreatedDate__c,29524,29524,100.0,0,0.0
+9,S_Id_Indexed__c,29524,29524,100.0,0,0.0
+10,ADLS_LOADED_DATE,29524,29524,100.0,0,0.0
+11,LAST_UPDATED_DATE,29524,29524,100.0,0,0.0

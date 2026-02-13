@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,58,58,100.0,0,0.0
+2,DeveloperName,58,58,100.0,0,0.0
+3,MasterLabel,58,58,100.0,0,0.0
+4,Language,58,58,100.0,0,0.0
+5,Label,58,58,100.0,0,0.0
+6,QualifiedApiName,58,58,100.0,0,0.0
+7,CPM_Cost_Element__c,58,58,100.0,0,0.0
+8,CPM_Job_Mapping__c,58,58,100.0,0,0.0
+9,CPM_Resource_Role__c,58,58,100.0,0,0.0
+10,ADLS_LOADED_DATE,58,58,100.0,0,0.0
+11,LAST_UPDATED_DATE,58,58,100.0,0,0.0
+12,NamespacePrefix,0,58,0.0,58,100.0

@@ -1,0 +1,20 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,18900,18900,100.0,0,0.0
+2,LastModifiedById,18900,18900,100.0,0,0.0
+3,ADLS_LOADED_DATE,18900,18900,100.0,0,0.0
+4,SVMXC__Service_Template__c,18900,18900,100.0,0,0.0
+5,IsDeleted,18900,18900,100.0,0,0.0
+6,SystemModstamp,18900,18900,100.0,0,0.0
+7,LAST_UPDATED_DATE,18900,18900,100.0,0,0.0
+8,LastModifiedDate,18900,18900,100.0,0,0.0
+9,CreatedById,18900,18900,100.0,0,0.0
+10,CreatedDate,18900,18900,100.0,0,0.0
+11,Name,18900,18900,100.0,0,0.0
+12,SVMXC__Product__c,18879,18900,99.9,21,0.1
+13,ESMX_WarrantyTermProductCode__c,15367,18900,81.3,3533,18.7
+14,LastActivityDate,1,18900,0.0,18899,100.0
+15,ConnectionSentId,0,18900,0.0,18900,100.0
+16,SVMXC__Product_Family__c,0,18900,0.0,18900,100.0
+17,SVMXC__Product_Line__c,0,18900,0.0,18900,100.0
+18,ESMX_Effective_Date__c,0,18900,0.0,18900,100.0
+19,ConnectionReceivedId,0,18900,0.0,18900,100.0

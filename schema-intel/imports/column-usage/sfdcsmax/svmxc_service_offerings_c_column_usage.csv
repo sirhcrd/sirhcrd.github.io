@@ -1,0 +1,26 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,4164,4164,100.0,0,0.0
+2,SystemModstamp,4164,4164,100.0,0,0.0
+3,LAST_UPDATED_DATE,4164,4164,100.0,0,0.0
+4,ADLS_LOADED_DATE,4164,4164,100.0,0,0.0
+5,SVMXC__Labor_Discount_Covered__c,4164,4164,100.0,0,0.0
+6,IsDeleted,4164,4164,100.0,0,0.0
+7,SVMXC__Service_Plan__c,4164,4164,100.0,0,0.0
+8,SVMXC__Available_Services__c,4162,4164,100.0,2,0.0
+9,CreatedById,4164,4164,100.0,0,0.0
+10,Name,4164,4164,100.0,0,0.0
+11,LastModifiedById,4164,4164,100.0,0,0.0
+12,LastModifiedDate,4164,4164,100.0,0,0.0
+13,CreatedDate,4164,4164,100.0,0,0.0
+14,SVMXC__Parts_Discount_Covered__c,0,4164,0.0,4164,100.0
+15,SVMXC__Travel_Discount_Not_Covered__c,0,4164,0.0,4164,100.0
+16,SVMXC__Travel_Discount_Covered__c,0,4164,0.0,4164,100.0
+17,SVMXC__Parts_Discount_Not_Covered__c,0,4164,0.0,4164,100.0
+18,LastActivityDate,2,4164,0.0,4162,100.0
+19,SVMXC__Labor_Discount_Not_Covered__c,0,4164,0.0,4164,100.0
+20,ConnectionReceivedId,0,4164,0.0,4164,100.0
+21,SVMXC__Included_Units__c,0,4164,0.0,4164,100.0
+22,SVMXC__Expense_Discount_Not_Covered__c,0,4164,0.0,4164,100.0
+23,SVMXC__Expense_Discount_Covered__c,0,4164,0.0,4164,100.0
+24,ConnectionSentId,0,4164,0.0,4164,100.0
+25,ESMX_Business_Hours_Time__c,1,4164,0.0,4163,100.0

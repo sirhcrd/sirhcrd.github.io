@@ -1,0 +1,23 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,Id,1015,1015,100.0,0,0.0
+2,LastModifiedById,1015,1015,100.0,0,0.0
+3,PSA_Checklist_Template__c,1015,1015,100.0,0,0.0
+4,IsDeleted,1015,1015,100.0,0,0.0
+5,LAST_UPDATED_DATE,1015,1015,100.0,0,0.0
+6,SystemModstamp,1015,1015,100.0,0,0.0
+7,ADLS_LOADED_DATE,1015,1015,100.0,0,0.0
+8,LastModifiedDate,1015,1015,100.0,0,0.0
+9,CreatedById,1015,1015,100.0,0,0.0
+10,CreatedDate,1015,1015,100.0,0,0.0
+11,CurrencyIsoCode,1015,1015,100.0,0,0.0
+12,Name,1015,1015,100.0,0,0.0
+13,PSA_Section_Header__c,1012,1015,99.7,3,0.3
+14,PSA_Question__c,1007,1015,99.2,8,0.8
+15,PSA_Section_Sort_Order__c,1006,1015,99.1,9,0.9
+16,PSA_Question_Sort_Order__c,1006,1015,99.1,9,0.9
+17,PSA_Help_Text_CTQ__c,588,1015,57.9,427,42.1
+18,MayEdit,493,1015,48.6,522,51.4
+19,IsLocked,493,1015,48.6,522,51.4
+20,ConnectionReceivedId,0,1015,0.0,1015,100.0
+21,LastActivityDate,0,1015,0.0,1015,100.0
+22,ConnectionSentId,0,1015,0.0,1015,100.0
