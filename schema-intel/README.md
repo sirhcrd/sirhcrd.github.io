@@ -8,8 +8,11 @@ A queryable knowledge base of your company's database landscape that enables acc
 - Query execution engine (this documents structure, not data)
 - Replacing your coworker's existing tools — this extends them
 
+## Live Site
+**GitHub Pages:** [https://sirhcrd.github.io/schema-intel/](https://sirhcrd.github.io/schema-intel/)
+
 ## Core Constraints
-- **Data volume:** Hundreds of tables, thousands of columns (scales via tooling)
+- **Data volume:** 1,772 tables, 75,946 columns across 8 schemas
 - **Source of truth:** Markdown files in `data/` directory
 - **Consistency model:** Manual updates via notebook runs + exports
 - **Deployment:** GitHub Pages for web UI, local SQLite for AI access
@@ -66,9 +69,18 @@ python3 -m http.server 8080
 
 Use the schema analyzer notebook: `databaseColumnAnalysis/schema_analyzer.ipynb`
 
-1. Set `CATALOG` and `SCHEMA` in cell 2 (e.g., `prod_l1`, `sfdcpsa`)
-2. Run all cells — auto-discovers all tables
-3. Download ZIP from workspace folder
+1. Set `SCHEMAS` list in cell 2 (e.g., `["sfdcpsa", "sfdcapttus"]`)
+2. Optionally configure:
+   - `SKIP_TABLES` — list of tables to skip (e.g., monster tables like `acdoca`)
+   - `SKIP_EXISTING = True` — resume mode, skips tables that already have output CSVs
+   - `MAX_ROWS_FULL_SCAN = 50_000_000` — tables above this get sampled
+   - `SAMPLE_SIZE = 10_000_000` — sample size for large tables
+3. Run all cells — auto-discovers all tables in each schema
+4. Download ZIP from workspace folder
+
+> **Monster tables (e.g., acdoca, bseg):** For tables with 1B+ rows that are too slow
+> even with sampling, use the pure SQL queries generated during Phase 5 and run them
+> directly on a SQL warehouse.
 
 ### Step 2: Import to Schema Intel
 
@@ -92,21 +104,30 @@ schema-intel/
 ├── README.md              # This file
 ├── DESIGN.md              # Architecture decisions
 ├── TASK.md                # Current work in progress
+├── data.json              # Root copy for GitHub Pages (build/ is gitignored)
 │
 ├── data/                  # Markdown source files (source of truth)
-│   ├── tables/            # One .md per table (49 tables)
-│   ├── joins.md           # Manual relationship definitions
-│   ├── detected-joins.md  # Auto-detected FK relationships
+│   ├── tables/            # One .md per table (1,772 tables)
+│   ├── joins.md           # Manual relationship definitions (19 joins)
+│   ├── detected-joins.md  # Auto-detected FK relationships (609 links)
 │   ├── glossary.md        # Business terms → technical mapping
 │   └── id-prefixes.md     # Salesforce ID decoder (37 prefixes)
 │
 ├── imports/               # Raw data to process
-│   └── column-usage/      # CSV exports organized by schema
-│       ├── sfdcpsa/       # Salesforce PSA tables
+│   ├── column-usage/      # CSV exports organized by schema
+│   │   ├── imax/          # 4 tables
+│   │   ├── sfdcpsa/       # 46 tables (Salesforce PSA)
+│   │   ├── sfdcapttus/    # 62 tables (Salesforce Apttus)
+│   │   ├── sfdcccrm/      # 102 tables (Salesforce CCRM)
+│   │   ├── sfdcsmax/      # 143 tables (Salesforce SMax)
+│   │   ├── mcp/           # 626 tables (ERP)
+│   │   ├── mp1/           # 874 tables (ERP)
+│   │   └── wpp/           # 1,140 tables (ERP/SAP)
+│   └── temp/              # Temp files for reference building
 │       ├── temp_ids.csv   # ID samples for prefix decoder
 │       └── temp_columns.csv # Column samples for FK detection
 │
-├── build/                 # Generated outputs
+├── build/                 # Generated outputs (gitignored)
 │   ├── schema.db          # SQLite database
 │   └── data.json          # For web UI
 │
@@ -114,21 +135,29 @@ schema-intel/
 │   ├── batch_build.py     # One-command full rebuild
 │   ├── csv_to_markdown.py # CSV → Markdown table files
 │   ├── build_db.py        # Markdown → SQLite
-│   ├── build_json.py      # Markdown → JSON
+│   ├── build_json.py      # Markdown → JSON (outputs to build/ + root)
 │   └── build_references.py # ID prefixes + FK detection
 │
-└── index.html             # Web UI
+└── index.html             # Web UI (5 tabs)
 ```
 
 ## Data Sources
 
-| Source | Status | What it provides |
-|--------|--------|------------------|
-| iMax tables | ✅ Imported | 4 tables, ~1,961 columns |
-| sfdcpsa tables | ✅ Imported | 45 tables (PSA/Salesforce) |
-| `temp_ids` | ✅ Processed | 37 ID prefixes decoded |
-| `temp_columns` | ✅ Processed | 609 FK relationships detected |
-| SAP/ERP tables | 🔄 Future | Additional coverage |
+| Source | Schema | Status | Tables | Columns |
+|--------|--------|--------|--------|---------|
+| iMax | imax | ✅ Imported | 4 | ~1,961 |
+| Salesforce PSA | sfdcpsa | ✅ Imported | 46 | — |
+| Salesforce Apttus | sfdcapttus | ✅ Imported | 62 | — |
+| Salesforce CCRM | sfdcccrm | ✅ Imported | 102 | — |
+| Salesforce SMax | sfdcsmax | ✅ Imported | 143 | — |
+| ERP (MCP) | mcp | ✅ Imported | 626 | — |
+| ERP (MP1) | mp1 | ✅ Imported | 874 | — |
+| SAP/ERP (WPP) | wpp | ✅ Imported | 1,140 | — |
+| **Totals** | | | **1,772** | **75,946** |
+
+**Reference data:**
+- `temp_ids` → 37 Salesforce ID prefixes decoded
+- `temp_columns` → 609 FK relationships auto-detected
 
 ## Git Workflow
 - **Branches:** `feature/description`, `fix/description`

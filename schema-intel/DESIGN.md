@@ -47,12 +47,13 @@
 - **Trade-offs accepted:** Must rebuild after Markdown changes
 
 ### Decision: Static Web UI
-- **Chosen approach:** Single HTML file reading from `build/data.json` on GitHub Pages
+- **Chosen approach:** Single HTML file reading from `data.json` served via GitHub Pages
 - **Alternatives considered:**
   - Server-rendered app (unnecessary complexity for read-only data)
   - Multiple HTML pages (harder to maintain)
 - **Reasoning:** No backend needed; works anywhere; can be shared via URL
-- **Trade-offs accepted:** Must rebuild JSON when data changes
+- **Trade-offs accepted:** Must rebuild JSON when data changes; `data.json` must be copied to project root since `build/` is gitignored — `build_json.py` handles this automatically via `shutil.copy2`
+- **Deployment:** GitHub Pages at `https://sirhcrd.github.io/schema-intel/`
 
 ### Decision: Auto-Detect FK via ID Prefix
 - **Chosen approach:** Parse sample column values, extract Salesforce ID prefixes, match to tables
@@ -61,6 +62,30 @@
   - Query system metadata (not available in Databricks/read-only)
 - **Reasoning:** Salesforce IDs have 3-char prefixes that identify object type; sample data reveals which columns link where
 - **Trade-offs accepted:** Some false positives when prefixes collide; must verify before critical use
+
+### Decision: Sampling for Large Tables
+- **Chosen approach:** Tables exceeding `MAX_ROWS_FULL_SCAN` (50M rows) are sampled using `df.sample(False, fraction)` in the notebook, with `SAMPLE_SIZE` (10M rows) as the target
+- **Alternatives considered:**
+  - Full scan always (impractical for 1B+ row tables — hours per table)
+  - Skip large tables entirely (loses coverage)
+- **Reasoning:** Column usage percentages are statistically equivalent at 10M rows vs. full scan for tables with billions of rows; sampling completes in minutes vs. hours
+- **Trade-offs accepted:** Usage % is approximate (±1-2%) for sampled tables; frontmatter notes when sampling was used
+
+### Decision: SQL Warehouse Queries for Monster Tables
+- **Chosen approach:** For tables too large even with notebook sampling (e.g., `acdoca` with 1.3B rows, `bseg`), generate pure SQL queries using `TABLESAMPLE (10 PERCENT)` and run them directly on a SQL warehouse
+- **Alternatives considered:**
+  - Running in notebook with aggressive sampling (still too slow due to Spark overhead)
+  - Skipping entirely (leaves critical SAP tables undocumented)
+- **Reasoning:** SQL warehouse bypasses Spark session overhead; `TABLESAMPLE` pushes sampling to the storage layer
+- **Trade-offs accepted:** Requires manual execution + CSV export; results must be placed in correct import folder
+
+### Decision: Resume Mode (SKIP_EXISTING)
+- **Chosen approach:** Notebook checks if output CSV already exists for each table and skips it when `SKIP_EXISTING = True`
+- **Alternatives considered:**
+  - Always re-analyze (wastes time on schemas with 1000+ tables when runs are interrupted)
+  - Checkpoint files (more complex for same benefit)
+- **Reasoning:** Simple, stateless — just checks filesystem. Allows interrupted runs to resume without re-doing work
+- **Trade-offs accepted:** Must manually delete a CSV to force re-analysis of that table
 
 ## Data Model
 
@@ -155,5 +180,9 @@ CREATE TABLE id_prefixes (
 
 - Need for real-time schema sync → would require live DB connection
 - Multi-user concurrent editing → would need proper backend
-- Tables exceed 1000+ → may need sharding or categorization
+- Tables exceed 10,000+ → may need pagination or lazy loading in web UI
 - Non-Philips deployment → may need auth/access controls
+
+> **Note:** The system scaled past the original 1,000-table threshold without
+> redesign. At 1,772 tables / 75,946 columns, the static architecture still
+> performs well thanks to client-side search and JSON compression.
