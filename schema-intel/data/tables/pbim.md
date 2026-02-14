@@ -1,9 +1,9 @@
 ---
 table: pbim
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2979
-column_count: 36
+row_count: 3568
+column_count: 37
 ---
 
 # pbim
@@ -14,7 +14,7 @@ column_count: 36
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 36 | 100% |
+| Trusted (≥50%) | 37 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,41 +22,42 @@ column_count: 36
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `MCINF` | 100.0% | trusted | |
-| `STFNA` | 100.0% | trusted | |
-| `OPLKZ` | 100.0% | trusted | |
-| `MCINC` | 100.0% | trusted | |
-| `VRSIC` | 100.0% | trusted | |
-| `KNTTP` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `KZVBR` | 100.0% | trusted | |
-| `PSPEL` | 100.0% | trusted | |
-| `KDPOS` | 100.0% | trusted | |
-| `KDAUF` | 100.0% | trusted | |
-| `PROFILID` | 100.0% | trusted | |
-| `KZBWS` | 100.0% | trusted | |
-| `PBDNR_EXT` | 100.0% | trusted | |
-| `SGT_RCAT` | 100.0% | trusted | |
-| `VRSIO` | 100.0% | trusted | |
-| `PLSCN` | 100.0% | trusted | |
-| `AGGPB` | 100.0% | trusted | |
-| `VERVS` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `BEDAE` | 100.0% | trusted | |
-| `VERSB` | 100.0% | trusted | |
-| `PBDNR` | 100.0% | trusted | |
-| `BDZEI` | 100.0% | trusted | |
-| `ZUVKZ` | 100.0% | trusted | |
-| `VERKZ` | 100.0% | trusted | |
-| `UHRLP` | 100.0% | trusted | |
-| `ZUOKR` | 100.0% | trusted | |
-| `PLNKZ` | 100.0% | trusted | |
-| `TXTKZ` | 100.0% | trusted | |
-| `LOEVR` | 100.0% | trusted | |
-| `UEBKZ` | 100.0% | trusted | |
-| `DATLP` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `plscn` | 100.0% | trusted | |
+| `mcinf` | 100.0% | trusted | |
+| `stfna` | 100.0% | trusted | |
+| `oplkz` | 100.0% | trusted | |
+| `mcinc` | 100.0% | trusted | |
+| `vrsic` | 100.0% | trusted | |
+| `knttp` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `kzvbr` | 100.0% | trusted | |
+| `pspel` | 100.0% | trusted | |
+| `kdpos` | 100.0% | trusted | |
+| `kdauf` | 100.0% | trusted | |
+| `profilid` | 100.0% | trusted | |
+| `kzbws` | 100.0% | trusted | |
+| `pbdnr_ext` | 100.0% | trusted | |
+| `sgt_rcat` | 100.0% | trusted | |
+| `vrsio` | 100.0% | trusted | |
+| `aggpb` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `uhrlp` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `bedae` | 100.0% | trusted | |
+| `versb` | 100.0% | trusted | |
+| `pbdnr` | 100.0% | trusted | |
+| `bdzei` | 100.0% | trusted | |
+| `zuvkz` | 100.0% | trusted | |
+| `vervs` | 100.0% | trusted | |
+| `verkz` | 100.0% | trusted | |
+| `zuokr` | 100.0% | trusted | |
+| `plnkz` | 100.0% | trusted | |
+| `txtkz` | 100.0% | trusted | |
+| `loevr` | 100.0% | trusted | |
+| `uebkz` | 100.0% | trusted | |
+| `datlp` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

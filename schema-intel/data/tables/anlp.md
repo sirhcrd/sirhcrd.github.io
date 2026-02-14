@@ -1,9 +1,9 @@
 ---
 table: anlp
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1778900
-column_count: 57
+row_count: 48121
+column_count: 58
 ---
 
 # anlp
@@ -14,7 +14,7 @@ column_count: 57
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 57 | 100% |
+| Trusted (≥50%) | 58 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,62 +22,63 @@ column_count: 57
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `AUFNG` | 100.0% | trusted | |
-| `ANSWL` | 100.0% | trusted | |
-| `INVZM` | 100.0% | trusted | |
-| `KTOGR` | 100.0% | trusted | |
-| `AFASL` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `CAUFN` | 100.0% | trusted | |
-| `XUNUL` | 100.0% | trusted | |
-| `ANUPD` | 100.0% | trusted | |
-| `FKBER` | 100.0% | trusted | |
-| `BELNR` | 100.0% | trusted | |
-| `LSTAR` | 100.0% | trusted | |
-| `GEBER` | 100.0% | trusted | |
-| `GRANT_NBR` | 100.0% | trusted | |
-| `GEBER2` | 100.0% | trusted | |
-| `FKBER2` | 100.0% | trusted | |
-| `GRANT_NBR2` | 100.0% | trusted | |
-| `FISTL2` | 100.0% | trusted | |
-| `IMKEY` | 100.0% | trusted | |
-| `PS_PSP_PNR2` | 100.0% | trusted | |
-| `BUDGET_PD` | 100.0% | trusted | |
-| `BUDGET_PD2` | 100.0% | trusted | |
-| `SEGMENT` | 100.0% | trusted | |
-| `PRCTR` | 100.0% | trusted | |
-| `FISTL` | 100.0% | trusted | |
-| `AUFNZ` | 100.0% | trusted | |
-| `AUFNP` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `ZINSZ` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `PERAF` | 100.0% | trusted | |
-| `AFBNR` | 100.0% | trusted | |
-| `ANLN1` | 100.0% | trusted | |
-| `ANLN2` | 100.0% | trusted | |
-| `AFABER` | 100.0% | trusted | |
-| `ZUJHR` | 100.0% | trusted | |
-| `ZUCOD` | 100.0% | trusted | |
-| `AUFWP` | 100.0% | trusted | |
-| `AUFWB` | 100.0% | trusted | |
-| `AUFWZ` | 100.0% | trusted | |
-| `NAFAP` | 100.0% | trusted | |
-| `NAFAG` | 100.0% | trusted | |
-| `NAFAZ` | 100.0% | trusted | |
-| `SAFAP` | 100.0% | trusted | |
-| `SAFAG` | 100.0% | trusted | |
-| `SAFAZ` | 100.0% | trusted | |
-| `AAFAP` | 100.0% | trusted | |
-| `AAFAG` | 100.0% | trusted | |
-| `AAFAZ` | 100.0% | trusted | |
-| `MAFAP` | 100.0% | trusted | |
-| `MAFAG` | 100.0% | trusted | |
-| `MAFAZ` | 100.0% | trusted | |
-| `ZINSP` | 100.0% | trusted | |
-| `ZINSG` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `lstar` | 100.0% | trusted | |
+| `aufnz` | 100.0% | trusted | |
+| `answl` | 100.0% | trusted | |
+| `invzm` | 100.0% | trusted | |
+| `ktogr` | 100.0% | trusted | |
+| `afasl` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `caufn` | 100.0% | trusted | |
+| `xunul` | 100.0% | trusted | |
+| `anupd` | 100.0% | trusted | |
+| `fkber` | 100.0% | trusted | |
+| `belnr` | 100.0% | trusted | |
+| `geber` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `grant_nbr` | 100.0% | trusted | |
+| `geber2` | 100.0% | trusted | |
+| `fkber2` | 100.0% | trusted | |
+| `grant_nbr2` | 100.0% | trusted | |
+| `fistl2` | 100.0% | trusted | |
+| `imkey` | 100.0% | trusted | |
+| `ps_psp_pnr2` | 100.0% | trusted | |
+| `budget_pd` | 100.0% | trusted | |
+| `budget_pd2` | 100.0% | trusted | |
+| `segment` | 100.0% | trusted | |
+| `prctr` | 100.0% | trusted | |
+| `fistl` | 100.0% | trusted | |
+| `aufng` | 100.0% | trusted | |
+| `aufnp` | 100.0% | trusted | |
+| `zinsz` | 100.0% | trusted | |
+| `zinsg` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `peraf` | 100.0% | trusted | |
+| `afbnr` | 100.0% | trusted | |
+| `anln1` | 100.0% | trusted | |
+| `anln2` | 100.0% | trusted | |
+| `afaber` | 100.0% | trusted | |
+| `zujhr` | 100.0% | trusted | |
+| `zucod` | 100.0% | trusted | |
+| `aufwp` | 100.0% | trusted | |
+| `aufwb` | 100.0% | trusted | |
+| `aufwz` | 100.0% | trusted | |
+| `nafap` | 100.0% | trusted | |
+| `nafag` | 100.0% | trusted | |
+| `nafaz` | 100.0% | trusted | |
+| `safap` | 100.0% | trusted | |
+| `safag` | 100.0% | trusted | |
+| `safaz` | 100.0% | trusted | |
+| `aafap` | 100.0% | trusted | |
+| `aafag` | 100.0% | trusted | |
+| `aafaz` | 100.0% | trusted | |
+| `mafap` | 100.0% | trusted | |
+| `mafag` | 100.0% | trusted | |
+| `mafaz` | 100.0% | trusted | |
+| `zinsp` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

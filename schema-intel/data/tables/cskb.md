@@ -1,9 +1,9 @@
 ---
 table: cskb
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 16028
-column_count: 20
+row_count: 18343
+column_count: 21
 ---
 
 # cskb
@@ -14,7 +14,7 @@ column_count: 20
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 20 | 100% |
+| Trusted (≥50%) | 21 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,25 +22,26 @@ column_count: 20
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `RECID` | 100.0% | trusted | |
-| `LOEVM` | 100.0% | trusted | |
-| `DEAKT` | 100.0% | trusted | |
-| `MSEHI` | 100.0% | trusted | |
-| `MGEFL` | 100.0% | trusted | |
-| `AUFNR` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `PLAUS` | 100.0% | trusted | |
-| `PLAOR` | 100.0% | trusted | |
-| `PLAZU` | 100.0% | trusted | |
-| `EIGEN` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `ERSDA` | 100.0% | trusted | |
-| `KATYP` | 100.0% | trusted | |
-| `DATAB` | 100.0% | trusted | |
-| `DATBI` | 100.0% | trusted | |
-| `KSTAR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `plaor` | 100.0% | trusted | |
+| `recid` | 100.0% | trusted | |
+| `loevm` | 100.0% | trusted | |
+| `deakt` | 100.0% | trusted | |
+| `msehi` | 100.0% | trusted | |
+| `mgefl` | 100.0% | trusted | |
+| `aufnr` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `plaus` | 100.0% | trusted | |
+| `plazu` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `eigen` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `ersda` | 100.0% | trusted | |
+| `katyp` | 100.0% | trusted | |
+| `datab` | 100.0% | trusted | |
+| `datbi` | 100.0% | trusted | |
+| `kstar` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

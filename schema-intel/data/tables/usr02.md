@@ -1,9 +1,9 @@
 ---
 table: usr02
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 82515
-column_count: 45
+row_count: 34484
+column_count: 46
 ---
 
 # usr02
@@ -14,7 +14,7 @@ column_count: 45
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 45 | 100% |
+| Trusted (≥50%) | 46 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,50 +22,51 @@ column_count: 45
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `VERSN` | 100.0% | trusted | |
-| `TZONE` | 100.0% | trusted | |
-| `ZBVMASTER` | 100.0% | trusted | |
-| `PWDCHGDATE` | 100.0% | trusted | |
-| `PWDSTATE` | 100.0% | trusted | |
-| `RESERVED` | 100.0% | trusted | |
-| `PWDHISTORY` | 100.0% | trusted | |
-| `PWDLGNDATE` | 100.0% | trusted | |
-| `PWDSETDATE` | 100.0% | trusted | |
-| `PWDINITIAL` | 100.0% | trusted | |
-| `PWDLOCKDATE` | 100.0% | trusted | |
-| `PWDSALTEDHASH` | 100.0% | trusted | |
-| `SECURITY_POLICY` | 100.0% | trusted | |
-| `BCODE` | 100.0% | trusted | |
-| `OCOD1` | 100.0% | trusted | |
-| `OCOD2` | 100.0% | trusted | |
-| `OCOD3` | 100.0% | trusted | |
-| `OCOD4` | 100.0% | trusted | |
-| `OCOD5` | 100.0% | trusted | |
-| `PASSCODE` | 100.0% | trusted | |
-| `CODVN` | 100.0% | trusted | |
-| `CODV5` | 100.0% | trusted | |
-| `BNAME` | 100.0% | trusted | |
-| `BCDA5` | 100.0% | trusted | |
-| `GLTGV` | 100.0% | trusted | |
-| `GLTGB` | 100.0% | trusted | |
-| `USTYP` | 100.0% | trusted | |
-| `CLASS` | 100.0% | trusted | |
-| `LOCNT` | 100.0% | trusted | |
-| `UFLAG` | 100.0% | trusted | |
-| `ACCNT` | 100.0% | trusted | |
-| `ANAME` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `TRDAT` | 100.0% | trusted | |
-| `LTIME` | 100.0% | trusted | |
-| `BCDA1` | 100.0% | trusted | |
-| `CODV1` | 100.0% | trusted | |
-| `BCDA2` | 100.0% | trusted | |
-| `CODV2` | 100.0% | trusted | |
-| `BCDA3` | 100.0% | trusted | |
-| `CODV3` | 100.0% | trusted | |
-| `BCDA4` | 100.0% | trusted | |
-| `CODV4` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `passcode` | 100.0% | trusted | |
+| `bcda4` | 100.0% | trusted | |
+| `codv4` | 100.0% | trusted | |
+| `ocod5` | 100.0% | trusted | |
+| `bcda5` | 100.0% | trusted | |
+| `codv5` | 100.0% | trusted | |
+| `versn` | 100.0% | trusted | |
+| `codvn` | 100.0% | trusted | |
+| `tzone` | 100.0% | trusted | |
+| `zbvmaster` | 100.0% | trusted | |
+| `pwdchgdate` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `pwdstate` | 100.0% | trusted | |
+| `reserved` | 100.0% | trusted | |
+| `pwdhistory` | 100.0% | trusted | |
+| `pwdlgndate` | 100.0% | trusted | |
+| `pwdsetdate` | 100.0% | trusted | |
+| `pwdinitial` | 100.0% | trusted | |
+| `pwdlockdate` | 100.0% | trusted | |
+| `pwdsaltedhash` | 100.0% | trusted | |
+| `security_policy` | 100.0% | trusted | |
+| `ocod4` | 100.0% | trusted | |
+| `codv3` | 100.0% | trusted | |
+| `bcda3` | 100.0% | trusted | |
+| `ocod3` | 100.0% | trusted | |
+| `bname` | 100.0% | trusted | |
+| `bcode` | 100.0% | trusted | |
+| `gltgv` | 100.0% | trusted | |
+| `gltgb` | 100.0% | trusted | |
+| `ustyp` | 100.0% | trusted | |
+| `class` | 100.0% | trusted | |
+| `locnt` | 100.0% | trusted | |
+| `uflag` | 100.0% | trusted | |
+| `accnt` | 100.0% | trusted | |
+| `aname` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `trdat` | 100.0% | trusted | |
+| `ltime` | 100.0% | trusted | |
+| `ocod1` | 100.0% | trusted | |
+| `bcda1` | 100.0% | trusted | |
+| `codv1` | 100.0% | trusted | |
+| `ocod2` | 100.0% | trusted | |
+| `bcda2` | 100.0% | trusted | |
+| `codv2` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

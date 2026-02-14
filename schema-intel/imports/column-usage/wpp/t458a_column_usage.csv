@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,140,140,100.0,0,0.0
+2,mandt,140,140,100.0,0,0.0
+3,aussl,140,140,100.0,0,0.0
+4,auskt,140,140,100.0,0,0.0
+5,selgp,140,140,100.0,0,0.0
+6,erdis,140,140,100.0,0,0.0
+7,aspri,140,140,100.0,0,0.0
+8,asnot,140,140,100.0,0,0.0
+9,src_commit_time,140,140,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: usgrpt
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1803
-column_count: 5
+row_count: 4486
+column_count: 6
 ---
 
 # usgrpt
@@ -14,7 +14,7 @@ column_count: 5
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 5 | 100% |
+| Trusted (≥50%) | 6 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,10 +22,11 @@ column_count: 5
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SPRSL` | 100.0% | trusted | |
-| `USERGROUP` | 100.0% | trusted | |
-| `TEXT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `sprsl` | 100.0% | trusted | |
+| `usergroup` | 100.0% | trusted | |
+| `text` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

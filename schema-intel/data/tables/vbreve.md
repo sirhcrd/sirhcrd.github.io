@@ -1,9 +1,9 @@
 ---
 table: vbreve
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 47757298
-column_count: 46
+row_count: 56293
+column_count: 47
 ---
 
 # vbreve
@@ -14,7 +14,7 @@ column_count: 46
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 46 | 100% |
+| Trusted (≥50%) | 47 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,51 +22,52 @@ column_count: 46
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `REVVBTYP_SOURCE` | 100.0% | trusted | |
-| `VBELV` | 100.0% | trusted | |
-| `POSNV` | 100.0% | trusted | |
-| `AUFNR` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `KSTAT` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERZET` | 100.0% | trusted | |
-| `BUDAT` | 100.0% | trusted | |
-| `REVFIX` | 100.0% | trusted | |
-| `REVEVTYP` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `REVEVDOCN` | 100.0% | trusted | |
-| `REVEVDOCNI` | 100.0% | trusted | |
-| `REVEVDAT` | 100.0% | trusted | |
-| `REVPOBLCK` | 100.0% | trusted | |
-| `DMBTR` | 100.0% | trusted | |
-| `RVAMT_LC` | 100.0% | trusted | |
-| `HWAER` | 100.0% | trusted | |
-| `KRUEK` | 100.0% | trusted | |
-| `COSTREC` | 100.0% | trusted | |
-| `PS_PSP_PNR` | 100.0% | trusted | |
-| `KUNAG` | 100.0% | trusted | |
-| `RRSTA` | 100.0% | trusted | |
-| `REFFLD` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `SAKRV` | 100.0% | trusted | |
-| `BDJPOPER` | 100.0% | trusted | |
-| `POPUPO` | 100.0% | trusted | |
-| `VBELN_N` | 100.0% | trusted | |
-| `POSNR_N` | 100.0% | trusted | |
-| `WRBTR` | 100.0% | trusted | |
-| `RVAMT` | 100.0% | trusted | |
-| `WAERK` | 100.0% | trusted | |
-| `ACCPD` | 100.0% | trusted | |
-| `VBTYP_N` | 100.0% | trusted | |
-| `PAOBJNR` | 100.0% | trusted | |
-| `PRCTR` | 100.0% | trusted | |
-| `SAKDR` | 100.0% | trusted | |
-| `SAKUR` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `BEMOT` | 100.0% | trusted | |
-| `SAMMG` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `revvbtyp_source` | 100.0% | trusted | |
+| `vbelv` | 100.0% | trusted | |
+| `posnv` | 100.0% | trusted | |
+| `aufnr` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `kstat` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `erzet` | 100.0% | trusted | |
+| `budat` | 100.0% | trusted | |
+| `revfix` | 100.0% | trusted | |
+| `revevtyp` | 100.0% | trusted | |
+| `kunag` | 100.0% | trusted | |
+| `revevdocn` | 100.0% | trusted | |
+| `revevdocni` | 100.0% | trusted | |
+| `revevdat` | 100.0% | trusted | |
+| `revpoblck` | 100.0% | trusted | |
+| `dmbtr` | 100.0% | trusted | |
+| `rvamt_lc` | 100.0% | trusted | |
+| `hwaer` | 100.0% | trusted | |
+| `kruek` | 100.0% | trusted | |
+| `costrec` | 100.0% | trusted | |
+| `ps_psp_pnr` | 100.0% | trusted | |
+| `rrsta` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `waerk` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `sakrv` | 100.0% | trusted | |
+| `bdjpoper` | 100.0% | trusted | |
+| `popupo` | 100.0% | trusted | |
+| `vbeln_n` | 100.0% | trusted | |
+| `posnr_n` | 100.0% | trusted | |
+| `wrbtr` | 100.0% | trusted | |
+| `rvamt` | 100.0% | trusted | |
+| `accpd` | 100.0% | trusted | |
+| `reffld` | 100.0% | trusted | |
+| `vbtyp_n` | 100.0% | trusted | |
+| `paobjnr` | 100.0% | trusted | |
+| `prctr` | 100.0% | trusted | |
+| `sakdr` | 100.0% | trusted | |
+| `sakur` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `bemot` | 100.0% | trusted | |
+| `sammg` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

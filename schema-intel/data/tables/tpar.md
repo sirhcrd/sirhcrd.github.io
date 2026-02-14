@@ -1,9 +1,9 @@
 ---
 table: tpar
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 578
-column_count: 9
+row_count: 385
+column_count: 10
 ---
 
 # tpar
@@ -14,7 +14,7 @@ column_count: 9
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 9 | 100% |
+| Trusted (≥50%) | 10 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,14 +22,15 @@ column_count: 9
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `PARVW` | 100.0% | trusted | |
-| `STEIN` | 100.0% | trusted | |
-| `UPARV` | 100.0% | trusted | |
-| `FEHGR` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `NRART` | 100.0% | trusted | |
-| `HITYP` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `parvw` | 100.0% | trusted | |
+| `stein` | 100.0% | trusted | |
+| `uparv` | 100.0% | trusted | |
+| `fehgr` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `nrart` | 100.0% | trusted | |
+| `hityp` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

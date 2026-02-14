@@ -1,9 +1,9 @@
 ---
 table: csku
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 33090
-column_count: 8
+row_count: 326032
+column_count: 9
 ---
 
 # csku
@@ -14,7 +14,7 @@ column_count: 8
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 100% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,13 +22,14 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `KTOPL` | 100.0% | trusted | |
-| `KSTAR` | 100.0% | trusted | |
-| `KTEXT` | 100.0% | trusted | |
-| `LTEXT` | 100.0% | trusted | |
-| `MCTXT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `ktopl` | 100.0% | trusted | |
+| `kstar` | 100.0% | trusted | |
+| `ktext` | 100.0% | trusted | |
+| `ltext` | 100.0% | trusted | |
+| `mctxt` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

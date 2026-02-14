@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,287,287,100.0,0,0.0
+2,BillingDocumentType,287,287,100.0,0,0.0
+3,BillingDocumentTypeName,287,287,100.0,0,0.0
+4,src_commit_time,287,287,100.0,0,0.0

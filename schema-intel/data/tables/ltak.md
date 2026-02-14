@@ -1,9 +1,9 @@
 ---
 table: ltak
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 759042
-column_count: 66
+row_count: 27549987
+column_count: 67
 ---
 
 # ltak
@@ -14,7 +14,7 @@ column_count: 66
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 66 | 100% |
+| Trusted (≥50%) | 67 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,71 +22,72 @@ column_count: 66
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LGBZO` | 100.0% | trusted | |
-| `KISTP` | 100.0% | trusted | |
-| `PERNR` | 100.0% | trusted | |
-| `SOLWM` | 100.0% | trusted | |
-| `SOLEX` | 100.0% | trusted | |
-| `ISTWM` | 100.0% | trusted | |
-| `ZEIEI` | 100.0% | trusted | |
-| `HRSTS` | 100.0% | trusted | |
-| `STDAT` | 100.0% | trusted | |
-| `ENDAT` | 100.0% | trusted | |
-| `STUZT` | 100.0% | trusted | |
-| `ENUZT` | 100.0% | trusted | |
-| `L2SKA` | 100.0% | trusted | |
-| `MINWM` | 100.0% | trusted | |
-| `LGTOR` | 100.0% | trusted | |
-| `KZVEP` | 100.0% | trusted | |
-| `LGNUM` | 100.0% | trusted | |
-| `SWABW` | 100.0% | trusted | |
-| `AUSFB` | 100.0% | trusted | |
-| `SPEZI` | 100.0% | trusted | |
-| `VBTYP` | 100.0% | trusted | |
-| `QUEUE` | 100.0% | trusted | |
-| `KGVNQ` | 100.0% | trusted | |
-| `TAPRI` | 100.0% | trusted | |
-| `KVQUI` | 100.0% | trusted | |
-| `HUCON` | 100.0% | trusted | |
-| `NOITM` | 100.0% | trusted | |
-| `KZTRM` | 100.0% | trusted | |
-| `LATER` | 100.0% | trusted | |
-| `PASSD` | 100.0% | trusted | |
-| `MULTL` | 100.0% | trusted | |
-| `KISTZ` | 100.0% | trusted | |
-| `KZLEI` | 100.0% | trusted | |
-| `PKPOS` | 100.0% | trusted | |
-| `PKNUM` | 100.0% | trusted | |
-| `TANUM` | 100.0% | trusted | |
-| `BWART` | 100.0% | trusted | |
-| `BWLVS` | 100.0% | trusted | |
-| `TBPRI` | 100.0% | trusted | |
-| `TRART` | 100.0% | trusted | |
-| `BDATU` | 100.0% | trusted | |
-| `BZEIT` | 100.0% | trusted | |
-| `BNAME` | 100.0% | trusted | |
-| `REFNR` | 100.0% | trusted | |
-| `TBNUM` | 100.0% | trusted | |
-| `UBNUM` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `KQUIT` | 100.0% | trusted | |
-| `QDATU` | 100.0% | trusted | |
-| `MBLNR` | 100.0% | trusted | |
-| `MJAHR` | 100.0% | trusted | |
-| `BETYP` | 100.0% | trusted | |
-| `BENUM` | 100.0% | trusted | |
-| `DRUKZ` | 100.0% | trusted | |
-| `DRUCK` | 100.0% | trusted | |
-| `TEILK` | 100.0% | trusted | |
-| `KR2SO` | 100.0% | trusted | |
-| `KR2KU` | 100.0% | trusted | |
-| `KDISO` | 100.0% | trusted | |
-| `KZPLA` | 100.0% | trusted | |
-| `PLDAT` | 100.0% | trusted | |
-| `RSNUM` | 100.0% | trusted | |
-| `LZNUM` | 100.0% | trusted | |
-| `BDART` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `lgbzo` | 100.0% | trusted | |
+| `kistp` | 100.0% | trusted | |
+| `pernr` | 100.0% | trusted | |
+| `solwm` | 100.0% | trusted | |
+| `solex` | 100.0% | trusted | |
+| `istwm` | 100.0% | trusted | |
+| `zeiei` | 100.0% | trusted | |
+| `hrsts` | 100.0% | trusted | |
+| `stdat` | 100.0% | trusted | |
+| `endat` | 100.0% | trusted | |
+| `stuzt` | 100.0% | trusted | |
+| `enuzt` | 100.0% | trusted | |
+| `l2ska` | 100.0% | trusted | |
+| `minwm` | 100.0% | trusted | |
+| `lgtor` | 100.0% | trusted | |
+| `kzvep` | 100.0% | trusted | |
+| `kzlei` | 100.0% | trusted | |
+| `swabw` | 100.0% | trusted | |
+| `ausfb` | 100.0% | trusted | |
+| `spezi` | 100.0% | trusted | |
+| `vbtyp` | 100.0% | trusted | |
+| `queue` | 100.0% | trusted | |
+| `kgvnq` | 100.0% | trusted | |
+| `tapri` | 100.0% | trusted | |
+| `kvqui` | 100.0% | trusted | |
+| `hucon` | 100.0% | trusted | |
+| `noitm` | 100.0% | trusted | |
+| `kztrm` | 100.0% | trusted | |
+| `later` | 100.0% | trusted | |
+| `passd` | 100.0% | trusted | |
+| `multl` | 100.0% | trusted | |
+| `kistz` | 100.0% | trusted | |
+| `pkpos` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `qdatu` | 100.0% | trusted | |
+| `lgnum` | 100.0% | trusted | |
+| `tanum` | 100.0% | trusted | |
+| `bwart` | 100.0% | trusted | |
+| `bwlvs` | 100.0% | trusted | |
+| `tbpri` | 100.0% | trusted | |
+| `trart` | 100.0% | trusted | |
+| `bdatu` | 100.0% | trusted | |
+| `bzeit` | 100.0% | trusted | |
+| `bname` | 100.0% | trusted | |
+| `refnr` | 100.0% | trusted | |
+| `tbnum` | 100.0% | trusted | |
+| `ubnum` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `kquit` | 100.0% | trusted | |
+| `mblnr` | 100.0% | trusted | |
+| `pknum` | 100.0% | trusted | |
+| `mjahr` | 100.0% | trusted | |
+| `betyp` | 100.0% | trusted | |
+| `benum` | 100.0% | trusted | |
+| `drukz` | 100.0% | trusted | |
+| `druck` | 100.0% | trusted | |
+| `teilk` | 100.0% | trusted | |
+| `kr2so` | 100.0% | trusted | |
+| `kr2ku` | 100.0% | trusted | |
+| `kdiso` | 100.0% | trusted | |
+| `kzpla` | 100.0% | trusted | |
+| `pldat` | 100.0% | trusted | |
+| `rsnum` | 100.0% | trusted | |
+| `lznum` | 100.0% | trusted | |
+| `bdart` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

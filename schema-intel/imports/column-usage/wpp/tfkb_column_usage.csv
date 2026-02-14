@@ -1,0 +1,19 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,82,82,100.0,0,0.0
+2,mandt,82,82,100.0,0,0.0
+3,date_exp,82,82,100.0,0,0.0
+4,datbis,82,82,100.0,0,0.0
+5,datab,82,82,100.0,0,0.0
+6,modified_at,82,82,100.0,0,0.0
+7,modified_on,82,82,100.0,0,0.0
+8,modified_by,82,82,100.0,0,0.0
+9,created_at,82,82,100.0,0,0.0
+10,created_on,82,82,100.0,0,0.0
+11,created_by,82,82,100.0,0,0.0
+12,fnsub3,82,82,100.0,0,0.0
+13,fnsub2,82,82,100.0,0,0.0
+14,fnsub1,82,82,100.0,0,0.0
+15,str_id,82,82,100.0,0,0.0
+16,authgrp,82,82,100.0,0,0.0
+17,fkber,82,82,100.0,0,0.0
+18,src_commit_time,82,82,100.0,0,0.0

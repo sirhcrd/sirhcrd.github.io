@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,18,18,100.0,0,0.0
+2,Status,18,18,100.0,0,0.0
+3,Status_desc,18,18,100.0,0,0.0
+4,Indicator_Released,18,18,100.0,0,0.0
+5,src_commit_time,18,18,100.0,0,0.0

@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1996,1996,100.0,0,0.0
+2,mandt,1996,1996,100.0,0,0.0
+3,bugrp,1996,1996,100.0,0,0.0
+4,anw_id,1996,1996,100.0,0,0.0
+5,zahlungsart,1996,1996,100.0,0,0.0
+6,systemkz,1996,1996,100.0,0,0.0
+7,posnr,1996,1996,100.0,0,0.0
+8,feldn,1996,1996,100.0,0,0.0
+9,fval,1996,1996,100.0,0,0.0
+10,src_commit_time,1996,1996,100.0,0,0.0

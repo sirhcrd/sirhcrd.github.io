@@ -1,9 +1,9 @@
 ---
 table: t6b2f
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 545
-column_count: 7
+row_count: 639
+column_count: 8
 ---
 
 # t6b2f
@@ -14,7 +14,7 @@ column_count: 7
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 7 | 100% |
+| Trusted (≥50%) | 8 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,12 +22,13 @@ column_count: 7
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KAPPL` | 100.0% | trusted | |
-| `KOBOG` | 100.0% | trusted | |
-| `ZAEHK` | 100.0% | trusted | |
-| `KSCHL` | 100.0% | trusted | |
-| `KOTABNR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kappl` | 100.0% | trusted | |
+| `kobog` | 100.0% | trusted | |
+| `zaehk` | 100.0% | trusted | |
+| `kschl` | 100.0% | trusted | |
+| `kotabnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

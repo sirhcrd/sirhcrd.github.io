@@ -1,9 +1,9 @@
 ---
 table: mpos
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 652884
-column_count: 73
+row_count: 7319
+column_count: 74
 ---
 
 # mpos
@@ -14,7 +14,7 @@ column_count: 73
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 73 | 100% |
+| Trusted (≥50%) | 74 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,78 +22,79 @@ column_count: 73
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `STD_AVO` | 100.0% | trusted | |
-| `QMNUM` | 100.0% | trusted | |
-| `DEVICEID` | 100.0% | trusted | |
-| `SERMAT` | 100.0% | trusted | |
-| `SERIALNR` | 100.0% | trusted | |
-| `SCRRENTY` | 100.0% | trusted | |
-| `APFKT` | 100.0% | trusted | |
-| `AUFNR` | 100.0% | trusted | |
-| `SAKTO` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `NETPR` | 100.0% | trusted | |
-| `PACKNO` | 100.0% | trusted | |
-| `BSTPO` | 100.0% | trusted | |
-| `BSTNR` | 100.0% | trusted | |
-| `MITYP` | 100.0% | trusted | |
-| `KDPOS` | 100.0% | trusted | |
-| `QMART` | 100.0% | trusted | |
-| `LBLNI` | 100.0% | trusted | |
-| `TASK_DETERMINE` | 100.0% | trusted | |
-| `NO_AUFRELKZ` | 100.0% | trusted | |
-| `RBNRI` | 100.0% | trusted | |
-| `RBNR` | 100.0% | trusted | |
-| `IND_MPOS_API` | 100.0% | trusted | |
-| `ADPSP` | 100.0% | trusted | |
-| `CYCLESEQIND` | 100.0% | trusted | |
-| `DESNUM` | 100.0% | trusted | |
-| `TSTMP_BW` | 100.0% | trusted | |
-| `PRIOK` | 100.0% | trusted | |
-| `PRUEFLOS` | 100.0% | trusted | |
-| `ART` | 100.0% | trusted | |
-| `PHYNR` | 100.0% | trusted | |
-| `QMCOD` | 100.0% | trusted | |
-| `QMGRP` | 100.0% | trusted | |
-| `QMKAT` | 100.0% | trusted | |
-| `KDAUF` | 100.0% | trusted | |
-| `STD_NETZ` | 100.0% | trusted | |
-| `WAPOS` | 100.0% | trusted | |
-| `PSPEL` | 100.0% | trusted | |
-| `PLNAL` | 100.0% | trusted | |
-| `PLNNR` | 100.0% | trusted | |
-| `PLNTY` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `ERSDT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `AEKNZ` | 100.0% | trusted | |
-| `ERKNZ` | 100.0% | trusted | |
-| `OBKNR` | 100.0% | trusted | |
-| `EQUNR` | 100.0% | trusted | |
-| `PSTXT` | 100.0% | trusted | |
-| `WPPOS` | 100.0% | trusted | |
-| `WSTRA` | 100.0% | trusted | |
-| `WARPL` | 100.0% | trusted | |
-| `STATUS` | 100.0% | trusted | |
-| `LTKNZ` | 100.0% | trusted | |
-| `WPGRP` | 100.0% | trusted | |
-| `ANLZU` | 100.0% | trusted | |
-| `IND_ABRVO` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `ILART` | 100.0% | trusted | |
-| `INACT` | 100.0% | trusted | |
-| `AUART` | 100.0% | trusted | |
-| `BAUTL` | 100.0% | trusted | |
-| `OBJTY` | 100.0% | trusted | |
-| `LAUFN` | 100.0% | trusted | |
-| `ILOAI` | 100.0% | trusted | |
-| `ILOAN` | 100.0% | trusted | |
-| `LANGU` | 100.0% | trusted | |
-| `IWERK` | 100.0% | trusted | |
-| `GEWRK` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `qmart` | 100.0% | trusted | |
+| `deviceid` | 100.0% | trusted | |
+| `sermat` | 100.0% | trusted | |
+| `serialnr` | 100.0% | trusted | |
+| `scrrenty` | 100.0% | trusted | |
+| `apfkt` | 100.0% | trusted | |
+| `aufnr` | 100.0% | trusted | |
+| `sakto` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `netpr` | 100.0% | trusted | |
+| `packno` | 100.0% | trusted | |
+| `bstpo` | 100.0% | trusted | |
+| `bstnr` | 100.0% | trusted | |
+| `mityp` | 100.0% | trusted | |
+| `kdpos` | 100.0% | trusted | |
+| `kdauf` | 100.0% | trusted | |
+| `qmnum` | 100.0% | trusted | |
+| `lblni` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `task_determine` | 100.0% | trusted | |
+| `rbnri` | 100.0% | trusted | |
+| `rbnr` | 100.0% | trusted | |
+| `ind_mpos_api` | 100.0% | trusted | |
+| `adpsp` | 100.0% | trusted | |
+| `cycleseqind` | 100.0% | trusted | |
+| `desnum` | 100.0% | trusted | |
+| `no_aufrelkz` | 100.0% | trusted | |
+| `tstmp_bw` | 100.0% | trusted | |
+| `prueflos` | 100.0% | trusted | |
+| `art` | 100.0% | trusted | |
+| `phynr` | 100.0% | trusted | |
+| `qmcod` | 100.0% | trusted | |
+| `qmgrp` | 100.0% | trusted | |
+| `qmkat` | 100.0% | trusted | |
+| `priok` | 100.0% | trusted | |
+| `std_avo` | 100.0% | trusted | |
+| `std_netz` | 100.0% | trusted | |
+| `pspel` | 100.0% | trusted | |
+| `ind_abrvo` | 100.0% | trusted | |
+| `plnnr` | 100.0% | trusted | |
+| `plnty` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `ersdt` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `aeknz` | 100.0% | trusted | |
+| `erknz` | 100.0% | trusted | |
+| `obknr` | 100.0% | trusted | |
+| `equnr` | 100.0% | trusted | |
+| `pstxt` | 100.0% | trusted | |
+| `wppos` | 100.0% | trusted | |
+| `wstra` | 100.0% | trusted | |
+| `warpl` | 100.0% | trusted | |
+| `wapos` | 100.0% | trusted | |
+| `plnal` | 100.0% | trusted | |
+| `status` | 100.0% | trusted | |
+| `ltknz` | 100.0% | trusted | |
+| `bautl` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `ilart` | 100.0% | trusted | |
+| `inact` | 100.0% | trusted | |
+| `auart` | 100.0% | trusted | |
+| `anlzu` | 100.0% | trusted | |
+| `laufn` | 100.0% | trusted | |
+| `wpgrp` | 100.0% | trusted | |
+| `iloai` | 100.0% | trusted | |
+| `iloan` | 100.0% | trusted | |
+| `langu` | 100.0% | trusted | |
+| `iwerk` | 100.0% | trusted | |
+| `gewrk` | 100.0% | trusted | |
+| `objty` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

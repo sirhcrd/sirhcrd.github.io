@@ -1,9 +1,9 @@
 ---
 table: dbpr
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 47321606
-column_count: 9
+row_count: 9069
+column_count: 10
 ---
 
 # dbpr
@@ -14,7 +14,7 @@ column_count: 9
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 9 | 100% |
+| Trusted (≥50%) | 10 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,14 +22,15 @@ column_count: 9
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `BERID` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `PNUM1` | 100.0% | trusted | |
-| `PERKZ` | 100.0% | trusted | |
-| `PERIV` | 100.0% | trusted | |
-| `DATUM` | 100.0% | trusted | |
-| `UZEIT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `berid` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `pnum1` | 100.0% | trusted | |
+| `perkz` | 100.0% | trusted | |
+| `periv` | 100.0% | trusted | |
+| `datum` | 100.0% | trusted | |
+| `uzeit` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

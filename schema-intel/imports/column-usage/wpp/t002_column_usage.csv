@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,45,45,100.0,0,0.0
+2,spras,45,45,100.0,0,0.0
+3,laspez,45,45,100.0,0,0.0
+4,lahq,45,45,100.0,0,0.0
+5,laiso,45,45,100.0,0,0.0
+6,src_commit_time,45,45,100.0,0,0.0

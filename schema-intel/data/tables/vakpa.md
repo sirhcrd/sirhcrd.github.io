@@ -1,9 +1,9 @@
 ---
 table: vakpa
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 57288623
-column_count: 20
+row_count: 35703186
+column_count: 22
 ---
 
 # vakpa
@@ -14,7 +14,7 @@ column_count: 20
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 20 | 100% |
+| Trusted (≥50%) | 22 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,25 +22,27 @@ column_count: 20
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KUNDE` | 100.0% | trusted | |
-| `DATBI` | 100.0% | trusted | |
-| `DATAB` | 100.0% | trusted | |
-| `ADRNR` | 100.0% | trusted | |
-| `ADRNR_AG` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `BSTNK` | 100.0% | trusted | |
-| `AUART` | 100.0% | trusted | |
-| `SPART` | 100.0% | trusted | |
-| `VTWEG` | 100.0% | trusted | |
-| `VKGRP` | 100.0% | trusted | |
-| `VKBUR` | 100.0% | trusted | |
-| `AUDAT` | 100.0% | trusted | |
-| `TRVOG` | 100.0% | trusted | |
-| `VKORG` | 100.0% | trusted | |
-| `PARVW` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
+| `datbi` | 100.0% | trusted | |
+| `datab` | 100.0% | trusted | |
+| `adrnr` | 100.0% | trusted | |
+| `adrnr_ag` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `bstnk` | 100.0% | trusted | |
+| `auart` | 100.0% | trusted | |
+| `spart` | 100.0% | trusted | |
+| `vtweg` | 100.0% | trusted | |
+| `vkgrp` | 100.0% | trusted | |
+| `vkbur` | 100.0% | trusted | |
+| `audat` | 100.0% | trusted | |
+| `trvog` | 100.0% | trusted | |
+| `vkorg` | 100.0% | trusted | |
+| `parvw` | 100.0% | trusted | |
+| `kunde` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

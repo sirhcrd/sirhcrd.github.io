@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,2401,2401,100.0,0,0.0
+2,mandt,2401,2401,100.0,0,0.0
+3,spras,2401,2401,100.0,0,0.0
+4,matkl,2401,2401,100.0,0,0.0
+5,wgbez,2401,2401,100.0,0,0.0
+6,wgbez60,2401,2401,100.0,0,0.0
+7,src_commit_time,2401,2401,100.0,0,0.0

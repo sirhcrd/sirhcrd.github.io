@@ -1,9 +1,9 @@
 ---
 table: konm
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 445555
-column_count: 7
+row_count: 69579
+column_count: 8
 ---
 
 # konm
@@ -14,7 +14,7 @@ column_count: 7
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 7 | 100% |
+| Trusted (≥50%) | 8 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,6 +22,7 @@ column_count: 7
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
 | `mandt` | 100.0% | trusted | |
 | `knumh` | 100.0% | trusted | |
 | `kopos` | 100.0% | trusted | |

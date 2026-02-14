@@ -1,9 +1,9 @@
 ---
 table: tntp
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 49
-column_count: 11
+row_count: 48
+column_count: 13
 ---
 
 # tntp
@@ -14,7 +14,7 @@ column_count: 11
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 11 | 100% |
+| Trusted (≥50%) | 13 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,16 +22,18 @@ column_count: 11
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `NUMTP` | 100.0% | trusted | |
-| `PRFZA` | 100.0% | trusted | |
-| `NKOBJ` | 100.0% | trusted | |
-| `NMKRS` | 100.0% | trusted | |
-| `NMKRE` | 100.0% | trusted | |
-| `PGEAN` | 100.0% | trusted | |
-| `RZEAN` | 100.0% | trusted | |
-| `ANEAN` | 100.0% | trusted | |
-| `LNEAN` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `numtp` | 100.0% | trusted | |
+| `prfza` | 100.0% | trusted | |
+| `nkobj` | 100.0% | trusted | |
+| `nmkrs` | 100.0% | trusted | |
+| `nmkre` | 100.0% | trusted | |
+| `pgean` | 100.0% | trusted | |
+| `rzean` | 100.0% | trusted | |
+| `anean` | 100.0% | trusted | |
+| `lnean` | 100.0% | trusted | |
+| `recind` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

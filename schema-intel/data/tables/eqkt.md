@@ -1,9 +1,9 @@
 ---
 table: eqkt
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 85908407
-column_count: 8
+row_count: 38147
+column_count: 9
 ---
 
 # eqkt
@@ -14,7 +14,7 @@ column_count: 8
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 100% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,13 +22,14 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `EQUNR` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `EQKTX` | 100.0% | trusted | |
-| `KZLTX` | 100.0% | trusted | |
-| `TXASP` | 100.0% | trusted | |
-| `EQKTU` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `equnr` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `eqktx` | 100.0% | trusted | |
+| `kzltx` | 100.0% | trusted | |
+| `txasp` | 100.0% | trusted | |
+| `eqktu` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

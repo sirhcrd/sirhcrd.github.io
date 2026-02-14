@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,390,390,100.0,0,0.0
+2,langu,390,390,100.0,0,0.0
+3,stat_para,390,390,100.0,0,0.0
+4,stat_para_descr,390,390,100.0,0,0.0
+5,src_commit_time,390,390,100.0,0,0.0

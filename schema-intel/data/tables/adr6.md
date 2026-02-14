@@ -1,9 +1,9 @@
 ---
 table: adr6
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 5869327
-column_count: 17
+row_count: 27151936
+column_count: 18
 ---
 
 # adr6
@@ -14,7 +14,7 @@ column_count: 17
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 17 | 100% |
+| Trusted (≥50%) | 18 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,22 +22,23 @@ column_count: 17
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `SMTP_SRCH` | 100.0% | trusted | |
-| `VALID_TO` | 100.0% | trusted | |
-| `VALID_FROM` | 100.0% | trusted | |
-| `TNEF` | 100.0% | trusted | |
-| `ENCODE` | 100.0% | trusted | |
-| `R3_USER` | 100.0% | trusted | |
-| `DFT_RECEIV` | 100.0% | trusted | |
-| `SMTP_ADDR` | 100.0% | trusted | |
-| `ADDRNUMBER` | 100.0% | trusted | |
-| `HOME_FLAG` | 100.0% | trusted | |
-| `FLG_NOUSE` | 100.0% | trusted | |
-| `FLGDEFAULT` | 100.0% | trusted | |
-| `CONSNUMBER` | 100.0% | trusted | |
-| `DATE_FROM` | 100.0% | trusted | |
-| `PERSNUMBER` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `valid_to` | 100.0% | trusted | |
+| `valid_from` | 100.0% | trusted | |
+| `tnef` | 100.0% | trusted | |
+| `encode` | 100.0% | trusted | |
+| `r3_user` | 100.0% | trusted | |
+| `dft_receiv` | 100.0% | trusted | |
+| `smtp_srch` | 100.0% | trusted | |
+| `smtp_addr` | 100.0% | trusted | |
+| `home_flag` | 100.0% | trusted | |
+| `flg_nouse` | 100.0% | trusted | |
+| `flgdefault` | 100.0% | trusted | |
+| `consnumber` | 100.0% | trusted | |
+| `date_from` | 100.0% | trusted | |
+| `persnumber` | 100.0% | trusted | |
+| `addrnumber` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

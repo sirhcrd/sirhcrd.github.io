@@ -1,9 +1,9 @@
 ---
 table: ekes
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 19404093
-column_count: 31
+row_count: 6700242
+column_count: 33
 ---
 
 # ekes
@@ -14,7 +14,7 @@ column_count: 31
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 31 | 100% |
+| Trusted (≥50%) | 33 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,36 +22,38 @@ column_count: 31
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `SGT_SCAT` | 100.0% | trusted | |
-| `HANDOVERTIME` | 100.0% | trusted | |
-| `HANDOVERDATE` | 100.0% | trusted | |
-| `VBELP_ST` | 100.0% | trusted | |
-| `VBELN_ST` | 100.0% | trusted | |
-| `IMWRK` | 100.0% | trusted | |
-| `REF_ETENS` | 100.0% | trusted | |
-| `UECHA` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `MAHNZ` | 100.0% | trusted | |
-| `EMATN` | 100.0% | trusted | |
-| `MPROF` | 100.0% | trusted | |
-| `VBELP` | 100.0% | trusted | |
-| `XBLNR` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `KZDIS` | 100.0% | trusted | |
-| `LOEKZ` | 100.0% | trusted | |
-| `ESTKZ` | 100.0% | trusted | |
-| `DABMG` | 100.0% | trusted | |
-| `MENGE` | 100.0% | trusted | |
-| `EZEIT` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `UZEIT` | 100.0% | trusted | |
-| `LPEIN` | 100.0% | trusted | |
-| `EINDT` | 100.0% | trusted | |
-| `EBTYP` | 100.0% | trusted | |
-| `ETENS` | 100.0% | trusted | |
-| `EBELP` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `fsh_salloc_qty` | 100.0% | trusted | |
+| `sgt_scat` | 100.0% | trusted | |
+| `handovertime` | 100.0% | trusted | |
+| `handoverdate` | 100.0% | trusted | |
+| `vbelp_st` | 100.0% | trusted | |
+| `vbeln_st` | 100.0% | trusted | |
+| `imwrk` | 100.0% | trusted | |
+| `ref_etens` | 100.0% | trusted | |
+| `uecha` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `mahnz` | 100.0% | trusted | |
+| `ematn` | 100.0% | trusted | |
+| `mprof` | 100.0% | trusted | |
+| `vbelp` | 100.0% | trusted | |
+| `xblnr` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kzdis` | 100.0% | trusted | |
+| `loekz` | 100.0% | trusted | |
+| `estkz` | 100.0% | trusted | |
+| `dabmg` | 100.0% | trusted | |
+| `menge` | 100.0% | trusted | |
+| `ezeit` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `uzeit` | 100.0% | trusted | |
+| `lpein` | 100.0% | trusted | |
+| `eindt` | 100.0% | trusted | |
+| `ebtyp` | 100.0% | trusted | |
+| `etens` | 100.0% | trusted | |
+| `ebelp` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

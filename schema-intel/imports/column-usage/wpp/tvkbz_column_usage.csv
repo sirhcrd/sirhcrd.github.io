@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,4050,4050,100.0,0,0.0
+2,mandt,4050,4050,100.0,0,0.0
+3,vkorg,4050,4050,100.0,0,0.0
+4,vtweg,4050,4050,100.0,0,0.0
+5,spart,4050,4050,100.0,0,0.0
+6,vkbur,4050,4050,100.0,0,0.0
+7,hide,4050,4050,100.0,0,0.0
+8,src_commit_time,4050,4050,100.0,0,0.0

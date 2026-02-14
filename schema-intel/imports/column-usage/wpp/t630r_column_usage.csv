@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1263,1263,100.0,0,0.0
+2,mandt,1263,1263,100.0,0,0.0
+3,vstel,1263,1263,100.0,0,0.0
+4,route,1263,1263,100.0,0,0.0
+5,grulg,1263,1263,100.0,0,0.0
+6,ritzt,1263,1263,100.0,0,0.0
+7,pipatg,1263,1263,100.0,0,0.0
+8,pipatn,1263,1263,100.0,0,0.0
+9,src_commit_time,1263,1263,100.0,0,0.0

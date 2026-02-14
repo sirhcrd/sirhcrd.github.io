@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,639,639,100.0,0,0.0
+2,mandt,639,639,100.0,0,0.0
+3,kappl,639,639,100.0,0,0.0
+4,kobog,639,639,100.0,0,0.0
+5,zaehk,639,639,100.0,0,0.0
+6,kschl,639,639,100.0,0,0.0
+7,kotabnr,639,639,100.0,0,0.0
+8,src_commit_time,639,639,100.0,0,0.0

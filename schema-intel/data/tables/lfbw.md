@@ -1,9 +1,9 @@
 ---
 table: lfbw
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 35324
-column_count: 14
+row_count: 30459
+column_count: 15
 ---
 
 # lfbw
@@ -14,7 +14,7 @@ column_count: 14
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 14 | 100% |
+| Trusted (≥50%) | 15 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,19 +22,20 @@ column_count: 14
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `WITHT` | 100.0% | trusted | |
-| `WT_SUBJCT` | 100.0% | trusted | |
-| `QSREC` | 100.0% | trusted | |
-| `WT_WTSTCD` | 100.0% | trusted | |
-| `WT_WITHCD` | 100.0% | trusted | |
-| `WT_EXNR` | 100.0% | trusted | |
-| `WT_EXRT` | 100.0% | trusted | |
-| `WT_EXDF` | 100.0% | trusted | |
-| `WT_EXDT` | 100.0% | trusted | |
-| `WT_WTEXRS` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `witht` | 100.0% | trusted | |
+| `wt_subjct` | 100.0% | trusted | |
+| `qsrec` | 100.0% | trusted | |
+| `wt_wtstcd` | 100.0% | trusted | |
+| `wt_withcd` | 100.0% | trusted | |
+| `wt_exnr` | 100.0% | trusted | |
+| `wt_exrt` | 100.0% | trusted | |
+| `wt_exdf` | 100.0% | trusted | |
+| `wt_exdt` | 100.0% | trusted | |
+| `wt_wtexrs` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

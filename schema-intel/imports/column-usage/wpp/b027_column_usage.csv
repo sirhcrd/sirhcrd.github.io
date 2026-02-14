@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,15,15,100.0,0,0.0
+2,mandt,15,15,100.0,0,0.0
+3,kappl,15,15,100.0,0,0.0
+4,kschl,15,15,100.0,0,0.0
+5,ekorg,15,15,100.0,0,0.0
+6,lifnr,15,15,100.0,0,0.0
+7,knumh,15,15,100.0,0,0.0
+8,src_commit_time,15,15,100.0,0,0.0

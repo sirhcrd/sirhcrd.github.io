@@ -1,9 +1,9 @@
 ---
 table: anea
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 526581
-column_count: 28
+row_count: 6787
+column_count: 29
 ---
 
 # anea
@@ -14,7 +14,7 @@ column_count: 28
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 28 | 100% |
+| Trusted (≥50%) | 29 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,33 +22,34 @@ column_count: 28
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `SANWV` | 100.0% | trusted | |
-| `VERKO` | 100.0% | trusted | |
-| `ANUPD` | 100.0% | trusted | |
-| `ERLBT` | 100.0% | trusted | |
-| `AUFNL` | 100.0% | trusted | |
-| `MAFAL` | 100.0% | trusted | |
-| `AAFAL` | 100.0% | trusted | |
-| `SAFAL` | 100.0% | trusted | |
-| `NAFAL` | 100.0% | trusted | |
-| `INVZL` | 100.0% | trusted | |
-| `AUFWL` | 100.0% | trusted | |
-| `AUFNV` | 100.0% | trusted | |
-| `MAFAV` | 100.0% | trusted | |
-| `AAFAV` | 100.0% | trusted | |
-| `SAFAV` | 100.0% | trusted | |
-| `NAFAV` | 100.0% | trusted | |
-| `INVZV` | 100.0% | trusted | |
-| `AUFWV` | 100.0% | trusted | |
-| `ZUCOD` | 100.0% | trusted | |
-| `ZUJHR` | 100.0% | trusted | |
-| `AFABE` | 100.0% | trusted | |
-| `LNRAN` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `ANLN2` | 100.0% | trusted | |
-| `ANLN1` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mafav` | 100.0% | trusted | |
+| `sanwv` | 100.0% | trusted | |
+| `verko` | 100.0% | trusted | |
+| `anupd` | 100.0% | trusted | |
+| `erlbt` | 100.0% | trusted | |
+| `aufnl` | 100.0% | trusted | |
+| `mafal` | 100.0% | trusted | |
+| `aafal` | 100.0% | trusted | |
+| `safal` | 100.0% | trusted | |
+| `nafal` | 100.0% | trusted | |
+| `invzl` | 100.0% | trusted | |
+| `aufwl` | 100.0% | trusted | |
+| `aufnv` | 100.0% | trusted | |
+| `aafav` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `safav` | 100.0% | trusted | |
+| `nafav` | 100.0% | trusted | |
+| `invzv` | 100.0% | trusted | |
+| `aufwv` | 100.0% | trusted | |
+| `zucod` | 100.0% | trusted | |
+| `zujhr` | 100.0% | trusted | |
+| `afabe` | 100.0% | trusted | |
+| `lnran` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `anln2` | 100.0% | trusted | |
+| `anln1` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

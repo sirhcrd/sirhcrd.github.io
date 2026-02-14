@@ -1,9 +1,9 @@
 ---
 table: ukm_bl_reason0t
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 12
-column_count: 5
+row_count: 375
+column_count: 6
 ---
 
 # ukm_bl_reason0t
@@ -14,7 +14,7 @@ column_count: 5
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 5 | 100% |
+| Trusted (≥50%) | 6 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,10 +22,11 @@ column_count: 5
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `LANGU` | 100.0% | trusted | |
-| `BLOCK_REASON` | 100.0% | trusted | |
-| `BLOCK_REASON_TXT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `langu` | 100.0% | trusted | |
+| `block_reason` | 100.0% | trusted | |
+| `block_reason_txt` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

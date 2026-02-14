@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,21,21,100.0,0,0.0
+2,mandt,21,21,100.0,0,0.0
+3,sperrfkt,21,21,100.0,0,0.0
+4,bestellung,21,21,100.0,0,0.0
+5,anfrage,21,21,100.0,0,0.0
+6,bzgquelle,21,21,100.0,0,0.0
+7,wesperr,21,21,100.0,0,0.0
+8,src_commit_time,21,21,100.0,0,0.0

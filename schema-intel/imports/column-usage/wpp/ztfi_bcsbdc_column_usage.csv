@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,66,66,100.0,0,0.0
+2,mandt,66,66,100.0,0,0.0
+3,brkdwncat,66,66,100.0,0,0.0
+4,bsi,66,66,100.0,0,0.0
+5,suc,66,66,100.0,0,0.0
+6,bpa,66,66,100.0,0,0.0
+7,bfa,66,66,100.0,0,0.0
+8,bcd,66,66,100.0,0,0.0
+9,src_commit_time,66,66,100.0,0,0.0

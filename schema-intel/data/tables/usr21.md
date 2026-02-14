@@ -1,9 +1,9 @@
 ---
 table: usr21
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 82515
-column_count: 13
+row_count: 24141
+column_count: 14
 ---
 
 # usr21
@@ -14,27 +14,28 @@ column_count: 13
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 11 | 84% |
-| Neutral (5-50%) | 2 | 15% |
+| Trusted (≥50%) | 14 | 100% |
+| Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
 ## Columns
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `BNAME` | 100.0% | trusted | |
-| `PERSNUMBER` | 100.0% | trusted | |
-| `ADDRNUMBER` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `START_MENU` | 100.0% | trusted | |
-| `IDADTYPE` | 100.0% | trusted | |
-| `RESPONSIBLE` | 100.0% | trusted | |
-| `TECHDESC` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `bname` | 100.0% | trusted | |
+| `persnumber` | 100.0% | trusted | |
+| `addrnumber` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `start_menu` | 100.0% | trusted | |
+| `idadtype` | 100.0% | trusted | |
+| `bpperson` | 100.0% | trusted | |
+| `organization` | 100.0% | trusted | |
+| `responsible` | 100.0% | trusted | |
+| `techdesc` | 100.0% | trusted | |
+| `identity_guid` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
-| `IDENTITY_GUID` | 99.4% | trusted | |
-| `BPPERSON` | 35.2% | neutral | |
-| `ORGANIZATION` | 35.2% | neutral | |
 
 ## Notes
 

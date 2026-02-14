@@ -1,9 +1,9 @@
 ---
 table: tfacs
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 5658
-column_count: 19
+row_count: 8539
+column_count: 20
 ---
 
 # tfacs
@@ -14,7 +14,7 @@ column_count: 19
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 19 | 100% |
+| Trusted (≥50%) | 20 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,24 +22,25 @@ column_count: 19
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `IDENT` | 100.0% | trusted | |
-| `MON09` | 100.0% | trusted | |
-| `LOAD` | 100.0% | trusted | |
-| `WENUM` | 100.0% | trusted | |
-| `FENUM` | 100.0% | trusted | |
-| `BASIS` | 100.0% | trusted | |
-| `MON12` | 100.0% | trusted | |
-| `MON11` | 100.0% | trusted | |
-| `MON10` | 100.0% | trusted | |
-| `MON08` | 100.0% | trusted | |
-| `JAHR` | 100.0% | trusted | |
-| `MON07` | 100.0% | trusted | |
-| `MON06` | 100.0% | trusted | |
-| `MON05` | 100.0% | trusted | |
-| `MON04` | 100.0% | trusted | |
-| `MON03` | 100.0% | trusted | |
-| `MON02` | 100.0% | trusted | |
-| `MON01` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `ident` | 100.0% | trusted | |
+| `load` | 100.0% | trusted | |
+| `wenum` | 100.0% | trusted | |
+| `fenum` | 100.0% | trusted | |
+| `basis` | 100.0% | trusted | |
+| `mon12` | 100.0% | trusted | |
+| `mon11` | 100.0% | trusted | |
+| `mon10` | 100.0% | trusted | |
+| `mon09` | 100.0% | trusted | |
+| `mon08` | 100.0% | trusted | |
+| `mon07` | 100.0% | trusted | |
+| `mon06` | 100.0% | trusted | |
+| `mon05` | 100.0% | trusted | |
+| `mon04` | 100.0% | trusted | |
+| `mon03` | 100.0% | trusted | |
+| `mon02` | 100.0% | trusted | |
+| `mon01` | 100.0% | trusted | |
+| `jahr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

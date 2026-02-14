@@ -1,9 +1,9 @@
 ---
 table: afih
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 26595765
-column_count: 48
+row_count: 269417
+column_count: 52
 ---
 
 # afih
@@ -14,7 +14,7 @@ column_count: 48
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 48 | 100% |
+| Trusted (≥50%) | 52 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,53 +22,57 @@ column_count: 48
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `AUFNR` | 100.0% | trusted | |
-| `WAPOS` | 100.0% | trusted | |
-| `LAUFN` | 100.0% | trusted | |
-| `OBKNR` | 100.0% | trusted | |
-| `REVNR` | 100.0% | trusted | |
-| `ADDAT` | 100.0% | trusted | |
-| `ADUHR` | 100.0% | trusted | |
-| `IPHAS` | 100.0% | trusted | |
-| `ILART` | 100.0% | trusted | |
-| `QMNUM` | 100.0% | trusted | |
-| `HISDA` | 100.0% | trusted | |
-| `AKKNZ` | 100.0% | trusted | |
-| `PLKNZ` | 100.0% | trusted | |
-| `SERIALNR` | 100.0% | trusted | |
-| `SERMAT` | 100.0% | trusted | |
-| `DEVICEID` | 100.0% | trusted | |
-| `SCREENTY` | 100.0% | trusted | |
-| `ADPSP` | 100.0% | trusted | |
-| `RSUPG` | 100.0% | trusted | |
-| `/ISDFPS/OBJNR` | 100.0% | trusted | |
-| `/ISDFPS/MEQUI` | 100.0% | trusted | |
-| `UII` | 100.0% | trusted | |
-| `ABNUM` | 100.0% | trusted | |
-| `WARPL` | 100.0% | trusted | |
-| `DATAN` | 100.0% | trusted | |
-| `APGRP` | 100.0% | trusted | |
-| `ARTPR` | 100.0% | trusted | |
-| `PRIOK` | 100.0% | trusted | |
-| `EQUNR` | 100.0% | trusted | |
-| `BAUTL` | 100.0% | trusted | |
-| `ILOAN` | 100.0% | trusted | |
-| `ILOAI` | 100.0% | trusted | |
-| `ANLZU` | 100.0% | trusted | |
-| `IWERK` | 100.0% | trusted | |
-| `INGPR` | 100.0% | trusted | |
-| `PM_OBJTY` | 100.0% | trusted | |
-| `INSPK` | 100.0% | trusted | |
-| `GEWRK` | 100.0% | trusted | |
-| `KUNUM` | 100.0% | trusted | |
-| `ANING` | 100.0% | trusted | |
-| `GAUZT` | 100.0% | trusted | |
-| `GAUEH` | 100.0% | trusted | |
-| `ANLBD` | 100.0% | trusted | |
-| `ANLVD` | 100.0% | trusted | |
-| `ANLBZ` | 100.0% | trusted | |
-| `ANLVZ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `laufn` | 100.0% | trusted | |
+| `obknr` | 100.0% | trusted | |
+| `revnr` | 100.0% | trusted | |
+| `addat` | 100.0% | trusted | |
+| `aduhr` | 100.0% | trusted | |
+| `iphas` | 100.0% | trusted | |
+| `ilart` | 100.0% | trusted | |
+| `qmnum` | 100.0% | trusted | |
+| `hisda` | 100.0% | trusted | |
+| `akknz` | 100.0% | trusted | |
+| `plknz` | 100.0% | trusted | |
+| `serialnr` | 100.0% | trusted | |
+| `sermat` | 100.0% | trusted | |
+| `deviceid` | 100.0% | trusted | |
+| `screenty` | 100.0% | trusted | |
+| `adpsp` | 100.0% | trusted | |
+| `rsupg` | 100.0% | trusted | |
+| `/isdfps/objnr` | 100.0% | trusted | |
+| `/isdfps/mequi` | 100.0% | trusted | |
+| `uii` | 100.0% | trusted | |
+| `/isdfps/mhio_addate` | 100.0% | trusted | |
+| `/isdfps/mhio_adtime` | 100.0% | trusted | |
+| `/isdfps/usermode` | 100.0% | trusted | |
+| `wapos` | 100.0% | trusted | |
+| `abnum` | 100.0% | trusted | |
+| `warpl` | 100.0% | trusted | |
+| `apgrp` | 100.0% | trusted | |
+| `aufnr` | 100.0% | trusted | |
+| `artpr` | 100.0% | trusted | |
+| `priok` | 100.0% | trusted | |
+| `equnr` | 100.0% | trusted | |
+| `bautl` | 100.0% | trusted | |
+| `iloan` | 100.0% | trusted | |
+| `iloai` | 100.0% | trusted | |
+| `anlzu` | 100.0% | trusted | |
+| `iwerk` | 100.0% | trusted | |
+| `ingpr` | 100.0% | trusted | |
+| `pm_objty` | 100.0% | trusted | |
+| `datan` | 100.0% | trusted | |
+| `gewrk` | 100.0% | trusted | |
+| `kunum` | 100.0% | trusted | |
+| `aning` | 100.0% | trusted | |
+| `gauzt` | 100.0% | trusted | |
+| `gaueh` | 100.0% | trusted | |
+| `anlbd` | 100.0% | trusted | |
+| `anlvd` | 100.0% | trusted | |
+| `anlbz` | 100.0% | trusted | |
+| `anlvz` | 100.0% | trusted | |
+| `inspk` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

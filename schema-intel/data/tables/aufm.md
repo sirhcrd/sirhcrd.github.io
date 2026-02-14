@@ -1,9 +1,9 @@
 ---
 table: aufm
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 37361010
-column_count: 42
+row_count: 95221120
+column_count: 44
 ---
 
 # aufm
@@ -14,7 +14,7 @@ column_count: 42
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 42 | 100% |
+| Trusted (≥50%) | 44 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,47 +22,49 @@ column_count: 42
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `RSART` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `EBELP` | 100.0% | trusted | |
-| `ELIKZ` | 100.0% | trusted | |
-| `WEMPF` | 100.0% | trusted | |
-| `ABLAD` | 100.0% | trusted | |
-| `AUFNR` | 100.0% | trusted | |
-| `RSNUM` | 100.0% | trusted | |
-| `RSPOS` | 100.0% | trusted | |
-| `KZEAR` | 100.0% | trusted | |
-| `MBLNR` | 100.0% | trusted | |
-| `KZBEW` | 100.0% | trusted | |
-| `WEUNB` | 100.0% | trusted | |
-| `PS_PSP_PNR` | 100.0% | trusted | |
-| `NPLNR` | 100.0% | trusted | |
-| `AUFPL` | 100.0% | trusted | |
-| `APLZL` | 100.0% | trusted | |
-| `SAKTO` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `ERFME` | 100.0% | trusted | |
-| `ERFMG` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `MENGE` | 100.0% | trusted | |
-| `MJAHR` | 100.0% | trusted | |
-| `ZEILE` | 100.0% | trusted | |
-| `BLDAT` | 100.0% | trusted | |
-| `BUDAT` | 100.0% | trusted | |
-| `BWART` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `LGORT` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `KDAUF` | 100.0% | trusted | |
-| `KDPOS` | 100.0% | trusted | |
-| `SHKZG` | 100.0% | trusted | |
-| `DMBTR` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `BWTAR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
+| `ebelp` | 100.0% | trusted | |
+| `elikz` | 100.0% | trusted | |
+| `wempf` | 100.0% | trusted | |
+| `ablad` | 100.0% | trusted | |
+| `aufnr` | 100.0% | trusted | |
+| `rsnum` | 100.0% | trusted | |
+| `rspos` | 100.0% | trusted | |
+| `rsart` | 100.0% | trusted | |
+| `kzear` | 100.0% | trusted | |
+| `kzbew` | 100.0% | trusted | |
+| `weunb` | 100.0% | trusted | |
+| `ps_psp_pnr` | 100.0% | trusted | |
+| `nplnr` | 100.0% | trusted | |
+| `aufpl` | 100.0% | trusted | |
+| `aplzl` | 100.0% | trusted | |
+| `sakto` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `wty_ind` | 100.0% | trusted | |
+| `erfme` | 100.0% | trusted | |
+| `erfmg` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `lgort` | 100.0% | trusted | |
+| `mblnr` | 100.0% | trusted | |
+| `mjahr` | 100.0% | trusted | |
+| `zeile` | 100.0% | trusted | |
+| `bldat` | 100.0% | trusted | |
+| `budat` | 100.0% | trusted | |
+| `bwart` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `menge` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `kdauf` | 100.0% | trusted | |
+| `kdpos` | 100.0% | trusted | |
+| `shkzg` | 100.0% | trusted | |
+| `dmbtr` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `bwtar` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: zc2fo_db_inbound
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 50705
-column_count: 32
+row_count: 187262
+column_count: 33
 ---
 
 # zc2fo_db_inbound
@@ -14,7 +14,7 @@ column_count: 32
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 32 | 100% |
+| Trusted (≥50%) | 33 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,37 +22,38 @@ column_count: 32
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `COMPANY_CODE` | 100.0% | trusted | |
-| `BUSINESS_ACTION` | 100.0% | trusted | |
-| `BUSINESS_STATUS` | 100.0% | trusted | |
-| `UPDATED_BY_USER` | 100.0% | trusted | |
-| `UPDATED_ON_TIME` | 100.0% | trusted | |
-| `UPDATED_ON_DATE` | 100.0% | trusted | |
-| `LATEST_MESSAGE` | 100.0% | trusted | |
-| `LATEST_STATUS` | 100.0% | trusted | |
-| `CREATED_BY_USER` | 100.0% | trusted | |
-| `CREATED_ON_TIME` | 100.0% | trusted | |
-| `CREATED_ON_DATE` | 100.0% | trusted | |
-| `ORIGINAL_MESSAGE` | 100.0% | trusted | |
-| `ORIGINAL_STATUS` | 100.0% | trusted | |
-| `NEW_PAYMENT_TERM` | 100.0% | trusted | |
-| `NEW_DUE_DATE` | 100.0% | trusted | |
-| `NEW_AMOUNT` | 100.0% | trusted | |
-| `C2FO_DISCOUNT_AMOUNT` | 100.0% | trusted | |
-| `C2FO_DISCOUNT_PERCENTAGE` | 100.0% | trusted | |
-| `ORIGINAL_CASH_DISCOUNT_PERCENT` | 100.0% | trusted | |
-| `ORIGINAL_CASH_DISCOUNT_AMOUNT` | 100.0% | trusted | |
-| `ORIGINAL_DUE_DATE` | 100.0% | trusted | |
-| `ORIGINAL_PAYMENT_TERM` | 100.0% | trusted | |
-| `ORIGINAL_AMOUNT` | 100.0% | trusted | |
-| `CURRENCY` | 100.0% | trusted | |
-| `TRANSACTION_TYPE` | 100.0% | trusted | |
-| `REFERENCE_NUMBER` | 100.0% | trusted | |
-| `VENDOR_NUMBER` | 100.0% | trusted | |
-| `LINE_ITEM_NUMBER` | 100.0% | trusted | |
-| `DOCUMENT_NUMBER` | 100.0% | trusted | |
-| `FISCAL_YEAR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `new_amount` | 100.0% | trusted | |
+| `business_action` | 100.0% | trusted | |
+| `business_status` | 100.0% | trusted | |
+| `updated_by_user` | 100.0% | trusted | |
+| `updated_on_time` | 100.0% | trusted | |
+| `updated_on_date` | 100.0% | trusted | |
+| `latest_message` | 100.0% | trusted | |
+| `latest_status` | 100.0% | trusted | |
+| `created_by_user` | 100.0% | trusted | |
+| `created_on_time` | 100.0% | trusted | |
+| `created_on_date` | 100.0% | trusted | |
+| `original_message` | 100.0% | trusted | |
+| `original_status` | 100.0% | trusted | |
+| `new_payment_term` | 100.0% | trusted | |
+| `new_due_date` | 100.0% | trusted | |
+| `c2fo_discount_amount` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `c2fo_discount_percentage` | 100.0% | trusted | |
+| `original_cash_discount_percent` | 100.0% | trusted | |
+| `original_cash_discount_amount` | 100.0% | trusted | |
+| `original_due_date` | 100.0% | trusted | |
+| `original_payment_term` | 100.0% | trusted | |
+| `original_amount` | 100.0% | trusted | |
+| `currency` | 100.0% | trusted | |
+| `transaction_type` | 100.0% | trusted | |
+| `reference_number` | 100.0% | trusted | |
+| `vendor_number` | 100.0% | trusted | |
+| `line_item_number` | 100.0% | trusted | |
+| `document_number` | 100.0% | trusted | |
+| `fiscal_year` | 100.0% | trusted | |
+| `company_code` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

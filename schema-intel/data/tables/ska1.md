@@ -1,9 +1,9 @@
 ---
 table: ska1
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 94958
-column_count: 19
+row_count: 108960
+column_count: 21
 ---
 
 # ska1
@@ -14,7 +14,7 @@ column_count: 19
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 19 | 100% |
+| Trusted (≥50%) | 21 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,24 +22,26 @@ column_count: 19
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MUSTR` | 100.0% | trusted | |
-| `FUNC_AREA` | 100.0% | trusted | |
-| `MCOD1` | 100.0% | trusted | |
-| `XSPEP` | 100.0% | trusted | |
-| `XSPEB` | 100.0% | trusted | |
-| `XSPEA` | 100.0% | trusted | |
-| `XLOEV` | 100.0% | trusted | |
-| `VBUND` | 100.0% | trusted | |
-| `KTOKS` | 100.0% | trusted | |
-| `KTOPL` | 100.0% | trusted | |
-| `GVTYP` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `BILKT` | 100.0% | trusted | |
-| `SAKAN` | 100.0% | trusted | |
-| `XBILK` | 100.0% | trusted | |
-| `SAKNR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mustr` | 100.0% | trusted | |
+| `glaccount_type` | 100.0% | trusted | |
+| `func_area` | 100.0% | trusted | |
+| `mcod1` | 100.0% | trusted | |
+| `xspep` | 100.0% | trusted | |
+| `xspeb` | 100.0% | trusted | |
+| `xspea` | 100.0% | trusted | |
+| `xloev` | 100.0% | trusted | |
+| `vbund` | 100.0% | trusted | |
+| `ktoks` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `gvtyp` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `bilkt` | 100.0% | trusted | |
+| `sakan` | 100.0% | trusted | |
+| `xbilk` | 100.0% | trusted | |
+| `saknr` | 100.0% | trusted | |
+| `ktopl` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

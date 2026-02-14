@@ -1,9 +1,9 @@
 ---
 table: iflot
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 4226946
-column_count: 60
+row_count: 20614
+column_count: 62
 ---
 
 # iflot
@@ -14,7 +14,7 @@ column_count: 60
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 60 | 100% |
+| Trusted (≥50%) | 62 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,65 +22,67 @@ column_count: 60
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `TPLNR` | 100.0% | trusted | |
-| `RBNR_I` | 100.0% | trusted | |
-| `ILOAN` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `ISTYP` | 100.0% | trusted | |
-| `PREMS` | 100.0% | trusted | |
-| `EQART` | 100.0% | trusted | |
-| `INVNR` | 100.0% | trusted | |
-| `GROES` | 100.0% | trusted | |
-| `BRGEW` | 100.0% | trusted | |
-| `GEWEI` | 100.0% | trusted | |
-| `ANSWT` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `ANSDT` | 100.0% | trusted | |
-| `HERST` | 100.0% | trusted | |
-| `HERLD` | 100.0% | trusted | |
-| `BAUJJ` | 100.0% | trusted | |
-| `BAUMM` | 100.0% | trusted | |
-| `TYPBZ` | 100.0% | trusted | |
-| `EMATN` | 100.0% | trusted | |
-| `SERGE` | 100.0% | trusted | |
-| `HANDLE` | 100.0% | trusted | |
-| `TSEGTP` | 100.0% | trusted | |
-| `FLLB_DUTY` | 100.0% | trusted | |
-| `FLLB_HIDE` | 100.0% | trusted | |
-| `IFLOT_SRTYPE` | 100.0% | trusted | |
-| `IFLOT_SNTYPE` | 100.0% | trusted | |
-| `RBNR` | 100.0% | trusted | |
-| `LGWIDI` | 100.0% | trusted | |
-| `LGWID` | 100.0% | trusted | |
-| `STNAM` | 100.0% | trusted | |
-| `MLANG` | 100.0% | trusted | |
-| `TPLKZ` | 100.0% | trusted | |
-| `FLTYP` | 100.0% | trusted | |
-| `TPLMA` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `DATAB` | 100.0% | trusted | |
-| `BEGRU` | 100.0% | trusted | |
-| `TRPNR` | 100.0% | trusted | |
-| `PSTAE` | 100.0% | trusted | |
-| `LVORM` | 100.0% | trusted | |
-| `PM_OBJTY` | 100.0% | trusted | |
-| `SUBMT` | 100.0% | trusted | |
-| `SUBMTI` | 100.0% | trusted | |
-| `MAPAR` | 100.0% | trusted | |
-| `MAPARI` | 100.0% | trusted | |
-| `IEQUI` | 100.0% | trusted | |
-| `IEQUII` | 100.0% | trusted | |
-| `EINZL` | 100.0% | trusted | |
-| `EINZLI` | 100.0% | trusted | |
-| `IWERK` | 100.0% | trusted | |
-| `IWERKI` | 100.0% | trusted | |
-| `INGRP` | 100.0% | trusted | |
-| `INGRPI` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `ansdt` | 100.0% | trusted | |
+| `rbnr_i` | 100.0% | trusted | |
+| `iloan` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `istyp` | 100.0% | trusted | |
+| `prems` | 100.0% | trusted | |
+| `eqart` | 100.0% | trusted | |
+| `invnr` | 100.0% | trusted | |
+| `groes` | 100.0% | trusted | |
+| `brgew` | 100.0% | trusted | |
+| `gewei` | 100.0% | trusted | |
+| `answt` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `herst` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `herld` | 100.0% | trusted | |
+| `baujj` | 100.0% | trusted | |
+| `baumm` | 100.0% | trusted | |
+| `typbz` | 100.0% | trusted | |
+| `ematn` | 100.0% | trusted | |
+| `serge` | 100.0% | trusted | |
+| `handle` | 100.0% | trusted | |
+| `tsegtp` | 100.0% | trusted | |
+| `fllb_duty` | 100.0% | trusted | |
+| `fllb_hide` | 100.0% | trusted | |
+| `iflot_srtype` | 100.0% | trusted | |
+| `iflot_sntype` | 100.0% | trusted | |
+| `endofuse` | 100.0% | trusted | |
+| `rbnr` | 100.0% | trusted | |
+| `lgwidi` | 100.0% | trusted | |
+| `lgwid` | 100.0% | trusted | |
+| `pm_objty` | 100.0% | trusted | |
+| `tplnr` | 100.0% | trusted | |
+| `mlang` | 100.0% | trusted | |
+| `tplkz` | 100.0% | trusted | |
+| `fltyp` | 100.0% | trusted | |
+| `tplma` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `datab` | 100.0% | trusted | |
+| `begru` | 100.0% | trusted | |
+| `trpnr` | 100.0% | trusted | |
+| `pstae` | 100.0% | trusted | |
+| `stnam` | 100.0% | trusted | |
+| `lvorm` | 100.0% | trusted | |
+| `submt` | 100.0% | trusted | |
+| `submti` | 100.0% | trusted | |
+| `mapar` | 100.0% | trusted | |
+| `mapari` | 100.0% | trusted | |
+| `iequi` | 100.0% | trusted | |
+| `iequii` | 100.0% | trusted | |
+| `einzl` | 100.0% | trusted | |
+| `einzli` | 100.0% | trusted | |
+| `iwerk` | 100.0% | trusted | |
+| `iwerki` | 100.0% | trusted | |
+| `ingrp` | 100.0% | trusted | |
+| `ingrpi` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

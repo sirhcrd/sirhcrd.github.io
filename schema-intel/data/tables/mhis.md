@@ -1,9 +1,9 @@
 ---
 table: mhis
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 3288893
-column_count: 61
+row_count: 132827
+column_count: 66
 ---
 
 # mhis
@@ -14,7 +14,7 @@ column_count: 61
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 61 | 100% |
+| Trusted (≥50%) | 66 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,66 +22,71 @@ column_count: 61
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `FIXDU` | 100.0% | trusted | |
-| `VGNUM` | 100.0% | trusted | |
-| `ZYKZT` | 100.0% | trusted | |
-| `ZYKLS` | 100.0% | trusted | |
-| `PUFFP` | 100.0% | trusted | |
-| `PUFFN` | 100.0% | trusted | |
-| `SZAEH` | 100.0% | trusted | |
-| `RZAEH` | 100.0% | trusted | |
-| `NZAEH` | 100.0% | trusted | |
-| `USERMOD` | 100.0% | trusted | |
-| `ADPOINT` | 100.0% | trusted | |
-| `ADANDOR` | 100.0% | trusted | |
-| `ADTGOON` | 100.0% | trusted | |
-| `ADCYCLE` | 100.0% | trusted | |
-| `ADUNIT` | 100.0% | trusted | |
-| `ADOFFSET` | 100.0% | trusted | |
-| `ADNZAEH` | 100.0% | trusted | |
-| `ADSTTIME` | 100.0% | trusted | |
-| `ADCONFTIME` | 100.0% | trusted | |
-| `CYCLESEQIND` | 100.0% | trusted | |
-| `ADEXTSTARTDATE` | 100.0% | trusted | |
-| `ADEXTSTARTTIME` | 100.0% | trusted | |
-| `ADSYSTARTDATE` | 100.0% | trusted | |
-| `ADSYSTARTTIME` | 100.0% | trusted | |
-| `ADOBJECT` | 100.0% | trusted | |
-| `SETREPEATIND` | 100.0% | trusted | |
-| `IND_MPLA_API` | 100.0% | trusted | |
-| `DUE_DATE_TIME` | 100.0% | trusted | |
-| `FIXDA` | 100.0% | trusted | |
-| `TSTAT` | 100.0% | trusted | |
-| `WARPL` | 100.0% | trusted | |
-| `HORDA` | 100.0% | trusted | |
-| `ABNUM` | 100.0% | trusted | |
-| `ZAEHL` | 100.0% | trusted | |
-| `NPLDA` | 100.0% | trusted | |
-| `TERMA` | 100.0% | trusted | |
-| `STADT` | 100.0% | trusted | |
-| `LRMDT` | 100.0% | trusted | |
-| `OFFZE` | 100.0% | trusted | |
-| `OFFZO` | 100.0% | trusted | |
-| `ABRUD` | 100.0% | trusted | |
-| `ABRNA` | 100.0% | trusted | |
-| `SFAKT` | 100.0% | trusted | |
-| `TERMK` | 100.0% | trusted | |
-| `VERSCH` | 100.0% | trusted | |
-| `TOLER` | 100.0% | trusted | |
-| `KNNRM` | 100.0% | trusted | |
-| `KNPRM` | 100.0% | trusted | |
-| `NPLDO` | 100.0% | trusted | |
-| `NPLDZ` | 100.0% | trusted | |
-| `MANDA` | 100.0% | trusted | |
-| `OFFLE` | 100.0% | trusted | |
-| `OFFLO` | 100.0% | trusted | |
-| `KNAUT` | 100.0% | trusted | |
-| `KNASR` | 100.0% | trusted | |
-| `TSABR` | 100.0% | trusted | |
-| `TSVBT` | 100.0% | trusted | |
-| `TSENQ` | 100.0% | trusted | |
-| `TSENM` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `adtgoon` | 100.0% | trusted | |
+| `zykzt` | 100.0% | trusted | |
+| `zykls` | 100.0% | trusted | |
+| `puffp` | 100.0% | trusted | |
+| `puffn` | 100.0% | trusted | |
+| `szaeh` | 100.0% | trusted | |
+| `rzaeh` | 100.0% | trusted | |
+| `nzaeh` | 100.0% | trusted | |
+| `usermod` | 100.0% | trusted | |
+| `demand_id` | 100.0% | trusted | |
+| `demand_no` | 100.0% | trusted | |
+| `revision_no` | 100.0% | trusted | |
+| `rev_plant` | 100.0% | trusted | |
+| `adpoint` | 100.0% | trusted | |
+| `adandor` | 100.0% | trusted | |
+| `adcycle` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `adunit` | 100.0% | trusted | |
+| `adoffset` | 100.0% | trusted | |
+| `adnzaeh` | 100.0% | trusted | |
+| `adsttime` | 100.0% | trusted | |
+| `adconftime` | 100.0% | trusted | |
+| `cycleseqind` | 100.0% | trusted | |
+| `adextstartdate` | 100.0% | trusted | |
+| `adextstarttime` | 100.0% | trusted | |
+| `adsystartdate` | 100.0% | trusted | |
+| `adsystarttime` | 100.0% | trusted | |
+| `adobject` | 100.0% | trusted | |
+| `setrepeatind` | 100.0% | trusted | |
+| `ind_mpla_api` | 100.0% | trusted | |
+| `due_date_time` | 100.0% | trusted | |
+| `vgnum` | 100.0% | trusted | |
+| `fixda` | 100.0% | trusted | |
+| `fixdu` | 100.0% | trusted | |
+| `tstat` | 100.0% | trusted | |
+| `warpl` | 100.0% | trusted | |
+| `abnum` | 100.0% | trusted | |
+| `zaehl` | 100.0% | trusted | |
+| `nplda` | 100.0% | trusted | |
+| `terma` | 100.0% | trusted | |
+| `stadt` | 100.0% | trusted | |
+| `lrmdt` | 100.0% | trusted | |
+| `offze` | 100.0% | trusted | |
+| `offzo` | 100.0% | trusted | |
+| `abrud` | 100.0% | trusted | |
+| `abrna` | 100.0% | trusted | |
+| `sfakt` | 100.0% | trusted | |
+| `termk` | 100.0% | trusted | |
+| `versch` | 100.0% | trusted | |
+| `toler` | 100.0% | trusted | |
+| `knnrm` | 100.0% | trusted | |
+| `knprm` | 100.0% | trusted | |
+| `npldo` | 100.0% | trusted | |
+| `npldz` | 100.0% | trusted | |
+| `manda` | 100.0% | trusted | |
+| `offle` | 100.0% | trusted | |
+| `offlo` | 100.0% | trusted | |
+| `knaut` | 100.0% | trusted | |
+| `knasr` | 100.0% | trusted | |
+| `tsabr` | 100.0% | trusted | |
+| `tsvbt` | 100.0% | trusted | |
+| `tsenq` | 100.0% | trusted | |
+| `tsenm` | 100.0% | trusted | |
+| `horda` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

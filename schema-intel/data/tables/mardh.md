@@ -1,9 +1,9 @@
 ---
 table: mardh
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 198324667
-column_count: 15
+row_count: 10975695
+column_count: 16
 ---
 
 # mardh
@@ -14,7 +14,7 @@ column_count: 15
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 15 | 100% |
+| Trusted (≥50%) | 16 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,20 +22,21 @@ column_count: 15
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `LGORT` | 100.0% | trusted | |
-| `LFGJA` | 100.0% | trusted | |
-| `LFMON` | 100.0% | trusted | |
-| `LABST` | 100.0% | trusted | |
-| `UMLME` | 100.0% | trusted | |
-| `INSME` | 100.0% | trusted | |
-| `EINME` | 100.0% | trusted | |
-| `SPEME` | 100.0% | trusted | |
-| `RETME` | 100.0% | trusted | |
-| `VKLAB` | 100.0% | trusted | |
-| `VKUML` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `lgort` | 100.0% | trusted | |
+| `lfgja` | 100.0% | trusted | |
+| `lfmon` | 100.0% | trusted | |
+| `labst` | 100.0% | trusted | |
+| `umlme` | 100.0% | trusted | |
+| `insme` | 100.0% | trusted | |
+| `einme` | 100.0% | trusted | |
+| `speme` | 100.0% | trusted | |
+| `retme` | 100.0% | trusted | |
+| `vklab` | 100.0% | trusted | |
+| `vkuml` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: kaps
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 5371
-column_count: 23
+row_count: 670
+column_count: 24
 ---
 
 # kaps
@@ -14,7 +14,7 @@ column_count: 23
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 23 | 100% |
+| Trusted (≥50%) | 24 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,8 @@ column_count: 23
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
 | `mandt` | 100.0% | trusted | |
-| `psp007` | 100.0% | trusted | |
 | `psp016` | 100.0% | trusted | |
 | `psp015` | 100.0% | trusted | |
 | `psp014` | 100.0% | trusted | |
@@ -33,8 +33,8 @@ column_count: 23
 | `psp010` | 100.0% | trusted | |
 | `psp009` | 100.0% | trusted | |
 | `psp008` | 100.0% | trusted | |
+| `psp007` | 100.0% | trusted | |
 | `psp006` | 100.0% | trusted | |
-| `kokrs` | 100.0% | trusted | |
 | `psp005` | 100.0% | trusted | |
 | `psp004` | 100.0% | trusted | |
 | `psp003` | 100.0% | trusted | |
@@ -44,6 +44,7 @@ column_count: 23
 | `vrgng` | 100.0% | trusted | |
 | `versn` | 100.0% | trusted | |
 | `gjahr` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

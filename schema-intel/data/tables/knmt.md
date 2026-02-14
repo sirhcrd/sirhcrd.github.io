@@ -1,9 +1,9 @@
 ---
 table: knmt
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 11
-column_count: 29
+row_count: 1441052
+column_count: 30
 ---
 
 # knmt
@@ -14,43 +14,44 @@ column_count: 29
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 28 | 96% |
+| Trusted (≥50%) | 30 | 100% |
 | Neutral (5-50%) | 0 | 0% |
-| Dead (<5%) | 1 | 3% |
+| Dead (<5%) | 0 | 0% |
 
 ## Columns
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `VKORG` | 100.0% | trusted | |
-| `UMVKZ_T` | 100.0% | trusted | |
-| `UMVKN_T` | 100.0% | trusted | |
-| `VRKME_T` | 100.0% | trusted | |
-| `VWPOS` | 100.0% | trusted | |
-| `J_1BTXSDC` | 100.0% | trusted | |
-| `MEGRU` | 100.0% | trusted | |
-| `RDPRF` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `UEBTK` | 100.0% | trusted | |
-| `UEBTO` | 100.0% | trusted | |
-| `UNTTO` | 100.0% | trusted | |
-| `ANTLF` | 100.0% | trusted | |
-| `KZTLF` | 100.0% | trusted | |
-| `CHSPL` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `MINLF` | 100.0% | trusted | |
-| `LPRIO` | 100.0% | trusted | |
-| `POSTX` | 100.0% | trusted | |
-| `KDMAT` | 100.0% | trusted | |
-| `SORTL` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `VTWEG` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `umvkz_t` | 100.0% | trusted | |
+| `umvkn_t` | 100.0% | trusted | |
+| `vrkme_t` | 100.0% | trusted | |
+| `vwpos` | 100.0% | trusted | |
+| `j_1btxsdc` | 100.0% | trusted | |
+| `megru` | 100.0% | trusted | |
+| `rdprf` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `uebtk` | 100.0% | trusted | |
+| `uebto` | 100.0% | trusted | |
+| `untto` | 100.0% | trusted | |
+| `antlf` | 100.0% | trusted | |
+| `kztlf` | 100.0% | trusted | |
+| `chspl` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `minlf` | 100.0% | trusted | |
+| `lprio` | 100.0% | trusted | |
+| `postx` | 100.0% | trusted | |
+| `kdmat` | 100.0% | trusted | |
+| `sortl` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `vtweg` | 100.0% | trusted | |
+| `vkorg` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
-| `GUID` | 0.0% | dead | |
+| `guid` | 50.0% | trusted | |
 
 ## Notes
 

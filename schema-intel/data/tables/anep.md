@@ -1,8 +1,8 @@
 ---
 table: anep
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 745431
+row_count: 895832
 column_count: 25
 ---
 
@@ -46,7 +46,7 @@ column_count: 25
 | `GJAHR` | 100.0% | trusted | |
 | `ANLN2` | 100.0% | trusted | |
 | `ANLN1` | 100.0% | trusted | |
-| `src_commit_time` | 100.0% | trusted | |
+| `ADLS_LOADED_DATE` | 100.0% | trusted | |
 
 ## Notes
 

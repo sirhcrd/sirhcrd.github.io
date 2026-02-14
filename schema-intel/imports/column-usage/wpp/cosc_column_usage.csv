@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,66,66,100.0,0,0.0
+2,mandt,66,66,100.0,0,0.0
+3,objnr,66,66,100.0,0,0.0
+4,sctyp,66,66,100.0,0,0.0
+5,versn,66,66,100.0,0,0.0
+6,gjahr,66,66,100.0,0,0.0
+7,scnam,66,66,100.0,0,0.0
+8,ernam,66,66,100.0,0,0.0
+9,erdat,66,66,100.0,0,0.0
+10,aenam,66,66,100.0,0,0.0
+11,aedat,66,66,100.0,0,0.0
+12,src_commit_time,66,66,100.0,0,0.0

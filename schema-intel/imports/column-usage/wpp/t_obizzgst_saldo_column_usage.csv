@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,61,61,100.0,0,0.0
+2,mandt,61,61,100.0,0,0.0
+3,bukrs,61,61,100.0,0,0.0
+4,doctype,61,61,100.0,0,0.0
+5,billcat,61,61,100.0,0,0.0
+6,imp_type,61,61,100.0,0,0.0
+7,src_commit_time,61,61,100.0,0,0.0

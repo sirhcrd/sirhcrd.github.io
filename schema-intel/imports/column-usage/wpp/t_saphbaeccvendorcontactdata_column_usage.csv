@@ -1,0 +1,25 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,112402,112402,100.0,0,0.0
+2,Vendor,112402,112402,100.0,0,0.0
+3,VendorAccountGroup,112402,112402,100.0,0,0.0
+4,AuthorizationGroup,112402,112402,100.0,0,0.0
+5,PhoneIsSMSEnabled,112402,112402,100.0,0,0.0
+6,IsRecipientAddress,112402,112402,100.0,0,0.0
+7,IsStandardAddressOfSender,112402,112402,100.0,0,0.0
+8,IsDefaultCommunicationMedium,112402,112402,100.0,0,0.0
+9,CommunicationMediumType,112402,112402,100.0,0,0.0
+10,CommunicationAddress,112402,112402,100.0,0,0.0
+11,POBox,112402,112402,100.0,0,0.0
+12,PostalCode,112402,112402,100.0,0,0.0
+13,StreetAddressName,112402,112402,100.0,0,0.0
+14,District,112402,112402,100.0,0,0.0
+15,CityName,112402,112402,100.0,0,0.0
+16,Region,112402,112402,100.0,0,0.0
+17,Country,112402,112402,100.0,0,0.0
+18,CreatedByUser,112402,112402,100.0,0,0.0
+19,Customer,112402,112402,100.0,0,0.0
+20,VendorAdditionalName,112402,112402,100.0,0,0.0
+21,VendorName,112402,112402,100.0,0,0.0
+22,AddressID,112402,112402,100.0,0,0.0
+23,src_commit_time,112402,112402,100.0,0,0.0
+24,FormOfAddress,14,112402,0.0,112388,100.0

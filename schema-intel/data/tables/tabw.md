@@ -1,9 +1,9 @@
 ---
 table: tabw
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 666
-column_count: 31
+row_count: 1060
+column_count: 32
 ---
 
 # tabw
@@ -14,7 +14,7 @@ column_count: 31
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 31 | 100% |
+| Trusted (≥50%) | 32 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,8 @@ column_count: 31
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
 | `mandt` | 100.0% | trusted | |
-| `bwasln` | 100.0% | trusted | |
 | `xobs` | 100.0% | trusted | |
 | `rsn_code` | 100.0% | trusted | |
 | `xumja` | 100.0% | trusted | |
@@ -37,8 +37,8 @@ column_count: 31
 | `xabimm` | 100.0% | trusted | |
 | `xabgwg` | 100.0% | trusted | |
 | `gittgr` | 100.0% | trusted | |
+| `bwasln` | 100.0% | trusted | |
 | `xabinv` | 100.0% | trusted | |
-| `bwasl` | 100.0% | trusted | |
 | `blart` | 100.0% | trusted | |
 | `bwaslg` | 100.0% | trusted | |
 | `anshkz` | 100.0% | trusted | |
@@ -52,6 +52,7 @@ column_count: 31
 | `xaktiv` | 100.0% | trusted | |
 | `xverga` | 100.0% | trusted | |
 | `bwagrp` | 100.0% | trusted | |
+| `bwasl` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

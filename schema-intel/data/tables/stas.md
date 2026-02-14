@@ -1,9 +1,9 @@
 ---
 table: stas
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 3452335
-column_count: 22
+row_count: 1227208
+column_count: 23
 ---
 
 # stas
@@ -14,7 +14,7 @@ column_count: 22
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 22 | 100% |
+| Trusted (≥50%) | 23 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,27 +22,28 @@ column_count: 22
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `STLTY` | 100.0% | trusted | |
-| `LPSRT` | 100.0% | trusted | |
-| `IDVAR` | 100.0% | trusted | |
-| `IDPOS` | 100.0% | trusted | |
-| `STVKN` | 100.0% | trusted | |
-| `AEHLP` | 100.0% | trusted | |
-| `DVNAM` | 100.0% | trusted | |
-| `DVDAT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `ANNAM` | 100.0% | trusted | |
-| `ANDAT` | 100.0% | trusted | |
-| `LKENZ` | 100.0% | trusted | |
-| `AENNR` | 100.0% | trusted | |
-| `TECHV` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `STASZ` | 100.0% | trusted | |
-| `STLKN` | 100.0% | trusted | |
-| `STLAL` | 100.0% | trusted | |
-| `STLNR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `annam` | 100.0% | trusted | |
+| `lpsrt` | 100.0% | trusted | |
+| `idvar` | 100.0% | trusted | |
+| `idpos` | 100.0% | trusted | |
+| `stvkn` | 100.0% | trusted | |
+| `aehlp` | 100.0% | trusted | |
+| `dvnam` | 100.0% | trusted | |
+| `dvdat` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `andat` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `lkenz` | 100.0% | trusted | |
+| `aennr` | 100.0% | trusted | |
+| `techv` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `stasz` | 100.0% | trusted | |
+| `stlkn` | 100.0% | trusted | |
+| `stlal` | 100.0% | trusted | |
+| `stlnr` | 100.0% | trusted | |
+| `stlty` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: sww_contob
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 72557156
-column_count: 11
+row_count: 18002465
+column_count: 12
 ---
 
 # sww_contob
@@ -14,7 +14,7 @@ column_count: 11
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 11 | 100% |
+| Trusted (≥50%) | 12 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,16 +22,17 @@ column_count: 11
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `_DATAAGING` | 100.0% | trusted | |
-| `WI_ID` | 100.0% | trusted | |
-| `ELEMENT` | 100.0% | trusted | |
-| `TAB_INDEX` | 100.0% | trusted | |
-| `ELEMLENGTH` | 100.0% | trusted | |
-| `TYPE` | 100.0% | trusted | |
-| `LOGSYS` | 100.0% | trusted | |
-| `OBJTYPE` | 100.0% | trusted | |
-| `OBJKEY` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `wi_id` | 100.0% | trusted | |
+| `element` | 100.0% | trusted | |
+| `tab_index` | 100.0% | trusted | |
+| `elemlength` | 100.0% | trusted | |
+| `type` | 100.0% | trusted | |
+| `logsys` | 100.0% | trusted | |
+| `objtype` | 100.0% | trusted | |
+| `objkey` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

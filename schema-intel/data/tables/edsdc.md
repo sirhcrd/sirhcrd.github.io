@@ -1,9 +1,9 @@
 ---
 table: edsdc
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 11476
-column_count: 9
+row_count: 10007
+column_count: 10
 ---
 
 # edsdc
@@ -14,7 +14,7 @@ column_count: 9
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 9 | 100% |
+| Trusted (≥50%) | 10 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,14 +22,15 @@ column_count: 9
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `VKORG` | 100.0% | trusted | |
-| `VTWEG` | 100.0% | trusted | |
-| `SPART` | 100.0% | trusted | |
-| `AUART` | 100.0% | trusted | |
-| `RAUART` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `vkorg` | 100.0% | trusted | |
+| `vtweg` | 100.0% | trusted | |
+| `spart` | 100.0% | trusted | |
+| `auart` | 100.0% | trusted | |
+| `rauart` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

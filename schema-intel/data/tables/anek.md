@@ -1,9 +1,9 @@
 ---
 table: anek
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 192050
-column_count: 52
+row_count: 1560
+column_count: 53
 ---
 
 # anek
@@ -14,66 +14,67 @@ column_count: 52
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 50 | 96% |
-| Neutral (5-50%) | 2 | 3% |
+| Trusted (≥50%) | 53 | 100% |
+| Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
 ## Columns
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `PARGB` | 100.0% | trusted | |
-| `BUREG` | 100.0% | trusted | |
-| `AUGLZ` | 100.0% | trusted | |
-| `ABRBUP` | 100.0% | trusted | |
-| `OBART` | 100.0% | trusted | |
-| `OBJID` | 100.0% | trusted | |
-| `ZUONR` | 100.0% | trusted | |
-| `MWSKZ` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `EBELP` | 100.0% | trusted | |
-| `AUGLN` | 100.0% | trusted | |
-| `GLVOR` | 100.0% | trusted | |
-| `BELNR` | 100.0% | trusted | |
-| `BUZEI` | 100.0% | trusted | |
-| `BZDAT` | 100.0% | trusted | |
-| `XANTEI` | 100.0% | trusted | |
-| `AWTYP` | 100.0% | trusted | |
-| `AWORG` | 100.0% | trusted | |
-| `AWSYS` | 100.0% | trusted | |
-| `PBUKR` | 100.0% | trusted | |
-| `VORGN` | 100.0% | trusted | |
-| `LDGRP` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `VBUND` | 100.0% | trusted | |
-| `ANUPD` | 100.0% | trusted | |
-| `UPDDT` | 100.0% | trusted | |
-| `ANLN1` | 100.0% | trusted | |
-| `ANLN2` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `LNRAN` | 100.0% | trusted | |
-| `BLDAT` | 100.0% | trusted | |
-| `BUDAT` | 100.0% | trusted | |
-| `MONAT` | 100.0% | trusted | |
-| `CPUDT` | 100.0% | trusted | |
-| `CPUTM` | 100.0% | trusted | |
-| `ANLU2` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `TCODE` | 100.0% | trusted | |
-| `BVORG` | 100.0% | trusted | |
-| `XBLNR` | 100.0% | trusted | |
-| `STBLG` | 100.0% | trusted | |
-| `STJAH` | 100.0% | trusted | |
-| `SGTXT` | 100.0% | trusted | |
-| `MENGE` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `ANLU1` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `vbund` | 100.0% | trusted | |
+| `bureg` | 100.0% | trusted | |
+| `auglz` | 100.0% | trusted | |
+| `abrbup` | 100.0% | trusted | |
+| `obart` | 100.0% | trusted | |
+| `objid` | 100.0% | trusted | |
+| `zuonr` | 100.0% | trusted | |
+| `mwskz` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
+| `ebelp` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `augln` | 100.0% | trusted | |
+| `belnr` | 100.0% | trusted | |
+| `buzei` | 100.0% | trusted | |
+| `bzdat` | 100.0% | trusted | |
+| `xantei` | 100.0% | trusted | |
+| `awtyp` | 100.0% | trusted | |
+| `aworg` | 100.0% | trusted | |
+| `awsys` | 100.0% | trusted | |
+| `pbukr` | 100.0% | trusted | |
+| `vorgn` | 100.0% | trusted | |
+| `ldgrp` | 100.0% | trusted | |
+| `document_uuid` | 100.0% | trusted | |
+| `transaction_uuid` | 100.0% | trusted | |
+| `pargb` | 100.0% | trusted | |
+| `glvor` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `anupd` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `anln1` | 100.0% | trusted | |
+| `anln2` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `lnran` | 100.0% | trusted | |
+| `bldat` | 100.0% | trusted | |
+| `budat` | 100.0% | trusted | |
+| `monat` | 100.0% | trusted | |
+| `cpudt` | 100.0% | trusted | |
+| `cputm` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `upddt` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `tcode` | 100.0% | trusted | |
+| `bvorg` | 100.0% | trusted | |
+| `xblnr` | 100.0% | trusted | |
+| `stblg` | 100.0% | trusted | |
+| `stjah` | 100.0% | trusted | |
+| `sgtxt` | 100.0% | trusted | |
+| `menge` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `anlu1` | 100.0% | trusted | |
+| `anlu2` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
-| `DOCUMENT_UUID` | 40.7% | neutral | |
-| `TRANSACTION_UUID` | 40.7% | neutral | |
 
 ## Notes
 

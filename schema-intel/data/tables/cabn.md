@@ -1,9 +1,9 @@
 ---
 table: cabn
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 75024
-column_count: 71
+row_count: 8033
+column_count: 72
 ---
 
 # cabn
@@ -14,7 +14,7 @@ column_count: 71
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 71 | 100% |
+| Trusted (≥50%) | 72 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,76 +22,77 @@ column_count: 71
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `ATWSO` | 100.0% | trusted | |
-| `ATWRI` | 100.0% | trusted | |
-| `LKENZ` | 100.0% | trusted | |
-| `AENNR` | 100.0% | trusted | |
-| `TECHV` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `ATBSO` | 100.0% | trusted | |
-| `ATMST` | 100.0% | trusted | |
-| `DOKNR` | 100.0% | trusted | |
-| `ATYAC` | 100.0% | trusted | |
-| `ATXAC` | 100.0% | trusted | |
-| `VDATU` | 100.0% | trusted | |
-| `VNAME` | 100.0% | trusted | |
-| `ADATU` | 100.0% | trusted | |
-| `ANAME` | 100.0% | trusted | |
-| `DOKAR` | 100.0% | trusted | |
-| `DOKVR` | 100.0% | trusted | |
-| `ATFGA` | 100.0% | trusted | |
-| `ATHKO` | 100.0% | trusted | |
-| `COUNTRYGRP` | 100.0% | trusted | |
-| `ATAUTH` | 100.0% | trusted | |
-| `ATVPL` | 100.0% | trusted | |
-| `ATZUS` | 100.0% | trusted | |
-| `ATTOL` | 100.0% | trusted | |
-| `CLINT` | 100.0% | trusted | |
-| `ATHKA` | 100.0% | trusted | |
-| `DOKTL` | 100.0% | trusted | |
-| `AUSWAHLMGE` | 100.0% | trusted | |
-| `KATALOGART` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `ATVIE` | 100.0% | trusted | |
-| `ATINP` | 100.0% | trusted | |
-| `KNOBJ` | 100.0% | trusted | |
-| `ATVSC` | 100.0% | trusted | |
-| `ATDEX` | 100.0% | trusted | |
-| `ATINN` | 100.0% | trusted | |
-| `ATSCH` | 100.0% | trusted | |
-| `ATERF` | 100.0% | trusted | |
-| `ATKLA` | 100.0% | trusted | |
-| `ATAEN` | 100.0% | trusted | |
-| `ATEND` | 100.0% | trusted | |
-| `ATKON` | 100.0% | trusted | |
-| `ATKLE` | 100.0% | trusted | |
-| `ATVOR` | 100.0% | trusted | |
-| `ATAME` | 100.0% | trusted | |
-| `ANZDZ` | 100.0% | trusted | |
-| `ANZST` | 100.0% | trusted | |
-| `ATFOR` | 100.0% | trusted | |
-| `ATIDN` | 100.0% | trusted | |
-| `ATNAM` | 100.0% | trusted | |
-| `ADZHL` | 100.0% | trusted | |
-| `ATEIN` | 100.0% | trusted | |
-| `ATWME` | 100.0% | trusted | |
-| `ATHIE` | 100.0% | trusted | |
-| `ATFEL` | 100.0% | trusted | |
-| `ATFOD` | 100.0% | trusted | |
-| `ATWRD` | 100.0% | trusted | |
-| `ATPRF` | 100.0% | trusted | |
-| `ATPRR` | 100.0% | trusted | |
-| `ATPRT` | 100.0% | trusted | |
-| `ATTEI` | 100.0% | trusted | |
-| `ATTAB` | 100.0% | trusted | |
-| `MSEHI` | 100.0% | trusted | |
-| `ATSON` | 100.0% | trusted | |
-| `ATUNS` | 100.0% | trusted | |
-| `ATINT` | 100.0% | trusted | |
-| `ATGLA` | 100.0% | trusted | |
-| `ATGLO` | 100.0% | trusted | |
-| `ATDIM` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `atwri` | 100.0% | trusted | |
+| `lkenz` | 100.0% | trusted | |
+| `aennr` | 100.0% | trusted | |
+| `techv` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `atbso` | 100.0% | trusted | |
+| `atwso` | 100.0% | trusted | |
+| `atmst` | 100.0% | trusted | |
+| `atyac` | 100.0% | trusted | |
+| `atxac` | 100.0% | trusted | |
+| `vdatu` | 100.0% | trusted | |
+| `vname` | 100.0% | trusted | |
+| `adatu` | 100.0% | trusted | |
+| `aname` | 100.0% | trusted | |
+| `atvsc` | 100.0% | trusted | |
+| `dokar` | 100.0% | trusted | |
+| `doknr` | 100.0% | trusted | |
+| `dokvr` | 100.0% | trusted | |
+| `athko` | 100.0% | trusted | |
+| `countrygrp` | 100.0% | trusted | |
+| `atauth` | 100.0% | trusted | |
+| `atvpl` | 100.0% | trusted | |
+| `atzus` | 100.0% | trusted | |
+| `attol` | 100.0% | trusted | |
+| `clint` | 100.0% | trusted | |
+| `athka` | 100.0% | trusted | |
+| `doktl` | 100.0% | trusted | |
+| `auswahlmge` | 100.0% | trusted | |
+| `katalogart` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `atvie` | 100.0% | trusted | |
+| `atinp` | 100.0% | trusted | |
+| `knobj` | 100.0% | trusted | |
+| `atfga` | 100.0% | trusted | |
+| `atdex` | 100.0% | trusted | |
+| `athie` | 100.0% | trusted | |
+| `atvor` | 100.0% | trusted | |
+| `atkla` | 100.0% | trusted | |
+| `ataen` | 100.0% | trusted | |
+| `atend` | 100.0% | trusted | |
+| `atkon` | 100.0% | trusted | |
+| `atkle` | 100.0% | trusted | |
+| `atsch` | 100.0% | trusted | |
+| `anzdz` | 100.0% | trusted | |
+| `atein` | 100.0% | trusted | |
+| `anzst` | 100.0% | trusted | |
+| `atfor` | 100.0% | trusted | |
+| `atidn` | 100.0% | trusted | |
+| `atnam` | 100.0% | trusted | |
+| `adzhl` | 100.0% | trusted | |
+| `atinn` | 100.0% | trusted | |
+| `aterf` | 100.0% | trusted | |
+| `atame` | 100.0% | trusted | |
+| `atfod` | 100.0% | trusted | |
+| `attab` | 100.0% | trusted | |
+| `atwrd` | 100.0% | trusted | |
+| `atprf` | 100.0% | trusted | |
+| `atprr` | 100.0% | trusted | |
+| `atprt` | 100.0% | trusted | |
+| `attei` | 100.0% | trusted | |
+| `atfel` | 100.0% | trusted | |
+| `atson` | 100.0% | trusted | |
+| `atwme` | 100.0% | trusted | |
+| `atuns` | 100.0% | trusted | |
+| `atint` | 100.0% | trusted | |
+| `atgla` | 100.0% | trusted | |
+| `atglo` | 100.0% | trusted | |
+| `atdim` | 100.0% | trusted | |
+| `msehi` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

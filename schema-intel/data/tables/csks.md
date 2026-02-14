@@ -1,9 +1,9 @@
 ---
 table: csks
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 8506
-column_count: 76
+row_count: 22111
+column_count: 77
 ---
 
 # csks
@@ -14,7 +14,7 @@ column_count: 76
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 76 | 100% |
+| Trusted (≥50%) | 77 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,81 +22,82 @@ column_count: 76
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `TELF2` | 100.0% | trusted | |
-| `CCKEY` | 100.0% | trusted | |
-| `KHINR` | 100.0% | trusted | |
-| `DRNAM` | 100.0% | trusted | |
-| `DATLT` | 100.0% | trusted | |
-| `TELX1` | 100.0% | trusted | |
-| `TELTX` | 100.0% | trusted | |
-| `TELFX` | 100.0% | trusted | |
-| `TELF1` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `TELBX` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `REGIO` | 100.0% | trusted | |
-| `PSTL2` | 100.0% | trusted | |
-| `PSTLZ` | 100.0% | trusted | |
-| `PFACH` | 100.0% | trusted | |
-| `STRAS` | 100.0% | trusted | |
-| `KOMPL` | 100.0% | trusted | |
-| `STAKZ` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `FUNKT` | 100.0% | trusted | |
-| `FERC_IND` | 100.0% | trusted | |
-| `JV_JIBSA` | 100.0% | trusted | |
-| `JV_JIBCL` | 100.0% | trusted | |
-| `JV_OTYPE` | 100.0% | trusted | |
-| `ETYPE` | 100.0% | trusted | |
-| `RECID` | 100.0% | trusted | |
-| `VNAME` | 100.0% | trusted | |
-| `SKD_TEMPL` | 100.0% | trusted | |
-| `SKI_TEMPL` | 100.0% | trusted | |
-| `SCD_TEMPL` | 100.0% | trusted | |
-| `SCI_TEMPL` | 100.0% | trusted | |
-| `FUNC_AREA` | 100.0% | trusted | |
-| `CPD_TEMPL` | 100.0% | trusted | |
-| `CPI_TEMPL` | 100.0% | trusted | |
-| `AFUNK` | 100.0% | trusted | |
-| `ORT02` | 100.0% | trusted | |
-| `ORT01` | 100.0% | trusted | |
-| `NAME4` | 100.0% | trusted | |
-| `ERSDA` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `PRCTR` | 100.0% | trusted | |
-| `TXJCD` | 100.0% | trusted | |
-| `KALSM` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `VERAK_USER` | 100.0% | trusted | |
-| `VERAK` | 100.0% | trusted | |
-| `KOSAR` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `PKZKP` | 100.0% | trusted | |
-| `BKZKP` | 100.0% | trusted | |
-| `DATAB` | 100.0% | trusted | |
-| `DATBI` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `LOGSYSTEM` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `NAME3` | 100.0% | trusted | |
-| `BKZKS` | 100.0% | trusted | |
-| `NAME2` | 100.0% | trusted | |
-| `NAME1` | 100.0% | trusted | |
-| `ANRED` | 100.0% | trusted | |
-| `LAND1` | 100.0% | trusted | |
-| `KOSZSCHL` | 100.0% | trusted | |
-| `KAPPL` | 100.0% | trusted | |
-| `KVEWE` | 100.0% | trusted | |
-| `NKOST` | 100.0% | trusted | |
-| `ABTEI` | 100.0% | trusted | |
-| `MGEFL` | 100.0% | trusted | |
-| `VMETH` | 100.0% | trusted | |
-| `PKZER` | 100.0% | trusted | |
-| `PKZKS` | 100.0% | trusted | |
-| `BKZOB` | 100.0% | trusted | |
-| `BKZER` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `telf2` | 100.0% | trusted | |
+| `cckey` | 100.0% | trusted | |
+| `khinr` | 100.0% | trusted | |
+| `drnam` | 100.0% | trusted | |
+| `datlt` | 100.0% | trusted | |
+| `telx1` | 100.0% | trusted | |
+| `teltx` | 100.0% | trusted | |
+| `telfx` | 100.0% | trusted | |
+| `telf1` | 100.0% | trusted | |
+| `ort01` | 100.0% | trusted | |
+| `telbx` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `regio` | 100.0% | trusted | |
+| `pstl2` | 100.0% | trusted | |
+| `pstlz` | 100.0% | trusted | |
+| `pfach` | 100.0% | trusted | |
+| `stras` | 100.0% | trusted | |
+| `kompl` | 100.0% | trusted | |
+| `stakz` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `funkt` | 100.0% | trusted | |
+| `skd_templ` | 100.0% | trusted | |
+| `ski_templ` | 100.0% | trusted | |
+| `ferc_ind` | 100.0% | trusted | |
+| `jv_jibsa` | 100.0% | trusted | |
+| `jv_jibcl` | 100.0% | trusted | |
+| `jv_otype` | 100.0% | trusted | |
+| `etype` | 100.0% | trusted | |
+| `recid` | 100.0% | trusted | |
+| `vname` | 100.0% | trusted | |
+| `scd_templ` | 100.0% | trusted | |
+| `sci_templ` | 100.0% | trusted | |
+| `func_area` | 100.0% | trusted | |
+| `cpd_templ` | 100.0% | trusted | |
+| `cpi_templ` | 100.0% | trusted | |
+| `afunk` | 100.0% | trusted | |
+| `ort02` | 100.0% | trusted | |
+| `name4` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kosar` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `prctr` | 100.0% | trusted | |
+| `txjcd` | 100.0% | trusted | |
+| `kalsm` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `verak_user` | 100.0% | trusted | |
+| `verak` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `name3` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `pkzkp` | 100.0% | trusted | |
+| `bkzkp` | 100.0% | trusted | |
+| `datab` | 100.0% | trusted | |
+| `datbi` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `logsystem` | 100.0% | trusted | |
+| `ersda` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `bkzks` | 100.0% | trusted | |
+| `name2` | 100.0% | trusted | |
+| `name1` | 100.0% | trusted | |
+| `anred` | 100.0% | trusted | |
+| `land1` | 100.0% | trusted | |
+| `koszschl` | 100.0% | trusted | |
+| `kappl` | 100.0% | trusted | |
+| `kvewe` | 100.0% | trusted | |
+| `nkost` | 100.0% | trusted | |
+| `abtei` | 100.0% | trusted | |
+| `mgefl` | 100.0% | trusted | |
+| `vmeth` | 100.0% | trusted | |
+| `pkzer` | 100.0% | trusted | |
+| `pkzks` | 100.0% | trusted | |
+| `bkzob` | 100.0% | trusted | |
+| `bkzer` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

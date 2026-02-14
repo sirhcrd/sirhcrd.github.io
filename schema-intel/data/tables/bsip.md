@@ -1,9 +1,9 @@
 ---
 table: bsip
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 36811891
-column_count: 12
+row_count: 5317933
+column_count: 14
 ---
 
 # bsip
@@ -14,7 +14,7 @@ column_count: 12
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 12 | 100% |
+| Trusted (≥50%) | 14 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,17 +22,19 @@ column_count: 12
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `BLDAT` | 100.0% | trusted | |
-| `XBLNR` | 100.0% | trusted | |
-| `WRBTR` | 100.0% | trusted | |
-| `BELNR` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `BUZEI` | 100.0% | trusted | |
-| `SHKZG` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `bldat` | 100.0% | trusted | |
+| `xblnr` | 100.0% | trusted | |
+| `wrbtr` | 100.0% | trusted | |
+| `belnr` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `buzei` | 100.0% | trusted | |
+| `shkzg` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

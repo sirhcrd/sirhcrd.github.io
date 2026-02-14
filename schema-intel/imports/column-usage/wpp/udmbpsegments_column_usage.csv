@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,5521141,5521141,100.0,0,0.0
+2,mandt,5521141,5521141,100.0,0,0.0
+3,partner,5521141,5521141,100.0,0,0.0
+4,coll_segment,5521141,5521141,100.0,0,0.0
+5,valid_until,5521141,5521141,100.0,0,0.0
+6,valid_from,5521141,5521141,100.0,0,0.0
+7,coll_group,5521141,5521141,100.0,0,0.0
+8,coll_specialist,5521141,5521141,100.0,0,0.0
+9,last_contact,5521141,5521141,100.0,0,0.0
+10,src_commit_time,5521141,5521141,100.0,0,0.0

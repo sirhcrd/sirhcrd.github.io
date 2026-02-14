@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,360,360,100.0,0,0.0
+2,mandt,360,360,100.0,0,0.0
+3,spras,360,360,100.0,0,0.0
+4,traty,360,360,100.0,0,0.0
+5,vtext,360,360,100.0,0,0.0
+6,src_commit_time,360,360,100.0,0,0.0

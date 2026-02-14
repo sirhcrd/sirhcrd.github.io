@@ -1,9 +1,9 @@
 ---
 table: tspa
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 20
-column_count: 4
+row_count: 7
+column_count: 5
 ---
 
 # tspa
@@ -14,7 +14,7 @@ column_count: 4
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 4 | 100% |
+| Trusted (≥50%) | 5 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,9 +22,10 @@ column_count: 4
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SPART` | 100.0% | trusted | |
-| `HIDE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `spart` | 100.0% | trusted | |
+| `hide` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

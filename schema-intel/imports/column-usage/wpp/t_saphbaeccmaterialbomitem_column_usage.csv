@@ -1,0 +1,22 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,1057760,1057760,100.0,0,0.0
+2,BillOfMaterialItemCategory,1057760,1057760,100.0,0,0.0
+3,BillOfMaterialItemQuantity,1057760,1057760,100.0,0,0.0
+4,BillOfMaterialItemUnit,1057760,1057760,100.0,0,0.0
+5,IsDeleted,1057760,1057760,100.0,0,0.0
+6,BOMItemReferenceID,1057760,1057760,100.0,0,0.0
+7,AlternativeBillOfMaterial,1057760,1057760,100.0,0,0.0
+8,MaterialIsBulkMaterial,1057760,1057760,100.0,0,0.0
+9,BOMItemSpecialProcurementType,1057760,1057760,100.0,0,0.0
+10,BillOfMaterialItemNumber,1057760,1057760,100.0,0,0.0
+11,BillOfMaterialComponent,1057760,1057760,100.0,0,0.0
+12,BillOfMaterialCategory,1057760,1057760,100.0,0,0.0
+13,LastChangeDate,1057760,1057760,100.0,0,0.0
+14,CreatedByUser,1057760,1057760,100.0,0,0.0
+15,RecordCreationDate,1057760,1057760,100.0,0,0.0
+16,EngineeringChangeDocument,1057760,1057760,100.0,0,0.0
+17,ValidityStartDate,1057760,1057760,100.0,0,0.0
+18,NumberOfOperations,1057760,1057760,100.0,0,0.0
+19,BillOfMaterialItemNodeNumber,1057760,1057760,100.0,0,0.0
+20,BillOfMaterial,1057760,1057760,100.0,0,0.0
+21,src_commit_time,1057760,1057760,100.0,0,0.0

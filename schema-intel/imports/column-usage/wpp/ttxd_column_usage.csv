@@ -1,0 +1,15 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,26,26,100.0,0,0.0
+2,mandt,26,26,100.0,0,0.0
+3,kalsm,26,26,100.0,0,0.0
+4,leng1,26,26,100.0,0,0.0
+5,leng2,26,26,100.0,0,0.0
+6,leng3,26,26,100.0,0,0.0
+7,leng4,26,26,100.0,0,0.0
+8,xextn,26,26,100.0,0,0.0
+9,xtxit,26,26,100.0,0,0.0
+10,intversion,26,26,100.0,0,0.0
+11,rfcdest,26,26,100.0,0,0.0
+12,xcorrect,26,26,100.0,0,0.0
+13,rfcdest_ud,26,26,100.0,0,0.0
+14,src_commit_time,26,26,100.0,0,0.0

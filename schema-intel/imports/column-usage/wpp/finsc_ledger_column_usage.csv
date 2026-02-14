@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,8,8,100.0,0,0.0
+2,mandt,8,8,100.0,0,0.0
+3,rldnr,8,8,100.0,0,0.0
+4,ledger_type,8,8,100.0,0,0.0
+5,ext_ledger_type,8,8,100.0,0,0.0
+6,appl,8,8,100.0,0,0.0
+7,subappl,8,8,100.0,0,0.0
+8,xleading,8,8,100.0,0,0.0
+9,core,8,8,100.0,0,0.0
+10,valutyp,8,8,100.0,0,0.0
+11,src_commit_time,8,8,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: edid4
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 6799984089
-column_count: 11
+row_count: 1539108867
+column_count: 12
 ---
 
 # edid4
@@ -14,7 +14,7 @@ column_count: 11
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 11 | 100% |
+| Trusted (≥50%) | 12 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,17 +22,18 @@ column_count: 11
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `docnum` | 100.0% | trusted | |
-| `counter` | 100.0% | trusted | |
-| `segnum` | 100.0% | trusted | |
-| `segnam` | 100.0% | trusted | |
-| `psgnum` | 100.0% | trusted | |
-| `hlevel` | 100.0% | trusted | |
-| `_dataaging` | 100.0% | trusted | |
-| `dtint2` | 100.0% | trusted | |
-| `sdata` | 100.0% | trusted | |
-| `src_commit_time` | 100.0% | trusted | |
+| `hvr_rowid` | 99.9% | trusted | |
+| `mandt` | 99.9% | trusted | |
+| `docnum` | 99.9% | trusted | |
+| `counter` | 99.9% | trusted | |
+| `segnum` | 99.9% | trusted | |
+| `segnam` | 99.9% | trusted | |
+| `psgnum` | 99.9% | trusted | |
+| `hlevel` | 99.9% | trusted | |
+| `dtint2` | 99.9% | trusted | |
+| `sdata` | 99.9% | trusted | |
+| `_dataaging` | 99.9% | trusted | |
+| `src_commit_time` | 99.9% | trusted | |
 
 ## Notes
 

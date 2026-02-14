@@ -1,9 +1,9 @@
 ---
 table: mgef
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 51
-column_count: 32
+row_count: 16
+column_count: 33
 ---
 
 # mgef
@@ -14,7 +14,7 @@ column_count: 32
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 32 | 100% |
+| Trusted (≥50%) | 33 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,37 +22,38 @@ column_count: 32
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `STOFF` | 100.0% | trusted | |
-| `STOKL` | 100.0% | trusted | |
-| `STOFT` | 100.0% | trusted | |
-| `VBFKL` | 100.0% | trusted | |
-| `AGGRE` | 100.0% | trusted | |
-| `LGFVM` | 100.0% | trusted | |
-| `SIVER` | 100.0% | trusted | |
-| `SIVAR` | 100.0% | trusted | |
-| `SIDNR` | 100.0% | trusted | |
-| `FLAPU` | 100.0% | trusted | |
-| `SFKO4` | 100.0% | trusted | |
-| `SFKO3` | 100.0% | trusted | |
-| `SFKO2` | 100.0% | trusted | |
-| `SFKO1` | 100.0% | trusted | |
-| `SFNR4` | 100.0% | trusted | |
-| `SFNR3` | 100.0% | trusted | |
-| `SFNR2` | 100.0% | trusted | |
-| `SFNR1` | 100.0% | trusted | |
-| `GFVM8` | 100.0% | trusted | |
-| `GFVM7` | 100.0% | trusted | |
-| `GFVM6` | 100.0% | trusted | |
-| `GFVM5` | 100.0% | trusted | |
-| `GFVM4` | 100.0% | trusted | |
-| `GFVM3` | 100.0% | trusted | |
-| `GFVM2` | 100.0% | trusted | |
-| `GFVM1` | 100.0% | trusted | |
-| `WGKKZ` | 100.0% | trusted | |
-| `WGFKL` | 100.0% | trusted | |
-| `LAGKL` | 100.0% | trusted | |
-| `REGKZ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `sfnr3` | 100.0% | trusted | |
+| `stokl` | 100.0% | trusted | |
+| `stoft` | 100.0% | trusted | |
+| `vbfkl` | 100.0% | trusted | |
+| `aggre` | 100.0% | trusted | |
+| `lgfvm` | 100.0% | trusted | |
+| `siver` | 100.0% | trusted | |
+| `sivar` | 100.0% | trusted | |
+| `sidnr` | 100.0% | trusted | |
+| `flapu` | 100.0% | trusted | |
+| `sfko4` | 100.0% | trusted | |
+| `sfko3` | 100.0% | trusted | |
+| `sfko2` | 100.0% | trusted | |
+| `sfko1` | 100.0% | trusted | |
+| `sfnr4` | 100.0% | trusted | |
+| `sfnr2` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `sfnr1` | 100.0% | trusted | |
+| `gfvm8` | 100.0% | trusted | |
+| `gfvm7` | 100.0% | trusted | |
+| `gfvm6` | 100.0% | trusted | |
+| `gfvm5` | 100.0% | trusted | |
+| `gfvm4` | 100.0% | trusted | |
+| `gfvm3` | 100.0% | trusted | |
+| `gfvm2` | 100.0% | trusted | |
+| `gfvm1` | 100.0% | trusted | |
+| `wgkkz` | 100.0% | trusted | |
+| `wgfkl` | 100.0% | trusted | |
+| `lagkl` | 100.0% | trusted | |
+| `regkz` | 100.0% | trusted | |
+| `stoff` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: j_1bnfdoc
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2364950
-column_count: 183
+row_count: 566306
+column_count: 184
 ---
 
 # j_1bnfdoc
@@ -14,7 +14,7 @@ column_count: 183
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 183 | 100% |
+| Trusted (≥50%) | 184 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,9 @@ column_count: 183
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `cte_partner` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `hsaient` | 100.0% | trusted | |
+| `cte_serv_taker` | 100.0% | trusted | |
 | `cte_type` | 100.0% | trusted | |
 | `autom_incoming` | 100.0% | trusted | |
 | `docnum_next` | 100.0% | trusted | |
@@ -32,8 +33,8 @@ column_count: 183
 | `natop` | 100.0% | trusted | |
 | `indpag` | 100.0% | trusted | |
 | `dsaient` | 100.0% | trusted | |
-| `hsaient` | 100.0% | trusted | |
 | `cnpj_bupla` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
 | `ie_bupla` | 100.0% | trusted | |
 | `iest_bupla` | 100.0% | trusted | |
 | `iest_partner` | 100.0% | trusted | |
@@ -43,10 +44,11 @@ column_count: 183
 | `crt_bupla` | 100.0% | trusted | |
 | `crt_partner` | 100.0% | trusted | |
 | `isuf` | 100.0% | trusted | |
-| `cte_serv_taker` | 100.0% | trusted | |
+| `cte_partner` | 100.0% | trusted | |
 | `cre_timestamp` | 100.0% | trusted | |
-| `placa` | 100.0% | trusted | |
 | `transp_mode` | 100.0% | trusted | |
+| `total_ref_amt` | 100.0% | trusted | |
+| `stock` | 100.0% | trusted | |
 | `street` | 100.0% | trusted | |
 | `house_num1` | 100.0% | trusted | |
 | `house_num2` | 100.0% | trusted | |
@@ -65,16 +67,12 @@ column_count: 183
 | `ftl_ind` | 100.0% | trusted | |
 | `vol_transp` | 100.0% | trusted | |
 | `vol_unit` | 100.0% | trusted | |
-| `total_ref_amt` | 100.0% | trusted | |
 | `modfrete` | 100.0% | trusted | |
+| `placa` | 100.0% | trusted | |
 | `uf1` | 100.0% | trusted | |
-| `hausn` | 100.0% | trusted | |
 | `hemi` | 100.0% | trusted | |
 | `mod` | 100.0% | trusted | |
 | `ncoo` | 100.0% | trusted | |
-| `indintermed` | 100.0% | trusted | |
-| `idcadinttran` | 100.0% | trusted | |
-| `cnpjintermed` | 100.0% | trusted | |
 | `safra` | 100.0% | trusted | |
 | `ref_month_year` | 100.0% | trusted | |
 | `qtotmes` | 100.0% | trusted | |
@@ -88,6 +86,9 @@ column_count: 183
 | `partr` | 100.0% | trusted | |
 | `partner_role` | 100.0% | trusted | |
 | `cod_cta_header` | 100.0% | trusted | |
+| `indintermed` | 100.0% | trusted | |
+| `idcadinttran` | 100.0% | trusted | |
+| `cnpjintermed` | 100.0% | trusted | |
 | `nfnum_utilities` | 100.0% | trusted | |
 | `v_troco` | 100.0% | trusted | |
 | `id_dest` | 100.0% | trusted | |
@@ -112,10 +113,11 @@ column_count: 183
 | `cregtrib` | 100.0% | trusted | |
 | `rettransp_cfop` | 100.0% | trusted | |
 | `rettransp_cmunfg` | 100.0% | trusted | |
-| `stock` | 100.0% | trusted | |
+| `hausn` | 100.0% | trusted | |
 | `txjcd` | 100.0% | trusted | |
-| `docnum` | 100.0% | trusted | |
-| `follow` | 100.0% | trusted | |
+| `munins` | 100.0% | trusted | |
+| `manual` | 100.0% | trusted | |
+| `waerk` | 100.0% | trusted | |
 | `belnr` | 100.0% | trusted | |
 | `gjahr` | 100.0% | trusted | |
 | `bukrs` | 100.0% | trusted | |
@@ -134,11 +136,11 @@ column_count: 183
 | `inco2` | 100.0% | trusted | |
 | `shpunt` | 100.0% | trusted | |
 | `anzpk` | 100.0% | trusted | |
-| `shpmrk` | 100.0% | trusted | |
-| `waerk` | 100.0% | trusted | |
-| `manual` | 100.0% | trusted | |
-| `brgew` | 100.0% | trusted | |
+| `follow` | 100.0% | trusted | |
 | `printd` | 100.0% | trusted | |
+| `shpnum` | 100.0% | trusted | |
+| `zterm` | 100.0% | trusted | |
+| `docnum` | 100.0% | trusted | |
 | `nftype` | 100.0% | trusted | |
 | `doctyp` | 100.0% | trusted | |
 | `direct` | 100.0% | trusted | |
@@ -157,11 +159,11 @@ column_count: 183
 | `nfnum` | 100.0% | trusted | |
 | `entrad` | 100.0% | trusted | |
 | `fatura` | 100.0% | trusted | |
-| `zterm` | 100.0% | trusted | |
-| `shpnum` | 100.0% | trusted | |
-| `ntgew` | 100.0% | trusted | |
-| `munins` | 100.0% | trusted | |
-| `name3` | 100.0% | trusted | |
+| `shpmrk` | 100.0% | trusted | |
+| `brgew` | 100.0% | trusted | |
+| `stains` | 100.0% | trusted | |
+| `name2` | 100.0% | trusted | |
+| `name4` | 100.0% | trusted | |
 | `stras` | 100.0% | trusted | |
 | `ort01` | 100.0% | trusted | |
 | `ort02` | 100.0% | trusted | |
@@ -180,11 +182,11 @@ column_count: 183
 | `stkzn` | 100.0% | trusted | |
 | `cgc` | 100.0% | trusted | |
 | `cpf` | 100.0% | trusted | |
-| `stains` | 100.0% | trusted | |
-| `name4` | 100.0% | trusted | |
-| `name2` | 100.0% | trusted | |
-| `gewei` | 100.0% | trusted | |
+| `name3` | 100.0% | trusted | |
 | `name1` | 100.0% | trusted | |
+| `ntgew` | 100.0% | trusted | |
+| `anred` | 100.0% | trusted | |
+| `gewei` | 100.0% | trusted | |
 | `zfbdt` | 100.0% | trusted | |
 | `witha` | 100.0% | trusted | |
 | `observat` | 100.0% | trusted | |
@@ -203,7 +205,6 @@ column_count: 183
 | `xmlvers` | 100.0% | trusted | |
 | `nfenrnr` | 100.0% | trusted | |
 | `code` | 100.0% | trusted | |
-| `anred` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

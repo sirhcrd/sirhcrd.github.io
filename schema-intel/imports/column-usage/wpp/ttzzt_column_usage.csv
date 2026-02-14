@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,12120,12120,100.0,0,0.0
+2,client,12120,12120,100.0,0,0.0
+3,langu,12120,12120,100.0,0,0.0
+4,tzone,12120,12120,100.0,0,0.0
+5,descript,12120,12120,100.0,0,0.0
+6,src_commit_time,12120,12120,100.0,0,0.0

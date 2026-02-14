@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,10015,10015,100.0,0,0.0
+2,mandt,10015,10015,100.0,0,0.0
+3,land1,10015,10015,100.0,0,0.0
+4,bland,10015,10015,100.0,0,0.0
+5,fprcd,10015,10015,100.0,0,0.0
+6,herbl,10015,10015,100.0,0,0.0
+7,src_commit_time,10015,10015,100.0,0,0.0

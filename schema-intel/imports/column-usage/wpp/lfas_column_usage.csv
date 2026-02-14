@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,203,203,100.0,0,0.0
+2,mandt,203,203,100.0,0,0.0
+3,lifnr,203,203,100.0,0,0.0
+4,land1,203,203,100.0,0,0.0
+5,stceg,203,203,100.0,0,0.0
+6,src_commit_time,203,203,100.0,0,0.0

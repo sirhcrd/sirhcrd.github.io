@@ -1,9 +1,9 @@
 ---
 table: etxdch
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 14814989
-column_count: 39
+row_count: 32303913
+column_count: 41
 ---
 
 # etxdch
@@ -14,7 +14,7 @@ column_count: 39
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 39 | 100% |
+| Trusted (≥50%) | 41 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,44 +22,46 @@ column_count: 39
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `TAX_PER_ITEM` | 100.0% | trusted | |
-| `DOC_NUMBER` | 100.0% | trusted | |
-| `CURRENCY` | 100.0% | trusted | |
-| `CURR_DEC` | 100.0% | trusted | |
-| `TXJCD_L1` | 100.0% | trusted | |
-| `TXJCD_L2` | 100.0% | trusted | |
-| `TXJCD_L3` | 100.0% | trusted | |
-| `TXJCD_L4` | 100.0% | trusted | |
-| `NR_LINE_ITEMS` | 100.0% | trusted | |
-| `CLIENT` | 100.0% | trusted | |
-| `GL_CURRENCY` | 100.0% | trusted | |
-| `GL_CURR_DEC` | 100.0% | trusted | |
-| `REP_DATE` | 100.0% | trusted | |
-| `RATEDEC` | 100.0% | trusted | |
-| `XEXTN` | 100.0% | trusted | |
-| `INTERF_VERSION` | 100.0% | trusted | |
-| `TAX_PROCEDURE` | 100.0% | trusted | |
-| `COMP_CODE` | 100.0% | trusted | |
-| `SYST_NAME` | 100.0% | trusted | |
-| `DOCNR` | 100.0% | trusted | |
-| `CREATEDBY` | 100.0% | trusted | |
-| `AWTYP` | 100.0% | trusted | |
-| `AWREF` | 100.0% | trusted | |
-| `AWORG` | 100.0% | trusted | |
-| `AWSYS` | 100.0% | trusted | |
-| `DOCSTATUS` | 100.0% | trusted | |
-| `DOCSTATUSCHANGED` | 100.0% | trusted | |
-| `CREATEDON` | 100.0% | trusted | |
-| `TID` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `GLTAX` | 100.0% | trusted | |
-| `TXDEF` | 100.0% | trusted | |
-| `DEFAULT_REASON` | 100.0% | trusted | |
-| `INCON` | 100.0% | trusted | |
-| `EXCON` | 100.0% | trusted | |
-| `UFLAG` | 100.0% | trusted | |
-| `UDATE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `doc_number` | 100.0% | trusted | |
+| `currency` | 100.0% | trusted | |
+| `curr_dec` | 100.0% | trusted | |
+| `txjcd_l1` | 100.0% | trusted | |
+| `txjcd_l2` | 100.0% | trusted | |
+| `txjcd_l3` | 100.0% | trusted | |
+| `txjcd_l4` | 100.0% | trusted | |
+| `tax_per_item` | 100.0% | trusted | |
+| `nr_line_items` | 100.0% | trusted | |
+| `gl_currency` | 100.0% | trusted | |
+| `gl_curr_dec` | 100.0% | trusted | |
+| `rep_date` | 100.0% | trusted | |
+| `ratedec` | 100.0% | trusted | |
+| `xextn` | 100.0% | trusted | |
+| `interf_version` | 100.0% | trusted | |
+| `tax_procedure` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
+| `comp_code` | 100.0% | trusted | |
+| `syst_name` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `docnr` | 100.0% | trusted | |
+| `awtyp` | 100.0% | trusted | |
+| `awref` | 100.0% | trusted | |
+| `aworg` | 100.0% | trusted | |
+| `awsys` | 100.0% | trusted | |
+| `docstatus` | 100.0% | trusted | |
+| `docstatuschanged` | 100.0% | trusted | |
+| `createdon` | 100.0% | trusted | |
+| `createdby` | 100.0% | trusted | |
+| `tid` | 100.0% | trusted | |
+| `gltax` | 100.0% | trusted | |
+| `txdef` | 100.0% | trusted | |
+| `default_reason` | 100.0% | trusted | |
+| `incon` | 100.0% | trusted | |
+| `excon` | 100.0% | trusted | |
+| `uflag` | 100.0% | trusted | |
+| `udate` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

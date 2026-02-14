@@ -1,0 +1,18 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,417,417,100.0,0,0.0
+2,ChartOfAccounts,417,417,100.0,0,0.0
+3,FundsManagementArea,417,417,100.0,0,0.0
+4,CountryChartOfAccounts,417,417,100.0,0,0.0
+5,CreditControlArea,417,417,100.0,0,0.0
+6,Company,417,417,100.0,0,0.0
+7,CompanyCode,417,417,100.0,0,0.0
+8,FiscalYearVariant,417,417,100.0,0,0.0
+9,Language,417,417,100.0,0,0.0
+10,Currency,417,417,100.0,0,0.0
+11,Country,417,417,100.0,0,0.0
+12,CityName,417,417,100.0,0,0.0
+13,CompanyCodeName,417,417,100.0,0,0.0
+14,src_commit_time,417,417,100.0,0,0.0
+15,CurrencyShortName,416,417,99.8,1,0.2
+16,CountryName,410,417,98.3,7,1.7
+17,ControllingArea,208,417,49.9,209,50.1

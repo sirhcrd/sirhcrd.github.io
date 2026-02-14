@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,35,35,100.0,0,0.0
+2,mandt,35,35,100.0,0,0.0
+3,bwkey,35,35,100.0,0,0.0
+4,bwtty,35,35,100.0,0,0.0
+5,vbwaf,35,35,100.0,0,0.0
+6,kzvbf,35,35,100.0,0,0.0
+7,vbwae,35,35,100.0,0,0.0
+8,kzvbe,35,35,100.0,0,0.0
+9,kzbaa,35,35,100.0,0,0.0
+10,vbwaa,35,35,100.0,0,0.0
+11,kzvba,35,35,100.0,0,0.0
+12,src_commit_time,35,35,100.0,0,0.0

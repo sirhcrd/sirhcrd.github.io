@@ -1,9 +1,9 @@
 ---
 table: qmma
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 62475655
-column_count: 31
+row_count: 109784
+column_count: 32
 ---
 
 # qmma
@@ -14,7 +14,7 @@ column_count: 31
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 31 | 100% |
+| Trusted (≥50%) | 32 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,36 +22,37 @@ column_count: 31
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `PSTER` | 100.0% | trusted | |
-| `FUNKTION` | 100.0% | trusted | |
-| `KZACTIONBOX` | 100.0% | trusted | |
-| `AUTKZ` | 100.0% | trusted | |
-| `QMANUM` | 100.0% | trusted | |
-| `KZLOESCH` | 100.0% | trusted | |
-| `AEZEIT` | 100.0% | trusted | |
-| `ERZEIT` | 100.0% | trusted | |
-| `PETUR` | 100.0% | trusted | |
-| `PSTUR` | 100.0% | trusted | |
-| `MNGFA` | 100.0% | trusted | |
-| `KZMLA` | 100.0% | trusted | |
-| `INDTX` | 100.0% | trusted | |
-| `PETER` | 100.0% | trusted | |
-| `KLAKZ` | 100.0% | trusted | |
-| `QMNUM` | 100.0% | trusted | |
-| `MAKLS` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `MATXT` | 100.0% | trusted | |
-| `MNVER` | 100.0% | trusted | |
-| `MNCOD` | 100.0% | trusted | |
-| `MNGRP` | 100.0% | trusted | |
-| `MNKAT` | 100.0% | trusted | |
-| `URNUM` | 100.0% | trusted | |
-| `FENUM` | 100.0% | trusted | |
-| `MANUM` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `funktion` | 100.0% | trusted | |
+| `kzactionbox` | 100.0% | trusted | |
+| `autkz` | 100.0% | trusted | |
+| `qmanum` | 100.0% | trusted | |
+| `kzloesch` | 100.0% | trusted | |
+| `aezeit` | 100.0% | trusted | |
+| `erzeit` | 100.0% | trusted | |
+| `petur` | 100.0% | trusted | |
+| `pstur` | 100.0% | trusted | |
+| `mngfa` | 100.0% | trusted | |
+| `kzmla` | 100.0% | trusted | |
+| `indtx` | 100.0% | trusted | |
+| `peter` | 100.0% | trusted | |
+| `pster` | 100.0% | trusted | |
+| `klakz` | 100.0% | trusted | |
+| `makls` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `matxt` | 100.0% | trusted | |
+| `mnver` | 100.0% | trusted | |
+| `mncod` | 100.0% | trusted | |
+| `mngrp` | 100.0% | trusted | |
+| `mnkat` | 100.0% | trusted | |
+| `urnum` | 100.0% | trusted | |
+| `fenum` | 100.0% | trusted | |
+| `manum` | 100.0% | trusted | |
+| `qmnum` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

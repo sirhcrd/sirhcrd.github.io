@@ -1,9 +1,9 @@
 ---
 table: anka
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 142
-column_count: 59
+row_count: 85
+column_count: 60
 ---
 
 # anka
@@ -14,7 +14,7 @@ column_count: 59
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 59 | 100% |
+| Trusted (≥50%) | 60 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,64 +22,65 @@ column_count: 59
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LEAFI` | 100.0% | trusted | |
-| `ORD43` | 100.0% | trusted | |
-| `ORD44` | 100.0% | trusted | |
-| `IZWEK` | 100.0% | trusted | |
-| `HERST` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `FEINS` | 100.0% | trusted | |
-| `INKEN` | 100.0% | trusted | |
-| `FIAMT` | 100.0% | trusted | |
-| `STADT` | 100.0% | trusted | |
-| `ANLTP` | 100.0% | trusted | |
-| `XUNTV` | 100.0% | trusted | |
-| `XAKTIV` | 100.0% | trusted | |
-| `LEJAR` | 100.0% | trusted | |
-| `ORD41` | 100.0% | trusted | |
-| `LEPER` | 100.0% | trusted | |
-| `LRYTH` | 100.0% | trusted | |
-| `LMZIN` | 100.0% | trusted | |
-| `LEANZ` | 100.0% | trusted | |
-| `LETXT` | 100.0% | trusted | |
-| `AIMMO` | 100.0% | trusted | |
-| `GDLGRP` | 100.0% | trusted | |
-| `XERWRT` | 100.0% | trusted | |
-| `XANLGR` | 100.0% | trusted | |
-| `XINVM` | 100.0% | trusted | |
-| `LEART` | 100.0% | trusted | |
-| `ABGSL` | 100.0% | trusted | |
-| `ORD42` | 100.0% | trusted | |
-| `INVSL` | 100.0% | trusted | |
-| `ANLKL` | 100.0% | trusted | |
-| `ZUAWA` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `XLOEV` | 100.0% | trusted | |
-| `XSPEA` | 100.0% | trusted | |
-| `XOPVW` | 100.0% | trusted | |
-| `NUMKR` | 100.0% | trusted | |
-| `KTOGR` | 100.0% | trusted | |
-| `ANKAR` | 100.0% | trusted | |
-| `FELEI` | 100.0% | trusted | |
-| `BEGRU` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `XVRMW` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `LSTAR` | 100.0% | trusted | |
-| `ANEQK` | 100.0% | trusted | |
-| `ANEQS` | 100.0% | trusted | |
-| `MACKZ` | 100.0% | trusted | |
-| `LAND1` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `LIEFE` | 100.0% | trusted | |
-| `ANLUE` | 100.0% | trusted | |
-| `EIGKZ` | 100.0% | trusted | |
-| `VMGLI` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ord42` | 100.0% | trusted | |
+| `ord43` | 100.0% | trusted | |
+| `ord44` | 100.0% | trusted | |
+| `izwek` | 100.0% | trusted | |
+| `herst` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `feins` | 100.0% | trusted | |
+| `inken` | 100.0% | trusted | |
+| `fiamt` | 100.0% | trusted | |
+| `stadt` | 100.0% | trusted | |
+| `anltp` | 100.0% | trusted | |
+| `xuntv` | 100.0% | trusted | |
+| `xaktiv` | 100.0% | trusted | |
+| `leafi` | 100.0% | trusted | |
+| `lejar` | 100.0% | trusted | |
+| `leper` | 100.0% | trusted | |
+| `lryth` | 100.0% | trusted | |
+| `lmzin` | 100.0% | trusted | |
+| `leanz` | 100.0% | trusted | |
+| `letxt` | 100.0% | trusted | |
+| `aimmo` | 100.0% | trusted | |
+| `gdlgrp` | 100.0% | trusted | |
+| `xerwrt` | 100.0% | trusted | |
+| `xanlgr` | 100.0% | trusted | |
+| `xinvm` | 100.0% | trusted | |
+| `leart` | 100.0% | trusted | |
+| `abgsl` | 100.0% | trusted | |
+| `ord41` | 100.0% | trusted | |
+| `invsl` | 100.0% | trusted | |
+| `xvrmw` | 100.0% | trusted | |
+| `begru` | 100.0% | trusted | |
+| `anlkl` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `xloev` | 100.0% | trusted | |
+| `xspea` | 100.0% | trusted | |
+| `xopvw` | 100.0% | trusted | |
+| `numkr` | 100.0% | trusted | |
+| `ktogr` | 100.0% | trusted | |
+| `ankar` | 100.0% | trusted | |
+| `felei` | 100.0% | trusted | |
+| `zuawa` | 100.0% | trusted | |
+| `vmgli` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `lstar` | 100.0% | trusted | |
+| `aneqk` | 100.0% | trusted | |
+| `aneqs` | 100.0% | trusted | |
+| `mackz` | 100.0% | trusted | |
+| `land1` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `liefe` | 100.0% | trusted | |
+| `anlue` | 100.0% | trusted | |
+| `eigkz` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

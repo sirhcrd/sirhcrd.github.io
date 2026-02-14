@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,19,19,100.0,0,0.0
+2,mandt,19,19,100.0,0,0.0
+3,profl,19,19,100.0,0,0.0
+4,idago,19,19,100.0,0,0.0
+5,idgch,19,19,100.0,0,0.0
+6,idgpa,19,19,100.0,0,0.0
+7,idgtp,19,19,100.0,0,0.0
+8,idgsm,19,19,100.0,0,0.0
+9,idcl,19,19,100.0,0,0.0
+10,idcl7,19,19,100.0,0,0.0
+11,idclrepl,19,19,100.0,0,0.0
+12,src_commit_time,19,19,100.0,0,0.0

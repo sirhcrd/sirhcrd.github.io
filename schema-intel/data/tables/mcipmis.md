@@ -1,9 +1,9 @@
 ---
 table: mcipmis
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 136539542
-column_count: 48
+row_count: 484697
+column_count: 49
 ---
 
 # mcipmis
@@ -14,7 +14,7 @@ column_count: 48
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 48 | 100% |
+| Trusted (≥50%) | 49 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,8 @@ column_count: 48
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `objnr` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mapar` | 100.0% | trusted | |
 | `einzl` | 100.0% | trusted | |
 | `lgwid` | 100.0% | trusted | |
 | `pm_objty` | 100.0% | trusted | |
@@ -46,9 +46,10 @@ column_count: 48
 | `serialnr` | 100.0% | trusted | |
 | `matnr` | 100.0% | trusted | |
 | `iequi` | 100.0% | trusted | |
-| `mapar` | 100.0% | trusted | |
 | `trpnr` | 100.0% | trusted | |
-| `herst` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `pbegru` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
 | `stwae` | 100.0% | trusted | |
 | `waers` | 100.0% | trusted | |
 | `equnr` | 100.0% | trusted | |
@@ -58,8 +59,8 @@ column_count: 48
 | `invnr` | 100.0% | trusted | |
 | `ansdt` | 100.0% | trusted | |
 | `elief` | 100.0% | trusted | |
+| `herst` | 100.0% | trusted | |
 | `serge` | 100.0% | trusted | |
-| `pbegru` | 100.0% | trusted | |
 | `typbz` | 100.0% | trusted | |
 | `gernr` | 100.0% | trusted | |
 | `eqlfn` | 100.0% | trusted | |

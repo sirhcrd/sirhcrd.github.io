@@ -1,9 +1,9 @@
 ---
 table: cska
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 14820
-column_count: 10
+row_count: 20818
+column_count: 11
 ---
 
 # cska
@@ -14,7 +14,7 @@ column_count: 10
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 10 | 100% |
+| Trusted (≥50%) | 11 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,15 +22,16 @@ column_count: 10
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KTOPL` | 100.0% | trusted | |
-| `KSTAR` | 100.0% | trusted | |
-| `ERSDA` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `STEKZ` | 100.0% | trusted | |
-| `ZAHKZ` | 100.0% | trusted | |
-| `KSTSN` | 100.0% | trusted | |
-| `FUNC_AREA` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ktopl` | 100.0% | trusted | |
+| `kstar` | 100.0% | trusted | |
+| `ersda` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `stekz` | 100.0% | trusted | |
+| `zahkz` | 100.0% | trusted | |
+| `kstsn` | 100.0% | trusted | |
+| `func_area` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

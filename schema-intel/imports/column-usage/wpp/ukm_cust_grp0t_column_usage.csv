@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,279,279,100.0,0,0.0
+2,client,279,279,100.0,0,0.0
+3,langu,279,279,100.0,0,0.0
+4,cred_group,279,279,100.0,0,0.0
+5,cred_group_txt,279,279,100.0,0,0.0
+6,src_commit_time,279,279,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: ttzdv
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 77
-column_count: 12
+row_count: 64
+column_count: 13
 ---
 
 # ttzdv
@@ -14,7 +14,7 @@ column_count: 12
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 12 | 100% |
+| Trusted (≥50%) | 13 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,17 +22,18 @@ column_count: 12
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `DSTRULE` | 100.0% | trusted | |
-| `YEARFROM` | 100.0% | trusted | |
-| `MONTHFROM` | 100.0% | trusted | |
-| `WEEKDFROM` | 100.0% | trusted | |
-| `WEEKDCFROM` | 100.0% | trusted | |
-| `TIMEFROM` | 100.0% | trusted | |
-| `MONTHTO` | 100.0% | trusted | |
-| `WEEKDTO` | 100.0% | trusted | |
-| `WEEKDCTO` | 100.0% | trusted | |
-| `TIMETO` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `dstrule` | 100.0% | trusted | |
+| `yearfrom` | 100.0% | trusted | |
+| `monthfrom` | 100.0% | trusted | |
+| `weekdfrom` | 100.0% | trusted | |
+| `weekdcfrom` | 100.0% | trusted | |
+| `timefrom` | 100.0% | trusted | |
+| `monthto` | 100.0% | trusted | |
+| `weekdto` | 100.0% | trusted | |
+| `weekdcto` | 100.0% | trusted | |
+| `timeto` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

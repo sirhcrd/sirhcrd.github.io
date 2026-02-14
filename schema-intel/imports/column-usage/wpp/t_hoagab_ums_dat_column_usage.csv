@@ -1,0 +1,17 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,3338,3338,100.0,0,0.0
+2,mandt,3338,3338,100.0,0,0.0
+3,lfdnr,3338,3338,100.0,0,0.0
+4,bukrs,3338,3338,100.0,0,0.0
+5,vorgangsschl,3338,3338,100.0,0,0.0
+6,ordbegriff_such,3338,3338,100.0,0,0.0
+7,ergebniswert,3338,3338,100.0,0,0.0
+8,beschreibung,3338,3338,100.0,0,0.0
+9,suchmerkmal,3338,3338,100.0,0,0.0
+10,insdate,3338,3338,100.0,0,0.0
+11,instime,3338,3338,100.0,0,0.0
+12,insuser,3338,3338,100.0,0,0.0
+13,upddate,3338,3338,100.0,0,0.0
+14,updtime,3338,3338,100.0,0,0.0
+15,upduser,3338,3338,100.0,0,0.0
+16,src_commit_time,3338,3338,100.0,0,0.0

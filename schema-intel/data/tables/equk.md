@@ -1,9 +1,9 @@
 ---
 table: equk
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 3
-column_count: 10
+row_count: 89
+column_count: 11
 ---
 
 # equk
@@ -14,7 +14,7 @@ column_count: 10
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 10 | 100% |
+| Trusted (≥50%) | 11 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,15 +22,16 @@ column_count: 10
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `BDATU` | 100.0% | trusted | |
-| `VDATU` | 100.0% | trusted | |
-| `QUNUM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `SCMNG` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `bdatu` | 100.0% | trusted | |
+| `vdatu` | 100.0% | trusted | |
+| `qunum` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `scmng` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

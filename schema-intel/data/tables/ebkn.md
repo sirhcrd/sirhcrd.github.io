@@ -1,8 +1,8 @@
 ---
 table: ebkn
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 9432087
+row_count: 596677
 column_count: 61
 ---
 
@@ -22,8 +22,9 @@ column_count: 61
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `imkey` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `aufpl` | 100.0% | trusted | |
+| `aplzl` | 100.0% | trusted | |
 | `vptnr` | 100.0% | trusted | |
 | `fipos` | 100.0% | trusted | |
 | `recid` | 100.0% | trusted | |
@@ -49,12 +50,12 @@ column_count: 61
 | `notaxcorr` | 100.0% | trusted | |
 | `diffoptrate` | 100.0% | trusted | |
 | `hasdiffoptrate` | 100.0% | trusted | |
-| `zzdummy` | 100.0% | trusted | |
 | `fmfgus_key` | 100.0% | trusted | |
-| `aplzl` | 100.0% | trusted | |
-| `aufpl` | 100.0% | trusted | |
-| `banfn` | 100.0% | trusted | |
+| `imkey` | 100.0% | trusted | |
 | `nplnr` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ps_psp_pnr` | 100.0% | trusted | |
+| `banfn` | 100.0% | trusted | |
 | `bnfpo` | 100.0% | trusted | |
 | `zebkn` | 100.0% | trusted | |
 | `loekz` | 100.0% | trusted | |
@@ -81,7 +82,6 @@ column_count: 61
 | `kstrg` | 100.0% | trusted | |
 | `paobjnr` | 100.0% | trusted | |
 | `prctr` | 100.0% | trusted | |
-| `ps_psp_pnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

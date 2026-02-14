@@ -1,0 +1,26 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,492,492,100.0,0,0.0
+2,SalesOrganization,492,492,100.0,0,0.0
+3,DistributionChannel,492,492,100.0,0,0.0
+4,PlantCategory,492,492,100.0,0,0.0
+5,SalesDistrict,492,492,100.0,0,0.0
+6,TaxJurisdiction,492,492,100.0,0,0.0
+7,MaintenancePlanningPlant,492,492,100.0,0,0.0
+8,AddressID,492,492,100.0,0,0.0
+9,CityCode,492,492,100.0,0,0.0
+10,County,492,492,100.0,0,0.0
+11,Region,492,492,100.0,0,0.0
+12,Country,492,492,100.0,0,0.0
+13,PurchasingOrganisation,492,492,100.0,0,0.0
+14,Plant,492,492,100.0,0,0.0
+15,CityName,492,492,100.0,0,0.0
+16,PostalCode,492,492,100.0,0,0.0
+17,POBox,492,492,100.0,0,0.0
+18,StreetName,492,492,100.0,0,0.0
+19,PlantSecondName,492,492,100.0,0,0.0
+20,FactoryCalendar,492,492,100.0,0,0.0
+21,PlantVendorNmbr,492,492,100.0,0,0.0
+22,PlantCustomerNmbr,492,492,100.0,0,0.0
+23,ValuationArea,492,492,100.0,0,0.0
+24,PlantName,492,492,100.0,0,0.0
+25,src_commit_time,492,492,100.0,0,0.0

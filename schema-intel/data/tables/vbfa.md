@@ -1,9 +1,9 @@
 ---
 table: vbfa
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 257988153
-column_count: 44
+row_count: 224797508
+column_count: 45
 ---
 
 # vbfa
@@ -14,7 +14,7 @@ column_count: 44
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 44 | 100% |
+| Trusted (≥50%) | 45 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,49 +22,50 @@ column_count: 44
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `VBELV` | 100.0% | trusted | |
-| `GEWEI` | 100.0% | trusted | |
-| `VOLUM` | 100.0% | trusted | |
-| `VOLEH` | 100.0% | trusted | |
-| `FPLNR` | 100.0% | trusted | |
-| `FPLTR` | 100.0% | trusted | |
-| `RFMNG_FLO` | 100.0% | trusted | |
-| `RFMNG_FLT` | 100.0% | trusted | |
-| `VRKME` | 100.0% | trusted | |
-| `ABGES` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `SONUM` | 100.0% | trusted | |
-| `KZBEF` | 100.0% | trusted | |
-| `NTGEW` | 100.0% | trusted | |
-| `LOGSYS` | 100.0% | trusted | |
-| `WBSTA` | 100.0% | trusted | |
-| `CMETH` | 100.0% | trusted | |
-| `MJAHR` | 100.0% | trusted | |
-| `VBTYPEXT_V` | 100.0% | trusted | |
-| `VBTYPEXT_N` | 100.0% | trusted | |
-| `BRGEW` | 100.0% | trusted | |
-| `FKTYP` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `VBTYP_V` | 100.0% | trusted | |
-| `POSNV` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `POSNN` | 100.0% | trusted | |
-| `VBTYP_N` | 100.0% | trusted | |
-| `RFMNG` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `RFWRT` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `PLMIN` | 100.0% | trusted | |
-| `LGNUM` | 100.0% | trusted | |
-| `TAQUI` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERZET` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `BWART` | 100.0% | trusted | |
-| `BDART` | 100.0% | trusted | |
-| `PLART` | 100.0% | trusted | |
-| `STUFE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `fktyp` | 100.0% | trusted | |
+| `gewei` | 100.0% | trusted | |
+| `volum` | 100.0% | trusted | |
+| `voleh` | 100.0% | trusted | |
+| `fplnr` | 100.0% | trusted | |
+| `fpltr` | 100.0% | trusted | |
+| `rfmng_flo` | 100.0% | trusted | |
+| `rfmng_flt` | 100.0% | trusted | |
+| `vrkme` | 100.0% | trusted | |
+| `abges` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `sonum` | 100.0% | trusted | |
+| `kzbef` | 100.0% | trusted | |
+| `ntgew` | 100.0% | trusted | |
+| `logsys` | 100.0% | trusted | |
+| `wbsta` | 100.0% | trusted | |
+| `cmeth` | 100.0% | trusted | |
+| `mjahr` | 100.0% | trusted | |
+| `vbtypext_v` | 100.0% | trusted | |
+| `vbtypext_n` | 100.0% | trusted | |
+| `brgew` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `lgnum` | 100.0% | trusted | |
+| `vbelv` | 100.0% | trusted | |
+| `posnv` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `posnn` | 100.0% | trusted | |
+| `vbtyp_n` | 100.0% | trusted | |
+| `rfmng` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `rfwrt` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `vbtyp_v` | 100.0% | trusted | |
+| `plmin` | 100.0% | trusted | |
+| `taqui` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `erzet` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `bwart` | 100.0% | trusted | |
+| `bdart` | 100.0% | trusted | |
+| `plart` | 100.0% | trusted | |
+| `stufe` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,8200,8200,100.0,0,0.0
+2,ProductHierarchyNode,8200,8200,100.0,0,0.0
+3,ProductHierarchyNodeName,8197,8200,100.0,3,0.0
+4,BG,8200,8200,100.0,0,0.0
+5,BU,8200,8200,100.0,0,0.0
+6,MAG,8200,8200,100.0,0,0.0
+7,AG,8200,8200,100.0,0,0.0
+8,src_commit_time,8200,8200,100.0,0,0.0

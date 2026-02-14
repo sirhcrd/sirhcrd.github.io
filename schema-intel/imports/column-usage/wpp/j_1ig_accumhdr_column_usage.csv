@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,2241,2241,100.0,0,0.0
+2,mandt,2241,2241,100.0,0,0.0
+3,thld_cat,2241,2241,100.0,0,0.0
+4,seller_pan,2241,2241,100.0,0,0.0
+5,buyer_idtype,2241,2241,100.0,0,0.0
+6,buyer_id,2241,2241,100.0,0,0.0
+7,kunnr,2241,2241,100.0,0,0.0
+8,valid_from,2241,2241,100.0,0,0.0
+9,accum_amt,2241,2241,100.0,0,0.0
+10,tcs_amt,2241,2241,100.0,0,0.0
+11,accum_date,2241,2241,100.0,0,0.0
+12,src_commit_time,2241,2241,100.0,0,0.0

@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,mandt,31352,31352,100.0,0,0.0
+2,bname,31352,31352,100.0,0,0.0
+3,persnumber,31352,31352,100.0,0,0.0
+4,name_last,31352,31352,100.0,0,0.0
+5,name_text,31352,31352,100.0,0,0.0
+6,mc_namefir,31352,31352,100.0,0,0.0
+7,mc_namelas,31352,31352,100.0,0,0.0
+8,src_commit_time,31352,31352,100.0,0,0.0

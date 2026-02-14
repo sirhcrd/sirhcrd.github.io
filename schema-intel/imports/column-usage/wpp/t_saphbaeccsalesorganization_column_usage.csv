@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,363,363,100.0,0,0.0
+2,SalesOrganization,363,363,100.0,0,0.0
+3,SalesOrganizationName,363,363,100.0,0,0.0
+4,SalesOrganizationCurrency,363,363,100.0,0,0.0
+5,CompanyCode,363,363,100.0,0,0.0
+6,CompanyCodeName,363,363,100.0,0,0.0
+7,Customer,363,363,100.0,0,0.0
+8,Country,363,363,100.0,0,0.0
+9,CompanyCodeCurrency,363,363,100.0,0,0.0
+10,FiscalYearVariant,363,363,100.0,0,0.0
+11,src_commit_time,363,363,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: thoci
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 206
-column_count: 10
+row_count: 278
+column_count: 11
 ---
 
 # thoci
@@ -14,7 +14,7 @@ column_count: 10
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 10 | 100% |
+| Trusted (≥50%) | 11 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,15 +22,16 @@ column_count: 10
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `IDENT` | 100.0% | trusted | |
-| `VJAHR` | 100.0% | trusted | |
-| `BJAHR` | 100.0% | trusted | |
-| `ABBR` | 100.0% | trusted | |
-| `CRUSR` | 100.0% | trusted | |
-| `CRDAT` | 100.0% | trusted | |
-| `CRTIME` | 100.0% | trusted | |
-| `AKTVJAHR` | 100.0% | trusted | |
-| `AKTBJAHR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `ident` | 100.0% | trusted | |
+| `vjahr` | 100.0% | trusted | |
+| `bjahr` | 100.0% | trusted | |
+| `abbr` | 100.0% | trusted | |
+| `crusr` | 100.0% | trusted | |
+| `crdat` | 100.0% | trusted | |
+| `crtime` | 100.0% | trusted | |
+| `aktvjahr` | 100.0% | trusted | |
+| `aktbjahr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

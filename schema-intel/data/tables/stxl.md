@@ -1,9 +1,9 @@
 ---
 table: stxl
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 277494121
-column_count: 10
+row_count: 109877890
+column_count: 9
 ---
 
 # stxl
@@ -14,24 +14,23 @@ column_count: 10
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 80% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
-| Dead (<5%) | 2 | 20% |
+| Dead (<5%) | 0 | 0% |
 
 ## Columns
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `RELID` | 100.0% | trusted | |
-| `TDOBJECT` | 100.0% | trusted | |
-| `TDNAME` | 100.0% | trusted | |
-| `TDID` | 100.0% | trusted | |
-| `TDSPRAS` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `relid` | 100.0% | trusted | |
+| `tdobject` | 100.0% | trusted | |
+| `tdname` | 100.0% | trusted | |
+| `tdid` | 100.0% | trusted | |
+| `tdspras` | 100.0% | trusted | |
+| `clustd` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
-| `CLUSTD` | 99.3% | trusted | |
-| `SRTF2` | 0.0% | dead | |
-| `CLUSTR` | 0.0% | dead | |
 
 ## Notes
 

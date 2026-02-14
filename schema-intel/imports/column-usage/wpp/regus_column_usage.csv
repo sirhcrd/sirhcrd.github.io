@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,72,72,100.0,0,0.0
+2,mandt,72,72,100.0,0,0.0
+3,koart,72,72,100.0,0,0.0
+4,bukrs,72,72,100.0,0,0.0
+5,konko,72,72,100.0,0,0.0
+6,laufd,72,72,100.0,0,0.0
+7,laufi,72,72,100.0,0,0.0
+8,umskl,72,72,100.0,0,0.0
+9,src_commit_time,72,72,100.0,0,0.0

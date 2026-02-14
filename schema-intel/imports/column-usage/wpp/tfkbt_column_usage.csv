@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1968,1968,100.0,0,0.0
+2,mandt,1968,1968,100.0,0,0.0
+3,spras,1968,1968,100.0,0,0.0
+4,fkber,1968,1968,100.0,0,0.0
+5,fkbtx,1968,1968,100.0,0,0.0
+6,src_commit_time,1968,1968,100.0,0,0.0

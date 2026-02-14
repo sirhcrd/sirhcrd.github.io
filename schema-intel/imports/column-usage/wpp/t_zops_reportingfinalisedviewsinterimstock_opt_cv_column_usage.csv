@@ -1,0 +1,16 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,91577,91577,100.0,0,0.0
+2,Quant,91577,91577,100.0,0,0.0
+3,Material,91577,91577,100.0,0,0.0
+4,Plant,91577,91577,100.0,0,0.0
+5,StorageType,91577,91577,100.0,0,0.0
+6,StorageLocation,91577,91577,100.0,0,0.0
+7,DateofLastMovement,91577,91577,100.0,0,0.0
+8,WarehouseNumber,91577,91577,100.0,0,0.0
+9,CC_interimStockCount,91577,91577,100.0,0,0.0
+10,Totalstock,91577,91577,100.0,0,0.0
+11,CC_TotalStockCount,91577,91577,100.0,0,0.0
+12,src_commit_time,91577,91577,100.0,0,0.0
+13,BG,91505,91577,99.9,72,0.1
+14,MAG,91505,91577,99.9,72,0.1
+15,ProductHierarchy,91505,91577,99.9,72,0.1

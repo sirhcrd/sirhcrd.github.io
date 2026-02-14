@@ -1,9 +1,9 @@
 ---
 table: knbk
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 12702
-column_count: 15
+row_count: 17521
+column_count: 16
 ---
 
 # knbk
@@ -14,7 +14,7 @@ column_count: 15
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 15 | 100% |
+| Trusted (≥50%) | 16 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,20 +22,21 @@ column_count: 15
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `BANKS` | 100.0% | trusted | |
-| `BANKL` | 100.0% | trusted | |
-| `BANKN` | 100.0% | trusted | |
-| `BKONT` | 100.0% | trusted | |
-| `BVTYP` | 100.0% | trusted | |
-| `XEZER` | 100.0% | trusted | |
-| `BKREF` | 100.0% | trusted | |
-| `KOINH` | 100.0% | trusted | |
-| `EBPP_ACCNAME` | 100.0% | trusted | |
-| `EBPP_BVSTATUS` | 100.0% | trusted | |
-| `KOVON` | 100.0% | trusted | |
-| `KOBIS` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `banks` | 100.0% | trusted | |
+| `bankl` | 100.0% | trusted | |
+| `bankn` | 100.0% | trusted | |
+| `bkont` | 100.0% | trusted | |
+| `bvtyp` | 100.0% | trusted | |
+| `xezer` | 100.0% | trusted | |
+| `bkref` | 100.0% | trusted | |
+| `koinh` | 100.0% | trusted | |
+| `ebpp_accname` | 100.0% | trusted | |
+| `ebpp_bvstatus` | 100.0% | trusted | |
+| `kovon` | 100.0% | trusted | |
+| `kobis` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

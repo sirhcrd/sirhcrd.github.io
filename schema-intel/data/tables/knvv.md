@@ -1,9 +1,9 @@
 ---
 table: knvv
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 6461677
-column_count: 89
+row_count: 430118
+column_count: 98
 ---
 
 # knvv
@@ -14,7 +14,7 @@ column_count: 89
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 89 | 100% |
+| Trusted (≥50%) | 98 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,94 +22,103 @@ column_count: 89
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KVGR4` | 100.0% | trusted | |
-| `AGREL` | 100.0% | trusted | |
-| `RDOFF` | 100.0% | trusted | |
-| `CASSD` | 100.0% | trusted | |
-| `KKBER` | 100.0% | trusted | |
-| `KABSS` | 100.0% | trusted | |
-| `PRATA` | 100.0% | trusted | |
-| `PRAT9` | 100.0% | trusted | |
-| `PRAT8` | 100.0% | trusted | |
-| `PRAT7` | 100.0% | trusted | |
-| `PRAT6` | 100.0% | trusted | |
-| `PRAT5` | 100.0% | trusted | |
-| `PRAT4` | 100.0% | trusted | |
-| `PRAT3` | 100.0% | trusted | |
-| `PRAT2` | 100.0% | trusted | |
-| `PRAT1` | 100.0% | trusted | |
-| `PRFRE` | 100.0% | trusted | |
-| `KURST` | 100.0% | trusted | |
-| `BOIDT` | 100.0% | trusted | |
-| `BOKRE` | 100.0% | trusted | |
-| `MEGRU` | 100.0% | trusted | |
-| `UEBTO` | 100.0% | trusted | |
-| `UNTTO` | 100.0% | trusted | |
-| `/BEV1/EMLGPFAND` | 100.0% | trusted | |
-| `ZZKVGR10` | 100.0% | trusted | |
-| `ZZKVGR9` | 100.0% | trusted | |
-| `ZZKVGR8` | 100.0% | trusted | |
-| `ZZKVGR7` | 100.0% | trusted | |
-| `ZZKVGR6` | 100.0% | trusted | |
-| `ZLZONE` | 100.0% | trusted | |
-| `ZUHVCUST` | 100.0% | trusted | |
-| `/BEV1/EMLGFORTS` | 100.0% | trusted | |
-| `INCO3_L` | 100.0% | trusted | |
-| `UEBTK` | 100.0% | trusted | |
-| `INCO2_L` | 100.0% | trusted | |
-| `INCOV` | 100.0% | trusted | |
-| `CVP_XBLCK_V` | 100.0% | trusted | |
-| `CARRIER_NOTIF` | 100.0% | trusted | |
-| `BLIND` | 100.0% | trusted | |
-| `PODTG` | 100.0% | trusted | |
-| `PODKZ` | 100.0% | trusted | |
-| `PVKSM` | 100.0% | trusted | |
-| `KVGR5` | 100.0% | trusted | |
-| `KVGR3` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `KVGR2` | 100.0% | trusted | |
-| `AUTLF` | 100.0% | trusted | |
-| `LIFSD` | 100.0% | trusted | |
-| `INCO2` | 100.0% | trusted | |
-| `INCO1` | 100.0% | trusted | |
-| `AWAHR` | 100.0% | trusted | |
-| `PLTYP` | 100.0% | trusted | |
-| `KONDA` | 100.0% | trusted | |
-| `BZIRK` | 100.0% | trusted | |
-| `KDGRP` | 100.0% | trusted | |
-| `KALKS` | 100.0% | trusted | |
-| `AUFSD` | 100.0% | trusted | |
-| `VERSG` | 100.0% | trusted | |
-| `LOEVM` | 100.0% | trusted | |
-| `BEGRU` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `SPART` | 100.0% | trusted | |
-| `VTWEG` | 100.0% | trusted | |
-| `VKORG` | 100.0% | trusted | |
-| `ANTLF` | 100.0% | trusted | |
-| `KZTLF` | 100.0% | trusted | |
-| `KZAZU` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `KVGR1` | 100.0% | trusted | |
-| `VSORT` | 100.0% | trusted | |
-| `VKBUR` | 100.0% | trusted | |
-| `VKGRP` | 100.0% | trusted | |
-| `VWERK` | 100.0% | trusted | |
-| `ZTERM` | 100.0% | trusted | |
-| `KTGRD` | 100.0% | trusted | |
-| `KLABC` | 100.0% | trusted | |
-| `KVAWT` | 100.0% | trusted | |
-| `CHSPL` | 100.0% | trusted | |
-| `KVAKZ` | 100.0% | trusted | |
-| `PERRL` | 100.0% | trusted | |
-| `PERFK` | 100.0% | trusted | |
-| `MRNKZ` | 100.0% | trusted | |
-| `FAKSD` | 100.0% | trusted | |
-| `VSBED` | 100.0% | trusted | |
-| `EIKTO` | 100.0% | trusted | |
-| `LPRIO` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `podtg` | 100.0% | trusted | |
+| `pvksm` | 100.0% | trusted | |
+| `uebtk` | 100.0% | trusted | |
+| `untto` | 100.0% | trusted | |
+| `uebto` | 100.0% | trusted | |
+| `megru` | 100.0% | trusted | |
+| `agrel` | 100.0% | trusted | |
+| `rdoff` | 100.0% | trusted | |
+| `cassd` | 100.0% | trusted | |
+| `kkber` | 100.0% | trusted | |
+| `kabss` | 100.0% | trusted | |
+| `prata` | 100.0% | trusted | |
+| `prat9` | 100.0% | trusted | |
+| `prat8` | 100.0% | trusted | |
+| `prat7` | 100.0% | trusted | |
+| `prat6` | 100.0% | trusted | |
+| `prat5` | 100.0% | trusted | |
+| `prat4` | 100.0% | trusted | |
+| `prat3` | 100.0% | trusted | |
+| `prat2` | 100.0% | trusted | |
+| `prat1` | 100.0% | trusted | |
+| `prfre` | 100.0% | trusted | |
+| `podkz` | 100.0% | trusted | |
+| `blind` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `carrier_notif` | 100.0% | trusted | |
+| `zzreg_num` | 100.0% | trusted | |
+| `fsh_msopid` | 100.0% | trusted | |
+| `fsh_msocdc` | 100.0% | trusted | |
+| `fsh_ss` | 100.0% | trusted | |
+| `fsh_grsgy` | 100.0% | trusted | |
+| `fsh_vas_cg` | 100.0% | trusted | |
+| `fsh_vas_detc` | 100.0% | trusted | |
+| `fsh_sc_cid` | 100.0% | trusted | |
+| `fsh_resgy` | 100.0% | trusted | |
+| `fsh_grreg` | 100.0% | trusted | |
+| `fsh_kvgr10` | 100.0% | trusted | |
+| `fsh_kvgr9` | 100.0% | trusted | |
+| `fsh_kvgr8` | 100.0% | trusted | |
+| `fsh_kvgr7` | 100.0% | trusted | |
+| `fsh_kvgr6` | 100.0% | trusted | |
+| `inco3_l` | 100.0% | trusted | |
+| `inco2_l` | 100.0% | trusted | |
+| `incov` | 100.0% | trusted | |
+| `cvp_xblck_v` | 100.0% | trusted | |
+| `/bev1/emlgforts` | 100.0% | trusted | |
+| `/bev1/emlgpfand` | 100.0% | trusted | |
+| `kurst` | 100.0% | trusted | |
+| `boidt` | 100.0% | trusted | |
+| `bokre` | 100.0% | trusted | |
+| `kvgr5` | 100.0% | trusted | |
+| `antlf` | 100.0% | trusted | |
+| `autlf` | 100.0% | trusted | |
+| `lifsd` | 100.0% | trusted | |
+| `inco2` | 100.0% | trusted | |
+| `inco1` | 100.0% | trusted | |
+| `awahr` | 100.0% | trusted | |
+| `pltyp` | 100.0% | trusted | |
+| `konda` | 100.0% | trusted | |
+| `bzirk` | 100.0% | trusted | |
+| `kdgrp` | 100.0% | trusted | |
+| `kalks` | 100.0% | trusted | |
+| `aufsd` | 100.0% | trusted | |
+| `versg` | 100.0% | trusted | |
+| `loevm` | 100.0% | trusted | |
+| `begru` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `spart` | 100.0% | trusted | |
+| `vtweg` | 100.0% | trusted | |
+| `vkorg` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `kztlf` | 100.0% | trusted | |
+| `kzazu` | 100.0% | trusted | |
+| `chspl` | 100.0% | trusted | |
+| `ktgrd` | 100.0% | trusted | |
+| `kvgr4` | 100.0% | trusted | |
+| `kvgr3` | 100.0% | trusted | |
+| `kvgr2` | 100.0% | trusted | |
+| `kvgr1` | 100.0% | trusted | |
+| `vsort` | 100.0% | trusted | |
+| `vkbur` | 100.0% | trusted | |
+| `vkgrp` | 100.0% | trusted | |
+| `vwerk` | 100.0% | trusted | |
+| `zterm` | 100.0% | trusted | |
+| `klabc` | 100.0% | trusted | |
+| `lprio` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `kvawt` | 100.0% | trusted | |
+| `kvakz` | 100.0% | trusted | |
+| `perrl` | 100.0% | trusted | |
+| `perfk` | 100.0% | trusted | |
+| `mrnkz` | 100.0% | trusted | |
+| `faksd` | 100.0% | trusted | |
+| `vsbed` | 100.0% | trusted | |
+| `eikto` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

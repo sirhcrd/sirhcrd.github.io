@@ -1,8 +1,8 @@
 ---
 table: tvbur
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 927
+row_count: 263
 column_count: 12
 ---
 
@@ -22,17 +22,17 @@ column_count: 12
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `VKBUR` | 100.0% | trusted | |
-| `ADRNR` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `TXNAM_ADR` | 100.0% | trusted | |
-| `TXNAM_KOP` | 100.0% | trusted | |
-| `TXNAM_FUS` | 100.0% | trusted | |
-| `TXNAM_GRU` | 100.0% | trusted | |
-| `TXNAM_SDB` | 100.0% | trusted | |
-| `HIDE` | 100.0% | trusted | |
-| `ISPVKBURUE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `vkbur` | 100.0% | trusted | |
+| `adrnr` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `txnam_adr` | 100.0% | trusted | |
+| `txnam_kop` | 100.0% | trusted | |
+| `txnam_fus` | 100.0% | trusted | |
+| `txnam_gru` | 100.0% | trusted | |
+| `txnam_sdb` | 100.0% | trusted | |
+| `ispvkburue` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

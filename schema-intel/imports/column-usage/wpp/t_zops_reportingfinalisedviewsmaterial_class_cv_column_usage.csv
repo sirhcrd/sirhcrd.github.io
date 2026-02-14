@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,733305,733305,100.0,0,0.0
+2,Material,733305,733305,100.0,0,0.0
+3,Configuration,733305,733305,100.0,0,0.0
+4,ObjectKey,733305,733305,100.0,0,0.0
+5,InternalCharacteristic,733305,733305,100.0,0,0.0
+6,ClassType,733305,733305,100.0,0,0.0
+7,Characteristicname,733305,733305,100.0,0,0.0
+8,ObjectIdentification,733305,733305,100.0,0,0.0
+9,CharacteristicDescription,733305,733305,100.0,0,0.0
+10,src_commit_time,733305,733305,100.0,0,0.0
+11,CharacteristicValue,714419,733305,97.4,18886,2.6

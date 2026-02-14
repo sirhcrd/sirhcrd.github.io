@@ -1,9 +1,9 @@
 ---
 table: cepc
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2105
-column_count: 49
+row_count: 2210
+column_count: 50
 ---
 
 # cepc
@@ -14,7 +14,7 @@ column_count: 49
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 49 | 100% |
+| Trusted (≥50%) | 50 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,9 @@ column_count: 49
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `spras` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `vname` | 100.0% | trusted | |
+| `telbx` | 100.0% | trusted | |
 | `telf1` | 100.0% | trusted | |
 | `telf2` | 100.0% | trusted | |
 | `telfx` | 100.0% | trusted | |
@@ -33,8 +34,8 @@ column_count: 49
 | `drnam` | 100.0% | trusted | |
 | `khinr` | 100.0% | trusted | |
 | `bukrs` | 100.0% | trusted | |
-| `vname` | 100.0% | trusted | |
 | `recid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
 | `etype` | 100.0% | trusted | |
 | `txjcd` | 100.0% | trusted | |
 | `regio` | 100.0% | trusted | |
@@ -45,10 +46,11 @@ column_count: 49
 | `lock_ind` | 100.0% | trusted | |
 | `pca_template` | 100.0% | trusted | |
 | `segment` | 100.0% | trusted | |
-| `telbx` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
 | `pstl2` | 100.0% | trusted | |
-| `prctr` | 100.0% | trusted | |
 | `pstlz` | 100.0% | trusted | |
+| `pfach` | 100.0% | trusted | |
+| `prctr` | 100.0% | trusted | |
 | `datbi` | 100.0% | trusted | |
 | `kokrs` | 100.0% | trusted | |
 | `datab` | 100.0% | trusted | |
@@ -69,7 +71,6 @@ column_count: 49
 | `ort01` | 100.0% | trusted | |
 | `ort02` | 100.0% | trusted | |
 | `stras` | 100.0% | trusted | |
-| `pfach` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

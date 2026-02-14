@@ -1,9 +1,9 @@
 ---
 table: tvlk
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 205
-column_count: 70
+row_count: 198
+column_count: 71
 ---
 
 # tvlk
@@ -14,7 +14,7 @@ column_count: 70
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 70 | 100% |
+| Trusted (≥50%) | 71 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,75 +22,76 @@ column_count: 70
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `J_1ADOCCLS` | 100.0% | trusted | |
-| `SPOFI` | 100.0% | trusted | |
-| `DSFAD` | 100.0% | trusted | |
-| `DBTCH` | 100.0% | trusted | |
-| `UVEIB` | 100.0% | trusted | |
-| `TSEGTP` | 100.0% | trusted | |
-| `RFPL_SW` | 100.0% | trusted | |
-| `EXCLG` | 100.0% | trusted | |
-| `SPE_NUMKT` | 100.0% | trusted | |
-| `EXCEM` | 100.0% | trusted | |
-| `EXCBC` | 100.0% | trusted | |
-| `BZOPS` | 100.0% | trusted | |
-| `REGTB` | 100.0% | trusted | |
-| `PM_ITEM_GEN` | 100.0% | trusted | |
-| `AVERP` | 100.0% | trusted | |
-| `OIDELDCM` | 100.0% | trusted | |
-| `SPE_NR_RECYCLING` | 100.0% | trusted | |
-| `LFART` | 100.0% | trusted | |
-| `EDI_WEIGHTVOL` | 100.0% | trusted | |
-| `FSH_VASS_CORR` | 100.0% | trusted | |
-| `FSH_VASS_KALSM` | 100.0% | trusted | |
-| `FSH_VASS_ACT` | 100.0% | trusted | |
-| `FSH_AUDELOC` | 100.0% | trusted | |
-| `MSR_FKARA` | 100.0% | trusted | |
-| `SPE_ENABLE_VALID` | 100.0% | trusted | |
-| `TDSPRAS` | 100.0% | trusted | |
-| `BORGR_LIFEX_MUST` | 100.0% | trusted | |
-| `TDID` | 100.0% | trusted | |
-| `HOLD_DATA` | 100.0% | trusted | |
-| `BORGR_SODET` | 100.0% | trusted | |
-| `BORGR_LIFEX_EDIA` | 100.0% | trusted | |
-| `BORGR_LIFEX_EEDI` | 100.0% | trusted | |
-| `BORGR_LIFEX_UNQ` | 100.0% | trusted | |
-| `LNSPL` | 100.0% | trusted | |
-| `FEHGR` | 100.0% | trusted | |
-| `KALSP` | 100.0% | trusted | |
-| `INCPO` | 100.0% | trusted | |
-| `REGLG` | 100.0% | trusted | |
-| `REGGR` | 100.0% | trusted | |
-| `POBED` | 100.0% | trusted | |
-| `DAART` | 100.0% | trusted | |
-| `AUFER` | 100.0% | trusted | |
-| `PARGR` | 100.0% | trusted | |
-| `NUMKIRULE` | 100.0% | trusted | |
-| `NEUTE` | 100.0% | trusted | |
-| `NUMKE` | 100.0% | trusted | |
-| `NUMKI` | 100.0% | trusted | |
-| `UMFNG` | 100.0% | trusted | |
-| `TXN08` | 100.0% | trusted | |
-| `UEVOR` | 100.0% | trusted | |
-| `KOPGR` | 100.0% | trusted | |
-| `WAAUS` | 100.0% | trusted | |
-| `ROUTF` | 100.0% | trusted | |
-| `VBTYP` | 100.0% | trusted | |
-| `TXTGR` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `KAPPL` | 100.0% | trusted | |
-| `KALSM` | 100.0% | trusted | |
-| `KSCHL` | 100.0% | trusted | |
-| `STGAK` | 100.0% | trusted | |
-| `CMGRL` | 100.0% | trusted | |
-| `CMGRK` | 100.0% | trusted | |
-| `CMGRW` | 100.0% | trusted | |
-| `QHERK` | 100.0% | trusted | |
-| `TRSPG` | 100.0% | trusted | |
-| `TDIIX` | 100.0% | trusted | |
-| `PROFIDNETZ` | 100.0% | trusted | |
-| `EXCOK` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `j_1adoccls` | 100.0% | trusted | |
+| `spofi` | 100.0% | trusted | |
+| `dsfad` | 100.0% | trusted | |
+| `dbtch` | 100.0% | trusted | |
+| `uveib` | 100.0% | trusted | |
+| `tsegtp` | 100.0% | trusted | |
+| `rfpl_sw` | 100.0% | trusted | |
+| `exclg` | 100.0% | trusted | |
+| `spe_numkt` | 100.0% | trusted | |
+| `excem` | 100.0% | trusted | |
+| `excbc` | 100.0% | trusted | |
+| `bzops` | 100.0% | trusted | |
+| `regtb` | 100.0% | trusted | |
+| `pm_item_gen` | 100.0% | trusted | |
+| `averp` | 100.0% | trusted | |
+| `oideldcm` | 100.0% | trusted | |
+| `spe_nr_recycling` | 100.0% | trusted | |
+| `fehgr` | 100.0% | trusted | |
+| `edi_weightvol` | 100.0% | trusted | |
+| `fsh_vass_corr` | 100.0% | trusted | |
+| `fsh_vass_kalsm` | 100.0% | trusted | |
+| `fsh_vass_act` | 100.0% | trusted | |
+| `fsh_audeloc` | 100.0% | trusted | |
+| `msr_fkara` | 100.0% | trusted | |
+| `spe_enable_valid` | 100.0% | trusted | |
+| `tdspras` | 100.0% | trusted | |
+| `borgr_lifex_must` | 100.0% | trusted | |
+| `tdid` | 100.0% | trusted | |
+| `hold_data` | 100.0% | trusted | |
+| `borgr_sodet` | 100.0% | trusted | |
+| `borgr_lifex_edia` | 100.0% | trusted | |
+| `borgr_lifex_eedi` | 100.0% | trusted | |
+| `borgr_lifex_unq` | 100.0% | trusted | |
+| `lnspl` | 100.0% | trusted | |
+| `kalsp` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `numkirule` | 100.0% | trusted | |
+| `reggr` | 100.0% | trusted | |
+| `pobed` | 100.0% | trusted | |
+| `daart` | 100.0% | trusted | |
+| `aufer` | 100.0% | trusted | |
+| `pargr` | 100.0% | trusted | |
+| `incpo` | 100.0% | trusted | |
+| `numke` | 100.0% | trusted | |
+| `waaus` | 100.0% | trusted | |
+| `numki` | 100.0% | trusted | |
+| `umfng` | 100.0% | trusted | |
+| `txn08` | 100.0% | trusted | |
+| `uevor` | 100.0% | trusted | |
+| `kopgr` | 100.0% | trusted | |
+| `lfart` | 100.0% | trusted | |
+| `reglg` | 100.0% | trusted | |
+| `routf` | 100.0% | trusted | |
+| `neute` | 100.0% | trusted | |
+| `cmgrk` | 100.0% | trusted | |
+| `excok` | 100.0% | trusted | |
+| `profidnetz` | 100.0% | trusted | |
+| `tdiix` | 100.0% | trusted | |
+| `trspg` | 100.0% | trusted | |
+| `qherk` | 100.0% | trusted | |
+| `cmgrw` | 100.0% | trusted | |
+| `cmgrl` | 100.0% | trusted | |
+| `vbtyp` | 100.0% | trusted | |
+| `stgak` | 100.0% | trusted | |
+| `kschl` | 100.0% | trusted | |
+| `kalsm` | 100.0% | trusted | |
+| `kappl` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `txtgr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

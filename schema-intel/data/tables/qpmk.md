@@ -1,9 +1,9 @@
 ---
 table: qpmk
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 6178
-column_count: 70
+row_count: 2477
+column_count: 71
 ---
 
 # qpmk
@@ -14,7 +14,7 @@ column_count: 70
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 70 | 100% |
+| Trusted (≥50%) | 71 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,75 +22,76 @@ column_count: 70
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `PLAUSIOBEN` | 100.0% | trusted | |
-| `TOLERWEIUN` | 100.0% | trusted | |
-| `TOLWOBNI` | 100.0% | trusted | |
-| `TOLERWEIOB` | 100.0% | trusted | |
-| `PLAUSIUNNI` | 100.0% | trusted | |
-| `PLAUSIUNTE` | 100.0% | trusted | |
-| `PLAUSIOBNI` | 100.0% | trusted | |
-| `GRENZUN2NI` | 100.0% | trusted | |
-| `TOLERWAB` | 100.0% | trusted | |
-| `GRENZEUN2` | 100.0% | trusted | |
-| `GRENZOB2NI` | 100.0% | trusted | |
-| `GRENZEOB2` | 100.0% | trusted | |
-| `GRENZUN1NI` | 100.0% | trusted | |
-| `GRENZEUN1` | 100.0% | trusted | |
-| `GRENZOB1NI` | 100.0% | trusted | |
-| `TOLWUNNI` | 100.0% | trusted | |
-| `TOLERWBIS` | 100.0% | trusted | |
-| `ZAEHLER` | 100.0% | trusted | |
-| `CODEGRQUAL` | 100.0% | trusted | |
-| `PARAMETER2` | 100.0% | trusted | |
-| `PARAMETER1` | 100.0% | trusted | |
-| `SPEC_DET_ACTIVE` | 100.0% | trusted | |
-| `SPEC_DET_RULE` | 100.0% | trusted | |
-| `INPPROC` | 100.0% | trusted | |
-| `CODEQUAL` | 100.0% | trusted | |
-| `EEANTVERF` | 100.0% | trusted | |
-| `CODEGR9U` | 100.0% | trusted | |
-| `ATINN` | 100.0% | trusted | |
-| `CODEVR9O` | 100.0% | trusted | |
-| `CODE9O` | 100.0% | trusted | |
-| `CODEGR9O` | 100.0% | trusted | |
-| `CODEVR9U` | 100.0% | trusted | |
-| `CODE9U` | 100.0% | trusted | |
-| `GRENZEOB1` | 100.0% | trusted | |
-| `KLASMINI` | 100.0% | trusted | |
-| `KLASMITTE` | 100.0% | trusted | |
-| `LSPER` | 100.0% | trusted | |
-| `STEUERKZ` | 100.0% | trusted | |
-| `DATAE` | 100.0% | trusted | |
-| `AEAUT` | 100.0% | trusted | |
-| `DATES` | 100.0% | trusted | |
-| `AUTOR` | 100.0% | trusted | |
-| `KONSISTENT` | 100.0% | trusted | |
-| `LOEKZ` | 100.0% | trusted | |
-| `KLASBRNI` | 100.0% | trusted | |
-| `CHARACT_ID1` | 100.0% | trusted | |
-| `SORTFELD` | 100.0% | trusted | |
-| `GUELTIGAB` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `VERSION` | 100.0% | trusted | |
-| `MKMNR` | 100.0% | trusted | |
-| `MERKGEW` | 100.0% | trusted | |
-| `PRFQL` | 100.0% | trusted | |
-| `DUMMY10` | 100.0% | trusted | |
-| `DUMMY20` | 100.0% | trusted | |
-| `DUMMY40` | 100.0% | trusted | |
-| `QAUTH` | 100.0% | trusted | |
-| `TOLERANZSL` | 100.0% | trusted | |
-| `STELLEN` | 100.0% | trusted | |
-| `MASSEINHSW` | 100.0% | trusted | |
-| `SOLLWERT` | 100.0% | trusted | |
-| `SOLLWNI` | 100.0% | trusted | |
-| `TOLERANZOB` | 100.0% | trusted | |
-| `TOLOBNI` | 100.0% | trusted | |
-| `TOLERANZUN` | 100.0% | trusted | |
-| `TOLUNNI` | 100.0% | trusted | |
-| `KLASANZAHL` | 100.0% | trusted | |
-| `KLASBREITE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `plausioben` | 100.0% | trusted | |
+| `tolerweiun` | 100.0% | trusted | |
+| `tolwobni` | 100.0% | trusted | |
+| `tolerweiob` | 100.0% | trusted | |
+| `plausiunni` | 100.0% | trusted | |
+| `plausiunte` | 100.0% | trusted | |
+| `plausiobni` | 100.0% | trusted | |
+| `grenzun2ni` | 100.0% | trusted | |
+| `tolerwab` | 100.0% | trusted | |
+| `grenzeun2` | 100.0% | trusted | |
+| `grenzob2ni` | 100.0% | trusted | |
+| `grenzeob2` | 100.0% | trusted | |
+| `grenzun1ni` | 100.0% | trusted | |
+| `grenzeun1` | 100.0% | trusted | |
+| `grenzob1ni` | 100.0% | trusted | |
+| `tolwunni` | 100.0% | trusted | |
+| `tolerwbis` | 100.0% | trusted | |
+| `klasmini` | 100.0% | trusted | |
+| `codegrqual` | 100.0% | trusted | |
+| `parameter2` | 100.0% | trusted | |
+| `parameter1` | 100.0% | trusted | |
+| `spec_det_active` | 100.0% | trusted | |
+| `spec_det_rule` | 100.0% | trusted | |
+| `inpproc` | 100.0% | trusted | |
+| `codequal` | 100.0% | trusted | |
+| `eeantverf` | 100.0% | trusted | |
+| `codegr9u` | 100.0% | trusted | |
+| `atinn` | 100.0% | trusted | |
+| `codevr9o` | 100.0% | trusted | |
+| `code9o` | 100.0% | trusted | |
+| `codegr9o` | 100.0% | trusted | |
+| `codevr9u` | 100.0% | trusted | |
+| `code9u` | 100.0% | trusted | |
+| `grenzeob1` | 100.0% | trusted | |
+| `klasmitte` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `loekz` | 100.0% | trusted | |
+| `datae` | 100.0% | trusted | |
+| `aeaut` | 100.0% | trusted | |
+| `dates` | 100.0% | trusted | |
+| `autor` | 100.0% | trusted | |
+| `konsistent` | 100.0% | trusted | |
+| `lsper` | 100.0% | trusted | |
+| `charact_id1` | 100.0% | trusted | |
+| `merkgew` | 100.0% | trusted | |
+| `sortfeld` | 100.0% | trusted | |
+| `gueltigab` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `version` | 100.0% | trusted | |
+| `mkmnr` | 100.0% | trusted | |
+| `zaehler` | 100.0% | trusted | |
+| `steuerkz` | 100.0% | trusted | |
+| `prfql` | 100.0% | trusted | |
+| `klasbrni` | 100.0% | trusted | |
+| `sollwni` | 100.0% | trusted | |
+| `klasbreite` | 100.0% | trusted | |
+| `klasanzahl` | 100.0% | trusted | |
+| `tolunni` | 100.0% | trusted | |
+| `toleranzun` | 100.0% | trusted | |
+| `tolobni` | 100.0% | trusted | |
+| `toleranzob` | 100.0% | trusted | |
+| `sollwert` | 100.0% | trusted | |
+| `dummy10` | 100.0% | trusted | |
+| `masseinhsw` | 100.0% | trusted | |
+| `stellen` | 100.0% | trusted | |
+| `toleranzsl` | 100.0% | trusted | |
+| `qauth` | 100.0% | trusted | |
+| `dummy40` | 100.0% | trusted | |
+| `dummy20` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

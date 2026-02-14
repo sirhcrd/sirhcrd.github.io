@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1,1,100.0,0,0.0
+2,id,1,1,100.0,0,0.0
+3,dat,1,1,100.0,0,0.0
+4,tim,1,1,100.0,0,0.0
+5,akz,1,1,100.0,0,0.0
+6,cid,1,1,100.0,0,0.0
+7,dsz,1,1,100.0,0,0.0
+8,psz,1,1,100.0,0,0.0
+9,src_commit_time,1,1,100.0,0,0.0

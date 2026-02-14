@@ -1,9 +1,9 @@
 ---
 table: mska
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 14360856
-column_count: 34
+row_count: 855
+column_count: 40
 ---
 
 # mska
@@ -14,7 +14,7 @@ column_count: 34
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 34 | 100% |
+| Trusted (≥50%) | 40 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,39 +22,45 @@ column_count: 34
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KAFLS` | 100.0% | trusted | |
-| `KAILS` | 100.0% | trusted | |
-| `KAVLL` | 100.0% | trusted | |
-| `KAVLQ` | 100.0% | trusted | |
-| `KAVLS` | 100.0% | trusted | |
-| `KAFLL` | 100.0% | trusted | |
-| `KAFLQ` | 100.0% | trusted | |
-| `KADLL` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `KAEIN` | 100.0% | trusted | |
-| `KAVEI` | 100.0% | trusted | |
-| `ERSDA` | 100.0% | trusted | |
-| `KAJIN` | 100.0% | trusted | |
-| `KARUE` | 100.0% | trusted | |
-| `SGT_SCAT` | 100.0% | trusted | |
-| `KAILQ` | 100.0% | trusted | |
-| `KAILL` | 100.0% | trusted | |
-| `KAVSP` | 100.0% | trusted | |
-| `KAVIN` | 100.0% | trusted | |
-| `KAVLA` | 100.0% | trusted | |
-| `KASPE` | 100.0% | trusted | |
-| `KAINS` | 100.0% | trusted | |
-| `KALAB` | 100.0% | trusted | |
-| `KASPR` | 100.0% | trusted | |
-| `LFMON` | 100.0% | trusted | |
-| `LFGJA` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `LGORT` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kavlq` | 100.0% | trusted | |
+| `kavls` | 100.0% | trusted | |
+| `kafll` | 100.0% | trusted | |
+| `kaflq` | 100.0% | trusted | |
+| `kafls` | 100.0% | trusted | |
+| `kadll` | 100.0% | trusted | |
+| `kaein` | 100.0% | trusted | |
+| `kavei` | 100.0% | trusted | |
+| `ersda` | 100.0% | trusted | |
+| `kajin` | 100.0% | trusted | |
+| `karue` | 100.0% | trusted | |
+| `sgt_scat` | 100.0% | trusted | |
+| `fsh_season_year` | 100.0% | trusted | |
+| `fsh_season` | 100.0% | trusted | |
+| `fsh_collection` | 100.0% | trusted | |
+| `fsh_theme` | 100.0% | trusted | |
+| `fsh_salloc_qty` | 100.0% | trusted | |
+| `kavll` | 100.0% | trusted | |
+| `kails` | 100.0% | trusted | |
+| `kailq` | 100.0% | trusted | |
+| `lfgja` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `lgort` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `lfmon` | 100.0% | trusted | |
+| `kaill` | 100.0% | trusted | |
+| `kaspr` | 100.0% | trusted | |
+| `kalab` | 100.0% | trusted | |
+| `kains` | 100.0% | trusted | |
+| `kaspe` | 100.0% | trusted | |
+| `kavla` | 100.0% | trusted | |
+| `kavin` | 100.0% | trusted | |
+| `kavsp` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

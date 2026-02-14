@@ -1,9 +1,9 @@
 ---
 table: ekpv
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 8393908
-column_count: 30
+row_count: 1748015
+column_count: 32
 ---
 
 # ekpv
@@ -14,7 +14,7 @@ column_count: 30
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 30 | 100% |
+| Trusted (≥50%) | 32 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,9 @@ column_count: 30
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
 | `mandt` | 100.0% | trusted | |
-| `ebeln` | 100.0% | trusted | |
+| `fsh_vas_cg` | 100.0% | trusted | |
 | `vsart` | 100.0% | trusted | |
 | `spe_ext_id_item` | 100.0% | trusted | |
 | `spe_ext_id` | 100.0% | trusted | |
@@ -51,6 +52,7 @@ column_count: 30
 | `lprio` | 100.0% | trusted | |
 | `vstel` | 100.0% | trusted | |
 | `ebelp` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

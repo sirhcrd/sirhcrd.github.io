@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,263,263,100.0,0,0.0
+2,mandt,263,263,100.0,0,0.0
+3,vkbur,263,263,100.0,0,0.0
+4,adrnr,263,263,100.0,0,0.0
+5,ernam,263,263,100.0,0,0.0
+6,txnam_adr,263,263,100.0,0,0.0
+7,txnam_kop,263,263,100.0,0,0.0
+8,txnam_fus,263,263,100.0,0,0.0
+9,txnam_gru,263,263,100.0,0,0.0
+10,txnam_sdb,263,263,100.0,0,0.0
+11,ispvkburue,263,263,100.0,0,0.0
+12,src_commit_time,263,263,100.0,0,0.0

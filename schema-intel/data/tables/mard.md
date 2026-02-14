@@ -1,9 +1,9 @@
 ---
 table: mard
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 173775476
-column_count: 51
+row_count: 3714484
+column_count: 53
 ---
 
 # mard
@@ -14,7 +14,7 @@ column_count: 51
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 51 | 100% |
+| Trusted (≥50%) | 53 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,56 +22,58 @@ column_count: 51
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KINSM` | 100.0% | trusted | |
-| `KZVLS` | 100.0% | trusted | |
-| `DISKZ` | 100.0% | trusted | |
-| `LSOBS` | 100.0% | trusted | |
-| `LMINB` | 100.0% | trusted | |
-| `LBSTF` | 100.0% | trusted | |
-| `HERKL` | 100.0% | trusted | |
-| `EXPPG` | 100.0% | trusted | |
-| `EXVER` | 100.0% | trusted | |
-| `LGPBE` | 100.0% | trusted | |
-| `KLABS` | 100.0% | trusted | |
-| `KEINM` | 100.0% | trusted | |
-| `KZVLQ` | 100.0% | trusted | |
-| `KSPEM` | 100.0% | trusted | |
-| `DLINL` | 100.0% | trusted | |
-| `PRCTL` | 100.0% | trusted | |
-| `ERSDA` | 100.0% | trusted | |
-| `VKLAB` | 100.0% | trusted | |
-| `VKUML` | 100.0% | trusted | |
-| `LWMKB` | 100.0% | trusted | |
-| `BSKRF` | 100.0% | trusted | |
-| `MDRUE` | 100.0% | trusted | |
-| `MDJIN` | 100.0% | trusted | |
-| `KZVLE` | 100.0% | trusted | |
-| `KZVLL` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `EINME` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `LGORT` | 100.0% | trusted | |
-| `PSTAT` | 100.0% | trusted | |
-| `LVORM` | 100.0% | trusted | |
-| `LFGJA` | 100.0% | trusted | |
-| `LFMON` | 100.0% | trusted | |
-| `SPERR` | 100.0% | trusted | |
-| `LABST` | 100.0% | trusted | |
-| `UMLME` | 100.0% | trusted | |
-| `INSME` | 100.0% | trusted | |
-| `SPEME` | 100.0% | trusted | |
-| `KZILS` | 100.0% | trusted | |
-| `RETME` | 100.0% | trusted | |
-| `VMLAB` | 100.0% | trusted | |
-| `VMUML` | 100.0% | trusted | |
-| `VMINS` | 100.0% | trusted | |
-| `VMEIN` | 100.0% | trusted | |
-| `VMSPE` | 100.0% | trusted | |
-| `VMRET` | 100.0% | trusted | |
-| `KZILL` | 100.0% | trusted | |
-| `KZILQ` | 100.0% | trusted | |
-| `KZILE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `kzvlq` | 100.0% | trusted | |
+| `kzvls` | 100.0% | trusted | |
+| `diskz` | 100.0% | trusted | |
+| `lsobs` | 100.0% | trusted | |
+| `lminb` | 100.0% | trusted | |
+| `lbstf` | 100.0% | trusted | |
+| `herkl` | 100.0% | trusted | |
+| `exppg` | 100.0% | trusted | |
+| `exver` | 100.0% | trusted | |
+| `lgpbe` | 100.0% | trusted | |
+| `klabs` | 100.0% | trusted | |
+| `kinsm` | 100.0% | trusted | |
+| `keinm` | 100.0% | trusted | |
+| `kspem` | 100.0% | trusted | |
+| `dlinl` | 100.0% | trusted | |
+| `prctl` | 100.0% | trusted | |
+| `ersda` | 100.0% | trusted | |
+| `vklab` | 100.0% | trusted | |
+| `vkuml` | 100.0% | trusted | |
+| `lwmkb` | 100.0% | trusted | |
+| `bskrf` | 100.0% | trusted | |
+| `mdrue` | 100.0% | trusted | |
+| `mdjin` | 100.0% | trusted | |
+| `fsh_salloc_qty_s` | 100.0% | trusted | |
+| `kzvle` | 100.0% | trusted | |
+| `kzvll` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kzils` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `lgort` | 100.0% | trusted | |
+| `pstat` | 100.0% | trusted | |
+| `lvorm` | 100.0% | trusted | |
+| `lfgja` | 100.0% | trusted | |
+| `lfmon` | 100.0% | trusted | |
+| `sperr` | 100.0% | trusted | |
+| `labst` | 100.0% | trusted | |
+| `umlme` | 100.0% | trusted | |
+| `insme` | 100.0% | trusted | |
+| `einme` | 100.0% | trusted | |
+| `speme` | 100.0% | trusted | |
+| `retme` | 100.0% | trusted | |
+| `vmlab` | 100.0% | trusted | |
+| `vmuml` | 100.0% | trusted | |
+| `vmins` | 100.0% | trusted | |
+| `vmein` | 100.0% | trusted | |
+| `vmspe` | 100.0% | trusted | |
+| `vmret` | 100.0% | trusted | |
+| `kzill` | 100.0% | trusted | |
+| `kzilq` | 100.0% | trusted | |
+| `kzile` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

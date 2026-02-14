@@ -1,8 +1,8 @@
 ---
 table: tcurc
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 775
+row_count: 848
 column_count: 8
 ---
 
@@ -22,13 +22,13 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `ISOCD` | 100.0% | trusted | |
-| `ALTWR` | 100.0% | trusted | |
-| `GDATU` | 100.0% | trusted | |
-| `XPRIMARY` | 100.0% | trusted | |
-| `NCODE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `isocd` | 100.0% | trusted | |
+| `altwr` | 100.0% | trusted | |
+| `gdatu` | 100.0% | trusted | |
+| `xprimary` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

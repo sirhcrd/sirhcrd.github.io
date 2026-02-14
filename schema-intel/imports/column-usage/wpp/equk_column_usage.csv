@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,89,89,100.0,0,0.0
+2,mandt,89,89,100.0,0,0.0
+3,matnr,89,89,100.0,0,0.0
+4,werks,89,89,100.0,0,0.0
+5,bdatu,89,89,100.0,0,0.0
+6,vdatu,89,89,100.0,0,0.0
+7,qunum,89,89,100.0,0,0.0
+8,erdat,89,89,100.0,0,0.0
+9,ernam,89,89,100.0,0,0.0
+10,scmng,89,89,100.0,0,0.0
+11,src_commit_time,89,89,100.0,0,0.0

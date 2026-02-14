@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,199,199,100.0,0,0.0
+2,mandt,199,199,100.0,0,0.0
+3,stsma,199,199,100.0,0,0.0
+4,stsfl,199,199,100.0,0,0.0
+5,flstp,199,199,100.0,0,0.0
+6,spras,199,199,100.0,0,0.0
+7,descr,199,199,100.0,0,0.0
+8,content,199,199,100.0,0,0.0
+9,src_commit_time,199,199,100.0,0,0.0

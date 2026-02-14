@@ -1,0 +1,21 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,446234,446234,100.0,0,0.0
+2,Material,446234,446234,100.0,0,0.0
+3,BOMIsToBeDeleted,446234,446234,100.0,0,0.0
+4,ApplicationArea29,446234,446234,100.0,0,0.0
+5,X415A,446234,446234,100.0,0,0.0
+6,ANDEC,446234,446234,100.0,0,0.0
+7,BOMPrioritizedVersion,446234,446234,100.0,0,0.0
+8,BOMExplosionApplication,446234,446234,100.0,0,0.0
+9,MaterialToLotSizeQuantity,446234,446234,100.0,0,0.0
+10,MaterialFromLotSizeQuantity,446234,446234,100.0,0,0.0
+11,BillOfMaterial,446234,446234,100.0,0,0.0
+12,AlternativeBillOfMaterial,446234,446234,100.0,0,0.0
+13,BillOfMaterialVariantUsage,446234,446234,100.0,0,0.0
+14,AlternativeBOMSelectionMethod,446234,446234,100.0,0,0.0
+15,BillOfMaterialCategory,446234,446234,100.0,0,0.0
+16,MaterialExpectedScrapPercent,446234,446234,100.0,0,0.0
+17,BOMIsActive,446234,446234,100.0,0,0.0
+18,BOMUsagePriority,446234,446234,100.0,0,0.0
+19,ProductionPlant,446234,446234,100.0,0,0.0
+20,src_commit_time,446234,446234,100.0,0,0.0

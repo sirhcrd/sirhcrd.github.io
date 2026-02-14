@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,848,848,100.0,0,0.0
+2,mandt,848,848,100.0,0,0.0
+3,waers,848,848,100.0,0,0.0
+4,isocd,848,848,100.0,0,0.0
+5,altwr,848,848,100.0,0,0.0
+6,gdatu,848,848,100.0,0,0.0
+7,xprimary,848,848,100.0,0,0.0
+8,src_commit_time,848,848,100.0,0,0.0

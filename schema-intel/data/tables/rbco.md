@@ -1,8 +1,8 @@
 ---
 table: rbco
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 10437797
+row_count: 15535261
 column_count: 77
 ---
 
@@ -22,82 +22,82 @@ column_count: 77
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `PARGB` | 100.0% | trusted | |
-| `MWART` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `ZUONR` | 100.0% | trusted | |
-| `VORNR` | 100.0% | trusted | |
-| `NPLNR` | 100.0% | trusted | |
-| `XSKRL` | 100.0% | trusted | |
-| `PERNR` | 100.0% | trusted | |
-| `KBLPOS` | 100.0% | trusted | |
-| `AUFPL` | 100.0% | trusted | |
-| `KBLNR` | 100.0% | trusted | |
-| `FIKRS` | 100.0% | trusted | |
-| `ERLKZ` | 100.0% | trusted | |
-| `XNEGP` | 100.0% | trusted | |
-| `BNKAN_FW` | 100.0% | trusted | |
-| `BZDAT` | 100.0% | trusted | |
-| `SHKZG` | 100.0% | trusted | |
-| `FWBAS` | 100.0% | trusted | |
-| `HWBAS` | 100.0% | trusted | |
-| `ABPER` | 100.0% | trusted | |
-| `LEDAT` | 100.0% | trusted | |
-| `ZZXREF2` | 100.0% | trusted | |
-| `ZZXREF1` | 100.0% | trusted | |
-| `PARKED_QTY_F` | 100.0% | trusted | |
-| `PARKED_QTY` | 100.0% | trusted | |
-| `AA_FINAL_QTY_F` | 100.0% | trusted | |
-| `AA_FINAL_QTY` | 100.0% | trusted | |
-| `AA_FINAL_IND` | 100.0% | trusted | |
-| `SPGRS` | 100.0% | trusted | |
-| `KOART` | 100.0% | trusted | |
-| `FMFGUS_KEY` | 100.0% | trusted | |
-| `MEASURE` | 100.0% | trusted | |
-| `BUDGET_PD` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `BPMNG_F` | 100.0% | trusted | |
-| `MENGE_F` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `PRZNR` | 100.0% | trusted | |
-| `BELNR` | 100.0% | trusted | |
-| `DABRZ` | 100.0% | trusted | |
-| `IMKEY` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `GRANT_NBR` | 100.0% | trusted | |
-| `GEBER` | 100.0% | trusted | |
-| `FKBER` | 100.0% | trusted | |
-| `FISTL` | 100.0% | trusted | |
-| `FIPOS` | 100.0% | trusted | |
-| `AUFNR` | 100.0% | trusted | |
-| `LSTAR` | 100.0% | trusted | |
-| `APLZL` | 100.0% | trusted | |
-| `ANLN2` | 100.0% | trusted | |
-| `ANLN1` | 100.0% | trusted | |
-| `WRBTR` | 100.0% | trusted | |
-| `COBL_NR` | 100.0% | trusted | |
-| `BUZEI` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `KSTRG` | 100.0% | trusted | |
-| `PAOBJNR` | 100.0% | trusted | |
-| `XUNPL` | 100.0% | trusted | |
-| `BPMNG` | 100.0% | trusted | |
-| `ZEKKN` | 100.0% | trusted | |
-| `MWSKZ` | 100.0% | trusted | |
-| `MENGE` | 100.0% | trusted | |
-| `ZZDUMMY` | 100.0% | trusted | |
-| `VPTNR` | 100.0% | trusted | |
-| `VBELP` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `TXJCD` | 100.0% | trusted | |
-| `SGTXT` | 100.0% | trusted | |
-| `SAKNR` | 100.0% | trusted | |
-| `RECID` | 100.0% | trusted | |
-| `PS_PSP_PNR` | 100.0% | trusted | |
-| `PRCTR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `pargb` | 100.0% | trusted | |
+| `mwart` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `zuonr` | 100.0% | trusted | |
+| `vornr` | 100.0% | trusted | |
+| `nplnr` | 100.0% | trusted | |
+| `xskrl` | 100.0% | trusted | |
+| `pernr` | 100.0% | trusted | |
+| `kblpos` | 100.0% | trusted | |
+| `aufpl` | 100.0% | trusted | |
+| `kblnr` | 100.0% | trusted | |
+| `fikrs` | 100.0% | trusted | |
+| `erlkz` | 100.0% | trusted | |
+| `xnegp` | 100.0% | trusted | |
+| `bnkan_fw` | 100.0% | trusted | |
+| `bzdat` | 100.0% | trusted | |
+| `shkzg` | 100.0% | trusted | |
+| `fwbas` | 100.0% | trusted | |
+| `hwbas` | 100.0% | trusted | |
+| `abper` | 100.0% | trusted | |
+| `ledat` | 100.0% | trusted | |
+| `zzxref2` | 100.0% | trusted | |
+| `zzxref1` | 100.0% | trusted | |
+| `fmfgus_key` | 100.0% | trusted | |
+| `parked_qty_f` | 100.0% | trusted | |
+| `parked_qty` | 100.0% | trusted | |
+| `aa_final_qty_f` | 100.0% | trusted | |
+| `aa_final_qty` | 100.0% | trusted | |
+| `aa_final_ind` | 100.0% | trusted | |
+| `spgrs` | 100.0% | trusted | |
+| `koart` | 100.0% | trusted | |
+| `measure` | 100.0% | trusted | |
+| `budget_pd` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `bpmng_f` | 100.0% | trusted | |
+| `menge_f` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `prznr` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `aufnr` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `grant_nbr` | 100.0% | trusted | |
+| `geber` | 100.0% | trusted | |
+| `fkber` | 100.0% | trusted | |
+| `fistl` | 100.0% | trusted | |
+| `fipos` | 100.0% | trusted | |
+| `dabrz` | 100.0% | trusted | |
+| `aplzl` | 100.0% | trusted | |
+| `lstar` | 100.0% | trusted | |
+| `anln2` | 100.0% | trusted | |
+| `anln1` | 100.0% | trusted | |
+| `wrbtr` | 100.0% | trusted | |
+| `cobl_nr` | 100.0% | trusted | |
+| `buzei` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `belnr` | 100.0% | trusted | |
+| `imkey` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `kstrg` | 100.0% | trusted | |
+| `xunpl` | 100.0% | trusted | |
+| `bpmng` | 100.0% | trusted | |
+| `zekkn` | 100.0% | trusted | |
+| `mwskz` | 100.0% | trusted | |
+| `menge` | 100.0% | trusted | |
+| `vptnr` | 100.0% | trusted | |
+| `vbelp` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `txjcd` | 100.0% | trusted | |
+| `sgtxt` | 100.0% | trusted | |
+| `saknr` | 100.0% | trusted | |
+| `recid` | 100.0% | trusted | |
+| `ps_psp_pnr` | 100.0% | trusted | |
+| `prctr` | 100.0% | trusted | |
+| `paobjnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

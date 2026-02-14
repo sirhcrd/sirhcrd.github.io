@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,77,77,100.0,0,0.0
+2,mandt,77,77,100.0,0,0.0
+3,bwkey,77,77,100.0,0,0.0
+4,bwtar,77,77,100.0,0,0.0
+5,kkref,77,77,100.0,0,0.0
+6,bsext,77,77,100.0,0,0.0
+7,bsint,77,77,100.0,0,0.0
+8,src_commit_time,77,77,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: tcurf
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 6445
-column_count: 10
+row_count: 34942
+column_count: 11
 ---
 
 # tcurf
@@ -14,7 +14,7 @@ column_count: 10
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 10 | 100% |
+| Trusted (≥50%) | 11 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,15 +22,16 @@ column_count: 10
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KURST` | 100.0% | trusted | |
-| `FCURR` | 100.0% | trusted | |
-| `TCURR` | 100.0% | trusted | |
-| `GDATU` | 100.0% | trusted | |
-| `FFACT` | 100.0% | trusted | |
-| `TFACT` | 100.0% | trusted | |
-| `ABWCT` | 100.0% | trusted | |
-| `ABWGA` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kurst` | 100.0% | trusted | |
+| `fcurr` | 100.0% | trusted | |
+| `tcurr` | 100.0% | trusted | |
+| `gdatu` | 100.0% | trusted | |
+| `ffact` | 100.0% | trusted | |
+| `tfact` | 100.0% | trusted | |
+| `abwct` | 100.0% | trusted | |
+| `abwga` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: prop
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 49030358
-column_count: 55
+row_count: 9231
+column_count: 56
 ---
 
 # prop
@@ -14,7 +14,7 @@ column_count: 55
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 55 | 100% |
+| Trusted (≥50%) | 56 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,60 +22,61 @@ column_count: 55
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `VBKEZ` | 100.0% | trusted | |
-| `VMGW2` | 100.0% | trusted | |
-| `TWERT` | 100.0% | trusted | |
-| `VMTWE` | 100.0% | trusted | |
-| `PRMAD` | 100.0% | trusted | |
-| `VMMAD` | 100.0% | trusted | |
-| `FSUMM` | 100.0% | trusted | |
-| `VMFSU` | 100.0% | trusted | |
-| `GEWGR` | 100.0% | trusted | |
-| `THKOF` | 100.0% | trusted | |
-| `AUSNA` | 100.0% | trusted | |
-| `PROAB` | 100.0% | trusted | |
-| `STATU` | 100.0% | trusted | |
-| `VMGWE` | 100.0% | trusted | |
-| `VETXT` | 100.0% | trusted | |
-| `PRWUG` | 100.0% | trusted | |
-| `PRWOG` | 100.0% | trusted | |
-| `PRROS` | 100.0% | trusted | |
-| `PRKUM` | 100.0% | trusted | |
-| `PRZGF` | 100.0% | trusted | |
-| `AKTPE` | 100.0% | trusted | |
-| `FAUSR` | 100.0% | trusted | |
-| `SIGMA` | 100.0% | trusted | |
-| `FLGEXC` | 100.0% | trusted | |
-| `FLGCOR` | 100.0% | trusted | |
-| `VMGW1` | 100.0% | trusted | |
-| `GWER2` | 100.0% | trusted | |
-| `PNUM1` | 100.0% | trusted | |
-| `BETA1` | 100.0% | trusted | |
-| `HSNUM` | 100.0% | trusted | |
-| `VERSP` | 100.0% | trusted | |
-| `PNUM2` | 100.0% | trusted | |
-| `PROPR` | 100.0% | trusted | |
-| `MODAW` | 100.0% | trusted | |
-| `MODAV` | 100.0% | trusted | |
-| `KZPAR` | 100.0% | trusted | |
-| `OPGRA` | 100.0% | trusted | |
-| `KZINI` | 100.0% | trusted | |
-| `PRMOD` | 100.0% | trusted | |
-| `ALPHA` | 100.0% | trusted | |
-| `GAMMA` | 100.0% | trusted | |
-| `GWER1` | 100.0% | trusted | |
-| `DELTA` | 100.0% | trusted | |
-| `EPSIL` | 100.0% | trusted | |
-| `SIGGR` | 100.0% | trusted | |
-| `PRDAT` | 100.0% | trusted | |
-| `PERAN` | 100.0% | trusted | |
-| `PERIN` | 100.0% | trusted | |
-| `PERIO` | 100.0% | trusted | |
-| `PEREX` | 100.0% | trusted | |
-| `ANZPR` | 100.0% | trusted | |
-| `FIMON` | 100.0% | trusted | |
-| `GWERT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `vmgw1` | 100.0% | trusted | |
+| `vmgw2` | 100.0% | trusted | |
+| `twert` | 100.0% | trusted | |
+| `vmtwe` | 100.0% | trusted | |
+| `prmad` | 100.0% | trusted | |
+| `vmmad` | 100.0% | trusted | |
+| `fsumm` | 100.0% | trusted | |
+| `vmfsu` | 100.0% | trusted | |
+| `gewgr` | 100.0% | trusted | |
+| `thkof` | 100.0% | trusted | |
+| `ausna` | 100.0% | trusted | |
+| `proab` | 100.0% | trusted | |
+| `vbkez` | 100.0% | trusted | |
+| `statu` | 100.0% | trusted | |
+| `vetxt` | 100.0% | trusted | |
+| `prwug` | 100.0% | trusted | |
+| `prwog` | 100.0% | trusted | |
+| `prros` | 100.0% | trusted | |
+| `prkum` | 100.0% | trusted | |
+| `przgf` | 100.0% | trusted | |
+| `aktpe` | 100.0% | trusted | |
+| `fausr` | 100.0% | trusted | |
+| `sigma` | 100.0% | trusted | |
+| `flgexc` | 100.0% | trusted | |
+| `flgcor` | 100.0% | trusted | |
+| `vmgwe` | 100.0% | trusted | |
+| `gwer2` | 100.0% | trusted | |
+| `gwer1` | 100.0% | trusted | |
+| `alpha` | 100.0% | trusted | |
+| `pnum1` | 100.0% | trusted | |
+| `hsnum` | 100.0% | trusted | |
+| `versp` | 100.0% | trusted | |
+| `pnum2` | 100.0% | trusted | |
+| `propr` | 100.0% | trusted | |
+| `modaw` | 100.0% | trusted | |
+| `modav` | 100.0% | trusted | |
+| `kzpar` | 100.0% | trusted | |
+| `opgra` | 100.0% | trusted | |
+| `kzini` | 100.0% | trusted | |
+| `prmod` | 100.0% | trusted | |
+| `beta1` | 100.0% | trusted | |
+| `gwert` | 100.0% | trusted | |
+| `gamma` | 100.0% | trusted | |
+| `delta` | 100.0% | trusted | |
+| `epsil` | 100.0% | trusted | |
+| `siggr` | 100.0% | trusted | |
+| `prdat` | 100.0% | trusted | |
+| `peran` | 100.0% | trusted | |
+| `perin` | 100.0% | trusted | |
+| `perio` | 100.0% | trusted | |
+| `perex` | 100.0% | trusted | |
+| `anzpr` | 100.0% | trusted | |
+| `fimon` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

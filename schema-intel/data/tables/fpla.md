@@ -1,9 +1,9 @@
 ---
 table: fpla
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 7589923
-column_count: 36
+row_count: 113076
+column_count: 38
 ---
 
 # fpla
@@ -14,7 +14,7 @@ column_count: 36
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 36 | 100% |
+| Trusted (≥50%) | 38 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,41 +22,43 @@ column_count: 36
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `FPLNR` | 100.0% | trusted | |
-| `TNDAR` | 100.0% | trusted | |
-| `AUFPL` | 100.0% | trusted | |
-| `APLZL` | 100.0% | trusted | |
-| `RSNUM` | 100.0% | trusted | |
-| `RSPOS` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `FPLTU` | 100.0% | trusted | |
-| `AUST1` | 100.0% | trusted | |
-| `AUST2` | 100.0% | trusted | |
-| `AUST3` | 100.0% | trusted | |
-| `AUST4` | 100.0% | trusted | |
-| `AUST5` | 100.0% | trusted | |
-| `BASISWRT` | 100.0% | trusted | |
-| `PSPNR` | 100.0% | trusted | |
-| `AUTKOR` | 100.0% | trusted | |
-| `TNDAT` | 100.0% | trusted | |
-| `FAKCA` | 100.0% | trusted | |
-| `PERAF` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `FPTYP` | 100.0% | trusted | |
-| `FPART` | 100.0% | trusted | |
-| `SORTL` | 100.0% | trusted | |
-| `BEDAT` | 100.0% | trusted | |
-| `ENDAT` | 100.0% | trusted | |
-| `HORIZ` | 100.0% | trusted | |
-| `BEDAR` | 100.0% | trusted | |
-| `LODAR` | 100.0% | trusted | |
-| `ENDAR` | 100.0% | trusted | |
-| `PERIO` | 100.0% | trusted | |
-| `FPLAE` | 100.0% | trusted | |
-| `RFPLN` | 100.0% | trusted | |
-| `LODAT` | 100.0% | trusted | |
-| `AUTTE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `aust1` | 100.0% | trusted | |
+| `tndar` | 100.0% | trusted | |
+| `aufpl` | 100.0% | trusted | |
+| `aplzl` | 100.0% | trusted | |
+| `rsnum` | 100.0% | trusted | |
+| `rspos` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
+| `fpltu` | 100.0% | trusted | |
+| `aust2` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `aust3` | 100.0% | trusted | |
+| `aust4` | 100.0% | trusted | |
+| `aust5` | 100.0% | trusted | |
+| `basiswrt` | 100.0% | trusted | |
+| `pspnr` | 100.0% | trusted | |
+| `autkor` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
+| `tndat` | 100.0% | trusted | |
+| `fakca` | 100.0% | trusted | |
+| `peraf` | 100.0% | trusted | |
+| `lodar` | 100.0% | trusted | |
+| `fplnr` | 100.0% | trusted | |
+| `fptyp` | 100.0% | trusted | |
+| `fpart` | 100.0% | trusted | |
+| `sortl` | 100.0% | trusted | |
+| `bedat` | 100.0% | trusted | |
+| `endat` | 100.0% | trusted | |
+| `horiz` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `bedar` | 100.0% | trusted | |
+| `endar` | 100.0% | trusted | |
+| `perio` | 100.0% | trusted | |
+| `fplae` | 100.0% | trusted | |
+| `rfpln` | 100.0% | trusted | |
+| `lodat` | 100.0% | trusted | |
+| `autte` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: dd02l
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 537626
-column_count: 42
+row_count: 639574
+column_count: 46
 ---
 
 # dd02l
@@ -14,7 +14,7 @@ column_count: 42
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 42 | 100% |
+| Trusted (≥50%) | 46 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,47 +22,51 @@ column_count: 42
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `TABNAME` | 100.0% | trusted | |
-| `TABLEN_FEATURE` | 100.0% | trusted | |
-| `EXCLASS` | 100.0% | trusted | |
-| `WRONGCL` | 100.0% | trusted | |
-| `ALWAYSTRP` | 100.0% | trusted | |
-| `ALLDATAINCL` | 100.0% | trusted | |
-| `WITH_PARAMETERS` | 100.0% | trusted | |
-| `EXVIEW_INCLUDED` | 100.0% | trusted | |
-| `KEYMAX_FEATURE` | 100.0% | trusted | |
-| `KEYLEN_FEATURE` | 100.0% | trusted | |
-| `NONTRP_INCLUDED` | 100.0% | trusted | |
-| `BUFFERED` | 100.0% | trusted | |
-| `TABCLASS` | 100.0% | trusted | |
-| `VIEWREF` | 100.0% | trusted | |
-| `VIEWREF_ERR` | 100.0% | trusted | |
-| `SQLTAB` | 100.0% | trusted | |
-| `DATMIN` | 100.0% | trusted | |
-| `DATMAX` | 100.0% | trusted | |
-| `DATAVG` | 100.0% | trusted | |
-| `CLIDEP` | 100.0% | trusted | |
-| `AS4VERS` | 100.0% | trusted | |
-| `PROXYTYPE` | 100.0% | trusted | |
-| `SHLPEXI` | 100.0% | trusted | |
-| `MULTIPLEX` | 100.0% | trusted | |
-| `COMPRFLAG` | 100.0% | trusted | |
-| `LANGDEP` | 100.0% | trusted | |
-| `ACTFLAG` | 100.0% | trusted | |
-| `APPLCLASS` | 100.0% | trusted | |
-| `AUTHCLASS` | 100.0% | trusted | |
-| `AS4USER` | 100.0% | trusted | |
-| `AS4DATE` | 100.0% | trusted | |
-| `AS4TIME` | 100.0% | trusted | |
-| `MASTERLANG` | 100.0% | trusted | |
-| `AS4LOCAL` | 100.0% | trusted | |
-| `MAINFLAG` | 100.0% | trusted | |
-| `CONTFLAG` | 100.0% | trusted | |
-| `RESERVETAB` | 100.0% | trusted | |
-| `GLOBALFLAG` | 100.0% | trusted | |
-| `PROZPUFF` | 100.0% | trusted | |
-| `VIEWCLASS` | 100.0% | trusted | |
-| `VIEWGRANT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `with_parameters` | 100.0% | trusted | |
+| `viewclass` | 100.0% | trusted | |
+| `viewgrant` | 100.0% | trusted | |
+| `multiplex` | 100.0% | trusted | |
+| `shlpexi` | 100.0% | trusted | |
+| `proxytype` | 100.0% | trusted | |
+| `exclass` | 100.0% | trusted | |
+| `wrongcl` | 100.0% | trusted | |
+| `alwaystrp` | 100.0% | trusted | |
+| `alldataincl` | 100.0% | trusted | |
+| `exview_included` | 100.0% | trusted | |
+| `tabname` | 100.0% | trusted | |
+| `keymax_feature` | 100.0% | trusted | |
+| `keylen_feature` | 100.0% | trusted | |
+| `tablen_feature` | 100.0% | trusted | |
+| `nontrp_included` | 100.0% | trusted | |
+| `viewref` | 100.0% | trusted | |
+| `viewref_err` | 100.0% | trusted | |
+| `tbfunc_included` | 100.0% | trusted | |
+| `is_gtt` | 100.0% | trusted | |
+| `session_var_ex` | 100.0% | trusted | |
+| `prozpuff` | 100.0% | trusted | |
+| `globalflag` | 100.0% | trusted | |
+| `reservetab` | 100.0% | trusted | |
+| `contflag` | 100.0% | trusted | |
+| `as4local` | 100.0% | trusted | |
+| `as4vers` | 100.0% | trusted | |
+| `tabclass` | 100.0% | trusted | |
+| `sqltab` | 100.0% | trusted | |
+| `datmin` | 100.0% | trusted | |
+| `datmax` | 100.0% | trusted | |
+| `datavg` | 100.0% | trusted | |
+| `clidep` | 100.0% | trusted | |
+| `buffered` | 100.0% | trusted | |
+| `comprflag` | 100.0% | trusted | |
+| `langdep` | 100.0% | trusted | |
+| `actflag` | 100.0% | trusted | |
+| `applclass` | 100.0% | trusted | |
+| `authclass` | 100.0% | trusted | |
+| `as4user` | 100.0% | trusted | |
+| `as4date` | 100.0% | trusted | |
+| `as4time` | 100.0% | trusted | |
+| `masterlang` | 100.0% | trusted | |
+| `mainflag` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1,1,100.0,0,0.0
+2,mandt,1,1,100.0,0,0.0
+3,ekorg,1,1,100.0,0,0.0
+4,ekorz,1,1,100.0,0,0.0
+5,ekabr,1,1,100.0,0,0.0
+6,ekkon,1,1,100.0,0,0.0
+7,ekinf,1,1,100.0,0,0.0
+8,ekinm,1,1,100.0,0,0.0
+9,eklif,1,1,100.0,0,0.0
+10,src_commit_time,1,1,100.0,0,0.0

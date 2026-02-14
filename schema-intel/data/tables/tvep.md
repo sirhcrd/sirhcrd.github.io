@@ -1,9 +1,9 @@
 ---
 table: tvep
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 354
-column_count: 32
+row_count: 243
+column_count: 33
 ---
 
 # tvep
@@ -14,7 +14,7 @@ column_count: 32
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 32 | 100% |
+| Trusted (≥50%) | 33 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,37 +22,38 @@ column_count: 32
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `ETTYP` | 100.0% | trusted | |
-| `CAPEX` | 100.0% | trusted | |
-| `UPDSC_EXT` | 100.0% | trusted | |
-| `UPDSC` | 100.0% | trusted | |
-| `MSR_BWART_RO` | 100.0% | trusted | |
-| `BWA1B` | 100.0% | trusted | |
-| `SITKZ` | 100.0% | trusted | |
-| `SITBW` | 100.0% | trusted | |
-| `MSR_BWART_SPEC` | 100.0% | trusted | |
-| `MSR_BWART_FREE` | 100.0% | trusted | |
-| `QUOTA` | 100.0% | trusted | |
-| `BWA1S` | 100.0% | trusted | |
-| `BEDSD` | 100.0% | trusted | |
-| `ATPPR` | 100.0% | trusted | |
-| `KNTTP` | 100.0% | trusted | |
-| `PSTYP` | 100.0% | trusted | |
-| `FEHGR` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `TXN08` | 100.0% | trusted | |
-| `LIFSP` | 100.0% | trusted | |
-| `AUBST` | 100.0% | trusted | |
-| `BWART` | 100.0% | trusted | |
-| `BSTYP` | 100.0% | trusted | |
-| `BSART` | 100.0% | trusted | |
-| `EBANF` | 100.0% | trusted | |
-| `ENTLG` | 100.0% | trusted | |
-| `PLART` | 100.0% | trusted | |
-| `BDART` | 100.0% | trusted | |
-| `LFREL` | 100.0% | trusted | |
-| `ASWET` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `pstyp` | 100.0% | trusted | |
+| `capex` | 100.0% | trusted | |
+| `updsc_ext` | 100.0% | trusted | |
+| `updsc` | 100.0% | trusted | |
+| `msr_bwart_ro` | 100.0% | trusted | |
+| `bwa1b` | 100.0% | trusted | |
+| `sitkz` | 100.0% | trusted | |
+| `sitbw` | 100.0% | trusted | |
+| `msr_bwart_spec` | 100.0% | trusted | |
+| `msr_bwart_free` | 100.0% | trusted | |
+| `quota` | 100.0% | trusted | |
+| `bwa1s` | 100.0% | trusted | |
+| `bedsd` | 100.0% | trusted | |
+| `atppr` | 100.0% | trusted | |
+| `knttp` | 100.0% | trusted | |
+| `fehgr` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `txn08` | 100.0% | trusted | |
+| `lifsp` | 100.0% | trusted | |
+| `aubst` | 100.0% | trusted | |
+| `bwart` | 100.0% | trusted | |
+| `bstyp` | 100.0% | trusted | |
+| `bsart` | 100.0% | trusted | |
+| `ebanf` | 100.0% | trusted | |
+| `entlg` | 100.0% | trusted | |
+| `plart` | 100.0% | trusted | |
+| `bdart` | 100.0% | trusted | |
+| `lfrel` | 100.0% | trusted | |
+| `aswet` | 100.0% | trusted | |
+| `ettyp` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: mara
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 900901
-column_count: 245
+row_count: 437647
+column_count: 231
 ---
 
 # mara
@@ -14,7 +14,7 @@ column_count: 245
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 245 | 100% |
+| Trusted (≥50%) | 231 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,18 @@ column_count: 245
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `maxl` | 100.0% | trusted | |
+| `maxh` | 100.0% | trusted | |
+| `maxdim_uom` | 100.0% | trusted | |
+| `herkl` | 100.0% | trusted | |
+| `mfrgr` | 100.0% | trusted | |
+| `qqtime` | 100.0% | trusted | |
+| `qqtimeuom` | 100.0% | trusted | |
+| `qgrp` | 100.0% | trusted | |
+| `serial` | 100.0% | trusted | |
 | `ps_smartform` | 100.0% | trusted | |
+| `logunit` | 100.0% | trusted | |
 | `cwqrel` | 100.0% | trusted | |
 | `cwqproc` | 100.0% | trusted | |
 | `cwqtolgr` | 100.0% | trusted | |
@@ -31,30 +41,26 @@ column_count: 245
 | `ipmipproduct` | 100.0% | trusted | |
 | `allow_pmat_igno` | 100.0% | trusted | |
 | `medium` | 100.0% | trusted | |
+| `commodity` | 100.0% | trusted | |
+| `animal_origin` | 100.0% | trusted | |
+| `textile_comp_ind` | 100.0% | trusted | |
 | `/bev1/luleinh` | 100.0% | trusted | |
 | `/bev1/luldegrp` | 100.0% | trusted | |
 | `/bev1/nestruccat` | 100.0% | trusted | |
 | `/dsd/sl_toltyp` | 100.0% | trusted | |
 | `/dsd/sv_cnt_grp` | 100.0% | trusted | |
-| `/dsd/vc_group` | 100.0% | trusted | |
+| `maxb` | 100.0% | trusted | |
+| `maxc_tol` | 100.0% | trusted | |
 | `/vso/r_tilt_ind` | 100.0% | trusted | |
-| `/vso/r_stack_ind` | 100.0% | trusted | |
-| `/vso/r_bot_ind` | 100.0% | trusted | |
-| `/vso/r_top_ind` | 100.0% | trusted | |
-| `/vso/r_stack_no` | 100.0% | trusted | |
-| `/vso/r_pal_ind` | 100.0% | trusted | |
-| `/vso/r_pal_ovr_d` | 100.0% | trusted | |
-| `/vso/r_pal_ovr_w` | 100.0% | trusted | |
-| `/vso/r_pal_b_ht` | 100.0% | trusted | |
-| `/vso/r_pal_min_h` | 100.0% | trusted | |
-| `/vso/r_tol_b_ht` | 100.0% | trusted | |
-| `/vso/r_no_p_gvh` | 100.0% | trusted | |
-| `/vso/r_quan_unit` | 100.0% | trusted | |
-| `/vso/r_kzgvh_ind` | 100.0% | trusted | |
-| `logunit` | 100.0% | trusted | |
-| `serial` | 100.0% | trusted | |
+| `maxc` | 100.0% | trusted | |
+| `xgchp` | 100.0% | trusted | |
+| `kzeff` | 100.0% | trusted | |
+| `compl` | 100.0% | trusted | |
+| `iprkz` | 100.0% | trusted | |
+| `rdmhd` | 100.0% | trusted | |
+| `przus` | 100.0% | trusted | |
 | `mtpos_mara` | 100.0% | trusted | |
-| `qgrp` | 100.0% | trusted | |
+| `bflme` | 100.0% | trusted | |
 | `matfi` | 100.0% | trusted | |
 | `cmrel` | 100.0% | trusted | |
 | `bbtyp` | 100.0% | trusted | |
@@ -72,65 +78,11 @@ column_count: 245
 | `hazmat` | 100.0% | trusted | |
 | `hutyp` | 100.0% | trusted | |
 | `tare_var` | 100.0% | trusted | |
-| `maxc` | 100.0% | trusted | |
-| `maxc_tol` | 100.0% | trusted | |
-| `maxl` | 100.0% | trusted | |
-| `maxb` | 100.0% | trusted | |
-| `maxh` | 100.0% | trusted | |
-| `maxdim_uom` | 100.0% | trusted | |
-| `herkl` | 100.0% | trusted | |
-| `mfrgr` | 100.0% | trusted | |
-| `qqtime` | 100.0% | trusted | |
-| `qqtimeuom` | 100.0% | trusted | |
-| `packcode` | 100.0% | trusted | |
-| `dg_pack_status` | 100.0% | trusted | |
-| `mcond` | 100.0% | trusted | |
-| `retdelc` | 100.0% | trusted | |
-| `textile_comp_ind` | 100.0% | trusted | |
-| `anp` | 100.0% | trusted | |
-| `commodity` | 100.0% | trusted | |
-| `sgt_csgr` | 100.0% | trusted | |
-| `sgt_covsa` | 100.0% | trusted | |
-| `sgt_stat` | 100.0% | trusted | |
-| `sgt_scope` | 100.0% | trusted | |
-| `sgt_rel` | 100.0% | trusted | |
-| `fsh_mg_at1` | 100.0% | trusted | |
-| `fsh_mg_at2` | 100.0% | trusted | |
-| `fsh_mg_at3` | 100.0% | trusted | |
-| `fsh_sealv` | 100.0% | trusted | |
-| `fsh_seaim` | 100.0% | trusted | |
-| `fsh_sc_mid` | 100.0% | trusted | |
-| `psm_code` | 100.0% | trusted | |
-| `zdcon` | 100.0% | trusted | |
-| `zcrt` | 100.0% | trusted | |
-| `zlife` | 100.0% | trusted | |
-| `zconstrain` | 100.0% | trusted | |
-| `z_partcls` | 100.0% | trusted | |
-| `z_obdat` | 100.0% | trusted | |
-| `zsyscode` | 100.0% | trusted | |
-| `ztemp_hi` | 100.0% | trusted | |
-| `ztemp_lo` | 100.0% | trusted | |
-| `zhumid_hi` | 100.0% | trusted | |
-| `zhumid_lo` | 100.0% | trusted | |
-| `zservnum` | 100.0% | trusted | |
-| `animal_origin` | 100.0% | trusted | |
-| `zrpid` | 100.0% | trusted | |
-| `znetwork` | 100.0% | trusted | |
-| `care_code` | 100.0% | trusted | |
-| `loglev_reto` | 100.0% | trusted | |
-| `nsnid` | 100.0% | trusted | |
-| `imatn` | 100.0% | trusted | |
-| `picnum` | 100.0% | trusted | |
-| `bstat` | 100.0% | trusted | |
-| `color_atinn` | 100.0% | trusted | |
-| `size1_atinn` | 100.0% | trusted | |
-| `size2_atinn` | 100.0% | trusted | |
-| `color` | 100.0% | trusted | |
-| `size1` | 100.0% | trusted | |
-| `size2` | 100.0% | trusted | |
+| `/dsd/vc_group` | 100.0% | trusted | |
+| `/vso/r_stack_ind` | 100.0% | trusted | |
+| `serlv` | 100.0% | trusted | |
 | `free_char` | 100.0% | trusted | |
 | `brand_id` | 100.0% | trusted | |
-| `zmatnature` | 100.0% | trusted | |
 | `fiber_code1` | 100.0% | trusted | |
 | `fiber_part1` | 100.0% | trusted | |
 | `fiber_code2` | 100.0% | trusted | |
@@ -142,11 +94,55 @@ column_count: 245
 | `fiber_code5` | 100.0% | trusted | |
 | `fiber_part5` | 100.0% | trusted | |
 | `fashgrd` | 100.0% | trusted | |
-| `zplanby` | 100.0% | trusted | |
-| `bflme` | 100.0% | trusted | |
-| `przus` | 100.0% | trusted | |
-| `matnr` | 100.0% | trusted | |
+| `sgt_csgr` | 100.0% | trusted | |
+| `sgt_covsa` | 100.0% | trusted | |
+| `sgt_stat` | 100.0% | trusted | |
+| `sgt_scope` | 100.0% | trusted | |
+| `sgt_rel` | 100.0% | trusted | |
+| `anp` | 100.0% | trusted | |
+| `fsh_mg_at1` | 100.0% | trusted | |
+| `fsh_mg_at2` | 100.0% | trusted | |
+| `fsh_mg_at3` | 100.0% | trusted | |
+| `fsh_sealv` | 100.0% | trusted | |
+| `fsh_seaim` | 100.0% | trusted | |
+| `fsh_sc_mid` | 100.0% | trusted | |
+| `psm_code` | 100.0% | trusted | |
+| `care_code` | 100.0% | trusted | |
+| `size2` | 100.0% | trusted | |
+| `/vso/r_bot_ind` | 100.0% | trusted | |
+| `size1` | 100.0% | trusted | |
+| `/vso/r_top_ind` | 100.0% | trusted | |
+| `/vso/r_stack_no` | 100.0% | trusted | |
+| `/vso/r_pal_ind` | 100.0% | trusted | |
+| `/vso/r_pal_ovr_d` | 100.0% | trusted | |
+| `/vso/r_pal_ovr_w` | 100.0% | trusted | |
+| `/vso/r_pal_b_ht` | 100.0% | trusted | |
+| `/vso/r_pal_min_h` | 100.0% | trusted | |
+| `/vso/r_tol_b_ht` | 100.0% | trusted | |
+| `/vso/r_no_p_gvh` | 100.0% | trusted | |
+| `/vso/r_quan_unit` | 100.0% | trusted | |
+| `/vso/r_kzgvh_ind` | 100.0% | trusted | |
+| `packcode` | 100.0% | trusted | |
+| `dg_pack_status` | 100.0% | trusted | |
+| `mcond` | 100.0% | trusted | |
+| `retdelc` | 100.0% | trusted | |
+| `loglev_reto` | 100.0% | trusted | |
+| `nsnid` | 100.0% | trusted | |
+| `adspc_spc` | 100.0% | trusted | |
+| `imatn` | 100.0% | trusted | |
+| `picnum` | 100.0% | trusted | |
+| `bstat` | 100.0% | trusted | |
+| `color_atinn` | 100.0% | trusted | |
+| `size1_atinn` | 100.0% | trusted | |
+| `size2_atinn` | 100.0% | trusted | |
+| `color` | 100.0% | trusted | |
+| `kzgvh` | 100.0% | trusted | |
+| `iloos` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ekwsl` | 100.0% | trusted | |
+| `ntgew` | 100.0% | trusted | |
 | `gewei` | 100.0% | trusted | |
+| `volum` | 100.0% | trusted | |
 | `voleh` | 100.0% | trusted | |
 | `behvo` | 100.0% | trusted | |
 | `raube` | 100.0% | trusted | |
@@ -169,15 +165,11 @@ column_count: 245
 | `laeng` | 100.0% | trusted | |
 | `breit` | 100.0% | trusted | |
 | `hoehe` | 100.0% | trusted | |
-| `meabm` | 100.0% | trusted | |
-| `prdha` | 100.0% | trusted | |
-| `aeklk` | 100.0% | trusted | |
-| `cadkz` | 100.0% | trusted | |
-| `qmpur` | 100.0% | trusted | |
-| `volum` | 100.0% | trusted | |
-| `ntgew` | 100.0% | trusted | |
-| `rdmhd` | 100.0% | trusted | |
 | `brgew` | 100.0% | trusted | |
+| `labor` | 100.0% | trusted | |
+| `prdha` | 100.0% | trusted | |
+| `normt` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
 | `ersda` | 100.0% | trusted | |
 | `ernam` | 100.0% | trusted | |
 | `laeda` | 100.0% | trusted | |
@@ -202,13 +194,16 @@ column_count: 245
 | `formt` | 100.0% | trusted | |
 | `groes` | 100.0% | trusted | |
 | `wrkst` | 100.0% | trusted | |
-| `normt` | 100.0% | trusted | |
-| `labor` | 100.0% | trusted | |
-| `ekwsl` | 100.0% | trusted | |
-| `ergew` | 100.0% | trusted | |
-| `ergei` | 100.0% | trusted | |
-| `ervol` | 100.0% | trusted | |
-| `ervoe` | 100.0% | trusted | |
+| `meabm` | 100.0% | trusted | |
+| `aeklk` | 100.0% | trusted | |
+| `ihivi` | 100.0% | trusted | |
+| `mstae` | 100.0% | trusted | |
+| `mstde` | 100.0% | trusted | |
+| `mstdv` | 100.0% | trusted | |
+| `taklv` | 100.0% | trusted | |
+| `rbnrm` | 100.0% | trusted | |
+| `mhdrz` | 100.0% | trusted | |
+| `mhdhb` | 100.0% | trusted | |
 | `mhdlp` | 100.0% | trusted | |
 | `inhme` | 100.0% | trusted | |
 | `inhal` | 100.0% | trusted | |
@@ -228,18 +223,15 @@ column_count: 245
 | `kzwsm` | 100.0% | trusted | |
 | `saity` | 100.0% | trusted | |
 | `profl` | 100.0% | trusted | |
-| `ihivi` | 100.0% | trusted | |
-| `iloos` | 100.0% | trusted | |
-| `serlv` | 100.0% | trusted | |
-| `kzgvh` | 100.0% | trusted | |
-| `xgchp` | 100.0% | trusted | |
-| `kzeff` | 100.0% | trusted | |
-| `compl` | 100.0% | trusted | |
-| `iprkz` | 100.0% | trusted | |
-| `mhdhb` | 100.0% | trusted | |
-| `mhdrz` | 100.0% | trusted | |
-| `rbnrm` | 100.0% | trusted | |
-| `liqdt` | 100.0% | trusted | |
+| `mstav` | 100.0% | trusted | |
+| `pmata` | 100.0% | trusted | |
+| `cadkz` | 100.0% | trusted | |
+| `kznfm` | 100.0% | trusted | |
+| `qmpur` | 100.0% | trusted | |
+| `ergew` | 100.0% | trusted | |
+| `ergei` | 100.0% | trusted | |
+| `ervol` | 100.0% | trusted | |
+| `ervoe` | 100.0% | trusted | |
 | `gewto` | 100.0% | trusted | |
 | `volto` | 100.0% | trusted | |
 | `vabme` | 100.0% | trusted | |
@@ -252,20 +244,14 @@ column_count: 245
 | `magrv` | 100.0% | trusted | |
 | `begru` | 100.0% | trusted | |
 | `datab` | 100.0% | trusted | |
+| `liqdt` | 100.0% | trusted | |
 | `saisj` | 100.0% | trusted | |
-| `taklv` | 100.0% | trusted | |
 | `plgtp` | 100.0% | trusted | |
 | `mlgut` | 100.0% | trusted | |
 | `extwg` | 100.0% | trusted | |
 | `satnr` | 100.0% | trusted | |
 | `attyp` | 100.0% | trusted | |
 | `kzkup` | 100.0% | trusted | |
-| `kznfm` | 100.0% | trusted | |
-| `pmata` | 100.0% | trusted | |
-| `mstae` | 100.0% | trusted | |
-| `mstav` | 100.0% | trusted | |
-| `mstde` | 100.0% | trusted | |
-| `mstdv` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

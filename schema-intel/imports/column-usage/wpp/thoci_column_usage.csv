@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,278,278,100.0,0,0.0
+2,ident,278,278,100.0,0,0.0
+3,vjahr,278,278,100.0,0,0.0
+4,bjahr,278,278,100.0,0,0.0
+5,abbr,278,278,100.0,0,0.0
+6,crusr,278,278,100.0,0,0.0
+7,crdat,278,278,100.0,0,0.0
+8,crtime,278,278,100.0,0,0.0
+9,aktvjahr,278,278,100.0,0,0.0
+10,aktbjahr,278,278,100.0,0,0.0
+11,src_commit_time,278,278,100.0,0,0.0

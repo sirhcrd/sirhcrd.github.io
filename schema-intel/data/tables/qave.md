@@ -1,9 +1,9 @@
 ---
 table: qave
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 992633
-column_count: 26
+row_count: 4579009
+column_count: 27
 ---
 
 # qave
@@ -14,7 +14,7 @@ column_count: 26
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 26 | 100% |
+| Trusted (≥50%) | 27 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,31 +22,32 @@ column_count: 26
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDANT` | 100.0% | trusted | |
-| `PRUEFLOS` | 100.0% | trusted | |
-| `VORGLFNR` | 100.0% | trusted | |
-| `TEILLOS` | 100.0% | trusted | |
-| `STAFO` | 100.0% | trusted | |
-| `VEZEITAEN` | 100.0% | trusted | |
-| `VAEDATUM` | 100.0% | trusted | |
-| `VAENAME` | 100.0% | trusted | |
-| `VEZEITERF` | 100.0% | trusted | |
-| `VDATUM` | 100.0% | trusted | |
-| `VNAME` | 100.0% | trusted | |
-| `LTEXTKZ` | 100.0% | trusted | |
-| `QKENNZAHL` | 100.0% | trusted | |
-| `VFOLGEAKTI` | 100.0% | trusted | |
-| `DBEWERTUNG` | 100.0% | trusted | |
-| `VBEWERTUNG` | 100.0% | trusted | |
-| `VERSIONCD` | 100.0% | trusted | |
-| `VERSIONAM` | 100.0% | trusted | |
-| `VCODE` | 100.0% | trusted | |
-| `VCODEGRP` | 100.0% | trusted | |
-| `VAUSWAHLMG` | 100.0% | trusted | |
-| `VWERKS` | 100.0% | trusted | |
-| `VKATART` | 100.0% | trusted | |
-| `ZAEHLER` | 100.0% | trusted | |
-| `KZART` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `vfolgeakti` | 100.0% | trusted | |
+| `vorglfnr` | 100.0% | trusted | |
+| `teillos` | 100.0% | trusted | |
+| `stafo` | 100.0% | trusted | |
+| `vezeitaen` | 100.0% | trusted | |
+| `vaedatum` | 100.0% | trusted | |
+| `vaename` | 100.0% | trusted | |
+| `vezeiterf` | 100.0% | trusted | |
+| `vdatum` | 100.0% | trusted | |
+| `vname` | 100.0% | trusted | |
+| `ltextkz` | 100.0% | trusted | |
+| `qkennzahl` | 100.0% | trusted | |
+| `dbewertung` | 100.0% | trusted | |
+| `mandant` | 100.0% | trusted | |
+| `vbewertung` | 100.0% | trusted | |
+| `versioncd` | 100.0% | trusted | |
+| `versionam` | 100.0% | trusted | |
+| `vcode` | 100.0% | trusted | |
+| `vcodegrp` | 100.0% | trusted | |
+| `vauswahlmg` | 100.0% | trusted | |
+| `vwerks` | 100.0% | trusted | |
+| `vkatart` | 100.0% | trusted | |
+| `zaehler` | 100.0% | trusted | |
+| `kzart` | 100.0% | trusted | |
+| `prueflos` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

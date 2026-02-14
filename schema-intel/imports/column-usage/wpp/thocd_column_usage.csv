@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1669,1669,100.0,0,0.0
+2,ident,1669,1669,100.0,0,0.0
+3,bisjahr,1669,1669,100.0,0,0.0
+4,ftgid,1669,1669,100.0,0,0.0
+5,abjahr,1669,1669,100.0,0,0.0
+6,src_commit_time,1669,1669,100.0,0,0.0

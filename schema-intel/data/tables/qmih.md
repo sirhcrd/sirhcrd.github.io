@@ -1,9 +1,9 @@
 ---
 table: qmih
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 23684073
-column_count: 49
+row_count: 157985
+column_count: 50
 ---
 
 # qmih
@@ -14,7 +14,7 @@ column_count: 49
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 49 | 100% |
+| Trusted (≥50%) | 50 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,54 +22,55 @@ column_count: 49
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `DATAN` | 100.0% | trusted | |
-| `WARPL` | 100.0% | trusted | |
-| `ABNUM` | 100.0% | trusted | |
-| `WAPOS` | 100.0% | trusted | |
-| `KDAUF` | 100.0% | trusted | |
-| `KDPOS` | 100.0% | trusted | |
-| `SCREENTY` | 100.0% | trusted | |
-| `PLNTY` | 100.0% | trusted | |
-| `PLNNR` | 100.0% | trusted | |
-| `PLNAL` | 100.0% | trusted | |
-| `REVNR` | 100.0% | trusted | |
-| `ILART` | 100.0% | trusted | |
-| `ZAEHL` | 100.0% | trusted | |
-| `PAMS_PTSTF` | 100.0% | trusted | |
-| `PAMS_PTSTT` | 100.0% | trusted | |
-| `PAMS_ATSTF` | 100.0% | trusted | |
-| `PAMS_ATSTT` | 100.0% | trusted | |
-| `PAMS_POOL` | 100.0% | trusted | |
-| `PAMS_KOSTL` | 100.0% | trusted | |
-| `PAMS_AUFNR` | 100.0% | trusted | |
-| `PAMS_PROID` | 100.0% | trusted | |
-| `PAMS_KOKRS` | 100.0% | trusted | |
-| `INGRP` | 100.0% | trusted | |
-| `INSPK` | 100.0% | trusted | |
-| `QMNUM` | 100.0% | trusted | |
-| `ANLZE` | 100.0% | trusted | |
-| `IWERK` | 100.0% | trusted | |
-| `ILOAN` | 100.0% | trusted | |
-| `ILOAI` | 100.0% | trusted | |
-| `EQUNR` | 100.0% | trusted | |
-| `BAUTL` | 100.0% | trusted | |
-| `EBORT` | 100.0% | trusted | |
-| `MSAUS` | 100.0% | trusted | |
-| `AUSVN` | 100.0% | trusted | |
-| `AUSBS` | 100.0% | trusted | |
-| `AUZTV` | 100.0% | trusted | |
-| `AUZTB` | 100.0% | trusted | |
-| `AUSZT` | 100.0% | trusted | |
-| `MAUEH` | 100.0% | trusted | |
-| `BTPLN` | 100.0% | trusted | |
-| `BEQUI` | 100.0% | trusted | |
-| `AUSWK` | 100.0% | trusted | |
-| `VERFV` | 100.0% | trusted | |
-| `VERFN` | 100.0% | trusted | |
-| `VERFM` | 100.0% | trusted | |
-| `ANLZV` | 100.0% | trusted | |
-| `ANLZN` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `revnr` | 100.0% | trusted | |
+| `ingrp` | 100.0% | trusted | |
+| `warpl` | 100.0% | trusted | |
+| `abnum` | 100.0% | trusted | |
+| `wapos` | 100.0% | trusted | |
+| `kdauf` | 100.0% | trusted | |
+| `kdpos` | 100.0% | trusted | |
+| `screenty` | 100.0% | trusted | |
+| `plnty` | 100.0% | trusted | |
+| `plnnr` | 100.0% | trusted | |
+| `plnal` | 100.0% | trusted | |
+| `zaehl` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `pams_ptstf` | 100.0% | trusted | |
+| `pams_ptstt` | 100.0% | trusted | |
+| `pams_atstf` | 100.0% | trusted | |
+| `pams_atstt` | 100.0% | trusted | |
+| `pams_pool` | 100.0% | trusted | |
+| `pams_kostl` | 100.0% | trusted | |
+| `pams_aufnr` | 100.0% | trusted | |
+| `pams_proid` | 100.0% | trusted | |
+| `pams_kokrs` | 100.0% | trusted | |
+| `ilart` | 100.0% | trusted | |
+| `datan` | 100.0% | trusted | |
+| `inspk` | 100.0% | trusted | |
+| `anlze` | 100.0% | trusted | |
+| `anlzn` | 100.0% | trusted | |
+| `qmnum` | 100.0% | trusted | |
+| `iwerk` | 100.0% | trusted | |
+| `iloan` | 100.0% | trusted | |
+| `iloai` | 100.0% | trusted | |
+| `equnr` | 100.0% | trusted | |
+| `bautl` | 100.0% | trusted | |
+| `ebort` | 100.0% | trusted | |
+| `msaus` | 100.0% | trusted | |
+| `ausvn` | 100.0% | trusted | |
+| `ausbs` | 100.0% | trusted | |
+| `auztv` | 100.0% | trusted | |
+| `auztb` | 100.0% | trusted | |
+| `auszt` | 100.0% | trusted | |
+| `maueh` | 100.0% | trusted | |
+| `btpln` | 100.0% | trusted | |
+| `bequi` | 100.0% | trusted | |
+| `auswk` | 100.0% | trusted | |
+| `verfv` | 100.0% | trusted | |
+| `verfn` | 100.0% | trusted | |
+| `verfm` | 100.0% | trusted | |
+| `anlzv` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

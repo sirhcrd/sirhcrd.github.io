@@ -1,9 +1,9 @@
 ---
 table: tclat
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1639
-column_count: 5
+row_count: 9480
+column_count: 6
 ---
 
 # tclat
@@ -14,7 +14,7 @@ column_count: 5
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 5 | 100% |
+| Trusted (≥50%) | 6 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,10 +22,11 @@ column_count: 5
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `KLART` | 100.0% | trusted | |
-| `ARTXT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `klart` | 100.0% | trusted | |
+| `artxt` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

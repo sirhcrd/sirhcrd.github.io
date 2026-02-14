@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,3128,3128,100.0,0,0.0
+2,mandt,3128,3128,100.0,0,0.0
+3,langu,3128,3128,100.0,0,0.0
+4,case_type,3128,3128,100.0,0,0.0
+5,reason_code,3128,3128,100.0,0,0.0
+6,description,3128,3128,100.0,0,0.0
+7,src_commit_time,3128,3128,100.0,0,0.0

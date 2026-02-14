@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,250205,250205,100.0,0,0.0
+2,Customer,250205,250205,100.0,0,0.0
+3,FirstName,250205,250205,100.0,0,0.0
+4,LastName,250205,250205,100.0,0,0.0
+5,ContactPersonFunction,250205,250205,100.0,0,0.0
+6,src_commit_time,250205,250205,100.0,0,0.0
+7,CustomerName,249874,250205,99.9,331,0.1
+8,EmailAddress,234305,250205,93.6,15900,6.4
+9,PhoneNumber,96777,250205,38.7,153428,61.3
+10,PhoneNumberExtension,96777,250205,38.7,153428,61.3
+11,ContactPersonFunctionName,1987,250205,0.8,248218,99.2
+12,MobilePhoneNumber,1169,250205,0.5,249036,99.5

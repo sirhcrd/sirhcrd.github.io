@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,34,34,100.0,0,0.0
+2,mandt,34,34,100.0,0,0.0
+3,gsber,34,34,100.0,0,0.0
+4,gsber_kons,34,34,100.0,0,0.0
+5,gsber_glob,34,34,100.0,0,0.0
+6,src_commit_time,34,34,100.0,0,0.0

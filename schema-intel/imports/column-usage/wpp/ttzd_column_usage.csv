@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,72,72,100.0,0,0.0
+2,client,72,72,100.0,0,0.0
+3,dstrule,72,72,100.0,0,0.0
+4,dstdiff,72,72,100.0,0,0.0
+5,flagactive,72,72,100.0,0,0.0
+6,src_commit_time,72,72,100.0,0,0.0

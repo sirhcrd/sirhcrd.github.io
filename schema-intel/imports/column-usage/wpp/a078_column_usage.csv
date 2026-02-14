@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,826,826,100.0,0,0.0
+2,mandt,826,826,100.0,0,0.0
+3,kappl,826,826,100.0,0,0.0
+4,kschl,826,826,100.0,0,0.0
+5,aland,826,826,100.0,0,0.0
+6,lland,826,826,100.0,0,0.0
+7,datbi,826,826,100.0,0,0.0
+8,datab,826,826,100.0,0,0.0
+9,knumh,826,826,100.0,0,0.0
+10,src_commit_time,826,826,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: ankt
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 241
-column_count: 9
+row_count: 2127
+column_count: 10
 ---
 
 # ankt
@@ -14,7 +14,7 @@ column_count: 9
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 9 | 100% |
+| Trusted (≥50%) | 10 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,14 +22,15 @@ column_count: 9
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `ANLKL` | 100.0% | trusted | |
-| `TXK20` | 100.0% | trusted | |
-| `TXK50` | 100.0% | trusted | |
-| `TXT50` | 100.0% | trusted | |
-| `TXA50` | 100.0% | trusted | |
-| `XLTXID` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `anlkl` | 100.0% | trusted | |
+| `txk20` | 100.0% | trusted | |
+| `txk50` | 100.0% | trusted | |
+| `txt50` | 100.0% | trusted | |
+| `txa50` | 100.0% | trusted | |
+| `xltxid` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

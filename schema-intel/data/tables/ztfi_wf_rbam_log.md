@@ -1,9 +1,9 @@
 ---
 table: ztfi_wf_rbam_log
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 15322355
-column_count: 24
+row_count: 29551352
+column_count: 25
 ---
 
 # ztfi_wf_rbam_log
@@ -14,7 +14,7 @@ column_count: 24
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 24 | 100% |
+| Trusted (≥50%) | 25 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,29 +22,30 @@ column_count: 24
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `OBJTYPE` | 100.0% | trusted | |
-| `MSGV4` | 100.0% | trusted | |
-| `MSGV3` | 100.0% | trusted | |
-| `MSGV2` | 100.0% | trusted | |
-| `MSGV1` | 100.0% | trusted | |
-| `MSGNO` | 100.0% | trusted | |
-| `MSGID` | 100.0% | trusted | |
-| `MSGTY` | 100.0% | trusted | |
-| `RETRY_ERR` | 100.0% | trusted | |
-| `COMMNT` | 100.0% | trusted | |
-| `FIELDVALUE` | 100.0% | trusted | |
-| `FIELDNAME` | 100.0% | trusted | |
-| `DELE_DATE` | 100.0% | trusted | |
-| `CREA_TIME` | 100.0% | trusted | |
-| `CREA_DATE` | 100.0% | trusted | |
-| `REPID` | 100.0% | trusted | |
-| `CREATOR` | 100.0% | trusted | |
-| `OBJKEY` | 100.0% | trusted | |
-| `TIMESTAMP` | 100.0% | trusted | |
-| `DIRECTION` | 100.0% | trusted | |
-| `COUNTER` | 100.0% | trusted | |
-| `EVENT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `fieldvalue` | 100.0% | trusted | |
+| `msgv4` | 100.0% | trusted | |
+| `msgv3` | 100.0% | trusted | |
+| `msgv2` | 100.0% | trusted | |
+| `msgv1` | 100.0% | trusted | |
+| `msgno` | 100.0% | trusted | |
+| `msgid` | 100.0% | trusted | |
+| `msgty` | 100.0% | trusted | |
+| `retry_err` | 100.0% | trusted | |
+| `repid` | 100.0% | trusted | |
+| `commnt` | 100.0% | trusted | |
+| `fieldname` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `dele_date` | 100.0% | trusted | |
+| `crea_time` | 100.0% | trusted | |
+| `crea_date` | 100.0% | trusted | |
+| `creator` | 100.0% | trusted | |
+| `objkey` | 100.0% | trusted | |
+| `timestamp` | 100.0% | trusted | |
+| `direction` | 100.0% | trusted | |
+| `counter` | 100.0% | trusted | |
+| `event` | 100.0% | trusted | |
+| `objtype` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

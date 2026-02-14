@@ -1,9 +1,9 @@
 ---
 table: iloa
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 351008749
-column_count: 49
+row_count: 517248
+column_count: 50
 ---
 
 # iloa
@@ -14,7 +14,7 @@ column_count: 49
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 49 | 100% |
+| Trusted (≥50%) | 50 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,54 +22,55 @@ column_count: 49
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `PROIDI` | 100.0% | trusted | |
-| `BUKRSI` | 100.0% | trusted | |
-| `ANLNR` | 100.0% | trusted | |
-| `ANLNRI` | 100.0% | trusted | |
-| `ANLUN` | 100.0% | trusted | |
-| `ANLUNI` | 100.0% | trusted | |
-| `DAUFN` | 100.0% | trusted | |
-| `DAUFNI` | 100.0% | trusted | |
-| `AUFNR` | 100.0% | trusted | |
-| `AUFNRI` | 100.0% | trusted | |
-| `TPLNRI` | 100.0% | trusted | |
-| `VKORG` | 100.0% | trusted | |
-| `VKORGI` | 100.0% | trusted | |
-| `VTWEG` | 100.0% | trusted | |
-| `VTWEGI` | 100.0% | trusted | |
-| `SPART` | 100.0% | trusted | |
-| `SPARTI` | 100.0% | trusted | |
-| `ADRNR` | 100.0% | trusted | |
-| `ADRNRI` | 100.0% | trusted | |
-| `OWNER` | 100.0% | trusted | |
-| `VKBUR` | 100.0% | trusted | |
-| `VKGRP` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `PROID` | 100.0% | trusted | |
-| `ILOAN` | 100.0% | trusted | |
-| `KOSTLI` | 100.0% | trusted | |
-| `TPLNR` | 100.0% | trusted | |
-| `ABCKZ` | 100.0% | trusted | |
-| `ABCKZI` | 100.0% | trusted | |
-| `EQFNR` | 100.0% | trusted | |
-| `EQFNRI` | 100.0% | trusted | |
-| `SWERK` | 100.0% | trusted | |
-| `SWERKI` | 100.0% | trusted | |
-| `STORT` | 100.0% | trusted | |
-| `STORTI` | 100.0% | trusted | |
-| `MSGRP` | 100.0% | trusted | |
-| `MSGRPI` | 100.0% | trusted | |
-| `BEBER` | 100.0% | trusted | |
-| `BEBERI` | 100.0% | trusted | |
-| `CR_OBJTY` | 100.0% | trusted | |
-| `PPSID` | 100.0% | trusted | |
-| `PPSIDI` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `GSBERI` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `KOKRSI` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `tplnri` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `bukrsi` | 100.0% | trusted | |
+| `anlnr` | 100.0% | trusted | |
+| `anlnri` | 100.0% | trusted | |
+| `anlun` | 100.0% | trusted | |
+| `anluni` | 100.0% | trusted | |
+| `daufn` | 100.0% | trusted | |
+| `daufni` | 100.0% | trusted | |
+| `aufnr` | 100.0% | trusted | |
+| `aufnri` | 100.0% | trusted | |
+| `vkorg` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `vkorgi` | 100.0% | trusted | |
+| `vtweg` | 100.0% | trusted | |
+| `vtwegi` | 100.0% | trusted | |
+| `spart` | 100.0% | trusted | |
+| `sparti` | 100.0% | trusted | |
+| `adrnr` | 100.0% | trusted | |
+| `adrnri` | 100.0% | trusted | |
+| `owner` | 100.0% | trusted | |
+| `vkbur` | 100.0% | trusted | |
+| `vkgrp` | 100.0% | trusted | |
+| `proidi` | 100.0% | trusted | |
+| `proid` | 100.0% | trusted | |
+| `kostli` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `iloan` | 100.0% | trusted | |
+| `tplnr` | 100.0% | trusted | |
+| `abckz` | 100.0% | trusted | |
+| `abckzi` | 100.0% | trusted | |
+| `eqfnr` | 100.0% | trusted | |
+| `eqfnri` | 100.0% | trusted | |
+| `swerk` | 100.0% | trusted | |
+| `swerki` | 100.0% | trusted | |
+| `stort` | 100.0% | trusted | |
+| `storti` | 100.0% | trusted | |
+| `msgrp` | 100.0% | trusted | |
+| `msgrpi` | 100.0% | trusted | |
+| `beber` | 100.0% | trusted | |
+| `beberi` | 100.0% | trusted | |
+| `cr_objty` | 100.0% | trusted | |
+| `ppsid` | 100.0% | trusted | |
+| `ppsidi` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `gsberi` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `kokrsi` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

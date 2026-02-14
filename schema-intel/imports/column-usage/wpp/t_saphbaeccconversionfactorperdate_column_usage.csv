@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,14274,14274,100.0,0,0.0
+2,Currency,14274,14274,100.0,0,0.0
+3,CompanyCodeCurrency,14274,14274,100.0,0,0.0
+4,ConversionFactor,14274,14274,100.0,0,0.0
+5,ConversionDate,14274,14274,100.0,0,0.0
+6,src_commit_time,14274,14274,100.0,0,0.0

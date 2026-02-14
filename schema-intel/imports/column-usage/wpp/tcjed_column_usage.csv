@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,14,14,100.0,0,0.0
+2,mandt,14,14,100.0,0,0.0
+3,proid,14,14,100.0,0,0.0
+4,posid,14,14,100.0,0,0.0
+5,neusp,14,14,100.0,0,0.0
+6,neuss,14,14,100.0,0,0.0
+7,src_commit_time,14,14,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: adrct
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 5364855
-column_count: 7
+row_count: 3493
+column_count: 8
 ---
 
 # adrct
@@ -14,7 +14,7 @@ column_count: 7
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 7 | 100% |
+| Trusted (≥50%) | 8 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,12 +22,13 @@ column_count: 7
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `ADDRNUMBER` | 100.0% | trusted | |
-| `DATE_FROM` | 100.0% | trusted | |
-| `NATION` | 100.0% | trusted | |
-| `LANGU` | 100.0% | trusted | |
-| `REMARK` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `addrnumber` | 100.0% | trusted | |
+| `date_from` | 100.0% | trusted | |
+| `nation` | 100.0% | trusted | |
+| `langu` | 100.0% | trusted | |
+| `remark` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

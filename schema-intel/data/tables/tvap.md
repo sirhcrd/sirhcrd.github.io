@@ -1,9 +1,9 @@
 ---
 table: tvap
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2000
-column_count: 77
+row_count: 1383
+column_count: 79
 ---
 
 # tvap
@@ -14,7 +14,7 @@ column_count: 77
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 77 | 100% |
+| Trusted (≥50%) | 79 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,82 +22,84 @@ column_count: 77
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `EFFEC` | 100.0% | trusted | |
-| `UVEIB` | 100.0% | trusted | |
-| `ACDATV` | 100.0% | trusted | |
-| `RRREL` | 100.0% | trusted | |
-| `FAKTF` | 100.0% | trusted | |
-| `SCHEME_VF` | 100.0% | trusted | |
-| `SCHEME_RMA` | 100.0% | trusted | |
-| `FFPRF` | 100.0% | trusted | |
-| `RDERL` | 100.0% | trusted | |
-| `EXCOP` | 100.0% | trusted | |
-| `STDTE` | 100.0% | trusted | |
-| `SEGAL` | 100.0% | trusted | |
-| `RKTIO` | 100.0% | trusted | |
-| `WKMAT` | 100.0% | trusted | |
-| `LTYPV` | 100.0% | trusted | |
-| `LTYPA` | 100.0% | trusted | |
-| `TYPFD` | 100.0% | trusted | |
-| `OIBOM` | 100.0% | trusted | |
-| `OIBCST` | 100.0% | trusted | |
-| `OIUSEREXIT` | 100.0% | trusted | |
-| `REVSP` | 100.0% | trusted | |
-| `MILL_SE_KKNMT` | 100.0% | trusted | |
-| `LVART` | 100.0% | trusted | |
-| `SPDTP` | 100.0% | trusted | |
-| `SPDIPO` | 100.0% | trusted | |
-| `UPDATE_SO_ON_CONF_PO` | 100.0% | trusted | |
-| `REASON_FOR_REJ` | 100.0% | trusted | |
-| `AUTO_REJECTION` | 100.0% | trusted | |
-| `ENH_REJ_LOGIC` | 100.0% | trusted | |
-| `FSH_AUTODELOC` | 100.0% | trusted | |
-| `FSH_VASS_DETC` | 100.0% | trusted | |
-| `FSH_SEADET` | 100.0% | trusted | |
-| `RBACONTROL` | 100.0% | trusted | |
-| `MILL_BATCH_SEL_D` | 100.0% | trusted | |
-| `MILL_BATCH_REF` | 100.0% | trusted | |
-| `REVEVTYP` | 100.0% | trusted | |
-| `SVGNG` | 100.0% | trusted | |
-| `CHAUT` | 100.0% | trusted | |
-| `PSTYV` | 100.0% | trusted | |
-| `EVRWR` | 100.0% | trusted | |
-| `DIAFM` | 100.0% | trusted | |
-| `TXN08` | 100.0% | trusted | |
-| `ERLRE` | 100.0% | trusted | |
-| `SHELL` | 100.0% | trusted | |
-| `FAKSP` | 100.0% | trusted | |
-| `FELDP` | 100.0% | trusted | |
-| `KOWRR` | 100.0% | trusted | |
-| `STRUM` | 100.0% | trusted | |
-| `FPART` | 100.0% | trusted | |
-| `ASWPA` | 100.0% | trusted | |
-| `STULI` | 100.0% | trusted | |
-| `PSGRP` | 100.0% | trusted | |
-| `PARGR` | 100.0% | trusted | |
-| `POSGR` | 100.0% | trusted | |
-| `PRSFD` | 100.0% | trusted | |
-| `FKREL` | 100.0% | trusted | |
-| `KDERL` | 100.0% | trusted | |
-| `TXTGR` | 100.0% | trusted | |
-| `POSAR` | 100.0% | trusted | |
-| `LFREL` | 100.0% | trusted | |
-| `ALEKZ` | 100.0% | trusted | |
-| `MENG1` | 100.0% | trusted | |
-| `STSMA` | 100.0% | trusted | |
-| `STRAT` | 100.0% | trusted | |
-| `CMPNT` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `KALSM` | 100.0% | trusted | |
-| `STGAP` | 100.0% | trusted | |
-| `EQMAT` | 100.0% | trusted | |
-| `SHKZG` | 100.0% | trusted | |
-| `FEHGR` | 100.0% | trusted | |
-| `KOMPP` | 100.0% | trusted | |
-| `GWREL` | 100.0% | trusted | |
-| `ETERL` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `effec` | 100.0% | trusted | |
+| `uveib` | 100.0% | trusted | |
+| `acdatv` | 100.0% | trusted | |
+| `rrrel` | 100.0% | trusted | |
+| `faktf` | 100.0% | trusted | |
+| `scheme_vf` | 100.0% | trusted | |
+| `scheme_rma` | 100.0% | trusted | |
+| `ffprf` | 100.0% | trusted | |
+| `rderl` | 100.0% | trusted | |
+| `oibcst` | 100.0% | trusted | |
+| `stdte` | 100.0% | trusted | |
+| `segal` | 100.0% | trusted | |
+| `rktio` | 100.0% | trusted | |
+| `wkmat` | 100.0% | trusted | |
+| `ltypv` | 100.0% | trusted | |
+| `ltypa` | 100.0% | trusted | |
+| `typfd` | 100.0% | trusted | |
+| `oibom` | 100.0% | trusted | |
+| `oiuserexit` | 100.0% | trusted | |
+| `excop` | 100.0% | trusted | |
+| `fsh_vass_detc` | 100.0% | trusted | |
+| `spdtp` | 100.0% | trusted | |
+| `spdipo` | 100.0% | trusted | |
+| `update_so_on_conf_po` | 100.0% | trusted | |
+| `reason_for_rej` | 100.0% | trusted | |
+| `auto_rejection` | 100.0% | trusted | |
+| `enh_rej_logic` | 100.0% | trusted | |
+| `fsh_autodeloc` | 100.0% | trusted | |
+| `fsh_seadet` | 100.0% | trusted | |
+| `revsp` | 100.0% | trusted | |
+| `mill_se_kknmt` | 100.0% | trusted | |
+| `ism_se_planning` | 100.0% | trusted | |
+| `lvart` | 100.0% | trusted | |
+| `rbacontrol` | 100.0% | trusted | |
+| `mill_batch_sel_d` | 100.0% | trusted | |
+| `mill_batch_ref` | 100.0% | trusted | |
+| `revevtyp` | 100.0% | trusted | |
+| `svgng` | 100.0% | trusted | |
+| `chaut` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `strum` | 100.0% | trusted | |
+| `txn08` | 100.0% | trusted | |
+| `erlre` | 100.0% | trusted | |
+| `shell` | 100.0% | trusted | |
+| `faksp` | 100.0% | trusted | |
+| `feldp` | 100.0% | trusted | |
+| `kowrr` | 100.0% | trusted | |
+| `evrwr` | 100.0% | trusted | |
+| `aswpa` | 100.0% | trusted | |
+| `kderl` | 100.0% | trusted | |
+| `stuli` | 100.0% | trusted | |
+| `psgrp` | 100.0% | trusted | |
+| `pargr` | 100.0% | trusted | |
+| `posgr` | 100.0% | trusted | |
+| `prsfd` | 100.0% | trusted | |
+| `fkrel` | 100.0% | trusted | |
+| `pstyv` | 100.0% | trusted | |
+| `diafm` | 100.0% | trusted | |
+| `txtgr` | 100.0% | trusted | |
+| `fpart` | 100.0% | trusted | |
+| `stgap` | 100.0% | trusted | |
+| `alekz` | 100.0% | trusted | |
+| `meng1` | 100.0% | trusted | |
+| `stsma` | 100.0% | trusted | |
+| `strat` | 100.0% | trusted | |
+| `cmpnt` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `kalsm` | 100.0% | trusted | |
+| `eqmat` | 100.0% | trusted | |
+| `posar` | 100.0% | trusted | |
+| `shkzg` | 100.0% | trusted | |
+| `fehgr` | 100.0% | trusted | |
+| `kompp` | 100.0% | trusted | |
+| `gwrel` | 100.0% | trusted | |
+| `eterl` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `lfrel` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

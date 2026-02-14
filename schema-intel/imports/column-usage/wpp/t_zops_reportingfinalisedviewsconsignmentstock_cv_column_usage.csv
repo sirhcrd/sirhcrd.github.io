@@ -1,0 +1,21 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,84672,84672,100.0,0,0.0
+2,Material,84672,84672,100.0,0,0.0
+3,ConsignmentStockQty,84672,84672,100.0,0,0.0
+4,StockVolume,84672,84672,100.0,0,0.0
+5,VolumeUnit,84672,84672,100.0,0,0.0
+6,AG,84672,84672,100.0,0,0.0
+7,MAG,84672,84672,100.0,0,0.0
+8,BU,84672,84672,100.0,0,0.0
+9,BG,84672,84672,100.0,0,0.0
+10,MaterialWeightUnit,84672,84672,100.0,0,0.0
+11,MaterialBaseUnit,84672,84672,100.0,0,0.0
+12,ProductHierarchy,84672,84672,100.0,0,0.0
+13,Currency,84672,84672,100.0,0,0.0
+14,Country,84672,84672,100.0,0,0.0
+15,CompanyCode,84672,84672,100.0,0,0.0
+16,CustomerNr,84672,84672,100.0,0,0.0
+17,SplStockIndicator,84672,84672,100.0,0,0.0
+18,BatchNumber,84672,84672,100.0,0,0.0
+19,Plant,84672,84672,100.0,0,0.0
+20,src_commit_time,84672,84672,100.0,0,0.0

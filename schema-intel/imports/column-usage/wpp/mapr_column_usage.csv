@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,162,162,100.0,0,0.0
+2,mandt,162,162,100.0,0,0.0
+3,werks,162,162,100.0,0,0.0
+4,matnr,162,162,100.0,0,0.0
+5,pnum1,162,162,100.0,0,0.0
+6,perkz,162,162,100.0,0,0.0
+7,periv,162,162,100.0,0,0.0
+8,datum,162,162,100.0,0,0.0
+9,uzeit,162,162,100.0,0,0.0
+10,src_commit_time,162,162,100.0,0,0.0

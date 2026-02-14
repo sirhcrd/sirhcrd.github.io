@@ -1,9 +1,9 @@
 ---
 table: tvro
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 7163
-column_count: 23
+row_count: 1020
+column_count: 24
 ---
 
 # tvro
@@ -14,7 +14,7 @@ column_count: 23
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 23 | 100% |
+| Trusted (≥50%) | 24 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,28 +22,29 @@ column_count: 23
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `DISTZ` | 100.0% | trusted | |
-| `ALLOWED_UOM` | 100.0% | trusted | |
-| `ALLOWED_TWGT` | 100.0% | trusted | |
-| `TCTAB` | 100.0% | trusted | |
-| `ROUTID` | 100.0% | trusted | |
-| `TDLNR` | 100.0% | trusted | |
-| `VSANL` | 100.0% | trusted | |
-| `VSAVL` | 100.0% | trusted | |
-| `VSART` | 100.0% | trusted | |
-| `MEDST` | 100.0% | trusted | |
-| `FAHZTD` | 100.0% | trusted | |
-| `ROUTE` | 100.0% | trusted | |
-| `SPZST` | 100.0% | trusted | |
-| `TDIIX` | 100.0% | trusted | |
-| `EXPVZ` | 100.0% | trusted | |
-| `SPFBK` | 100.0% | trusted | |
-| `TDVZND` | 100.0% | trusted | |
-| `TDVZTD` | 100.0% | trusted | |
-| `TDVZT` | 100.0% | trusted | |
-| `TRAZTD` | 100.0% | trusted | |
-| `TRAZT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `allowed_uom` | 100.0% | trusted | |
+| `allowed_twgt` | 100.0% | trusted | |
+| `tctab` | 100.0% | trusted | |
+| `routid` | 100.0% | trusted | |
+| `tdlnr` | 100.0% | trusted | |
+| `vsanl` | 100.0% | trusted | |
+| `vsavl` | 100.0% | trusted | |
+| `vsart` | 100.0% | trusted | |
+| `medst` | 100.0% | trusted | |
+| `distz` | 100.0% | trusted | |
+| `fahztd` | 100.0% | trusted | |
+| `spzst` | 100.0% | trusted | |
+| `tdiix` | 100.0% | trusted | |
+| `expvz` | 100.0% | trusted | |
+| `spfbk` | 100.0% | trusted | |
+| `tdvznd` | 100.0% | trusted | |
+| `tdvztd` | 100.0% | trusted | |
+| `tdvzt` | 100.0% | trusted | |
+| `traztd` | 100.0% | trusted | |
+| `trazt` | 100.0% | trusted | |
+| `route` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,8200,8200,100.0,0,0.0
+2,mandt,8200,8200,100.0,0,0.0
+3,prodh,8200,8200,100.0,0,0.0
+4,stufe,8200,8200,100.0,0,0.0
+5,src_commit_time,8200,8200,100.0,0,0.0

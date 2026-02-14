@@ -1,9 +1,9 @@
 ---
 table: mssl
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 45822
-column_count: 14
+row_count: 11034
+column_count: 15
 ---
 
 # mssl
@@ -14,7 +14,7 @@ column_count: 14
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 14 | 100% |
+| Trusted (≥50%) | 15 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,19 +22,20 @@ column_count: 14
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `LFGJA` | 100.0% | trusted | |
-| `LFMON` | 100.0% | trusted | |
-| `SLLAB` | 100.0% | trusted | |
-| `SLINS` | 100.0% | trusted | |
-| `SLEIN` | 100.0% | trusted | |
-| `ERSDA` | 100.0% | trusted | |
-| `XOBEW` | 100.0% | trusted | |
-| `SLUML` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `lfgja` | 100.0% | trusted | |
+| `lfmon` | 100.0% | trusted | |
+| `sllab` | 100.0% | trusted | |
+| `slins` | 100.0% | trusted | |
+| `slein` | 100.0% | trusted | |
+| `ersda` | 100.0% | trusted | |
+| `xobew` | 100.0% | trusted | |
+| `sluml` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

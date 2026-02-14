@@ -1,9 +1,9 @@
 ---
 table: ust12
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 7450147
-column_count: 8
+row_count: 6877823
+column_count: 9
 ---
 
 # ust12
@@ -14,7 +14,7 @@ column_count: 8
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 100% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,13 +22,14 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `OBJCT` | 100.0% | trusted | |
-| `AUTH` | 100.0% | trusted | |
-| `AKTPS` | 100.0% | trusted | |
-| `FIELD` | 100.0% | trusted | |
-| `VON` | 100.0% | trusted | |
-| `BIS` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `objct` | 100.0% | trusted | |
+| `auth` | 100.0% | trusted | |
+| `aktps` | 100.0% | trusted | |
+| `field` | 100.0% | trusted | |
+| `von` | 100.0% | trusted | |
+| `bis` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

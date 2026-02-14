@@ -1,9 +1,9 @@
 ---
 table: tcurx
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 60
-column_count: 3
+row_count: 63
+column_count: 4
 ---
 
 # tcurx
@@ -14,7 +14,7 @@ column_count: 3
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 3 | 100% |
+| Trusted (≥50%) | 4 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,9 @@ column_count: 3
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CURRKEY` | 100.0% | trusted | |
-| `CURRDEC` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `currkey` | 100.0% | trusted | |
+| `currdec` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

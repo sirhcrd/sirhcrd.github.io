@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,986,986,100.0,0,0.0
+2,segnam,986,986,100.0,0,0.0
+3,seglen,986,986,100.0,0,0.0
+4,released,986,986,100.0,0,0.0
+5,segtyp,986,986,100.0,0,0.0
+6,cimflag,986,986,100.0,0,0.0
+7,closed,986,986,100.0,0,0.0
+8,presp,986,986,100.0,0,0.0
+9,pwork,986,986,100.0,0,0.0
+10,plast,986,986,100.0,0,0.0
+11,src_commit_time,986,986,100.0,0,0.0

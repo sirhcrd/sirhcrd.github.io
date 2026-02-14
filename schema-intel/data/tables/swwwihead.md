@@ -1,9 +1,9 @@
 ---
 table: swwwihead
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 72771146
-column_count: 71
+row_count: 13170085
+column_count: 72
 ---
 
 # swwwihead
@@ -14,7 +14,7 @@ column_count: 71
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 71 | 100% |
+| Trusted (≥50%) | 72 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,77 +22,78 @@ column_count: 71
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `WAIT4CB` | 100.0% | trusted | |
-| `CREA_TMP` | 100.0% | trusted | |
-| `PRS_PROFIL` | 100.0% | trusted | |
-| `NOTE_COUNT` | 100.0% | trusted | |
-| `EXEC_TIME` | 100.0% | trusted | |
-| `DEF_GUID` | 100.0% | trusted | |
-| `TOP_WI_ID` | 100.0% | trusted | |
-| `XMLPROT` | 100.0% | trusted | |
-| `BLOCKTYPE` | 100.0% | trusted | |
-| `WF_TYPE` | 100.0% | trusted | |
-| `TIMEOUT` | 100.0% | trusted | |
-| `STATUS_EVT` | 100.0% | trusted | |
-| `REMOTE_SYS` | 100.0% | trusted | |
-| `REMOTE_ID` | 100.0% | trusted | |
-| `WI_RESTLOG` | 100.0% | trusted | |
-| `CHECK_STAT` | 100.0% | trusted | |
-| `PARENT_WI` | 100.0% | trusted | |
-| `WI_ID` | 100.0% | trusted | |
-| `WI_AED_TIMESTAMP` | 100.0% | trusted | |
-| `WLC_FLAGS` | 100.0% | trusted | |
-| `CPWF_HANDLE` | 100.0% | trusted | |
-| `WI_TEXT_ID` | 100.0% | trusted | |
-| `AGENT_RULE_ID` | 100.0% | trusted | |
-| `STEP_ID` | 100.0% | trusted | |
-| `REFERENCE_NODEID` | 100.0% | trusted | |
-| `AGING_TEMPERATURE` | 100.0% | trusted | |
-| `RNDNUMBER` | 100.0% | trusted | |
-| `AGING_STATE` | 100.0% | trusted | |
-| `TOP_TASK` | 100.0% | trusted | |
-| `PROCCAT` | 100.0% | trusted | |
-| `WFD_EXETYP` | 100.0% | trusted | |
-| `WFD_VERSION` | 100.0% | trusted | |
-| `WFD_ID` | 100.0% | trusted | |
-| `WLC_DISPL` | 100.0% | trusted | |
-| `WI_RELEASE` | 100.0% | trusted | |
-| `WI_DH_STAT` | 100.0% | trusted | |
-| `WI_CT` | 100.0% | trusted | |
-| `WI_CHCKWI` | 100.0% | trusted | |
-| `WI_CRADDR` | 100.0% | trusted | |
-| `WI_CRUSER` | 100.0% | trusted | |
-| `WI_AADDR` | 100.0% | trusted | |
-| `WI_AAGENT` | 100.0% | trusted | |
-| `WI_AED` | 100.0% | trusted | |
-| `WI_CD` | 100.0% | trusted | |
-| `NO_DEADL` | 100.0% | trusted | |
-| `WI_STAT` | 100.0% | trusted | |
-| `WI_RHTEXT` | 100.0% | trusted | |
-| `WI_TEXT` | 100.0% | trusted | |
-| `WI_LANG` | 100.0% | trusted | |
-| `WI_CREATOR` | 100.0% | trusted | |
-| `WI_TYPE` | 100.0% | trusted | |
-| `WI_CBFB` | 100.0% | trusted | |
-| `WI_RH_TASK` | 100.0% | trusted | |
-| `WI_PRIO` | 100.0% | trusted | |
-| `WI_CONFIRM` | 100.0% | trusted | |
-| `SYNCCHAIN` | 100.0% | trusted | |
-| `HANDLE` | 100.0% | trusted | |
-| `CB_DONE` | 100.0% | trusted | |
-| `RC_MODELED` | 100.0% | trusted | |
-| `MAX_RETRY` | 100.0% | trusted | |
-| `RETRY_CNT` | 100.0% | trusted | |
-| `NOTIFY` | 100.0% | trusted | |
-| `NOTE_EXIST` | 100.0% | trusted | |
-| `TCLASS` | 100.0% | trusted | |
-| `WI_REJECT` | 100.0% | trusted | |
-| `WI_DISABLE` | 100.0% | trusted | |
-| `WI_FORW_BY` | 100.0% | trusted | |
-| `WI_COMP_EV` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `xmlprot` | 100.0% | trusted | |
+| `prs_profil` | 100.0% | trusted | |
+| `note_count` | 100.0% | trusted | |
+| `exec_time` | 100.0% | trusted | |
+| `def_guid` | 100.0% | trusted | |
+| `top_wi_id` | 100.0% | trusted | |
+| `wait4cb` | 100.0% | trusted | |
+| `wlc_flags` | 100.0% | trusted | |
+| `check_stat` | 100.0% | trusted | |
+| `wf_type` | 100.0% | trusted | |
+| `timeout` | 100.0% | trusted | |
+| `status_evt` | 100.0% | trusted | |
+| `remote_sys` | 100.0% | trusted | |
+| `remote_id` | 100.0% | trusted | |
+| `wi_restlog` | 100.0% | trusted | |
+| `crea_tmp` | 100.0% | trusted | |
+| `blocktype` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `aging_temperature` | 100.0% | trusted | |
+| `cpwf_handle` | 100.0% | trusted | |
+| `wi_text_id` | 100.0% | trusted | |
+| `agent_rule_id` | 100.0% | trusted | |
+| `step_id` | 100.0% | trusted | |
+| `reference_nodeid` | 100.0% | trusted | |
+| `wi_aed_timestamp` | 100.0% | trusted | |
+| `aging_state` | 100.0% | trusted | |
+| `parent_wi` | 100.0% | trusted | |
+| `top_task` | 100.0% | trusted | |
+| `proccat` | 100.0% | trusted | |
+| `wfd_exetyp` | 100.0% | trusted | |
+| `wfd_version` | 100.0% | trusted | |
+| `wfd_id` | 100.0% | trusted | |
+| `rndnumber` | 100.0% | trusted | |
+| `wlc_displ` | 100.0% | trusted | |
+| `wi_release` | 100.0% | trusted | |
+| `wi_dh_stat` | 100.0% | trusted | |
+| `wi_cd` | 100.0% | trusted | |
+| `wi_craddr` | 100.0% | trusted | |
+| `wi_cruser` | 100.0% | trusted | |
+| `wi_aaddr` | 100.0% | trusted | |
+| `wi_aagent` | 100.0% | trusted | |
+| `wi_aed` | 100.0% | trusted | |
+| `wi_ct` | 100.0% | trusted | |
+| `wi_stat` | 100.0% | trusted | |
+| `no_deadl` | 100.0% | trusted | |
+| `wi_rhtext` | 100.0% | trusted | |
+| `wi_text` | 100.0% | trusted | |
+| `wi_lang` | 100.0% | trusted | |
+| `wi_creator` | 100.0% | trusted | |
+| `wi_type` | 100.0% | trusted | |
+| `wi_id` | 100.0% | trusted | |
+| `wi_chckwi` | 100.0% | trusted | |
+| `wi_cbfb` | 100.0% | trusted | |
+| `wi_rh_task` | 100.0% | trusted | |
+| `wi_prio` | 100.0% | trusted | |
+| `syncchain` | 100.0% | trusted | |
+| `handle` | 100.0% | trusted | |
+| `cb_done` | 100.0% | trusted | |
+| `rc_modeled` | 100.0% | trusted | |
+| `max_retry` | 100.0% | trusted | |
+| `retry_cnt` | 100.0% | trusted | |
+| `notify` | 100.0% | trusted | |
+| `note_exist` | 100.0% | trusted | |
+| `tclass` | 100.0% | trusted | |
+| `wi_reject` | 100.0% | trusted | |
+| `wi_disable` | 100.0% | trusted | |
+| `wi_forw_by` | 100.0% | trusted | |
+| `wi_comp_ev` | 100.0% | trusted | |
+| `wi_confirm` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
-| `WLC_FLAGS_EXT` | 81.9% | trusted | |
+| `wlc_flags_ext` | 99.9% | trusted | |
 
 ## Notes
 

@@ -1,9 +1,9 @@
 ---
 table: knvi
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 23880495
-column_count: 6
+row_count: 722725
+column_count: 7
 ---
 
 # knvi
@@ -14,7 +14,7 @@ column_count: 6
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 6 | 100% |
+| Trusted (≥50%) | 7 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,11 +22,12 @@ column_count: 6
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `ALAND` | 100.0% | trusted | |
-| `TATYP` | 100.0% | trusted | |
-| `TAXKD` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `aland` | 100.0% | trusted | |
+| `tatyp` | 100.0% | trusted | |
+| `taxkd` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

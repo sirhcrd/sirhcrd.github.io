@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,69048,69048,100.0,0,0.0
+2,mandt,69048,69048,100.0,0,0.0
+3,agr_name,69048,69048,100.0,0,0.0
+4,langu,69048,69048,100.0,0,0.0
+5,profile,69048,69048,100.0,0,0.0
+6,ptext,69048,69048,100.0,0,0.0
+7,src_commit_time,69048,69048,100.0,0,0.0

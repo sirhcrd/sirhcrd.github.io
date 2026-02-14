@@ -1,0 +1,16 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,461063,461063,100.0,0,0.0
+2,client,461063,461063,100.0,0,0.0
+3,partner,461063,461063,100.0,0,0.0
+4,own_rating,461063,461063,100.0,0,0.0
+5,check_rule,461063,461063,100.0,0,0.0
+6,limit_rule,461063,461063,100.0,0,0.0
+7,rating_val_date,461063,461063,100.0,0,0.0
+8,rating_chg_date,461063,461063,100.0,0,0.0
+9,alternate_bp,461063,461063,100.0,0,0.0
+10,own_rating_calc,461063,461063,100.0,0,0.0
+11,risk_class,461063,461063,100.0,0,0.0
+12,risk_class_calc,461063,461063,100.0,0,0.0
+13,risk_class_chgdt,461063,461063,100.0,0,0.0
+14,credit_group,461063,461063,100.0,0,0.0
+15,src_commit_time,461063,461063,100.0,0,0.0

@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,47340,47340,100.0,0,0.0
+2,mandt,47340,47340,100.0,0,0.0
+3,agr_name,47340,47340,100.0,0,0.0
+4,counter,47340,47340,100.0,0,0.0
+5,profile,47340,47340,100.0,0,0.0
+6,variant,47340,47340,100.0,0,0.0
+7,generated,47340,47340,100.0,0,0.0
+8,pstate,47340,47340,100.0,0,0.0
+9,src_commit_time,47340,47340,100.0,0,0.0

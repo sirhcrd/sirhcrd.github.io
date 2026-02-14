@@ -1,9 +1,9 @@
 ---
 table: tj02t
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 7810
-column_count: 5
+row_count: 37331
+column_count: 6
 ---
 
 # tj02t
@@ -14,7 +14,7 @@ column_count: 5
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 5 | 100% |
+| Trusted (≥50%) | 6 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,10 +22,11 @@ column_count: 5
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `ISTAT` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `TXT04` | 100.0% | trusted | |
-| `TXT30` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `istat` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `txt04` | 100.0% | trusted | |
+| `txt30` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

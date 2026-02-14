@@ -1,9 +1,9 @@
 ---
 table: qmfe
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 16137197
-column_count: 58
+row_count: 29981
+column_count: 60
 ---
 
 # qmfe
@@ -14,7 +14,7 @@ column_count: 58
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 58 | 100% |
+| Trusted (≥50%) | 60 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,64 +22,66 @@ column_count: 58
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KZLOESCH` | 100.0% | trusted | |
-| `UNITFLBEW` | 100.0% | trusted | |
-| `FEART` | 100.0% | trusted | |
-| `PNLKN` | 100.0% | trusted | |
-| `MERKNR` | 100.0% | trusted | |
-| `PROBENR` | 100.0% | trusted | |
-| `PHYNR` | 100.0% | trusted | |
-| `PRUEFLINR` | 100.0% | trusted | |
-| `CROBJTY` | 100.0% | trusted | |
-| `ARBPL` | 100.0% | trusted | |
-| `ARBPLWERK` | 100.0% | trusted | |
-| `FENUMORG` | 100.0% | trusted | |
-| `KZSYSFE` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `QMNUM` | 100.0% | trusted | |
-| `HERPOS` | 100.0% | trusted | |
-| `AUTKZ` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `EKORG` | 100.0% | trusted | |
-| `INFNR` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `LSTAR` | 100.0% | trusted | |
-| `PRZNR` | 100.0% | trusted | |
-| `MENGE` | 100.0% | trusted | |
-| `EQUNR` | 100.0% | trusted | |
-| `TPLNR` | 100.0% | trusted | |
-| `FEHLBEW` | 100.0% | trusted | |
-| `ANZFEHLER` | 100.0% | trusted | |
-| `FMGEIN` | 100.0% | trusted | |
-| `FMGEIG` | 100.0% | trusted | |
-| `FENUM` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `FETXT` | 100.0% | trusted | |
-| `FEKAT` | 100.0% | trusted | |
-| `FEGRP` | 100.0% | trusted | |
-| `FECOD` | 100.0% | trusted | |
-| `FEVER` | 100.0% | trusted | |
-| `OTKAT` | 100.0% | trusted | |
-| `OTGRP` | 100.0% | trusted | |
-| `OTEIL` | 100.0% | trusted | |
-| `OTVER` | 100.0% | trusted | |
-| `BAUTL` | 100.0% | trusted | |
-| `EBORT` | 100.0% | trusted | |
-| `INDTX` | 100.0% | trusted | |
-| `KZMLA` | 100.0% | trusted | |
-| `ERZEIT` | 100.0% | trusted | |
-| `AEZEIT` | 100.0% | trusted | |
-| `KZORG` | 100.0% | trusted | |
-| `WDFEH` | 100.0% | trusted | |
-| `FEQKLAS` | 100.0% | trusted | |
-| `FCOAUFNR` | 100.0% | trusted | |
-| `FMGFRD` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `unitflbew` | 100.0% | trusted | |
+| `feart` | 100.0% | trusted | |
+| `pnlkn` | 100.0% | trusted | |
+| `merknr` | 100.0% | trusted | |
+| `probenr` | 100.0% | trusted | |
+| `phynr` | 100.0% | trusted | |
+| `prueflinr` | 100.0% | trusted | |
+| `crobjty` | 100.0% | trusted | |
+| `arbpl` | 100.0% | trusted | |
+| `arbplwerk` | 100.0% | trusted | |
+| `fenumorg` | 100.0% | trusted | |
+| `kzsysfe` | 100.0% | trusted | |
+| `kzloesch` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `herpos` | 100.0% | trusted | |
+| `autkz` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `ekorg` | 100.0% | trusted | |
+| `infnr` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `lstar` | 100.0% | trusted | |
+| `prznr` | 100.0% | trusted | |
+| `menge` | 100.0% | trusted | |
+| `equnr` | 100.0% | trusted | |
+| `tplnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
+| `fehlbew` | 100.0% | trusted | |
+| `anzfehler` | 100.0% | trusted | |
+| `fmgein` | 100.0% | trusted | |
+| `otgrp` | 100.0% | trusted | |
+| `qmnum` | 100.0% | trusted | |
+| `fenum` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `fetxt` | 100.0% | trusted | |
+| `fekat` | 100.0% | trusted | |
+| `fegrp` | 100.0% | trusted | |
+| `fecod` | 100.0% | trusted | |
+| `fever` | 100.0% | trusted | |
+| `otkat` | 100.0% | trusted | |
+| `oteil` | 100.0% | trusted | |
+| `fmgeig` | 100.0% | trusted | |
+| `otver` | 100.0% | trusted | |
+| `bautl` | 100.0% | trusted | |
+| `ebort` | 100.0% | trusted | |
+| `indtx` | 100.0% | trusted | |
+| `kzmla` | 100.0% | trusted | |
+| `erzeit` | 100.0% | trusted | |
+| `aezeit` | 100.0% | trusted | |
+| `kzorg` | 100.0% | trusted | |
+| `wdfeh` | 100.0% | trusted | |
+| `feqklas` | 100.0% | trusted | |
+| `fcoaufnr` | 100.0% | trusted | |
+| `fmgfrd` | 100.0% | trusted | |
+| `zz_impact` | 100.0% | trusted | |
 
 ## Notes
 

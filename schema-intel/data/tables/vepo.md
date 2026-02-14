@@ -1,9 +1,9 @@
 ---
 table: vepo
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 58497257
-column_count: 35
+row_count: 137596710
+column_count: 39
 ---
 
 # vepo
@@ -14,7 +14,7 @@ column_count: 35
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 35 | 100% |
+| Trusted (≥50%) | 39 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,40 +22,44 @@ column_count: 35
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `POSNR_GEN` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `SONUM` | 100.0% | trusted | |
-| `QPLOS` | 100.0% | trusted | |
-| `ANZSN` | 100.0% | trusted | |
-| `SERAIL` | 100.0% | trusted | |
-| `PSTYV` | 100.0% | trusted | |
-| `P_MATERIAL` | 100.0% | trusted | |
-| `CUOBJ` | 100.0% | trusted | |
-| `WDATU` | 100.0% | trusted | |
-| `VFDAT` | 100.0% | trusted | |
-| `HU_LGORT` | 100.0% | trusted | |
-| `XCHAR` | 100.0% | trusted | |
-| `SPE_IDPLATE` | 100.0% | trusted | |
-| `SGT_SCAT` | 100.0% | trusted | |
-| `BESTQ` | 100.0% | trusted | |
-| `LGORT` | 100.0% | trusted | |
-| `VENUM` | 100.0% | trusted | |
-| `VEMNG` | 100.0% | trusted | |
-| `VEPOS` | 100.0% | trusted | |
-| `VELIN` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `VBTYP` | 100.0% | trusted | |
-| `UNVEL` | 100.0% | trusted | |
-| `VEMNG_FLO` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `VEMEH` | 100.0% | trusted | |
-| `ALTME` | 100.0% | trusted | |
-| `VEANZ` | 100.0% | trusted | |
-| `KZBEI` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `wdatu` | 100.0% | trusted | |
+| `sonum` | 100.0% | trusted | |
+| `qplos` | 100.0% | trusted | |
+| `anzsn` | 100.0% | trusted | |
+| `serail` | 100.0% | trusted | |
+| `pstyv` | 100.0% | trusted | |
+| `posnr_gen` | 100.0% | trusted | |
+| `p_material` | 100.0% | trusted | |
+| `vfdat` | 100.0% | trusted | |
+| `bestq` | 100.0% | trusted | |
+| `hu_lgort` | 100.0% | trusted | |
+| `xchar` | 100.0% | trusted | |
+| `spe_idplate` | 100.0% | trusted | |
+| `sgt_scat` | 100.0% | trusted | |
+| `wrf_charstc1` | 100.0% | trusted | |
+| `wrf_charstc2` | 100.0% | trusted | |
+| `wrf_charstc3` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `cuobj` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `vemng` | 100.0% | trusted | |
+| `venum` | 100.0% | trusted | |
+| `vepos` | 100.0% | trusted | |
+| `velin` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `vbtyp` | 100.0% | trusted | |
+| `unvel` | 100.0% | trusted | |
+| `vemng_flo` | 100.0% | trusted | |
+| `lgort` | 100.0% | trusted | |
+| `vemeh` | 100.0% | trusted | |
+| `altme` | 100.0% | trusted | |
+| `veanz` | 100.0% | trusted | |
+| `kzbei` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

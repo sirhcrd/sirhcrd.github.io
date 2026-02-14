@@ -1,9 +1,9 @@
 ---
 table: adrc
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 27560869
-column_count: 107
+row_count: 38996115
+column_count: 100
 ---
 
 # adrc
@@ -14,121 +14,114 @@ column_count: 107
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 106 | 99% |
-| Neutral (5-50%) | 1 | 0% |
+| Trusted (≥50%) | 100 | 100% |
+| Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
 ## Columns
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `EXTENSION1` | 100.0% | trusted | |
-| `MC_CITY1` | 100.0% | trusted | |
-| `MC_NAME1` | 100.0% | trusted | |
-| `ADDRORIGIN` | 100.0% | trusted | |
-| `FLAGCOMM13` | 100.0% | trusted | |
-| `FLAGCOMM12` | 100.0% | trusted | |
-| `FLAGCOMM11` | 100.0% | trusted | |
-| `FLAGCOMM10` | 100.0% | trusted | |
-| `FLAGCOMM9` | 100.0% | trusted | |
-| `FLAGCOMM8` | 100.0% | trusted | |
-| `FLAGCOMM7` | 100.0% | trusted | |
-| `FLAGCOMM6` | 100.0% | trusted | |
-| `FLAGCOMM5` | 100.0% | trusted | |
-| `FLAGCOMM4` | 100.0% | trusted | |
-| `FLAGCOMM3` | 100.0% | trusted | |
-| `FLAGCOMM2` | 100.0% | trusted | |
-| `FAX_EXTENS` | 100.0% | trusted | |
-| `FAX_NUMBER` | 100.0% | trusted | |
-| `TEL_EXTENS` | 100.0% | trusted | |
-| `TEL_NUMBER` | 100.0% | trusted | |
-| `DEFLT_COMM` | 100.0% | trusted | |
-| `SORT_PHN` | 100.0% | trusted | |
-| `SORT2` | 100.0% | trusted | |
-| `SORT1` | 100.0% | trusted | |
-| `MC_STREET` | 100.0% | trusted | |
-| `EXTENSION2` | 100.0% | trusted | |
-| `ADDRNUMBER` | 100.0% | trusted | |
-| `TIME_ZONE` | 100.0% | trusted | |
-| `ZDNDDB` | 100.0% | trusted | |
-| `ZDNDDD` | 100.0% | trusted | |
-| `ZDNPCB` | 100.0% | trusted | |
-| `ZDNPCD` | 100.0% | trusted | |
-| `ZDNDD` | 100.0% | trusted | |
-| `ZDNPC` | 100.0% | trusted | |
-| `ZTRILLIUMERROR` | 100.0% | trusted | |
-| `XPCPT` | 100.0% | trusted | |
-| `MC_TOWNSHIP` | 100.0% | trusted | |
-| `MC_COUNTY` | 100.0% | trusted | |
-| `TOWNSHIP` | 100.0% | trusted | |
-| `TOWNSHIP_CODE` | 100.0% | trusted | |
-| `COUNTY` | 100.0% | trusted | |
-| `COUNTY_CODE` | 100.0% | trusted | |
-| `DELI_SERV_NUMBER` | 100.0% | trusted | |
-| `DELI_SERV_TYPE` | 100.0% | trusted | |
-| `PO_BOX_LOBBY` | 100.0% | trusted | |
-| `ADRC_ERR_STATUS` | 100.0% | trusted | |
-| `ID_CATEGORY` | 100.0% | trusted | |
-| `UUID_BELATED` | 100.0% | trusted | |
-| `LANGU_CREA` | 100.0% | trusted | |
-| `ADDRESS_ID` | 100.0% | trusted | |
-| `TAXJURCODE` | 100.0% | trusted | |
-| `PERS_ADDR` | 100.0% | trusted | |
-| `FLAGGROUPS` | 100.0% | trusted | |
-| `ADDR_GROUP` | 100.0% | trusted | |
-| `REGION` | 100.0% | trusted | |
-| `PCODE2_EXT` | 100.0% | trusted | |
-| `PCODE1_EXT` | 100.0% | trusted | |
-| `POST_CODE3` | 100.0% | trusted | |
-| `POST_CODE2` | 100.0% | trusted | |
-| `POST_CODE1` | 100.0% | trusted | |
-| `REGIOGROUP` | 100.0% | trusted | |
-| `CHCKSTATUS` | 100.0% | trusted | |
-| `CITYH_CODE` | 100.0% | trusted | |
-| `HOME_CITY` | 100.0% | trusted | |
-| `CITYP_CODE` | 100.0% | trusted | |
-| `CITY_CODE` | 100.0% | trusted | |
-| `CITY2` | 100.0% | trusted | |
-| `CITY1` | 100.0% | trusted | |
-| `NAME_CO` | 100.0% | trusted | |
-| `NAME_TEXT` | 100.0% | trusted | |
-| `NAME4` | 100.0% | trusted | |
-| `NAME3` | 100.0% | trusted | |
-| `NAME2` | 100.0% | trusted | |
-| `NAME1` | 100.0% | trusted | |
-| `TITLE` | 100.0% | trusted | |
-| `DATE_TO` | 100.0% | trusted | |
-| `NATION` | 100.0% | trusted | |
-| `DATE_FROM` | 100.0% | trusted | |
-| `PCODE3_EXT` | 100.0% | trusted | |
-| `PO_BOX` | 100.0% | trusted | |
-| `DONT_USE_P` | 100.0% | trusted | |
-| `PO_BOX_NUM` | 100.0% | trusted | |
-| `LANGU` | 100.0% | trusted | |
-| `COUNTRY` | 100.0% | trusted | |
-| `ROOMNUMBER` | 100.0% | trusted | |
-| `FLOOR` | 100.0% | trusted | |
-| `BUILDING` | 100.0% | trusted | |
-| `LOCATION` | 100.0% | trusted | |
-| `STR_SUPPL3` | 100.0% | trusted | |
-| `STR_SUPPL2` | 100.0% | trusted | |
-| `STR_SUPPL1` | 100.0% | trusted | |
-| `HOUSE_NUM3` | 100.0% | trusted | |
-| `HOUSE_NUM2` | 100.0% | trusted | |
-| `HOUSE_NUM1` | 100.0% | trusted | |
-| `STREETABBR` | 100.0% | trusted | |
-| `STREETCODE` | 100.0% | trusted | |
-| `DONT_USE_S` | 100.0% | trusted | |
-| `STREET` | 100.0% | trusted | |
-| `TRANSPZONE` | 100.0% | trusted | |
-| `POSTALAREA` | 100.0% | trusted | |
-| `PO_BOX_CTY` | 100.0% | trusted | |
-| `PO_BOX_REG` | 100.0% | trusted | |
-| `CITY_CODE2` | 100.0% | trusted | |
-| `PO_BOX_LOC` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `fax_extens` | 100.0% | trusted | |
+| `flagcomm11` | 100.0% | trusted | |
+| `flagcomm10` | 100.0% | trusted | |
+| `flagcomm9` | 100.0% | trusted | |
+| `flagcomm8` | 100.0% | trusted | |
+| `flagcomm7` | 100.0% | trusted | |
+| `flagcomm6` | 100.0% | trusted | |
+| `flagcomm5` | 100.0% | trusted | |
+| `flagcomm4` | 100.0% | trusted | |
+| `flagcomm3` | 100.0% | trusted | |
+| `flagcomm2` | 100.0% | trusted | |
+| `fax_number` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `tel_extens` | 100.0% | trusted | |
+| `tel_number` | 100.0% | trusted | |
+| `deflt_comm` | 100.0% | trusted | |
+| `sort_phn` | 100.0% | trusted | |
+| `sort2` | 100.0% | trusted | |
+| `sort1` | 100.0% | trusted | |
+| `pers_addr` | 100.0% | trusted | |
+| `flaggroups` | 100.0% | trusted | |
+| `addr_group` | 100.0% | trusted | |
+| `region` | 100.0% | trusted | |
+| `flagcomm12` | 100.0% | trusted | |
+| `flagcomm13` | 100.0% | trusted | |
+| `addrorigin` | 100.0% | trusted | |
+| `mc_name1` | 100.0% | trusted | |
+| `xpcpt` | 100.0% | trusted | |
+| `mc_township` | 100.0% | trusted | |
+| `mc_county` | 100.0% | trusted | |
+| `township` | 100.0% | trusted | |
+| `township_code` | 100.0% | trusted | |
+| `county` | 100.0% | trusted | |
+| `county_code` | 100.0% | trusted | |
+| `deli_serv_number` | 100.0% | trusted | |
+| `deli_serv_type` | 100.0% | trusted | |
+| `po_box_lobby` | 100.0% | trusted | |
+| `adrc_err_status` | 100.0% | trusted | |
+| `id_category` | 100.0% | trusted | |
+| `uuid_belated` | 100.0% | trusted | |
+| `langu_crea` | 100.0% | trusted | |
+| `address_id` | 100.0% | trusted | |
+| `taxjurcode` | 100.0% | trusted | |
+| `time_zone` | 100.0% | trusted | |
+| `extension2` | 100.0% | trusted | |
+| `extension1` | 100.0% | trusted | |
+| `mc_street` | 100.0% | trusted | |
+| `mc_city1` | 100.0% | trusted | |
+| `langu` | 100.0% | trusted | |
+| `country` | 100.0% | trusted | |
+| `roomnumber` | 100.0% | trusted | |
+| `pcode1_ext` | 100.0% | trusted | |
+| `post_code2` | 100.0% | trusted | |
+| `post_code1` | 100.0% | trusted | |
+| `regiogroup` | 100.0% | trusted | |
+| `chckstatus` | 100.0% | trusted | |
+| `cityh_code` | 100.0% | trusted | |
+| `home_city` | 100.0% | trusted | |
+| `cityp_code` | 100.0% | trusted | |
+| `city_code` | 100.0% | trusted | |
+| `city2` | 100.0% | trusted | |
+| `city1` | 100.0% | trusted | |
+| `name_co` | 100.0% | trusted | |
+| `name_text` | 100.0% | trusted | |
+| `name4` | 100.0% | trusted | |
+| `name3` | 100.0% | trusted | |
+| `name2` | 100.0% | trusted | |
+| `name1` | 100.0% | trusted | |
+| `title` | 100.0% | trusted | |
+| `date_to` | 100.0% | trusted | |
+| `nation` | 100.0% | trusted | |
+| `date_from` | 100.0% | trusted | |
+| `addrnumber` | 100.0% | trusted | |
+| `post_code3` | 100.0% | trusted | |
+| `pcode2_ext` | 100.0% | trusted | |
+| `floor` | 100.0% | trusted | |
+| `pcode3_ext` | 100.0% | trusted | |
+| `building` | 100.0% | trusted | |
+| `location` | 100.0% | trusted | |
+| `str_suppl3` | 100.0% | trusted | |
+| `str_suppl2` | 100.0% | trusted | |
+| `str_suppl1` | 100.0% | trusted | |
+| `house_num3` | 100.0% | trusted | |
+| `house_num2` | 100.0% | trusted | |
+| `house_num1` | 100.0% | trusted | |
+| `streetabbr` | 100.0% | trusted | |
+| `streetcode` | 100.0% | trusted | |
+| `dont_use_s` | 100.0% | trusted | |
+| `street` | 100.0% | trusted | |
+| `transpzone` | 100.0% | trusted | |
+| `postalarea` | 100.0% | trusted | |
+| `po_box_cty` | 100.0% | trusted | |
+| `po_box_reg` | 100.0% | trusted | |
+| `city_code2` | 100.0% | trusted | |
+| `po_box_loc` | 100.0% | trusted | |
+| `po_box_num` | 100.0% | trusted | |
+| `dont_use_p` | 100.0% | trusted | |
+| `po_box` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
-| `ADRC_UUID` | 42.1% | neutral | |
 
 ## Notes
 

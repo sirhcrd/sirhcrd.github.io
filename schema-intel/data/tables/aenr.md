@@ -1,9 +1,9 @@
 ---
 table: aenr
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 80504
-column_count: 33
+row_count: 29453
+column_count: 34
 ---
 
 # aenr
@@ -14,7 +14,7 @@ column_count: 33
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 33 | 100% |
+| Trusted (≥50%) | 34 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,38 +22,39 @@ column_count: 33
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `AEFUN` | 100.0% | trusted | |
-| `ERLED` | 100.0% | trusted | |
-| `AEDIF` | 100.0% | trusted | |
-| `FLUSE` | 100.0% | trusted | |
-| `AUDAT` | 100.0% | trusted | |
-| `INDAT` | 100.0% | trusted | |
-| `NACHT` | 100.0% | trusted | |
-| `TEREL` | 100.0% | trusted | |
-| `RLTIM` | 100.0% | trusted | |
-| `RLDAT` | 100.0% | trusted | |
-| `AERNG` | 100.0% | trusted | |
-| `CLINT` | 100.0% | trusted | |
-| `LVORM` | 100.0% | trusted | |
-| `RLKEY` | 100.0% | trusted | |
-| `UESTR` | 100.0% | trusted | |
-| `CONT1` | 100.0% | trusted | |
-| `AENNR` | 100.0% | trusted | |
-| `DYDAT` | 100.0% | trusted | |
-| `CCSTM` | 100.0% | trusted | |
-| `CCART` | 100.0% | trusted | |
-| `AEGRU` | 100.0% | trusted | |
-| `LTXSP` | 100.0% | trusted | |
-| `AETXT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `ANNAM` | 100.0% | trusted | |
-| `ANDAT` | 100.0% | trusted | |
-| `TECHV` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `AENBE` | 100.0% | trusted | |
-| `AENST` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `rltim` | 100.0% | trusted | |
+| `uestr` | 100.0% | trusted | |
+| `rlkey` | 100.0% | trusted | |
+| `lvorm` | 100.0% | trusted | |
+| `clint` | 100.0% | trusted | |
+| `aerng` | 100.0% | trusted | |
+| `rldat` | 100.0% | trusted | |
+| `terel` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `nacht` | 100.0% | trusted | |
+| `indat` | 100.0% | trusted | |
+| `audat` | 100.0% | trusted | |
+| `fluse` | 100.0% | trusted | |
+| `aedif` | 100.0% | trusted | |
+| `erled` | 100.0% | trusted | |
+| `aefun` | 100.0% | trusted | |
+| `cont1` | 100.0% | trusted | |
+| `dydat` | 100.0% | trusted | |
+| `ccstm` | 100.0% | trusted | |
+| `ccart` | 100.0% | trusted | |
+| `aegru` | 100.0% | trusted | |
+| `ltxsp` | 100.0% | trusted | |
+| `aetxt` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `annam` | 100.0% | trusted | |
+| `andat` | 100.0% | trusted | |
+| `techv` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `aenbe` | 100.0% | trusted | |
+| `aenst` | 100.0% | trusted | |
+| `aennr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

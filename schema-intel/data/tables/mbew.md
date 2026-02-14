@@ -1,9 +1,9 @@
 ---
 table: mbew
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 56337917
-column_count: 110
+row_count: 1515755
+column_count: 111
 ---
 
 # mbew
@@ -14,7 +14,7 @@ column_count: 110
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 110 | 100% |
+| Trusted (≥50%) | 111 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,115 +22,116 @@ column_count: 110
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `BWVA3` | 100.0% | trusted | |
-| `PDATV` | 100.0% | trusted | |
-| `PDATL` | 100.0% | trusted | |
-| `PDATZ` | 100.0% | trusted | |
-| `PPRDV` | 100.0% | trusted | |
-| `PPRDL` | 100.0% | trusted | |
-| `PPRDZ` | 100.0% | trusted | |
-| `KOSGR` | 100.0% | trusted | |
-| `HRKFT` | 100.0% | trusted | |
-| `VERS3` | 100.0% | trusted | |
-| `VERS2` | 100.0% | trusted | |
-| `VERS1` | 100.0% | trusted | |
-| `BWVA2` | 100.0% | trusted | |
-| `VPLPR` | 100.0% | trusted | |
-| `BWVA1` | 100.0% | trusted | |
-| `KALNR` | 100.0% | trusted | |
-| `KALN1` | 100.0% | trusted | |
-| `PSTAT` | 100.0% | trusted | |
-| `ABWKZ` | 100.0% | trusted | |
-| `BWPS1` | 100.0% | trusted | |
-| `BWPH1` | 100.0% | trusted | |
-| `MYPOL` | 100.0% | trusted | |
-| `XLIFO` | 100.0% | trusted | |
-| `KALSC` | 100.0% | trusted | |
-| `KALKV` | 100.0% | trusted | |
-| `EKALR` | 100.0% | trusted | |
-| `MLMAA` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `VBWST` | 100.0% | trusted | |
-| `OIPPINV` | 100.0% | trusted | |
-| `OKLAS` | 100.0% | trusted | |
-| `MBRUE` | 100.0% | trusted | |
-| `BWPEI` | 100.0% | trusted | |
-| `XBEWM` | 100.0% | trusted | |
-| `OWNPR` | 100.0% | trusted | |
-| `MTORG` | 100.0% | trusted | |
-| `MTUSE` | 100.0% | trusted | |
-| `QKLAS` | 100.0% | trusted | |
-| `EKLAS` | 100.0% | trusted | |
-| `FBWST` | 100.0% | trusted | |
-| `LBWST` | 100.0% | trusted | |
-| `MLAST` | 100.0% | trusted | |
-| `FPLPX` | 100.0% | trusted | |
-| `VPLPX` | 100.0% | trusted | |
-| `LPLPX` | 100.0% | trusted | |
-| `BWSPA` | 100.0% | trusted | |
-| `ABCIW` | 100.0% | trusted | |
-| `WLINL` | 100.0% | trusted | |
-| `KZIWL` | 100.0% | trusted | |
-| `SPERW` | 100.0% | trusted | |
-| `HKMAT` | 100.0% | trusted | |
-| `VKSAL` | 100.0% | trusted | |
-| `LPLPR` | 100.0% | trusted | |
-| `KALKL` | 100.0% | trusted | |
-| `KALKZ` | 100.0% | trusted | |
-| `PPERV` | 100.0% | trusted | |
-| `VMSAL` | 100.0% | trusted | |
-| `VJSTP` | 100.0% | trusted | |
-| `VJVER` | 100.0% | trusted | |
-| `VJVPR` | 100.0% | trusted | |
-| `VJSAL` | 100.0% | trusted | |
-| `VJKUM` | 100.0% | trusted | |
-| `VMSAV` | 100.0% | trusted | |
-| `VMBKL` | 100.0% | trusted | |
-| `VMPEI` | 100.0% | trusted | |
-| `VMSTP` | 100.0% | trusted | |
-| `VMVER` | 100.0% | trusted | |
-| `VMVPR` | 100.0% | trusted | |
-| `VMKUM` | 100.0% | trusted | |
-| `PPERL` | 100.0% | trusted | |
-| `SALKV` | 100.0% | trusted | |
-| `BKLAS` | 100.0% | trusted | |
-| `PEINH` | 100.0% | trusted | |
-| `STPRS` | 100.0% | trusted | |
-| `VERPR` | 100.0% | trusted | |
-| `VPRSV` | 100.0% | trusted | |
-| `SALK3` | 100.0% | trusted | |
-| `LBKUM` | 100.0% | trusted | |
-| `LVORM` | 100.0% | trusted | |
-| `BWTAR` | 100.0% | trusted | |
-| `BWKEY` | 100.0% | trusted | |
-| `VJPEI` | 100.0% | trusted | |
-| `VJBKL` | 100.0% | trusted | |
-| `VJSAV` | 100.0% | trusted | |
-| `LFGJA` | 100.0% | trusted | |
-| `PPERZ` | 100.0% | trusted | |
-| `ZPLD3` | 100.0% | trusted | |
-| `ZPLD2` | 100.0% | trusted | |
-| `ZPLD1` | 100.0% | trusted | |
-| `ZPLP3` | 100.0% | trusted | |
-| `ZPLP2` | 100.0% | trusted | |
-| `ZPLP1` | 100.0% | trusted | |
-| `ZPLPR` | 100.0% | trusted | |
-| `VVSAL` | 100.0% | trusted | |
-| `VVMLB` | 100.0% | trusted | |
-| `VVJLB` | 100.0% | trusted | |
-| `VVJSL` | 100.0% | trusted | |
-| `VJBWH` | 100.0% | trusted | |
-| `VJBWS` | 100.0% | trusted | |
-| `BWPRH` | 100.0% | trusted | |
-| `BWPRS` | 100.0% | trusted | |
-| `TIMESTAMP` | 100.0% | trusted | |
-| `ZKDAT` | 100.0% | trusted | |
-| `ZKPRS` | 100.0% | trusted | |
-| `LAEPR` | 100.0% | trusted | |
-| `STPRV` | 100.0% | trusted | |
-| `BWTTY` | 100.0% | trusted | |
-| `LFMON` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `bwva3` | 100.0% | trusted | |
+| `pdatv` | 100.0% | trusted | |
+| `pdatl` | 100.0% | trusted | |
+| `pdatz` | 100.0% | trusted | |
+| `pprdv` | 100.0% | trusted | |
+| `pprdl` | 100.0% | trusted | |
+| `pprdz` | 100.0% | trusted | |
+| `kosgr` | 100.0% | trusted | |
+| `hrkft` | 100.0% | trusted | |
+| `vers3` | 100.0% | trusted | |
+| `vers2` | 100.0% | trusted | |
+| `vers1` | 100.0% | trusted | |
+| `bwva2` | 100.0% | trusted | |
+| `vplpr` | 100.0% | trusted | |
+| `bwva1` | 100.0% | trusted | |
+| `kalnr` | 100.0% | trusted | |
+| `kaln1` | 100.0% | trusted | |
+| `pstat` | 100.0% | trusted | |
+| `abwkz` | 100.0% | trusted | |
+| `bwps1` | 100.0% | trusted | |
+| `bwph1` | 100.0% | trusted | |
+| `mypol` | 100.0% | trusted | |
+| `xlifo` | 100.0% | trusted | |
+| `kalsc` | 100.0% | trusted | |
+| `kalkv` | 100.0% | trusted | |
+| `ekalr` | 100.0% | trusted | |
+| `mlmaa` | 100.0% | trusted | |
+| `kalkz` | 100.0% | trusted | |
+| `vbwst` | 100.0% | trusted | |
+| `oippinv` | 100.0% | trusted | |
+| `oklas` | 100.0% | trusted | |
+| `mbrue` | 100.0% | trusted | |
+| `bwpei` | 100.0% | trusted | |
+| `xbewm` | 100.0% | trusted | |
+| `ownpr` | 100.0% | trusted | |
+| `mtorg` | 100.0% | trusted | |
+| `mtuse` | 100.0% | trusted | |
+| `qklas` | 100.0% | trusted | |
+| `eklas` | 100.0% | trusted | |
+| `fbwst` | 100.0% | trusted | |
+| `lbwst` | 100.0% | trusted | |
+| `mlast` | 100.0% | trusted | |
+| `fplpx` | 100.0% | trusted | |
+| `vplpx` | 100.0% | trusted | |
+| `lplpx` | 100.0% | trusted | |
+| `bwspa` | 100.0% | trusted | |
+| `abciw` | 100.0% | trusted | |
+| `wlinl` | 100.0% | trusted | |
+| `kziwl` | 100.0% | trusted | |
+| `sperw` | 100.0% | trusted | |
+| `hkmat` | 100.0% | trusted | |
+| `vksal` | 100.0% | trusted | |
+| `lplpr` | 100.0% | trusted | |
+| `kalkl` | 100.0% | trusted | |
+| `pperv` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `vmkum` | 100.0% | trusted | |
+| `vjver` | 100.0% | trusted | |
+| `vjvpr` | 100.0% | trusted | |
+| `vjsal` | 100.0% | trusted | |
+| `vjkum` | 100.0% | trusted | |
+| `vmsav` | 100.0% | trusted | |
+| `vmbkl` | 100.0% | trusted | |
+| `vmpei` | 100.0% | trusted | |
+| `vmstp` | 100.0% | trusted | |
+| `vmver` | 100.0% | trusted | |
+| `vmvpr` | 100.0% | trusted | |
+| `vmsal` | 100.0% | trusted | |
+| `salkv` | 100.0% | trusted | |
+| `vjpei` | 100.0% | trusted | |
+| `bklas` | 100.0% | trusted | |
+| `peinh` | 100.0% | trusted | |
+| `stprs` | 100.0% | trusted | |
+| `verpr` | 100.0% | trusted | |
+| `vprsv` | 100.0% | trusted | |
+| `salk3` | 100.0% | trusted | |
+| `lbkum` | 100.0% | trusted | |
+| `lvorm` | 100.0% | trusted | |
+| `bwtar` | 100.0% | trusted | |
+| `bwkey` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `vjstp` | 100.0% | trusted | |
+| `vjbkl` | 100.0% | trusted | |
+| `pperl` | 100.0% | trusted | |
+| `vvjsl` | 100.0% | trusted | |
+| `pperz` | 100.0% | trusted | |
+| `zpld3` | 100.0% | trusted | |
+| `zpld2` | 100.0% | trusted | |
+| `zpld1` | 100.0% | trusted | |
+| `zplp3` | 100.0% | trusted | |
+| `zplp2` | 100.0% | trusted | |
+| `zplp1` | 100.0% | trusted | |
+| `zplpr` | 100.0% | trusted | |
+| `vvsal` | 100.0% | trusted | |
+| `vvmlb` | 100.0% | trusted | |
+| `vvjlb` | 100.0% | trusted | |
+| `vjbwh` | 100.0% | trusted | |
+| `vjsav` | 100.0% | trusted | |
+| `vjbws` | 100.0% | trusted | |
+| `bwprh` | 100.0% | trusted | |
+| `bwprs` | 100.0% | trusted | |
+| `timestamp` | 100.0% | trusted | |
+| `zkdat` | 100.0% | trusted | |
+| `zkprs` | 100.0% | trusted | |
+| `laepr` | 100.0% | trusted | |
+| `stprv` | 100.0% | trusted | |
+| `bwtty` | 100.0% | trusted | |
+| `lfmon` | 100.0% | trusted | |
+| `lfgja` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

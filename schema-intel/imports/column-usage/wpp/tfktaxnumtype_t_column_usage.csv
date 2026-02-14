@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,50881,50881,100.0,0,0.0
+2,client,50881,50881,100.0,0,0.0
+3,spras,50881,50881,100.0,0,0.0
+4,taxtype,50881,50881,100.0,0,0.0
+5,text,50881,50881,100.0,0,0.0
+6,src_commit_time,50881,50881,100.0,0,0.0

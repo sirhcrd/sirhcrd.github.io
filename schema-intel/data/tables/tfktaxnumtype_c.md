@@ -1,9 +1,9 @@
 ---
 table: tfktaxnumtype_c
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 70
-column_count: 4
+row_count: 570
+column_count: 5
 ---
 
 # tfktaxnumtype_c
@@ -14,7 +14,7 @@ column_count: 4
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 4 | 100% |
+| Trusted (≥50%) | 5 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,9 +22,10 @@ column_count: 4
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `TAXTYPE` | 100.0% | trusted | |
-| `CHECKDUPL` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `taxtype` | 100.0% | trusted | |
+| `checkdupl` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

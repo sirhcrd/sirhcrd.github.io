@@ -1,9 +1,9 @@
 ---
 table: vbkpf
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2216
-column_count: 96
+row_count: 1182
+column_count: 99
 ---
 
 # vbkpf
@@ -14,7 +14,7 @@ column_count: 96
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 96 | 100% |
+| Trusted (≥50%) | 99 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,101 +22,104 @@ column_count: 96
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `AUSBK` | 100.0% | trusted | |
-| `KURSX` | 100.0% | trusted | |
-| `VATDATE` | 100.0% | trusted | |
-| `LDGRP` | 100.0% | trusted | |
-| `PROPMANO` | 100.0% | trusted | |
-| `CTXKRS` | 100.0% | trusted | |
-| `TXKRS` | 100.0% | trusted | |
-| `REINDAT` | 100.0% | trusted | |
-| `AWSYS` | 100.0% | trusted | |
-| `AWKEY` | 100.0% | trusted | |
-| `AWTYP` | 100.0% | trusted | |
-| `XINVR_CURV` | 100.0% | trusted | |
-| `USUPD` | 100.0% | trusted | |
-| `USREL` | 100.0% | trusted | |
-| `USCMP` | 100.0% | trusted | |
-| `NUMPG` | 100.0% | trusted | |
-| `BRNCH` | 100.0% | trusted | |
-| `SUBN1_LVL` | 100.0% | trusted | |
-| `VBUND` | 100.0% | trusted | |
-| `RELTM` | 100.0% | trusted | |
-| `RELDT` | 100.0% | trusted | |
-| `UPDTM` | 100.0% | trusted | |
-| `KUR2X` | 100.0% | trusted | |
-| `KUR3X` | 100.0% | trusted | |
-| `XMCA` | 100.0% | trusted | |
-| `STGRD` | 100.0% | trusted | |
-| `CCNUM` | 100.0% | trusted | |
-| `CCINS` | 100.0% | trusted | |
-| `INWARDDT_HD` | 100.0% | trusted | |
-| `INWARDNO_HD` | 100.0% | trusted | |
-| `PYIBAN` | 100.0% | trusted | |
-| `PYBASDAT` | 100.0% | trusted | |
-| `PYBASNO` | 100.0% | trusted | |
-| `PYBASTYP` | 100.0% | trusted | |
-| `PSOXWF` | 100.0% | trusted | |
-| `DBBLG` | 100.0% | trusted | |
-| `EXCLUDE_FLAG` | 100.0% | trusted | |
-| `PSOTM` | 100.0% | trusted | |
-| `PSODT` | 100.0% | trusted | |
-| `INTDATE` | 100.0% | trusted | |
-| `INTFORM` | 100.0% | trusted | |
-| `PSOFN` | 100.0% | trusted | |
-| `PSOSG` | 100.0% | trusted | |
-| `PSOKS` | 100.0% | trusted | |
-| `PSOAK` | 100.0% | trusted | |
-| `PSOTY` | 100.0% | trusted | |
-| `FRWEG` | 100.0% | trusted | |
-| `LOTKZ` | 100.0% | trusted | |
-| `XWFFR` | 100.0% | trusted | |
-| `CPUTM` | 100.0% | trusted | |
-| `KOARS` | 100.0% | trusted | |
-| `FIKRS` | 100.0% | trusted | |
-| `BKTXT` | 100.0% | trusted | |
-| `XBLNR` | 100.0% | trusted | |
-| `BVORG` | 100.0% | trusted | |
-| `TCODE` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `UPDDT` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `CPUDT` | 100.0% | trusted | |
-| `XSNET` | 100.0% | trusted | |
-| `WWERT` | 100.0% | trusted | |
-| `MONAT` | 100.0% | trusted | |
-| `BUDAT` | 100.0% | trusted | |
-| `BLDAT` | 100.0% | trusted | |
-| `BLART` | 100.0% | trusted | |
-| `BSTAT` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `BELNR` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `XBSET` | 100.0% | trusted | |
-| `XBWAE` | 100.0% | trusted | |
-| `FRATH` | 100.0% | trusted | |
-| `CURT2` | 100.0% | trusted | |
-| `XPRFG` | 100.0% | trusted | |
-| `XFRGE` | 100.0% | trusted | |
-| `VGJHR` | 100.0% | trusted | |
-| `VBLNR` | 100.0% | trusted | |
-| `PARGB` | 100.0% | trusted | |
-| `XMWST` | 100.0% | trusted | |
-| `KUTY3` | 100.0% | trusted | |
-| `KUTY2` | 100.0% | trusted | |
-| `CURT3` | 100.0% | trusted | |
-| `UMRD3` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `UMRD2` | 100.0% | trusted | |
-| `BASW3` | 100.0% | trusted | |
-| `BASW2` | 100.0% | trusted | |
-| `KURS3` | 100.0% | trusted | |
-| `KURS2` | 100.0% | trusted | |
-| `KURSF` | 100.0% | trusted | |
-| `HWAE3` | 100.0% | trusted | |
-| `HWAE2` | 100.0% | trusted | |
-| `HWAER` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `exclude_flag` | 100.0% | trusted | |
+| `kur3x` | 100.0% | trusted | |
+| `kur2x` | 100.0% | trusted | |
+| `kursx` | 100.0% | trusted | |
+| `vatdate` | 100.0% | trusted | |
+| `ldgrp` | 100.0% | trusted | |
+| `propmano` | 100.0% | trusted | |
+| `txkrs` | 100.0% | trusted | |
+| `reindat` | 100.0% | trusted | |
+| `awsys` | 100.0% | trusted | |
+| `awkey` | 100.0% | trusted | |
+| `awtyp` | 100.0% | trusted | |
+| `xinvr_curv` | 100.0% | trusted | |
+| `usupd` | 100.0% | trusted | |
+| `usrel` | 100.0% | trusted | |
+| `uscmp` | 100.0% | trusted | |
+| `numpg` | 100.0% | trusted | |
+| `brnch` | 100.0% | trusted | |
+| `subn1_lvl` | 100.0% | trusted | |
+| `vbund` | 100.0% | trusted | |
+| `reltm` | 100.0% | trusted | |
+| `reldt` | 100.0% | trusted | |
+| `xmca` | 100.0% | trusted | |
+| `psoty` | 100.0% | trusted | |
+| `frweg` | 100.0% | trusted | |
+| `psoak` | 100.0% | trusted | |
+| `inwarddt_hd` | 100.0% | trusted | |
+| `inwardno_hd` | 100.0% | trusted | |
+| `pyiban` | 100.0% | trusted | |
+| `pybasdat` | 100.0% | trusted | |
+| `pybasno` | 100.0% | trusted | |
+| `pybastyp` | 100.0% | trusted | |
+| `zzuuid` | 100.0% | trusted | |
+| `resubmission` | 100.0% | trusted | |
+| `ctxkrs` | 100.0% | trusted | |
+| `ccnum` | 100.0% | trusted | |
+| `ccins` | 100.0% | trusted | |
+| `psoxwf` | 100.0% | trusted | |
+| `stgrd` | 100.0% | trusted | |
+| `dbblg` | 100.0% | trusted | |
+| `psotm` | 100.0% | trusted | |
+| `psodt` | 100.0% | trusted | |
+| `intdate` | 100.0% | trusted | |
+| `intform` | 100.0% | trusted | |
+| `psofn` | 100.0% | trusted | |
+| `psosg` | 100.0% | trusted | |
+| `psoks` | 100.0% | trusted | |
+| `updtm` | 100.0% | trusted | |
+| `lotkz` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `xsnet` | 100.0% | trusted | |
+| `koars` | 100.0% | trusted | |
+| `fikrs` | 100.0% | trusted | |
+| `bktxt` | 100.0% | trusted | |
+| `xblnr` | 100.0% | trusted | |
+| `bvorg` | 100.0% | trusted | |
+| `tcode` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `upddt` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `cputm` | 100.0% | trusted | |
+| `cpudt` | 100.0% | trusted | |
+| `wwert` | 100.0% | trusted | |
+| `monat` | 100.0% | trusted | |
+| `budat` | 100.0% | trusted | |
+| `bldat` | 100.0% | trusted | |
+| `blart` | 100.0% | trusted | |
+| `bstat` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `belnr` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `ausbk` | 100.0% | trusted | |
+| `xbset` | 100.0% | trusted | |
+| `xbwae` | 100.0% | trusted | |
+| `xwffr` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `frath` | 100.0% | trusted | |
+| `xprfg` | 100.0% | trusted | |
+| `xfrge` | 100.0% | trusted | |
+| `vgjhr` | 100.0% | trusted | |
+| `vblnr` | 100.0% | trusted | |
+| `pargb` | 100.0% | trusted | |
+| `xmwst` | 100.0% | trusted | |
+| `kuty3` | 100.0% | trusted | |
+| `kuty2` | 100.0% | trusted | |
+| `curt3` | 100.0% | trusted | |
+| `curt2` | 100.0% | trusted | |
+| `umrd3` | 100.0% | trusted | |
+| `umrd2` | 100.0% | trusted | |
+| `basw3` | 100.0% | trusted | |
+| `basw2` | 100.0% | trusted | |
+| `kurs3` | 100.0% | trusted | |
+| `kurs2` | 100.0% | trusted | |
+| `kursf` | 100.0% | trusted | |
+| `hwae3` | 100.0% | trusted | |
+| `hwae2` | 100.0% | trusted | |
+| `hwaer` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

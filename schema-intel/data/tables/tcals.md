@@ -1,9 +1,9 @@
 ---
 table: tcals
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
 row_count: 1
-column_count: 8
+column_count: 9
 ---
 
 # tcals
@@ -14,7 +14,7 @@ column_count: 8
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 100% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,13 +22,14 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `ID` | 100.0% | trusted | |
-| `DAT` | 100.0% | trusted | |
-| `TIM` | 100.0% | trusted | |
-| `AKZ` | 100.0% | trusted | |
-| `CID` | 100.0% | trusted | |
-| `DSZ` | 100.0% | trusted | |
-| `PSZ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `id` | 100.0% | trusted | |
+| `dat` | 100.0% | trusted | |
+| `tim` | 100.0% | trusted | |
+| `akz` | 100.0% | trusted | |
+| `cid` | 100.0% | trusted | |
+| `dsz` | 100.0% | trusted | |
+| `psz` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

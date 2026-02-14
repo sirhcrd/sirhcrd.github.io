@@ -1,9 +1,9 @@
 ---
 table: vbuk
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 74307655
-column_count: 84
+row_count: 65594878
+column_count: 86
 ---
 
 # vbuk
@@ -14,7 +14,7 @@ column_count: 84
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 84 | 100% |
+| Trusted (≥50%) | 86 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,89 +22,91 @@ column_count: 84
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `CMGST` | 100.0% | trusted | |
-| `UVPAK` | 100.0% | trusted | |
-| `UVWAS` | 100.0% | trusted | |
-| `UVPIS` | 100.0% | trusted | |
-| `UVPAS` | 100.0% | trusted | |
-| `SAPRL` | 100.0% | trusted | |
-| `COSTA` | 100.0% | trusted | |
-| `KOQUK` | 100.0% | trusted | |
-| `TRSTA` | 100.0% | trusted | |
-| `CMPS2` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `CMPS1` | 100.0% | trusted | |
-| `CMPS0` | 100.0% | trusted | |
-| `CMPSL` | 100.0% | trusted | |
-| `CMPSK` | 100.0% | trusted | |
-| `CMPSJ` | 100.0% | trusted | |
-| `CMPSI` | 100.0% | trusted | |
-| `CMPSH` | 100.0% | trusted | |
-| `CMPSG` | 100.0% | trusted | |
-| `UVPIK` | 100.0% | trusted | |
-| `UVWAK` | 100.0% | trusted | |
-| `UVGEK` | 100.0% | trusted | |
-| `CMPSM` | 100.0% | trusted | |
-| `VBTYP_EXT` | 100.0% | trusted | |
-| `CMPS_TE` | 100.0% | trusted | |
-| `CMPS_CM` | 100.0% | trusted | |
-| `HDALS` | 100.0% | trusted | |
-| `HDALL` | 100.0% | trusted | |
-| `SPE_TMPID` | 100.0% | trusted | |
-| `MANEK` | 100.0% | trusted | |
-| `FMSTK` | 100.0% | trusted | |
-| `PDSTK` | 100.0% | trusted | |
-| `SPSTG` | 100.0% | trusted | |
-| `LSSTK` | 100.0% | trusted | |
-| `FSSTK` | 100.0% | trusted | |
-| `BLOCK` | 100.0% | trusted | |
-| `RRSTA` | 100.0% | trusted | |
-| `VLSTK` | 100.0% | trusted | |
-| `VESTK` | 100.0% | trusted | |
-| `DCSTK` | 100.0% | trusted | |
-| `CMPSF` | 100.0% | trusted | |
-| `CMPSE` | 100.0% | trusted | |
-| `CMPSD` | 100.0% | trusted | |
-| `UVFAK` | 100.0% | trusted | |
-| `UVALL` | 100.0% | trusted | |
-| `UVFAS` | 100.0% | trusted | |
-| `UVVLS` | 100.0% | trusted | |
-| `UVALS` | 100.0% | trusted | |
-| `LVSTK` | 100.0% | trusted | |
-| `KOSTK` | 100.0% | trusted | |
-| `GBSTK` | 100.0% | trusted | |
-| `ABSTK` | 100.0% | trusted | |
-| `BUCHK` | 100.0% | trusted | |
-| `FKSAK` | 100.0% | trusted | |
-| `FKSTK` | 100.0% | trusted | |
-| `WBSTK` | 100.0% | trusted | |
-| `LFGSK` | 100.0% | trusted | |
-| `LFSTK` | 100.0% | trusted | |
-| `BESTK` | 100.0% | trusted | |
-| `RFGSK` | 100.0% | trusted | |
-| `RFSTK` | 100.0% | trusted | |
-| `UVVLK` | 100.0% | trusted | |
-| `UVPRS` | 100.0% | trusted | |
-| `CMPSC` | 100.0% | trusted | |
-| `VBTYP` | 100.0% | trusted | |
-| `CMPSB` | 100.0% | trusted | |
-| `CMPSA` | 100.0% | trusted | |
-| `PKSTK` | 100.0% | trusted | |
-| `UVS05` | 100.0% | trusted | |
-| `UVS04` | 100.0% | trusted | |
-| `UVS03` | 100.0% | trusted | |
-| `UVS02` | 100.0% | trusted | |
-| `UVS01` | 100.0% | trusted | |
-| `UVK05` | 100.0% | trusted | |
-| `UVK04` | 100.0% | trusted | |
-| `UVK03` | 100.0% | trusted | |
-| `UVK02` | 100.0% | trusted | |
-| `UVK01` | 100.0% | trusted | |
-| `RELIK` | 100.0% | trusted | |
-| `FKIVK` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `VBOBJ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `cmgst` | 100.0% | trusted | |
+| `uvpak` | 100.0% | trusted | |
+| `uvwas` | 100.0% | trusted | |
+| `uvpis` | 100.0% | trusted | |
+| `uvpas` | 100.0% | trusted | |
+| `saprl` | 100.0% | trusted | |
+| `costa` | 100.0% | trusted | |
+| `koquk` | 100.0% | trusted | |
+| `trsta` | 100.0% | trusted | |
+| `cmps2` | 100.0% | trusted | |
+| `uvwak` | 100.0% | trusted | |
+| `cmps1` | 100.0% | trusted | |
+| `cmps0` | 100.0% | trusted | |
+| `cmpsl` | 100.0% | trusted | |
+| `cmpsk` | 100.0% | trusted | |
+| `cmpsj` | 100.0% | trusted | |
+| `cmpsi` | 100.0% | trusted | |
+| `cmpsh` | 100.0% | trusted | |
+| `cmpsg` | 100.0% | trusted | |
+| `uvpik` | 100.0% | trusted | |
+| `uvgek` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `fmstk` | 100.0% | trusted | |
+| `fsh_ar_stat_hdr` | 100.0% | trusted | |
+| `vbtyp_ext` | 100.0% | trusted | |
+| `cmps_te` | 100.0% | trusted | |
+| `cmps_cm` | 100.0% | trusted | |
+| `hdals` | 100.0% | trusted | |
+| `hdall` | 100.0% | trusted | |
+| `spe_tmpid` | 100.0% | trusted | |
+| `manek` | 100.0% | trusted | |
+| `pdstk` | 100.0% | trusted | |
+| `cmpsm` | 100.0% | trusted | |
+| `spstg` | 100.0% | trusted | |
+| `lsstk` | 100.0% | trusted | |
+| `fsstk` | 100.0% | trusted | |
+| `block` | 100.0% | trusted | |
+| `rrsta` | 100.0% | trusted | |
+| `vlstk` | 100.0% | trusted | |
+| `vestk` | 100.0% | trusted | |
+| `dcstk` | 100.0% | trusted | |
+| `cmpsf` | 100.0% | trusted | |
+| `cmpse` | 100.0% | trusted | |
+| `cmpsd` | 100.0% | trusted | |
+| `buchk` | 100.0% | trusted | |
+| `uvall` | 100.0% | trusted | |
+| `uvfas` | 100.0% | trusted | |
+| `uvvls` | 100.0% | trusted | |
+| `uvals` | 100.0% | trusted | |
+| `lvstk` | 100.0% | trusted | |
+| `kostk` | 100.0% | trusted | |
+| `gbstk` | 100.0% | trusted | |
+| `abstk` | 100.0% | trusted | |
+| `fksak` | 100.0% | trusted | |
+| `cmpsc` | 100.0% | trusted | |
+| `fkstk` | 100.0% | trusted | |
+| `wbstk` | 100.0% | trusted | |
+| `lfgsk` | 100.0% | trusted | |
+| `lfstk` | 100.0% | trusted | |
+| `bestk` | 100.0% | trusted | |
+| `rfgsk` | 100.0% | trusted | |
+| `rfstk` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `uvvlk` | 100.0% | trusted | |
+| `uvfak` | 100.0% | trusted | |
+| `uvprs` | 100.0% | trusted | |
+| `vbtyp` | 100.0% | trusted | |
+| `cmpsb` | 100.0% | trusted | |
+| `cmpsa` | 100.0% | trusted | |
+| `pkstk` | 100.0% | trusted | |
+| `uvs05` | 100.0% | trusted | |
+| `uvs04` | 100.0% | trusted | |
+| `uvs03` | 100.0% | trusted | |
+| `uvs02` | 100.0% | trusted | |
+| `uvs01` | 100.0% | trusted | |
+| `uvk05` | 100.0% | trusted | |
+| `uvk04` | 100.0% | trusted | |
+| `uvk03` | 100.0% | trusted | |
+| `uvk02` | 100.0% | trusted | |
+| `uvk01` | 100.0% | trusted | |
+| `relik` | 100.0% | trusted | |
+| `fkivk` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `vbobj` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

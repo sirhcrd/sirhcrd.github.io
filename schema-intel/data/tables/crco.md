@@ -1,9 +1,9 @@
 ---
 table: crco
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 17772
-column_count: 21
+row_count: 16203
+column_count: 22
 ---
 
 # crco
@@ -14,7 +14,7 @@ column_count: 21
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 21 | 100% |
+| Trusted (≥50%) | 22 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,8 @@ column_count: 21
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
 | `mandt` | 100.0% | trusted | |
-| `lstar` | 100.0% | trusted | |
 | `sakl` | 100.0% | trusted | |
 | `bde` | 100.0% | trusted | |
 | `leinh` | 100.0% | trusted | |
@@ -32,8 +32,8 @@ column_count: 21
 | `prz` | 100.0% | trusted | |
 | `forml` | 100.0% | trusted | |
 | `lstar_ref` | 100.0% | trusted | |
+| `lstar` | 100.0% | trusted | |
 | `kostl` | 100.0% | trusted | |
-| `objty` | 100.0% | trusted | |
 | `kokrs` | 100.0% | trusted | |
 | `aenam_kost` | 100.0% | trusted | |
 | `aedat_kost` | 100.0% | trusted | |
@@ -42,6 +42,7 @@ column_count: 21
 | `endda` | 100.0% | trusted | |
 | `laset` | 100.0% | trusted | |
 | `objid` | 100.0% | trusted | |
+| `objty` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

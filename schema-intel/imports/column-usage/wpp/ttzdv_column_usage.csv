@@ -1,0 +1,14 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,64,64,100.0,0,0.0
+2,client,64,64,100.0,0,0.0
+3,dstrule,64,64,100.0,0,0.0
+4,yearfrom,64,64,100.0,0,0.0
+5,monthfrom,64,64,100.0,0,0.0
+6,weekdfrom,64,64,100.0,0,0.0
+7,weekdcfrom,64,64,100.0,0,0.0
+8,timefrom,64,64,100.0,0,0.0
+9,monthto,64,64,100.0,0,0.0
+10,weekdto,64,64,100.0,0,0.0
+11,weekdcto,64,64,100.0,0,0.0
+12,timeto,64,64,100.0,0,0.0
+13,src_commit_time,64,64,100.0,0,0.0

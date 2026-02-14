@@ -1,0 +1,44 @@
+---
+table: a9sv
+source: wpp
+pulled_date: 2026-02-13
+row_count: 127598
+column_count: 16
+---
+
+# a9sv
+
+*Description needed — add context about what this table represents.*
+
+## Summary
+
+| Quality | Count | Percentage |
+|---------|-------|------------|
+| Trusted (≥50%) | 16 | 100% |
+| Neutral (5-50%) | 0 | 0% |
+| Dead (<5%) | 0 | 0% |
+
+## Columns
+
+| Column | Usage % | Quality | Description |
+|--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kappl` | 100.0% | trusted | |
+| `kschl` | 100.0% | trusted | |
+| `land1` | 100.0% | trusted | |
+| `regio` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `idcheck` | 100.0% | trusted | |
+| `steuc` | 100.0% | trusted | |
+| `kfrst` | 100.0% | trusted | |
+| `datbi` | 100.0% | trusted | |
+| `datab` | 100.0% | trusted | |
+| `kbstat` | 100.0% | trusted | |
+| `knumh` | 100.0% | trusted | |
+| `src_commit_time` | 100.0% | trusted | |
+
+## Notes
+
+*Add join information, gotchas, and usage patterns here.*

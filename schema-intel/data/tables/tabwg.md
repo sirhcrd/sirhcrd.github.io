@@ -1,9 +1,9 @@
 ---
 table: tabwg
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 246
-column_count: 22
+row_count: 439
+column_count: 23
 ---
 
 # tabwg
@@ -14,7 +14,7 @@ column_count: 22
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 22 | 100% |
+| Trusted (≥50%) | 23 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,8 @@ column_count: 22
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `bwagrp` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `bwatyp` | 100.0% | trusted | |
 | `jvman` | 100.0% | trusted | |
 | `s_activ` | 100.0% | trusted | |
 | `substid` | 100.0% | trusted | |
@@ -33,8 +33,8 @@ column_count: 22
 | `xbaafa` | 100.0% | trusted | |
 | `xbsafa` | 100.0% | trusted | |
 | `xbnafa` | 100.0% | trusted | |
-| `bwatyp` | 100.0% | trusted | |
 | `xaclas` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
 | `fldnm` | 100.0% | trusted | |
 | `gitcol` | 100.0% | trusted | |
 | `xantei` | 100.0% | trusted | |
@@ -43,6 +43,7 @@ column_count: 22
 | `awtfld` | 100.0% | trusted | |
 | `vzjsal` | 100.0% | trusted | |
 | `pergrp` | 100.0% | trusted | |
+| `bwagrp` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

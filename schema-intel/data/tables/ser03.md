@@ -1,9 +1,9 @@
 ---
 table: ser03
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 58143898
-column_count: 19
+row_count: 212355
+column_count: 20
 ---
 
 # ser03
@@ -14,7 +14,7 @@ column_count: 19
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 19 | 100% |
+| Trusted (≥50%) | 20 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,24 +22,25 @@ column_count: 19
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LETZNR` | 100.0% | trusted | |
-| `CHARGE` | 100.0% | trusted | |
-| `LAGERORT` | 100.0% | trusted | |
-| `WERK` | 100.0% | trusted | |
-| `KUNDE` | 100.0% | trusted | |
-| `LIEFERANT` | 100.0% | trusted | |
-| `VORGANG` | 100.0% | trusted | |
-| `ANZSN` | 100.0% | trusted | |
-| `UZEIT` | 100.0% | trusted | |
-| `OBKNR` | 100.0% | trusted | |
-| `DATUM` | 100.0% | trusted | |
-| `SHKZG` | 100.0% | trusted | |
-| `BWART` | 100.0% | trusted | |
-| `BLART` | 100.0% | trusted | |
-| `ZEILE` | 100.0% | trusted | |
-| `MJAHR` | 100.0% | trusted | |
-| `MBLNR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `charge` | 100.0% | trusted | |
+| `lagerort` | 100.0% | trusted | |
+| `werk` | 100.0% | trusted | |
+| `kunde` | 100.0% | trusted | |
+| `lieferant` | 100.0% | trusted | |
+| `vorgang` | 100.0% | trusted | |
+| `anzsn` | 100.0% | trusted | |
+| `letznr` | 100.0% | trusted | |
+| `uzeit` | 100.0% | trusted | |
+| `datum` | 100.0% | trusted | |
+| `shkzg` | 100.0% | trusted | |
+| `bwart` | 100.0% | trusted | |
+| `blart` | 100.0% | trusted | |
+| `zeile` | 100.0% | trusted | |
+| `mjahr` | 100.0% | trusted | |
+| `mblnr` | 100.0% | trusted | |
+| `obknr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

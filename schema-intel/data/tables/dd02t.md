@@ -1,9 +1,9 @@
 ---
 table: dd02t
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 3662791
-column_count: 6
+row_count: 5729293
+column_count: 7
 ---
 
 # dd02t
@@ -14,7 +14,7 @@ column_count: 6
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 6 | 100% |
+| Trusted (≥50%) | 7 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,11 +22,12 @@ column_count: 6
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `TABNAME` | 100.0% | trusted | |
-| `DDLANGUAGE` | 100.0% | trusted | |
-| `AS4LOCAL` | 100.0% | trusted | |
-| `AS4VERS` | 100.0% | trusted | |
-| `DDTEXT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `tabname` | 100.0% | trusted | |
+| `ddlanguage` | 100.0% | trusted | |
+| `as4local` | 100.0% | trusted | |
+| `as4vers` | 100.0% | trusted | |
+| `ddtext` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

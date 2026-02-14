@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,17554,17554,100.0,0,0.0
+2,mandt,17554,17554,100.0,0,0.0
+3,partner,17554,17554,100.0,0,0.0
+4,comp_code,17554,17554,100.0,0,0.0
+5,open_item_ref,17554,17554,100.0,0,0.0
+6,case_guid,17554,17554,100.0,0,0.0
+7,timestamp,17554,17554,100.0,0,0.0
+8,head_office,17554,17554,100.0,0,0.0
+9,src_commit_time,17554,17554,100.0,0,0.0

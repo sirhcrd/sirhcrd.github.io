@@ -1,9 +1,9 @@
 ---
 table: ttyp
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 129
-column_count: 5
+row_count: 131
+column_count: 6
 ---
 
 # ttyp
@@ -14,7 +14,7 @@ column_count: 5
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 5 | 100% |
+| Trusted (≥50%) | 6 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,10 +22,11 @@ column_count: 5
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `AWTYP` | 100.0% | trusted | |
-| `STRUC` | 100.0% | trusted | |
-| `FUNCTION` | 100.0% | trusted | |
-| `REMOTE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `awtyp` | 100.0% | trusted | |
+| `struc` | 100.0% | trusted | |
+| `function` | 100.0% | trusted | |
+| `remote` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

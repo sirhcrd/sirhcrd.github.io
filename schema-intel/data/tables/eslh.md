@@ -1,9 +1,9 @@
 ---
 table: eslh
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 784218
-column_count: 20
+row_count: 381593
+column_count: 21
 ---
 
 # eslh
@@ -14,7 +14,7 @@ column_count: 20
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 20 | 100% |
+| Trusted (≥50%) | 21 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,25 +22,26 @@ column_count: 20
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `PACKNO` | 100.0% | trusted | |
-| `VBTYP` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `WKURS` | 100.0% | trusted | |
-| `INT_USE` | 100.0% | trusted | |
-| `SUM_WORK` | 100.0% | trusted | |
-| `IWEIN` | 100.0% | trusted | |
-| `SUM_NETWR` | 100.0% | trusted | |
-| `CUOBJ` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `BSTYP` | 100.0% | trusted | |
-| `EBELP` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `KNUMV` | 100.0% | trusted | |
-| `HPACKNO` | 100.0% | trusted | |
-| `FPACKNO` | 100.0% | trusted | |
-| `DEL` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `cuobj` | 100.0% | trusted | |
+| `vbtyp` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `wkurs` | 100.0% | trusted | |
+| `int_use` | 100.0% | trusted | |
+| `sum_work` | 100.0% | trusted | |
+| `iwein` | 100.0% | trusted | |
+| `sum_netwr` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `bstyp` | 100.0% | trusted | |
+| `ebelp` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
+| `knumv` | 100.0% | trusted | |
+| `hpackno` | 100.0% | trusted | |
+| `fpackno` | 100.0% | trusted | |
+| `del` | 100.0% | trusted | |
+| `packno` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,0 +1,14 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,54,54,100.0,0,0.0
+2,mandt,54,54,100.0,0,0.0
+3,tstrtype,54,54,100.0,0,0.0
+4,tstreamid,54,54,100.0,0,0.0
+5,calendarid,54,54,100.0,0,0.0
+6,shiftprog,54,54,100.0,0,0.0
+7,created,54,54,100.0,0,0.0
+8,createdby,54,54,100.0,0,0.0
+9,changed,54,54,100.0,0,0.0
+10,changedby,54,54,100.0,0,0.0
+11,generate,54,54,100.0,0,0.0
+12,generateby,54,54,100.0,0,0.0
+13,src_commit_time,54,54,100.0,0,0.0

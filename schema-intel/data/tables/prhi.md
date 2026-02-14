@@ -1,9 +1,9 @@
 ---
 table: prhi
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2277384
-column_count: 8
+row_count: 796621
+column_count: 9
 ---
 
 # prhi
@@ -14,7 +14,7 @@ column_count: 8
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 100% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,13 +22,14 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `PSPHI` | 100.0% | trusted | |
-| `UP` | 100.0% | trusted | |
-| `DOWN` | 100.0% | trusted | |
-| `LEFT` | 100.0% | trusted | |
-| `RIGHT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `psphi` | 100.0% | trusted | |
+| `up` | 100.0% | trusted | |
+| `down` | 100.0% | trusted | |
+| `left` | 100.0% | trusted | |
+| `right` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

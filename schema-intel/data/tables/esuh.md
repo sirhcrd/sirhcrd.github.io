@@ -1,9 +1,9 @@
 ---
 table: esuh
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 183784
-column_count: 34
+row_count: 344740
+column_count: 35
 ---
 
 # esuh
@@ -14,7 +14,7 @@ column_count: 34
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 34 | 100% |
+| Trusted (≥50%) | 35 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,39 +22,40 @@ column_count: 34
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LB_PROZ` | 100.0% | trusted | |
-| `ACTLBLIM` | 100.0% | trusted | |
-| `PRS_CHG_LB` | 100.0% | trusted | |
-| `SPEC_NO` | 100.0% | trusted | |
-| `SPECLIMIT` | 100.0% | trusted | |
-| `PRS_CHG_MU` | 100.0% | trusted | |
-| `TMP_PROZ` | 100.0% | trusted | |
-| `CONT_PROZ` | 100.0% | trusted | |
-| `PACKNO` | 100.0% | trusted | |
-| `SPECNOLIM` | 100.0% | trusted | |
-| `ACTSPLIM` | 100.0% | trusted | |
-| `MWSKZ` | 100.0% | trusted | |
-| `TXJCD` | 100.0% | trusted | |
-| `NAVNW` | 100.0% | trusted | |
-| `KSTAR` | 100.0% | trusted | |
-| `LBNOLIM` | 100.0% | trusted | |
-| `LBLIMIT` | 100.0% | trusted | |
-| `AUSGB` | 100.0% | trusted | |
-| `LBNUM` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `RESTACT` | 100.0% | trusted | |
-| `RESTNOLIM` | 100.0% | trusted | |
-| `RESTLIMIT` | 100.0% | trusted | |
-| `PRS_CHG` | 100.0% | trusted | |
-| `PK_EXIST` | 100.0% | trusted | |
-| `VC_EXIST` | 100.0% | trusted | |
-| `ST_EXIT` | 100.0% | trusted | |
-| `ACTVALUE` | 100.0% | trusted | |
-| `COMMITMENT` | 100.0% | trusted | |
-| `SUMNOLIM` | 100.0% | trusted | |
-| `SUMLIMIT` | 100.0% | trusted | |
-| `PLN_PACKNO` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `lb_proz` | 100.0% | trusted | |
+| `actlblim` | 100.0% | trusted | |
+| `prs_chg_lb` | 100.0% | trusted | |
+| `spec_no` | 100.0% | trusted | |
+| `speclimit` | 100.0% | trusted | |
+| `prs_chg_mu` | 100.0% | trusted | |
+| `tmp_proz` | 100.0% | trusted | |
+| `cont_proz` | 100.0% | trusted | |
+| `lblimit` | 100.0% | trusted | |
+| `specnolim` | 100.0% | trusted | |
+| `actsplim` | 100.0% | trusted | |
+| `mwskz` | 100.0% | trusted | |
+| `txjcd` | 100.0% | trusted | |
+| `navnw` | 100.0% | trusted | |
+| `kstar` | 100.0% | trusted | |
+| `lbnolim` | 100.0% | trusted | |
+| `ausgb` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `st_exit` | 100.0% | trusted | |
+| `packno` | 100.0% | trusted | |
+| `pln_packno` | 100.0% | trusted | |
+| `sumlimit` | 100.0% | trusted | |
+| `sumnolim` | 100.0% | trusted | |
+| `commitment` | 100.0% | trusted | |
+| `actvalue` | 100.0% | trusted | |
+| `vc_exist` | 100.0% | trusted | |
+| `lbnum` | 100.0% | trusted | |
+| `pk_exist` | 100.0% | trusted | |
+| `prs_chg` | 100.0% | trusted | |
+| `restlimit` | 100.0% | trusted | |
+| `restnolim` | 100.0% | trusted | |
+| `restact` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

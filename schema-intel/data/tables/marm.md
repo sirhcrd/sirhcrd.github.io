@@ -1,9 +1,9 @@
 ---
 table: marm
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1122586
-column_count: 30
+row_count: 1104541
+column_count: 32
 ---
 
 # marm
@@ -14,7 +14,7 @@ column_count: 30
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 30 | 100% |
+| Trusted (≥50%) | 32 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,35 +22,37 @@ column_count: 30
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `TY2TQ` | 100.0% | trusted | |
-| `CAPAUSE` | 100.0% | trusted | |
-| `MAX_STACK` | 100.0% | trusted | |
-| `NEST_FTR` | 100.0% | trusted | |
-| `GTIN_VARIANT` | 100.0% | trusted | |
-| `BFLME_MARM` | 100.0% | trusted | |
-| `MSEHI` | 100.0% | trusted | |
-| `KZWSO` | 100.0% | trusted | |
-| `XBEWW` | 100.0% | trusted | |
-| `XFHDW` | 100.0% | trusted | |
-| `MESRT` | 100.0% | trusted | |
-| `ATINN` | 100.0% | trusted | |
-| `MESUB` | 100.0% | trusted | |
-| `GEWEI` | 100.0% | trusted | |
-| `BRGEW` | 100.0% | trusted | |
-| `VOLEH` | 100.0% | trusted | |
-| `VOLUM` | 100.0% | trusted | |
-| `MEABM` | 100.0% | trusted | |
-| `HOEHE` | 100.0% | trusted | |
-| `BREIT` | 100.0% | trusted | |
-| `LAENG` | 100.0% | trusted | |
-| `NUMTP` | 100.0% | trusted | |
-| `EAN11` | 100.0% | trusted | |
-| `EANNR` | 100.0% | trusted | |
-| `UMREN` | 100.0% | trusted | |
-| `UMREZ` | 100.0% | trusted | |
-| `MEINH` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `zzptyp` | 100.0% | trusted | |
+| `ty2tq` | 100.0% | trusted | |
+| `capause` | 100.0% | trusted | |
+| `max_stack` | 100.0% | trusted | |
+| `nest_ftr` | 100.0% | trusted | |
+| `gtin_variant` | 100.0% | trusted | |
+| `bflme_marm` | 100.0% | trusted | |
+| `msehi` | 100.0% | trusted | |
+| `kzwso` | 100.0% | trusted | |
+| `xbeww` | 100.0% | trusted | |
+| `xfhdw` | 100.0% | trusted | |
+| `mesrt` | 100.0% | trusted | |
+| `atinn` | 100.0% | trusted | |
+| `mesub` | 100.0% | trusted | |
+| `gewei` | 100.0% | trusted | |
+| `brgew` | 100.0% | trusted | |
+| `voleh` | 100.0% | trusted | |
+| `volum` | 100.0% | trusted | |
+| `meabm` | 100.0% | trusted | |
+| `hoehe` | 100.0% | trusted | |
+| `breit` | 100.0% | trusted | |
+| `laeng` | 100.0% | trusted | |
+| `numtp` | 100.0% | trusted | |
+| `ean11` | 100.0% | trusted | |
+| `eannr` | 100.0% | trusted | |
+| `umren` | 100.0% | trusted | |
+| `umrez` | 100.0% | trusted | |
+| `meinh` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

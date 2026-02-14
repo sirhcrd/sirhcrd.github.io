@@ -1,9 +1,9 @@
 ---
 table: lagp
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 319029
-column_count: 48
+row_count: 83508
+column_count: 49
 ---
 
 # lagp
@@ -14,7 +14,7 @@ column_count: 48
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 48 | 100% |
+| Trusted (≥50%) | 49 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,53 +22,54 @@ column_count: 48
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LGNUM` | 100.0% | trusted | |
-| `RZEIT` | 100.0% | trusted | |
-| `KZINV` | 100.0% | trusted | |
-| `IDATU` | 100.0% | trusted | |
-| `IVNUM` | 100.0% | trusted | |
-| `IVPOS` | 100.0% | trusted | |
-| `IVIVO` | 100.0% | trusted | |
-| `KZLER` | 100.0% | trusted | |
-| `KZVOL` | 100.0% | trusted | |
-| `SORLP` | 100.0% | trusted | |
-| `BRAND` | 100.0% | trusted | |
-| `UNAME` | 100.0% | trusted | |
-| `LAEDT` | 100.0% | trusted | |
-| `LKAPV` | 100.0% | trusted | |
-| `RKAPV` | 100.0% | trusted | |
-| `KOBER` | 100.0% | trusted | |
-| `REIHF` | 100.0% | trusted | |
-| `VERIF` | 100.0% | trusted | |
-| `LZONE` | 100.0% | trusted | |
-| `XCORD` | 100.0% | trusted | |
-| `YCORD` | 100.0% | trusted | |
-| `ZCORD` | 100.0% | trusted | |
-| `RDATU` | 100.0% | trusted | |
-| `BTAPS` | 100.0% | trusted | |
-| `BTANR` | 100.0% | trusted | |
-| `SKZSI` | 100.0% | trusted | |
-| `LGTYP` | 100.0% | trusted | |
-| `LGPLA` | 100.0% | trusted | |
-| `LGBER` | 100.0% | trusted | |
-| `LPTYP` | 100.0% | trusted | |
-| `PLAUF` | 100.0% | trusted | |
-| `SKZUA` | 100.0% | trusted | |
-| `SKZUE` | 100.0% | trusted | |
-| `SKZSA` | 100.0% | trusted | |
-| `SKZSE` | 100.0% | trusted | |
-| `SPGRU` | 100.0% | trusted | |
-| `BZEIT` | 100.0% | trusted | |
-| `ANZQU` | 100.0% | trusted | |
-| `MAXQU` | 100.0% | trusted | |
-| `ANZLE` | 100.0% | trusted | |
-| `MAXLE` | 100.0% | trusted | |
-| `KZDYN` | 100.0% | trusted | |
-| `LGEWI` | 100.0% | trusted | |
-| `GEWEI` | 100.0% | trusted | |
-| `MGEWI` | 100.0% | trusted | |
-| `BDATU` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `btaps` | 100.0% | trusted | |
+| `rzeit` | 100.0% | trusted | |
+| `kzinv` | 100.0% | trusted | |
+| `idatu` | 100.0% | trusted | |
+| `ivnum` | 100.0% | trusted | |
+| `ivpos` | 100.0% | trusted | |
+| `ivivo` | 100.0% | trusted | |
+| `kzler` | 100.0% | trusted | |
+| `kzvol` | 100.0% | trusted | |
+| `sorlp` | 100.0% | trusted | |
+| `brand` | 100.0% | trusted | |
+| `uname` | 100.0% | trusted | |
+| `laedt` | 100.0% | trusted | |
+| `lkapv` | 100.0% | trusted | |
+| `rkapv` | 100.0% | trusted | |
+| `kober` | 100.0% | trusted | |
+| `reihf` | 100.0% | trusted | |
+| `verif` | 100.0% | trusted | |
+| `lzone` | 100.0% | trusted | |
+| `xcord` | 100.0% | trusted | |
+| `ycord` | 100.0% | trusted | |
+| `zcord` | 100.0% | trusted | |
+| `rdatu` | 100.0% | trusted | |
+| `btanr` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `bzeit` | 100.0% | trusted | |
+| `lgnum` | 100.0% | trusted | |
+| `lgtyp` | 100.0% | trusted | |
+| `lgpla` | 100.0% | trusted | |
+| `lgber` | 100.0% | trusted | |
+| `lptyp` | 100.0% | trusted | |
+| `plauf` | 100.0% | trusted | |
+| `skzua` | 100.0% | trusted | |
+| `skzue` | 100.0% | trusted | |
+| `skzsa` | 100.0% | trusted | |
+| `skzse` | 100.0% | trusted | |
+| `skzsi` | 100.0% | trusted | |
+| `spgru` | 100.0% | trusted | |
+| `anzqu` | 100.0% | trusted | |
+| `maxqu` | 100.0% | trusted | |
+| `anzle` | 100.0% | trusted | |
+| `maxle` | 100.0% | trusted | |
+| `kzdyn` | 100.0% | trusted | |
+| `lgewi` | 100.0% | trusted | |
+| `gewei` | 100.0% | trusted | |
+| `mgewi` | 100.0% | trusted | |
+| `bdatu` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

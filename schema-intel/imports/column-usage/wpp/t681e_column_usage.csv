@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,4324,4324,100.0,0,0.0
+2,kvewe,4324,4324,100.0,0,0.0
+3,kotabnr,4324,4324,100.0,0,0.0
+4,setyp,4324,4324,100.0,0,0.0
+5,fsetyp,4324,4324,100.0,0,0.0
+6,fselnr,4324,4324,100.0,0,0.0
+7,sefeld,4324,4324,100.0,0,0.0
+8,fsetxt,4324,4324,100.0,0,0.0
+9,src_commit_time,4324,4324,100.0,0,0.0

@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,504,504,100.0,0,0.0
+2,mandt,504,504,100.0,0,0.0
+3,spras,504,504,100.0,0,0.0
+4,bsark,504,504,100.0,0,0.0
+5,vtext,504,504,100.0,0,0.0
+6,src_commit_time,504,504,100.0,0,0.0

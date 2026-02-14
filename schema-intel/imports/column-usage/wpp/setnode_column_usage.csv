@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,46743,46743,100.0,0,0.0
+2,mandt,46743,46743,100.0,0,0.0
+3,setclass,46743,46743,100.0,0,0.0
+4,subclass,46743,46743,100.0,0,0.0
+5,setname,46743,46743,100.0,0,0.0
+6,lineid,46743,46743,100.0,0,0.0
+7,subsetcls,46743,46743,100.0,0,0.0
+8,subsetscls,46743,46743,100.0,0,0.0
+9,subsetname,46743,46743,100.0,0,0.0
+10,seqnr,46743,46743,100.0,0,0.0
+11,src_commit_time,46743,46743,100.0,0,0.0

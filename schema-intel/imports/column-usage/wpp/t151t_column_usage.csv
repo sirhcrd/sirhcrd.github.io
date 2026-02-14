@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,420,420,100.0,0,0.0
+2,mandt,420,420,100.0,0,0.0
+3,spras,420,420,100.0,0,0.0
+4,kdgrp,420,420,100.0,0,0.0
+5,ktext,420,420,100.0,0,0.0
+6,src_commit_time,420,420,100.0,0,0.0

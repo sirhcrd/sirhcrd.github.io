@@ -1,9 +1,9 @@
 ---
 table: knat
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2364
-column_count: 10
+row_count: 4027
+column_count: 11
 ---
 
 # knat
@@ -14,7 +14,7 @@ column_count: 10
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 10 | 100% |
+| Trusted (≥50%) | 11 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,15 +22,16 @@ column_count: 10
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `TAXGR` | 100.0% | trusted | |
-| `SBJDF` | 100.0% | trusted | |
-| `SBJDT` | 100.0% | trusted | |
-| `EXNR` | 100.0% | trusted | |
-| `EXRT` | 100.0% | trusted | |
-| `EXDF` | 100.0% | trusted | |
-| `EXDT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `taxgr` | 100.0% | trusted | |
+| `sbjdf` | 100.0% | trusted | |
+| `sbjdt` | 100.0% | trusted | |
+| `exnr` | 100.0% | trusted | |
+| `exrt` | 100.0% | trusted | |
+| `exdf` | 100.0% | trusted | |
+| `exdt` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

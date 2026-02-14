@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,884,884,100.0,0,0.0
+2,mandt,884,884,100.0,0,0.0
+3,land1,884,884,100.0,0,0.0
+4,teleffrom,884,884,100.0,0,0.0
+5,telefto,884,884,100.0,0,0.0
+6,telefrm,884,884,100.0,0,0.0
+7,telexfrom,884,884,100.0,0,0.0
+8,telexto,884,884,100.0,0,0.0
+9,mobile_sms,884,884,100.0,0,0.0
+10,src_commit_time,884,884,100.0,0,0.0

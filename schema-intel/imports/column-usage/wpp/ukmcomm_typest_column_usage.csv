@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,595,595,100.0,0,0.0
+2,client,595,595,100.0,0,0.0
+3,langu,595,595,100.0,0,0.0
+4,comm_typ,595,595,100.0,0,0.0
+5,comm_typ_txt,595,595,100.0,0,0.0
+6,src_commit_time,595,595,100.0,0,0.0

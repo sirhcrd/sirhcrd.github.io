@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,20,20,100.0,0,0.0
+2,client,20,20,100.0,0,0.0
+3,dstrule,20,20,100.0,0,0.0
+4,yearact,20,20,100.0,0,0.0
+5,datefrom,20,20,100.0,0,0.0
+6,timefrom,20,20,100.0,0,0.0
+7,dateto,20,20,100.0,0,0.0
+8,timeto,20,20,100.0,0,0.0
+9,src_commit_time,20,20,100.0,0,0.0

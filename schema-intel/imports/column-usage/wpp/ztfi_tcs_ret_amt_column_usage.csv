@@ -1,0 +1,13 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,691,691,100.0,0,0.0
+2,mandt,691,691,100.0,0,0.0
+3,thld_cat,691,691,100.0,0,0.0
+4,buyer_idtype,691,691,100.0,0,0.0
+5,buyer_id,691,691,100.0,0,0.0
+6,kunnr,691,691,100.0,0,0.0
+7,retro_amt,691,691,100.0,0,0.0
+8,created_by,691,691,100.0,0,0.0
+9,created_on,691,691,100.0,0,0.0
+10,changed_by,691,691,100.0,0,0.0
+11,changed_on,691,691,100.0,0,0.0
+12,src_commit_time,691,691,100.0,0,0.0

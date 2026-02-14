@@ -1,9 +1,9 @@
 ---
 table: ebewh
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 28635376
-column_count: 19
+row_count: 1930
+column_count: 20
 ---
 
 # ebewh
@@ -14,7 +14,7 @@ column_count: 19
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 19 | 100% |
+| Trusted (≥50%) | 20 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,24 +22,25 @@ column_count: 19
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SALK3` | 100.0% | trusted | |
-| `VKSAL` | 100.0% | trusted | |
-| `SALKV` | 100.0% | trusted | |
-| `BKLAS` | 100.0% | trusted | |
-| `PEINH` | 100.0% | trusted | |
-| `STPRS` | 100.0% | trusted | |
-| `VERPR` | 100.0% | trusted | |
-| `VPRSV` | 100.0% | trusted | |
-| `LBKUM` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `LFMON` | 100.0% | trusted | |
-| `LFGJA` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `BWTAR` | 100.0% | trusted | |
-| `BWKEY` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `vksal` | 100.0% | trusted | |
+| `salkv` | 100.0% | trusted | |
+| `bklas` | 100.0% | trusted | |
+| `peinh` | 100.0% | trusted | |
+| `stprs` | 100.0% | trusted | |
+| `verpr` | 100.0% | trusted | |
+| `vprsv` | 100.0% | trusted | |
+| `salk3` | 100.0% | trusted | |
+| `lbkum` | 100.0% | trusted | |
+| `lfmon` | 100.0% | trusted | |
+| `lfgja` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `bwtar` | 100.0% | trusted | |
+| `bwkey` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

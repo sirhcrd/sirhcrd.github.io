@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,3020,3020,100.0,0,0.0
+2,spras,3020,3020,100.0,0,0.0
+3,kappl,3020,3020,100.0,0,0.0
+4,vtext,3020,3020,100.0,0,0.0
+5,src_commit_time,3020,3020,100.0,0,0.0

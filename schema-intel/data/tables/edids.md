@@ -1,9 +1,9 @@
 ---
 table: edids
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 825331722
-column_count: 27
+row_count: 594152982
+column_count: 28
 ---
 
 # edids
@@ -14,7 +14,7 @@ column_count: 27
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 27 | 100% |
+| Trusted (≥50%) | 28 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,32 +22,33 @@ column_count: 27
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SEGFLD` | 100.0% | trusted | |
-| `_DATAAGING` | 100.0% | trusted | |
-| `APPL_LOG` | 100.0% | trusted | |
-| `TID` | 100.0% | trusted | |
-| `STAMNO` | 100.0% | trusted | |
-| `STAMID` | 100.0% | trusted | |
-| `STAMQU` | 100.0% | trusted | |
-| `STATYP` | 100.0% | trusted | |
-| `STAPA4` | 100.0% | trusted | |
-| `STAPA3` | 100.0% | trusted | |
-| `STAPA2` | 100.0% | trusted | |
-| `STAPA1` | 100.0% | trusted | |
-| `SEGNUM` | 100.0% | trusted | |
-| `DOCNUM` | 100.0% | trusted | |
-| `STATXT` | 100.0% | trusted | |
-| `STACOD` | 100.0% | trusted | |
-| `ROUTID` | 100.0% | trusted | |
-| `REPID` | 100.0% | trusted | |
-| `UNAME` | 100.0% | trusted | |
-| `STATUS` | 100.0% | trusted | |
-| `CRETIM` | 100.0% | trusted | |
-| `CREDAT` | 100.0% | trusted | |
-| `COUNTR` | 100.0% | trusted | |
-| `LOGTIM` | 100.0% | trusted | |
-| `LOGDAT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
+| `appl_log` | 100.0% | trusted | |
+| `tid` | 100.0% | trusted | |
+| `stamno` | 100.0% | trusted | |
+| `stamid` | 100.0% | trusted | |
+| `stamqu` | 100.0% | trusted | |
+| `statyp` | 100.0% | trusted | |
+| `stapa4` | 100.0% | trusted | |
+| `stapa3` | 100.0% | trusted | |
+| `stapa2` | 100.0% | trusted | |
+| `stapa1` | 100.0% | trusted | |
+| `segfld` | 100.0% | trusted | |
+| `segnum` | 100.0% | trusted | |
+| `statxt` | 100.0% | trusted | |
+| `stacod` | 100.0% | trusted | |
+| `routid` | 100.0% | trusted | |
+| `repid` | 100.0% | trusted | |
+| `uname` | 100.0% | trusted | |
+| `status` | 100.0% | trusted | |
+| `cretim` | 100.0% | trusted | |
+| `credat` | 100.0% | trusted | |
+| `countr` | 100.0% | trusted | |
+| `logtim` | 100.0% | trusted | |
+| `logdat` | 100.0% | trusted | |
+| `docnum` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

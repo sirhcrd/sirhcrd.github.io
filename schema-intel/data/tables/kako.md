@@ -1,9 +1,9 @@
 ---
 table: kako
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 5188
-column_count: 77
+row_count: 2949
+column_count: 78
 ---
 
 # kako
@@ -14,7 +14,7 @@ column_count: 77
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 77 | 100% |
+| Trusted (≥50%) | 78 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,82 +22,83 @@ column_count: 77
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SORT` | 100.0% | trusted | |
-| `MAX_STORAGE` | 100.0% | trusted | |
-| `MIN_STORAGE` | 100.0% | trusted | |
-| `STORAGE_CAPABLE` | 100.0% | trusted | |
-| `LC_DAYS_PLUS` | 100.0% | trusted | |
-| `LC_DAYS_MINUS` | 100.0% | trusted | |
-| `DEFINE_BUCKETS` | 100.0% | trusted | |
-| `SYNC_START` | 100.0% | trusted | |
-| `LOSS_FACTOR` | 100.0% | trusted | |
-| `PERIOD` | 100.0% | trusted | |
-| `MIN_OVERLAP_UNIT` | 100.0% | trusted | |
-| `MIN_OVERLAP` | 100.0% | trusted | |
-| `START_ON_GRID` | 100.0% | trusted | |
-| `OVERLAP_BUCKETS` | 100.0% | trusted | |
-| `UNDERLOAD` | 100.0% | trusted | |
-| `IS_BOTTLENECK` | 100.0% | trusted | |
-| `BUFFERTIME_UNIT` | 100.0% | trusted | |
-| `STORAGE_UNIT` | 100.0% | trusted | |
-| `DIM_STORAGE` | 100.0% | trusted | |
-| `STORAGE_TO_ZERO` | 100.0% | trusted | |
-| `SNPLC` | 100.0% | trusted | |
-| `MIX_PLAN_TYPE` | 100.0% | trusted | |
-| `PP_BUCKET_FACT` | 100.0% | trusted | |
-| `PP_BUCKET_SCHEMA` | 100.0% | trusted | |
-| `PP_DEF_BUCKETS` | 100.0% | trusted | |
-| `MDRMODEL` | 100.0% | trusted | |
-| `RITT_FLG` | 100.0% | trusted | |
-| `BR_TUNIT` | 100.0% | trusted | |
-| `BR_TIME` | 100.0% | trusted | |
-| `BR_QUNIT` | 100.0% | trusted | |
-| `BR_QUANT` | 100.0% | trusted | |
-| `FINITY_LEVEL` | 100.0% | trusted | |
-| `TSTREAM_EXTERNAL` | 100.0% | trusted | |
-| `CAMPAIGN_SNP` | 100.0% | trusted | |
-| `CAMPAIGN_PPDS` | 100.0% | trusted | |
-| `UTIL_BUCKET` | 100.0% | trusted | |
-| `BUFFERTIME` | 100.0% | trusted | |
-| `NUM_OF_PERIODS` | 100.0% | trusted | |
-| `KAPID` | 100.0% | trusted | |
-| `KAPAR` | 100.0% | trusted | |
-| `POOLK` | 100.0% | trusted | |
-| `PLANR` | 100.0% | trusted | |
-| `PAUSE` | 100.0% | trusted | |
-| `NGRAD` | 100.0% | trusted | |
-| `NAME` | 100.0% | trusted | |
-| `MOSID` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `KALID` | 100.0% | trusted | |
-| `CAPACITY_A_UNIT` | 100.0% | trusted | |
-| `ENDZT` | 100.0% | trusted | |
-| `BRGRU` | 100.0% | trusted | |
-| `BEGZT` | 100.0% | trusted | |
-| `BASZL` | 100.0% | trusted | |
-| `BASNE` | 100.0% | trusted | |
-| `AZNOR` | 100.0% | trusted | |
-| `AZMAX` | 100.0% | trusted | |
-| `REFAN` | 100.0% | trusted | |
-| `REFAZ` | 100.0% | trusted | |
-| `REFID` | 100.0% | trusted | |
-| `SUPPK` | 100.0% | trusted | |
-| `CAPACITY_A` | 100.0% | trusted | |
-| `RESTYPE` | 100.0% | trusted | |
-| `TYPE` | 100.0% | trusted | |
-| `ANG_MAX` | 100.0% | trusted | |
-| `ANG_MIN` | 100.0% | trusted | |
-| `ANG_UNIT` | 100.0% | trusted | |
-| `MEHR` | 100.0% | trusted | |
-| `KAPEH` | 100.0% | trusted | |
-| `KAPLPL` | 100.0% | trusted | |
-| `UEBERLAST` | 100.0% | trusted | |
-| `KAPAVO` | 100.0% | trusted | |
-| `KAPTER` | 100.0% | trusted | |
-| `KAPIE` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `VERSA` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `loss_factor` | 100.0% | trusted | |
+| `min_storage` | 100.0% | trusted | |
+| `storage_capable` | 100.0% | trusted | |
+| `lc_days_plus` | 100.0% | trusted | |
+| `lc_days_minus` | 100.0% | trusted | |
+| `define_buckets` | 100.0% | trusted | |
+| `sync_start` | 100.0% | trusted | |
+| `sort` | 100.0% | trusted | |
+| `min_overlap_unit` | 100.0% | trusted | |
+| `storage_unit` | 100.0% | trusted | |
+| `min_overlap` | 100.0% | trusted | |
+| `start_on_grid` | 100.0% | trusted | |
+| `overlap_buckets` | 100.0% | trusted | |
+| `underload` | 100.0% | trusted | |
+| `is_bottleneck` | 100.0% | trusted | |
+| `buffertime_unit` | 100.0% | trusted | |
+| `buffertime` | 100.0% | trusted | |
+| `max_storage` | 100.0% | trusted | |
+| `dim_storage` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `br_time` | 100.0% | trusted | |
+| `mix_plan_type` | 100.0% | trusted | |
+| `pp_bucket_fact` | 100.0% | trusted | |
+| `pp_bucket_schema` | 100.0% | trusted | |
+| `pp_def_buckets` | 100.0% | trusted | |
+| `mdrmodel` | 100.0% | trusted | |
+| `ritt_flg` | 100.0% | trusted | |
+| `br_tunit` | 100.0% | trusted | |
+| `br_qunit` | 100.0% | trusted | |
+| `storage_to_zero` | 100.0% | trusted | |
+| `br_quant` | 100.0% | trusted | |
+| `finity_level` | 100.0% | trusted | |
+| `tstream_external` | 100.0% | trusted | |
+| `campaign_snp` | 100.0% | trusted | |
+| `campaign_ppds` | 100.0% | trusted | |
+| `util_bucket` | 100.0% | trusted | |
+| `snplc` | 100.0% | trusted | |
+| `period` | 100.0% | trusted | |
+| `num_of_periods` | 100.0% | trusted | |
+| `capacity_a_unit` | 100.0% | trusted | |
+| `kalid` | 100.0% | trusted | |
+| `planr` | 100.0% | trusted | |
+| `pause` | 100.0% | trusted | |
+| `ngrad` | 100.0% | trusted | |
+| `name` | 100.0% | trusted | |
+| `mosid` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `kapar` | 100.0% | trusted | |
+| `endzt` | 100.0% | trusted | |
+| `capacity_a` | 100.0% | trusted | |
+| `brgru` | 100.0% | trusted | |
+| `begzt` | 100.0% | trusted | |
+| `baszl` | 100.0% | trusted | |
+| `basne` | 100.0% | trusted | |
+| `aznor` | 100.0% | trusted | |
+| `azmax` | 100.0% | trusted | |
+| `kapid` | 100.0% | trusted | |
+| `poolk` | 100.0% | trusted | |
+| `refan` | 100.0% | trusted | |
+| `refaz` | 100.0% | trusted | |
+| `refid` | 100.0% | trusted | |
+| `restype` | 100.0% | trusted | |
+| `type` | 100.0% | trusted | |
+| `ang_max` | 100.0% | trusted | |
+| `ang_min` | 100.0% | trusted | |
+| `ang_unit` | 100.0% | trusted | |
+| `mehr` | 100.0% | trusted | |
+| `kapeh` | 100.0% | trusted | |
+| `kaplpl` | 100.0% | trusted | |
+| `ueberlast` | 100.0% | trusted | |
+| `kapavo` | 100.0% | trusted | |
+| `kapter` | 100.0% | trusted | |
+| `kapie` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `versa` | 100.0% | trusted | |
+| `suppk` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1449,1449,100.0,0,0.0
+2,mandt,1449,1449,100.0,0,0.0
+3,knumh,1449,1449,100.0,0,0.0
+4,kposn,1449,1449,100.0,0,0.0
+5,smatn,1449,1449,100.0,0,0.0
+6,meins,1449,1449,100.0,0,0.0
+7,psdsp,1449,1449,100.0,0,0.0
+8,lstacs,1449,1449,100.0,0,0.0
+9,src_commit_time,1449,1449,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: cawnt
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 208839
-column_count: 11
+row_count: 21624
+column_count: 12
 ---
 
 # cawnt
@@ -14,7 +14,7 @@ column_count: 11
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 11 | 100% |
+| Trusted (≥50%) | 12 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,16 +22,17 @@ column_count: 11
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `ATINN` | 100.0% | trusted | |
-| `ATZHL` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `ADZHL` | 100.0% | trusted | |
-| `ATWTB` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `TECHV` | 100.0% | trusted | |
-| `AENNR` | 100.0% | trusted | |
-| `LKENZ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `atinn` | 100.0% | trusted | |
+| `atzhl` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `adzhl` | 100.0% | trusted | |
+| `atwtb` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `techv` | 100.0% | trusted | |
+| `aennr` | 100.0% | trusted | |
+| `lkenz` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: j_1imovend
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 8382
-column_count: 25
+row_count: 4835
+column_count: 24
 ---
 
 # j_1imovend
@@ -14,7 +14,7 @@ column_count: 25
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 25 | 100% |
+| Trusted (≥50%) | 24 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,30 +22,29 @@ column_count: 25
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `J_1IVENCRE` | 100.0% | trusted | |
-| `CORP_IDENT_NO` | 100.0% | trusted | |
-| `PSU_VEN` | 100.0% | trusted | |
-| `VEN_CLASS` | 100.0% | trusted | |
-| `J_1IDEDREF` | 100.0% | trusted | |
-| `J_1I_CUSTOMS` | 100.0% | trusted | |
-| `J_1IPANVALDT` | 100.0% | trusted | |
-| `J_1IPANREF` | 100.0% | trusted | |
-| `J_1ISERN` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `J_1IVTYP` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `J_1ISSIST` | 100.0% | trusted | |
-| `J_1IEXCIVE` | 100.0% | trusted | |
-| `J_1IPANNO` | 100.0% | trusted | |
-| `J_1ILSTNO` | 100.0% | trusted | |
-| `J_1ICSTNO` | 100.0% | trusted | |
-| `J_1IEXCO` | 100.0% | trusted | |
-| `J_1IEXDI` | 100.0% | trusted | |
-| `J_1IEXRG` | 100.0% | trusted | |
-| `J_1IEXRN` | 100.0% | trusted | |
-| `J_1IEXCD` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ven_class` | 100.0% | trusted | |
+| `j_1idedref` | 100.0% | trusted | |
+| `j_1i_customs` | 100.0% | trusted | |
+| `j_1ipanvaldt` | 100.0% | trusted | |
+| `j_1ipanref` | 100.0% | trusted | |
+| `j_1isern` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `j_1ivencre` | 100.0% | trusted | |
+| `j_1ivtyp` | 100.0% | trusted | |
+| `j_1issist` | 100.0% | trusted | |
+| `j_1iexcive` | 100.0% | trusted | |
+| `j_1ipanno` | 100.0% | trusted | |
+| `j_1ilstno` | 100.0% | trusted | |
+| `j_1icstno` | 100.0% | trusted | |
+| `j_1iexco` | 100.0% | trusted | |
+| `j_1iexdi` | 100.0% | trusted | |
+| `j_1iexrg` | 100.0% | trusted | |
+| `j_1iexrn` | 100.0% | trusted | |
+| `j_1iexcd` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

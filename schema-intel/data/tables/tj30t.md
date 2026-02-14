@@ -1,9 +1,9 @@
 ---
 table: tj30t
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 6990
-column_count: 8
+row_count: 27768
+column_count: 9
 ---
 
 # tj30t
@@ -14,7 +14,7 @@ column_count: 8
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 100% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,13 +22,14 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `STSMA` | 100.0% | trusted | |
-| `ESTAT` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `TXT04` | 100.0% | trusted | |
-| `TXT30` | 100.0% | trusted | |
-| `LTEXT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `stsma` | 100.0% | trusted | |
+| `estat` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `txt04` | 100.0% | trusted | |
+| `txt30` | 100.0% | trusted | |
+| `ltext` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

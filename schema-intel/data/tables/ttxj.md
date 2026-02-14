@@ -1,9 +1,9 @@
 ---
 table: ttxj
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 176
-column_count: 6
+row_count: 320
+column_count: 7
 ---
 
 # ttxj
@@ -14,7 +14,7 @@ column_count: 6
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 6 | 100% |
+| Trusted (≥50%) | 7 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,11 +22,12 @@ column_count: 6
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KALSM` | 100.0% | trusted | |
-| `TXJCD` | 100.0% | trusted | |
-| `XSKFN` | 100.0% | trusted | |
-| `XMWSN` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kalsm` | 100.0% | trusted | |
+| `txjcd` | 100.0% | trusted | |
+| `xskfn` | 100.0% | trusted | |
+| `xmwsn` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

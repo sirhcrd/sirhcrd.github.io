@@ -1,9 +1,9 @@
 ---
 table: linv
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 448996
-column_count: 40
+row_count: 3781013
+column_count: 41
 ---
 
 # linv
@@ -14,7 +14,7 @@ column_count: 40
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 40 | 100% |
+| Trusted (≥50%) | 41 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,45 +22,46 @@ column_count: 40
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LGNUM` | 100.0% | trusted | |
-| `UMREN` | 100.0% | trusted | |
-| `BESTQ` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `SONUM` | 100.0% | trusted | |
-| `WDATU` | 100.0% | trusted | |
-| `GESME` | 100.0% | trusted | |
-| `IDATU` | 100.0% | trusted | |
-| `KZINV` | 100.0% | trusted | |
-| `IRNUM` | 100.0% | trusted | |
-| `TANUM` | 100.0% | trusted | |
-| `TAPOS` | 100.0% | trusted | |
-| `LENUM` | 100.0% | trusted | |
-| `VFDAT` | 100.0% | trusted | |
-| `LGORT` | 100.0% | trusted | |
-| `UNAME` | 100.0% | trusted | |
-| `QUINV` | 100.0% | trusted | |
-| `SGT_SCAT` | 100.0% | trusted | |
-| `UMREZ` | 100.0% | trusted | |
-| `ALTME` | 100.0% | trusted | |
-| `MENGA` | 100.0% | trusted | |
-| `LGTYP` | 100.0% | trusted | |
-| `IVNUM` | 100.0% | trusted | |
-| `IVPOS` | 100.0% | trusted | |
-| `LQNUM` | 100.0% | trusted | |
-| `NANUM` | 100.0% | trusted | |
-| `ISTAT` | 100.0% | trusted | |
-| `NVERS` | 100.0% | trusted | |
-| `ISEIT` | 100.0% | trusted | |
-| `LGPLA` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `PLPOS` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `LETYP` | 100.0% | trusted | |
-| `ANZLE` | 100.0% | trusted | |
-| `MENGE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `altme` | 100.0% | trusted | |
+| `umren` | 100.0% | trusted | |
+| `bestq` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `sonum` | 100.0% | trusted | |
+| `wdatu` | 100.0% | trusted | |
+| `gesme` | 100.0% | trusted | |
+| `idatu` | 100.0% | trusted | |
+| `kzinv` | 100.0% | trusted | |
+| `irnum` | 100.0% | trusted | |
+| `tanum` | 100.0% | trusted | |
+| `tapos` | 100.0% | trusted | |
+| `lenum` | 100.0% | trusted | |
+| `vfdat` | 100.0% | trusted | |
+| `lgort` | 100.0% | trusted | |
+| `uname` | 100.0% | trusted | |
+| `quinv` | 100.0% | trusted | |
+| `sgt_scat` | 100.0% | trusted | |
+| `umrez` | 100.0% | trusted | |
+| `menga` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `lgnum` | 100.0% | trusted | |
+| `ivnum` | 100.0% | trusted | |
+| `ivpos` | 100.0% | trusted | |
+| `lqnum` | 100.0% | trusted | |
+| `nanum` | 100.0% | trusted | |
+| `istat` | 100.0% | trusted | |
+| `nvers` | 100.0% | trusted | |
+| `iseit` | 100.0% | trusted | |
+| `lgtyp` | 100.0% | trusted | |
+| `lgpla` | 100.0% | trusted | |
+| `plpos` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `letyp` | 100.0% | trusted | |
+| `anzle` | 100.0% | trusted | |
+| `menge` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

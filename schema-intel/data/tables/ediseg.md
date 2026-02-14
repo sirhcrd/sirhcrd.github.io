@@ -1,9 +1,9 @@
 ---
 table: ediseg
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1045
-column_count: 10
+row_count: 986
+column_count: 11
 ---
 
 # ediseg
@@ -14,7 +14,7 @@ column_count: 10
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 10 | 100% |
+| Trusted (≥50%) | 11 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,15 +22,16 @@ column_count: 10
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `SEGNAM` | 100.0% | trusted | |
-| `SEGLEN` | 100.0% | trusted | |
-| `RELEASED` | 100.0% | trusted | |
-| `SEGTYP` | 100.0% | trusted | |
-| `CIMFLAG` | 100.0% | trusted | |
-| `CLOSED` | 100.0% | trusted | |
-| `PRESP` | 100.0% | trusted | |
-| `PWORK` | 100.0% | trusted | |
-| `PLAST` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `segnam` | 100.0% | trusted | |
+| `seglen` | 100.0% | trusted | |
+| `released` | 100.0% | trusted | |
+| `segtyp` | 100.0% | trusted | |
+| `cimflag` | 100.0% | trusted | |
+| `closed` | 100.0% | trusted | |
+| `presp` | 100.0% | trusted | |
+| `pwork` | 100.0% | trusted | |
+| `plast` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

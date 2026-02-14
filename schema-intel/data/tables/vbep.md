@@ -1,9 +1,9 @@
 ---
 table: vbep
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 69340473
-column_count: 62
+row_count: 27742895
+column_count: 67
 ---
 
 # vbep
@@ -14,7 +14,7 @@ column_count: 62
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 62 | 100% |
+| Trusted (≥50%) | 67 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,67 +22,72 @@ column_count: 62
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `BNFPO` | 100.0% | trusted | |
-| `LIFSP` | 100.0% | trusted | |
-| `GRSTR` | 100.0% | trusted | |
-| `ABART` | 100.0% | trusted | |
-| `ABRUF` | 100.0% | trusted | |
-| `ROMS1` | 100.0% | trusted | |
-| `ROMS2` | 100.0% | trusted | |
-| `ROMS3` | 100.0% | trusted | |
-| `ROMEI` | 100.0% | trusted | |
-| `RFORM` | 100.0% | trusted | |
-| `UMVKZ` | 100.0% | trusted | |
-| `UMVKN` | 100.0% | trusted | |
-| `VERFP` | 100.0% | trusted | |
-| `BWART` | 100.0% | trusted | |
-| `ETART` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `AUFNR` | 100.0% | trusted | |
-| `PLNUM` | 100.0% | trusted | |
-| `SERNR` | 100.0% | trusted | |
-| `AESKD` | 100.0% | trusted | |
-| `ABGES` | 100.0% | trusted | |
-| `MBUHR` | 100.0% | trusted | |
-| `TDUHR` | 100.0% | trusted | |
-| `LDUHR` | 100.0% | trusted | |
-| `WAUHR` | 100.0% | trusted | |
-| `AULWE` | 100.0% | trusted | |
-| `HANDOVERDATE` | 100.0% | trusted | |
-| `HANDOVERTIME` | 100.0% | trusted | |
-| `MBDAT_DRS` | 100.0% | trusted | |
-| `CMENG` | 100.0% | trusted | |
-| `WADAT` | 100.0% | trusted | |
-| `LDDAT` | 100.0% | trusted | |
-| `MBDAT` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `ETENR` | 100.0% | trusted | |
-| `ETTYP` | 100.0% | trusted | |
-| `LFREL` | 100.0% | trusted | |
-| `EDATU` | 100.0% | trusted | |
-| `EZEIT` | 100.0% | trusted | |
-| `WMENG` | 100.0% | trusted | |
-| `BMENG` | 100.0% | trusted | |
-| `VRKME` | 100.0% | trusted | |
-| `LMENG` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `BDDAT` | 100.0% | trusted | |
-| `BDART` | 100.0% | trusted | |
-| `PLART` | 100.0% | trusted | |
-| `VBELE` | 100.0% | trusted | |
-| `POSNE` | 100.0% | trusted | |
-| `ETENE` | 100.0% | trusted | |
-| `RSDAT` | 100.0% | trusted | |
-| `IDNNR` | 100.0% | trusted | |
-| `BANFN` | 100.0% | trusted | |
-| `BSART` | 100.0% | trusted | |
-| `BSTYP` | 100.0% | trusted | |
-| `WEPOS` | 100.0% | trusted | |
-| `REPOS` | 100.0% | trusted | |
-| `LRGDT` | 100.0% | trusted | |
-| `PRGRS` | 100.0% | trusted | |
-| `TDDAT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `plnum` | 100.0% | trusted | |
+| `abart` | 100.0% | trusted | |
+| `abruf` | 100.0% | trusted | |
+| `roms1` | 100.0% | trusted | |
+| `roms2` | 100.0% | trusted | |
+| `roms3` | 100.0% | trusted | |
+| `romei` | 100.0% | trusted | |
+| `rform` | 100.0% | trusted | |
+| `umvkz` | 100.0% | trusted | |
+| `umvkn` | 100.0% | trusted | |
+| `verfp` | 100.0% | trusted | |
+| `bwart` | 100.0% | trusted | |
+| `bnfpo` | 100.0% | trusted | |
+| `etart` | 100.0% | trusted | |
+| `aufnr` | 100.0% | trusted | |
+| `sernr` | 100.0% | trusted | |
+| `lifsp` | 100.0% | trusted | |
+| `aeskd` | 100.0% | trusted | |
+| `abges` | 100.0% | trusted | |
+| `mbuhr` | 100.0% | trusted | |
+| `tduhr` | 100.0% | trusted | |
+| `lduhr` | 100.0% | trusted | |
+| `wauhr` | 100.0% | trusted | |
+| `aulwe` | 100.0% | trusted | |
+| `mbdat_drs` | 100.0% | trusted | |
+| `handoverdate` | 100.0% | trusted | |
+| `handovertime` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
+| `fsh_ralloc_qty` | 100.0% | trusted | |
+| `fsh_os_id` | 100.0% | trusted | |
+| `fsh_pqr_rc` | 100.0% | trusted | |
+| `grstr` | 100.0% | trusted | |
+| `cmeng` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `plart` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `etenr` | 100.0% | trusted | |
+| `ettyp` | 100.0% | trusted | |
+| `lfrel` | 100.0% | trusted | |
+| `edatu` | 100.0% | trusted | |
+| `ezeit` | 100.0% | trusted | |
+| `wmeng` | 100.0% | trusted | |
+| `bmeng` | 100.0% | trusted | |
+| `vrkme` | 100.0% | trusted | |
+| `lmeng` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `bddat` | 100.0% | trusted | |
+| `bdart` | 100.0% | trusted | |
+| `vbele` | 100.0% | trusted | |
+| `wadat` | 100.0% | trusted | |
+| `posne` | 100.0% | trusted | |
+| `etene` | 100.0% | trusted | |
+| `rsdat` | 100.0% | trusted | |
+| `idnnr` | 100.0% | trusted | |
+| `banfn` | 100.0% | trusted | |
+| `bsart` | 100.0% | trusted | |
+| `bstyp` | 100.0% | trusted | |
+| `wepos` | 100.0% | trusted | |
+| `repos` | 100.0% | trusted | |
+| `lrgdt` | 100.0% | trusted | |
+| `prgrs` | 100.0% | trusted | |
+| `tddat` | 100.0% | trusted | |
+| `mbdat` | 100.0% | trusted | |
+| `lddat` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

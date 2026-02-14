@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,261463,261463,100.0,0,0.0
+2,mandt,261463,261463,100.0,0,0.0
+3,spras,261463,261463,100.0,0,0.0
+4,afapl,261463,261463,100.0,0,0.0
+5,afasl,261463,261463,100.0,0,0.0
+6,afatxt,261463,261463,100.0,0,0.0
+7,src_commit_time,261463,261463,100.0,0,0.0

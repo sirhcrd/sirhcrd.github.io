@@ -1,9 +1,9 @@
 ---
 table: veda
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 6521046
-column_count: 28
+row_count: 2907
+column_count: 30
 ---
 
 # veda
@@ -14,7 +14,7 @@ column_count: 28
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 28 | 100% |
+| Trusted (≥50%) | 30 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,33 +22,35 @@ column_count: 28
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `VENDREG` | 100.0% | trusted | |
-| `VASDR` | 100.0% | trusted | |
-| `WIMID` | 100.0% | trusted | |
-| `VASDA` | 100.0% | trusted | |
-| `VDEMDAT` | 100.0% | trusted | |
-| `VVOREIN` | 100.0% | trusted | |
-| `VVORZEIT` | 100.0% | trusted | |
-| `VBEGREG` | 100.0% | trusted | |
-| `VBEDKUE` | 100.0% | trusted | |
-| `VBELKUE` | 100.0% | trusted | |
-| `VENDDAT` | 100.0% | trusted | |
-| `VKUEGRU` | 100.0% | trusted | |
-| `VKUEPAR` | 100.0% | trusted | |
-| `VWUNDAT` | 100.0% | trusted | |
-| `VEINDAT` | 100.0% | trusted | |
-| `VAKTSCH` | 100.0% | trusted | |
-| `VKUESCH` | 100.0% | trusted | |
-| `VUNTDAT` | 100.0% | trusted | |
-| `VBEGDAT` | 100.0% | trusted | |
-| `VABNDAT` | 100.0% | trusted | |
-| `VINSDAT` | 100.0% | trusted | |
-| `VLAUFK` | 100.0% | trusted | |
-| `VLAUEZ` | 100.0% | trusted | |
-| `VLAUFZ` | 100.0% | trusted | |
-| `VPOSN` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
+| `vendreg` | 100.0% | trusted | |
+| `vasdr` | 100.0% | trusted | |
+| `wimid` | 100.0% | trusted | |
+| `vasda` | 100.0% | trusted | |
+| `vdemdat` | 100.0% | trusted | |
+| `vvorein` | 100.0% | trusted | |
+| `vvorzeit` | 100.0% | trusted | |
+| `vbegreg` | 100.0% | trusted | |
+| `vbedkue` | 100.0% | trusted | |
+| `vbelkue` | 100.0% | trusted | |
+| `venddat` | 100.0% | trusted | |
+| `vkuegru` | 100.0% | trusted | |
+| `vkuepar` | 100.0% | trusted | |
+| `vwundat` | 100.0% | trusted | |
+| `veindat` | 100.0% | trusted | |
+| `vaktsch` | 100.0% | trusted | |
+| `vkuesch` | 100.0% | trusted | |
+| `vuntdat` | 100.0% | trusted | |
+| `vbegdat` | 100.0% | trusted | |
+| `vabndat` | 100.0% | trusted | |
+| `vinsdat` | 100.0% | trusted | |
+| `vlaufk` | 100.0% | trusted | |
+| `vlauez` | 100.0% | trusted | |
+| `vlaufz` | 100.0% | trusted | |
+| `vposn` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

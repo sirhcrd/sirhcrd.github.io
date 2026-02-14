@@ -1,9 +1,9 @@
 ---
 table: setleaf
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 405280
-column_count: 11
+row_count: 134639
+column_count: 12
 ---
 
 # setleaf
@@ -14,7 +14,7 @@ column_count: 11
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 11 | 100% |
+| Trusted (≥50%) | 12 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,16 +22,17 @@ column_count: 11
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SETCLASS` | 100.0% | trusted | |
-| `SUBCLASS` | 100.0% | trusted | |
-| `SETNAME` | 100.0% | trusted | |
-| `LINEID` | 100.0% | trusted | |
-| `VALSIGN` | 100.0% | trusted | |
-| `VALOPTION` | 100.0% | trusted | |
-| `VALFROM` | 100.0% | trusted | |
-| `VALTO` | 100.0% | trusted | |
-| `SEQNR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `setclass` | 100.0% | trusted | |
+| `subclass` | 100.0% | trusted | |
+| `setname` | 100.0% | trusted | |
+| `lineid` | 100.0% | trusted | |
+| `valsign` | 100.0% | trusted | |
+| `valoption` | 100.0% | trusted | |
+| `valfrom` | 100.0% | trusted | |
+| `valto` | 100.0% | trusted | |
+| `seqnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

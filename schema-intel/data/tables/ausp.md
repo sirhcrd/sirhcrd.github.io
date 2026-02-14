@@ -1,9 +1,9 @@
 ---
 table: ausp
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 249191135
-column_count: 27
+row_count: 2402047
+column_count: 28
 ---
 
 # ausp
@@ -14,41 +14,42 @@ column_count: 27
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 23 | 85% |
-| Neutral (5-50%) | 4 | 14% |
+| Trusted (≥50%) | 19 | 67% |
+| Neutral (5-50%) | 9 | 32% |
 | Dead (<5%) | 0 | 0% |
 
 ## Columns
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `ATCOD` | 100.0% | trusted | |
-| `DATUB` | 100.0% | trusted | |
-| `ATVGLART` | 100.0% | trusted | |
-| `ATSRT` | 100.0% | trusted | |
-| `ATZIS` | 100.0% | trusted | |
-| `ATIMB` | 100.0% | trusted | |
-| `LKENZ` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `ATAUT` | 100.0% | trusted | |
-| `OBJEK` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `atcod` | 100.0% | trusted | |
+| `datub` | 100.0% | trusted | |
+| `atvglart` | 100.0% | trusted | |
+| `atsrt` | 100.0% | trusted | |
+| `atzis` | 100.0% | trusted | |
+| `atimb` | 100.0% | trusted | |
+| `lkenz` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `ataut` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
-| `ADZHL` | 100.0% | trusted | |
-| `KLART` | 100.0% | trusted | |
-| `MAFID` | 100.0% | trusted | |
-| `ATZHL` | 100.0% | trusted | |
-| `ATINN` | 100.0% | trusted | |
-| `ATWRT` | 65.6% | trusted | |
-| `ATPRZ` | 59.3% | trusted | |
-| `ATINC` | 59.3% | trusted | |
-| `ATAWE` | 59.3% | trusted | |
-| `ATFLV` | 59.3% | trusted | |
-| `ATTLV` | 59.3% | trusted | |
-| `ATAW1` | 24.9% | neutral | |
-| `ATFLB` | 24.9% | neutral | |
-| `ATTLB` | 24.9% | neutral | |
-| `AENNR` | 24.9% | neutral | |
+| `adzhl` | 100.0% | trusted | |
+| `klart` | 100.0% | trusted | |
+| `mafid` | 100.0% | trusted | |
+| `atzhl` | 100.0% | trusted | |
+| `atinn` | 100.0% | trusted | |
+| `objek` | 100.0% | trusted | |
+| `atwrt` | 79.3% | trusted | |
+| `atawe` | 39.8% | neutral | |
+| `atprz` | 39.8% | neutral | |
+| `atinc` | 39.8% | neutral | |
+| `atflv` | 39.8% | neutral | |
+| `attlv` | 39.8% | neutral | |
+| `ataw1` | 19.1% | neutral | |
+| `atflb` | 19.1% | neutral | |
+| `attlb` | 19.1% | neutral | |
+| `aennr` | 19.1% | neutral | |
 
 ## Notes
 

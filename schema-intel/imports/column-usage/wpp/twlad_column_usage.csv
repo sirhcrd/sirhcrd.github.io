@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,19,19,100.0,0,0.0
+2,mandt,19,19,100.0,0,0.0
+3,werks,19,19,100.0,0,0.0
+4,lgort,19,19,100.0,0,0.0
+5,lfdnr,19,19,100.0,0,0.0
+6,adrnr,19,19,100.0,0,0.0
+7,src_commit_time,19,19,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: jsto
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 406622310
-column_count: 8
+row_count: 52550983
+column_count: 9
 ---
 
 # jsto
@@ -14,7 +14,7 @@ column_count: 8
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 100% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,13 +22,14 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `OBTYP` | 100.0% | trusted | |
-| `STSMA` | 100.0% | trusted | |
-| `CHGKZ` | 100.0% | trusted | |
-| `CHGNR` | 100.0% | trusted | |
-| `_DATAAGING` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `obtyp` | 100.0% | trusted | |
+| `stsma` | 100.0% | trusted | |
+| `chgkz` | 100.0% | trusted | |
+| `chgnr` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

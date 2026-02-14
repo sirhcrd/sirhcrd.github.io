@@ -1,9 +1,9 @@
 ---
 table: cssl
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2285
-column_count: 13
+row_count: 29605
+column_count: 14
 ---
 
 # cssl
@@ -14,7 +14,7 @@ column_count: 13
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 13 | 100% |
+| Trusted (≥50%) | 14 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,18 +22,19 @@ column_count: 13
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `LSTAR` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `CCKEY` | 100.0% | trusted | |
-| `LATYP` | 100.0% | trusted | |
-| `LEINH` | 100.0% | trusted | |
-| `AUSFK` | 100.0% | trusted | |
-| `AUSEH` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `LATYPI` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `lstar` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `cckey` | 100.0% | trusted | |
+| `latyp` | 100.0% | trusted | |
+| `leinh` | 100.0% | trusted | |
+| `ausfk` | 100.0% | trusted | |
+| `auseh` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `latypi` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

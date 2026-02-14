@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,2027952,2027952,100.0,0,0.0
+2,sprsl,2027952,2027952,100.0,0,0.0
+3,tcode,2027952,2027952,100.0,0,0.0
+4,ttext,2027952,2027952,100.0,0,0.0
+5,src_commit_time,2027952,2027952,100.0,0,0.0

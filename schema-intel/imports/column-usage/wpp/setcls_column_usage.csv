@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,57,57,100.0,0,0.0
+2,setclass,57,57,100.0,0,0.0
+3,setnamleng,57,57,100.0,0,0.0
+4,setnamtab,57,57,100.0,0,0.0
+5,setnamfld,57,57,100.0,0,0.0
+6,setobart,57,57,100.0,0,0.0
+7,src_commit_time,57,57,100.0,0,0.0

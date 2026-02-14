@@ -1,9 +1,9 @@
 ---
 table: febko
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 545121
-column_count: 64
+row_count: 433582
+column_count: 65
 ---
 
 # febko
@@ -14,7 +14,7 @@ column_count: 64
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 64 | 100% |
+| Trusted (≥50%) | 65 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,69 +22,70 @@ column_count: 64
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `ANWND` | 100.0% | trusted | |
-| `ESTYP` | 100.0% | trusted | |
-| `ESVOZ` | 100.0% | trusted | |
-| `ESBTR` | 100.0% | trusted | |
-| `ESDMB` | 100.0% | trusted | |
-| `BLAUF` | 100.0% | trusted | |
-| `ELAUF` | 100.0% | trusted | |
-| `HZINS` | 100.0% | trusted | |
-| `TEILN` | 100.0% | trusted | |
-| `BKTOA` | 100.0% | trusted | |
-| `ANZES` | 100.0% | trusted | |
-| `VGTYP` | 100.0% | trusted | |
-| `EFART` | 100.0% | trusted | |
-| `HBKID` | 100.0% | trusted | |
-| `HKTID` | 100.0% | trusted | |
-| `EUSER` | 100.0% | trusted | |
-| `EDATE` | 100.0% | trusted | |
-| `ETIME` | 100.0% | trusted | |
-| `BKREF` | 100.0% | trusted | |
-| `XFDIS` | 100.0% | trusted | |
-| `DSART` | 100.0% | trusted | |
-| `XVERD` | 100.0% | trusted | |
-| `XBENR` | 100.0% | trusted | |
-| `XBTYP` | 100.0% | trusted | |
-| `SEQ_NUMBER` | 100.0% | trusted | |
-| `SEQ_STATUS` | 100.0% | trusted | |
-| `INPUT_FORMAT` | 100.0% | trusted | |
-| `SIBAN` | 100.0% | trusted | |
-| `AZPGNO` | 100.0% | trusted | |
-| `FILEHASH` | 100.0% | trusted | |
-| `SUMHA` | 100.0% | trusted | |
-| `SUMSO` | 100.0% | trusted | |
-| `SSBTR` | 100.0% | trusted | |
-| `XKEP2` | 100.0% | trusted | |
-| `ABSND` | 100.0% | trusted | |
-| `AZIDT` | 100.0% | trusted | |
-| `EMKEY` | 100.0% | trusted | |
-| `KUKEY` | 100.0% | trusted | |
-| `ASTAT` | 100.0% | trusted | |
-| `DSTAT` | 100.0% | trusted | |
-| `VB1OK` | 100.0% | trusted | |
-| `VB2OK` | 100.0% | trusted | |
-| `KIPRE` | 100.0% | trusted | |
-| `VFDAT` | 100.0% | trusted | |
-| `GRP01` | 100.0% | trusted | |
-| `XKEP1` | 100.0% | trusted | |
-| `GRP02` | 100.0% | trusted | |
-| `WVDAT` | 100.0% | trusted | |
-| `SSVOZ` | 100.0% | trusted | |
-| `WVTIM` | 100.0% | trusted | |
-| `WVART` | 100.0% | trusted | |
-| `HKONT` | 100.0% | trusted | |
-| `KTONR` | 100.0% | trusted | |
-| `KTOIH` | 100.0% | trusted | |
-| `KTOSB` | 100.0% | trusted | |
-| `AZNUM` | 100.0% | trusted | |
-| `AZSNR` | 100.0% | trusted | |
-| `AZDAT` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `KTOPL` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `SSTYP` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `sumso` | 100.0% | trusted | |
+| `estyp` | 100.0% | trusted | |
+| `esvoz` | 100.0% | trusted | |
+| `esbtr` | 100.0% | trusted | |
+| `esdmb` | 100.0% | trusted | |
+| `blauf` | 100.0% | trusted | |
+| `elauf` | 100.0% | trusted | |
+| `hzins` | 100.0% | trusted | |
+| `teiln` | 100.0% | trusted | |
+| `bktoa` | 100.0% | trusted | |
+| `anzes` | 100.0% | trusted | |
+| `vgtyp` | 100.0% | trusted | |
+| `efart` | 100.0% | trusted | |
+| `hbkid` | 100.0% | trusted | |
+| `hktid` | 100.0% | trusted | |
+| `euser` | 100.0% | trusted | |
+| `edate` | 100.0% | trusted | |
+| `etime` | 100.0% | trusted | |
+| `bkref` | 100.0% | trusted | |
+| `xfdis` | 100.0% | trusted | |
+| `dsart` | 100.0% | trusted | |
+| `xverd` | 100.0% | trusted | |
+| `xbenr` | 100.0% | trusted | |
+| `xbtyp` | 100.0% | trusted | |
+| `seq_number` | 100.0% | trusted | |
+| `seq_status` | 100.0% | trusted | |
+| `input_format` | 100.0% | trusted | |
+| `siban` | 100.0% | trusted | |
+| `azpgno` | 100.0% | trusted | |
+| `filehash` | 100.0% | trusted | |
+| `sumha` | 100.0% | trusted | |
+| `ssbtr` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ssvoz` | 100.0% | trusted | |
+| `anwnd` | 100.0% | trusted | |
+| `absnd` | 100.0% | trusted | |
+| `azidt` | 100.0% | trusted | |
+| `emkey` | 100.0% | trusted | |
+| `kukey` | 100.0% | trusted | |
+| `astat` | 100.0% | trusted | |
+| `dstat` | 100.0% | trusted | |
+| `vb1ok` | 100.0% | trusted | |
+| `vb2ok` | 100.0% | trusted | |
+| `kipre` | 100.0% | trusted | |
+| `vfdat` | 100.0% | trusted | |
+| `grp01` | 100.0% | trusted | |
+| `xkep1` | 100.0% | trusted | |
+| `grp02` | 100.0% | trusted | |
+| `xkep2` | 100.0% | trusted | |
+| `wvdat` | 100.0% | trusted | |
+| `wvtim` | 100.0% | trusted | |
+| `wvart` | 100.0% | trusted | |
+| `hkont` | 100.0% | trusted | |
+| `ktonr` | 100.0% | trusted | |
+| `ktoih` | 100.0% | trusted | |
+| `ktosb` | 100.0% | trusted | |
+| `aznum` | 100.0% | trusted | |
+| `azsnr` | 100.0% | trusted | |
+| `azdat` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `ktopl` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `sstyp` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

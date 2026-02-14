@@ -1,9 +1,9 @@
 ---
 table: wyt3
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1130071
-column_count: 14
+row_count: 324851
+column_count: 15
 ---
 
 # wyt3
@@ -14,7 +14,7 @@ column_count: 14
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 14 | 100% |
+| Trusted (≥50%) | 15 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,19 +22,20 @@ column_count: 14
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `EKORG` | 100.0% | trusted | |
-| `LTSNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `PARVW` | 100.0% | trusted | |
-| `PARZA` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `LIFN2` | 100.0% | trusted | |
-| `DEFPA` | 100.0% | trusted | |
-| `PERNR` | 100.0% | trusted | |
-| `PARNR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `ekorg` | 100.0% | trusted | |
+| `ltsnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `parvw` | 100.0% | trusted | |
+| `parza` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `lifn2` | 100.0% | trusted | |
+| `defpa` | 100.0% | trusted | |
+| `pernr` | 100.0% | trusted | |
+| `parnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

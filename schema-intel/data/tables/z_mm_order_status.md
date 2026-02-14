@@ -1,8 +1,8 @@
 ---
 table: z_mm_order_status
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 759549
+row_count: 748272
 column_count: 37
 ---
 
@@ -52,11 +52,11 @@ column_count: 37
 | `BDDAT` | 100.0% | trusted | |
 | `DELB0` | 100.0% | trusted | |
 | `last_updated_time` | 100.0% | trusted | |
-| `MEINS` | 97.0% | trusted | |
-| `RCEB0` | 97.0% | trusted | |
-| `RCENR` | 26.4% | neutral | |
-| `ERR01` | 11.2% | neutral | |
-| `ERR02` | 1.2% | dead | |
+| `MEINS` | 96.1% | trusted | |
+| `RCEB0` | 96.1% | trusted | |
+| `RCENR` | 47.1% | neutral | |
+| `ERR01` | 9.8% | neutral | |
+| `ERR02` | 2.0% | dead | |
 | `DELKZ` | 0.0% | dead | |
 | `PARALLEL` | 0.0% | dead | |
 

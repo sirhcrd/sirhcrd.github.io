@@ -1,9 +1,9 @@
 ---
 table: tka01
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 98
-column_count: 48
+row_count: 122
+column_count: 49
 ---
 
 # tka01
@@ -14,7 +14,7 @@ column_count: 48
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 48 | 100% |
+| Trusted (≥50%) | 49 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,53 +22,54 @@ column_count: 48
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `PCATRCUR` | 100.0% | trusted | |
-| `CTYP` | 100.0% | trusted | |
-| `RCLAC` | 100.0% | trusted | |
-| `BLART` | 100.0% | trusted | |
-| `FIKRS` | 100.0% | trusted | |
-| `RCL_PRIMAC` | 100.0% | trusted | |
-| `PCA_ALEMT` | 100.0% | trusted | |
-| `PCA_VALU` | 100.0% | trusted | |
-| `CVPROF` | 100.0% | trusted | |
-| `CVACT` | 100.0% | trusted | |
-| `VNAME` | 100.0% | trusted | |
-| `PCA_ACC_DIFF` | 100.0% | trusted | |
-| `TP_VALOHB` | 100.0% | trusted | |
-| `DEFPRCTR` | 100.0% | trusted | |
-| `F_OBSOLETE` | 100.0% | trusted | |
-| `AUTH_USE_NO_STD` | 100.0% | trusted | |
-| `AUTH_USE_ADD1` | 100.0% | trusted | |
-| `AUTH_USE_ADD2` | 100.0% | trusted | |
-| `AUTH_KE_NO_STD` | 100.0% | trusted | |
-| `AUTH_KE_USE_ADD1` | 100.0% | trusted | |
-| `AUTH_KE_USE_ADD2` | 100.0% | trusted | |
-| `PCACURTP` | 100.0% | trusted | |
-| `PCACUR` | 100.0% | trusted | |
-| `KSTAR_FID` | 100.0% | trusted | |
-| `KOMP1` | 100.0% | trusted | |
-| `BEZEI` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `KTOPL` | 100.0% | trusted | |
-| `LMONA` | 100.0% | trusted | |
-| `KOKFI` | 100.0% | trusted | |
-| `LOGSYSTEM` | 100.0% | trusted | |
-| `ALEMT` | 100.0% | trusted | |
-| `MD_LOGSYSTEM` | 100.0% | trusted | |
-| `KHINR` | 100.0% | trusted | |
-| `KOMP0` | 100.0% | trusted | |
-| `KSTAR_FIN` | 100.0% | trusted | |
-| `KOMP2` | 100.0% | trusted | |
-| `ERKRS` | 100.0% | trusted | |
-| `DPRCT` | 100.0% | trusted | |
-| `PHINR` | 100.0% | trusted | |
-| `PCLDG` | 100.0% | trusted | |
-| `PCBEL` | 100.0% | trusted | |
-| `XWBUK` | 100.0% | trusted | |
-| `BPHINR` | 100.0% | trusted | |
-| `XBPALE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `pcacur` | 100.0% | trusted | |
+| `pcatrcur` | 100.0% | trusted | |
+| `ctyp` | 100.0% | trusted | |
+| `rclac` | 100.0% | trusted | |
+| `blart` | 100.0% | trusted | |
+| `fikrs` | 100.0% | trusted | |
+| `rcl_primac` | 100.0% | trusted | |
+| `pca_alemt` | 100.0% | trusted | |
+| `pca_valu` | 100.0% | trusted | |
+| `cvprof` | 100.0% | trusted | |
+| `cvact` | 100.0% | trusted | |
+| `vname` | 100.0% | trusted | |
+| `pca_acc_diff` | 100.0% | trusted | |
+| `tp_valohb` | 100.0% | trusted | |
+| `defprctr` | 100.0% | trusted | |
+| `auth_use_no_std` | 100.0% | trusted | |
+| `auth_use_add1` | 100.0% | trusted | |
+| `auth_use_add2` | 100.0% | trusted | |
+| `auth_ke_no_std` | 100.0% | trusted | |
+| `auth_ke_use_add1` | 100.0% | trusted | |
+| `auth_ke_use_add2` | 100.0% | trusted | |
+| `f_obsolete` | 100.0% | trusted | |
+| `pcacurtp` | 100.0% | trusted | |
+| `kstar_fid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kstar_fin` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `bezei` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `ktopl` | 100.0% | trusted | |
+| `lmona` | 100.0% | trusted | |
+| `kokfi` | 100.0% | trusted | |
+| `logsystem` | 100.0% | trusted | |
+| `alemt` | 100.0% | trusted | |
+| `md_logsystem` | 100.0% | trusted | |
+| `khinr` | 100.0% | trusted | |
+| `komp1` | 100.0% | trusted | |
+| `komp0` | 100.0% | trusted | |
+| `komp2` | 100.0% | trusted | |
+| `erkrs` | 100.0% | trusted | |
+| `dprct` | 100.0% | trusted | |
+| `phinr` | 100.0% | trusted | |
+| `pcldg` | 100.0% | trusted | |
+| `pcbel` | 100.0% | trusted | |
+| `xwbuk` | 100.0% | trusted | |
+| `bphinr` | 100.0% | trusted | |
+| `xbpale` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

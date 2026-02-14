@@ -1,9 +1,9 @@
 ---
 table: bnka
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1238925
-column_count: 38
+row_count: 1355492
+column_count: 39
 ---
 
 # bnka
@@ -14,7 +14,7 @@ column_count: 38
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 38 | 100% |
+| Trusted (≥50%) | 39 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,43 +22,44 @@ column_count: 38
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `ZRES4` | 100.0% | trusted | |
-| `SDD_COR1` | 100.0% | trusted | |
-| `SDD_RTRANS` | 100.0% | trusted | |
-| `ZNOCHECK` | 100.0% | trusted | |
-| `ZACC_LEN` | 100.0% | trusted | |
-| `ZRES1` | 100.0% | trusted | |
-| `ZRES2` | 100.0% | trusted | |
-| `ZRES3` | 100.0% | trusted | |
-| `ZRES5` | 100.0% | trusted | |
-| `BANKS` | 100.0% | trusted | |
-| `ZRES6` | 100.0% | trusted | |
-| `ZRES7` | 100.0% | trusted | |
-| `ZRES8` | 100.0% | trusted | |
-| `ZRES9` | 100.0% | trusted | |
-| `ZRES10` | 100.0% | trusted | |
-| `BICKY` | 100.0% | trusted | |
-| `RCCODE` | 100.0% | trusted | |
-| `SDD_B2B` | 100.0% | trusted | |
-| `IBAN_RULE` | 100.0% | trusted | |
-| `VERS` | 100.0% | trusted | |
-| `CHKME` | 100.0% | trusted | |
-| `BANKL` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `BANKA` | 100.0% | trusted | |
-| `PROVZ` | 100.0% | trusted | |
-| `STRAS` | 100.0% | trusted | |
-| `ORT01` | 100.0% | trusted | |
-| `SWIFT` | 100.0% | trusted | |
-| `BGRUP` | 100.0% | trusted | |
-| `XPGRO` | 100.0% | trusted | |
-| `LOEVM` | 100.0% | trusted | |
-| `BNKLZ` | 100.0% | trusted | |
-| `PSKTO` | 100.0% | trusted | |
-| `ADRNR` | 100.0% | trusted | |
-| `BRNCH` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `zres8` | 100.0% | trusted | |
+| `zres1` | 100.0% | trusted | |
+| `zres2` | 100.0% | trusted | |
+| `zres3` | 100.0% | trusted | |
+| `zres4` | 100.0% | trusted | |
+| `zres5` | 100.0% | trusted | |
+| `zres6` | 100.0% | trusted | |
+| `zres7` | 100.0% | trusted | |
+| `zres9` | 100.0% | trusted | |
+| `znocheck` | 100.0% | trusted | |
+| `zres10` | 100.0% | trusted | |
+| `bicky` | 100.0% | trusted | |
+| `rccode` | 100.0% | trusted | |
+| `iban_rule` | 100.0% | trusted | |
+| `sdd_b2b` | 100.0% | trusted | |
+| `sdd_cor1` | 100.0% | trusted | |
+| `sdd_rtrans` | 100.0% | trusted | |
+| `zacc_len` | 100.0% | trusted | |
+| `vers` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ort01` | 100.0% | trusted | |
+| `banks` | 100.0% | trusted | |
+| `bankl` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `banka` | 100.0% | trusted | |
+| `provz` | 100.0% | trusted | |
+| `stras` | 100.0% | trusted | |
+| `swift` | 100.0% | trusted | |
+| `chkme` | 100.0% | trusted | |
+| `bgrup` | 100.0% | trusted | |
+| `xpgro` | 100.0% | trusted | |
+| `loevm` | 100.0% | trusted | |
+| `bnklz` | 100.0% | trusted | |
+| `pskto` | 100.0% | trusted | |
+| `adrnr` | 100.0% | trusted | |
+| `brnch` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

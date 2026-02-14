@@ -1,9 +1,9 @@
 ---
 table: eket
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 20144782
-column_count: 71
+row_count: 9375197
+column_count: 76
 ---
 
 # eket
@@ -14,7 +14,7 @@ column_count: 71
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 71 | 100% |
+| Trusted (≥50%) | 76 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,76 +22,81 @@ column_count: 71
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `GEO_ROUTE` | 100.0% | trusted | |
-| `HANDOVERDATE` | 100.0% | trusted | |
-| `CD_LOCTYPE` | 100.0% | trusted | |
-| `CD_LOCNO` | 100.0% | trusted | |
-| `TSP` | 100.0% | trusted | |
-| `GTS_IND` | 100.0% | trusted | |
-| `ROUTE_GTS` | 100.0% | trusted | |
-| `NODISP` | 100.0% | trusted | |
-| `KEY_ID` | 100.0% | trusted | |
-| `ANZSN` | 100.0% | trusted | |
-| `ELUHR` | 100.0% | trusted | |
-| `ELDAT` | 100.0% | trusted | |
-| `WAUHR` | 100.0% | trusted | |
-| `WADAT` | 100.0% | trusted | |
-| `TDUHR` | 100.0% | trusted | |
-| `HANDOVERTIME` | 100.0% | trusted | |
-| `OTB_VALUE` | 100.0% | trusted | |
-| `LDUHR` | 100.0% | trusted | |
-| `DL_ID` | 100.0% | trusted | |
-| `DATESHIFT_NUMBER` | 100.0% | trusted | |
-| `CNCL_ANCMNT_DONE` | 100.0% | trusted | |
-| `DNG_TIME` | 100.0% | trusted | |
-| `DNG_DATE` | 100.0% | trusted | |
-| `NO_SCEM` | 100.0% | trusted | |
-| `HANDOVER_DATE` | 100.0% | trusted | |
-| `CHECK_TYPE` | 100.0% | trusted | |
-| `OTB_CURR` | 100.0% | trusted | |
-| `OTB_REASON` | 100.0% | trusted | |
-| `OTB_STATUS` | 100.0% | trusted | |
-| `BUDG_TYPE` | 100.0% | trusted | |
-| `SPR_RSN_PROFILE` | 100.0% | trusted | |
-| `OTB_SPEC_VALUE` | 100.0% | trusted | |
-| `OTB_RES_VALUE` | 100.0% | trusted | |
-| `TDDAT` | 100.0% | trusted | |
-| `LDDAT` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `WEMNG` | 100.0% | trusted | |
-| `QUNUM` | 100.0% | trusted | |
-| `ESTKZ` | 100.0% | trusted | |
-| `BNFPO` | 100.0% | trusted | |
-| `BANFN` | 100.0% | trusted | |
-| `UZEIT` | 100.0% | trusted | |
-| `WAMNG` | 100.0% | trusted | |
-| `AMENG` | 100.0% | trusted | |
-| `MAHNZ` | 100.0% | trusted | |
-| `MENGE` | 100.0% | trusted | |
-| `LPEIN` | 100.0% | trusted | |
-| `SLFDT` | 100.0% | trusted | |
-| `EINDT` | 100.0% | trusted | |
-| `ETENR` | 100.0% | trusted | |
-| `EBELP` | 100.0% | trusted | |
-| `QUPOS` | 100.0% | trusted | |
-| `BEDAT` | 100.0% | trusted | |
-| `MBUHR` | 100.0% | trusted | |
-| `VERID` | 100.0% | trusted | |
-| `MBDAT` | 100.0% | trusted | |
-| `AULWE` | 100.0% | trusted | |
-| `ALTDT` | 100.0% | trusted | |
-| `DAT01` | 100.0% | trusted | |
-| `MNG02` | 100.0% | trusted | |
-| `ABART` | 100.0% | trusted | |
-| `CHKOM` | 100.0% | trusted | |
-| `RSNUM` | 100.0% | trusted | |
-| `LICHA` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `DABMG` | 100.0% | trusted | |
-| `GLMNG` | 100.0% | trusted | |
-| `FIXKZ` | 100.0% | trusted | |
-| `SERNR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `gts_ind` | 100.0% | trusted | |
+| `otb_value` | 100.0% | trusted | |
+| `key_id` | 100.0% | trusted | |
+| `handovertime` | 100.0% | trusted | |
+| `handoverdate` | 100.0% | trusted | |
+| `cd_loctype` | 100.0% | trusted | |
+| `cd_locno` | 100.0% | trusted | |
+| `tsp` | 100.0% | trusted | |
+| `route_gts` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `geo_route` | 100.0% | trusted | |
+| `nodisp` | 100.0% | trusted | |
+| `anzsn` | 100.0% | trusted | |
+| `eluhr` | 100.0% | trusted | |
+| `eldat` | 100.0% | trusted | |
+| `wauhr` | 100.0% | trusted | |
+| `wadat` | 100.0% | trusted | |
+| `otb_curr` | 100.0% | trusted | |
+| `otb_res_value` | 100.0% | trusted | |
+| `otb_spec_value` | 100.0% | trusted | |
+| `spr_rsn_profile` | 100.0% | trusted | |
+| `wesbb` | 100.0% | trusted | |
+| `fsh_os_id` | 100.0% | trusted | |
+| `fsh_salloc_qty` | 100.0% | trusted | |
+| `fsh_ralloc_qty` | 100.0% | trusted | |
+| `dateshift_number` | 100.0% | trusted | |
+| `cncl_ancmnt_done` | 100.0% | trusted | |
+| `dng_time` | 100.0% | trusted | |
+| `dng_date` | 100.0% | trusted | |
+| `no_scem` | 100.0% | trusted | |
+| `handover_date` | 100.0% | trusted | |
+| `dl_id` | 100.0% | trusted | |
+| `check_type` | 100.0% | trusted | |
+| `otb_reason` | 100.0% | trusted | |
+| `otb_status` | 100.0% | trusted | |
+| `budg_type` | 100.0% | trusted | |
+| `tduhr` | 100.0% | trusted | |
+| `tddat` | 100.0% | trusted | |
+| `lduhr` | 100.0% | trusted | |
+| `mahnz` | 100.0% | trusted | |
+| `qunum` | 100.0% | trusted | |
+| `estkz` | 100.0% | trusted | |
+| `bnfpo` | 100.0% | trusted | |
+| `banfn` | 100.0% | trusted | |
+| `uzeit` | 100.0% | trusted | |
+| `wamng` | 100.0% | trusted | |
+| `wemng` | 100.0% | trusted | |
+| `ameng` | 100.0% | trusted | |
+| `menge` | 100.0% | trusted | |
+| `lpein` | 100.0% | trusted | |
+| `slfdt` | 100.0% | trusted | |
+| `eindt` | 100.0% | trusted | |
+| `etenr` | 100.0% | trusted | |
+| `ebelp` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
+| `qupos` | 100.0% | trusted | |
+| `bedat` | 100.0% | trusted | |
+| `lddat` | 100.0% | trusted | |
+| `rsnum` | 100.0% | trusted | |
+| `mbuhr` | 100.0% | trusted | |
+| `mbdat` | 100.0% | trusted | |
+| `aulwe` | 100.0% | trusted | |
+| `altdt` | 100.0% | trusted | |
+| `dat01` | 100.0% | trusted | |
+| `mng02` | 100.0% | trusted | |
+| `abart` | 100.0% | trusted | |
+| `verid` | 100.0% | trusted | |
+| `chkom` | 100.0% | trusted | |
+| `licha` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `dabmg` | 100.0% | trusted | |
+| `glmng` | 100.0% | trusted | |
+| `fixkz` | 100.0% | trusted | |
+| `sernr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

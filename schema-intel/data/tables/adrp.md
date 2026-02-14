@@ -1,9 +1,9 @@
 ---
 table: adrp
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 3780595
-column_count: 46
+row_count: 424830
+column_count: 47
 ---
 
 # adrp
@@ -14,7 +14,7 @@ column_count: 46
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 46 | 100% |
+| Trusted (≥50%) | 47 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,52 +22,53 @@ column_count: 46
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `PERSNUMBER` | 100.0% | trusted | |
-| `PERS_GROUP` | 100.0% | trusted | |
-| `FLAGGROUPS` | 100.0% | trusted | |
-| `SORT1` | 100.0% | trusted | |
-| `SORT2` | 100.0% | trusted | |
-| `SORT_PHN` | 100.0% | trusted | |
-| `ADDR_COMP` | 100.0% | trusted | |
-| `ADDR_PERS` | 100.0% | trusted | |
-| `FLPERSTEL` | 100.0% | trusted | |
-| `FLPERSCOMM` | 100.0% | trusted | |
-| `PERSORIGIN` | 100.0% | trusted | |
-| `MC_NAMEFIR` | 100.0% | trusted | |
-| `MC_NAMELAS` | 100.0% | trusted | |
-| `MC_NAME2` | 100.0% | trusted | |
-| `LANGU_CREA` | 100.0% | trusted | |
-| `UUID_BELATED` | 100.0% | trusted | |
-| `ID_CATEGORY` | 100.0% | trusted | |
-| `ADRP_ERR_STATUS` | 100.0% | trusted | |
-| `_DATAAGING` | 100.0% | trusted | |
-| `XPCPT` | 100.0% | trusted | |
-| `LANGU` | 100.0% | trusted | |
-| `SEX` | 100.0% | trusted | |
-| `PROFESSION` | 100.0% | trusted | |
-| `NAMCOUNTRY` | 100.0% | trusted | |
-| `DATE_FROM` | 100.0% | trusted | |
-| `NATION` | 100.0% | trusted | |
-| `DATE_TO` | 100.0% | trusted | |
-| `TITLE` | 100.0% | trusted | |
-| `NAME_FIRST` | 100.0% | trusted | |
-| `NAME_LAST` | 100.0% | trusted | |
-| `NAME2` | 100.0% | trusted | |
-| `NAMEMIDDLE` | 100.0% | trusted | |
-| `NAME_LAST2` | 100.0% | trusted | |
-| `NAME_TEXT` | 100.0% | trusted | |
-| `CONVERTED` | 100.0% | trusted | |
-| `TITLE_ACA1` | 100.0% | trusted | |
-| `TITLE_ACA2` | 100.0% | trusted | |
-| `PREFIX1` | 100.0% | trusted | |
-| `PREFIX2` | 100.0% | trusted | |
-| `TITLE_SPPL` | 100.0% | trusted | |
-| `NICKNAME` | 100.0% | trusted | |
-| `INITIALS` | 100.0% | trusted | |
-| `NAMEFORMAT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `persorigin` | 100.0% | trusted | |
+| `pers_group` | 100.0% | trusted | |
+| `flaggroups` | 100.0% | trusted | |
+| `sort1` | 100.0% | trusted | |
+| `sort2` | 100.0% | trusted | |
+| `sort_phn` | 100.0% | trusted | |
+| `addr_comp` | 100.0% | trusted | |
+| `addr_pers` | 100.0% | trusted | |
+| `flperstel` | 100.0% | trusted | |
+| `flperscomm` | 100.0% | trusted | |
+| `mc_namefir` | 100.0% | trusted | |
+| `sex` | 100.0% | trusted | |
+| `mc_namelas` | 100.0% | trusted | |
+| `mc_name2` | 100.0% | trusted | |
+| `langu_crea` | 100.0% | trusted | |
+| `adrp_uuid` | 100.0% | trusted | |
+| `uuid_belated` | 100.0% | trusted | |
+| `id_category` | 100.0% | trusted | |
+| `adrp_err_status` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
+| `xpcpt` | 100.0% | trusted | |
+| `langu` | 100.0% | trusted | |
+| `profession` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `name_last2` | 100.0% | trusted | |
+| `persnumber` | 100.0% | trusted | |
+| `date_from` | 100.0% | trusted | |
+| `nation` | 100.0% | trusted | |
+| `date_to` | 100.0% | trusted | |
+| `title` | 100.0% | trusted | |
+| `name_first` | 100.0% | trusted | |
+| `name_last` | 100.0% | trusted | |
+| `name2` | 100.0% | trusted | |
+| `namemiddle` | 100.0% | trusted | |
+| `name_text` | 100.0% | trusted | |
+| `namcountry` | 100.0% | trusted | |
+| `converted` | 100.0% | trusted | |
+| `title_aca1` | 100.0% | trusted | |
+| `title_aca2` | 100.0% | trusted | |
+| `prefix1` | 100.0% | trusted | |
+| `prefix2` | 100.0% | trusted | |
+| `title_sppl` | 100.0% | trusted | |
+| `nickname` | 100.0% | trusted | |
+| `initials` | 100.0% | trusted | |
+| `nameformat` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
-| `ADRP_UUID` | 69.9% | trusted | |
 
 ## Notes
 

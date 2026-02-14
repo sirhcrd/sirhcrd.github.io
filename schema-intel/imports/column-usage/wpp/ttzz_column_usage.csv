@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,404,404,100.0,0,0.0
+2,client,404,404,100.0,0,0.0
+3,tzone,404,404,100.0,0,0.0
+4,zonerule,404,404,100.0,0,0.0
+5,dstrule,404,404,100.0,0,0.0
+6,flagactive,404,404,100.0,0,0.0
+7,src_commit_time,404,404,100.0,0,0.0

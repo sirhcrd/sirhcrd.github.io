@@ -1,9 +1,9 @@
 ---
 table: mast
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 50884
-column_count: 14
+row_count: 123488
+column_count: 15
 ---
 
 # mast
@@ -14,7 +14,7 @@ column_count: 14
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 14 | 100% |
+| Trusted (≥50%) | 15 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,19 +22,20 @@ column_count: 14
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `STLAN` | 100.0% | trusted | |
-| `STLNR` | 100.0% | trusted | |
-| `STLAL` | 100.0% | trusted | |
-| `LOSVN` | 100.0% | trusted | |
-| `LOSBS` | 100.0% | trusted | |
-| `ANDAT` | 100.0% | trusted | |
-| `ANNAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `CSLTY` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `stlan` | 100.0% | trusted | |
+| `stlnr` | 100.0% | trusted | |
+| `stlal` | 100.0% | trusted | |
+| `losvn` | 100.0% | trusted | |
+| `losbs` | 100.0% | trusted | |
+| `andat` | 100.0% | trusted | |
+| `annam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `cslty` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

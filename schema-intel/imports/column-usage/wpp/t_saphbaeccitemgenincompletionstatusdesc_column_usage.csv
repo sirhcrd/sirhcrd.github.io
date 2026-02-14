@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,480,480,100.0,0,0.0
+2,Language,480,480,100.0,0,0.0
+3,ItemGeneralIncompletionStatus,480,480,100.0,0,0.0
+4,ItemGenIncompletionStatusDesc,480,480,100.0,0,0.0
+5,src_commit_time,480,480,100.0,0,0.0

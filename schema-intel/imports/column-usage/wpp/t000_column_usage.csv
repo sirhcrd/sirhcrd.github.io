@@ -1,0 +1,20 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,6,6,100.0,0,0.0
+2,ccnocascad,6,6,100.0,0,0.0
+3,logsys,6,6,100.0,0,0.0
+4,changedate,6,6,100.0,0,0.0
+5,changeuser,6,6,100.0,0,0.0
+6,cctemplock,6,6,100.0,0,0.0
+7,ccimaildis,6,6,100.0,0,0.0
+8,ccorigcont,6,6,100.0,0,0.0
+9,ccsoftlock,6,6,100.0,0,0.0
+10,cccopylock,6,6,100.0,0,0.0
+11,mandt,6,6,100.0,0,0.0
+12,ccnocliind,6,6,100.0,0,0.0
+13,cccoractiv,6,6,100.0,0,0.0
+14,cccategory,6,6,100.0,0,0.0
+15,adrnr,6,6,100.0,0,0.0
+16,mwaer,6,6,100.0,0,0.0
+17,ort01,6,6,100.0,0,0.0
+18,mtext,6,6,100.0,0,0.0
+19,src_commit_time,6,6,100.0,0,0.0

@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,5218528,5218528,100.0,0,0.0
+2,SalesDocument,5218528,5218528,100.0,0,0.0
+3,SalesDocumentItem,5218528,5218528,100.0,0,0.0
+4,ScheduleLine,5218528,5218528,100.0,0,0.0
+5,PartnerFunction,5218528,5218528,100.0,0,0.0
+6,SDDocumentTable,5218528,5218528,100.0,0,0.0
+7,SDDocumentTableField,5218528,5218528,100.0,0,0.0
+8,IncompletionStatusGroup,5218528,5218528,100.0,0,0.0
+9,src_commit_time,5218528,5218528,100.0,0,0.0

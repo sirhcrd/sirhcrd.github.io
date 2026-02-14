@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,5729293,5729293,100.0,0,0.0
+2,tabname,5729293,5729293,100.0,0,0.0
+3,ddlanguage,5729293,5729293,100.0,0,0.0
+4,as4local,5729293,5729293,100.0,0,0.0
+5,as4vers,5729293,5729293,100.0,0,0.0
+6,ddtext,5729293,5729293,100.0,0,0.0
+7,src_commit_time,5729293,5729293,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: crtx
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 6520
-column_count: 9
+row_count: 2957
+column_count: 10
 ---
 
 # crtx
@@ -14,7 +14,7 @@ column_count: 9
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 9 | 100% |
+| Trusted (≥50%) | 10 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,14 +22,15 @@ column_count: 9
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `OBJTY` | 100.0% | trusted | |
-| `OBJID` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `AEDAT_TEXT` | 100.0% | trusted | |
-| `AENAM_TEXT` | 100.0% | trusted | |
-| `KTEXT` | 100.0% | trusted | |
-| `KTEXT_UP` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `objty` | 100.0% | trusted | |
+| `objid` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `aedat_text` | 100.0% | trusted | |
+| `aenam_text` | 100.0% | trusted | |
+| `ktext` | 100.0% | trusted | |
+| `ktext_up` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

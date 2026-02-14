@@ -1,9 +1,9 @@
 ---
 table: cobk
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 75511328
-column_count: 43
+row_count: 124754945
+column_count: 50
 ---
 
 # cobk
@@ -14,7 +14,7 @@ column_count: 43
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 43 | 100% |
+| Trusted (≥50%) | 50 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,48 +22,55 @@ column_count: 43
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `AWTYP` | 100.0% | trusted | |
-| `WSDAT` | 100.0% | trusted | |
-| `KURST` | 100.0% | trusted | |
-| `VARNR` | 100.0% | trusted | |
-| `KWAER` | 100.0% | trusted | |
-| `CTYP1` | 100.0% | trusted | |
-| `CTYP2` | 100.0% | trusted | |
-| `CTYP3` | 100.0% | trusted | |
-| `CTYP4` | 100.0% | trusted | |
-| `AWORG` | 100.0% | trusted | |
-| `SUMBZ` | 100.0% | trusted | |
-| `LOGSYSTEM` | 100.0% | trusted | |
-| `CPUTM` | 100.0% | trusted | |
-| `ALEBZ` | 100.0% | trusted | |
-| `ALEBN` | 100.0% | trusted | |
-| `AWSYS` | 100.0% | trusted | |
-| `AWREF_REV` | 100.0% | trusted | |
-| `AWORG_REV` | 100.0% | trusted | |
-| `VALDT` | 100.0% | trusted | |
-| `DELBZ` | 100.0% | trusted | |
-| `ORGVG` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `BUDAT` | 100.0% | trusted | |
-| `BELNR` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `VERSN` | 100.0% | trusted | |
-| `VRGNG` | 100.0% | trusted | |
-| `TIMESTMP` | 100.0% | trusted | |
-| `PERAB` | 100.0% | trusted | |
-| `PERBI` | 100.0% | trusted | |
-| `BLDAT` | 100.0% | trusted | |
-| `CPUDT` | 100.0% | trusted | |
-| `BLART` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `BLTXT` | 100.0% | trusted | |
-| `STFLG` | 100.0% | trusted | |
-| `STOKZ` | 100.0% | trusted | |
-| `REFBT` | 100.0% | trusted | |
-| `REFBN` | 100.0% | trusted | |
-| `REFBK` | 100.0% | trusted | |
-| `REFGJ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `alebz` | 100.0% | trusted | |
+| `varnr` | 100.0% | trusted | |
+| `kwaer` | 100.0% | trusted | |
+| `ctyp1` | 100.0% | trusted | |
+| `ctyp2` | 100.0% | trusted | |
+| `ctyp3` | 100.0% | trusted | |
+| `ctyp4` | 100.0% | trusted | |
+| `awtyp` | 100.0% | trusted | |
+| `aworg` | 100.0% | trusted | |
+| `logsystem` | 100.0% | trusted | |
+| `cputm` | 100.0% | trusted | |
+| `alebn` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `awsys` | 100.0% | trusted | |
+| `awref_rev` | 100.0% | trusted | |
+| `aworg_rev` | 100.0% | trusted | |
+| `valdt` | 100.0% | trusted | |
+| `ldgrp` | 100.0% | trusted | |
+| `awkey` | 100.0% | trusted | |
+| `kokrs_sender` | 100.0% | trusted | |
+| `belnr_sender` | 100.0% | trusted | |
+| `logsystem_sender` | 100.0% | trusted | |
+| `reprocessing_status_code` | 100.0% | trusted | |
+| `kurst` | 100.0% | trusted | |
+| `wsdat` | 100.0% | trusted | |
+| `delbz` | 100.0% | trusted | |
+| `sumbz` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `belnr` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `versn` | 100.0% | trusted | |
+| `vrgng` | 100.0% | trusted | |
+| `timestmp` | 100.0% | trusted | |
+| `perab` | 100.0% | trusted | |
+| `perbi` | 100.0% | trusted | |
+| `bldat` | 100.0% | trusted | |
+| `budat` | 100.0% | trusted | |
+| `cpudt` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `bltxt` | 100.0% | trusted | |
+| `stflg` | 100.0% | trusted | |
+| `stokz` | 100.0% | trusted | |
+| `refbt` | 100.0% | trusted | |
+| `refbn` | 100.0% | trusted | |
+| `refbk` | 100.0% | trusted | |
+| `refgj` | 100.0% | trusted | |
+| `blart` | 100.0% | trusted | |
+| `orgvg` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

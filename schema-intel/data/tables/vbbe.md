@@ -1,9 +1,9 @@
 ---
 table: vbbe
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1961367
-column_count: 42
+row_count: 89994
+column_count: 44
 ---
 
 # vbbe
@@ -14,7 +14,7 @@ column_count: 42
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 42 | 100% |
+| Trusted (≥50%) | 44 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,47 +22,49 @@ column_count: 42
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `NODIS` | 100.0% | trusted | |
-| `VPZUO` | 100.0% | trusted | |
-| `VPMAT` | 100.0% | trusted | |
-| `VPWRK` | 100.0% | trusted | |
-| `PRBME` | 100.0% | trusted | |
-| `UMREF` | 100.0% | trusted | |
-| `PZMNG` | 100.0% | trusted | |
-| `KNTTP` | 100.0% | trusted | |
-| `KZVBR` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `SERNR` | 100.0% | trusted | |
-| `PSPEL` | 100.0% | trusted | |
-| `PLNKZ` | 100.0% | trusted | |
-| `CUOBJ` | 100.0% | trusted | |
-| `MONKZ` | 100.0% | trusted | |
-| `KZBWS` | 100.0% | trusted | |
-| `TECHS` | 100.0% | trusted | |
-| `SGT_RCAT` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `PROJN` | 100.0% | trusted | |
-| `AUART` | 100.0% | trusted | |
-| `AWAHR` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `ETENR` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `BERID` | 100.0% | trusted | |
-| `MBDAT` | 100.0% | trusted | |
-| `LGORT` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `VBTYP` | 100.0% | trusted | |
-| `BDART` | 100.0% | trusted | |
-| `PLART` | 100.0% | trusted | |
-| `OMENG` | 100.0% | trusted | |
-| `VMENG` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `VBELE` | 100.0% | trusted | |
-| `POSNE` | 100.0% | trusted | |
-| `ETENE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `nodis` | 100.0% | trusted | |
+| `vpzuo` | 100.0% | trusted | |
+| `vpmat` | 100.0% | trusted | |
+| `vpwrk` | 100.0% | trusted | |
+| `prbme` | 100.0% | trusted | |
+| `umref` | 100.0% | trusted | |
+| `pzmng` | 100.0% | trusted | |
+| `knttp` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `kzvbr` | 100.0% | trusted | |
+| `sernr` | 100.0% | trusted | |
+| `pspel` | 100.0% | trusted | |
+| `plnkz` | 100.0% | trusted | |
+| `cuobj` | 100.0% | trusted | |
+| `monkz` | 100.0% | trusted | |
+| `kzbws` | 100.0% | trusted | |
+| `techs` | 100.0% | trusted | |
+| `sgt_rcat` | 100.0% | trusted | |
+| `fsh_ralloc_qty` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `projn` | 100.0% | trusted | |
+| `auart` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `etenr` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `berid` | 100.0% | trusted | |
+| `mbdat` | 100.0% | trusted | |
+| `lgort` | 100.0% | trusted | |
+| `vbtyp` | 100.0% | trusted | |
+| `awahr` | 100.0% | trusted | |
+| `bdart` | 100.0% | trusted | |
+| `plart` | 100.0% | trusted | |
+| `omeng` | 100.0% | trusted | |
+| `vmeng` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `vbele` | 100.0% | trusted | |
+| `posne` | 100.0% | trusted | |
+| `etene` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

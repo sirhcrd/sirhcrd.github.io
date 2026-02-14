@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,382703,382703,100.0,0,0.0
+2,mandt,382703,382703,100.0,0,0.0
+3,partner,382703,382703,100.0,0,0.0
+4,valid_until,382703,382703,100.0,0,0.0
+5,valid_from,382703,382703,100.0,0,0.0
+6,coll_profile,382703,382703,100.0,0,0.0
+7,src_commit_time,382703,382703,100.0,0,0.0

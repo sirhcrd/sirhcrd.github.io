@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,240,240,100.0,0,0.0
+2,mandt,240,240,100.0,0,0.0
+3,spras,240,240,100.0,0,0.0
+4,mtver,240,240,100.0,0,0.0
+5,bezei,240,240,100.0,0,0.0
+6,src_commit_time,240,240,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: lfb1
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 251079
-column_count: 79
+row_count: 89007
+column_count: 80
 ---
 
 # lfb1
@@ -14,7 +14,7 @@ column_count: 79
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 79 | 100% |
+| Trusted (≥50%) | 80 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,84 +22,85 @@ column_count: 79
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `XLFZB` | 100.0% | trusted | |
-| `UPDAT` | 100.0% | trusted | |
-| `CONFS` | 100.0% | trusted | |
-| `CERDT` | 100.0% | trusted | |
-| `XAUSZ` | 100.0% | trusted | |
-| `GRIDT` | 100.0% | trusted | |
-| `GRICD` | 100.0% | trusted | |
-| `GUZTE` | 100.0% | trusted | |
-| `INTAD` | 100.0% | trusted | |
-| `NODEL` | 100.0% | trusted | |
-| `TLFXS` | 100.0% | trusted | |
-| `TOGRR` | 100.0% | trusted | |
-| `FRGRP` | 100.0% | trusted | |
-| `XEDIP` | 100.0% | trusted | |
-| `QLAND` | 100.0% | trusted | |
-| `QSBGR` | 100.0% | trusted | |
-| `QSREC` | 100.0% | trusted | |
-| `UPTIM` | 100.0% | trusted | |
-| `TLFNS` | 100.0% | trusted | |
-| `MGRUP` | 100.0% | trusted | |
-| `J_SC_SUBCONTYPE` | 100.0% | trusted | |
-| `ASSIGN_TEST` | 100.0% | trusted | |
-| `PREPAY_RELEVANT` | 100.0% | trusted | |
-| `GMVKZK` | 100.0% | trusted | |
-| `BASIS_PNT` | 100.0% | trusted | |
-| `J_SC_OFFSR` | 100.0% | trusted | |
-| `J_SC_OFFSM` | 100.0% | trusted | |
-| `J_SC_COMPDATE` | 100.0% | trusted | |
-| `ZMINDAT` | 100.0% | trusted | |
-| `AVSND` | 100.0% | trusted | |
-| `ZQSZNR` | 100.0% | trusted | |
-| `ZQSZDT` | 100.0% | trusted | |
-| `ZQSSKZ` | 100.0% | trusted | |
-| `ZBOKD` | 100.0% | trusted | |
-| `CIIUCODE` | 100.0% | trusted | |
-| `CVP_XBLCK_B` | 100.0% | trusted | |
-| `AD_HASH` | 100.0% | trusted | |
-| `UZAWE` | 100.0% | trusted | |
-| `ZGRUP` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `BEGRU` | 100.0% | trusted | |
-| `ZSABE` | 100.0% | trusted | |
-| `EIKTO` | 100.0% | trusted | |
-| `ZTERM` | 100.0% | trusted | |
-| `ZAHLS` | 100.0% | trusted | |
-| `XVERR` | 100.0% | trusted | |
-| `ZWELS` | 100.0% | trusted | |
-| `VZSKZ` | 100.0% | trusted | |
-| `AKONT` | 100.0% | trusted | |
-| `FDGRV` | 100.0% | trusted | |
-| `ZUAWA` | 100.0% | trusted | |
-| `LOEVM` | 100.0% | trusted | |
-| `SPERR` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `PERNR` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `KVERM` | 100.0% | trusted | |
-| `BUSAB` | 100.0% | trusted | |
-| `ALTKN` | 100.0% | trusted | |
-| `TOGRU` | 100.0% | trusted | |
-| `MINDK` | 100.0% | trusted | |
-| `BLNKZ` | 100.0% | trusted | |
-| `QSSKZ` | 100.0% | trusted | |
-| `QSZDT` | 100.0% | trusted | |
-| `QSZNR` | 100.0% | trusted | |
-| `XPORE` | 100.0% | trusted | |
-| `HBKID` | 100.0% | trusted | |
-| `REPRF` | 100.0% | trusted | |
-| `LNRZE` | 100.0% | trusted | |
-| `KULTG` | 100.0% | trusted | |
-| `WEBTR` | 100.0% | trusted | |
-| `XDEZV` | 100.0% | trusted | |
-| `DATLZ` | 100.0% | trusted | |
-| `ZINRT` | 100.0% | trusted | |
-| `ZINDT` | 100.0% | trusted | |
-| `LNRZB` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `updat` | 100.0% | trusted | |
+| `confs` | 100.0% | trusted | |
+| `cerdt` | 100.0% | trusted | |
+| `xausz` | 100.0% | trusted | |
+| `gridt` | 100.0% | trusted | |
+| `gricd` | 100.0% | trusted | |
+| `guzte` | 100.0% | trusted | |
+| `xlfzb` | 100.0% | trusted | |
+| `intad` | 100.0% | trusted | |
+| `tlfxs` | 100.0% | trusted | |
+| `togrr` | 100.0% | trusted | |
+| `frgrp` | 100.0% | trusted | |
+| `xedip` | 100.0% | trusted | |
+| `qland` | 100.0% | trusted | |
+| `qsbgr` | 100.0% | trusted | |
+| `qsrec` | 100.0% | trusted | |
+| `uzawe` | 100.0% | trusted | |
+| `uptim` | 100.0% | trusted | |
+| `nodel` | 100.0% | trusted | |
+| `tlfns` | 100.0% | trusted | |
+| `j_sc_offsm` | 100.0% | trusted | |
+| `ciiucode` | 100.0% | trusted | |
+| `cvp_xblck_b` | 100.0% | trusted | |
+| `assign_test` | 100.0% | trusted | |
+| `prepay_relevant` | 100.0% | trusted | |
+| `gmvkzk` | 100.0% | trusted | |
+| `basis_pnt` | 100.0% | trusted | |
+| `j_sc_offsr` | 100.0% | trusted | |
+| `j_sc_compdate` | 100.0% | trusted | |
+| `avsnd` | 100.0% | trusted | |
+| `j_sc_subcontype` | 100.0% | trusted | |
+| `zmindat` | 100.0% | trusted | |
+| `zqsznr` | 100.0% | trusted | |
+| `zqszdt` | 100.0% | trusted | |
+| `zqsskz` | 100.0% | trusted | |
+| `zbokd` | 100.0% | trusted | |
+| `ad_hash` | 100.0% | trusted | |
+| `mgrup` | 100.0% | trusted | |
+| `zgrup` | 100.0% | trusted | |
+| `altkn` | 100.0% | trusted | |
+| `akont` | 100.0% | trusted | |
+| `eikto` | 100.0% | trusted | |
+| `zterm` | 100.0% | trusted | |
+| `zahls` | 100.0% | trusted | |
+| `xverr` | 100.0% | trusted | |
+| `zwels` | 100.0% | trusted | |
+| `vzskz` | 100.0% | trusted | |
+| `begru` | 100.0% | trusted | |
+| `zuawa` | 100.0% | trusted | |
+| `kverm` | 100.0% | trusted | |
+| `loevm` | 100.0% | trusted | |
+| `sperr` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `pernr` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `zsabe` | 100.0% | trusted | |
+| `fdgrv` | 100.0% | trusted | |
+| `mindk` | 100.0% | trusted | |
+| `reprf` | 100.0% | trusted | |
+| `blnkz` | 100.0% | trusted | |
+| `qsskz` | 100.0% | trusted | |
+| `qszdt` | 100.0% | trusted | |
+| `qsznr` | 100.0% | trusted | |
+| `xpore` | 100.0% | trusted | |
+| `hbkid` | 100.0% | trusted | |
+| `togru` | 100.0% | trusted | |
+| `kultg` | 100.0% | trusted | |
+| `busab` | 100.0% | trusted | |
+| `webtr` | 100.0% | trusted | |
+| `xdezv` | 100.0% | trusted | |
+| `datlz` | 100.0% | trusted | |
+| `zinrt` | 100.0% | trusted | |
+| `zindt` | 100.0% | trusted | |
+| `lnrzb` | 100.0% | trusted | |
+| `lnrze` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

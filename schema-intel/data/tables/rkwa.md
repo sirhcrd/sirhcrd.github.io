@@ -1,9 +1,9 @@
 ---
 table: rkwa
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 11116
-column_count: 26
+row_count: 28510
+column_count: 27
 ---
 
 # rkwa
@@ -14,7 +14,7 @@ column_count: 26
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 26 | 100% |
+| Trusted (≥50%) | 27 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,31 +22,32 @@ column_count: 26
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MBLNR` | 100.0% | trusted | |
-| `PRCTR` | 100.0% | trusted | |
-| `NAVNW` | 100.0% | trusted | |
-| `BUZEI` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `BELNR` | 100.0% | trusted | |
-| `MWSKZ` | 100.0% | trusted | |
-| `HKONT` | 100.0% | trusted | |
-| `BSTMG` | 100.0% | trusted | |
-| `BSTME` | 100.0% | trusted | |
-| `WRBTR` | 100.0% | trusted | |
-| `BWAER` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `SHKZG` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `BUDAT` | 100.0% | trusted | |
-| `BLDAT` | 100.0% | trusted | |
-| `STATUS` | 100.0% | trusted | |
-| `ZEILE` | 100.0% | trusted | |
-| `MJAHR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `prctr` | 100.0% | trusted | |
+| `navnw` | 100.0% | trusted | |
+| `buzei` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `belnr` | 100.0% | trusted | |
+| `mwskz` | 100.0% | trusted | |
+| `hkont` | 100.0% | trusted | |
+| `bstmg` | 100.0% | trusted | |
+| `bstme` | 100.0% | trusted | |
+| `wrbtr` | 100.0% | trusted | |
+| `bwaer` | 100.0% | trusted | |
+| `shkzg` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `budat` | 100.0% | trusted | |
+| `bldat` | 100.0% | trusted | |
+| `status` | 100.0% | trusted | |
+| `zeile` | 100.0% | trusted | |
+| `mjahr` | 100.0% | trusted | |
+| `mblnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

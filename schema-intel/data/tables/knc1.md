@@ -1,8 +1,8 @@
 ---
 table: knc1
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 3788512
+row_count: 118974
 column_count: 60
 ---
 
@@ -22,65 +22,65 @@ column_count: 60
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `UM09H` | 100.0% | trusted | |
-| `UM09U` | 100.0% | trusted | |
-| `UM10S` | 100.0% | trusted | |
-| `UM10H` | 100.0% | trusted | |
-| `UM10U` | 100.0% | trusted | |
-| `UM11S` | 100.0% | trusted | |
-| `UM11H` | 100.0% | trusted | |
-| `UM11U` | 100.0% | trusted | |
-| `UM12S` | 100.0% | trusted | |
-| `UM12H` | 100.0% | trusted | |
-| `UM12U` | 100.0% | trusted | |
-| `UM13S` | 100.0% | trusted | |
-| `UM13H` | 100.0% | trusted | |
-| `UM13U` | 100.0% | trusted | |
-| `UM14S` | 100.0% | trusted | |
-| `UM14H` | 100.0% | trusted | |
-| `UM14U` | 100.0% | trusted | |
-| `UM15S` | 100.0% | trusted | |
-| `UM15H` | 100.0% | trusted | |
-| `UM15U` | 100.0% | trusted | |
-| `UM16S` | 100.0% | trusted | |
-| `UM16H` | 100.0% | trusted | |
-| `UM16U` | 100.0% | trusted | |
-| `BABZG` | 100.0% | trusted | |
-| `UABZG` | 100.0% | trusted | |
-| `KZINS` | 100.0% | trusted | |
-| `KUMAG` | 100.0% | trusted | |
-| `UM09S` | 100.0% | trusted | |
-| `UM08U` | 100.0% | trusted | |
-| `UM08H` | 100.0% | trusted | |
-| `UM03H` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `UMSAV` | 100.0% | trusted | |
-| `UM01S` | 100.0% | trusted | |
-| `UM01H` | 100.0% | trusted | |
-| `UM01U` | 100.0% | trusted | |
-| `UM02S` | 100.0% | trusted | |
-| `UM02H` | 100.0% | trusted | |
-| `UM02U` | 100.0% | trusted | |
-| `UM03S` | 100.0% | trusted | |
-| `UM03U` | 100.0% | trusted | |
-| `UM08S` | 100.0% | trusted | |
-| `UM04S` | 100.0% | trusted | |
-| `UM04H` | 100.0% | trusted | |
-| `UM04U` | 100.0% | trusted | |
-| `UM05S` | 100.0% | trusted | |
-| `UM05H` | 100.0% | trusted | |
-| `UM05U` | 100.0% | trusted | |
-| `UM06S` | 100.0% | trusted | |
-| `UM06H` | 100.0% | trusted | |
-| `UM06U` | 100.0% | trusted | |
-| `UM07S` | 100.0% | trusted | |
-| `UM07H` | 100.0% | trusted | |
-| `UM07U` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `um09h` | 100.0% | trusted | |
+| `um09u` | 100.0% | trusted | |
+| `um10s` | 100.0% | trusted | |
+| `um10h` | 100.0% | trusted | |
+| `um10u` | 100.0% | trusted | |
+| `um11s` | 100.0% | trusted | |
+| `um11h` | 100.0% | trusted | |
+| `um11u` | 100.0% | trusted | |
+| `um12s` | 100.0% | trusted | |
+| `um12h` | 100.0% | trusted | |
+| `um12u` | 100.0% | trusted | |
+| `um13s` | 100.0% | trusted | |
+| `um13h` | 100.0% | trusted | |
+| `um13u` | 100.0% | trusted | |
+| `um14s` | 100.0% | trusted | |
+| `um14h` | 100.0% | trusted | |
+| `um14u` | 100.0% | trusted | |
+| `um15s` | 100.0% | trusted | |
+| `um15h` | 100.0% | trusted | |
+| `um15u` | 100.0% | trusted | |
+| `um16s` | 100.0% | trusted | |
+| `um16h` | 100.0% | trusted | |
+| `um16u` | 100.0% | trusted | |
+| `babzg` | 100.0% | trusted | |
+| `uabzg` | 100.0% | trusted | |
+| `kzins` | 100.0% | trusted | |
+| `kumag` | 100.0% | trusted | |
+| `um09s` | 100.0% | trusted | |
+| `um08u` | 100.0% | trusted | |
+| `um08h` | 100.0% | trusted | |
+| `um03h` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `umsav` | 100.0% | trusted | |
+| `um01s` | 100.0% | trusted | |
+| `um01h` | 100.0% | trusted | |
+| `um01u` | 100.0% | trusted | |
+| `um02s` | 100.0% | trusted | |
+| `um02h` | 100.0% | trusted | |
+| `um02u` | 100.0% | trusted | |
+| `um03s` | 100.0% | trusted | |
+| `um03u` | 100.0% | trusted | |
+| `um08s` | 100.0% | trusted | |
+| `um04s` | 100.0% | trusted | |
+| `um04h` | 100.0% | trusted | |
+| `um04u` | 100.0% | trusted | |
+| `um05s` | 100.0% | trusted | |
+| `um05h` | 100.0% | trusted | |
+| `um05u` | 100.0% | trusted | |
+| `um06s` | 100.0% | trusted | |
+| `um06h` | 100.0% | trusted | |
+| `um06u` | 100.0% | trusted | |
+| `um07s` | 100.0% | trusted | |
+| `um07h` | 100.0% | trusted | |
+| `um07u` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,190,190,100.0,0,0.0
+2,mandt,190,190,100.0,0,0.0
+3,coll_group,190,190,100.0,0,0.0
+4,coll_strategy,190,190,100.0,0,0.0
+5,src_commit_time,190,190,100.0,0,0.0

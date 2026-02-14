@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,46,46,100.0,0,0.0
+2,mandt,46,46,100.0,0,0.0
+3,zahls,46,46,100.0,0,0.0
+4,char1,46,46,100.0,0,0.0
+5,xozsp,46,46,100.0,0,0.0
+6,xnchg,46,46,100.0,0,0.0
+7,src_commit_time,46,46,100.0,0,0.0

@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,4084,4084,100.0,0,0.0
+2,Language,4084,4084,100.0,0,0.0
+3,GoodsMovementType,4084,4084,100.0,0,0.0
+4,GoodsMovementReasonCode,4084,4084,100.0,0,0.0
+5,GoodsMovementReasonName,4084,4084,100.0,0,0.0
+6,src_commit_time,4084,4084,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: mcha
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 33610584
-column_count: 41
+row_count: 446570
+column_count: 47
 ---
 
 # mcha
@@ -14,7 +14,7 @@ column_count: 41
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 41 | 100% |
+| Trusted (≥50%) | 47 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,46 +22,52 @@ column_count: 41
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LWEDT` | 100.0% | trusted | |
-| `FVDT2` | 100.0% | trusted | |
-| `FVDT3` | 100.0% | trusted | |
-| `FVDT4` | 100.0% | trusted | |
-| `FVDT5` | 100.0% | trusted | |
-| `FVDT6` | 100.0% | trusted | |
-| `HERKL` | 100.0% | trusted | |
-| `HERKR` | 100.0% | trusted | |
-| `MTVER` | 100.0% | trusted | |
-| `QNDAT` | 100.0% | trusted | |
-| `HSDAT` | 100.0% | trusted | |
-| `CUOBJ_BM` | 100.0% | trusted | |
-| `DEACT_BM` | 100.0% | trusted | |
-| `BATCH_TYPE` | 100.0% | trusted | |
-| `SGT_SCAT` | 100.0% | trusted | |
-| `ERSDA_TMSTP` | 100.0% | trusted | |
-| `ERSDA_TZ_SYS` | 100.0% | trusted | |
-| `ERSDA_TZ_USR` | 100.0% | trusted | |
-| `FVDT1` | 100.0% | trusted | |
-| `CHAME` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `BWTAR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `LVORM` | 100.0% | trusted | |
-| `ERSDA` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `LAEDA` | 100.0% | trusted | |
-| `VERAB` | 100.0% | trusted | |
-| `VFDAT` | 100.0% | trusted | |
-| `ZUSCH` | 100.0% | trusted | |
-| `ZUSTD` | 100.0% | trusted | |
-| `ZAEDT` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `LICHA` | 100.0% | trusted | |
-| `VLCHA` | 100.0% | trusted | |
-| `VLWRK` | 100.0% | trusted | |
-| `VLMAT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `deact_bm` | 100.0% | trusted | |
+| `fvdt4` | 100.0% | trusted | |
+| `fvdt5` | 100.0% | trusted | |
+| `fvdt6` | 100.0% | trusted | |
+| `herkl` | 100.0% | trusted | |
+| `herkr` | 100.0% | trusted | |
+| `mtver` | 100.0% | trusted | |
+| `qndat` | 100.0% | trusted | |
+| `hsdat` | 100.0% | trusted | |
+| `cuobj_bm` | 100.0% | trusted | |
+| `batch_type` | 100.0% | trusted | |
+| `fvdt2` | 100.0% | trusted | |
+| `sgt_scat` | 100.0% | trusted | |
+| `ersda_tmstp` | 100.0% | trusted | |
+| `ersda_tz_sys` | 100.0% | trusted | |
+| `ersda_tz_usr` | 100.0% | trusted | |
+| `fsh_season_year` | 100.0% | trusted | |
+| `fsh_season` | 100.0% | trusted | |
+| `fsh_collection` | 100.0% | trusted | |
+| `fsh_theme` | 100.0% | trusted | |
+| `zfdat` | 100.0% | trusted | |
+| `fvdt3` | 100.0% | trusted | |
+| `fvdt1` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `vfdat` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `lvorm` | 100.0% | trusted | |
+| `ersda` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `laeda` | 100.0% | trusted | |
+| `verab` | 100.0% | trusted | |
+| `zusch` | 100.0% | trusted | |
+| `lwedt` | 100.0% | trusted | |
+| `zustd` | 100.0% | trusted | |
+| `zaedt` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `licha` | 100.0% | trusted | |
+| `vlcha` | 100.0% | trusted | |
+| `vlwrk` | 100.0% | trusted | |
+| `vlmat` | 100.0% | trusted | |
+| `bwtar` | 100.0% | trusted | |
+| `chame` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

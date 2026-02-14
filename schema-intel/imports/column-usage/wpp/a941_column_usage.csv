@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,43,43,100.0,0,0.0
+2,mandt,43,43,100.0,0,0.0
+3,kappl,43,43,100.0,0,0.0
+4,kschl,43,43,100.0,0,0.0
+5,auart_sd,43,43,100.0,0,0.0
+6,kfrst,43,43,100.0,0,0.0
+7,datbi,43,43,100.0,0,0.0
+8,datab,43,43,100.0,0,0.0
+9,kbstat,43,43,100.0,0,0.0
+10,knumh,43,43,100.0,0,0.0
+11,src_commit_time,43,43,100.0,0,0.0

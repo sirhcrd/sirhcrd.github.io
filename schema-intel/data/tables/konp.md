@@ -1,9 +1,9 @@
 ---
 table: konp
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2063797560
-column_count: 66
+row_count: 143474095
+column_count: 65
 ---
 
 # konp
@@ -14,7 +14,7 @@ column_count: 66
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 66 | 100% |
+| Trusted (≥50%) | 65 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,9 @@ column_count: 66
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `klf_kal` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `loevm_ko` | 100.0% | trusted | |
+| `bomat` | 100.0% | trusted | |
 | `kbrue` | 100.0% | trusted | |
 | `kspae` | 100.0% | trusted | |
 | `bosta` | 100.0% | trusted | |
@@ -38,8 +39,8 @@ column_count: 66
 | `mxkbas` | 100.0% | trusted | |
 | `komxwrt` | 100.0% | trusted | |
 | `klf_stg` | 100.0% | trusted | |
+| `klf_kal` | 100.0% | trusted | |
 | `vkkal` | 100.0% | trusted | |
-| `knumh` | 100.0% | trusted | |
 | `aktnr` | 100.0% | trusted | |
 | `knuma_bo` | 100.0% | trusted | |
 | `mwsk2` | 100.0% | trusted | |
@@ -52,12 +53,11 @@ column_count: 66
 | `/bev1/ecrtt` | 100.0% | trusted | |
 | `/bev1/ecrtn` | 100.0% | trusted | |
 | `/bev1/ecewa` | 100.0% | trusted | |
-| `zagr_group_id` | 100.0% | trusted | |
-| `zagr_group_name` | 100.0% | trusted | |
-| `bomat` | 100.0% | trusted | |
 | `zaehk_ind` | 100.0% | trusted | |
-| `loevm_ko` | 100.0% | trusted | |
 | `mwsk1` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `knumh` | 100.0% | trusted | |
 | `kopos` | 100.0% | trusted | |
 | `kappl` | 100.0% | trusted | |
 | `kschl` | 100.0% | trusted | |
@@ -86,7 +86,6 @@ column_count: 66
 | `ukbas` | 100.0% | trusted | |
 | `kznep` | 100.0% | trusted | |
 | `kunnr` | 100.0% | trusted | |
-| `lifnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: bsak
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 40959071
-column_count: 184
+row_count: 6525848
+column_count: 186
 ---
 
 # bsak
@@ -14,7 +14,7 @@ column_count: 184
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 184 | 100% |
+| Trusted (≥50%) | 186 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -23,8 +23,7 @@ column_count: 184
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
 | `MANDT` | 100.0% | trusted | |
-| `XARCH` | 100.0% | trusted | |
-| `XRAGL` | 100.0% | trusted | |
+| `PSWSL` | 100.0% | trusted | |
 | `RSTGR` | 100.0% | trusted | |
 | `UZAWE` | 100.0% | trusted | |
 | `KOSTL` | 100.0% | trusted | |
@@ -33,9 +32,9 @@ column_count: 184
 | `KZBTR` | 100.0% | trusted | |
 | `XREF1` | 100.0% | trusted | |
 | `XREF2` | 100.0% | trusted | |
-| `PSWSL` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
+| `XARCH` | 100.0% | trusted | |
 | `PSWBT` | 100.0% | trusted | |
+| `DTWS2` | 100.0% | trusted | |
 | `IMKEY` | 100.0% | trusted | |
 | `ZEKKN` | 100.0% | trusted | |
 | `FISTL` | 100.0% | trusted | |
@@ -44,11 +43,11 @@ column_count: 184
 | `XNEGP` | 100.0% | trusted | |
 | `EMPFB` | 100.0% | trusted | |
 | `PRCTR` | 100.0% | trusted | |
+| `XREF3` | 100.0% | trusted | |
+| `XRAGL` | 100.0% | trusted | |
 | `BDIF3` | 100.0% | trusted | |
 | `SKNT3` | 100.0% | trusted | |
 | `SKNT2` | 100.0% | trusted | |
-| `MWST3` | 100.0% | trusted | |
-| `EGLLD` | 100.0% | trusted | |
 | `QSZNR` | 100.0% | trusted | |
 | `QSFBT` | 100.0% | trusted | |
 | `XINVE` | 100.0% | trusted | |
@@ -67,11 +66,11 @@ column_count: 184
 | `DMB32` | 100.0% | trusted | |
 | `DMB33` | 100.0% | trusted | |
 | `MWST2` | 100.0% | trusted | |
-| `XREF3` | 100.0% | trusted | |
+| `MWST3` | 100.0% | trusted | |
 | `DTWS1` | 100.0% | trusted | |
-| `DTWS2` | 100.0% | trusted | |
-| `GRANT_NBR` | 100.0% | trusted | |
-| `SRTYPE` | 100.0% | trusted | |
+| `DTWS3` | 100.0% | trusted | |
+| `BUKRS` | 100.0% | trusted | |
+| `_DATAAGING` | 100.0% | trusted | |
 | `LOTKZ` | 100.0% | trusted | |
 | `ZINKZ` | 100.0% | trusted | |
 | `FKBER` | 100.0% | trusted | |
@@ -82,19 +81,20 @@ column_count: 184
 | `HKTID` | 100.0% | trusted | |
 | `BUDGET_PD` | 100.0% | trusted | |
 | `KONTT` | 100.0% | trusted | |
+| `DTWS4` | 100.0% | trusted | |
 | `KONTL` | 100.0% | trusted | |
 | `UEBGDAT` | 100.0% | trusted | |
 | `VNAME` | 100.0% | trusted | |
 | `EGRUP` | 100.0% | trusted | |
 | `BTYPE` | 100.0% | trusted | |
 | `PROPMANO` | 100.0% | trusted | |
-| `INWARDNO_HD` | 100.0% | trusted | |
-| `INWARDDT_HD` | 100.0% | trusted | |
+| `GKONT` | 100.0% | trusted | |
+| `GKART` | 100.0% | trusted | |
+| `GHKON` | 100.0% | trusted | |
+| `SRTYPE` | 100.0% | trusted | |
 | `GMVKZ` | 100.0% | trusted | |
+| `GRANT_NBR` | 100.0% | trusted | |
 | `KBLPOS` | 100.0% | trusted | |
-| `DTWS3` | 100.0% | trusted | |
-| `KBLNR` | 100.0% | trusted | |
-| `DTWS4` | 100.0% | trusted | |
 | `XPYPR` | 100.0% | trusted | |
 | `KIDNO` | 100.0% | trusted | |
 | `PYCUR` | 100.0% | trusted | |
@@ -113,10 +113,11 @@ column_count: 184
 | `VERTT` | 100.0% | trusted | |
 | `VERTN` | 100.0% | trusted | |
 | `VBEWA` | 100.0% | trusted | |
+| `KBLNR` | 100.0% | trusted | |
+| `EGLLD` | 100.0% | trusted | |
 | `EGBLD` | 100.0% | trusted | |
 | `STCEG` | 100.0% | trusted | |
-| `REBZT` | 100.0% | trusted | |
-| `DMBTR` | 100.0% | trusted | |
+| `EBELN` | 100.0% | trusted | |
 | `MWSTS` | 100.0% | trusted | |
 | `WMWST` | 100.0% | trusted | |
 | `BDIFF` | 100.0% | trusted | |
@@ -126,8 +127,8 @@ column_count: 184
 | `AUFNR` | 100.0% | trusted | |
 | `ANLN1` | 100.0% | trusted | |
 | `ANLN2` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
 | `EBELP` | 100.0% | trusted | |
+| `REBZT` | 100.0% | trusted | |
 | `SAKNR` | 100.0% | trusted | |
 | `HKONT` | 100.0% | trusted | |
 | `FKONT` | 100.0% | trusted | |
@@ -136,9 +137,10 @@ column_count: 184
 | `ZTERM` | 100.0% | trusted | |
 | `ZBD1T` | 100.0% | trusted | |
 | `ZBD2T` | 100.0% | trusted | |
+| `ZBD3T` | 100.0% | trusted | |
 | `WRBTR` | 100.0% | trusted | |
+| `DMBTR` | 100.0% | trusted | |
 | `MWSKZ` | 100.0% | trusted | |
-| `ZBD1P` | 100.0% | trusted | |
 | `GSBER` | 100.0% | trusted | |
 | `LIFNR` | 100.0% | trusted | |
 | `UMSKS` | 100.0% | trusted | |
@@ -159,11 +161,10 @@ column_count: 184
 | `BSCHL` | 100.0% | trusted | |
 | `ZUMSK` | 100.0% | trusted | |
 | `SHKZG` | 100.0% | trusted | |
-| `ZBD3T` | 100.0% | trusted | |
+| `ZBD1P` | 100.0% | trusted | |
 | `ZBD2P` | 100.0% | trusted | |
-| `VBUND` | 100.0% | trusted | |
-| `XNETB` | 100.0% | trusted | |
-| `XCPDD` | 100.0% | trusted | |
+| `SKFBT` | 100.0% | trusted | |
+| `XANET` | 100.0% | trusted | |
 | `XESRD` | 100.0% | trusted | |
 | `XZAHL` | 100.0% | trusted | |
 | `MWSK1` | 100.0% | trusted | |
@@ -182,11 +183,11 @@ column_count: 184
 | `ANFBN` | 100.0% | trusted | |
 | `ANFBJ` | 100.0% | trusted | |
 | `ANFBU` | 100.0% | trusted | |
-| `XANET` | 100.0% | trusted | |
-| `MABER` | 100.0% | trusted | |
-| `SKFBT` | 100.0% | trusted | |
-| `MANST` | 100.0% | trusted | |
+| `VBUND` | 100.0% | trusted | |
+| `XCPDD` | 100.0% | trusted | |
+| `XNETB` | 100.0% | trusted | |
 | `SKNTO` | 100.0% | trusted | |
+| `MABER` | 100.0% | trusted | |
 | `WSKTO` | 100.0% | trusted | |
 | `ZLSCH` | 100.0% | trusted | |
 | `ZLSPR` | 100.0% | trusted | |
@@ -205,7 +206,8 @@ column_count: 184
 | `MANSP` | 100.0% | trusted | |
 | `MSCHL` | 100.0% | trusted | |
 | `MADAT` | 100.0% | trusted | |
-| `src_commit_time` | 100.0% | trusted | |
+| `MANST` | 100.0% | trusted | |
+| `ADLS_LOADED_DATE` | 100.0% | trusted | |
 
 ## Notes
 

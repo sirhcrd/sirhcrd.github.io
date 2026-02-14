@@ -1,9 +1,9 @@
 ---
 table: knb4
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 232792
-column_count: 117
+row_count: 75519
+column_count: 118
 ---
 
 # knb4
@@ -14,7 +14,7 @@ column_count: 117
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 117 | 100% |
+| Trusted (≥50%) | 118 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,9 +22,8 @@ column_count: 117
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `jah11` | 100.0% | trusted | |
-| `vzn12` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `anz10` | 100.0% | trusted | |
 | `agn12` | 100.0% | trusted | |
 | `vzs12` | 100.0% | trusted | |
 | `ags12` | 100.0% | trusted | |
@@ -36,9 +35,9 @@ column_count: 117
 | `vzs11` | 100.0% | trusted | |
 | `ags11` | 100.0% | trusted | |
 | `mon11` | 100.0% | trusted | |
-| `anz10` | 100.0% | trusted | |
-| `anz08` | 100.0% | trusted | |
+| `jah11` | 100.0% | trusted | |
 | `vzn10` | 100.0% | trusted | |
+| `anz12` | 100.0% | trusted | |
 | `agn10` | 100.0% | trusted | |
 | `vzs10` | 100.0% | trusted | |
 | `ags10` | 100.0% | trusted | |
@@ -50,10 +49,11 @@ column_count: 117
 | `vzs09` | 100.0% | trusted | |
 | `ags09` | 100.0% | trusted | |
 | `mon09` | 100.0% | trusted | |
-| `anz12` | 100.0% | trusted | |
+| `jah09` | 100.0% | trusted | |
+| `vzn12` | 100.0% | trusted | |
 | `jah13` | 100.0% | trusted | |
-| `mon13` | 100.0% | trusted | |
-| `ags13` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `mon15` | 100.0% | trusted | |
 | `anz16` | 100.0% | trusted | |
 | `vzn16` | 100.0% | trusted | |
 | `agn16` | 100.0% | trusted | |
@@ -66,8 +66,8 @@ column_count: 117
 | `agn15` | 100.0% | trusted | |
 | `vzs15` | 100.0% | trusted | |
 | `ags15` | 100.0% | trusted | |
-| `mon15` | 100.0% | trusted | |
 | `jah15` | 100.0% | trusted | |
+| `mon13` | 100.0% | trusted | |
 | `anz14` | 100.0% | trusted | |
 | `vzn14` | 100.0% | trusted | |
 | `agn14` | 100.0% | trusted | |
@@ -79,11 +79,11 @@ column_count: 117
 | `vzn13` | 100.0% | trusted | |
 | `agn13` | 100.0% | trusted | |
 | `vzs13` | 100.0% | trusted | |
-| `jah09` | 100.0% | trusted | |
+| `ags13` | 100.0% | trusted | |
+| `anz08` | 100.0% | trusted | |
 | `vzn08` | 100.0% | trusted | |
-| `kunnr` | 100.0% | trusted | |
-| `agn02` | 100.0% | trusted | |
-| `ags04` | 100.0% | trusted | |
+| `agn08` | 100.0% | trusted | |
+| `vzs02` | 100.0% | trusted | |
 | `mon04` | 100.0% | trusted | |
 | `jah04` | 100.0% | trusted | |
 | `anz03` | 100.0% | trusted | |
@@ -95,9 +95,9 @@ column_count: 117
 | `jah03` | 100.0% | trusted | |
 | `anz02` | 100.0% | trusted | |
 | `vzn02` | 100.0% | trusted | |
-| `vzs02` | 100.0% | trusted | |
-| `agn08` | 100.0% | trusted | |
+| `agn02` | 100.0% | trusted | |
 | `ags02` | 100.0% | trusted | |
+| `vzs08` | 100.0% | trusted | |
 | `mon02` | 100.0% | trusted | |
 | `jah02` | 100.0% | trusted | |
 | `anz01` | 100.0% | trusted | |
@@ -109,11 +109,11 @@ column_count: 117
 | `jah01` | 100.0% | trusted | |
 | `aufzd` | 100.0% | trusted | |
 | `bukrs` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `ags04` | 100.0% | trusted | |
 | `vzs04` | 100.0% | trusted | |
 | `agn04` | 100.0% | trusted | |
 | `vzn04` | 100.0% | trusted | |
-| `anz04` | 100.0% | trusted | |
-| `vzs08` | 100.0% | trusted | |
 | `ags08` | 100.0% | trusted | |
 | `mon08` | 100.0% | trusted | |
 | `jah08` | 100.0% | trusted | |
@@ -138,6 +138,7 @@ column_count: 117
 | `ags05` | 100.0% | trusted | |
 | `mon05` | 100.0% | trusted | |
 | `jah05` | 100.0% | trusted | |
+| `anz04` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

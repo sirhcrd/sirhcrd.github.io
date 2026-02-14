@@ -1,9 +1,9 @@
 ---
 table: t16fs
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 167
-column_count: 13
+row_count: 31
+column_count: 14
 ---
 
 # t16fs
@@ -14,7 +14,7 @@ column_count: 13
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 13 | 100% |
+| Trusted (≥50%) | 14 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,18 +22,19 @@ column_count: 13
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `FRGGR` | 100.0% | trusted | |
-| `FRGSX` | 100.0% | trusted | |
-| `FRGC1` | 100.0% | trusted | |
-| `FRGC2` | 100.0% | trusted | |
-| `FRGC3` | 100.0% | trusted | |
-| `FRGC4` | 100.0% | trusted | |
-| `FRGC5` | 100.0% | trusted | |
-| `FRGC6` | 100.0% | trusted | |
-| `FRGC7` | 100.0% | trusted | |
-| `FRGC8` | 100.0% | trusted | |
-| `FRGEX` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `frggr` | 100.0% | trusted | |
+| `frgsx` | 100.0% | trusted | |
+| `frgc1` | 100.0% | trusted | |
+| `frgc2` | 100.0% | trusted | |
+| `frgc3` | 100.0% | trusted | |
+| `frgc4` | 100.0% | trusted | |
+| `frgc5` | 100.0% | trusted | |
+| `frgc6` | 100.0% | trusted | |
+| `frgc7` | 100.0% | trusted | |
+| `frgc8` | 100.0% | trusted | |
+| `frgex` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

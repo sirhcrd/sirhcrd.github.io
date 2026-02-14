@@ -1,9 +1,9 @@
 ---
 table: eina
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 15569894
-column_count: 39
+row_count: 527315
+column_count: 40
 ---
 
 # eina
@@ -14,7 +14,7 @@ column_count: 39
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 39 | 100% |
+| Trusted (≥50%) | 40 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,44 +22,45 @@ column_count: 39
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `WGLIF` | 100.0% | trusted | |
-| `URZTP` | 100.0% | trusted | |
-| `URZZT` | 100.0% | trusted | |
-| `LMEIN` | 100.0% | trusted | |
-| `REGIO` | 100.0% | trusted | |
-| `VABME` | 100.0% | trusted | |
-| `LTSNR` | 100.0% | trusted | |
-| `LTSSF` | 100.0% | trusted | |
-| `RUECK` | 100.0% | trusted | |
-| `URZDT` | 100.0% | trusted | |
-| `LIFAB` | 100.0% | trusted | |
-| `LIFBI` | 100.0% | trusted | |
-| `KOLIF` | 100.0% | trusted | |
-| `ANZPU` | 100.0% | trusted | |
-| `PUNEI` | 100.0% | trusted | |
-| `RELIF` | 100.0% | trusted | |
-| `MFRNR` | 100.0% | trusted | |
-| `URZLA` | 100.0% | trusted | |
-| `URZNR` | 100.0% | trusted | |
-| `INFNR` | 100.0% | trusted | |
-| `SORTL` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `MATKL` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `LOEKZ` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `TXZ01` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `MAHN3` | 100.0% | trusted | |
-| `UMREZ` | 100.0% | trusted | |
-| `UMREN` | 100.0% | trusted | |
-| `IDNLF` | 100.0% | trusted | |
-| `VERKF` | 100.0% | trusted | |
-| `TELF1` | 100.0% | trusted | |
-| `MAHN1` | 100.0% | trusted | |
-| `MAHN2` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `urzla` | 100.0% | trusted | |
+| `urztp` | 100.0% | trusted | |
+| `urzzt` | 100.0% | trusted | |
+| `lmein` | 100.0% | trusted | |
+| `regio` | 100.0% | trusted | |
+| `vabme` | 100.0% | trusted | |
+| `ltsnr` | 100.0% | trusted | |
+| `ltssf` | 100.0% | trusted | |
+| `wglif` | 100.0% | trusted | |
+| `rueck` | 100.0% | trusted | |
+| `lifab` | 100.0% | trusted | |
+| `lifbi` | 100.0% | trusted | |
+| `kolif` | 100.0% | trusted | |
+| `anzpu` | 100.0% | trusted | |
+| `punei` | 100.0% | trusted | |
+| `relif` | 100.0% | trusted | |
+| `mfrnr` | 100.0% | trusted | |
+| `urzdt` | 100.0% | trusted | |
+| `urznr` | 100.0% | trusted | |
+| `mahn3` | 100.0% | trusted | |
+| `txz01` | 100.0% | trusted | |
+| `infnr` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `matkl` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `loekz` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `sortl` | 100.0% | trusted | |
+| `mahn2` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `umrez` | 100.0% | trusted | |
+| `umren` | 100.0% | trusted | |
+| `idnlf` | 100.0% | trusted | |
+| `verkf` | 100.0% | trusted | |
+| `telf1` | 100.0% | trusted | |
+| `mahn1` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

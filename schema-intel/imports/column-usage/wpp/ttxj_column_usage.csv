@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,320,320,100.0,0,0.0
+2,mandt,320,320,100.0,0,0.0
+3,kalsm,320,320,100.0,0,0.0
+4,txjcd,320,320,100.0,0,0.0
+5,xskfn,320,320,100.0,0,0.0
+6,xmwsn,320,320,100.0,0,0.0
+7,src_commit_time,320,320,100.0,0,0.0

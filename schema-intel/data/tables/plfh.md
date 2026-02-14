@@ -1,9 +1,9 @@
 ---
 table: plfh
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 13498
-column_count: 41
+row_count: 2027
+column_count: 42
 ---
 
 # plfh
@@ -14,7 +14,7 @@ column_count: 41
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 41 | 100% |
+| Trusted (≥50%) | 42 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,46 +22,47 @@ column_count: 41
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `STEUF` | 100.0% | trusted | |
-| `BZOFFB` | 100.0% | trusted | |
-| `OFFSTB` | 100.0% | trusted | |
-| `EHOFFB` | 100.0% | trusted | |
-| `BZOFFE` | 100.0% | trusted | |
-| `OFFSTE` | 100.0% | trusted | |
-| `EHOFFE` | 100.0% | trusted | |
-| `MGEINH` | 100.0% | trusted | |
-| `MGVGW` | 100.0% | trusted | |
-| `MGFORM` | 100.0% | trusted | |
-| `EWEINH` | 100.0% | trusted | |
-| `EWVGW` | 100.0% | trusted | |
-| `EWFORM` | 100.0% | trusted | |
-| `TXTSP` | 100.0% | trusted | |
-| `KTSCH` | 100.0% | trusted | |
-| `TXTZ1` | 100.0% | trusted | |
-| `KNOBJ` | 100.0% | trusted | |
-| `GP_KRIT1` | 100.0% | trusted | |
-| `KZKBL` | 100.0% | trusted | |
-| `PSNFH` | 100.0% | trusted | |
-| `PLNTY` | 100.0% | trusted | |
-| `PLNKN` | 100.0% | trusted | |
-| `PLNNR` | 100.0% | trusted | |
-| `PZLFH` | 100.0% | trusted | |
-| `ZAEHL` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `TECHV` | 100.0% | trusted | |
-| `LOEKZ` | 100.0% | trusted | |
-| `PARKZ` | 100.0% | trusted | |
-| `AENNR` | 100.0% | trusted | |
-| `DATUI` | 100.0% | trusted | |
-| `USERI` | 100.0% | trusted | |
-| `DATUC` | 100.0% | trusted | |
-| `USERC` | 100.0% | trusted | |
-| `OBJTY` | 100.0% | trusted | |
-| `OBJID` | 100.0% | trusted | |
-| `OBJCT` | 100.0% | trusted | |
-| `PLNAL` | 100.0% | trusted | |
-| `PLNFL` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mgvgw` | 100.0% | trusted | |
+| `kzkbl` | 100.0% | trusted | |
+| `bzoffb` | 100.0% | trusted | |
+| `offstb` | 100.0% | trusted | |
+| `ehoffb` | 100.0% | trusted | |
+| `bzoffe` | 100.0% | trusted | |
+| `offste` | 100.0% | trusted | |
+| `ehoffe` | 100.0% | trusted | |
+| `mgeinh` | 100.0% | trusted | |
+| `mgform` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `eweinh` | 100.0% | trusted | |
+| `ewvgw` | 100.0% | trusted | |
+| `ewform` | 100.0% | trusted | |
+| `txtsp` | 100.0% | trusted | |
+| `ktsch` | 100.0% | trusted | |
+| `txtz1` | 100.0% | trusted | |
+| `knobj` | 100.0% | trusted | |
+| `gp_krit1` | 100.0% | trusted | |
+| `steuf` | 100.0% | trusted | |
+| `psnfh` | 100.0% | trusted | |
+| `plnkn` | 100.0% | trusted | |
+| `plnfl` | 100.0% | trusted | |
+| `plnty` | 100.0% | trusted | |
+| `plnnr` | 100.0% | trusted | |
+| `pzlfh` | 100.0% | trusted | |
+| `zaehl` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `techv` | 100.0% | trusted | |
+| `loekz` | 100.0% | trusted | |
+| `parkz` | 100.0% | trusted | |
+| `aennr` | 100.0% | trusted | |
+| `datui` | 100.0% | trusted | |
+| `useri` | 100.0% | trusted | |
+| `datuc` | 100.0% | trusted | |
+| `userc` | 100.0% | trusted | |
+| `objty` | 100.0% | trusted | |
+| `objid` | 100.0% | trusted | |
+| `objct` | 100.0% | trusted | |
+| `plnal` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

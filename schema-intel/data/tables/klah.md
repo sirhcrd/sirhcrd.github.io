@@ -1,9 +1,9 @@
 ---
 table: klah
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 7867
-column_count: 56
+row_count: 1231
+column_count: 57
 ---
 
 # klah
@@ -14,7 +14,7 @@ column_count: 56
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 56 | 100% |
+| Trusted (≥50%) | 57 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,61 +22,62 @@ column_count: 56
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `CLINT` | 100.0% | trusted | |
-| `VERSI` | 100.0% | trusted | |
-| `LEIST` | 100.0% | trusted | |
-| `VERWE` | 100.0% | trusted | |
-| `SPART` | 100.0% | trusted | |
-| `LREF3` | 100.0% | trusted | |
-| `WWSKZ` | 100.0% | trusted | |
-| `WWSSI` | 100.0% | trusted | |
-| `POTPR` | 100.0% | trusted | |
-| `CLOBK` | 100.0% | trusted | |
-| `CLMUL` | 100.0% | trusted | |
-| `CVIEW` | 100.0% | trusted | |
-| `DISST` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `CLMOD` | 100.0% | trusted | |
-| `VWSTL` | 100.0% | trusted | |
-| `VWPLA` | 100.0% | trusted | |
-| `CLALT` | 100.0% | trusted | |
-| `LBREI` | 100.0% | trusted | |
-| `BNAME` | 100.0% | trusted | |
-| `MAXBL` | 100.0% | trusted | |
-| `KNOBJ` | 100.0% | trusted | |
-| `LOCLA` | 100.0% | trusted | |
-| `KATALOG` | 100.0% | trusted | |
-| `KDOKAZ` | 100.0% | trusted | |
-| `GENRKZ` | 100.0% | trusted | |
-| `VERSD` | 100.0% | trusted | |
-| `AUSGD` | 100.0% | trusted | |
-| `NRMT2` | 100.0% | trusted | |
-| `VONDT` | 100.0% | trusted | |
-| `KLART` | 100.0% | trusted | |
-| `CLASS` | 100.0% | trusted | |
-| `STATU` | 100.0% | trusted | |
-| `KLAGR` | 100.0% | trusted | |
-| `BGRSE` | 100.0% | trusted | |
-| `BGRKL` | 100.0% | trusted | |
-| `BGRKP` | 100.0% | trusted | |
-| `ANAME` | 100.0% | trusted | |
-| `ADATU` | 100.0% | trusted | |
-| `VNAME` | 100.0% | trusted | |
-| `VDATU` | 100.0% | trusted | |
-| `BISDT` | 100.0% | trusted | |
-| `NRMT1` | 100.0% | trusted | |
-| `ANZUO` | 100.0% | trusted | |
-| `PRAUS` | 100.0% | trusted | |
-| `SICHT` | 100.0% | trusted | |
-| `DOKNR` | 100.0% | trusted | |
-| `DOKAR` | 100.0% | trusted | |
-| `DOKTL` | 100.0% | trusted | |
-| `DOKVR` | 100.0% | trusted | |
-| `DINKZ` | 100.0% | trusted | |
-| `NNORM` | 100.0% | trusted | |
-| `NORMN` | 100.0% | trusted | |
-| `NORMB` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `ausgd` | 100.0% | trusted | |
+| `versi` | 100.0% | trusted | |
+| `leist` | 100.0% | trusted | |
+| `verwe` | 100.0% | trusted | |
+| `spart` | 100.0% | trusted | |
+| `lref3` | 100.0% | trusted | |
+| `wwskz` | 100.0% | trusted | |
+| `wwssi` | 100.0% | trusted | |
+| `potpr` | 100.0% | trusted | |
+| `clobk` | 100.0% | trusted | |
+| `clmul` | 100.0% | trusted | |
+| `cview` | 100.0% | trusted | |
+| `disst` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `clmod` | 100.0% | trusted | |
+| `vwstl` | 100.0% | trusted | |
+| `vwpla` | 100.0% | trusted | |
+| `clalt` | 100.0% | trusted | |
+| `lbrei` | 100.0% | trusted | |
+| `bname` | 100.0% | trusted | |
+| `maxbl` | 100.0% | trusted | |
+| `knobj` | 100.0% | trusted | |
+| `locla` | 100.0% | trusted | |
+| `katalog` | 100.0% | trusted | |
+| `kdokaz` | 100.0% | trusted | |
+| `genrkz` | 100.0% | trusted | |
+| `versd` | 100.0% | trusted | |
+| `nrmt2` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `nrmt1` | 100.0% | trusted | |
+| `clint` | 100.0% | trusted | |
+| `klart` | 100.0% | trusted | |
+| `class` | 100.0% | trusted | |
+| `statu` | 100.0% | trusted | |
+| `klagr` | 100.0% | trusted | |
+| `bgrse` | 100.0% | trusted | |
+| `bgrkl` | 100.0% | trusted | |
+| `bgrkp` | 100.0% | trusted | |
+| `aname` | 100.0% | trusted | |
+| `adatu` | 100.0% | trusted | |
+| `vname` | 100.0% | trusted | |
+| `vdatu` | 100.0% | trusted | |
+| `vondt` | 100.0% | trusted | |
+| `bisdt` | 100.0% | trusted | |
+| `anzuo` | 100.0% | trusted | |
+| `praus` | 100.0% | trusted | |
+| `sicht` | 100.0% | trusted | |
+| `doknr` | 100.0% | trusted | |
+| `dokar` | 100.0% | trusted | |
+| `doktl` | 100.0% | trusted | |
+| `dokvr` | 100.0% | trusted | |
+| `dinkz` | 100.0% | trusted | |
+| `nnorm` | 100.0% | trusted | |
+| `normn` | 100.0% | trusted | |
+| `normb` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

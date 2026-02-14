@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,62,62,100.0,0,0.0
+2,mandt,62,62,100.0,0,0.0
+3,bukrs,62,62,100.0,0,0.0
+4,busab,62,62,100.0,0,0.0
+5,sname,62,62,100.0,0,0.0
+6,usnam,62,62,100.0,0,0.0
+7,src_commit_time,62,62,100.0,0,0.0

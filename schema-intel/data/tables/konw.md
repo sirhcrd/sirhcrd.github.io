@@ -1,9 +1,9 @@
 ---
 table: konw
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 24558
-column_count: 7
+row_count: 967
+column_count: 8
 ---
 
 # konw
@@ -14,7 +14,7 @@ column_count: 7
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 7 | 100% |
+| Trusted (≥50%) | 8 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,12 +22,13 @@ column_count: 7
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KNUMH` | 100.0% | trusted | |
-| `KOPOS` | 100.0% | trusted | |
-| `KLFN1` | 100.0% | trusted | |
-| `KSTBW` | 100.0% | trusted | |
-| `KBETR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `knumh` | 100.0% | trusted | |
+| `kopos` | 100.0% | trusted | |
+| `klfn1` | 100.0% | trusted | |
+| `kstbw` | 100.0% | trusted | |
+| `kbetr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: edidc
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 97522741
-column_count: 50
+row_count: 55363224
+column_count: 51
 ---
 
 # edidc
@@ -14,7 +14,7 @@ column_count: 50
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 50 | 100% |
+| Trusted (≥50%) | 51 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,7 +22,7 @@ column_count: 50
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
 | `credat` | 100.0% | trusted | |
 | `sndsmn` | 100.0% | trusted | |
 | `sndsna` | 100.0% | trusted | |
@@ -35,7 +35,7 @@ column_count: 50
 | `refmes` | 100.0% | trusted | |
 | `arckey` | 100.0% | trusted | |
 | `cretim` | 100.0% | trusted | |
-| `docnum` | 100.0% | trusted | |
+| `sndprn` | 100.0% | trusted | |
 | `mestyp` | 100.0% | trusted | |
 | `idoctp` | 100.0% | trusted | |
 | `cimtyp` | 100.0% | trusted | |
@@ -47,9 +47,10 @@ column_count: 50
 | `updtim` | 100.0% | trusted | |
 | `maxsegnum` | 100.0% | trusted | |
 | `sndsad` | 100.0% | trusted | |
-| `sndprn` | 100.0% | trusted | |
 | `sndprt` | 100.0% | trusted | |
-| `sndpor` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `rcvsna` | 100.0% | trusted | |
+| `docnum` | 100.0% | trusted | |
 | `docrel` | 100.0% | trusted | |
 | `status` | 100.0% | trusted | |
 | `doctyp` | 100.0% | trusted | |
@@ -59,8 +60,8 @@ column_count: 50
 | `rcvprn` | 100.0% | trusted | |
 | `rcvsad` | 100.0% | trusted | |
 | `rcvsmn` | 100.0% | trusted | |
-| `rcvsna` | 100.0% | trusted | |
 | `rcvsca` | 100.0% | trusted | |
+| `sndpor` | 100.0% | trusted | |
 | `rcvsdf` | 100.0% | trusted | |
 | `rcvslf` | 100.0% | trusted | |
 | `rcvlad` | 100.0% | trusted | |

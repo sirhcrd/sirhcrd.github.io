@@ -1,9 +1,9 @@
 ---
 table: jcds
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 3077043355
-column_count: 13
+row_count: 262458217
+column_count: 14
 ---
 
 # jcds
@@ -14,7 +14,7 @@ column_count: 13
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 13 | 100% |
+| Trusted (≥50%) | 14 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,18 +22,19 @@ column_count: 13
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `STAT` | 100.0% | trusted | |
-| `CHGNR` | 100.0% | trusted | |
-| `USNAM` | 100.0% | trusted | |
-| `UDATE` | 100.0% | trusted | |
-| `UTIME` | 100.0% | trusted | |
-| `TCODE` | 100.0% | trusted | |
-| `CDTCODE` | 100.0% | trusted | |
-| `INACT` | 100.0% | trusted | |
-| `CHIND` | 100.0% | trusted | |
-| `_DATAAGING` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `stat` | 100.0% | trusted | |
+| `chgnr` | 100.0% | trusted | |
+| `usnam` | 100.0% | trusted | |
+| `udate` | 100.0% | trusted | |
+| `utime` | 100.0% | trusted | |
+| `tcode` | 100.0% | trusted | |
+| `cdtcode` | 100.0% | trusted | |
+| `inact` | 100.0% | trusted | |
+| `chind` | 100.0% | trusted | |
+| `_dataaging` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

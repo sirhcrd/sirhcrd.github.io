@@ -1,9 +1,9 @@
 ---
 table: plko
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 229076
-column_count: 79
+row_count: 20655
+column_count: 80
 ---
 
 # plko
@@ -14,7 +14,7 @@ column_count: 79
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 79 | 100% |
+| Trusted (≥50%) | 80 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,84 +22,85 @@ column_count: 79
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `CLNDR` | 100.0% | trusted | |
-| `KZKFG` | 100.0% | trusted | |
-| `TTRAS` | 100.0% | trusted | |
-| `PSPNR` | 100.0% | trusted | |
-| `FLG_CHK` | 100.0% | trusted | |
-| `NETID` | 100.0% | trusted | |
-| `REODAT` | 100.0% | trusted | |
-| `PRTYP` | 100.0% | trusted | |
-| `STUPR` | 100.0% | trusted | |
-| `FLG_CAPO` | 100.0% | trusted | |
-| `ARBTY` | 100.0% | trusted | |
-| `DELKZ` | 100.0% | trusted | |
-| `EXTNUM` | 100.0% | trusted | |
-| `ARBID` | 100.0% | trusted | |
-| `ANLZU` | 100.0% | trusted | |
-| `IWERK` | 100.0% | trusted | |
-| `ISTRU` | 100.0% | trusted | |
-| `PLNNR_ALT` | 100.0% | trusted | |
-| `STLTY` | 100.0% | trusted | |
-| `STRAT` | 100.0% | trusted | |
-| `UMREN` | 100.0% | trusted | |
-| `TL_EXTID` | 100.0% | trusted | |
-| `XHIERTL` | 100.0% | trusted | |
-| `MES_ROUTINGID` | 100.0% | trusted | |
-| `TSTMP_BW` | 100.0% | trusted | |
-| `MS_FLAG` | 100.0% | trusted | |
-| `ADPSP` | 100.0% | trusted | |
-| `BMSCH` | 100.0% | trusted | |
-| `UMREZ` | 100.0% | trusted | |
-| `STLNR` | 100.0% | trusted | |
-| `MEINH` | 100.0% | trusted | |
-| `ST_ARBID` | 100.0% | trusted | |
-| `CCOAA` | 100.0% | trusted | |
-| `CHRULE` | 100.0% | trusted | |
-| `PPKZTLZU` | 100.0% | trusted | |
-| `SLWBEZ` | 100.0% | trusted | |
-| `STLAL` | 100.0% | trusted | |
-| `PPOOL` | 100.0% | trusted | |
-| `QDYNSTRING` | 100.0% | trusted | |
-| `PLNTY` | 100.0% | trusted | |
-| `ANDAT` | 100.0% | trusted | |
-| `PLNME` | 100.0% | trusted | |
-| `STATU` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `VERWE` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `ANNAM` | 100.0% | trusted | |
-| `PARKZ` | 100.0% | trusted | |
-| `LOSBS` | 100.0% | trusted | |
-| `LOEKZ` | 100.0% | trusted | |
-| `AENNR` | 100.0% | trusted | |
-| `TECHV` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `ZAEHL` | 100.0% | trusted | |
-| `PLNAL` | 100.0% | trusted | |
-| `PLNNR` | 100.0% | trusted | |
-| `LOSVN` | 100.0% | trusted | |
-| `VAGRP` | 100.0% | trusted | |
-| `QKZRASTER` | 100.0% | trusted | |
-| `QVEVERSION` | 100.0% | trusted | |
-| `QVERSNPRZV` | 100.0% | trusted | |
-| `QPRZIEHVER` | 100.0% | trusted | |
-| `QDYNHEAD` | 100.0% | trusted | |
-| `QDYNREGEL` | 100.0% | trusted | |
-| `QVECODE` | 100.0% | trusted | |
-| `QVEGRUPPE` | 100.0% | trusted | |
-| `QVEDATUM` | 100.0% | trusted | |
-| `QVEMENGE` | 100.0% | trusted | |
-| `AESZN` | 100.0% | trusted | |
-| `QVEWERKS` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `PROFIDNETZ` | 100.0% | trusted | |
-| `ABANZ` | 100.0% | trusted | |
-| `ABDAT` | 100.0% | trusted | |
-| `TXTSP` | 100.0% | trusted | |
-| `KTEXT` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kzkfg` | 100.0% | trusted | |
+| `ttras` | 100.0% | trusted | |
+| `pspnr` | 100.0% | trusted | |
+| `flg_chk` | 100.0% | trusted | |
+| `netid` | 100.0% | trusted | |
+| `reodat` | 100.0% | trusted | |
+| `prtyp` | 100.0% | trusted | |
+| `clndr` | 100.0% | trusted | |
+| `stupr` | 100.0% | trusted | |
+| `arbty` | 100.0% | trusted | |
+| `delkz` | 100.0% | trusted | |
+| `extnum` | 100.0% | trusted | |
+| `arbid` | 100.0% | trusted | |
+| `anlzu` | 100.0% | trusted | |
+| `iwerk` | 100.0% | trusted | |
+| `istru` | 100.0% | trusted | |
+| `ppool` | 100.0% | trusted | |
+| `plnnr_alt` | 100.0% | trusted | |
+| `flg_capo` | 100.0% | trusted | |
+| `stlty` | 100.0% | trusted | |
+| `umren` | 100.0% | trusted | |
+| `tl_extid` | 100.0% | trusted | |
+| `xhiertl` | 100.0% | trusted | |
+| `mes_routingid` | 100.0% | trusted | |
+| `tstmp_bw` | 100.0% | trusted | |
+| `ms_flag` | 100.0% | trusted | |
+| `adpsp` | 100.0% | trusted | |
+| `bmsch` | 100.0% | trusted | |
+| `umrez` | 100.0% | trusted | |
+| `stlnr` | 100.0% | trusted | |
+| `meinh` | 100.0% | trusted | |
+| `st_arbid` | 100.0% | trusted | |
+| `ccoaa` | 100.0% | trusted | |
+| `chrule` | 100.0% | trusted | |
+| `ppkztlzu` | 100.0% | trusted | |
+| `slwbez` | 100.0% | trusted | |
+| `stlal` | 100.0% | trusted | |
+| `strat` | 100.0% | trusted | |
+| `qdynstring` | 100.0% | trusted | |
+| `qkzraster` | 100.0% | trusted | |
+| `parkz` | 100.0% | trusted | |
+| `statu` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `verwe` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `annam` | 100.0% | trusted | |
+| `andat` | 100.0% | trusted | |
+| `loekz` | 100.0% | trusted | |
+| `losvn` | 100.0% | trusted | |
+| `aennr` | 100.0% | trusted | |
+| `techv` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `zaehl` | 100.0% | trusted | |
+| `plnal` | 100.0% | trusted | |
+| `plnnr` | 100.0% | trusted | |
+| `plnty` | 100.0% | trusted | |
+| `plnme` | 100.0% | trusted | |
+| `losbs` | 100.0% | trusted | |
+| `qversnprzv` | 100.0% | trusted | |
+| `qvemenge` | 100.0% | trusted | |
+| `qprziehver` | 100.0% | trusted | |
+| `qdynhead` | 100.0% | trusted | |
+| `qdynregel` | 100.0% | trusted | |
+| `qvecode` | 100.0% | trusted | |
+| `qvegruppe` | 100.0% | trusted | |
+| `qvedatum` | 100.0% | trusted | |
+| `qveversion` | 100.0% | trusted | |
+| `qvewerks` | 100.0% | trusted | |
+| `vagrp` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `profidnetz` | 100.0% | trusted | |
+| `abanz` | 100.0% | trusted | |
+| `abdat` | 100.0% | trusted | |
+| `txtsp` | 100.0% | trusted | |
+| `ktext` | 100.0% | trusted | |
+| `aeszn` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

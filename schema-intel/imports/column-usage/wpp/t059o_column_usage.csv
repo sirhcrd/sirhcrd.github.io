@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1134,1134,100.0,0,0.0
+2,mandt,1134,1134,100.0,0,0.0
+3,land1,1134,1134,100.0,0,0.0
+4,wt_qscod,1134,1134,100.0,0,0.0
+5,text40,1134,1134,100.0,0,0.0
+6,j_1anatxcd,1134,1134,100.0,0,0.0
+7,src_commit_time,1134,1134,100.0,0,0.0

@@ -1,0 +1,10 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1272,1272,100.0,0,0.0
+2,mandt,1272,1272,100.0,0,0.0
+3,bvorg,1272,1272,100.0,0,0.0
+4,bukrs,1272,1272,100.0,0,0.0
+5,gjahr,1272,1272,100.0,0,0.0
+6,belnr,1272,1272,100.0,0,0.0
+7,xarch,1272,1272,100.0,0,0.0
+8,_dataaging,1272,1272,100.0,0,0.0
+9,src_commit_time,1272,1272,100.0,0,0.0

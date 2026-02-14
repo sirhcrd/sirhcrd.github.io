@@ -1,0 +1,12 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,86,86,100.0,0,0.0
+2,mandt,86,86,100.0,0,0.0
+3,ekgrp,86,86,100.0,0,0.0
+4,eknam,86,86,100.0,0,0.0
+5,ektel,86,86,100.0,0,0.0
+6,ldest,86,86,100.0,0,0.0
+7,telfx,86,86,100.0,0,0.0
+8,tel_number,86,86,100.0,0,0.0
+9,tel_extens,86,86,100.0,0,0.0
+10,smtp_addr,86,86,100.0,0,0.0
+11,src_commit_time,86,86,100.0,0,0.0

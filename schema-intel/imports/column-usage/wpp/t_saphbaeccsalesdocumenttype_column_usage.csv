@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,525,525,100.0,0,0.0
+2,SalesDocumentType,525,525,100.0,0,0.0
+3,SalesDocumentTypeName,525,525,100.0,0,0.0
+4,src_commit_time,525,525,100.0,0,0.0
+5,SalesDocumentType_E,64,525,12.2,461,87.8

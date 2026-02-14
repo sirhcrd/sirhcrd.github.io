@@ -1,9 +1,9 @@
 ---
 table: tvty
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 24
-column_count: 17
+row_count: 12
+column_count: 18
 ---
 
 # tvty
@@ -14,7 +14,7 @@ column_count: 17
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 17 | 100% |
+| Trusted (≥50%) | 18 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,22 +22,23 @@ column_count: 17
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `NRVERG` | 100.0% | trusted | |
-| `KZPGN` | 100.0% | trusted | |
-| `STSMA` | 100.0% | trusted | |
-| `TARAVAR` | 100.0% | trusted | |
-| `EXT_NKR` | 100.0% | trusted | |
-| `INT_NKR` | 100.0% | trusted | |
-| `SSCC18` | 100.0% | trusted | |
-| `GRUVS` | 100.0% | trusted | |
-| `TRATY` | 100.0% | trusted | |
-| `VELTP` | 100.0% | trusted | |
-| `WERFD` | 100.0% | trusted | |
-| `SORTF` | 100.0% | trusted | |
-| `KSCHL` | 100.0% | trusted | |
-| `KALSM` | 100.0% | trusted | |
-| `KAPPL` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kzpgn` | 100.0% | trusted | |
+| `stsma` | 100.0% | trusted | |
+| `taravar` | 100.0% | trusted | |
+| `ext_nkr` | 100.0% | trusted | |
+| `int_nkr` | 100.0% | trusted | |
+| `sscc18` | 100.0% | trusted | |
+| `nrverg` | 100.0% | trusted | |
+| `gruvs` | 100.0% | trusted | |
+| `veltp` | 100.0% | trusted | |
+| `werfd` | 100.0% | trusted | |
+| `sortf` | 100.0% | trusted | |
+| `kschl` | 100.0% | trusted | |
+| `kalsm` | 100.0% | trusted | |
+| `kappl` | 100.0% | trusted | |
+| `traty` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

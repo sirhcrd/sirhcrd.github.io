@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,385,385,100.0,0,0.0
+2,mandt,385,385,100.0,0,0.0
+3,parvw,385,385,100.0,0,0.0
+4,stein,385,385,100.0,0,0.0
+5,uparv,385,385,100.0,0,0.0
+6,fehgr,385,385,100.0,0,0.0
+7,ernam,385,385,100.0,0,0.0
+8,nrart,385,385,100.0,0,0.0
+9,hityp,385,385,100.0,0,0.0
+10,src_commit_time,385,385,100.0,0,0.0

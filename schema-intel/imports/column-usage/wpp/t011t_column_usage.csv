@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,6837,6837,100.0,0,0.0
+2,mandt,6837,6837,100.0,0,0.0
+3,spras,6837,6837,100.0,0,0.0
+4,versn,6837,6837,100.0,0,0.0
+5,vstxt,6837,6837,100.0,0,0.0
+6,src_commit_time,6837,6837,100.0,0,0.0

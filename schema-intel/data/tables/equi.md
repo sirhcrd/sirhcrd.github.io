@@ -1,9 +1,9 @@
 ---
 table: equi
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 104629861
-column_count: 81
+row_count: 1589478
+column_count: 82
 ---
 
 # equi
@@ -14,7 +14,7 @@ column_count: 81
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 81 | 100% |
+| Trusted (≥50%) | 82 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,86 +22,87 @@ column_count: 81
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `KRFKZ` | 100.0% | trusted | |
-| `S_ELSE` | 100.0% | trusted | |
-| `S_FHM` | 100.0% | trusted | |
-| `S_SALE` | 100.0% | trusted | |
-| `S_KONFI` | 100.0% | trusted | |
-| `S_SERIAL` | 100.0% | trusted | |
-| `S_EQUI` | 100.0% | trusted | |
-| `BEGRUI` | 100.0% | trusted | |
-| `MGANR` | 100.0% | trusted | |
-| `REVLV` | 100.0% | trusted | |
-| `IMRC_POINT` | 100.0% | trusted | |
-| `WARPL` | 100.0% | trusted | |
-| `KUNDE` | 100.0% | trusted | |
-| `CHARGE` | 100.0% | trusted | |
-| `LAGER` | 100.0% | trusted | |
-| `WERK` | 100.0% | trusted | |
-| `SERNR` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `S_ISU` | 100.0% | trusted | |
-| `S_EQBS` | 100.0% | trusted | |
-| `S_FLEET` | 100.0% | trusted | |
-| `IUID_TYPE` | 100.0% | trusted | |
-| `EQLB_HIDE` | 100.0% | trusted | |
-| `EQLB_DUTY` | 100.0% | trusted | |
-| `EQUI_SNTYPE` | 100.0% | trusted | |
-| `EQUI_SRTYPE` | 100.0% | trusted | |
-| `EQEXT_ACTIVE` | 100.0% | trusted | |
-| `ZZITO_UDI` | 100.0% | trusted | |
-| `UII_PLANT` | 100.0% | trusted | |
-| `UII` | 100.0% | trusted | |
-| `BSTVP` | 100.0% | trusted | |
-| `DATLWB` | 100.0% | trusted | |
-| `S_CC` | 100.0% | trusted | |
-| `ACT_CHANGE_AA` | 100.0% | trusted | |
-| `EMATN` | 100.0% | trusted | |
-| `TSEGTP` | 100.0% | trusted | |
-| `HANDLE` | 100.0% | trusted | |
-| `SPARTE` | 100.0% | trusted | |
-| `KMATN` | 100.0% | trusted | |
-| `CUOBJ` | 100.0% | trusted | |
-| `EQUNR` | 100.0% | trusted | |
-| `EQSNR` | 100.0% | trusted | |
-| `ELIEF` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `ANSWT` | 100.0% | trusted | |
-| `ANSDT` | 100.0% | trusted | |
-| `GEWEI` | 100.0% | trusted | |
-| `BRGEW` | 100.0% | trusted | |
-| `GROES` | 100.0% | trusted | |
-| `INVNR` | 100.0% | trusted | |
-| `LVORM` | 100.0% | trusted | |
-| `EQART` | 100.0% | trusted | |
-| `EQTYP` | 100.0% | trusted | |
-| `BEGRU` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `EQASP` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `GWLEN` | 100.0% | trusted | |
-| `GWLDT` | 100.0% | trusted | |
-| `WDBWT` | 100.0% | trusted | |
-| `INBDT` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `EQNUM` | 100.0% | trusted | |
-| `EQBER` | 100.0% | trusted | |
-| `EQDAT` | 100.0% | trusted | |
-| `GWLDV` | 100.0% | trusted | |
-| `EQLFN` | 100.0% | trusted | |
-| `GERNR` | 100.0% | trusted | |
-| `AULDT` | 100.0% | trusted | |
-| `HERST` | 100.0% | trusted | |
-| `APLKZ` | 100.0% | trusted | |
-| `BAUMM` | 100.0% | trusted | |
-| `BAUJJ` | 100.0% | trusted | |
-| `TYPBZ` | 100.0% | trusted | |
-| `SERGE` | 100.0% | trusted | |
-| `HZEIN` | 100.0% | trusted | |
-| `HERLD` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `s_isu` | 100.0% | trusted | |
+| `s_fhm` | 100.0% | trusted | |
+| `s_sale` | 100.0% | trusted | |
+| `s_konfi` | 100.0% | trusted | |
+| `s_serial` | 100.0% | trusted | |
+| `s_equi` | 100.0% | trusted | |
+| `begrui` | 100.0% | trusted | |
+| `mganr` | 100.0% | trusted | |
+| `revlv` | 100.0% | trusted | |
+| `imrc_point` | 100.0% | trusted | |
+| `warpl` | 100.0% | trusted | |
+| `kunde` | 100.0% | trusted | |
+| `charge` | 100.0% | trusted | |
+| `lager` | 100.0% | trusted | |
+| `werk` | 100.0% | trusted | |
+| `sernr` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `kmatn` | 100.0% | trusted | |
+| `s_else` | 100.0% | trusted | |
+| `s_eqbs` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `s_fleet` | 100.0% | trusted | |
+| `endofuse` | 100.0% | trusted | |
+| `eqlb_hide` | 100.0% | trusted | |
+| `eqlb_duty` | 100.0% | trusted | |
+| `equi_sntype` | 100.0% | trusted | |
+| `equi_srtype` | 100.0% | trusted | |
+| `eqext_active` | 100.0% | trusted | |
+| `uii_plant` | 100.0% | trusted | |
+| `iuid_type` | 100.0% | trusted | |
+| `uii` | 100.0% | trusted | |
+| `datlwb` | 100.0% | trusted | |
+| `s_cc` | 100.0% | trusted | |
+| `act_change_aa` | 100.0% | trusted | |
+| `ematn` | 100.0% | trusted | |
+| `tsegtp` | 100.0% | trusted | |
+| `handle` | 100.0% | trusted | |
+| `sparte` | 100.0% | trusted | |
+| `bstvp` | 100.0% | trusted | |
+| `krfkz` | 100.0% | trusted | |
+| `cuobj` | 100.0% | trusted | |
+| `eqsnr` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `answt` | 100.0% | trusted | |
+| `ansdt` | 100.0% | trusted | |
+| `gewei` | 100.0% | trusted | |
+| `brgew` | 100.0% | trusted | |
+| `groes` | 100.0% | trusted | |
+| `invnr` | 100.0% | trusted | |
+| `lvorm` | 100.0% | trusted | |
+| `eqart` | 100.0% | trusted | |
+| `eqtyp` | 100.0% | trusted | |
+| `begru` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `eqasp` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `equnr` | 100.0% | trusted | |
+| `elief` | 100.0% | trusted | |
+| `gwlen` | 100.0% | trusted | |
+| `gwldt` | 100.0% | trusted | |
+| `auldt` | 100.0% | trusted | |
+| `eqnum` | 100.0% | trusted | |
+| `eqber` | 100.0% | trusted | |
+| `eqdat` | 100.0% | trusted | |
+| `gwldv` | 100.0% | trusted | |
+| `eqlfn` | 100.0% | trusted | |
+| `gernr` | 100.0% | trusted | |
+| `inbdt` | 100.0% | trusted | |
+| `aplkz` | 100.0% | trusted | |
+| `wdbwt` | 100.0% | trusted | |
+| `baumm` | 100.0% | trusted | |
+| `baujj` | 100.0% | trusted | |
+| `typbz` | 100.0% | trusted | |
+| `serge` | 100.0% | trusted | |
+| `hzein` | 100.0% | trusted | |
+| `herld` | 100.0% | trusted | |
+| `herst` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

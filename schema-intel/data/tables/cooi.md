@@ -1,9 +1,9 @@
 ---
 table: cooi
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 67654
-column_count: 52
+row_count: 1076567
+column_count: 53
 ---
 
 # cooi
@@ -14,7 +14,7 @@ column_count: 52
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 52 | 100% |
+| Trusted (≥50%) | 53 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,57 +22,58 @@ column_count: 52
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `REFBT` | 100.0% | trusted | |
-| `KOKRS` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `MATKL` | 100.0% | trusted | |
-| `SGTXT` | 100.0% | trusted | |
-| `GESMNG` | 100.0% | trusted | |
-| `MEINH` | 100.0% | trusted | |
-| `MEGBTR` | 100.0% | trusted | |
-| `MBGBTR` | 100.0% | trusted | |
-| `MEINB` | 100.0% | trusted | |
-| `WKURS` | 100.0% | trusted | |
-| `ORGWTH` | 100.0% | trusted | |
-| `WHGBTR` | 100.0% | trusted | |
-| `ORGWTK` | 100.0% | trusted | |
-| `WKGBTR` | 100.0% | trusted | |
-| `ORGWTT` | 100.0% | trusted | |
-| `WTGBTR` | 100.0% | trusted | |
-| `ORGWTO` | 100.0% | trusted | |
-| `WOGBTR` | 100.0% | trusted | |
-| `ORGWTL` | 100.0% | trusted | |
-| `WLGBTR` | 100.0% | trusted | |
-| `LOEKZ` | 100.0% | trusted | |
-| `DABRZ` | 100.0% | trusted | |
-| `TIMESTMP` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `PERIO` | 100.0% | trusted | |
-| `BUDAT` | 100.0% | trusted | |
-| `RFTYP` | 100.0% | trusted | |
-| `REFBN` | 100.0% | trusted | |
-| `RFPOS` | 100.0% | trusted | |
-| `RFKNT` | 100.0% | trusted | |
-| `RFTRM` | 100.0% | trusted | |
-| `RFART` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `LEDNR` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `HRKFT` | 100.0% | trusted | |
-| `RFORG` | 100.0% | trusted | |
-| `RFSYS` | 100.0% | trusted | |
-| `BLDAT` | 100.0% | trusted | |
-| `VRGNG` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `WRTTP` | 100.0% | trusted | |
-| `VERSN` | 100.0% | trusted | |
-| `SAKTO` | 100.0% | trusted | |
-| `VBUND` | 100.0% | trusted | |
-| `PARGB` | 100.0% | trusted | |
-| `BEKNZ` | 100.0% | trusted | |
-| `TWAER` | 100.0% | trusted | |
-| `UNAME` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `perio` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `matkl` | 100.0% | trusted | |
+| `sgtxt` | 100.0% | trusted | |
+| `gesmng` | 100.0% | trusted | |
+| `meinh` | 100.0% | trusted | |
+| `megbtr` | 100.0% | trusted | |
+| `mbgbtr` | 100.0% | trusted | |
+| `meinb` | 100.0% | trusted | |
+| `wkurs` | 100.0% | trusted | |
+| `orgwth` | 100.0% | trusted | |
+| `whgbtr` | 100.0% | trusted | |
+| `orgwtk` | 100.0% | trusted | |
+| `wkgbtr` | 100.0% | trusted | |
+| `orgwtt` | 100.0% | trusted | |
+| `wtgbtr` | 100.0% | trusted | |
+| `orgwto` | 100.0% | trusted | |
+| `wogbtr` | 100.0% | trusted | |
+| `orgwtl` | 100.0% | trusted | |
+| `wlgbtr` | 100.0% | trusted | |
+| `loekz` | 100.0% | trusted | |
+| `dabrz` | 100.0% | trusted | |
+| `timestmp` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `budat` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `bldat` | 100.0% | trusted | |
+| `refbt` | 100.0% | trusted | |
+| `refbn` | 100.0% | trusted | |
+| `rfpos` | 100.0% | trusted | |
+| `rfknt` | 100.0% | trusted | |
+| `rftrm` | 100.0% | trusted | |
+| `rfart` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `lednr` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `hrkft` | 100.0% | trusted | |
+| `rforg` | 100.0% | trusted | |
+| `rftyp` | 100.0% | trusted | |
+| `rfsys` | 100.0% | trusted | |
+| `vrgng` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `wrttp` | 100.0% | trusted | |
+| `versn` | 100.0% | trusted | |
+| `sakto` | 100.0% | trusted | |
+| `vbund` | 100.0% | trusted | |
+| `pargb` | 100.0% | trusted | |
+| `beknz` | 100.0% | trusted | |
+| `twaer` | 100.0% | trusted | |
+| `uname` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

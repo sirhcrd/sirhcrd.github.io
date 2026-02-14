@@ -1,9 +1,9 @@
 ---
 table: lfm1
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 210396
-column_count: 59
+row_count: 80548
+column_count: 62
 ---
 
 # lfm1
@@ -14,7 +14,7 @@ column_count: 59
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 59 | 100% |
+| Trusted (≥50%) | 62 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,64 +22,67 @@ column_count: 59
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `XERSR` | 100.0% | trusted | |
-| `INCO3_L` | 100.0% | trusted | |
-| `PRFRE` | 100.0% | trusted | |
-| `NRGEW` | 100.0% | trusted | |
-| `BOIND` | 100.0% | trusted | |
-| `BLIND` | 100.0% | trusted | |
-| `KZRET` | 100.0% | trusted | |
-| `SKRIT` | 100.0% | trusted | |
-| `BSTAE` | 100.0% | trusted | |
-| `RDPRF` | 100.0% | trusted | |
-| `MEGRU` | 100.0% | trusted | |
-| `VENSL` | 100.0% | trusted | |
-| `BOPNR` | 100.0% | trusted | |
-| `EIKTO` | 100.0% | trusted | |
-| `INCOV` | 100.0% | trusted | |
-| `ABUEB` | 100.0% | trusted | |
-| `PAPRF` | 100.0% | trusted | |
-| `AGREL` | 100.0% | trusted | |
-| `XNBWY` | 100.0% | trusted | |
-| `VSBED` | 100.0% | trusted | |
-| `LEBRE` | 100.0% | trusted | |
-| `BOLRE` | 100.0% | trusted | |
-| `UMSAE` | 100.0% | trusted | |
-| `VENDOR_RMA_REQ` | 100.0% | trusted | |
-| `ACTIVITY_PROFIL` | 100.0% | trusted | |
-| `TRANSPORT_CHAIN` | 100.0% | trusted | |
-| `STAGING_TIME` | 100.0% | trusted | |
-| `INCO2_L` | 100.0% | trusted | |
-| `LISER` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `INCO2` | 100.0% | trusted | |
-| `EKORG` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `SPERM` | 100.0% | trusted | |
-| `LOEVM` | 100.0% | trusted | |
-| `LFABC` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `VERKF` | 100.0% | trusted | |
-| `TELF1` | 100.0% | trusted | |
-| `MINBW` | 100.0% | trusted | |
-| `ZTERM` | 100.0% | trusted | |
-| `INCO1` | 100.0% | trusted | |
-| `WEBRE` | 100.0% | trusted | |
-| `LIPRE` | 100.0% | trusted | |
-| `KZABS` | 100.0% | trusted | |
-| `KALSK` | 100.0% | trusted | |
-| `KZAUT` | 100.0% | trusted | |
-| `EXPVZ` | 100.0% | trusted | |
-| `ZOLLA` | 100.0% | trusted | |
-| `MEPRF` | 100.0% | trusted | |
-| `EKGRP` | 100.0% | trusted | |
-| `XERSY` | 100.0% | trusted | |
-| `PLIFZ` | 100.0% | trusted | |
-| `MRPPP` | 100.0% | trusted | |
-| `LFRHY` | 100.0% | trusted | |
-| `LIBES` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `agrel` | 100.0% | trusted | |
+| `boind` | 100.0% | trusted | |
+| `blind` | 100.0% | trusted | |
+| `kzret` | 100.0% | trusted | |
+| `skrit` | 100.0% | trusted | |
+| `bstae` | 100.0% | trusted | |
+| `rdprf` | 100.0% | trusted | |
+| `megru` | 100.0% | trusted | |
+| `vensl` | 100.0% | trusted | |
+| `bopnr` | 100.0% | trusted | |
+| `xersr` | 100.0% | trusted | |
+| `eikto` | 100.0% | trusted | |
+| `abueb` | 100.0% | trusted | |
+| `paprf` | 100.0% | trusted | |
+| `xnbwy` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `vsbed` | 100.0% | trusted | |
+| `lebre` | 100.0% | trusted | |
+| `bolre` | 100.0% | trusted | |
+| `umsae` | 100.0% | trusted | |
+| `vendor_rma_req` | 100.0% | trusted | |
+| `activity_profil` | 100.0% | trusted | |
+| `transport_chain` | 100.0% | trusted | |
+| `staging_time` | 100.0% | trusted | |
+| `fsh_sc_cid` | 100.0% | trusted | |
+| `fsh_vas_detc` | 100.0% | trusted | |
+| `incov` | 100.0% | trusted | |
+| `inco2_l` | 100.0% | trusted | |
+| `inco3_l` | 100.0% | trusted | |
+| `nrgew` | 100.0% | trusted | |
+| `prfre` | 100.0% | trusted | |
+| `liser` | 100.0% | trusted | |
+| `lipre` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `ekorg` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `sperm` | 100.0% | trusted | |
+| `loevm` | 100.0% | trusted | |
+| `lfabc` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `verkf` | 100.0% | trusted | |
+| `telf1` | 100.0% | trusted | |
+| `minbw` | 100.0% | trusted | |
+| `zterm` | 100.0% | trusted | |
+| `inco1` | 100.0% | trusted | |
+| `inco2` | 100.0% | trusted | |
+| `webre` | 100.0% | trusted | |
+| `kzabs` | 100.0% | trusted | |
+| `kalsk` | 100.0% | trusted | |
+| `kzaut` | 100.0% | trusted | |
+| `expvz` | 100.0% | trusted | |
+| `zolla` | 100.0% | trusted | |
+| `meprf` | 100.0% | trusted | |
+| `ekgrp` | 100.0% | trusted | |
+| `xersy` | 100.0% | trusted | |
+| `plifz` | 100.0% | trusted | |
+| `mrppp` | 100.0% | trusted | |
+| `lfrhy` | 100.0% | trusted | |
+| `libes` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

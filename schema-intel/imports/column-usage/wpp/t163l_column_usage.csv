@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,15,15,100.0,0,0.0
+2,mandt,15,15,100.0,0,0.0
+3,bstae,15,15,100.0,0,0.0
+4,aagen,15,15,100.0,0,0.0
+5,podrel,15,15,100.0,0,0.0
+6,qtydh,15,15,100.0,0,0.0
+7,idt_track_ind,15,15,100.0,0,0.0
+8,compl_compl_ind,15,15,100.0,0,0.0
+9,asn_inbound_auto,15,15,100.0,0,0.0
+10,src_commit_time,15,15,100.0,0,0.0

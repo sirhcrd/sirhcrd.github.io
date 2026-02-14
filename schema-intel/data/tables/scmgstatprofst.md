@@ -1,9 +1,9 @@
 ---
 table: scmgstatprofst
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 434
-column_count: 6
+row_count: 9035
+column_count: 7
 ---
 
 # scmgstatprofst
@@ -14,7 +14,7 @@ column_count: 6
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 6 | 100% |
+| Trusted (≥50%) | 7 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,11 +22,12 @@ column_count: 6
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `LANGU` | 100.0% | trusted | |
-| `PROFILE_ID` | 100.0% | trusted | |
-| `STAT_ORDERNO` | 100.0% | trusted | |
-| `STAT_ORDNO_DESCR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `langu` | 100.0% | trusted | |
+| `profile_id` | 100.0% | trusted | |
+| `stat_orderno` | 100.0% | trusted | |
+| `stat_ordno_descr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

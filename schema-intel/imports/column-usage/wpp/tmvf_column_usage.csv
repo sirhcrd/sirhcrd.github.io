@@ -1,0 +1,14 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,29,29,100.0,0,0.0
+2,mandt,29,29,100.0,0,0.0
+3,mtvfp,29,29,100.0,0,0.0
+4,sumau,29,29,100.0,0,0.0
+5,sumlf,29,29,100.0,0,0.0
+6,swbzt,29,29,100.0,0,0.0
+7,acenq,29,29,100.0,0,0.0
+8,verpn,29,29,100.0,0,0.0
+9,onvba,29,29,100.0,0,0.0
+10,relre,29,29,100.0,0,0.0
+11,kzrvp,29,29,100.0,0,0.0
+12,/jdaop/zopatpctl,29,29,100.0,0,0.0
+13,src_commit_time,29,29,100.0,0,0.0

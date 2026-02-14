@@ -1,9 +1,9 @@
 ---
 table: tbsgt
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 13
-column_count: 5
+row_count: 27
+column_count: 6
 ---
 
 # tbsgt
@@ -14,7 +14,7 @@ column_count: 5
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 5 | 100% |
+| Trusted (≥50%) | 6 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,6 +22,7 @@ column_count: 5
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
 | `mandt` | 100.0% | trusted | |
 | `spras` | 100.0% | trusted | |
 | `bsgru` | 100.0% | trusted | |

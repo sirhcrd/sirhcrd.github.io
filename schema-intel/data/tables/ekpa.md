@@ -1,9 +1,9 @@
 ---
 table: ekpa
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 30179963
-column_count: 19
+row_count: 7515232
+column_count: 20
 ---
 
 # ekpa
@@ -14,7 +14,7 @@ column_count: 19
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 19 | 100% |
+| Trusted (≥50%) | 20 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,24 +22,25 @@ column_count: 19
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `LIFN2` | 100.0% | trusted | |
-| `HISTUNR` | 100.0% | trusted | |
-| `BOLRE` | 100.0% | trusted | |
-| `PRFRE` | 100.0% | trusted | |
-| `PERNR` | 100.0% | trusted | |
-| `PARNR` | 100.0% | trusted | |
-| `HITYP` | 100.0% | trusted | |
-| `DEFPA` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `PARZA` | 100.0% | trusted | |
-| `PARVW` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `LTSNR` | 100.0% | trusted | |
-| `EKORG` | 100.0% | trusted | |
-| `EBELP` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `histunr` | 100.0% | trusted | |
+| `bolre` | 100.0% | trusted | |
+| `prfre` | 100.0% | trusted | |
+| `pernr` | 100.0% | trusted | |
+| `parnr` | 100.0% | trusted | |
+| `hityp` | 100.0% | trusted | |
+| `defpa` | 100.0% | trusted | |
+| `lifn2` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `parza` | 100.0% | trusted | |
+| `parvw` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `ltsnr` | 100.0% | trusted | |
+| `ekorg` | 100.0% | trusted | |
+| `ebelp` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

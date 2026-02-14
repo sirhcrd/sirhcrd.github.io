@@ -1,9 +1,9 @@
 ---
 table: rseg
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 15176742
-column_count: 100
+row_count: 4037649
+column_count: 108
 ---
 
 # rseg
@@ -14,7 +14,7 @@ column_count: 100
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 100 | 100% |
+| Trusted (≥50%) | 108 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,105 +22,113 @@ column_count: 100
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MRMOK` | 100.0% | trusted | |
-| `COMPLAINT_REASON` | 100.0% | trusted | |
-| `XHISTMA` | 100.0% | trusted | |
-| `FRBNR` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `WEREC` | 100.0% | trusted | |
-| `STOCK_POSTING_PY` | 100.0% | trusted | |
-| `STOCK_POSTING_PP` | 100.0% | trusted | |
-| `STOCK_POSTING` | 100.0% | trusted | |
-| `ZAEHK` | 100.0% | trusted | |
-| `STUNR` | 100.0% | trusted | |
-| `KZMEK` | 100.0% | trusted | |
-| `BELNR` | 100.0% | trusted | |
-| `XSKRL` | 100.0% | trusted | |
-| `SGTXT` | 100.0% | trusted | |
-| `INTROW` | 100.0% | trusted | |
-| `PACKNO` | 100.0% | trusted | |
-| `GITYP` | 100.0% | trusted | |
-| `GRIRG` | 100.0% | trusted | |
-| `GRICD` | 100.0% | trusted | |
-| `LFEHL` | 100.0% | trusted | |
-| `RBWWR` | 100.0% | trusted | |
-| `BPRBM` | 100.0% | trusted | |
-| `RETAMT_FC` | 100.0% | trusted | |
-| `RETPC` | 100.0% | trusted | |
-| `RETDUEDT` | 100.0% | trusted | |
-| `XRETTAXNET` | 100.0% | trusted | |
-| `ZZXREF2` | 100.0% | trusted | |
-| `ZZXREF1` | 100.0% | trusted | |
-| `XREF3` | 100.0% | trusted | |
-| `SGT_SCAT` | 100.0% | trusted | |
-| `ZEILE` | 100.0% | trusted | |
-| `LICNO` | 100.0% | trusted | |
-| `CUSTOMS_VAL` | 100.0% | trusted | |
-| `HSN_SAC` | 100.0% | trusted | |
-| `XCPRF` | 100.0% | trusted | |
-| `DIFF_AMOUNT` | 100.0% | trusted | |
-| `XDINV` | 100.0% | trusted | |
-| `INVREL` | 100.0% | trusted | |
-| `INV_ITM_ORIGIN` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `SRVMAPKEY` | 100.0% | trusted | |
-| `CONT_PSTYP` | 100.0% | trusted | |
-| `SRM_CONTRACT_ITM` | 100.0% | trusted | |
-| `SRM_CONTRACT_ID` | 100.0% | trusted | |
-| `ERP_CONTRACT_ITM` | 100.0% | trusted | |
-| `ERP_CONTRACT_ID` | 100.0% | trusted | |
-| `RE_ACCOUNT` | 100.0% | trusted | |
-| `RBMNG` | 100.0% | trusted | |
-| `MATBF` | 100.0% | trusted | |
-| `LFPOS` | 100.0% | trusted | |
-| `KNTTP` | 100.0% | trusted | |
-| `MEINS` | 100.0% | trusted | |
-| `VRKUM` | 100.0% | trusted | |
-| `LBKUM` | 100.0% | trusted | |
-| `BPRME` | 100.0% | trusted | |
-| `BPMNG` | 100.0% | trusted | |
-| `BSTME` | 100.0% | trusted | |
-| `MENGE` | 100.0% | trusted | |
-| `TXJCD` | 100.0% | trusted | |
-| `MWSKZ` | 100.0% | trusted | |
-| `SHKZG` | 100.0% | trusted | |
-| `WRBTR` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `BUKRS` | 100.0% | trusted | |
-| `BWTAR` | 100.0% | trusted | |
-| `BWKEY` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `ZEKKN` | 100.0% | trusted | |
-| `EBELP` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `BUZEI` | 100.0% | trusted | |
-| `GJAHR` | 100.0% | trusted | |
-| `PSTYP` | 100.0% | trusted | |
-| `BKLAS` | 100.0% | trusted | |
-| `LFGJA` | 100.0% | trusted | |
-| `EREKZ` | 100.0% | trusted | |
-| `LFBNR` | 100.0% | trusted | |
-| `XLIFO` | 100.0% | trusted | |
-| `VMSAL` | 100.0% | trusted | |
-| `SALK3` | 100.0% | trusted | |
-| `KSCHL` | 100.0% | trusted | |
-| `BNKAN` | 100.0% | trusted | |
-| `XRUEB` | 100.0% | trusted | |
-| `XBLNR` | 100.0% | trusted | |
-| `BUSTW` | 100.0% | trusted | |
-| `SPGREXT` | 100.0% | trusted | |
-| `SPGRC` | 100.0% | trusted | |
-| `SPGRS` | 100.0% | trusted | |
-| `SPGRQ` | 100.0% | trusted | |
-| `SPGRV` | 100.0% | trusted | |
-| `SPGRG` | 100.0% | trusted | |
-| `SPGRT` | 100.0% | trusted | |
-| `SPGRM` | 100.0% | trusted | |
-| `SPGRP` | 100.0% | trusted | |
-| `TBTKZ` | 100.0% | trusted | |
-| `XEKBZ` | 100.0% | trusted | |
-| `EXKBE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `stock_posting_pp` | 100.0% | trusted | |
+| `re_account` | 100.0% | trusted | |
+| `xrettaxnet` | 100.0% | trusted | |
+| `retduedt` | 100.0% | trusted | |
+| `retpc` | 100.0% | trusted | |
+| `retamt_fc` | 100.0% | trusted | |
+| `complaint_reason` | 100.0% | trusted | |
+| `xhistma` | 100.0% | trusted | |
+| `frbnr` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `werec` | 100.0% | trusted | |
+| `stock_posting_py` | 100.0% | trusted | |
+| `stock_posting` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `zaehk` | 100.0% | trusted | |
+| `stunr` | 100.0% | trusted | |
+| `mrmok` | 100.0% | trusted | |
+| `kzmek` | 100.0% | trusted | |
+| `xskrl` | 100.0% | trusted | |
+| `sgtxt` | 100.0% | trusted | |
+| `introw` | 100.0% | trusted | |
+| `packno` | 100.0% | trusted | |
+| `gityp` | 100.0% | trusted | |
+| `grirg` | 100.0% | trusted | |
+| `gricd` | 100.0% | trusted | |
+| `erp_contract_id` | 100.0% | trusted | |
+| `erp_contract_itm` | 100.0% | trusted | |
+| `srm_contract_id` | 100.0% | trusted | |
+| `srm_contract_itm` | 100.0% | trusted | |
+| `zzxref2` | 100.0% | trusted | |
+| `zzxref1` | 100.0% | trusted | |
+| `customs_val` | 100.0% | trusted | |
+| `hsn_sac` | 100.0% | trusted | |
+| `fsh_theme` | 100.0% | trusted | |
+| `fsh_collection` | 100.0% | trusted | |
+| `fsh_season` | 100.0% | trusted | |
+| `fsh_season_year` | 100.0% | trusted | |
+| `wrf_charstc3` | 100.0% | trusted | |
+| `wrf_charstc2` | 100.0% | trusted | |
+| `wrf_charstc1` | 100.0% | trusted | |
+| `sgt_scat` | 100.0% | trusted | |
+| `xref3` | 100.0% | trusted | |
+| `zeile` | 100.0% | trusted | |
+| `licno` | 100.0% | trusted | |
+| `xcprf` | 100.0% | trusted | |
+| `diff_amount` | 100.0% | trusted | |
+| `xdinv` | 100.0% | trusted | |
+| `invrel` | 100.0% | trusted | |
+| `inv_itm_origin` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `srvmapkey` | 100.0% | trusted | |
+| `cont_pstyp` | 100.0% | trusted | |
+| `lfehl` | 100.0% | trusted | |
+| `rbwwr` | 100.0% | trusted | |
+| `bprbm` | 100.0% | trusted | |
+| `bklas` | 100.0% | trusted | |
+| `pstyp` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
+| `vrkum` | 100.0% | trusted | |
+| `lbkum` | 100.0% | trusted | |
+| `bprme` | 100.0% | trusted | |
+| `bpmng` | 100.0% | trusted | |
+| `bstme` | 100.0% | trusted | |
+| `menge` | 100.0% | trusted | |
+| `txjcd` | 100.0% | trusted | |
+| `mwskz` | 100.0% | trusted | |
+| `shkzg` | 100.0% | trusted | |
+| `wrbtr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `bukrs` | 100.0% | trusted | |
+| `bwtar` | 100.0% | trusted | |
+| `bwkey` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `zekkn` | 100.0% | trusted | |
+| `ebelp` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
+| `buzei` | 100.0% | trusted | |
+| `gjahr` | 100.0% | trusted | |
+| `belnr` | 100.0% | trusted | |
+| `knttp` | 100.0% | trusted | |
+| `erekz` | 100.0% | trusted | |
+| `rbmng` | 100.0% | trusted | |
+| `exkbe` | 100.0% | trusted | |
+| `matbf` | 100.0% | trusted | |
+| `lfpos` | 100.0% | trusted | |
+| `lfgja` | 100.0% | trusted | |
+| `lfbnr` | 100.0% | trusted | |
+| `xlifo` | 100.0% | trusted | |
+| `vmsal` | 100.0% | trusted | |
+| `salk3` | 100.0% | trusted | |
+| `kschl` | 100.0% | trusted | |
+| `bnkan` | 100.0% | trusted | |
+| `xrueb` | 100.0% | trusted | |
+| `xblnr` | 100.0% | trusted | |
+| `bustw` | 100.0% | trusted | |
+| `spgrext` | 100.0% | trusted | |
+| `spgrc` | 100.0% | trusted | |
+| `spgrs` | 100.0% | trusted | |
+| `spgrq` | 100.0% | trusted | |
+| `spgrv` | 100.0% | trusted | |
+| `spgrg` | 100.0% | trusted | |
+| `spgrt` | 100.0% | trusted | |
+| `spgrm` | 100.0% | trusted | |
+| `spgrp` | 100.0% | trusted | |
+| `tbtkz` | 100.0% | trusted | |
+| `xekbz` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

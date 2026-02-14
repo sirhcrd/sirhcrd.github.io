@@ -1,9 +1,9 @@
 ---
 table: inob
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 11211150
-column_count: 17
+row_count: 889341
+column_count: 18
 ---
 
 # inob
@@ -14,7 +14,7 @@ column_count: 17
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 17 | 100% |
+| Trusted (≥50%) | 18 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,22 +22,23 @@ column_count: 17
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `CUCOZHL` | 100.0% | trusted | |
-| `TECHS` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `EXPERTE` | 100.0% | trusted | |
-| `ROOT` | 100.0% | trusted | |
-| `PARENT` | 100.0% | trusted | |
-| `STATU` | 100.0% | trusted | |
-| `CUOBJ` | 100.0% | trusted | |
-| `CLINT` | 100.0% | trusted | |
-| `ROBJEK` | 100.0% | trusted | |
-| `ROBTAB` | 100.0% | trusted | |
-| `OBJEK` | 100.0% | trusted | |
-| `OBTAB` | 100.0% | trusted | |
-| `KLART` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `techs` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `experte` | 100.0% | trusted | |
+| `root` | 100.0% | trusted | |
+| `parent` | 100.0% | trusted | |
+| `cucozhl` | 100.0% | trusted | |
+| `statu` | 100.0% | trusted | |
+| `clint` | 100.0% | trusted | |
+| `robjek` | 100.0% | trusted | |
+| `robtab` | 100.0% | trusted | |
+| `objek` | 100.0% | trusted | |
+| `obtab` | 100.0% | trusted | |
+| `klart` | 100.0% | trusted | |
+| `cuobj` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,9 +1,9 @@
 ---
 table: agr_users
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 787319
-column_count: 12
+row_count: 1078909
+column_count: 13
 ---
 
 # agr_users
@@ -14,7 +14,7 @@ column_count: 12
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 12 | 100% |
+| Trusted (≥50%) | 13 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,17 +22,18 @@ column_count: 12
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `AGR_NAME` | 100.0% | trusted | |
-| `UNAME` | 100.0% | trusted | |
-| `FROM_DAT` | 100.0% | trusted | |
-| `TO_DAT` | 100.0% | trusted | |
-| `EXCLUDE` | 100.0% | trusted | |
-| `CHANGE_DAT` | 100.0% | trusted | |
-| `CHANGE_TIM` | 100.0% | trusted | |
-| `CHANGE_TST` | 100.0% | trusted | |
-| `ORG_FLAG` | 100.0% | trusted | |
-| `COL_FLAG` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `agr_name` | 100.0% | trusted | |
+| `uname` | 100.0% | trusted | |
+| `from_dat` | 100.0% | trusted | |
+| `to_dat` | 100.0% | trusted | |
+| `exclude` | 100.0% | trusted | |
+| `change_dat` | 100.0% | trusted | |
+| `change_tim` | 100.0% | trusted | |
+| `change_tst` | 100.0% | trusted | |
+| `org_flag` | 100.0% | trusted | |
+| `col_flag` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

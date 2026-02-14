@@ -1,9 +1,9 @@
 ---
 table: eine
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 82545331
-column_count: 78
+row_count: 1104069
+column_count: 84
 ---
 
 # eine
@@ -14,7 +14,7 @@ column_count: 78
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 78 | 100% |
+| Trusted (≥50%) | 84 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,83 +22,89 @@ column_count: 78
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `EVERS` | 100.0% | trusted | |
-| `EBON2` | 100.0% | trusted | |
-| `XERSN` | 100.0% | trusted | |
-| `INCO2` | 100.0% | trusted | |
-| `INCO1` | 100.0% | trusted | |
-| `MEPRF` | 100.0% | trusted | |
-| `BSTAE` | 100.0% | trusted | |
-| `EXPRF` | 100.0% | trusted | |
-| `EBONU` | 100.0% | trusted | |
-| `EBONF` | 100.0% | trusted | |
-| `BWTAR` | 100.0% | trusted | |
-| `MWSKZ` | 100.0% | trusted | |
-| `KZABS` | 100.0% | trusted | |
-| `SKTOF` | 100.0% | trusted | |
-| `EKKOL` | 100.0% | trusted | |
-| `EFFPR` | 100.0% | trusted | |
-| `WEBRE` | 100.0% | trusted | |
-| `EBON3` | 100.0% | trusted | |
-| `MHDRZ` | 100.0% | trusted | |
-| `INFNR` | 100.0% | trusted | |
-| `DIFF_INVOICE` | 100.0% | trusted | |
-| `STAGING_TIME` | 100.0% | trusted | |
-| `TRANSPORT_CHAIN` | 100.0% | trusted | |
-| `SGT_SSREL` | 100.0% | trusted | |
-| `MRPIND` | 100.0% | trusted | |
-| `INCO3_L` | 100.0% | trusted | |
-| `INCO2_L` | 100.0% | trusted | |
-| `INCOV` | 100.0% | trusted | |
-| `VENDOR_RMA_REQ` | 100.0% | trusted | |
-| `VERID` | 100.0% | trusted | |
-| `CO_ORDER` | 100.0% | trusted | |
-| `IPRKZ` | 100.0% | trusted | |
-| `SPE_CRE_REF_DOC` | 100.0% | trusted | |
-| `J_1BNBM` | 100.0% | trusted | |
-| `MEGRU` | 100.0% | trusted | |
-| `RDPRF` | 100.0% | trusted | |
-| `BSTMA` | 100.0% | trusted | |
-| `MTXNO` | 100.0% | trusted | |
-| `BPUMN` | 100.0% | trusted | |
-| `BPUMZ` | 100.0% | trusted | |
-| `BONUS` | 100.0% | trusted | |
-| `UNTTO` | 100.0% | trusted | |
-| `UEBTK` | 100.0% | trusted | |
-| `UEBTO` | 100.0% | trusted | |
-| `APLFZ` | 100.0% | trusted | |
-| `NORBM` | 100.0% | trusted | |
-| `MINBM` | 100.0% | trusted | |
-| `MGBON` | 100.0% | trusted | |
-| `WAERS` | 100.0% | trusted | |
-| `PRDAT` | 100.0% | trusted | |
-| `EKGRP` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `LOEKZ` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `ESOKZ` | 100.0% | trusted | |
-| `EKORG` | 100.0% | trusted | |
-| `ANGNR` | 100.0% | trusted | |
-| `ANGDT` | 100.0% | trusted | |
-| `ANFNR` | 100.0% | trusted | |
-| `ANFPS` | 100.0% | trusted | |
-| `BPRME` | 100.0% | trusted | |
-| `PEINH` | 100.0% | trusted | |
-| `NETPR` | 100.0% | trusted | |
-| `DATLB` | 100.0% | trusted | |
-| `EBELP` | 100.0% | trusted | |
-| `EBELN` | 100.0% | trusted | |
-| `BSTYP` | 100.0% | trusted | |
-| `AMORS` | 100.0% | trusted | |
-| `AMOAW` | 100.0% | trusted | |
-| `AMOAM` | 100.0% | trusted | |
-| `AMOBW` | 100.0% | trusted | |
-| `AMOBM` | 100.0% | trusted | |
-| `AMODB` | 100.0% | trusted | |
-| `AMODV` | 100.0% | trusted | |
-| `ABSKZ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `meprf` | 100.0% | trusted | |
+| `verid` | 100.0% | trusted | |
+| `mhdrz` | 100.0% | trusted | |
+| `ebonf` | 100.0% | trusted | |
+| `ebon3` | 100.0% | trusted | |
+| `ebon2` | 100.0% | trusted | |
+| `xersn` | 100.0% | trusted | |
+| `inco2` | 100.0% | trusted | |
+| `inco1` | 100.0% | trusted | |
+| `bstae` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `exprf` | 100.0% | trusted | |
+| `evers` | 100.0% | trusted | |
+| `ebonu` | 100.0% | trusted | |
+| `bwtar` | 100.0% | trusted | |
+| `mwskz` | 100.0% | trusted | |
+| `kzabs` | 100.0% | trusted | |
+| `sktof` | 100.0% | trusted | |
+| `ekkol` | 100.0% | trusted | |
+| `bstma` | 100.0% | trusted | |
+| `rdprf` | 100.0% | trusted | |
+| `megru` | 100.0% | trusted | |
+| `j_1bnbm` | 100.0% | trusted | |
+| `fsh_dci_corr` | 100.0% | trusted | |
+| `fsh_tlt` | 100.0% | trusted | |
+| `fsh_plt` | 100.0% | trusted | |
+| `fsh_mlt` | 100.0% | trusted | |
+| `fsh_rlt` | 100.0% | trusted | |
+| `inco3_l` | 100.0% | trusted | |
+| `inco2_l` | 100.0% | trusted | |
+| `incov` | 100.0% | trusted | |
+| `sgt_ssrel` | 100.0% | trusted | |
+| `staging_time` | 100.0% | trusted | |
+| `transport_chain` | 100.0% | trusted | |
+| `mrpind` | 100.0% | trusted | |
+| `diff_invoice` | 100.0% | trusted | |
+| `vendor_rma_req` | 100.0% | trusted | |
+| `co_order` | 100.0% | trusted | |
+| `iprkz` | 100.0% | trusted | |
+| `spe_cre_ref_doc` | 100.0% | trusted | |
+| `effpr` | 100.0% | trusted | |
+| `webre` | 100.0% | trusted | |
+| `mtxno` | 100.0% | trusted | |
+| `angdt` | 100.0% | trusted | |
+| `untto` | 100.0% | trusted | |
+| `uebtk` | 100.0% | trusted | |
+| `uebto` | 100.0% | trusted | |
+| `aplfz` | 100.0% | trusted | |
+| `norbm` | 100.0% | trusted | |
+| `minbm` | 100.0% | trusted | |
+| `mgbon` | 100.0% | trusted | |
+| `bonus` | 100.0% | trusted | |
+| `waers` | 100.0% | trusted | |
+| `ekgrp` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `loekz` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `esokz` | 100.0% | trusted | |
+| `ekorg` | 100.0% | trusted | |
+| `infnr` | 100.0% | trusted | |
+| `angnr` | 100.0% | trusted | |
+| `anfnr` | 100.0% | trusted | |
+| `bpumn` | 100.0% | trusted | |
+| `anfps` | 100.0% | trusted | |
+| `bpumz` | 100.0% | trusted | |
+| `prdat` | 100.0% | trusted | |
+| `bprme` | 100.0% | trusted | |
+| `peinh` | 100.0% | trusted | |
+| `netpr` | 100.0% | trusted | |
+| `datlb` | 100.0% | trusted | |
+| `ebelp` | 100.0% | trusted | |
+| `ebeln` | 100.0% | trusted | |
+| `bstyp` | 100.0% | trusted | |
+| `amors` | 100.0% | trusted | |
+| `amoaw` | 100.0% | trusted | |
+| `amoam` | 100.0% | trusted | |
+| `amobw` | 100.0% | trusted | |
+| `amobm` | 100.0% | trusted | |
+| `amodb` | 100.0% | trusted | |
+| `amodv` | 100.0% | trusted | |
+| `abskz` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

@@ -1,0 +1,6 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,34,34,100.0,0,0.0
+2,cimtyp,34,34,100.0,0,0.0
+3,langua,34,34,100.0,0,0.0
+4,descrp,34,34,100.0,0,0.0
+5,src_commit_time,34,34,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: vttp
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2181478
-column_count: 11
+row_count: 16222608
+column_count: 12
 ---
 
 # vttp
@@ -14,7 +14,7 @@ column_count: 11
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 11 | 100% |
+| Trusted (≥50%) | 12 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,16 +22,17 @@ column_count: 11
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `TKNUM` | 100.0% | trusted | |
-| `TPNUM` | 100.0% | trusted | |
-| `VBELN` | 100.0% | trusted | |
-| `TPRFO` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERZET` | 100.0% | trusted | |
-| `PKSTA` | 100.0% | trusted | |
-| `KZHULFG` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `tknum` | 100.0% | trusted | |
+| `tpnum` | 100.0% | trusted | |
+| `vbeln` | 100.0% | trusted | |
+| `tprfo` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `erzet` | 100.0% | trusted | |
+| `pksta` | 100.0% | trusted | |
+| `kzhulfg` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

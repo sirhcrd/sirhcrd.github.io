@@ -1,9 +1,9 @@
 ---
 table: mdma
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 64537830
-column_count: 49
+row_count: 172221
+column_count: 50
 ---
 
 # mdma
@@ -14,7 +14,7 @@ column_count: 49
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 49 | 100% |
+| Trusted (≥50%) | 50 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,54 +22,55 @@ column_count: 49
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `SHZET` | 100.0% | trusted | |
-| `LOSFX` | 100.0% | trusted | |
-| `LAGPR` | 100.0% | trusted | |
-| `LGRAD` | 100.0% | trusted | |
-| `PROPR` | 100.0% | trusted | |
-| `VRBMT` | 100.0% | trusted | |
-| `VRBDB` | 100.0% | trusted | |
-| `VRBDT` | 100.0% | trusted | |
-| `VRBFK` | 100.0% | trusted | |
-| `LOEKZ` | 100.0% | trusted | |
-| `SHPRO` | 100.0% | trusted | |
-| `AHDIS` | 100.0% | trusted | |
-| `AUTRU` | 100.0% | trusted | |
-| `PSTAT` | 100.0% | trusted | |
-| `KZKFK` | 100.0% | trusted | |
-| `SHFLG` | 100.0% | trusted | |
-| `APOKZ` | 100.0% | trusted | |
-| `PLIFZ` | 100.0% | trusted | |
-| `PLIFZX` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `AEZEIT` | 100.0% | trusted | |
-| `BSTFE` | 100.0% | trusted | |
-| `RWPRO` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `EISBE` | 100.0% | trusted | |
-| `BERID` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `DISPR` | 100.0% | trusted | |
-| `DISMM` | 100.0% | trusted | |
-| `DISPO` | 100.0% | trusted | |
-| `DISGR` | 100.0% | trusted | |
-| `MINBE` | 100.0% | trusted | |
-| `LFRHY` | 100.0% | trusted | |
-| `FXHOR` | 100.0% | trusted | |
-| `DISLS` | 100.0% | trusted | |
-| `RDPRF` | 100.0% | trusted | |
-| `BSTRF` | 100.0% | trusted | |
-| `BSTMI` | 100.0% | trusted | |
-| `BSTMA` | 100.0% | trusted | |
-| `MABST` | 100.0% | trusted | |
-| `TAKZT` | 100.0% | trusted | |
-| `AUSSS` | 100.0% | trusted | |
-| `SOBSL` | 100.0% | trusted | |
-| `LGPRO` | 100.0% | trusted | |
-| `LGFSB` | 100.0% | trusted | |
-| `MRPPP` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `shpro` | 100.0% | trusted | |
+| `bstfe` | 100.0% | trusted | |
+| `losfx` | 100.0% | trusted | |
+| `lagpr` | 100.0% | trusted | |
+| `lgrad` | 100.0% | trusted | |
+| `propr` | 100.0% | trusted | |
+| `vrbmt` | 100.0% | trusted | |
+| `vrbdb` | 100.0% | trusted | |
+| `vrbdt` | 100.0% | trusted | |
+| `vrbfk` | 100.0% | trusted | |
+| `loekz` | 100.0% | trusted | |
+| `ahdis` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `autru` | 100.0% | trusted | |
+| `pstat` | 100.0% | trusted | |
+| `kzkfk` | 100.0% | trusted | |
+| `shflg` | 100.0% | trusted | |
+| `apokz` | 100.0% | trusted | |
+| `plifz` | 100.0% | trusted | |
+| `plifzx` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `aezeit` | 100.0% | trusted | |
+| `shzet` | 100.0% | trusted | |
+| `rwpro` | 100.0% | trusted | |
+| `eisbe` | 100.0% | trusted | |
+| `mrppp` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `berid` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `dispr` | 100.0% | trusted | |
+| `dismm` | 100.0% | trusted | |
+| `dispo` | 100.0% | trusted | |
+| `disgr` | 100.0% | trusted | |
+| `minbe` | 100.0% | trusted | |
+| `lfrhy` | 100.0% | trusted | |
+| `fxhor` | 100.0% | trusted | |
+| `disls` | 100.0% | trusted | |
+| `rdprf` | 100.0% | trusted | |
+| `bstrf` | 100.0% | trusted | |
+| `bstmi` | 100.0% | trusted | |
+| `bstma` | 100.0% | trusted | |
+| `mabst` | 100.0% | trusted | |
+| `takzt` | 100.0% | trusted | |
+| `ausss` | 100.0% | trusted | |
+| `sobsl` | 100.0% | trusted | |
+| `lgpro` | 100.0% | trusted | |
+| `lgfsb` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

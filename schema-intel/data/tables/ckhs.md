@@ -1,9 +1,9 @@
 ---
 table: ckhs
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 8165166
-column_count: 84
+row_count: 67917376
+column_count: 85
 ---
 
 # ckhs
@@ -14,7 +14,7 @@ column_count: 84
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 84 | 100% |
+| Trusted (≥50%) | 85 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,7 +22,7 @@ column_count: 84
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
 | `knnz3` | 100.0% | trusted | |
 | `kostl` | 100.0% | trusted | |
 | `extnr` | 100.0% | trusted | |
@@ -33,7 +33,7 @@ column_count: 84
 | `knnz5` | 100.0% | trusted | |
 | `knnz4` | 100.0% | trusted | |
 | `knnz2` | 100.0% | trusted | |
-| `lednr` | 100.0% | trusted | |
+| `gwrt5` | 100.0% | trusted | |
 | `knnz1` | 100.0% | trusted | |
 | `psanz` | 100.0% | trusted | |
 | `pkanz` | 100.0% | trusted | |
@@ -64,9 +64,9 @@ column_count: 84
 | `template` | 100.0% | trusted | |
 | `zschl` | 100.0% | trusted | |
 | `stflg` | 100.0% | trusted | |
-| `gwrt5` | 100.0% | trusted | |
 | `gwrt4` | 100.0% | trusted | |
-| `aennm` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `kokrs` | 100.0% | trusted | |
 | `erfnm` | 100.0% | trusted | |
 | `erfdt` | 100.0% | trusted | |
 | `gjahr` | 100.0% | trusted | |
@@ -75,8 +75,8 @@ column_count: 84
 | `diper` | 100.0% | trusted | |
 | `froper` | 100.0% | trusted | |
 | `fcpmg` | 100.0% | trusted | |
-| `kokrs` | 100.0% | trusted | |
 | `bukrs` | 100.0% | trusted | |
+| `gwrt3` | 100.0% | trusted | |
 | `kkzma` | 100.0% | trusted | |
 | `bwvar` | 100.0% | trusted | |
 | `tvers` | 100.0% | trusted | |
@@ -84,9 +84,10 @@ column_count: 84
 | `kalka` | 100.0% | trusted | |
 | `kalnr` | 100.0% | trusted | |
 | `bzobj` | 100.0% | trusted | |
+| `lednr` | 100.0% | trusted | |
 | `aendt` | 100.0% | trusted | |
+| `aennm` | 100.0% | trusted | |
 | `absdt` | 100.0% | trusted | |
-| `gwrt3` | 100.0% | trusted | |
 | `absnm` | 100.0% | trusted | |
 | `gwrt2` | 100.0% | trusted | |
 | `gwrt1` | 100.0% | trusted | |

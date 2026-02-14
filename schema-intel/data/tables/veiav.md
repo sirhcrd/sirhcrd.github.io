@@ -1,9 +1,9 @@
 ---
 table: veiav
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 11310358
-column_count: 79
+row_count: 21864126
+column_count: 80
 ---
 
 # veiav
@@ -14,7 +14,7 @@ column_count: 79
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 79 | 100% |
+| Trusted (≥50%) | 80 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,84 +22,85 @@ column_count: 79
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `IREFWERKS` | 100.0% | trusted | |
-| `EIGENMAEH` | 100.0% | trusted | |
-| `EIGENMAAK` | 100.0% | trusted | |
-| `GRENZWEEH` | 100.0% | trusted | |
-| `GRENZWEAK` | 100.0% | trusted | |
-| `RECHNWEEH` | 100.0% | trusted | |
-| `RECHNWEAK` | 100.0% | trusted | |
-| `PREFPACOD` | 100.0% | trusted | |
-| `IREFPOSIT` | 100.0% | trusted | |
-| `BESONMAEH` | 100.0% | trusted | |
-| `IREFBELEG` | 100.0% | trusted | |
-| `ICORFORTZ` | 100.0% | trusted | |
-| `IREFEJAHR` | 100.0% | trusted | |
-| `IREFMONAT` | 100.0% | trusted | |
-| `ISESSIONE` | 100.0% | trusted | |
-| `IFREMDWER` | 100.0% | trusted | |
-| `THIERISCH` | 100.0% | trusted | |
-| `BESONMAAK` | 100.0% | trusted | |
-| `IFREMDWAK` | 100.0% | trusted | |
-| `NUMMWERKS` | 100.0% | trusted | |
-| `FI_NUMBER` | 100.0% | trusted | |
-| `PROG_NO` | 100.0% | trusted | |
-| `PROT_NO` | 100.0% | trusted | |
-| `PAYER_COUNTRY` | 100.0% | trusted | |
-| `PAYMENT_CODE` | 100.0% | trusted | |
-| `SUPPLY_CODE` | 100.0% | trusted | |
-| `SERVICE_CODE` | 100.0% | trusted | |
-| `FI_DATE` | 100.0% | trusted | |
-| `SERVICEITEM` | 100.0% | trusted | |
-| `IFREMDWEH` | 100.0% | trusted | |
-| `ORDPA` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `FLAGEUROC` | 100.0% | trusted | |
-| `P_LANDKEY` | 100.0% | trusted | |
-| `GENES` | 100.0% | trusted | |
-| `WERKSLAND` | 100.0% | trusted | |
-| `GESAMANZA` | 100.0% | trusted | |
-| `DATUMJAHR` | 100.0% | trusted | |
-| `EIGENBLND` | 100.0% | trusted | |
-| `BESTIREGI` | 100.0% | trusted | |
-| `BESTILAND` | 100.0% | trusted | |
-| `VERSENDER` | 100.0% | trusted | |
-| `FAKTDATUM` | 100.0% | trusted | |
-| `MATERIALN` | 100.0% | trusted | |
-| `HAUPTPOSI` | 100.0% | trusted | |
-| `BELEGNUMR` | 100.0% | trusted | |
-| `EIGENUINR` | 100.0% | trusted | |
-| `ARTGESCHA` | 100.0% | trusted | |
-| `VERKAUFOR` | 100.0% | trusted | |
-| `NUMMBUKRS` | 100.0% | trusted | |
-| `SATZERDAT` | 100.0% | trusted | |
-| `USERNNAME` | 100.0% | trusted | |
-| `LFDNRVEIA` | 100.0% | trusted | |
-| `ARRIVDEPA` | 100.0% | trusted | |
-| `DATUMMONA` | 100.0% | trusted | |
-| `LIEFERBED` | 100.0% | trusted | |
-| `VERKEHRZW` | 100.0% | trusted | |
-| `RETOURCOD` | 100.0% | trusted | |
-| `LIEFRUINR` | 100.0% | trusted | |
-| `BELEGIDEN` | 100.0% | trusted | |
-| `EINKAUFOR` | 100.0% | trusted | |
-| `NLDBOCODE` | 100.0% | trusted | |
-| `ZUSATZNUM` | 100.0% | trusted | |
-| `LIEFERWAE` | 100.0% | trusted | |
-| `SPANIENID` | 100.0% | trusted | |
-| `GRENZWERT` | 100.0% | trusted | |
-| `KUNDEUINR` | 100.0% | trusted | |
-| `EINLADFGH` | 100.0% | trusted | |
-| `RECHNWERT` | 100.0% | trusted | |
-| `BESONMASS` | 100.0% | trusted | |
-| `EIGENMASS` | 100.0% | trusted | |
-| `VERFAHREN` | 100.0% | trusted | |
-| `URSPRSREG` | 100.0% | trusted | |
-| `URSPRSLND` | 100.0% | trusted | |
-| `STATWAREN` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `eigenmaeh` | 100.0% | trusted | |
+| `eigenmaak` | 100.0% | trusted | |
+| `grenzweeh` | 100.0% | trusted | |
+| `grenzweak` | 100.0% | trusted | |
+| `rechnweeh` | 100.0% | trusted | |
+| `rechnweak` | 100.0% | trusted | |
+| `prefpacod` | 100.0% | trusted | |
+| `irefwerks` | 100.0% | trusted | |
+| `irefposit` | 100.0% | trusted | |
+| `irefbeleg` | 100.0% | trusted | |
+| `icorfortz` | 100.0% | trusted | |
+| `irefejahr` | 100.0% | trusted | |
+| `irefmonat` | 100.0% | trusted | |
+| `isessione` | 100.0% | trusted | |
+| `ifremdwer` | 100.0% | trusted | |
+| `thierisch` | 100.0% | trusted | |
+| `werksland` | 100.0% | trusted | |
+| `besonmaak` | 100.0% | trusted | |
+| `besonmaeh` | 100.0% | trusted | |
+| `ifremdwak` | 100.0% | trusted | |
+| `fi_number` | 100.0% | trusted | |
+| `prog_no` | 100.0% | trusted | |
+| `prot_no` | 100.0% | trusted | |
+| `payer_country` | 100.0% | trusted | |
+| `payment_code` | 100.0% | trusted | |
+| `supply_code` | 100.0% | trusted | |
+| `service_code` | 100.0% | trusted | |
+| `fi_date` | 100.0% | trusted | |
+| `serviceitem` | 100.0% | trusted | |
+| `ifremdweh` | 100.0% | trusted | |
+| `ordpa` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `flageuroc` | 100.0% | trusted | |
+| `p_landkey` | 100.0% | trusted | |
+| `genes` | 100.0% | trusted | |
+| `nummwerks` | 100.0% | trusted | |
+| `gesamanza` | 100.0% | trusted | |
+| `retourcod` | 100.0% | trusted | |
+| `eigenuinr` | 100.0% | trusted | |
+| `bestiland` | 100.0% | trusted | |
+| `versender` | 100.0% | trusted | |
+| `faktdatum` | 100.0% | trusted | |
+| `materialn` | 100.0% | trusted | |
+| `hauptposi` | 100.0% | trusted | |
+| `belegnumr` | 100.0% | trusted | |
+| `eigenblnd` | 100.0% | trusted | |
+| `verkaufor` | 100.0% | trusted | |
+| `lieferbed` | 100.0% | trusted | |
+| `nummbukrs` | 100.0% | trusted | |
+| `satzerdat` | 100.0% | trusted | |
+| `usernname` | 100.0% | trusted | |
+| `lfdnrveia` | 100.0% | trusted | |
+| `arrivdepa` | 100.0% | trusted | |
+| `datummona` | 100.0% | trusted | |
+| `datumjahr` | 100.0% | trusted | |
+| `bestiregi` | 100.0% | trusted | |
+| `artgescha` | 100.0% | trusted | |
+| `belegiden` | 100.0% | trusted | |
+| `kundeuinr` | 100.0% | trusted | |
+| `einkaufor` | 100.0% | trusted | |
+| `nldbocode` | 100.0% | trusted | |
+| `zusatznum` | 100.0% | trusted | |
+| `lieferwae` | 100.0% | trusted | |
+| `spanienid` | 100.0% | trusted | |
+| `grenzwert` | 100.0% | trusted | |
+| `liefruinr` | 100.0% | trusted | |
+| `rechnwert` | 100.0% | trusted | |
+| `verkehrzw` | 100.0% | trusted | |
+| `besonmass` | 100.0% | trusted | |
+| `eigenmass` | 100.0% | trusted | |
+| `verfahren` | 100.0% | trusted | |
+| `ursprsreg` | 100.0% | trusted | |
+| `ursprslnd` | 100.0% | trusted | |
+| `statwaren` | 100.0% | trusted | |
+| `einladfgh` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

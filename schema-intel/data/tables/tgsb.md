@@ -1,9 +1,9 @@
 ---
 table: tgsb
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 272
-column_count: 5
+row_count: 34
+column_count: 6
 ---
 
 # tgsb
@@ -14,7 +14,7 @@ column_count: 5
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 5 | 100% |
+| Trusted (≥50%) | 6 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,10 +22,11 @@ column_count: 5
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `GSBER` | 100.0% | trusted | |
-| `GSBER_KONS` | 100.0% | trusted | |
-| `GSBER_GLOB` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `gsber` | 100.0% | trusted | |
+| `gsber_kons` | 100.0% | trusted | |
+| `gsber_glob` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

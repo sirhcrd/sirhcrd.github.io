@@ -1,9 +1,9 @@
 ---
 table: keko
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 8165462
-column_count: 128
+row_count: 67930282
+column_count: 129
 ---
 
 # keko
@@ -14,7 +14,7 @@ column_count: 128
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 128 | 100% |
+| Trusted (≥50%) | 129 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,8 @@ column_count: 128
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `bzobj` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `bdatj` | 100.0% | trusted | |
 | `ziffr` | 100.0% | trusted | |
 | `cfxpr` | 100.0% | trusted | |
 | `fxpru` | 100.0% | trusted | |
@@ -86,9 +86,9 @@ column_count: 128
 | `sbdkz` | 100.0% | trusted | |
 | `pspnr` | 100.0% | trusted | |
 | `stkoz` | 100.0% | trusted | |
-| `bdatj` | 100.0% | trusted | |
 | `poper` | 100.0% | trusted | |
-| `bidam` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `zschl` | 100.0% | trusted | |
 | `loekz` | 100.0% | trusted | |
 | `plnct` | 100.0% | trusted | |
 | `plnal` | 100.0% | trusted | |
@@ -102,8 +102,8 @@ column_count: 128
 | `bedat` | 100.0% | trusted | |
 | `aldat` | 100.0% | trusted | |
 | `bwdat` | 100.0% | trusted | |
+| `bidam` | 100.0% | trusted | |
 | `kadam` | 100.0% | trusted | |
-| `meins` | 100.0% | trusted | |
 | `bidat` | 100.0% | trusted | |
 | `kadat` | 100.0% | trusted | |
 | `kokrs` | 100.0% | trusted | |
@@ -117,9 +117,10 @@ column_count: 128
 | `kadky` | 100.0% | trusted | |
 | `kalka` | 100.0% | trusted | |
 | `kalnr` | 100.0% | trusted | |
+| `bzobj` | 100.0% | trusted | |
 | `losgr` | 100.0% | trusted | |
+| `meins` | 100.0% | trusted | |
 | `erfnm` | 100.0% | trusted | |
-| `zschl` | 100.0% | trusted | |
 | `plscn` | 100.0% | trusted | |
 | `kosgr` | 100.0% | trusted | |
 | `klvar` | 100.0% | trusted | |

@@ -1,0 +1,19 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,7,7,100.0,0,0.0
+2,mandt,7,7,100.0,0,0.0
+3,segment,7,7,100.0,0,0.0
+4,pca_template,7,7,100.0,0,0.0
+5,lock_ind_plan,7,7,100.0,0,0.0
+6,lock_ind,7,7,100.0,0,0.0
+7,abtei,7,7,100.0,0,0.0
+8,waers,7,7,100.0,0,0.0
+9,verak_user,7,7,100.0,0,0.0
+10,verak,7,7,100.0,0,0.0
+11,khinr,7,7,100.0,0,0.0
+12,prctr,7,7,100.0,0,0.0
+13,kokrs,7,7,100.0,0,0.0
+14,datab,7,7,100.0,0,0.0
+15,status,7,7,100.0,0,0.0
+16,datbi,7,7,100.0,0,0.0
+17,objnr,7,7,100.0,0,0.0
+18,src_commit_time,7,7,100.0,0,0.0

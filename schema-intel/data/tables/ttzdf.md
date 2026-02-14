@@ -1,9 +1,9 @@
 ---
 table: ttzdf
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 25
-column_count: 8
+row_count: 20
+column_count: 9
 ---
 
 # ttzdf
@@ -14,7 +14,7 @@ column_count: 8
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 8 | 100% |
+| Trusted (≥50%) | 9 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,13 +22,14 @@ column_count: 8
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `DSTRULE` | 100.0% | trusted | |
-| `YEARACT` | 100.0% | trusted | |
-| `DATEFROM` | 100.0% | trusted | |
-| `TIMEFROM` | 100.0% | trusted | |
-| `DATETO` | 100.0% | trusted | |
-| `TIMETO` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `dstrule` | 100.0% | trusted | |
+| `yearact` | 100.0% | trusted | |
+| `datefrom` | 100.0% | trusted | |
+| `timefrom` | 100.0% | trusted | |
+| `dateto` | 100.0% | trusted | |
+| `timeto` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

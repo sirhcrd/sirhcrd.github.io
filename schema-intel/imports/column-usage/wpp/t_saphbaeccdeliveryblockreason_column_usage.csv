@@ -1,0 +1,5 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,SAPClient,43,43,100.0,0,0.0
+2,DeliveryBlockReason,43,43,100.0,0,0.0
+3,DeliveryBlockReasonText,43,43,100.0,0,0.0
+4,src_commit_time,43,43,100.0,0,0.0

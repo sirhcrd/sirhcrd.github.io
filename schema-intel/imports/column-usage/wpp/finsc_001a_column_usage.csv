@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,60,60,100.0,0,0.0
+2,mandt,60,60,100.0,0,0.0
+3,bukrs,60,60,100.0,0,0.0
+4,curtype,60,60,100.0,0,0.0
+5,waers,60,60,100.0,0,0.0
+6,source_curtype,60,60,100.0,0,0.0
+7,kurst,60,60,100.0,0,0.0
+8,curdt,60,60,100.0,0,0.0
+9,norealtimeconv,60,60,100.0,0,0.0
+10,src_commit_time,60,60,100.0,0,0.0

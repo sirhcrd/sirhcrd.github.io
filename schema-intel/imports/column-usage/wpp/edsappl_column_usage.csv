@@ -1,0 +1,9 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,186115,186115,100.0,0,0.0
+2,segtyp,186115,186115,100.0,0,0.0
+3,pos,186115,186115,100.0,0,0.0
+4,fieldname,186115,186115,100.0,0,0.0
+5,rollname,186115,186115,100.0,0,0.0
+6,expleng,186115,186115,100.0,0,0.0
+7,isocode,186115,186115,100.0,0,0.0
+8,src_commit_time,186115,186115,100.0,0,0.0

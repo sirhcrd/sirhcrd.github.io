@@ -1,0 +1,7 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,828,828,100.0,0,0.0
+2,mandt,828,828,100.0,0,0.0
+3,bukrs,828,828,100.0,0,0.0
+4,pstyp,828,828,100.0,0,0.0
+5,wepos,828,828,100.0,0,0.0
+6,src_commit_time,828,828,100.0,0,0.0

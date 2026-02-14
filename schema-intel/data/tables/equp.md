@@ -1,9 +1,9 @@
 ---
 table: equp
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 4
-column_count: 23
+row_count: 182
+column_count: 24
 ---
 
 # equp
@@ -14,7 +14,7 @@ column_count: 23
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 23 | 100% |
+| Trusted (≥50%) | 24 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,28 +22,29 @@ column_count: 23
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MAXLS` | 100.0% | trusted | |
-| `PLIFZ` | 100.0% | trusted | |
-| `EMATN` | 100.0% | trusted | |
-| `PREIH` | 100.0% | trusted | |
-| `ABANZ` | 100.0% | trusted | |
-| `ABPER` | 100.0% | trusted | |
-| `ABRMG` | 100.0% | trusted | |
-| `KZEIN` | 100.0% | trusted | |
-| `RDPRF` | 100.0% | trusted | |
-| `MINLS` | 100.0% | trusted | |
-| `VERID` | 100.0% | trusted | |
-| `QUNUM` | 100.0% | trusted | |
-| `MAXMG` | 100.0% | trusted | |
-| `QUMNG` | 100.0% | trusted | |
-| `QUBMG` | 100.0% | trusted | |
-| `QUOTE` | 100.0% | trusted | |
-| `BEWRK` | 100.0% | trusted | |
-| `LIFNR` | 100.0% | trusted | |
-| `SOBES` | 100.0% | trusted | |
-| `BESKZ` | 100.0% | trusted | |
-| `QUPOS` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `plifz` | 100.0% | trusted | |
+| `ematn` | 100.0% | trusted | |
+| `preih` | 100.0% | trusted | |
+| `abanz` | 100.0% | trusted | |
+| `abper` | 100.0% | trusted | |
+| `abrmg` | 100.0% | trusted | |
+| `kzein` | 100.0% | trusted | |
+| `rdprf` | 100.0% | trusted | |
+| `minls` | 100.0% | trusted | |
+| `maxls` | 100.0% | trusted | |
+| `verid` | 100.0% | trusted | |
+| `maxmg` | 100.0% | trusted | |
+| `qumng` | 100.0% | trusted | |
+| `qubmg` | 100.0% | trusted | |
+| `quote` | 100.0% | trusted | |
+| `bewrk` | 100.0% | trusted | |
+| `lifnr` | 100.0% | trusted | |
+| `sobes` | 100.0% | trusted | |
+| `beskz` | 100.0% | trusted | |
+| `qupos` | 100.0% | trusted | |
+| `qunum` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

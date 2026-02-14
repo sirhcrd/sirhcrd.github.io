@@ -1,9 +1,9 @@
 ---
 table: mhnk
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2787076
-column_count: 60
+row_count: 628062
+column_count: 61
 ---
 
 # mhnk
@@ -14,7 +14,7 @@ column_count: 60
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 60 | 100% |
+| Trusted (≥50%) | 61 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,8 +22,8 @@ column_count: 60
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandt` | 100.0% | trusted | |
-| `laufd` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `zinhw` | 100.0% | trusted | |
 | `mgrup` | 100.0% | trusted | |
 | `vertn` | 100.0% | trusted | |
 | `vertt` | 100.0% | trusted | |
@@ -52,9 +52,10 @@ column_count: 60
 | `prnform` | 100.0% | trusted | |
 | `prnnacha` | 100.0% | trusted | |
 | `xzins` | 100.0% | trusted | |
-| `zinhw` | 100.0% | trusted | |
 | `zinbt` | 100.0% | trusted | |
-| `knrma` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `mahsk` | 100.0% | trusted | |
+| `laufd` | 100.0% | trusted | |
 | `laufi` | 100.0% | trusted | |
 | `koart` | 100.0% | trusted | |
 | `bukrs` | 100.0% | trusted | |
@@ -67,8 +68,8 @@ column_count: 60
 | `busab` | 100.0% | trusted | |
 | `ausdt` | 100.0% | trusted | |
 | `grdat` | 100.0% | trusted | |
+| `knrma` | 100.0% | trusted | |
 | `gmvdt` | 100.0% | trusted | |
-| `mahsk` | 100.0% | trusted | |
 | `mahna` | 100.0% | trusted | |
 | `mahns` | 100.0% | trusted | |
 | `vzskz` | 100.0% | trusted | |

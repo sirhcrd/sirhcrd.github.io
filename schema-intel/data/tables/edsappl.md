@@ -1,9 +1,9 @@
 ---
 table: edsappl
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 161548
-column_count: 7
+row_count: 186115
+column_count: 8
 ---
 
 # edsappl
@@ -14,7 +14,7 @@ column_count: 7
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 7 | 100% |
+| Trusted (≥50%) | 8 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,12 +22,13 @@ column_count: 7
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `SEGTYP` | 100.0% | trusted | |
-| `POS` | 100.0% | trusted | |
-| `FIELDNAME` | 100.0% | trusted | |
-| `ROLLNAME` | 100.0% | trusted | |
-| `EXPLENG` | 100.0% | trusted | |
-| `ISOCODE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `segtyp` | 100.0% | trusted | |
+| `pos` | 100.0% | trusted | |
+| `fieldname` | 100.0% | trusted | |
+| `rollname` | 100.0% | trusted | |
+| `expleng` | 100.0% | trusted | |
+| `isocode` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

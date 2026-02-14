@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,203,203,100.0,0,0.0
+2,mandt,203,203,100.0,0,0.0
+3,spras,203,203,100.0,0,0.0
+4,frggr,203,203,100.0,0,0.0
+5,frgco,203,203,100.0,0,0.0
+6,frgct,203,203,100.0,0,0.0
+7,src_commit_time,203,203,100.0,0,0.0

@@ -1,9 +1,9 @@
 ---
 table: adrt
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 1499507
-column_count: 9
+row_count: 516157
+column_count: 10
 ---
 
 # adrt
@@ -14,7 +14,7 @@ column_count: 9
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 9 | 100% |
+| Trusted (≥50%) | 10 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,14 +22,15 @@ column_count: 9
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `ADDRNUMBER` | 100.0% | trusted | |
-| `PERSNUMBER` | 100.0% | trusted | |
-| `COMM_TYPE` | 100.0% | trusted | |
-| `DATE_FROM` | 100.0% | trusted | |
-| `CONSNUMBER` | 100.0% | trusted | |
-| `LANGU` | 100.0% | trusted | |
-| `REMARK` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `addrnumber` | 100.0% | trusted | |
+| `persnumber` | 100.0% | trusted | |
+| `comm_type` | 100.0% | trusted | |
+| `date_from` | 100.0% | trusted | |
+| `consnumber` | 100.0% | trusted | |
+| `langu` | 100.0% | trusted | |
+| `remark` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

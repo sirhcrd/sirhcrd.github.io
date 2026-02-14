@@ -1,0 +1,11 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,27,27,100.0,0,0.0
+2,mandt,27,27,100.0,0,0.0
+3,serail,27,27,100.0,0,0.0
+4,serscha,27,27,100.0,0,0.0
+5,serex,27,27,100.0,0,0.0
+6,eqtyp,27,27,100.0,0,0.0
+7,bstvp,27,27,100.0,0,0.0
+8,iuid_compatible,27,27,100.0,0,0.0
+9,uid_used,27,27,100.0,0,0.0
+10,src_commit_time,27,27,100.0,0,0.0

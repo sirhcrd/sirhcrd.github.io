@@ -1,9 +1,9 @@
 ---
 table: ttzz
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 408
-column_count: 6
+row_count: 404
+column_count: 7
 ---
 
 # ttzz
@@ -14,7 +14,7 @@ column_count: 6
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 6 | 100% |
+| Trusted (≥50%) | 7 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,11 +22,12 @@ column_count: 6
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `CLIENT` | 100.0% | trusted | |
-| `TZONE` | 100.0% | trusted | |
-| `ZONERULE` | 100.0% | trusted | |
-| `DSTRULE` | 100.0% | trusted | |
-| `FLAGACTIVE` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `client` | 100.0% | trusted | |
+| `tzone` | 100.0% | trusted | |
+| `zonerule` | 100.0% | trusted | |
+| `dstrule` | 100.0% | trusted | |
+| `flagactive` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

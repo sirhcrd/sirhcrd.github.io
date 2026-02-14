@@ -1,9 +1,9 @@
 ---
 table: tkkh2
-source: mcp
+source: wpp
 pulled_date: 2026-02-13
-row_count: 8
-column_count: 7
+row_count: 13
+column_count: 8
 ---
 
 # tkkh2
@@ -14,7 +14,7 @@ column_count: 7
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 7 | 100% |
+| Trusted (≥50%) | 8 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,6 +22,7 @@ column_count: 7
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
 | `mandt` | 100.0% | trusted | |
 | `spras` | 100.0% | trusted | |
 | `kokrs` | 100.0% | trusted | |

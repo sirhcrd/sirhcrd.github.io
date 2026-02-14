@@ -1,9 +1,9 @@
 ---
 table: cabnt
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 98328
-column_count: 12
+row_count: 235568
+column_count: 13
 ---
 
 # cabnt
@@ -14,7 +14,7 @@ column_count: 12
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 12 | 100% |
+| Trusted (≥50%) | 13 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,17 +22,18 @@ column_count: 12
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `ATINN` | 100.0% | trusted | |
-| `SPRAS` | 100.0% | trusted | |
-| `ADZHL` | 100.0% | trusted | |
-| `ATBEZ` | 100.0% | trusted | |
-| `ATUE1` | 100.0% | trusted | |
-| `ATUE2` | 100.0% | trusted | |
-| `DATUV` | 100.0% | trusted | |
-| `TECHV` | 100.0% | trusted | |
-| `AENNR` | 100.0% | trusted | |
-| `LKENZ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `atinn` | 100.0% | trusted | |
+| `spras` | 100.0% | trusted | |
+| `adzhl` | 100.0% | trusted | |
+| `atbez` | 100.0% | trusted | |
+| `atue1` | 100.0% | trusted | |
+| `atue2` | 100.0% | trusted | |
+| `datuv` | 100.0% | trusted | |
+| `techv` | 100.0% | trusted | |
+| `aennr` | 100.0% | trusted | |
+| `lkenz` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

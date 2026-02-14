@@ -1,9 +1,9 @@
 ---
 table: j_1ig_accumhdr
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 2200
-column_count: 11
+row_count: 2241
+column_count: 12
 ---
 
 # j_1ig_accumhdr
@@ -14,7 +14,7 @@ column_count: 11
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 11 | 100% |
+| Trusted (≥50%) | 12 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,6 +22,7 @@ column_count: 11
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
+| `hvr_rowid` | 100.0% | trusted | |
 | `mandt` | 100.0% | trusted | |
 | `thld_cat` | 100.0% | trusted | |
 | `seller_pan` | 100.0% | trusted | |

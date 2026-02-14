@@ -1,9 +1,9 @@
 ---
 table: qmur
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 12989354
-column_count: 30
+row_count: 25822
+column_count: 31
 ---
 
 # qmur
@@ -14,7 +14,7 @@ column_count: 30
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 30 | 100% |
+| Trusted (≥50%) | 31 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,35 +22,36 @@ column_count: 30
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `QMNUM` | 100.0% | trusted | |
-| `INVOLVPERC` | 100.0% | trusted | |
-| `AUTKZ` | 100.0% | trusted | |
-| `QURNUM` | 100.0% | trusted | |
-| `KZLOESCH` | 100.0% | trusted | |
-| `URMGEIN` | 100.0% | trusted | |
-| `URMENGE` | 100.0% | trusted | |
-| `BAUTL` | 100.0% | trusted | |
-| `PARNR` | 100.0% | trusted | |
-| `PARVW` | 100.0% | trusted | |
-| `VUCOD` | 100.0% | trusted | |
-| `VUGRP` | 100.0% | trusted | |
-| `VUKAT` | 100.0% | trusted | |
-| `AEZEIT` | 100.0% | trusted | |
-| `ERZEIT` | 100.0% | trusted | |
-| `KZMLA` | 100.0% | trusted | |
-| `INDTX` | 100.0% | trusted | |
-| `URVER` | 100.0% | trusted | |
-| `URCOD` | 100.0% | trusted | |
-| `URGRP` | 100.0% | trusted | |
-| `URKAT` | 100.0% | trusted | |
-| `URTXT` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `URNUM` | 100.0% | trusted | |
-| `FENUM` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `erzeit` | 100.0% | trusted | |
+| `involvperc` | 100.0% | trusted | |
+| `autkz` | 100.0% | trusted | |
+| `qurnum` | 100.0% | trusted | |
+| `kzloesch` | 100.0% | trusted | |
+| `urmgein` | 100.0% | trusted | |
+| `urmenge` | 100.0% | trusted | |
+| `bautl` | 100.0% | trusted | |
+| `parnr` | 100.0% | trusted | |
+| `parvw` | 100.0% | trusted | |
+| `vucod` | 100.0% | trusted | |
+| `vugrp` | 100.0% | trusted | |
+| `vukat` | 100.0% | trusted | |
+| `aezeit` | 100.0% | trusted | |
+| `kzmla` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `indtx` | 100.0% | trusted | |
+| `urver` | 100.0% | trusted | |
+| `urcod` | 100.0% | trusted | |
+| `urgrp` | 100.0% | trusted | |
+| `urkat` | 100.0% | trusted | |
+| `urtxt` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `urnum` | 100.0% | trusted | |
+| `fenum` | 100.0% | trusted | |
+| `qmnum` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

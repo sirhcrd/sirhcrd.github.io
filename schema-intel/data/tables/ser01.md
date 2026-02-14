@@ -1,9 +1,9 @@
 ---
 table: ser01
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 25708400
-column_count: 17
+row_count: 194688
+column_count: 18
 ---
 
 # ser01
@@ -14,7 +14,7 @@ column_count: 17
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 17 | 100% |
+| Trusted (≥50%) | 18 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,22 +22,23 @@ column_count: 17
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `UZEIT` | 100.0% | trusted | |
-| `LTSPS` | 100.0% | trusted | |
-| `SPART` | 100.0% | trusted | |
-| `VTWEG` | 100.0% | trusted | |
-| `VKORG` | 100.0% | trusted | |
-| `BWART` | 100.0% | trusted | |
-| `VBTYP` | 100.0% | trusted | |
-| `VORGANG` | 100.0% | trusted | |
-| `OBKNR` | 100.0% | trusted | |
-| `ANZSN` | 100.0% | trusted | |
-| `KUNDE` | 100.0% | trusted | |
-| `LETZNR` | 100.0% | trusted | |
-| `DATUM` | 100.0% | trusted | |
-| `POSNR` | 100.0% | trusted | |
-| `LIEF_NR` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `ltsps` | 100.0% | trusted | |
+| `spart` | 100.0% | trusted | |
+| `vtweg` | 100.0% | trusted | |
+| `vkorg` | 100.0% | trusted | |
+| `bwart` | 100.0% | trusted | |
+| `vbtyp` | 100.0% | trusted | |
+| `uzeit` | 100.0% | trusted | |
+| `vorgang` | 100.0% | trusted | |
+| `anzsn` | 100.0% | trusted | |
+| `kunde` | 100.0% | trusted | |
+| `letznr` | 100.0% | trusted | |
+| `datum` | 100.0% | trusted | |
+| `posnr` | 100.0% | trusted | |
+| `lief_nr` | 100.0% | trusted | |
+| `obknr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

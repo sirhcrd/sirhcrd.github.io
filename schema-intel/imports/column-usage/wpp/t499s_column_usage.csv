@@ -1,0 +1,8 @@
+Rank,Column,Non-Empty Count,Total Rows,Usage %,Empty Count,Empty %
+1,hvr_rowid,1659,1659,100.0,0,0.0
+2,mandt,1659,1659,100.0,0,0.0
+3,werks,1659,1659,100.0,0,0.0
+4,stand,1659,1659,100.0,0,0.0
+5,ktext,1659,1659,100.0,0,0.0
+6,addrnum,1659,1659,100.0,0,0.0
+7,src_commit_time,1659,1659,100.0,0,0.0

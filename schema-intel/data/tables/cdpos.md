@@ -1,9 +1,9 @@
 ---
 table: cdpos
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 28154536821
-column_count: 17
+row_count: 4115137648
+column_count: 18
 ---
 
 # cdpos
@@ -14,7 +14,7 @@ column_count: 17
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 17 | 100% |
+| Trusted (≥50%) | 18 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,23 +22,24 @@ column_count: 17
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `mandant` | 100.0% | trusted | |
-| `unit_old` | 100.0% | trusted | |
-| `_dataaging` | 100.0% | trusted | |
-| `value_old` | 100.0% | trusted | |
-| `value_new` | 100.0% | trusted | |
-| `cuky_new` | 100.0% | trusted | |
-| `cuky_old` | 100.0% | trusted | |
-| `unit_new` | 100.0% | trusted | |
-| `text_case` | 100.0% | trusted | |
-| `objectclas` | 100.0% | trusted | |
-| `chngind` | 100.0% | trusted | |
-| `fname` | 100.0% | trusted | |
-| `tabkey` | 100.0% | trusted | |
-| `tabname` | 100.0% | trusted | |
-| `changenr` | 100.0% | trusted | |
-| `objectid` | 100.0% | trusted | |
-| `src_commit_time` | 100.0% | trusted | |
+| `hvr_rowid` | 99.9% | trusted | |
+| `mandant` | 99.9% | trusted | |
+| `_dataaging` | 99.9% | trusted | |
+| `value_old` | 99.9% | trusted | |
+| `value_new` | 99.9% | trusted | |
+| `cuky_new` | 99.9% | trusted | |
+| `cuky_old` | 99.9% | trusted | |
+| `unit_new` | 99.9% | trusted | |
+| `unit_old` | 99.9% | trusted | |
+| `text_case` | 99.9% | trusted | |
+| `chngind` | 99.9% | trusted | |
+| `fname` | 99.9% | trusted | |
+| `tabkey` | 99.9% | trusted | |
+| `tabname` | 99.9% | trusted | |
+| `changenr` | 99.9% | trusted | |
+| `objectid` | 99.9% | trusted | |
+| `objectclas` | 99.9% | trusted | |
+| `src_commit_time` | 99.9% | trusted | |
 
 ## Notes
 

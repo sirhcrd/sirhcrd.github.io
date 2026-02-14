@@ -1,9 +1,9 @@
 ---
 table: mkal
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 64
-column_count: 43
+row_count: 47084
+column_count: 44
 ---
 
 # mkal
@@ -14,7 +14,7 @@ column_count: 43
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 43 | 100% |
+| Trusted (≥50%) | 44 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,48 +22,49 @@ column_count: 43
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `ELPRO` | 100.0% | trusted | |
-| `PLTYG` | 100.0% | trusted | |
-| `PLNNG` | 100.0% | trusted | |
-| `ALNAG` | 100.0% | trusted | |
-| `PLTYM` | 100.0% | trusted | |
-| `PLNNM` | 100.0% | trusted | |
-| `ALNAM` | 100.0% | trusted | |
-| `CSPLT` | 100.0% | trusted | |
-| `MATKO` | 100.0% | trusted | |
-| `PRVBE` | 100.0% | trusted | |
-| `RGEKZ` | 100.0% | trusted | |
-| `PRFG_F` | 100.0% | trusted | |
-| `PRDAT` | 100.0% | trusted | |
-| `MKSP` | 100.0% | trusted | |
-| `PRFG_R` | 100.0% | trusted | |
-| `PRFG_G` | 100.0% | trusted | |
-| `PRFG_S` | 100.0% | trusted | |
-| `UCMAT` | 100.0% | trusted | |
-| `PPEGUID` | 100.0% | trusted | |
-| `ALORT` | 100.0% | trusted | |
-| `BSTMA` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `ALNAL` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `VERID` | 100.0% | trusted | |
-| `BDATU` | 100.0% | trusted | |
-| `ADATU` | 100.0% | trusted | |
-| `STLAL` | 100.0% | trusted | |
-| `STLAN` | 100.0% | trusted | |
-| `PLNTY` | 100.0% | trusted | |
-| `PLNNR` | 100.0% | trusted | |
-| `BESKZ` | 100.0% | trusted | |
-| `BSTMI` | 100.0% | trusted | |
-| `SOBSL` | 100.0% | trusted | |
-| `LOSGR` | 100.0% | trusted | |
-| `MDV01` | 100.0% | trusted | |
-| `MDV02` | 100.0% | trusted | |
-| `TEXT1` | 100.0% | trusted | |
-| `EWAHR` | 100.0% | trusted | |
-| `VERTO` | 100.0% | trusted | |
-| `SERKZ` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `alort` | 100.0% | trusted | |
+| `pltyg` | 100.0% | trusted | |
+| `plnng` | 100.0% | trusted | |
+| `alnag` | 100.0% | trusted | |
+| `pltym` | 100.0% | trusted | |
+| `plnnm` | 100.0% | trusted | |
+| `alnam` | 100.0% | trusted | |
+| `csplt` | 100.0% | trusted | |
+| `matko` | 100.0% | trusted | |
+| `elpro` | 100.0% | trusted | |
+| `prvbe` | 100.0% | trusted | |
+| `prfg_f` | 100.0% | trusted | |
+| `prdat` | 100.0% | trusted | |
+| `mksp` | 100.0% | trusted | |
+| `prfg_r` | 100.0% | trusted | |
+| `prfg_g` | 100.0% | trusted | |
+| `prfg_s` | 100.0% | trusted | |
+| `ucmat` | 100.0% | trusted | |
+| `ppeguid` | 100.0% | trusted | |
+| `rgekz` | 100.0% | trusted | |
+| `bstma` | 100.0% | trusted | |
+| `bstmi` | 100.0% | trusted | |
+| `plnnr` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `verid` | 100.0% | trusted | |
+| `bdatu` | 100.0% | trusted | |
+| `adatu` | 100.0% | trusted | |
+| `stlal` | 100.0% | trusted | |
+| `stlan` | 100.0% | trusted | |
+| `plnty` | 100.0% | trusted | |
+| `alnal` | 100.0% | trusted | |
+| `serkz` | 100.0% | trusted | |
+| `beskz` | 100.0% | trusted | |
+| `sobsl` | 100.0% | trusted | |
+| `losgr` | 100.0% | trusted | |
+| `mdv01` | 100.0% | trusted | |
+| `mdv02` | 100.0% | trusted | |
+| `text1` | 100.0% | trusted | |
+| `ewahr` | 100.0% | trusted | |
+| `verto` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

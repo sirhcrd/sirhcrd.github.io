@@ -1,9 +1,9 @@
 ---
 table: proj
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 790642
-column_count: 105
+row_count: 704684
+column_count: 106
 ---
 
 # proj
@@ -14,7 +14,7 @@ column_count: 105
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 105 | 100% |
+| Trusted (≥50%) | 106 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,110 +22,111 @@ column_count: 105
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `FMPRF` | 100.0% | trusted | |
-| `RECID` | 100.0% | trusted | |
-| `VNAME` | 100.0% | trusted | |
-| `PSPID_EDIT` | 100.0% | trusted | |
-| `VPKSTU` | 100.0% | trusted | |
-| `DPPPROF` | 100.0% | trusted | |
-| `SPART` | 100.0% | trusted | |
-| `VTWEG` | 100.0% | trusted | |
-| `VKORG` | 100.0% | trusted | |
-| `FUNC_AREA` | 100.0% | trusted | |
-| `PARGR` | 100.0% | trusted | |
-| `KZERB` | 100.0% | trusted | |
-| `LOGSYSTEM` | 100.0% | trusted | |
-| `STORT` | 100.0% | trusted | |
-| `PGPRF` | 100.0% | trusted | |
-| `GRTOP` | 100.0% | trusted | |
-| `FLGVRG` | 100.0% | trusted | |
-| `SMPRF` | 100.0% | trusted | |
-| `KZBWS` | 100.0% | trusted | |
-| `INACT` | 100.0% | trusted | |
-| `LOEVM` | 100.0% | trusted | |
-| `PLINT` | 100.0% | trusted | |
-| `PPROF` | 100.0% | trusted | |
-| `POSTU` | 100.0% | trusted | |
-| `ETYPE` | 100.0% | trusted | |
-| `OTYPE` | 100.0% | trusted | |
-| `JIBCL` | 100.0% | trusted | |
-| `USR05` | 100.0% | trusted | |
-| `FERC_IND` | 100.0% | trusted | |
-| `USR11` | 100.0% | trusted | |
-| `USR10` | 100.0% | trusted | |
-| `USR09` | 100.0% | trusted | |
-| `USR08` | 100.0% | trusted | |
-| `USE07` | 100.0% | trusted | |
-| `USR07` | 100.0% | trusted | |
-| `USE06` | 100.0% | trusted | |
-| `USR06` | 100.0% | trusted | |
-| `USE05` | 100.0% | trusted | |
-| `USE04` | 100.0% | trusted | |
-| `JIBSA` | 100.0% | trusted | |
-| `USR04` | 100.0% | trusted | |
-| `USR03` | 100.0% | trusted | |
-| `USR02` | 100.0% | trusted | |
-| `USR01` | 100.0% | trusted | |
-| `USR00` | 100.0% | trusted | |
-| `SLWID` | 100.0% | trusted | |
-| `EPROG` | 100.0% | trusted | |
-| `SPROG` | 100.0% | trusted | |
-| `SCHTYP` | 100.0% | trusted | |
-| `ZZCLARITY_ID` | 100.0% | trusted | |
-| `ABGSL` | 100.0% | trusted | |
-| `IMPRF` | 100.0% | trusted | |
-| `PSPNR` | 100.0% | trusted | |
-| `SCPRF` | 100.0% | trusted | |
-| `PLFAZ` | 100.0% | trusted | |
-| `TRMEQ` | 100.0% | trusted | |
-| `ZUORD` | 100.0% | trusted | |
-| `PWHIE` | 100.0% | trusted | |
-| `PRCTR` | 100.0% | trusted | |
-| `VKOKR` | 100.0% | trusted | |
-| `VGSBR` | 100.0% | trusted | |
-| `VBUKR` | 100.0% | trusted | |
-| `ASTNA` | 100.0% | trusted | |
-| `ASTNR` | 100.0% | trusted | |
-| `VERNA` | 100.0% | trusted | |
-| `VERNR` | 100.0% | trusted | |
-| `STSPR` | 100.0% | trusted | |
-| `STSPD` | 100.0% | trusted | |
-| `AUTOD` | 100.0% | trusted | |
-| `KIMSK` | 100.0% | trusted | |
-| `AEDAT` | 100.0% | trusted | |
-| `AENAM` | 100.0% | trusted | |
-| `ERDAT` | 100.0% | trusted | |
-| `ERNAM` | 100.0% | trusted | |
-| `OBJNR` | 100.0% | trusted | |
-| `POST1` | 100.0% | trusted | |
-| `PSPID` | 100.0% | trusted | |
-| `PLSEZ` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
-| `KALID` | 100.0% | trusted | |
-| `AEDTP` | 100.0% | trusted | |
-| `ZSCHM` | 100.0% | trusted | |
-| `TXJCD` | 100.0% | trusted | |
-| `XSTAT` | 100.0% | trusted | |
-| `SCOPE` | 100.0% | trusted | |
-| `BESTA` | 100.0% | trusted | |
-| `SPSNR` | 100.0% | trusted | |
-| `BERBU` | 100.0% | trusted | |
-| `BERKO` | 100.0% | trusted | |
-| `BERTR` | 100.0% | trusted | |
-| `BERST` | 100.0% | trusted | |
-| `AEDTE` | 100.0% | trusted | |
-| `VGPLF` | 100.0% | trusted | |
-| `KTRG` | 100.0% | trusted | |
-| `KOSTL` | 100.0% | trusted | |
-| `TXTSP` | 100.0% | trusted | |
-| `BPROF` | 100.0% | trusted | |
-| `PROFL` | 100.0% | trusted | |
-| `VPROF` | 100.0% | trusted | |
-| `PLNAW` | 100.0% | trusted | |
-| `NZANZ` | 100.0% | trusted | |
-| `ZTEHT` | 100.0% | trusted | |
-| `EWPLF` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `etype` | 100.0% | trusted | |
+| `vname` | 100.0% | trusted | |
+| `pspid_edit` | 100.0% | trusted | |
+| `vpkstu` | 100.0% | trusted | |
+| `dppprof` | 100.0% | trusted | |
+| `spart` | 100.0% | trusted | |
+| `vtweg` | 100.0% | trusted | |
+| `vkorg` | 100.0% | trusted | |
+| `func_area` | 100.0% | trusted | |
+| `pargr` | 100.0% | trusted | |
+| `kzerb` | 100.0% | trusted | |
+| `logsystem` | 100.0% | trusted | |
+| `stort` | 100.0% | trusted | |
+| `pgprf` | 100.0% | trusted | |
+| `grtop` | 100.0% | trusted | |
+| `flgvrg` | 100.0% | trusted | |
+| `smprf` | 100.0% | trusted | |
+| `kzbws` | 100.0% | trusted | |
+| `inact` | 100.0% | trusted | |
+| `loevm` | 100.0% | trusted | |
+| `plint` | 100.0% | trusted | |
+| `pprof` | 100.0% | trusted | |
+| `postu` | 100.0% | trusted | |
+| `abgsl` | 100.0% | trusted | |
+| `recid` | 100.0% | trusted | |
+| `otype` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `jibcl` | 100.0% | trusted | |
+| `usr11` | 100.0% | trusted | |
+| `usr10` | 100.0% | trusted | |
+| `usr09` | 100.0% | trusted | |
+| `usr08` | 100.0% | trusted | |
+| `use07` | 100.0% | trusted | |
+| `usr07` | 100.0% | trusted | |
+| `use06` | 100.0% | trusted | |
+| `usr06` | 100.0% | trusted | |
+| `use05` | 100.0% | trusted | |
+| `usr05` | 100.0% | trusted | |
+| `use04` | 100.0% | trusted | |
+| `usr04` | 100.0% | trusted | |
+| `usr03` | 100.0% | trusted | |
+| `usr02` | 100.0% | trusted | |
+| `usr01` | 100.0% | trusted | |
+| `usr00` | 100.0% | trusted | |
+| `slwid` | 100.0% | trusted | |
+| `proj_status` | 100.0% | trusted | |
+| `ferc_ind` | 100.0% | trusted | |
+| `eprog` | 100.0% | trusted | |
+| `sprog` | 100.0% | trusted | |
+| `schtyp` | 100.0% | trusted | |
+| `jibsa` | 100.0% | trusted | |
+| `fmprf` | 100.0% | trusted | |
+| `imprf` | 100.0% | trusted | |
+| `scprf` | 100.0% | trusted | |
+| `zschm` | 100.0% | trusted | |
+| `trmeq` | 100.0% | trusted | |
+| `zuord` | 100.0% | trusted | |
+| `pwhie` | 100.0% | trusted | |
+| `prctr` | 100.0% | trusted | |
+| `vkokr` | 100.0% | trusted | |
+| `vgsbr` | 100.0% | trusted | |
+| `vbukr` | 100.0% | trusted | |
+| `astna` | 100.0% | trusted | |
+| `astnr` | 100.0% | trusted | |
+| `verna` | 100.0% | trusted | |
+| `vernr` | 100.0% | trusted | |
+| `stspr` | 100.0% | trusted | |
+| `stspd` | 100.0% | trusted | |
+| `autod` | 100.0% | trusted | |
+| `kimsk` | 100.0% | trusted | |
+| `aedat` | 100.0% | trusted | |
+| `aenam` | 100.0% | trusted | |
+| `erdat` | 100.0% | trusted | |
+| `ernam` | 100.0% | trusted | |
+| `objnr` | 100.0% | trusted | |
+| `post1` | 100.0% | trusted | |
+| `pspid` | 100.0% | trusted | |
+| `pspnr` | 100.0% | trusted | |
+| `plfaz` | 100.0% | trusted | |
+| `plsez` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `aedte` | 100.0% | trusted | |
+| `txjcd` | 100.0% | trusted | |
+| `xstat` | 100.0% | trusted | |
+| `scope` | 100.0% | trusted | |
+| `besta` | 100.0% | trusted | |
+| `spsnr` | 100.0% | trusted | |
+| `berbu` | 100.0% | trusted | |
+| `berko` | 100.0% | trusted | |
+| `bertr` | 100.0% | trusted | |
+| `berst` | 100.0% | trusted | |
+| `aedtp` | 100.0% | trusted | |
+| `ktrg` | 100.0% | trusted | |
+| `kalid` | 100.0% | trusted | |
+| `kostl` | 100.0% | trusted | |
+| `txtsp` | 100.0% | trusted | |
+| `bprof` | 100.0% | trusted | |
+| `profl` | 100.0% | trusted | |
+| `vprof` | 100.0% | trusted | |
+| `plnaw` | 100.0% | trusted | |
+| `nzanz` | 100.0% | trusted | |
+| `zteht` | 100.0% | trusted | |
+| `ewplf` | 100.0% | trusted | |
+| `vgplf` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes

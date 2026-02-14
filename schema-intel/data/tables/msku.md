@@ -1,9 +1,9 @@
 ---
 table: msku
-source: mp1
+source: wpp
 pulled_date: 2026-02-13
-row_count: 9456395
-column_count: 28
+row_count: 84702
+column_count: 34
 ---
 
 # msku
@@ -14,7 +14,7 @@ column_count: 28
 
 | Quality | Count | Percentage |
 |---------|-------|------------|
-| Trusted (≥50%) | 28 | 100% |
+| Trusted (≥50%) | 34 | 100% |
 | Neutral (5-50%) | 0 | 0% |
 | Dead (<5%) | 0 | 0% |
 
@@ -22,33 +22,39 @@ column_count: 28
 
 | Column | Usage % | Quality | Description |
 |--------|---------|---------|-------------|
-| `MANDT` | 100.0% | trusted | |
-| `MATNR` | 100.0% | trusted | |
-| `SGT_SCAT` | 100.0% | trusted | |
-| `KUUML` | 100.0% | trusted | |
-| `KURUE` | 100.0% | trusted | |
-| `KUJIN` | 100.0% | trusted | |
-| `ERSDA` | 100.0% | trusted | |
-| `KUVEI` | 100.0% | trusted | |
-| `KUEIN` | 100.0% | trusted | |
-| `KUDLL` | 100.0% | trusted | |
-| `KUFLQ` | 100.0% | trusted | |
-| `KUFLL` | 100.0% | trusted | |
-| `KUVLQ` | 100.0% | trusted | |
-| `KUVLL` | 100.0% | trusted | |
-| `KUILQ` | 100.0% | trusted | |
-| `KUILL` | 100.0% | trusted | |
-| `KUVIN` | 100.0% | trusted | |
-| `KUVLA` | 100.0% | trusted | |
-| `KUINS` | 100.0% | trusted | |
-| `KULAB` | 100.0% | trusted | |
-| `KUSPR` | 100.0% | trusted | |
-| `LFMON` | 100.0% | trusted | |
-| `LFGJA` | 100.0% | trusted | |
-| `KUNNR` | 100.0% | trusted | |
-| `SOBKZ` | 100.0% | trusted | |
-| `CHARG` | 100.0% | trusted | |
-| `WERKS` | 100.0% | trusted | |
+| `hvr_rowid` | 100.0% | trusted | |
+| `kurue` | 100.0% | trusted | |
+| `kuflq` | 100.0% | trusted | |
+| `kudll` | 100.0% | trusted | |
+| `kuein` | 100.0% | trusted | |
+| `kuvei` | 100.0% | trusted | |
+| `ersda` | 100.0% | trusted | |
+| `kujin` | 100.0% | trusted | |
+| `kuuml` | 100.0% | trusted | |
+| `mandt` | 100.0% | trusted | |
+| `sgt_scat` | 100.0% | trusted | |
+| `fsh_season_year` | 100.0% | trusted | |
+| `fsh_season` | 100.0% | trusted | |
+| `fsh_collection` | 100.0% | trusted | |
+| `fsh_theme` | 100.0% | trusted | |
+| `fsh_salloc_qty` | 100.0% | trusted | |
+| `kufll` | 100.0% | trusted | |
+| `kuvlq` | 100.0% | trusted | |
+| `kuvll` | 100.0% | trusted | |
+| `kuilq` | 100.0% | trusted | |
+| `kuill` | 100.0% | trusted | |
+| `kuvin` | 100.0% | trusted | |
+| `kuvla` | 100.0% | trusted | |
+| `kuins` | 100.0% | trusted | |
+| `kulab` | 100.0% | trusted | |
+| `kuspr` | 100.0% | trusted | |
+| `lfmon` | 100.0% | trusted | |
+| `lfgja` | 100.0% | trusted | |
+| `kunnr` | 100.0% | trusted | |
+| `sobkz` | 100.0% | trusted | |
+| `charg` | 100.0% | trusted | |
+| `werks` | 100.0% | trusted | |
+| `matnr` | 100.0% | trusted | |
 | `src_commit_time` | 100.0% | trusted | |
 
 ## Notes
